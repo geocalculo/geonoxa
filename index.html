@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
   <!-- Mantiene el modelo visual GeoIPT si existe este CSS -->
-  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/geonoxa.css" />
 
   <script type="text/javascript">
     (function () {
@@ -45,7 +45,6 @@
 </head>
 
 <body>
-
   <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe
@@ -56,129 +55,98 @@
     </iframe>
   </noscript>
 
-  <!-- ================= HEADER ================= -->
-  <header>
-    <div class="header-inner">
-      <div class="brand">
-        <h1 class="brand-title">Geo<span>NOXA</span> | Diagnóstico territorial integrado de riesgo ambiental</h1>
-        <h2 class="brand-subtitle">
-          Evalúa degradación atmosférica, pasivos mineros, plataformas hídricas y exposición urbana
-        </h2>
-        <h2 class="brand-subtitle">
-          👉 <strong>Haz clic en el mapa</strong> para iniciar un diagnóstico territorial del punto consultado
-        </h2>
-        <div id="noxa-summary-text" class="prc-summary">
-          📍 En esta vista hay <strong id="noxa-visible-total">0</strong> elementos territoriales críticos visibles
-        </div>
-      </div>
+  <main class="app-shell" aria-label="GeoNOXA">
+    <div id="map" aria-label="Mapa interactivo de diagnóstico territorial"></div>
 
-      <div class="controls">
+    <header class="top-header">
+      <div class="brand-block">
+        <h1>GeoNOXA</h1>
+        <h2>Diagnóstico territorial integrado de riesgo ambiental</h2>
+        <p>Evalúa degradación atmosférica, pasivos mineros, plataformas hídricas y exposición urbana.</p>
+      </div>
+      <section class="kpi-strip" aria-label="Resumen territorial">
+        <article class="kpi-item"><span>Zonas saturadas</span><strong id="sum-zonas">24</strong></article>
+        <article class="kpi-item"><span>Relaves</span><strong id="sum-relaves">318</strong></article>
+        <article class="kpi-item"><span>Centros urbanos</span><strong id="sum-prc">116</strong></article>
+        <article class="kpi-item"><span>Ríos / cursos</span><strong id="sum-rios">0</strong></article>
+        <article class="kpi-item"><span>Lagos / lagunas</span><strong id="sum-lagos">0</strong></article>
+      </section>
+    </header>
+
+    <aside class="floating-panel" aria-label="Controles de filtro">
+      <button class="panel-toggle" type="button" aria-label="Expandir o contraer panel">☰</button>
+      <div class="panel-content">
+        <h3>GeoNOXA View</h3>
         <div class="control-group">
           <label for="region-select">Región</label>
           <select id="region-select">
             <option value="">Todas las regiones</option>
           </select>
         </div>
-
         <div class="control-group">
-          <label for="instrumento-select">Capa / foco territorial</label>
+          <label for="instrumento-select">Tipo de análisis</label>
           <select id="instrumento-select">
             <option value="">Vista integrada GeoNOXA</option>
             <option value="zonas">Zonas saturadas</option>
             <option value="relaves">Relaves</option>
-            <option value="hidricas">Plataformas hídricas</option>
+            <option value="hidricas">Hidrología</option>
             <option value="prc">Centros urbanos PRC</option>
           </select>
         </div>
+        <div class="control-group">
+          <label for="noxa-search">Búsqueda territorial</label>
+          <input id="noxa-search" type="text" placeholder="Ej: Relave, río, comuna o zona saturada" autocomplete="off" />
+          <div id="noxa-search-results" hidden></div>
+        </div>
+        <fieldset class="toggle-list">
+          <legend>Capas activas</legend>
+          <label><input type="checkbox" checked /> Zonas saturadas</label>
+          <label><input type="checkbox" checked /> Relaves</label>
+          <label><input type="checkbox" checked /> Hidrología</label>
+          <label><input type="checkbox" checked /> Centros urbanos</label>
+        </fieldset>
       </div>
+    </aside>
+
+    <div class="map-controls" aria-label="Acciones del mapa">
+      <button type="button" title="Mi ubicación" id="mira-rifle">◎</button>
+      <a id="home-floating-btn" href="./" title="Home">⌂</a>
+      <button type="button" title="Centrar Chile">CL</button>
     </div>
-  </header>
 
-  <!-- ================= MAIN ================= -->
-  <main>
-    <div class="layout-home">
-
-      <!-- ===== Card lateral izquierda ===== -->
-      <aside class="ecosystem-card left geoeva" aria-label="Ir a GeoEVA">
+    <section class="cross-site-cards" aria-label="Portales del ecosistema">
+      <a class="portal-card" href="https://geoeva.cl/?utm_source=geonoxa&utm_medium=card&utm_campaign=cruce_portales&utm_content=geoeva_lateral" target="_blank" rel="noopener noreferrer">
         <h3>GeoEVA</h3>
-        <p>Contrasta el entorno consultado con proyectos del SEA, inversión, estado ambiental y contexto territorial.</p>
-        <a href="https://geoeva.cl/?utm_source=geonoxa&utm_medium=card&utm_campaign=cruce_portales&utm_content=geoeva_lateral" target="_blank" rel="noopener noreferrer">Abrir GeoEVA</a>
-      </aside>
-
-      <!-- ===== MAPA ===== -->
-      <section class="map-container">
-
-        <!-- ===== Buscador provisorio ===== -->
-        <div class="map-search-wrap" id="map-search-wrap">
-          <label for="noxa-search" class="sr-only">Buscar territorio o capa</label>
-          <input
-            type="text"
-            id="noxa-search"
-            class="map-search-input"
-            placeholder="Buscar zona saturada, relave, río, lago o PRC..."
-            autocomplete="off"
-            spellcheck="false"
-          />
-          <div id="noxa-search-results" class="map-search-results" hidden></div>
-        </div>
-
-        <!-- ===== Summary dinámico bbox ===== -->
-        <div id="geonoxa-summary" class="geonoxa-summary" aria-label="Resumen de elementos visibles en el mapa">
-          <div class="geonoxa-summary__item" style="--accent:var(--noxa-red)">
-            <span>🌫️ Zonas saturadas</span>
-            <strong id="sum-zonas">0</strong>
-            <small>polígonos en bbox</small>
-          </div>
-          <div class="geonoxa-summary__item" style="--accent:var(--noxa-orange)">
-            <span>⛏️ Relaves</span>
-            <strong id="sum-relaves">0</strong>
-            <small>puntos en bbox</small>
-          </div>
-          <div class="geonoxa-summary__item" style="--accent:var(--noxa-blue)">
-            <span>💧 Ríos / cursos</span>
-            <strong id="sum-rios">0</strong>
-            <small>líneas visibles</small>
-          </div>
-          <div class="geonoxa-summary__item" style="--accent:var(--noxa-cyan)">
-            <span>🌊 Lagos / lagunas</span>
-            <strong id="sum-lagos">0</strong>
-            <small>cuerpos visibles</small>
-          </div>
-          <div class="geonoxa-summary__item" style="--accent:var(--noxa-purple)">
-            <span>🏙️ Centros urbanos</span>
-            <strong id="sum-prc">0</strong>
-            <small>centroides PRC</small>
-          </div>
-        </div>
-
-        <div id="map"></div>
-
-        <a
-          id="home-floating-btn"
-          class="home-floating-btn"
-          href="./"
-          aria-label="Ir al inicio"
-        >⌂ Inicio</a>
-
-        <div id="geonoxa-warning" class="geonoxa-warning"></div>
-
-        <p class="hint">
-          <strong>Instrucciones:</strong>
-          Explora el mapa o usa el buscador. Luego haz clic en un <strong>POI</strong> para abrir el
-          <strong>diagnóstico GeoNOXA</strong> en mapquery.html.
-        </p>
-
-        <div id="mira-rifle" title="Ir a mi ubicación"></div>
-      </section>
-
-      <!-- ===== Card lateral derecha ===== -->
-      <aside class="ecosystem-card right geonemo" aria-label="Ir a GeoNEMO">
+        <p>Evalúa proyectos del SEA en tu entorno.</p>
+      </a>
+      <a class="portal-card" href="https://geonemo.cl/?utm_source=geonoxa&utm_medium=card&utm_campaign=cruce_portales&utm_content=geonemo_lateral" target="_blank" rel="noopener noreferrer">
         <h3>GeoNEMO</h3>
-        <p>Revisa áreas protegidas, restricciones ambientales y sensibilidad territorial del mismo entorno.</p>
-        <a href="https://geonemo.cl/?utm_source=geonoxa&utm_medium=card&utm_campaign=cruce_portales&utm_content=geonemo_lateral" target="_blank" rel="noopener noreferrer">Abrir GeoNEMO</a>
-      </aside>
+        <p>Explora áreas protegidas y restricciones ambientales.</p>
+      </a>
+      <a class="portal-card" href="https://geoipt.cl/" target="_blank" rel="noopener noreferrer">
+        <h3>GeoIPT</h3>
+        <p>Consulta normativa urbana y usos de suelo.</p>
+      </a>
+    </section>
 
-    </div>
+    <p class="hint">👉 Haz clic en el mapa para generar un diagnóstico territorial.</p>
+    <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
+
+    <section class="welcome-modal" aria-label="Bienvenida GeoNOXA">
+      <div class="welcome-modal__card">
+        <h2>Bienvenido a GeoNOXA</h2>
+        <p>Selecciona un punto en el mapa y obtén un diagnóstico territorial integrado del riesgo ambiental.</p>
+        <ul>
+          <li>Zonas saturadas y estado atmosférico local.</li>
+          <li>Relaves mineros y pasivos cercanos.</li>
+          <li>Plataformas hídricas y exposición urbana.</li>
+        </ul>
+        <button type="button">Comenzar</button>
+        <label><input type="checkbox" /> No mostrar nuevamente</label>
+      </div>
+    </section>
+
+    <div id="noxa-summary-text" class="sr-only">En esta vista hay <strong id="noxa-visible-total">0</strong> elementos territoriales críticos visibles.</div>
   </main>
 
   <!-- ================= JS ================= -->
