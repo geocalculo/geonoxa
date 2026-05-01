@@ -122,6 +122,14 @@
     </section>
 
     <p class="hint">👉 Haz clic en el mapa para generar un diagnóstico territorial</p>
+    <section id="index-summary" class="index-summary" aria-live="polite" aria-label="Resumen dinámico de centros urbanos">
+      <div>Centros urbanos: <span id="sum-count">0</span></div>
+      <div>Superficie total: <span id="sum-area">0</span> ha</div>
+      <div>Promedio: <span id="sum-avg">0</span> ha</div>
+      <div>Más cercano: <span id="sum-nearest">-</span></div>
+      <div>Peso total: <span id="sum-weight">-</span></div>
+      <div>Top 3 más grandes: <span id="sum-top3">-</span></div>
+    </section>
     <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
 
     <div id="welcomeModal" class="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="welcomeModalTitle" hidden>
@@ -143,10 +151,10 @@
       zonas: "data/zonas_saturadas.geojson",
       relaves: "data/relaves.geojson",
       hidricas: "data/plataformas_hidricas.geojson",
-      prc: "data/prc_centroides.geojson"
+      prc: "capas/zonas_urbanas/prc_visibles_centroides_ponderados_wgs84.geojson"
     };
 
-    const noxaState = { layers: {}, poi: null, layerControl: null };
+    const noxaState = { layers: {}, poi: null, layerControl: null, centroidesData: null, lastSummaryKey: "" };
 
     const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([-27.3668, -70.3323], 8);
 
@@ -163,6 +171,7 @@
     const baseLayers = { "OSM": osm, "Satélite": esri };
     const overlays = {};
     const fmt = n => Number(n || 0).toLocaleString("es-CL");
+    const fmt2 = n => Number(n || 0).toLocaleString("es-CL", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
     function showWarning(message){ const el = document.getElementById("geonoxa-warning"); if(!el) return; el.innerHTML = message; el.style.display = "block"; clearTimeout(showWarning._timer); showWarning._timer = setTimeout(() => { el.style.display = "none"; }, 7000); }
     function getProp(feature, names){ const p = feature?.properties || {}; for(const name of names){ if(p[name] !== undefined && p[name] !== null && String(p[name]).trim() !== "") return p[name]; } return ""; }
@@ -187,12 +196,64 @@
       document.getElementById("noxa-visible-total").textContent = fmt(total);
     }
 
+    // Resumen dinámico de centroides PRC visibles en el viewport actual.
+    function updateIndexSummary(){
+      if(!noxaState.centroidesData?.features?.length) return;
+      const bounds = map.getBounds();
+      const center = map.getCenter();
+      const key = `${bounds.getSouth().toFixed(5)}|${bounds.getWest().toFixed(5)}|${bounds.getNorth().toFixed(5)}|${bounds.getEast().toFixed(5)}|${map.getZoom()}`;
+      if(key === noxaState.lastSummaryKey) return;
+      noxaState.lastSummaryKey = key;
+
+      const features = noxaState.centroidesData.features;
+      let count = 0;
+      let areaTotal = 0;
+      let weightTotal = 0;
+      let hasWeight = false;
+      let nearestName = "-";
+      let nearestDist = Infinity;
+      const top3 = [];
+
+      for(let i = 0; i < features.length; i += 1){
+        const feature = features[i];
+        const coords = feature?.geometry?.coordinates;
+        if(!coords || coords.length < 2) continue;
+        const lng = coords[0];
+        const lat = coords[1];
+        if(!bounds.contains([lat, lng])) continue; // Leaflet [lat,lng] vs GeoJSON [lng,lat]
+
+        const props = feature.properties || {};
+        const area = Number(props.area_ha ?? props.superficie ?? props.superficie_ha ?? 0) || 0;
+        const weight = Number(props.peso ?? props.weight ?? 0) || 0;
+        const name = String(props.nombre_prc ?? props.nombre ?? props.NOMBRE ?? "Sin nombre");
+        const dist = center.distanceTo([lat, lng]);
+
+        count += 1;
+        areaTotal += area;
+        if(("peso" in props) || ("weight" in props)){ hasWeight = true; weightTotal += weight; }
+        if(dist < nearestDist){ nearestDist = dist; nearestName = `${name} (${fmt(Math.round(dist))} m)`; }
+
+        top3.push({ name, area });
+      }
+
+      top3.sort((a, b) => b.area - a.area);
+      const avg = count ? areaTotal / count : 0;
+      const top3Text = top3.slice(0, 3).map(item => `${item.name} (${fmt2(item.area)} ha)`).join(" · ") || "-";
+
+      document.getElementById("sum-count").textContent = fmt(count);
+      document.getElementById("sum-area").textContent = fmt2(areaTotal);
+      document.getElementById("sum-avg").textContent = fmt2(avg);
+      document.getElementById("sum-nearest").textContent = count ? nearestName : "-";
+      document.getElementById("sum-weight").textContent = hasWeight ? fmt2(weightTotal) : "-";
+      document.getElementById("sum-top3").textContent = top3Text;
+    }
+
     async function loadJson(url){ const res = await fetch(url, { cache: "no-store" }); if(!res.ok) throw new Error(`${url} (${res.status})`); return res.json(); }
     function popupTable(title, feature, fields){ const rows = fields.map(([label, keys]) => { const value = getProp(feature, keys); return value ? `<tr><td>${label}</td><td><strong>${value}</strong></td></tr>` : ""; }).join(""); return `<strong>${title}</strong><table style="margin-top:6px;border-spacing:0 3px">${rows}</table>`; }
     function addZonas(fc){ const layer = L.geoJSON(fc, { style: { color: "#ef4444", weight: 2, fillColor: "#ef4444", fillOpacity: 0.22 }, onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Zona saturada", feature, [["Nombre", ["nombre", "NOMBRE", "zona", "ZONA"]], ["Contaminante", ["contaminante", "CONTAMINANTE"]], ["Decreto", ["decreto", "DECRETO"]], ["Superficie", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]]])) }).addTo(map); noxaState.layers.zonas = layer; overlays["Zonas saturadas"] = layer; }
     function addRelaves(fc){ const layer = L.geoJSON(fc, { pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 5, color: "#ff7a18", fillColor: "#ff7a18", fillOpacity: 0.9, weight: 1 }), onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Relave", feature, [["Nombre", ["nombre", "NOMBRE", "nom_relave", "NOM_RELAVE"]], ["Estado", ["estado", "ESTADO"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "superficie", "SUPERFICIE"]], ["Diám. equiv.", ["diam_eq_m", "DIAM_EQ_M", "diametro_eq", "DIAMETRO_EQ"]]])) }).addTo(map); noxaState.layers.relaves = layer; overlays["Relaves"] = layer; }
     function addHidricas(fc){ const layer = L.geoJSON(fc, { style: feature => isWaterPolygon(feature) ? { color: "#22d3ee", weight: 1.5, fillColor: "#22d3ee", fillOpacity: 0.20 } : { color: "#38bdf8", weight: 2.2, opacity: 0.86 }, onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Plataforma hídrica", feature, [["Nombre", ["nombre", "NOMBRE", "toponimo", "TOPONIMO"]], ["Tipo", ["tipo", "TIPO", "categoria", "CATEGORIA"]]])) }).addTo(map); noxaState.layers.hidricas = layer; overlays["Plataformas hídricas"] = layer; }
-    function addPrc(fc){ const layer = L.geoJSON(fc, { pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 6, color: "#d946ef", fillColor: "#a855f7", fillOpacity: 0.92, weight: 1.5 }), onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Centro urbano PRC", feature, [["Comuna", ["comuna", "COMUNA", "nombre", "NOMBRE"]], ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]], ["Diám. equiv.", ["diam_eq_m", "DIAM_EQ_M"]]])) }).addTo(map); noxaState.layers.prc = layer; overlays["Centros urbanos PRC"] = layer; }
+    function addPrc(fc){ noxaState.centroidesData = fc; const layer = L.geoJSON(fc, { pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 6, color: "#d946ef", fillColor: "#a855f7", fillOpacity: 0.92, weight: 1.5 }), onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Centro urbano PRC", feature, [["Comuna", ["comuna", "COMUNA", "nombre", "NOMBRE", "nombre_prc"]], ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]], ["Diám. equiv.", ["diam_eq_m", "DIAM_EQ_M"]]])) }).addTo(map); noxaState.layers.prc = layer; overlays["Centros urbanos PRC"] = layer; }
 
     async function loadAllLayers(){
       const failures = [];
@@ -203,11 +264,12 @@
       if(valid.length){ try{ const group = L.featureGroup(valid); map.fitBounds(group.getBounds(), { padding: [28, 28] }); }catch(e){ console.warn("No se pudo ajustar a capas cargadas", e); } }
       if(failures.length){ console.warn("GeoNOXA: capas no cargadas", failures); showWarning(`<strong>Capas pendientes:</strong><br>${failures.join("<br>")}`); }
       updateSummary();
+      updateIndexSummary();
     }
 
     function buildMapQueryUrl(latlng){ const b = map.getBounds(); const bbox = [b.getNorth(), b.getEast(), b.getSouth(), b.getWest()].map(v => v.toFixed(6)).join(","); const params = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), bbox }); return `mapquery.html?${params.toString()}`; }
     map.on("click", e => { if(noxaState.poi) map.removeLayer(noxaState.poi); noxaState.poi = L.marker(e.latlng, { icon: L.divIcon({ className: "", html: '<div class="poi-marker"></div>', iconSize: [22,22], iconAnchor: [11,11] }) }).addTo(map); const url = buildMapQueryUrl(e.latlng); showWarning(`<strong>POI capturado</strong><br>${url}`); });
-    map.on("moveend zoomend", updateSummary);
+    map.on("moveend zoomend", () => { updateSummary(); updateIndexSummary(); });
 
     (function setupLocate(){ const btn = document.getElementById("mira-rifle"); if(!btn) return; btn.addEventListener("click", () => { if(!navigator.geolocation){ showWarning("Geolocalización no disponible en este navegador."); return; } navigator.geolocation.getCurrentPosition(pos => { const latlng = [pos.coords.latitude, pos.coords.longitude]; map.setView(latlng, 13); L.circleMarker(latlng, { radius: 8, color: "#22c55e", fillColor: "#22c55e", fillOpacity: .8 }).addTo(map).bindPopup("Mi ubicación aproximada").openPopup(); }, () => showWarning("No fue posible obtener tu ubicación."), { enableHighAccuracy: true, timeout: 8000 }); }); })();
     (function () { const homeBtn = document.getElementById("home-floating-btn"); if (!homeBtn) return; const host = String(window.location.hostname || "").toLowerCase(); const homeByHost = { "geonoxa.cl": "https://geonoxa.cl", "www.geonoxa.cl": "https://geonoxa.cl", "geoipt.cl": "https://geoipt.cl", "www.geoipt.cl": "https://geoipt.cl", "geoeva.cl": "https://geoeva.cl", "www.geoeva.cl": "https://geoeva.cl", "geonemo.cl": "https://geonemo.cl", "www.geonemo.cl": "https://geonemo.cl" }; homeBtn.href = homeByHost[host] || "./"; })();
