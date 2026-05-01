@@ -148,13 +148,13 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const GEO_NOXA_DATA = {
-      zonas: "data/zonas_saturadas.geojson",
+      zonas: "capas/zonas_saturadas/zonas_saturadas_calidad_aire.geojson",
       relaves: "data/relaves.geojson",
       hidricas: "data/plataformas_hidricas.geojson",
       prc: "capas/zonas_urbanas/prc_visibles_centroides_ponderados_wgs84.geojson"
     };
 
-    const noxaState = { layers: {}, poi: null, layerControl: null, centroidesData: null, lastSummaryKey: "" };
+    const noxaState = { layers: {}, poi: null, layerControl: null, centroidesData: null, zonasSaturadasFeatures: [], lastSummaryKey: "" };
 
     const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([-27.3668, -70.3323], 8);
 
@@ -182,7 +182,8 @@
     function countGeoJsonLayer(layer, filterFn){ if(!layer) return 0; const bounds = map.getBounds(); let count = 0; layer.eachLayer(child => { const feature = child.feature; if(filterFn && !filterFn(feature)) return; if(layerInBounds(child, bounds)) count += 1; }); return count; }
 
     function updateSummary(){
-      const zonas = countGeoJsonLayer(noxaState.layers.zonas);
+      const bounds = map.getBounds();
+      const zonas = noxaState.zonasSaturadasFeatures.filter(item => bounds.intersects(item.bounds)).length;
       const relaves = countGeoJsonLayer(noxaState.layers.relaves);
       const rios = countGeoJsonLayer(noxaState.layers.hidricas, isWaterLine);
       const lagos = countGeoJsonLayer(noxaState.layers.hidricas, isWaterPolygon);
@@ -250,7 +251,15 @@
 
     async function loadJson(url){ const res = await fetch(url, { cache: "no-store" }); if(!res.ok) throw new Error(`${url} (${res.status})`); return res.json(); }
     function popupTable(title, feature, fields){ const rows = fields.map(([label, keys]) => { const value = getProp(feature, keys); return value ? `<tr><td>${label}</td><td><strong>${value}</strong></td></tr>` : ""; }).join(""); return `<strong>${title}</strong><table style="margin-top:6px;border-spacing:0 3px">${rows}</table>`; }
-    function addZonas(fc){ const layer = L.geoJSON(fc, { style: { color: "#ef4444", weight: 2, fillColor: "#ef4444", fillOpacity: 0.22 }, onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Zona saturada", feature, [["Nombre", ["nombre", "NOMBRE", "zona", "ZONA"]], ["Contaminante", ["contaminante", "CONTAMINANTE"]], ["Decreto", ["decreto", "DECRETO"]], ["Superficie", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]]])) }).addTo(map); noxaState.layers.zonas = layer; overlays["Zonas saturadas"] = layer; }
+    function addZonas(fc){
+      noxaState.zonasSaturadasFeatures = (fc?.features || []).map(feature => ({
+        feature,
+        bounds: L.geoJSON(feature).getBounds()
+      })).filter(item => item.bounds && item.bounds.isValid());
+      const layer = L.geoJSON(fc, { style: { color: "#ef4444", weight: 2, fillColor: "#ef4444", fillOpacity: 0.22 }, onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Zona saturada", feature, [["Nombre", ["nombre", "NOMBRE", "zona", "ZONA"]], ["Contaminante", ["contaminante", "CONTAMINANTE"]], ["Decreto", ["decreto", "DECRETO"]], ["Superficie", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]]])) }).addTo(map);
+      noxaState.layers.zonas = layer;
+      overlays["Zonas saturadas"] = layer;
+    }
     function addRelaves(fc){ const layer = L.geoJSON(fc, { pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 5, color: "#ff7a18", fillColor: "#ff7a18", fillOpacity: 0.9, weight: 1 }), onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Relave", feature, [["Nombre", ["nombre", "NOMBRE", "nom_relave", "NOM_RELAVE"]], ["Estado", ["estado", "ESTADO"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "superficie", "SUPERFICIE"]], ["Diám. equiv.", ["diam_eq_m", "DIAM_EQ_M", "diametro_eq", "DIAMETRO_EQ"]]])) }).addTo(map); noxaState.layers.relaves = layer; overlays["Relaves"] = layer; }
     function addHidricas(fc){ const layer = L.geoJSON(fc, { style: feature => isWaterPolygon(feature) ? { color: "#22d3ee", weight: 1.5, fillColor: "#22d3ee", fillOpacity: 0.20 } : { color: "#38bdf8", weight: 2.2, opacity: 0.86 }, onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Plataforma hídrica", feature, [["Nombre", ["nombre", "NOMBRE", "toponimo", "TOPONIMO"]], ["Tipo", ["tipo", "TIPO", "categoria", "CATEGORIA"]]])) }).addTo(map); noxaState.layers.hidricas = layer; overlays["Plataformas hídricas"] = layer; }
     function addPrc(fc){ noxaState.centroidesData = fc; const layer = L.geoJSON(fc, { pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 6, color: "#d946ef", fillColor: "#a855f7", fillOpacity: 0.92, weight: 1.5 }), onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Centro urbano PRC", feature, [["Comuna", ["comuna", "COMUNA", "nombre", "NOMBRE", "nombre_prc"]], ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]], ["Diám. equiv.", ["diam_eq_m", "DIAM_EQ_M"]]])) }).addTo(map); noxaState.layers.prc = layer; overlays["Centros urbanos PRC"] = layer; }
