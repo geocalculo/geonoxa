@@ -120,8 +120,41 @@ body {
 .geonoxa-warning { position: absolute; top: 192px; right: 68px; z-index: 45; display: none; padding: 10px; border-radius: 10px; background: rgba(2, 6, 23, .9); border: 1px solid var(--line); }
 .poi-marker { width: 16px; height: 16px; border-radius: 50%; border: 3px solid var(--white); background: var(--accent); box-shadow: 0 0 0 4px rgba(56,189,248,.35); }
 
-.welcome-modal { position: absolute; inset: 0; z-index: 60; display: grid; place-items: center; background: rgba(2, 6, 23, 0.45); }
-.welcome-modal__content { width: min(520px, calc(100% - 22px)); border-radius: 16px; background: #f8fafc; color: #0f172a; padding: 20px; box-shadow: 0 30px 70px rgba(2,6,23,.35); }
+.welcome-modal[hidden] { display: none; }
+.welcome-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(2, 6, 23, 0.55);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .22s ease, visibility .22s ease;
+}
+.welcome-modal.active,
+.welcome-modal:not([hidden]) {
+  opacity: 1;
+  visibility: visible;
+}
+.welcome-modal__content {
+  width: 90%;
+  max-width: 520px;
+  border-radius: 16px;
+  background: #f8fafc;
+  color: #0f172a;
+  padding: 20px;
+  box-shadow: 0 30px 70px rgba(2,6,23,.35);
+  transform: translateY(8px) scale(.985);
+  transition: transform .22s ease;
+}
+.welcome-modal.active .welcome-modal__content,
+.welcome-modal:not([hidden]) .welcome-modal__content {
+  transform: translateY(0) scale(1);
+}
 .welcome-modal__content h2 { margin: 0 0 8px; }
 .welcome-modal__content p { margin: 0 0 10px; color: #334155; }
 .welcome-btn { border: 0; border-radius: 10px; padding: 10px 14px; font-weight: 700; background: var(--primary); color: #052e16; }
