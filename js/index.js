@@ -251,7 +251,7 @@ async function loadAllLayers(){
 }
 
 function buildMapQueryUrl(latlng){ const b = map.getBounds(); const bbox = [b.getNorth(), b.getEast(), b.getSouth(), b.getWest()].map(v => v.toFixed(6)).join(","); const params = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), bbox }); return `mapago.html?${params.toString()}`; }
-map.on("click", e => { if(noxaState.poi) map.removeLayer(noxaState.poi); noxaState.poi = L.marker(e.latlng, { icon: L.divIcon({ className: "", html: '<div class="poi-marker"></div>', iconSize: [22,22], iconAnchor: [11,11] }) }).addTo(map); const url = buildMapQueryUrl(e.latlng); showWarning(`<strong>POI capturado</strong><br>${url}`); });
+map.on("click", function(e) { const url = buildMapQueryUrl(e.latlng); window.location.href = url; });
 map.on("moveend zoomend", () => { updateSummary(); updateIndexSummary(); updateRelavesSummary(); });
 
 (function setupLocate(){ const btn = document.getElementById("mira-rifle"); if(!btn) return; btn.addEventListener("click", () => { if(!navigator.geolocation){ showWarning("Geolocalización no disponible en este navegador."); return; } navigator.geolocation.getCurrentPosition(pos => { const latlng = [pos.coords.latitude, pos.coords.longitude]; map.setView(latlng, 13); L.circleMarker(latlng, { radius: 8, color: "#22c55e", fillColor: "#22c55e", fillOpacity: .8 }).addTo(map).bindPopup("Mi ubicación aproximada").openPopup(); }, () => showWarning("No fue posible obtener tu ubicación."), { enableHighAccuracy: true, timeout: 8000 }); }); })();
