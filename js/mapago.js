@@ -103,6 +103,11 @@ function getFeatureAreaHa(feature) {
   if (g.type === 'MultiPolygon') return g.coordinates.reduce((acc, poly) => acc + ringAreaHa(poly[0]), 0);
   return null;
 }
+function getRelaveAreaHa(feature) {
+  const m2 = Number(feature?.properties?.shape_area);
+  if (Number.isFinite(m2) && m2 > 0) return m2 / 10000;
+  return null;
+}
 function pointInRing(point, ring) {
   const [x, y] = point;
   let inside = false;
@@ -243,7 +248,7 @@ async function buildAnalysisData(poi) {
     },
     relave: {
       nombre: prop(rf?.properties, ['id_relave', 'faena']), empresaFaena: prop(rf?.properties, ['empresa']), tipoDeposito: prop(rf?.properties, ['tipo_deposito']), recurso: prop(rf?.properties, ['recurso']), metodo: prop(rf?.properties, ['metodo_constructivo']),
-      superficieHa: prop(rf?.properties, ['superficie']), featureId: prop(rf?.id ? { id: rf.id } : rf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(relDist) ? relDist : null, centroide: rCent
+      superficieHa: getRelaveAreaHa(rf), featureId: prop(rf?.id ? { id: rf.id } : rf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(relDist) ? relDist : null, centroide: rCent
     },
     zonaUrbana: {
       nombre: prop(uf?.properties, ['nombre_prc']), comuna: prop(uf?.properties, ['nombre_prc']), region: 'Chile', instrumento: 'PRC',
