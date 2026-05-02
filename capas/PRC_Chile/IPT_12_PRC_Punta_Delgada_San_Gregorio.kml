@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-C</SimpleData>
+		<SimpleData name="NOM">G-C Área consolidada</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico y áreas verdes. Sólo se permitirá vivienda y almacenamiento inofensivo, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de acopio, almacenamiento ni actividad industrial molesta, insalubre o peligrosa. Se prohíben expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6860727382354,-52.3125288308971 -69.6869947774904,-52.3142279240543 -69.6866937529198,-52.3148358609713 -69.6880233517711,-52.3149599028488 -69.6893338279826,-52.3150333035923 -69.6908053612166,-52.3143043583354 -69.6905488001553,-52.314014970717 -69.691763472999,-52.3131131032755 -69.6918938698095,-52.3132261431444 -69.694239240445,-52.3114658668131 -69.6917063418476,-52.3097126918567 -69.6909702869156,-52.3103702512503 -69.6895272886992,-52.3110978406316 -69.6882796585218,-52.3117268882379 -69.6865548013256,-52.3123536669011 -69.6860727382354,-52.3125288308971</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-C</SimpleData>
+		<SimpleData name="NOM">G-C Área consolidada</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico y áreas verdes. Sólo se permitirá vivienda y almacenamiento inofensivo, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de acopio, almacenamiento ni actividad industrial molesta, insalubre o peligrosa. Se prohíben expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6732188294169,-52.317071383651 -69.6700998471443,-52.318604878446 -69.6698325502299,-52.3184313307207 -69.6693881666679,-52.3181300887704 -69.6668982394571,-52.3193631921798 -69.6678198756177,-52.3198039160444 -69.6683789116296,-52.3202387901347 -69.6686687824492,-52.3204552990922 -69.6688864071129,-52.3206221548443 -69.6712673259761,-52.3190892327471 -69.676239959978,-52.3185634584047 -69.6788258752216,-52.3171048255145 -69.6783096547831,-52.3159834529473 -69.6779699708852,-52.3152455331903 -69.677810470892,-52.3148083304087 -69.6774805788682,-52.3149757269279 -69.6732188294169,-52.317071383651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-C</SimpleData>
+		<SimpleData name="NOM">G-C Área consolidada</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico y áreas verdes. Sólo se permitirá vivienda y almacenamiento inofensivo, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de acopio, almacenamiento ni actividad industrial molesta, insalubre o peligrosa. Se prohíben expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6782499700504,-52.3148365683351 -69.6783914560616,-52.315134895866 -69.679038680854,-52.3164995353938 -69.6791492454468,-52.3167326481344 -69.6797166063227,-52.3164345209523 -69.680079426975,-52.3162438676937 -69.6806072389695,-52.3158871174638 -69.6807331550506,-52.3157392772815 -69.6828841382228,-52.3152341198301 -69.6863545611615,-52.3148042135564 -69.6866300215696,-52.3144002277145 -69.684606184129,-52.3148507739188 -69.6835381606723,-52.3132143566107 -69.6828820069592,-52.313362808304 -69.6811247173235,-52.3137603632849 -69.6806272993364,-52.3139130314631 -69.6794135918974,-52.3143669042433 -69.6785048150674,-52.3147399119923 -69.6782499700504,-52.3148365683351</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-C</SimpleData>
+		<SimpleData name="NOM">G-C Área consolidada</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico y áreas verdes. Sólo se permitirá vivienda y almacenamiento inofensivo, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de acopio, almacenamiento ni actividad industrial molesta, insalubre o peligrosa. Se prohíben expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6939994190056,-52.3129382365044 -69.6927230132381,-52.3147687872889 -69.6944067926049,-52.315891099055 -69.695502918316,-52.3165833599531 -69.6989819463121,-52.3147480633546 -69.6967182745485,-52.313181571381 -69.6966955815387,-52.313192536255 -69.6953248300122,-52.3138451179867 -69.6939994190056,-52.3129382365044</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-A</SimpleData>
+		<SimpleData name="NOM">G-A Área consolidada</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, equipamiento comunal, lugares de culto, servicios y talleres artesanales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos. No se aceptará ningún tipo de acopio ni actividad industrial molesta, insalubre o peligrosa. Terminales de transporte y distribución que no sean de pasajeros.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6898521784588,-52.3155477644412 -69.6903074268291,-52.3162932636642 -69.6922022429333,-52.3158864195885 -69.6926654692716,-52.315737517406 -69.6928861078321,-52.315557424798 -69.6930065732958,-52.315406486342 -69.6929752861546,-52.3152968635959 -69.692783176432,-52.3151481946489 -69.6926422925755,-52.3150983783206 -69.6924050062056,-52.3150925310406 -69.6920558528569,-52.3151366640619 -69.6912644487706,-52.3153194267108 -69.6898521784588,-52.3155477644412</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-E</SimpleData>
+		<SimpleData name="NOM">G-E Área de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, áreas verdes. Sólo se permitirá el almacenamiento inofensivo, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de acopio ni actividad industrial molesta, insalubre o peligrosa. Se prohíbe expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6783096547831,-52.3159834529473 -69.6788258752216,-52.3171048255145 -69.6790723853052,-52.3169657693373 -69.679218037915,-52.3168776859757 -69.679038680854,-52.3164995353938 -69.6783914560616,-52.315134895866 -69.678157621759,-52.3146418480219 -69.6781409470879,-52.3146406365096 -69.677810470892,-52.3148083304087 -69.6779699708852,-52.3152455331903 -69.6783096547831,-52.3159834529473</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-E</SimpleData>
+		<SimpleData name="NOM">G-E Área de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, áreas verdes. Sólo se permitirá el almacenamiento inofensivo, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de acopio ni actividad industrial molesta, insalubre o peligrosa. Se prohíbe expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6863545611615,-52.3148042135564 -69.6866937529198,-52.3148358609713 -69.6869947774904,-52.3142279240543 -69.6860727382354,-52.3125288308971 -69.6857912146388,-52.3126311248696 -69.6856895419747,-52.3126581493805 -69.6866300215696,-52.3144002277145 -69.6863545611615,-52.3148042135564</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">Zona difusa</SimpleData>
+		<SimpleData name="NOM">Zona difusa</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6877540556405,-52.3113196310108 -69.6858469048619,-52.311977132436 -69.683530175455,-52.3109724543232 -69.6817709683191,-52.311168507877 -69.6806097483606,-52.3126651682252 -69.6786447660171,-52.3135104432976 -69.6698325502299,-52.3184313307207 -69.6700998471443,-52.318604878446 -69.6732188294169,-52.317071383651 -69.6774805788682,-52.3149757269279 -69.6781409470879,-52.3146406365096 -69.678157621759,-52.3146418480219 -69.6782499700504,-52.3148365683351 -69.6785048150674,-52.3147399119923 -69.6794135918974,-52.3143669042433 -69.6806272993364,-52.3139130314631 -69.6811247173235,-52.3137603632849 -69.6828820069592,-52.313362808304 -69.6835381606723,-52.3132143566107 -69.684606184129,-52.3148507739188 -69.6866300215696,-52.3144002277145 -69.6856895419747,-52.3126581493805 -69.6857912146388,-52.3126311248696 -69.6865548013256,-52.3123536669011 -69.6882796585218,-52.3117268882379 -69.6895272886992,-52.3110978406316 -69.6909702869156,-52.3103702512503 -69.6917063418476,-52.3097126918567 -69.6906145880134,-52.3089569615573 -69.6871279913747,-52.3104997395401 -69.6886912642696,-52.3107340555091 -69.6877540556405,-52.3113196310108</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-F</SimpleData>
+		<SimpleData name="NOM">G-F Área de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Zona destinada al traslado ganadero, o tránsito vehicular y peatonal subordinado al uso mencionado. Sólo se permitirá construcciones complementarias al uso de suelo específico.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de actividad peligrosa, prohibiéndose expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.695502918316,-52.3165833599531 -69.6944067926049,-52.315891099055 -69.6931584151604,-52.3166425105752 -69.6913411495688,-52.317106030875 -69.6895609552799,-52.3174796412954 -69.6876644575535,-52.3175755086766 -69.6877144686575,-52.3162660173562 -69.6860912308808,-52.3164748756893 -69.6861024084214,-52.3169232151073 -69.6862133120289,-52.3182661510437 -69.6863148793621,-52.3188806434443 -69.68937966977,-52.3186393161746 -69.6894228583472,-52.3186326780854 -69.6899020356465,-52.3185228839815 -69.6940528764795,-52.3173482285119 -69.695502918316,-52.3165833599531</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-B</SimpleData>
+		<SimpleData name="NOM">G-B Área consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, áreas verdes. Sólo se permitirá el almacenamiento inofensivo, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de acopio ni actividad industrial molesta, insalubre o peligrosa. Se prohíbe expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6860912308808,-52.3164748756893 -69.6877144686575,-52.3162660173562 -69.6876644575535,-52.3175755086766 -69.6895609552799,-52.3174796412954 -69.6913411495688,-52.317106030875 -69.6931584151604,-52.3166425105752 -69.6944067926049,-52.315891099055 -69.6927230132381,-52.3147687872889 -69.6941393333903,-52.3127375667616 -69.6949365766656,-52.3119485029204 -69.694239240445,-52.3114658668131 -69.6918938698095,-52.3132261431444 -69.691763472999,-52.3131131032755 -69.6905488001553,-52.314014970717 -69.6908053612166,-52.3143043583354 -69.6893338279826,-52.3150333035923 -69.6880233517711,-52.3149599028488 -69.6863545611615,-52.3148042135564 -69.6828841382228,-52.3152341198301 -69.6807331550506,-52.3157392772815 -69.6806072389695,-52.3158871174638 -69.680079426975,-52.3162438676937 -69.6797166063227,-52.3164345209523 -69.6791492454468,-52.3167326481344 -69.679218037915,-52.3168776859757 -69.6794204833375,-52.3167552561521 -69.6801126030732,-52.316421711904 -69.6803814933848,-52.3162942955442 -69.6808850959093,-52.3161542409026 -69.6821343571943,-52.3158946764831 -69.6831664572364,-52.3157513424274 -69.6844782881364,-52.3157008569117 -69.6856897283802,-52.3157193106826 -69.68607282909,-52.3157366526445 -69.6860912308808,-52.3164748756893</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-69.6903074268291,-52.3162932636642 -69.6898521784588,-52.3155477644412 -69.6912644487706,-52.3153194267108 -69.6920558528569,-52.3151366640619 -69.6924050062056,-52.3150925310406 -69.6926422925755,-52.3150983783206 -69.692783176432,-52.3151481946489 -69.6929752861546,-52.3152968635959 -69.6930065732958,-52.315406486342 -69.6928861078321,-52.315557424798 -69.6926654692716,-52.315737517406 -69.6922022429333,-52.3158864195885 -69.6903074268291,-52.3162932636642</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">San gregorio</SimpleData>
+		<SimpleData name="LOC">San gregorio</SimpleData>
+		<SimpleData name="ZONA">G-D</SimpleData>
+		<SimpleData name="NOM">G-D Área consolidada</SimpleData>
+		<SimpleData name="UPERM">Equipamiento deportivo, cultural y áreas verdes (regional). Sólo se permitirá almacenamiento inofensivo y las construcciones complementarias a los usos específicos, siempre que complemente los usos de suelo permitidos.</SimpleData>
+		<SimpleData name="UPROH">No se aceptará ningún tipo de actividad, insalubre o peligrosa, prohibiéndose expresamente equipamientos de seguridad regional.</SimpleData>
+		<SimpleData name="P_DO">01/02/2000</SimpleData>
+		<SimpleData name="N_DOC">99</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6939994190056,-52.3129382365044 -69.6953248300122,-52.3138451179867 -69.6966955815387,-52.313192536255 -69.6967182745485,-52.313181571381 -69.6949365766656,-52.3119485029204 -69.6941393333903,-52.3127375667616 -69.6939994190056,-52.3129382365044</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

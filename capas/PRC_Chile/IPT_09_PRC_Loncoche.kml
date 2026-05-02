@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud, educación, seguridad, culto, cultura, organización comunitaria, áreas verdes, deportes, turismo y esparcimiento, comercio minorista, servicios públicos.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas de cualquier tipo, salvo las inofensivas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6335425878808,-39.3677772168544 -72.6339449723987,-39.3680008777259 -72.6359487900348,-39.3658678785976 -72.6350648384278,-39.3653998323488 -72.6331221027548,-39.367448742216 -72.6335425878808,-39.3677772168544</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud, educación, seguridad, culto, cultura, organización comunitaria, áreas verdes, deportes, turismo y esparcimiento, comercio minorista, servicios públicos.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas de cualquier tipo, salvo las inofensivas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6260777388666,-39.3647508811349 -72.6209990407007,-39.3699743209348 -72.6205483192821,-39.3699178925613 -72.6215948708729,-39.3704531616677 -72.6226546003461,-39.3709951521034 -72.6219750067704,-39.3718211330461 -72.6219571126086,-39.3718428802697 -72.6220123660915,-39.3718472597185 -72.6223272408341,-39.3717611841072 -72.6226951034533,-39.3717497174733 -72.6229383746817,-39.3717040034966 -72.6234063024537,-39.3717275454038 -72.6238987548875,-39.3717503215677 -72.6241439958058,-39.3717426739759 -72.624706079586,-39.3716870127791 -72.6250984640732,-39.3716747736859 -72.6254712536481,-39.3717584716986 -72.6256213549744,-39.3718109848851 -72.6259166291364,-39.3718208382067 -72.6265827238615,-39.3718763145071 -72.627446982591,-39.3719637338187 -72.6274487377086,-39.3719643473715 -72.6279973630718,-39.3721562711202 -72.6283750905928,-39.3723351326086 -72.6287027841564,-39.3724964886373 -72.6290059545672,-39.3726586095052 -72.6293846740008,-39.3728565013254 -72.6293445069569,-39.3730293433594 -72.6294004630154,-39.3731610531488 -72.6294103313235,-39.3733513990393 -72.6295242194028,-39.3736528870634 -72.6295980894763,-39.3746038457361 -72.6295615957463,-39.3747017789302 -72.6295625478534,-39.3747023923092 -72.6307359522965,-39.3742823223923 -72.6331500407541,-39.3756299429409 -72.6333036687547,-39.3754794473033 -72.6337912071954,-39.3754070076491 -72.6342522438056,-39.3752972645242 -72.6345681043961,-39.3752301894871 -72.634777957385,-39.3750139084019 -72.6349887986207,-39.3748166607016 -72.6351114223668,-39.3748128250543 -72.6352194066564,-39.3750001001311 -72.6352979237307,-39.3750929699903 -72.6354490285137,-39.3751645043705 -72.6358228342879,-39.3752672014291 -72.6360504810031,-39.3753935360189 -72.6364066861624,-39.3756302389406 -72.6367530034886,-39.3756765982308 -72.6369306131472,-39.3757854313713 -72.6371857560876,-39.3759680988873 -72.6372040164802,-39.3761155823959 -72.6375065116441,-39.3762720198031 -72.6380362231798,-39.3757889548586 -72.6383119358384,-39.3758947146099 -72.6386401382499,-39.3756461648908 -72.6385923866065,-39.375619020729 -72.63908465351,-39.3751651044206 -72.6391847312122,-39.3752001015637 -72.63940050791,-39.375098017376 -72.6392739248022,-39.3750257202849 -72.6404348346031,-39.3737310504909 -72.6405147852725,-39.3737782341485 -72.6405279817388,-39.3736328066149 -72.640949991574,-39.3731572739562 -72.6331992164043,-39.368733592076 -72.6337358682521,-39.3681649441347 -72.6326724509607,-39.3675756352496 -72.6324094530144,-39.3672406795984 -72.6322084734983,-39.3670336655741 -72.6319718030389,-39.3673268064015 -72.6266336729753,-39.3643313902388 -72.6261151457464,-39.3647452122078 -72.6260777388666,-39.3647508811349</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6098344866866,-39.3653169715929 -72.6102669990764,-39.3653804264913 -72.6111113120846,-39.3644351870219 -72.6067358565189,-39.3646152577345 -72.6068756431122,-39.3647367791551 -72.6070065899503,-39.3647756123456 -72.6074884485865,-39.3648321517495 -72.6077672639748,-39.3648806940999 -72.6082130761498,-39.3649526484723 -72.6086213702672,-39.365011467002 -72.6090303995616,-39.3650845602936 -72.6094254541865,-39.3652438803748 -72.6098344866866,-39.3653169715929</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6280609044696,-39.3643425283869 -72.6280841185122,-39.3643483258435 -72.6287264007112,-39.3637086498818 -72.628703212279,-39.3636822711245 -72.6279108107957,-39.3627808439592 -72.6275969050641,-39.3626476524278 -72.6263571610343,-39.3618284004908 -72.6264698599073,-39.3617948169367 -72.6225800425317,-39.3598450549842 -72.6226136965733,-39.3599671107841 -72.6226983210527,-39.3601193788193 -72.6227890995763,-39.3603906145415 -72.622819809859,-39.3606875539682 -72.622876861597,-39.3609002606537 -72.6230179262594,-39.3612533393311 -72.6232325408363,-39.3615445455767 -72.6236181998381,-39.3618780813595 -72.6239112931431,-39.3622025873378 -72.6240455942246,-39.3624248011864 -72.6241063452712,-39.3627088867891 -72.6241469133065,-39.3631961719011 -72.6241733206785,-39.3634098342897 -72.6242738944273,-39.3635735193291 -72.6244510977868,-39.3637348154266 -72.6247055469492,-39.363905617783 -72.6248518049703,-39.3639911348718 -72.6251794438058,-39.3639861631332 -72.6256651370986,-39.363999971383 -72.6263785562475,-39.3640202496686 -72.6271510085527,-39.3641153021339 -72.6280609044696,-39.3643425283869</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud, educación, seguridad, culto, cultura (com.), organización comunitaria, áreas verdes (com.,vec.), comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres, peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6331992164043,-39.368733592076 -72.640949991574,-39.3731572739562 -72.6415419778951,-39.3724901943206 -72.6337358682521,-39.3681649441347 -72.6331992164043,-39.368733592076</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud, educación, seguridad, culto, cultura (com.), organización comunitaria, áreas verdes (com.,vec.), comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres, peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.625417613023,-39.3643279949372 -72.6260888296055,-39.3647394733125 -72.6260777388666,-39.3647508811349 -72.6261151457464,-39.3647452122078 -72.6266336729753,-39.3643313902388 -72.6319718030389,-39.3673268064015 -72.6322084734983,-39.3670336655741 -72.6321759158371,-39.3670001296047 -72.6277334755678,-39.3645176222822 -72.6263670620925,-39.364181772112 -72.6263358655608,-39.3641741039779 -72.6255237637578,-39.3641873222807 -72.625417613023,-39.3643279949372</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud, educación, seguridad, culto, cultura (com.), organización comunitaria, áreas verdes (com.,vec.), comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres, peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6287264007112,-39.3637086498818 -72.6280841185122,-39.3643483258435 -72.6280609044696,-39.3643425283869 -72.6280526216951,-39.3643524931474 -72.6316028627464,-39.3663698168737 -72.6287624096142,-39.3636940660664 -72.628703212279,-39.3636822711245 -72.6287264007112,-39.3637086498818</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud, educación, seguridad, culto, cultura (com.), organización comunitaria, áreas verdes (com.,vec.), comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres, peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6339500212098,-39.358469290544 -72.6338017148732,-39.3585692546137 -72.6335995144149,-39.358813893196 -72.6333347795175,-39.359036654161 -72.6329706914432,-39.3591195304591 -72.6326384842146,-39.3592252414012 -72.6323393950103,-39.3593775790268 -72.6320366018486,-39.3594585367557 -72.6317375091443,-39.3596108738684 -72.6314702978708,-39.3597860445049 -72.6311724371658,-39.3599621730325 -72.630932172102,-39.3600650065692 -72.6304993754535,-39.3600070319044 -72.6303154771414,-39.3600127762602 -72.6301033946169,-39.360067063311 -72.629957544342,-39.3602146094441 -72.6296878611722,-39.360342190583 -72.6296339592723,-39.360486863797 -72.6294549903092,-39.3605877791288 -72.6293323906691,-39.3605916076662 -72.6288911313494,-39.3609628617841 -72.6285331906116,-39.3611646909303 -72.6283223357441,-39.361242769606 -72.6267144246955,-39.3617219370861 -72.6284247615694,-39.3628657327865 -72.6326977948983,-39.3671172752765 -72.6331221027548,-39.367448742216 -72.6350648384278,-39.3653998323488 -72.6359487900348,-39.3658678785976 -72.6339449723987,-39.3680008777259 -72.6438831116411,-39.3735239379678 -72.6438810109557,-39.3734835804487 -72.643693060038,-39.3728221890978 -72.6431852466014,-39.3725044680761 -72.6420163592704,-39.3718738213848 -72.640939456524,-39.3712402807064 -72.6403397042601,-39.3709254271787 -72.6399275923614,-39.370676187309 -72.639730060715,-39.3704202265287 -72.6396220195136,-39.3701137993011 -72.6394820892655,-39.3697845393548 -72.6394415405372,-39.3695951563714 -72.6393960461894,-39.3693106013703 -72.6393493155956,-39.3690022537818 -72.6395057608982,-39.3678772685884 -72.639587294883,-39.366492480652 -72.6395662713593,-39.36608800197 -72.6395551413915,-39.3658738654414 -72.6396273105335,-39.3654902994934 -72.6397926717674,-39.3651276461608 -72.6401221503921,-39.3643785465071 -72.64039032136,-39.3636313663517 -72.6404603300839,-39.3633023368769 -72.6404625813109,-39.3630613378867 -72.640342685332,-39.362892572928 -72.6399983023221,-39.3626459784186 -72.6396760204133,-39.3624701845538 -72.6394369466387,-39.3624776713999 -72.6391735478911,-39.3623715278217 -72.6387570928834,-39.3621557841584 -72.6384149426853,-39.3619520108391 -72.6378636809617,-39.3612686175716 -72.6375759672836,-39.3610488387524 -72.6375647647102,-39.36105138894 -72.6375568358694,-39.3610351385793 -72.6374442718363,-39.3609957647305 -72.6371095447453,-39.3609347455689 -72.6368041861556,-39.3607298159183 -72.6365944836677,-39.3605933880982 -72.6365120294624,-39.3604243805115 -72.6364487066185,-39.360269072325 -72.6363809369735,-39.3600281103452 -72.6363750074194,-39.3599139032546 -72.6364404129699,-39.3597545682165 -72.6364536142294,-39.3596540624159 -72.6364653330719,-39.3595250050669 -72.6364616270595,-39.3594536252989 -72.6363461015067,-39.3593571471293 -72.6362504480774,-39.3592886450358 -72.6361948189109,-39.3592862817929 -72.6361746665959,-39.3592481190765 -72.635987805916,-39.3591967692167 -72.6357229424704,-39.3590620653744 -72.6353336641581,-39.3586595712137 -72.635159268846,-39.3584934374163 -72.6351141638994,-39.3584369263024 -72.6350865031505,-39.3584814143344 -72.634804488326,-39.3583710760689 -72.6346769546419,-39.3582797383293 -72.6344624121131,-39.3582864475307 -72.6342491040155,-39.3583169490573 -72.6340983283241,-39.3583693271662 -72.6339500212098,-39.358469290544</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOM">Zona ZR-3</SimpleData>
+		<SimpleData name="UPERM">Zona libre de toda construcción salvo la necesaria para atender los requerimientos de la vía tales como andenes, garitas de vigilancia, vialidad, etc.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6224395759681,-39.3597746414126 -72.6264698599073,-39.3617948169367 -72.6263571610343,-39.3618284004908 -72.6275969050641,-39.3626476524278 -72.6279108107957,-39.3627808439592 -72.628703212279,-39.3636822711245 -72.6287624096142,-39.3636940660664 -72.6316028627464,-39.3663698168737 -72.6280526216951,-39.3643524931474 -72.6280609044696,-39.3643425283869 -72.6271510085527,-39.3641153021339 -72.6263785562475,-39.3640202496686 -72.6256651370986,-39.363999971383 -72.6251794438058,-39.3639861631332 -72.6248518049703,-39.3639911348718 -72.6162523670658,-39.3641212857701 -72.6116129781751,-39.3642759219424 -72.6112425491574,-39.3642882603306 -72.6113479879281,-39.3641702143838 -72.6065911760854,-39.3642800093433 -72.606588521364,-39.364443182861 -72.606585621078,-39.3646214376717 -72.6067358565189,-39.3646152577345 -72.6111113120846,-39.3644351870219 -72.6111242055499,-39.3644207521853 -72.6114843345955,-39.3644149366328 -72.6190944246733,-39.3642917688265 -72.61937724565,-39.3642871813618 -72.6255237637578,-39.3641873222807 -72.6263358655608,-39.3641741039779 -72.6263670620925,-39.364181772112 -72.6277334755678,-39.3645176222822 -72.6321759158371,-39.3670001296047 -72.6322084734983,-39.3670336655741 -72.6324094530144,-39.3672406795984 -72.6326724509607,-39.3675756352496 -72.6337358682521,-39.3681649441347 -72.6415419778951,-39.3724901943206 -72.6438546218177,-39.3737713861139 -72.6438909186504,-39.3736739223645 -72.6438831116411,-39.3735239379678 -72.6339449723987,-39.3680008777259 -72.6335425878808,-39.3677772168544 -72.6331221027548,-39.367448742216 -72.6326977948983,-39.3671172752765 -72.6284247615694,-39.3628657327865 -72.6267144246955,-39.3617219370861 -72.6266961291883,-39.3617273899211 -72.6226036799182,-39.3596121744052 -72.6224395759681,-39.3597746414126</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-6</SimpleData>
+		<SimpleData name="NOM">Zona ZR-6</SimpleData>
+		<SimpleData name="UPERM">No se permite ningun tipo de construcción.</SimpleData>
+		<SimpleData name="UPROH">No se permite ningun tipo de construcción.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6092910635397,-39.3666270362641 -72.6094154636328,-39.3666504936959 -72.6114843345955,-39.3644149366328 -72.6116129781751,-39.3642759219424 -72.6117187257652,-39.3641616491226 -72.6113479879281,-39.3641702143838 -72.6112425491574,-39.3642882603306 -72.6111242055499,-39.3644207521853 -72.6091574545708,-39.3666225583614 -72.6092910635397,-39.3666270362641</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Zona Z-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6290418918412,-39.3824194272227 -72.6300275523402,-39.3826074300715 -72.6324785930039,-39.3810481147342 -72.6298358701834,-39.3804936175527 -72.6297534610896,-39.3804763253418 -72.6300742049145,-39.3796040834764 -72.6280168311482,-39.3791809940236 -72.6263606742583,-39.3803827900512 -72.6281355636307,-39.3808169739007 -72.627729070581,-39.3819901617264 -72.6290326299133,-39.3822670720941 -72.6290289996253,-39.3822759629972 -72.6290418918412,-39.3824194272227</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Zona Z-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6299987185866,-39.3794061083939 -72.6320371746055,-39.3798284349627 -72.6326464234381,-39.3783639663604 -72.6312119798469,-39.3779647026269 -72.6311634483466,-39.377929953348 -72.6305992537971,-39.3779475813276 -72.6299987185866,-39.3794061083939</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Zona Z-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6183218459111,-39.3652246299249 -72.6201251242909,-39.366255199935 -72.6172284389713,-39.3693767900713 -72.6169454964741,-39.3694667687213 -72.6205483192821,-39.3699178925613 -72.6209990407007,-39.3699743209348 -72.6260777388666,-39.3647508811349 -72.6260888296055,-39.3647394733125 -72.625417613023,-39.3643279949372 -72.6253707481623,-39.3643901016915 -72.6249272272554,-39.3647185139128 -72.62488387737,-39.3649486507865 -72.624280000774,-39.3653821558497 -72.6241093054811,-39.3652873858737 -72.623286276159,-39.3661137924889 -72.6229103186706,-39.3659682239327 -72.622266015502,-39.3666889598569 -72.6215258471964,-39.3662687569704 -72.6224503864308,-39.365267608812 -72.621559411072,-39.3647806112552 -72.6210651240294,-39.3651963858372 -72.61937724565,-39.3642871813618 -72.6190944246733,-39.3642917688265 -72.6190845899207,-39.3643000410924 -72.6183218459111,-39.3652246299249</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-5</SimpleData>
+		<SimpleData name="NOM">Zona ZR-5</SimpleData>
+		<SimpleData name="UPERM">Se permitirá la construcción de obras afines al destino de las instalaciones, incluso vivienda del cuidador, bodegas y oficinas, de acuerdo a los requerimientos de funcionamiento de las instalaciones.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6204855869851,-39.3718378139694 -72.6204866384241,-39.3721780360633 -72.6205609507681,-39.3721900199384 -72.6207779777413,-39.3721117625522 -72.6209045150709,-39.3720649230917 -72.6211973303232,-39.3720272014399 -72.6216152036294,-39.371914086938 -72.6216648118729,-39.3719035580526 -72.621852099838,-39.3718638072601 -72.6219750067704,-39.3718211330461 -72.6226546003461,-39.3709951521034 -72.6215948708729,-39.3704531616677 -72.6204855869851,-39.3718378139694</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-4E</SimpleData>
+		<SimpleData name="NOM">Zona Z-4E</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de seguridad rubro bomberos (comunal), organización comunitaria, áreas verdes (vecinal).</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas de cualquier tipo, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6386401382499,-39.3756461648908 -72.6399592987932,-39.3763960204069 -72.6394906324236,-39.3769240925525 -72.6402020257467,-39.3772844849665 -72.6409211878612,-39.3774144775982 -72.6421633155831,-39.3776805977524 -72.6424121797151,-39.3777716497817 -72.6427219097616,-39.3777619412006 -72.6431266441478,-39.3778684113761 -72.6433743781521,-39.3779083070669 -72.6435951713845,-39.3780205424105 -72.6443777062112,-39.3783058143729 -72.6447836848939,-39.3784360717612 -72.6450757084861,-39.378736722514 -72.6452670890013,-39.3788737083838 -72.6455835773261,-39.3790544324858 -72.6458975896173,-39.379187570057 -72.6462948992401,-39.3791512728401 -72.6466897290215,-39.3790673887724 -72.6477255432683,-39.3783199322264 -72.6479902968828,-39.3780971378063 -72.6484120554591,-39.37794090722 -72.6487749774613,-39.37783418674 -72.647610911988,-39.3772987742114 -72.6471755190742,-39.3771932819765 -72.6467794607769,-39.3772533739883 -72.6465979984973,-39.3773067317354 -72.6461932630782,-39.3772002737498 -72.6458804987788,-39.3770909288878 -72.6456033496059,-39.3770757925471 -72.6454169313262,-39.3770339772534 -72.6452574522753,-39.3769198220615 -72.6453076129314,-39.376703764918 -72.6453921489243,-39.376558123083 -72.6453748016205,-39.3762250256722 -72.6446851808437,-39.3753648885346 -72.6445514073773,-39.3751545993564 -72.6441748654584,-39.3749995873934 -72.6436193442724,-39.3749455109196 -72.6432084351432,-39.3747200786914 -72.643164158874,-39.3744593186535 -72.6431790225228,-39.3743222828894 -72.6421104103119,-39.3738310717192 -72.6416005790987,-39.3744190069621 -72.6405147852725,-39.3737782341485 -72.6404348346031,-39.3737310504909 -72.6392739248022,-39.3750257202849 -72.63940050791,-39.375098017376 -72.6391847312122,-39.3752001015637 -72.63908465351,-39.3751651044206 -72.6385923866065,-39.375619020729 -72.6386401382499,-39.3756461648908</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOM">Zona ZR-4</SimpleData>
+		<SimpleData name="UPERM">Se permitirán las edificaciones necesarias complementarias al fin descrito, las que deberán ser aprobadas previamente, cuando corresponda, por la unidad del servicio de salud competente.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6375065116441,-39.3762720198031 -72.6386376763076,-39.3768569963849 -72.6392631247206,-39.3771804350639 -72.6393083851986,-39.3771294384165 -72.6394906324236,-39.3769240925525 -72.6399592987932,-39.3763960204069 -72.6386401382499,-39.3756461648908 -72.6383119358384,-39.3758947146099 -72.6380362231798,-39.3757889548586 -72.6375065116441,-39.3762720198031</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-2B</SimpleData>
+		<SimpleData name="NOM">Zona ZR-2B</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, forestación (vecinal), esparcimiento y turismo (sólo zonas de picnic), ferias libres, y viviendas según especificaciones de la presente ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6295625478534,-39.3747023923092 -72.6322984718501,-39.3764641362674 -72.6331500407541,-39.3756299429409 -72.6307359522965,-39.3742823223923 -72.6295625478534,-39.3747023923092</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de seguridad rubro bomberos (comunal), organización comunitaria, áreas verdes (vecinal).</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas de cualquier tipo, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.640949991574,-39.3731572739562 -72.6405279817388,-39.3736328066149 -72.6405147852725,-39.3737782341485 -72.6416005790987,-39.3744190069621 -72.6421104103119,-39.3738310717192 -72.6431790225228,-39.3743222828894 -72.6431849080073,-39.3742680155786 -72.6434239608055,-39.3741413630762 -72.6437218470654,-39.3739652029464 -72.6438100977589,-39.3738909403568 -72.6438546218177,-39.3737713861139 -72.6415419778951,-39.3724901943206 -72.640949991574,-39.3731572739562</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-2A</SimpleData>
+		<SimpleData name="NOM">Zona ZR-2A</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, forestación, deportes a escala vecinal, esparcimiento y turismo (sólo zonas de picnic), balneario.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.640082355909,-39.3778336644146 -72.6406836629795,-39.3783015467588 -72.6410996521488,-39.3785391152099 -72.6411342124848,-39.3785266463372 -72.6413708076372,-39.3783524114842 -72.6416343448563,-39.3781058381676 -72.6418709373406,-39.3779316024093 -72.642262052531,-39.3777763552656 -72.6424121797151,-39.3777716497817 -72.6421633155831,-39.3776805977524 -72.6409211878612,-39.3774144775982 -72.6402020257467,-39.3772844849665 -72.6394906324236,-39.3769240925525 -72.6393083851986,-39.3771294384165 -72.6394218721347,-39.3771924123632 -72.6396042585418,-39.3773229818623 -72.6397636242967,-39.3774932093146 -72.640082355909,-39.3778336644146</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-2A</SimpleData>
+		<SimpleData name="NOM">Zona ZR-2A</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, forestación, deportes a escala vecinal, esparcimiento y turismo (sólo zonas de picnic), balneario.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6291020827023,-39.3765222388232 -72.6291412363586,-39.3767935790808 -72.6293987393163,-39.3769218191055 -72.6298535776788,-39.3769854884424 -72.6302553032083,-39.3769924087766 -72.630302600662,-39.3770124711067 -72.6303064016718,-39.3770102807057 -72.6308363756532,-39.3770715989479 -72.6316658809854,-39.3771040853577 -72.6328750938465,-39.3772025716539 -72.6339310128947,-39.3772474326203 -72.6344068643707,-39.3772325514488 -72.6362470521555,-39.3769218910106 -72.6368921532879,-39.3767848909846 -72.6375433110213,-39.3767645104441 -72.6382736450744,-39.3768195218897 -72.6386376763076,-39.3768569963849 -72.6375065116441,-39.3762720198031 -72.6372040164802,-39.3761155823959 -72.6371857560876,-39.3759680988873 -72.6369306131472,-39.3757854313713 -72.6367530034886,-39.3756765982308 -72.6364066861624,-39.3756302389406 -72.6360504810031,-39.3753935360189 -72.6358228342879,-39.3752672014291 -72.6354490285137,-39.3751645043705 -72.6352979237307,-39.3750929699903 -72.6352194066564,-39.3750001001311 -72.6351114223668,-39.3748128250543 -72.6349887986207,-39.3748166607016 -72.634777957385,-39.3750139084019 -72.6345681043961,-39.3752301894871 -72.6342522438056,-39.3752972645242 -72.6337912071954,-39.3754070076491 -72.6333036687547,-39.3754794473033 -72.6331500407541,-39.3756299429409 -72.6322984718501,-39.3764641362674 -72.6295625478534,-39.3747023923092 -72.6295615957463,-39.3747017789302 -72.6295157719535,-39.374824750851 -72.6295263805084,-39.3750293563215 -72.6295114140647,-39.3752245121338 -72.6294724119004,-39.3754398877307 -72.6293903745815,-39.3757928884082 -72.6292281641406,-39.3760510491152 -72.6291855571622,-39.3762102816985 -72.6291020827023,-39.3765222388232</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-2A</SimpleData>
+		<SimpleData name="NOM">Zona ZR-2A</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, forestación, deportes a escala vecinal, esparcimiento y turismo (sólo zonas de picnic), balneario.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.620343058187,-39.3715390523739 -72.6175941277385,-39.3731662597571 -72.6177402851306,-39.3732215973292 -72.61801913959,-39.3732701122282 -72.6182704036149,-39.373299212868 -72.6190201937395,-39.3730926910482 -72.6196810910469,-39.3728099594984 -72.620546727141,-39.3723301914938 -72.6215178555212,-39.3721092792269 -72.6217708206773,-39.3720692968341 -72.6217734388854,-39.3720661140462 -72.6219571126086,-39.3718428802697 -72.6219750067704,-39.3718211330461 -72.621852099838,-39.3718638072601 -72.6216648118729,-39.3719035580526 -72.6216152036294,-39.371914086938 -72.6211973303232,-39.3720272014399 -72.6209045150709,-39.3720649230917 -72.6207779777413,-39.3721117625522 -72.6205609507681,-39.3721900199384 -72.6204866384241,-39.3721780360633 -72.6204855869851,-39.3718378139694 -72.6204527415958,-39.371878812253 -72.620343058187,-39.3715390523739</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-5E</SimpleData>
+		<SimpleData name="NOM">Zona Z-5E</SimpleData>
+		<SimpleData name="UPERM">Actividades productivas inofensivas y molestas; equipamiento del tipo seguridad, rubro bomberos, del tipo de áreas verdes en el rubro plazas.</SimpleData>
+		<SimpleData name="UPROH">Vivienda (con excepción de las del cuidador), Actividades productivas insalubres y peligrosas, cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6374156485872,-39.3772992369951 -72.6370676386948,-39.3773463951497 -72.6365311383654,-39.377363185166 -72.6359946387461,-39.3773799726783 -72.6359529398624,-39.3773908439204 -72.6355903582888,-39.3790427018504 -72.6347197484287,-39.3789248739644 -72.6332033473777,-39.3785189744066 -72.6326464234381,-39.3783639663604 -72.6320371746055,-39.3798284349627 -72.6382077037562,-39.3811065890181 -72.6393419709435,-39.3783994213215 -72.6393417153425,-39.3783565154287 -72.6393988318434,-39.3782235341119 -72.6394571345354,-39.3782470229018 -72.6391829828149,-39.3775884264377 -72.6389141607925,-39.3773611189329 -72.638558623482,-39.3772634553919 -72.6379278802708,-39.3772650702287 -72.6374156485872,-39.3772992369951</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-5E</SimpleData>
+		<SimpleData name="NOM">Zona Z-5E</SimpleData>
+		<SimpleData name="UPERM">Actividades productivas inofensivas y molestas; equipamiento del tipo seguridad, rubro bomberos, del tipo de áreas verdes en el rubro plazas.</SimpleData>
+		<SimpleData name="UPROH">Vivienda (con excepción de las del cuidador), Actividades productivas insalubres y peligrosas, cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6144356995761,-39.3639886489085 -72.6125708314814,-39.3641419581298 -72.6117187257652,-39.3641616491226 -72.6116129781751,-39.3642759219424 -72.6162523670658,-39.3641212857701 -72.6248518049703,-39.3639911348718 -72.6247055469492,-39.363905617783 -72.6244510977868,-39.3637348154266 -72.6242738944273,-39.3635735193291 -72.6241733206785,-39.3634098342897 -72.6241469133065,-39.3631961719011 -72.6241063452712,-39.3627088867891 -72.6240455942246,-39.3624248011864 -72.6239112931431,-39.3622025873378 -72.6236181998381,-39.3618780813595 -72.6232325408363,-39.3615445455767 -72.6230179262594,-39.3612533393311 -72.622876861597,-39.3609002606537 -72.622819809859,-39.3606875539682 -72.6227890995763,-39.3603906145415 -72.6226983210527,-39.3601193788193 -72.6226136965733,-39.3599671107841 -72.6225800425317,-39.3598450549842 -72.6224395759681,-39.3597746414126 -72.6215108250629,-39.3606941064409 -72.6202150917227,-39.3617592391972 -72.618998977647,-39.3625835612162 -72.6178649560624,-39.3632146606348 -72.6158076705322,-39.3638029827659 -72.6144356995761,-39.3639886489085</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-5E</SimpleData>
+		<SimpleData name="NOM">Zona Z-5E</SimpleData>
+		<SimpleData name="UPERM">Actividades productivas inofensivas y molestas; equipamiento del tipo seguridad, rubro bomberos, del tipo de áreas verdes en el rubro plazas.</SimpleData>
+		<SimpleData name="UPROH">Vivienda (con excepción de las del cuidador), Actividades productivas insalubres y peligrosas, cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6272271776326,-39.353699975741 -72.6271794342652,-39.3539636143658 -72.6271108990801,-39.354418555472 -72.6271036588355,-39.3548715846164 -72.6271846648912,-39.3552503639032 -72.6273687055408,-39.3558404133784 -72.627609117779,-39.3563333757936 -72.6280297270656,-39.356749217877 -72.6284404813961,-39.3569747115574 -72.6275561593615,-39.3571667421027 -72.6280220619262,-39.3571054269057 -72.62860315314,-39.3570634551087 -72.6294588454385,-39.3569890733033 -72.6300693492095,-39.3569223434381 -72.630927505234,-39.3568955374678 -72.6316324182128,-39.3568735135568 -72.6320958450273,-39.3569305279835 -72.6327125132443,-39.356982750058 -72.6335768386697,-39.3570748900772 -72.6341640963027,-39.3571518551798 -72.6351584266192,-39.357382907936 -72.6354933531766,-39.3574481331784 -72.635477081612,-39.3571346250369 -72.6354402581842,-39.3570166184613 -72.6352170761492,-39.3568567772946 -72.6350576612033,-39.356742604862 -72.635106610442,-39.3565027570947 -72.6351456815452,-39.3560725649781 -72.6350633957067,-39.3556700006632 -72.6349591062681,-39.3554349455006 -72.6346709327648,-39.3552056408588 -72.6346213379332,-39.3536581328508 -72.6378528417118,-39.3538191816698 -72.6391825797127,-39.3587345366884 -72.6396255250655,-39.3595786054538 -72.6399972897426,-39.3602342486475 -72.6402944261144,-39.3612258705139 -72.6404702077977,-39.3622451249324 -72.6404603300839,-39.3633023368769 -72.6405383576056,-39.3629356122975 -72.6406030995266,-39.362409288933 -72.640600354646,-39.3617659204531 -72.6405536263894,-39.361457573042 -72.6404245728719,-39.360746667096 -72.6428605469472,-39.3580011966762 -72.6428175248418,-39.3577642296472 -72.6384856982556,-39.353562560243 -72.6269763326267,-39.3506335114057 -72.6265377263325,-39.3516481296321 -72.6264581036426,-39.3518889313329 -72.6264422357308,-39.3521754074615 -72.6265452597719,-39.3523866780862 -72.6267745669178,-39.3526655041045 -72.6269401184347,-39.3528986555083 -72.6271669650841,-39.3531298929216 -72.6271780521963,-39.3533440328668 -72.6272271776326,-39.353699975741</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-5</SimpleData>
+		<SimpleData name="NOM">Zona Z-5</SimpleData>
+		<SimpleData name="UPERM">Actividades productivas inofensivas y molestas; equipamiento del tipo seguridad, rubro bomberos, del tipo de áreas verdes en el rubro plazas.</SimpleData>
+		<SimpleData name="UPROH">Vivienda (con excepción de las del cuidador), Actividades productivas insalubres y peligrosas, cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6294697755961,-39.3775779570696 -72.6294335358037,-39.3779114642896 -72.6293542254632,-39.3779139412836 -72.6295072699666,-39.3779816920258 -72.6311634483466,-39.377929953348 -72.6312119798469,-39.3779647026269 -72.6332033473777,-39.3785189744066 -72.6347197484287,-39.3789248739644 -72.6355903582888,-39.3790427018504 -72.6359529398624,-39.3773908439204 -72.6354413924738,-39.377524211172 -72.6346558222456,-39.3776938460995 -72.6341155592654,-39.3776382112019 -72.6336928669776,-39.3775970308649 -72.6334362783922,-39.3776050537704 -72.6331507247135,-39.3775051853699 -72.6324490588277,-39.3774908543839 -72.6314674772165,-39.3774852666968 -72.6306034657324,-39.3774941309483 -72.6299745934272,-39.3775319089102 -72.6294697755961,-39.3775779570696</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-5</SimpleData>
+		<SimpleData name="NOM">Zona Z-5</SimpleData>
+		<SimpleData name="UPERM">Actividades productivas inofensivas y molestas; equipamiento del tipo seguridad, rubro bomberos, del tipo de áreas verdes en el rubro plazas.</SimpleData>
+		<SimpleData name="UPROH">Vivienda (con excepción de las del cuidador), Actividades productivas insalubres y peligrosas, cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6166878090755,-39.3703230533497 -72.6178715897617,-39.3704148986134 -72.6183144939646,-39.3704297087811 -72.6191929216046,-39.3703165611553 -72.6193415408349,-39.3703405307587 -72.6194371947687,-39.3704090476461 -72.6193702656454,-39.3705398230915 -72.6187118649489,-39.3709892971902 -72.6181042095115,-39.3713513937939 -72.6177091520845,-39.3715495794555 -72.6171441270993,-39.3716672600673 -72.6167387388152,-39.3716655779168 -72.6163708742126,-39.3716770257011 -72.6157307979891,-39.3717684368644 -72.6153349937789,-39.3719523396793 -72.6150892815109,-39.3721887675025 -72.6150282399984,-39.3724337504137 -72.6151974666259,-39.3724999812907 -72.6153666947185,-39.3725662118695 -72.6155182657876,-39.3726472905318 -72.6157603298804,-39.3726969555034 -72.6159994459417,-39.3726895156573 -72.616644692561,-39.3726980350375 -72.6169036758283,-39.3727185739581 -72.6170339050646,-39.3727431187982 -72.6172605285685,-39.3728504572013 -72.6173782659572,-39.3729897824996 -72.6174960038272,-39.3731291076541 -72.6175941277385,-39.3731662597571 -72.620343058187,-39.3715390523739 -72.6204527415958,-39.371878812253 -72.6204855869851,-39.3718378139694 -72.6215948708729,-39.3704531616677 -72.6205483192821,-39.3699178925613 -72.6169454964741,-39.3694667687213 -72.616829701098,-39.3695035921427 -72.6166878090755,-39.3703230533497</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-5</SimpleData>
+		<SimpleData name="NOM">Zona Z-5</SimpleData>
+		<SimpleData name="UPERM">Actividades productivas inofensivas y molestas; equipamiento del tipo seguridad, rubro bomberos, del tipo de áreas verdes en el rubro plazas.</SimpleData>
+		<SimpleData name="UPROH">Vivienda (con excepción de las del cuidador), Actividades productivas insalubres y peligrosas, cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6375568358694,-39.3610351385793 -72.6375647647102,-39.36105138894 -72.6375759672836,-39.3610488387524 -72.6378636809617,-39.3612686175716 -72.6384149426853,-39.3619520108391 -72.6387570928834,-39.3621557841584 -72.6391735478911,-39.3623715278217 -72.6394369466387,-39.3624776713999 -72.6396760204133,-39.3624701845538 -72.6399983023221,-39.3626459784186 -72.640342685332,-39.362892572928 -72.6404625813109,-39.3630613378867 -72.6404702077977,-39.3622451249324 -72.6402944261144,-39.3612258705139 -72.6399972897426,-39.3602342486475 -72.6396255250655,-39.3595786054538 -72.6391825797127,-39.3587345366884 -72.6378528417118,-39.3538191816698 -72.6346213379332,-39.3536581328508 -72.6346709327648,-39.3552056408588 -72.6349591062681,-39.3554349455006 -72.6350633957067,-39.3556700006632 -72.6351456815452,-39.3560725649781 -72.635106610442,-39.3565027570947 -72.6350576612033,-39.356742604862 -72.6352170761492,-39.3568567772946 -72.6354402581842,-39.3570166184613 -72.635477081612,-39.3571346250369 -72.6354956050357,-39.3574915199021 -72.635413537597,-39.3576847401824 -72.6353008227127,-39.3578789199139 -72.6353131713384,-39.3581168495436 -72.6351141638994,-39.3584369263024 -72.635159268846,-39.3584934374163 -72.6353336641581,-39.3586595712137 -72.6357229424704,-39.3590620653744 -72.635987805916,-39.3591967692167 -72.6361746665959,-39.3592481190765 -72.6361948189109,-39.3592862817929 -72.6362504480774,-39.3592886450358 -72.6363461015067,-39.3593571471293 -72.6364616270595,-39.3594536252989 -72.6364653330719,-39.3595250050669 -72.6364536142294,-39.3596540624159 -72.6364404129699,-39.3597545682165 -72.6363750074194,-39.3599139032546 -72.6363809369735,-39.3600281103452 -72.6364487066185,-39.360269072325 -72.6365120294624,-39.3604243805115 -72.6365944836677,-39.3605933880982 -72.6368041861556,-39.3607298159183 -72.6371095447453,-39.3609347455689 -72.6374442718363,-39.3609957647305 -72.6375568358694,-39.3610351385793</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3E</SimpleData>
+		<SimpleData name="NOM">Zona Z-3E</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6228175166052,-39.3796410622534 -72.625000027948,-39.3813129124939 -72.6252504523768,-39.3810520775456 -72.6285329572069,-39.3835244814347 -72.6289655872419,-39.3824048729914 -72.6290418918412,-39.3824194272227 -72.6290289996253,-39.3822759629972 -72.6290326299133,-39.3822670720941 -72.627729070581,-39.3819901617264 -72.6281355636307,-39.3808169739007 -72.6263606742583,-39.3803827900512 -72.6280168311482,-39.3791809940236 -72.6243804820345,-39.3784330929655 -72.6228175166052,-39.3796410622534</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3E</SimpleData>
+		<SimpleData name="NOM">Zona Z-3E</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6245611175606,-39.3782793460216 -72.6299987185866,-39.3794061083939 -72.6305992537971,-39.3779475813276 -72.6295072699666,-39.3779816920258 -72.6293542254632,-39.3779139412836 -72.627614068596,-39.3779682756313 -72.6268656191849,-39.3775020521133 -72.6264802036094,-39.3772783539247 -72.626077090415,-39.3771640031074 -72.6255971378268,-39.3770909882247 -72.6254305168593,-39.3773111061086 -72.6251040617047,-39.3777746095184 -72.6246581551494,-39.3781874396563 -72.6245611175606,-39.3782793460216</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3E</SimpleData>
+		<SimpleData name="NOM">Zona Z-3E</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.61937724565,-39.3642871813618 -72.6210651240294,-39.3651963858372 -72.621559411072,-39.3647806112552 -72.6224503864308,-39.365267608812 -72.6215258471964,-39.3662687569704 -72.622266015502,-39.3666889598569 -72.6229103186706,-39.3659682239327 -72.623286276159,-39.3661137924889 -72.6241093054811,-39.3652873858737 -72.624280000774,-39.3653821558497 -72.62488387737,-39.3649486507865 -72.6249272272554,-39.3647185139128 -72.6253707481623,-39.3643901016915 -72.625417613023,-39.3643279949372 -72.6255237637578,-39.3641873222807 -72.61937724565,-39.3642871813618</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3E</SimpleData>
+		<SimpleData name="NOM">Zona Z-3E</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6089219960733,-39.3666146659372 -72.6091574545708,-39.3666225583614 -72.6102669990764,-39.3653804264913 -72.6098344866866,-39.3653169715929 -72.6094254541865,-39.3652438803748 -72.6090303995616,-39.3650845602936 -72.6086213702672,-39.365011467002 -72.6082130761498,-39.3649526484723 -72.6077672639748,-39.3648806940999 -72.6074884485865,-39.3648321517495 -72.6070065899503,-39.3647756123456 -72.6068756431122,-39.3647367791551 -72.6067358565189,-39.3646152577345 -72.606585621078,-39.3646214376717 -72.6065616970501,-39.3660921402924 -72.6085480251351,-39.3665071191438 -72.6089219960733,-39.3666146659372</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3E</SimpleData>
+		<SimpleData name="NOM">Zona Z-3E</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6142412803029,-39.3703339412168 -72.6164080085382,-39.370671676152 -72.6163577594147,-39.370887725853 -72.6160291567384,-39.3710647731407 -72.6157925176928,-39.3712389573993 -72.6153731737511,-39.3714426574441 -72.6149244020863,-39.3716711036601 -72.6148066939494,-39.3717700914279 -72.6146375031206,-39.37206133508 -72.6143224013587,-39.3725001066257 -72.6145701055983,-39.3725400663196 -72.6148496928253,-39.3726028651489 -72.615258047886,-39.372780816306 -72.6155388653737,-39.3728674065572 -72.615787800351,-39.3729311576074 -72.6161237861136,-39.372896871245 -72.6165247709529,-39.3729320571229 -72.6168619854837,-39.3729215626621 -72.6172065761002,-39.3730538276816 -72.6174628886794,-39.3732603354989 -72.6177424820575,-39.3733231270659 -72.6181422399997,-39.3733345132174 -72.6182704036149,-39.373299212868 -72.61801913959,-39.3732701122282 -72.6177402851306,-39.3732215973292 -72.6175941277385,-39.3731662597571 -72.6174960038272,-39.3731291076541 -72.6173782659572,-39.3729897824996 -72.6172605285685,-39.3728504572013 -72.6170339050646,-39.3727431187982 -72.6169036758283,-39.3727185739581 -72.616644692561,-39.3726980350375 -72.6159994459417,-39.3726895156573 -72.6157603298804,-39.3726969555034 -72.6155182657876,-39.3726472905318 -72.6153666947185,-39.3725662118695 -72.6151974666259,-39.3724999812907 -72.6150282399984,-39.3724337504137 -72.6150892815109,-39.3721887675025 -72.6153349937789,-39.3719523396793 -72.6157307979891,-39.3717684368644 -72.6163708742126,-39.3716770257011 -72.6167387388152,-39.3716655779168 -72.6171441270993,-39.3716672600673 -72.6177091520845,-39.3715495794555 -72.6181042095115,-39.3713513937939 -72.6187118649489,-39.3709892971902 -72.6193702656454,-39.3705398230915 -72.6194371947687,-39.3704090476461 -72.6193415408349,-39.3703405307587 -72.6191929216046,-39.3703165611553 -72.6183144939646,-39.3704297087811 -72.6178715897617,-39.3704148986134 -72.6166878090755,-39.3703230533497 -72.616829701098,-39.3695035921427 -72.6169454964741,-39.3694667687213 -72.6172284389713,-39.3693767900713 -72.6201251242909,-39.366255199935 -72.6183218459111,-39.3652246299249 -72.6190845899207,-39.3643000410924 -72.6190944246733,-39.3642917688265 -72.6114843345955,-39.3644149366328 -72.6094154636328,-39.3666504936959 -72.6097251166484,-39.3667088830905 -72.6100377842122,-39.3668183302776 -72.6107281101875,-39.3671066981003 -72.6110812504951,-39.3674055390445 -72.6113755403495,-39.3677538713273 -72.6115410817509,-39.3679870440271 -72.6118918062203,-39.3688340880116 -72.6124448463894,-39.3694365245213 -72.6130236392887,-39.3699428310797 -72.6134025466044,-39.3701455360234 -72.6142412803029,-39.3703339412168</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-3E</SimpleData>
+		<SimpleData name="NOM">Zona Z-3E</SimpleData>
+		<SimpleData name="UPERM">Vivienda; actividades productivas inofensivas; equipamiento de salud (vec.), educación (excepto regional), seguridad, culto, cultura, organización comunitaria, áreas verdes, comercio minorista, servicios públicos, servicios profesionales.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, y cualquier equipamiento no señalado como permitido.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6254199561675,-39.3579269118364 -72.6238631328973,-39.3586904156354 -72.6226789964726,-39.3595376094074 -72.6226036799182,-39.3596121744052 -72.6266961291883,-39.3617273899211 -72.6283223357441,-39.361242769606 -72.6285331906116,-39.3611646909303 -72.6288911313494,-39.3609628617841 -72.6293323906691,-39.3605916076662 -72.6294549903092,-39.3605877791288 -72.6296339592723,-39.360486863797 -72.6296878611722,-39.360342190583 -72.629957544342,-39.3602146094441 -72.6301033946169,-39.360067063311 -72.6303154771414,-39.3600127762602 -72.6304993754535,-39.3600070319044 -72.630932172102,-39.3600650065692 -72.6311724371658,-39.3599621730325 -72.6314702978708,-39.3597860445049 -72.6317375091443,-39.3596108738684 -72.6320366018486,-39.3594585367557 -72.6323393950103,-39.3593775790268 -72.6326384842146,-39.3592252414012 -72.6329706914432,-39.3591195304591 -72.6333347795175,-39.359036654161 -72.6335995144149,-39.358813893196 -72.6338017148732,-39.3585692546137 -72.6339500212098,-39.358469290544 -72.6340983283241,-39.3583693271662 -72.6342491040155,-39.3583169490573 -72.6344624121131,-39.3582864475307 -72.6346769546419,-39.3582797383293 -72.634804488326,-39.3583710760689 -72.6350865031505,-39.3584814143344 -72.6353131713384,-39.3581168495436 -72.6353008227127,-39.3578789199139 -72.635413537597,-39.3576847401824 -72.6354956050357,-39.3574915199021 -72.6354933531766,-39.3574481331784 -72.6351584266192,-39.357382907936 -72.6341640963027,-39.3571518551798 -72.6335768386697,-39.3570748900772 -72.6327125132443,-39.356982750058 -72.6320958450273,-39.3569305279835 -72.6316324182128,-39.3568735135568 -72.630927505234,-39.3568955374678 -72.6300693492095,-39.3569223434381 -72.6294588454385,-39.3569890733033 -72.62860315314,-39.3570634551087 -72.6280220619262,-39.3571054269057 -72.6275561593615,-39.3571667421027 -72.6272869251623,-39.3572252045101 -72.6254199561675,-39.3579269118364</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Zona de protección de vertientes y cursos naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, forestación.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6218397989214,-39.3719854622839 -72.6231153299316,-39.3718528042254 -72.6247732498861,-39.3718373705533 -72.6263211086037,-39.3719522774328 -72.6275219171953,-39.3721323943313 -72.6283542272977,-39.3724146692771 -72.6291297082263,-39.372952570617 -72.6292539790627,-39.3735470720423 -72.6292802582074,-39.3740539695782 -72.6293112308631,-39.3746513835882 -72.6292460858602,-39.3751974020104 -72.6289999665131,-39.3758578674773 -72.6288853520177,-39.3763510322918 -72.6287613498565,-39.3766631612645 -72.628868732717,-39.3769318000262 -72.6289033210377,-39.3771483127603 -72.6290974396297,-39.3772873129799 -72.6294258842964,-39.377313321291 -72.6298681452965,-39.3772813754037 -72.6302861398765,-39.3772320525699 -72.6311016174649,-39.3771884423939 -72.6316409374862,-39.3772259875875 -72.6332617177829,-39.3773929180236 -72.6339662020904,-39.377461554108 -72.6347602325066,-39.3774548545604 -72.6352453809754,-39.3773490152846 -72.6357295875251,-39.3772250710583 -72.6360271840402,-39.3771069628721 -72.636305215851,-39.377061997564 -72.636725083963,-39.3770488586614 -72.6374733965155,-39.3770617037061 -72.6383644873717,-39.3771244718637 -72.6389085139163,-39.3772524995831 -72.639147421336,-39.3773538144492 -72.6393425008685,-39.3775109003768 -72.6394471000758,-39.3777252168684 -72.6395488771792,-39.3778852244619 -72.6396030606215,-39.378028589297 -72.6396115327956,-39.3781915181731 -72.6396830421982,-39.3783380341638 -72.6398379348574,-39.3784004340806 -72.6400574860271,-39.3784888838876 -72.640399668492,-39.3785734916916 -72.6407725099601,-39.3786571370278 -72.6410996521488,-39.3785391152099 -72.6406836629795,-39.3783015467588 -72.640082355909,-39.3778336644146 -72.6397636242967,-39.3774932093146 -72.6396042585418,-39.3773229818623 -72.6394218721347,-39.3771924123632 -72.6393083851986,-39.3771294384165 -72.6392631247206,-39.3771804350639 -72.6386376763076,-39.3768569963849 -72.6382736450744,-39.3768195218897 -72.6375433110213,-39.3767645104441 -72.6368921532879,-39.3767848909846 -72.6362470521555,-39.3769218910106 -72.6344068643707,-39.3772325514488 -72.6339310128947,-39.3772474326203 -72.6328750938465,-39.3772025716539 -72.6316658809854,-39.3771040853577 -72.6308363756532,-39.3770715989479 -72.6303064016718,-39.3770102807057 -72.630302600662,-39.3770124711067 -72.6302553032083,-39.3769924087766 -72.6298535776788,-39.3769854884424 -72.6293987393163,-39.3769218191055 -72.6291412363586,-39.3767935790808 -72.6291020827023,-39.3765222388232 -72.6291855571622,-39.3762102816985 -72.6292281641406,-39.3760510491152 -72.6293903745815,-39.3757928884082 -72.6294724119004,-39.3754398877307 -72.6295114140647,-39.3752245121338 -72.6295263805084,-39.3750293563215 -72.6295157719535,-39.374824750851 -72.6295615957463,-39.3747017789302 -72.6295980894763,-39.3746038457361 -72.6295242194028,-39.3736528870634 -72.6294103313235,-39.3733513990393 -72.6294004630154,-39.3731610531488 -72.6293445069569,-39.3730293433594 -72.6293846740008,-39.3728565013254 -72.6290059545672,-39.3726586095052 -72.6287027841564,-39.3724964886373 -72.6283750905928,-39.3723351326086 -72.6279973630718,-39.3721562711202 -72.6274487377086,-39.3719643473715 -72.627446982591,-39.3719637338187 -72.6265827238615,-39.3718763145071 -72.6259166291364,-39.3718208382067 -72.6256213549744,-39.3718109848851 -72.6254712536481,-39.3717584716986 -72.6250984640732,-39.3716747736859 -72.624706079586,-39.3716870127791 -72.6241439958058,-39.3717426739759 -72.6238987548875,-39.3717503215677 -72.6234063024537,-39.3717275454038 -72.6229383746817,-39.3717040034966 -72.6226951034533,-39.3717497174733 -72.6223272408341,-39.3717611841072 -72.6220123660915,-39.3718472597185 -72.6219571126086,-39.3718428802697 -72.6218397989214,-39.3719854622839</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Lecho de Cauce Natural</SimpleData>
+		<SimpleData name="NOM">Lecho de cauce natural</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6218765983668,-39.3722204861127 -72.6222896943247,-39.3721505339328 -72.6239485595146,-39.3721532149594 -72.6251409294164,-39.3721704248965 -72.6263389253853,-39.3722962444201 -72.6273493903878,-39.3724097716621 -72.6279428264078,-39.3725907078396 -72.6285876079517,-39.3728607017686 -72.6289301080181,-39.3731582649986 -72.6289246137956,-39.3735029592703 -72.6288948553778,-39.3738302787772 -72.628639486482,-39.3747630243973 -72.6286469937894,-39.3749078522107 -72.6286573164198,-39.3751069903338 -72.6286751467096,-39.3754509571424 -72.628559591887,-39.3759260177022 -72.6285606645701,-39.37639743571 -72.6285999450757,-39.3767044669433 -72.6285878798598,-39.3769224374205 -72.6286785050661,-39.3773185284563 -72.6288502363878,-39.3774763605713 -72.629135784664,-39.3775762407405 -72.6293699859743,-39.3775870589779 -72.6299745934272,-39.3775319089102 -72.6306034657324,-39.3774941309483 -72.6314674772165,-39.3774852666968 -72.6324490588277,-39.3774908543839 -72.6331507247135,-39.3775051853699 -72.6334362783922,-39.3776050537704 -72.6336928669776,-39.3775970308649 -72.6341155592654,-39.3776382112019 -72.6346558222456,-39.3776938460995 -72.6354413924738,-39.377524211172 -72.6359946387461,-39.3773799726783 -72.6365311383654,-39.377363185166 -72.6370676386948,-39.3773463951497 -72.6374156485872,-39.3772992369951 -72.6379278802708,-39.3772650702287 -72.638558623482,-39.3772634553919 -72.6389141607925,-39.3773611189329 -72.6391829828149,-39.3775884264377 -72.6394571345354,-39.3782470229018 -72.6396830421982,-39.3783380341638 -72.6396115327956,-39.3781915181731 -72.6396030606215,-39.378028589297 -72.6395488771792,-39.3778852244619 -72.6394471000758,-39.3777252168684 -72.6393425008685,-39.3775109003768 -72.639147421336,-39.3773538144492 -72.6389085139163,-39.3772524995831 -72.6383644873717,-39.3771244718637 -72.6374733965155,-39.3770617037061 -72.636725083963,-39.3770488586614 -72.636305215851,-39.377061997564 -72.6360271840402,-39.3771069628721 -72.6357295875251,-39.3772250710583 -72.6352453809754,-39.3773490152846 -72.6347602325066,-39.3774548545604 -72.6339662020904,-39.377461554108 -72.6332617177829,-39.3773929180236 -72.6316409374862,-39.3772259875875 -72.6311016174649,-39.3771884423939 -72.6302861398765,-39.3772320525699 -72.6298681452965,-39.3772813754037 -72.6294258842964,-39.377313321291 -72.6290974396297,-39.3772873129799 -72.6289033210377,-39.3771483127603 -72.628868732717,-39.3769318000262 -72.6287613498565,-39.3766631612645 -72.6288853520177,-39.3763510322918 -72.6289999665131,-39.3758578674773 -72.6292460858602,-39.3751974020104 -72.6293112308631,-39.3746513835882 -72.6292802582074,-39.3740539695782 -72.6292539790627,-39.3735470720423 -72.6291297082263,-39.372952570617 -72.6283542272977,-39.3724146692771 -72.6275219171953,-39.3721323943313 -72.6263211086037,-39.3719522774328 -72.6247732498861,-39.3718373705533 -72.6231153299316,-39.3718528042254 -72.6218397989214,-39.3719854622839 -72.6217734388854,-39.3720661140462 -72.6218765983668,-39.3722204861127</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-6</SimpleData>
+		<SimpleData name="NOM">Zona Z-6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de deportes y de áreas verdes de escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados precedentemente y los señalados en el artículo 18 bis A de la presente Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6336066586029,-39.380330416904 -72.6300275523402,-39.3826074300715 -72.6289655872419,-39.3824048729914 -72.6285329572069,-39.3835244814347 -72.6252504523768,-39.3810520775456 -72.625000027948,-39.3813129124939 -72.6287543173076,-39.3841884814231 -72.6341987960507,-39.3805912469354 -72.6380948297224,-39.3813759748358 -72.6381422388401,-39.3812628283282 -72.6382077037562,-39.3811065890181 -72.6245611175606,-39.3782793460216 -72.6244799788251,-39.3783561926481 -72.6243804820345,-39.3784330929655 -72.6336066586029,-39.380330416904</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-6</SimpleData>
+		<SimpleData name="NOM">Zona Z-6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de deportes y de áreas verdes de escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados precedentemente y los señalados en el artículo 18 bis A de la presente Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6218765983668,-39.3722204861127 -72.6221003771111,-39.372555357096 -72.6231014715922,-39.3724878852356 -72.6239178406996,-39.3724624310621 -72.6253677255623,-39.372489740602 -72.6270340989038,-39.3726372053955 -72.6275034088016,-39.3726769563482 -72.6272322035661,-39.3737552558019 -72.6269115260184,-39.3747807004055 -72.6267735714426,-39.3752745918153 -72.626645810715,-39.3755143052822 -72.6264984741634,-39.3758271601935 -72.6262578332109,-39.3761429273573 -72.626084354739,-39.3764021992618 -72.6258856726878,-39.3766259924061 -72.6258241341642,-39.3767911071946 -72.6255971378268,-39.3770909882247 -72.626077090415,-39.3771640031074 -72.6264802036094,-39.3772783539247 -72.6268656191849,-39.3775020521133 -72.627614068596,-39.3779682756313 -72.6294335358037,-39.3779114642896 -72.6294697755961,-39.3775779570696 -72.6293699859743,-39.3775870589779 -72.629135784664,-39.3775762407405 -72.6288502363878,-39.3774763605713 -72.6286785050661,-39.3773185284563 -72.6285878798598,-39.3769224374205 -72.6285999450757,-39.3767044669433 -72.6285606645701,-39.37639743571 -72.628559591887,-39.3759260177022 -72.6286751467096,-39.3754509571424 -72.6286573164198,-39.3751069903338 -72.6286469937894,-39.3749078522107 -72.628639486482,-39.3747630243973 -72.6288948553778,-39.3738302787772 -72.6289246137956,-39.3735029592703 -72.6289301080181,-39.3731582649986 -72.6285876079517,-39.3728607017686 -72.6279428264078,-39.3725907078396 -72.6273493903878,-39.3724097716621 -72.6263389253853,-39.3722962444201 -72.6251409294164,-39.3721704248965 -72.6239485595146,-39.3721532149594 -72.6222896943247,-39.3721505339328 -72.6218765983668,-39.3722204861127</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Loncoche</SimpleData>
+		<SimpleData name="LOC">Loncoche</SimpleData>
+		<SimpleData name="ZONA">Z-7</SimpleData>
+		<SimpleData name="NOM">Zona Z-7</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes; equipamiento de todo tipo, excepto hospital, cárcel, estadio, cementerios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados expresamente como usos permitidos.</SimpleData>
+		<SimpleData name="P_DO">14/01/1991</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6324785930039,-39.3810481147342 -72.6336066586029,-39.380330416904 -72.6300742049145,-39.3796040834764 -72.6297534610896,-39.3804763253418 -72.6324785930039,-39.3810481147342</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.659169117234,-34.2044337728259 -71.6593748845855,-34.2044466160644 -71.6598086454167,-34.204476654897 -71.660267301703,-34.2045036601656 -71.6602893423771,-34.2045052580048 -71.6606319226672,-34.2045812992715 -71.660631569187,-34.2045789603353 -71.6606637697116,-34.2043734889796 -71.6607018542124,-34.2042783067066 -71.6606431638587,-34.204179201982 -71.6605631207207,-34.204092605626 -71.6603434081259,-34.2040210862671 -71.6602377496174,-34.2039651593482 -71.6601451605401,-34.2038637780799 -71.6599943565215,-34.2036783382296 -71.659877212254,-34.2035644412243 -71.659799773284,-34.2034838107555 -71.6596349052134,-34.2033890168753 -71.6594823620782,-34.203301985054 -71.6593815344105,-34.2032459525489 -71.6591075803227,-34.2032167620496 -71.6588042425315,-34.2031751599028 -71.658678745743,-34.203179888508 -71.6584433736527,-34.2032251441806 -71.6581762027552,-34.2032580396935 -71.6578492648853,-34.2033113026606 -71.6576598756285,-34.2034358620903 -71.6575579997031,-34.2035003059316 -71.6574389382185,-34.2035560873865 -71.6571788314518,-34.2036600958994 -71.6570528718154,-34.2037270690187 -71.6568621364947,-34.2038857855203 -71.6568292763267,-34.2039166115045 -71.6567879854554,-34.203986767047 -71.6566073488552,-34.2041593178273 -71.6564135042722,-34.2042960187419 -71.6562588191964,-34.2043716423379 -71.6560643027496,-34.2044099862053 -71.6559830865311,-34.2044398511551 -71.6559506326972,-34.2045148228137 -71.6561277798164,-34.2045854613078 -71.6562612013087,-34.2046142436844 -71.6564808253039,-34.2046165612816 -71.6564878771156,-34.2046159090316 -71.6565789634064,-34.2046074911527 -71.6566848165248,-34.2045977083346 -71.6572382035973,-34.2045095198256 -71.6577633874051,-34.2043977782577 -71.6577642274147,-34.2043976807131 -71.6577651568632,-34.2043974252696 -71.6579962618327,-34.2043544476807 -71.658002392009,-34.204353817131 -71.6580041886945,-34.2043534328981 -71.6582202645501,-34.2043380178518 -71.6582213230994,-34.2043381418423 -71.6582226085063,-34.204337888593 -71.6586651282441,-34.204320863465 -71.6586657177353,-34.2043209426331 -71.6586663315014,-34.2043208274517 -71.6586743705295,-34.2043211038486 -71.6588357612958,-34.204335761474 -71.6588475117219,-34.2043381281767 -71.6588494424925,-34.2043383855971 -71.659169117234,-34.2044337728259</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6511410166857,-34.2095312027049 -71.6511647930418,-34.2096456698118 -71.6512410493668,-34.210031813868 -71.6513088489653,-34.2100227323823 -71.6513547281725,-34.2102333129222 -71.6514270885898,-34.2105827290845 -71.6520545459609,-34.2104991306091 -71.6522925677345,-34.2104640451724 -71.6522561402215,-34.2102038157997 -71.6521728330213,-34.2096480783317 -71.6521726205697,-34.2096457318083 -71.6521725199202,-34.2096453941193 -71.6521533169645,-34.2094161751132 -71.6521269516612,-34.2094167455691 -71.6518551854754,-34.2094430894632 -71.6511410166857,-34.2095312027049</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6529850178702,-34.2068634441091 -71.6525781904905,-34.2068360637584 -71.6523988868935,-34.2068252221036 -71.6523769811616,-34.2068262838772 -71.6523653516077,-34.2068505560737 -71.652238663286,-34.2072317565143 -71.6522386602871,-34.2072317646928 -71.6521044945506,-34.20763604932 -71.652104450341,-34.2076361620629 -71.6521044439366,-34.2076362000646 -71.6519769069026,-34.2080158355779 -71.6518847628101,-34.2083103570111 -71.6518843302129,-34.2083114761207 -71.6518842768812,-34.2083118171413 -71.6518026982837,-34.2085432760554 -71.6518019658918,-34.2085450777779 -71.6518019233527,-34.2085453130891 -71.6517476539929,-34.2087033739524 -71.6516614019889,-34.2088761035722 -71.6516610958642,-34.2088765149695 -71.65166099217,-34.2088770148425 -71.6516148705873,-34.2089766388361 -71.6516045299688,-34.2090125891056 -71.6516060608837,-34.2090614373056 -71.6516435367722,-34.2093689840379 -71.6518385805192,-34.2093449197982 -71.65183997929,-34.2093448183182 -71.6518404307312,-34.2093447156968 -71.6521157947388,-34.2093180235483 -71.6521211560244,-34.2093177056126 -71.6521651693515,-34.2093167533134 -71.6521845764342,-34.2092669779073 -71.6522642191754,-34.2090523214036 -71.6524647152276,-34.2084877393357 -71.6526539844538,-34.2079249478003 -71.6528339365773,-34.2073655309245 -71.6529850178702,-34.2068634441091</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6537209297721,-34.2090601248025 -71.6539969638018,-34.209108670498 -71.654389339699,-34.209178435513 -71.6545364713961,-34.2088535075274 -71.6545365807878,-34.208853362721 -71.6545366155669,-34.2088531915838 -71.6545386701348,-34.2088492643182 -71.6545964171219,-34.2087507127533 -71.654670879365,-34.2086050093725 -71.6546989605868,-34.2085500613399 -71.6547736090862,-34.2083464656805 -71.6548161919087,-34.208156495619 -71.6548180168814,-34.2081511309175 -71.6548182309676,-34.2081499308883 -71.6548423324265,-34.2080897095868 -71.6548410643605,-34.2080850537448 -71.6548450095468,-34.2080659934714 -71.65485743384,-34.2080496388701 -71.6548586559049,-34.2080489209496 -71.6548667437482,-34.2080287134895 -71.6548671305321,-34.2080281759303 -71.654867273625,-34.2080274453185 -71.6549585086155,-34.2078185473773 -71.6551125319391,-34.207381970744 -71.6551362000326,-34.2072740647791 -71.6551391982507,-34.2072651831404 -71.6551400099864,-34.2072641144058 -71.6551402686638,-34.2072630215905 -71.6551743858159,-34.2071984724318 -71.6544366704478,-34.2070151535395 -71.6544177594929,-34.2070748765278 -71.6544167826641,-34.2070773930405 -71.6544166856427,-34.2070779666943 -71.6542349460979,-34.2075578450797 -71.6540176727134,-34.2081978241989 -71.6540175932385,-34.2081980233487 -71.6540175842884,-34.2081980839432 -71.6537724915794,-34.2089091228473 -71.6537209297721,-34.2090601248025</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6544414247596,-34.2094077496981 -71.6550606622491,-34.2095281600112 -71.6550938657306,-34.2094283143029 -71.6552548349724,-34.2089232667102 -71.6553501226897,-34.2087400249155 -71.6555764657795,-34.208310965549 -71.6554946593939,-34.2083203167357 -71.6554880825512,-34.2083207621191 -71.6554816639659,-34.2083206144911 -71.6553162509053,-34.208309372612 -71.655312879012,-34.2083087334677 -71.6553081589188,-34.2083083543129 -71.6551825192294,-34.2082851315359 -71.6551740891373,-34.2082830207185 -71.6551730156883,-34.208282457994 -71.6551718945872,-34.2082822785386 -71.655113243063,-34.208261311615 -71.6551085651333,-34.2082587490015 -71.655099190716,-34.2082542426067 -71.6550358397248,-34.2082114565011 -71.6549637596199,-34.2081647044024 -71.6549416665981,-34.2081556919007 -71.6549327457423,-34.208177984553 -71.6548903021848,-34.2083673359057 -71.6548889470867,-34.2083713183443 -71.6548887215031,-34.2083727052336 -71.6548121810611,-34.2085814597623 -71.6548106542815,-34.2085836366028 -71.6548100255132,-34.2085863871826 -71.6547807093632,-34.2086437509667 -71.654705646175,-34.2087906312645 -71.6547054729276,-34.2087908504757 -71.654704372484,-34.2087929549764 -71.6546471704228,-34.2088905761568 -71.6544996727217,-34.2092163118238 -71.6544414247596,-34.2094077496981</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.652490343126,-34.2087658880919 -71.6527871049708,-34.2088286149127 -71.6532204302256,-34.2089189343553 -71.6535744539469,-34.2089937800451 -71.653615987449,-34.2088721480428 -71.6536160367399,-34.2088720243713 -71.6536160431719,-34.2088719872704 -71.6538611191391,-34.2081609976895 -71.6540786796896,-34.207520175104 -71.6540793175957,-34.207518580056 -71.6540793762834,-34.2075182371157 -71.654260901216,-34.2070389279267 -71.6542928175022,-34.2069381330476 -71.6539876973342,-34.2068434989875 -71.6540946507747,-34.2065214526399 -71.6540863991119,-34.2060027360665 -71.6540836481624,-34.2059661603467 -71.6539824752626,-34.2058144633636 -71.653783643902,-34.2059322230958 -71.6533863216543,-34.206168618632 -71.6533158831165,-34.2062260707718 -71.6532841517341,-34.2062784308676 -71.6532569884444,-34.2063757420012 -71.6532567394359,-34.2063764172079 -71.6532566954174,-34.2063767436033 -71.6531132625245,-34.2068459775768 -71.6529495752672,-34.2073899624667 -71.6529493647015,-34.2073905142364 -71.6529493337548,-34.2073907384789 -71.6527691707915,-34.2079508136574 -71.6527690130617,-34.2079512164368 -71.6527689935275,-34.2079513547895 -71.6525795174946,-34.2085147603746 -71.6525793032191,-34.2085152977999 -71.6525792797144,-34.2085154479581 -71.652490343126,-34.2087658880919</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6539989772632,-34.2056829490988 -71.6538342955039,-34.2054799728695 -71.6535608244161,-34.2051265898648 -71.6535348196835,-34.2051495839909 -71.6530309439051,-34.2056564370101 -71.6526852284131,-34.206036859032 -71.6526857178539,-34.2060386613639 -71.6526822153894,-34.2060567320677 -71.6526214480076,-34.206197059796 -71.6526201976414,-34.2061987438168 -71.6526197714422,-34.2062005163803 -71.6524918884756,-34.206438077521 -71.6524074823421,-34.2067263476324 -71.6525870944983,-34.2067372087466 -71.6525872178186,-34.2067372313201 -71.6525875815783,-34.2067372396756 -71.6530146116739,-34.2067659794582 -71.6531408967595,-34.2063528431573 -71.6531695361916,-34.2062502479381 -71.653171958196,-34.2062436776472 -71.653174366308,-34.2062391558724 -71.6532137548476,-34.2061741595738 -71.6532237710792,-34.2061623260065 -71.6532246862994,-34.2061617887341 -71.6532252467457,-34.2061610797415 -71.6533060346607,-34.2060951864374 -71.6533071669182,-34.2060945462027 -71.6533130936077,-34.2060902583823 -71.6537142280189,-34.2058515953148 -71.6537142825281,-34.2058515688927 -71.6537143334736,-34.2058515326311 -71.6539989772632,-34.2056829490988</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6566177462256,-34.204703649636 -71.6565021221867,-34.2055708630586 -71.657014216221,-34.2055533979323 -71.6570146956951,-34.2055534632657 -71.6570151886521,-34.205553370544 -71.657025624293,-34.2055538421108 -71.6573974230317,-34.2055956979437 -71.6573983286047,-34.2055958910668 -71.6573994873971,-34.2055959588007 -71.6582493278243,-34.2057148007324 -71.6582502785928,-34.2057150163081 -71.6582511507318,-34.2057150776291 -71.658652843791,-34.2057810699328 -71.6597076187428,-34.2059285327796 -71.6605918672016,-34.2060444156342 -71.6604746862565,-34.2058469743982 -71.6601636991685,-34.2053833489352 -71.6599940903861,-34.2051656666857 -71.6595776994903,-34.2048110383758 -71.6595773462864,-34.204810606106 -71.659576937648,-34.2048103778769 -71.6593972903305,-34.2046516201115 -71.6591293855293,-34.2045272477938 -71.6588157686005,-34.204433668209 -71.6586660153068,-34.2044200671449 -71.6582293016641,-34.2044368690225 -71.6580184004415,-34.2044519149605 -71.6577921052981,-34.2044939976963 -71.6572660339147,-34.2046059290243 -71.6572641949219,-34.2046061410753 -71.6572624718843,-34.2046065904122 -71.6567049848529,-34.2046954331439 -71.6567015690065,-34.2046957397615 -71.6567003418204,-34.2046960160739 -71.6566177462256,-34.204703649636</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE4</SimpleData>
+		<SimpleData name="NOM">ZE4 Área industrial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, esparcimiento, seguridad, servicios, social; Act. productiva inofensiva y molesta, bodega, grandes depósitos, talleres; Espacios públicos; Áreas verdes. Excepto usos prohibidos</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets,equipamiento de educación, equipamiento de salud, actividades productivas  insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6482541850183,-34.2017002946762 -71.647474120703,-34.2015598570547 -71.6475012290488,-34.2016575113587 -71.6475013656024,-34.201658408112 -71.6475016505008,-34.2016591565192 -71.6475656194081,-34.2019314936542 -71.6478970945008,-34.2019855492378 -71.6478981155296,-34.2019857931279 -71.6478988431932,-34.2019858504324 -71.6482068343063,-34.2020419377587 -71.6483477280527,-34.2020578833521 -71.6482586093259,-34.2017106511503 -71.6482560366985,-34.2017006278983 -71.6482541850183,-34.2017002946762</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZD</SimpleData>
+		<SimpleData name="NOM">Zona ZD Áreas deportivas</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo vivienda del cuidador; Espacio público; Área verde; Equipamiento de culto y cultura, deporte y esparcimiento. Con Excepción de los indicados como usos prohibidos</SimpleData>
+		<SimpleData name="UPROH">Residencial; Equipamiento de comercio, educación, salud, seguridad, servicios, social; Actividad de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6496051647834,-34.2020272185927 -71.6495195353418,-34.2015645996397 -71.6495204077379,-34.2015620367381 -71.6489919194921,-34.1994700471631 -71.6487100336371,-34.1984125255848 -71.6479433152355,-34.1983913234204 -71.6473970127495,-34.1982938836665 -71.647518147588,-34.1987565618945 -71.6476171776252,-34.1992109168354 -71.6476582597547,-34.1993533852077 -71.6478252948311,-34.1999480256978 -71.6479139444139,-34.2003169118607 -71.6480581164737,-34.2009200537663 -71.6482560366985,-34.2017006278983 -71.6482586093259,-34.2017106511503 -71.6483477280527,-34.2020578833521 -71.6483825075215,-34.2020618198169 -71.648509206915,-34.202065655444 -71.6487452352218,-34.2020484865297 -71.6487473903367,-34.202048738363 -71.6487499218514,-34.2020482590564 -71.6496051647834,-34.2020272185927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE4</SimpleData>
+		<SimpleData name="NOM">ZE4 Área industrial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, esparcimiento, seguridad, servicios, social; Act. productiva inofensiva y molesta, bodega, grandes depósitos, talleres; Espacios públicos; Áreas verdes. Excepto usos prohibidos</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets,equipamiento de educación, equipamiento de salud, actividades productivas  insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6525275374804,-34.1978459167611 -71.6520481056496,-34.1980588940125 -71.6523549104425,-34.1985257042662 -71.6526527160496,-34.1989964027233 -71.6528716423191,-34.1994335674912 -71.6532040658075,-34.2000894513725 -71.6520085244942,-34.2011214249865 -71.6515184317747,-34.2015495020479 -71.6512188210405,-34.201509655517 -71.65049253967,-34.2015407707849 -71.6495209775478,-34.2015642953135 -71.6495204077379,-34.2015620367381 -71.6495195353418,-34.2015645996397 -71.6496051647834,-34.2020272185927 -71.6499273300739,-34.2020192912715 -71.6499279654499,-34.20201938121 -71.6499285814676,-34.2020192687284 -71.6508268125477,-34.2020086530452 -71.6508268190533,-34.2020086529045 -71.6511911832983,-34.2020042947389 -71.6511919223583,-34.2020044040646 -71.6512052607594,-34.2020051442151 -71.651341462932,-34.2020233288836 -71.6513577217806,-34.2020269654926 -71.6513600173848,-34.2020281689341 -71.651362269872,-34.2020285502348 -71.6515295560732,-34.2020918443906 -71.6515349256446,-34.2020948528632 -71.6515450943396,-34.202099562344 -71.6515539719098,-34.2021051733081 -71.6516311320477,-34.2020295350158 -71.6516324751088,-34.2020286982173 -71.6516335212654,-34.2020273197263 -71.6519998132992,-34.2017058990223 -71.6524745980953,-34.2012846700727 -71.6524751040848,-34.2012843706433 -71.6524754334977,-34.201283941612 -71.652985372603,-34.2008480651805 -71.6533456980847,-34.2005278254392 -71.6533459004774,-34.2005277056661 -71.6533460370069,-34.2005275269178 -71.6533598644186,-34.2005183315984 -71.6534194770091,-34.2004887458299 -71.6534211834169,-34.2004880102302 -71.6534216397486,-34.2004877190839 -71.6535634039356,-34.2004233447276 -71.6535681514025,-34.2004213929815 -71.6535706635446,-34.2004209212083 -71.6535724333643,-34.2004199588579 -71.6538141109596,-34.2003471596417 -71.6539337230172,-34.2003107945289 -71.6537269547456,-34.1998378539818 -71.6535181674542,-34.1995165536097 -71.6535171791333,-34.1995134765326 -71.6535146509388,-34.1995104246725 -71.6531633105036,-34.1988093826585 -71.6527868068705,-34.1982297260705 -71.6525275374804,-34.1978459167611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6532907260012,-34.2037967877687 -71.6535860590416,-34.2045623416824 -71.6538883481535,-34.2043129732367 -71.6538618867549,-34.2042498125256 -71.6538617855453,-34.204249353147 -71.6538611237236,-34.2042479016304 -71.6536785365168,-34.2037663451791 -71.653636873725,-34.2036714046288 -71.6536217471098,-34.2036649266261 -71.6532907260012,-34.2037967877687</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6513528157834,-34.2021735092477 -71.6513778039585,-34.2025488645098 -71.6515118961412,-34.2026593554371 -71.6516806711222,-34.2027920383698 -71.65175713311,-34.2028596550758 -71.6519337656363,-34.2030058452834 -71.6520757873213,-34.2031320476077 -71.6520755715622,-34.2031327797892 -71.6520980118569,-34.203138765304 -71.6522480934281,-34.2031993582844 -71.6524770301061,-34.2033243647658 -71.6526099514565,-34.2034503089819 -71.6527246702784,-34.2035207861624 -71.6532250233118,-34.2036376385344 -71.6532903539987,-34.2037958239996 -71.6532907260012,-34.2037967877687 -71.6536217471098,-34.2036649266261 -71.6534383032169,-34.2035863648536 -71.6532978732589,-34.2035281481826 -71.6532873860505,-34.2035220439111 -71.6532813663467,-34.2035190685231 -71.6531513148628,-34.2034267972188 -71.6531483445911,-34.2034234916841 -71.6531443892746,-34.203421264031 -71.6528694738861,-34.2031740210003 -71.652147191955,-34.2026964187319 -71.6521433752055,-34.2026936597655 -71.6521430807899,-34.2026935092734 -71.6517723705648,-34.2024130575024 -71.6514538407382,-34.2022117323585 -71.6513528157834,-34.2021735092477</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6542415024673,-34.2012816153226 -71.6538737632505,-34.2013105430994 -71.6531536332511,-34.2013603291755 -71.6529728332075,-34.2014577216527 -71.6528361218088,-34.2015609995132 -71.6527595255482,-34.2016561366783 -71.6526937558359,-34.2017464797179 -71.652671403082,-34.2019088428605 -71.6526451308551,-34.2020336710509 -71.652596740821,-34.2021532776178 -71.6525979979732,-34.2022809304146 -71.6526389599315,-34.2023621241893 -71.6526918200423,-34.2024727001273 -71.6524618607101,-34.2027317270287 -71.6529756585037,-34.2030714704211 -71.6529810061962,-34.2030753348274 -71.6529827118016,-34.2030773407228 -71.6529847540382,-34.2030784901164 -71.6532606285009,-34.2033265956057 -71.653379436302,-34.2034108884529 -71.6535114200591,-34.203465603417 -71.6535116422104,-34.2034657329323 -71.6535123722744,-34.2034660047089 -71.6535806002453,-34.2034952240173 -71.6535971325598,-34.2034739710993 -71.6537209556806,-34.2033701690234 -71.6539378361795,-34.2031689956942 -71.6542557996577,-34.202852013318 -71.6543646810654,-34.202730486044 -71.6544551774341,-34.2025851171585 -71.6544926397199,-34.2024786110039 -71.65450694014,-34.2023440846209 -71.6545068089763,-34.2023436042552 -71.6545071840864,-34.2023417958304 -71.6545103927858,-34.2023116080231 -71.6545145179327,-34.2021992193215 -71.6545079265601,-34.2021374756444 -71.6543631443614,-34.2016686032579 -71.6542415024673,-34.2012816153226</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6540396615992,-34.2042629381279 -71.654317109223,-34.2040541638977 -71.6546004874689,-34.2038379224034 -71.6548292412087,-34.2037131749745 -71.6550283373314,-34.2036166852199 -71.6551718508924,-34.2035461480257 -71.6548520180948,-34.2029990815331 -71.6548517142963,-34.2029980441717 -71.6548509009492,-34.2029970890643 -71.6546266598214,-34.2025794872482 -71.6546091320977,-34.2026293178715 -71.6546069917415,-34.2026345875307 -71.654603305113,-34.202641409707 -71.6545061463085,-34.2027974813716 -71.6545024568089,-34.2028017911176 -71.6544991447683,-34.2028067886505 -71.6543849736522,-34.2029342200335 -71.6543826446376,-34.2029365197145 -71.6543822103683,-34.2029371340265 -71.6540618903626,-34.2032564674791 -71.654060858213,-34.203257115469 -71.654059993421,-34.203258290821 -71.6538407744231,-34.2034616326201 -71.6538391037418,-34.203462644215 -71.6538379595926,-34.2034641149959 -71.6537510551248,-34.203536968998 -71.6538320111472,-34.2037214508117 -71.6538321457001,-34.203722039285 -71.6538331745241,-34.2037242951114 -71.6540159411364,-34.204206323424 -71.6540396615992,-34.2042629381279</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6549869050999,-34.2029185903876 -71.655080564422,-34.20294340414 -71.6551637529387,-34.2029834203811 -71.655208687704,-34.2029980070562 -71.6553271905089,-34.2030071102117 -71.6554227796751,-34.2029573879924 -71.6554939374008,-34.2028751287087 -71.6553664900428,-34.2026182330832 -71.6552537349754,-34.202381926725 -71.6551734503848,-34.2022105617184 -71.655098891621,-34.2020351817457 -71.6549805906599,-34.2017712793771 -71.6549169409693,-34.2016078197727 -71.6549295274374,-34.2014120751137 -71.6549486101929,-34.2011622167508 -71.6548218647685,-34.2008902311527 -71.6547527639688,-34.2007395312523 -71.6546805358506,-34.2006010558003 -71.654554233526,-34.2004924397634 -71.6544897896517,-34.2002662704394 -71.6544376246311,-34.2000957545686 -71.6543377461832,-34.1998966095785 -71.6542291584812,-34.1996436800218 -71.6540560716063,-34.1993493568424 -71.6540031462563,-34.1991545436303 -71.6539945021048,-34.199140143531 -71.653766541254,-34.1990740858434 -71.6537697593624,-34.198878058066 -71.6537947220279,-34.1987783225139 -71.6537245235998,-34.1987044736376 -71.6536279502874,-34.1985733316803 -71.6535501640504,-34.1984067730828 -71.6535176667002,-34.1983408607347 -71.6534910755185,-34.1982393238158 -71.6534710760566,-34.1981240297007 -71.6534685746981,-34.1980068973147 -71.6534524677682,-34.1979411160947 -71.653390563913,-34.1978704906448 -71.6532539369251,-34.1977309766151 -71.6531809584291,-34.1976430862198 -71.653129124887,-34.1975786704112 -71.6526702744525,-34.1977825087113 -71.6529261759209,-34.1981634246416 -71.6533102763079,-34.1987513625646 -71.6533109104052,-34.1987534890116 -71.6533124777517,-34.1987553788993 -71.6536632671022,-34.199455319937 -71.6538729507607,-34.1997779979803 -71.6538744911437,-34.1997827984978 -71.6538778300231,-34.1997870327019 -71.6541034895458,-34.200303183244 -71.654103829247,-34.2003046741886 -71.6541057754431,-34.2003093018429 -71.6543356588516,-34.2010462098525 -71.6545206037764,-34.2016345850232 -71.6545206238834,-34.2016347071923 -71.6545206918288,-34.2016348670902 -71.654667165689,-34.202109218036 -71.6546684974077,-34.2021171521768 -71.6546693996926,-34.2021200435921 -71.6547990853235,-34.2025688162019 -71.6549869050999,-34.2029185903876</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6524618607101,-34.2027317270287 -71.6526918200423,-34.2024727001273 -71.6526389599315,-34.2023621241893 -71.6525979979732,-34.2022809304146 -71.652596740821,-34.2021532776178 -71.6526451308551,-34.2020336710509 -71.652671403082,-34.2019088428605 -71.6526937558359,-34.2017464797179 -71.6527595255482,-34.2016561366783 -71.6528361218088,-34.2015609995132 -71.6529728332075,-34.2014577216527 -71.6531536332511,-34.2013603291755 -71.6538737632505,-34.2013105430994 -71.6542415024673,-34.2012816153226 -71.6541782257376,-34.2010803083917 -71.6541782175934,-34.2010802562808 -71.6541781883114,-34.201080187499 -71.653970598605,-34.2004147392369 -71.6538587428149,-34.200448745827 -71.6538586294488,-34.2004487636067 -71.6538585611867,-34.2004488011446 -71.6536214632385,-34.2005202211873 -71.653485150406,-34.2005821192846 -71.6534344970665,-34.2006072578717 -71.653080016411,-34.2009223040254 -71.6530794880518,-34.2009226165624 -71.6530791419166,-34.2009230657903 -71.6525691838868,-34.2013589592443 -71.6520946916326,-34.2017799298057 -71.6520945457132,-34.2017800168023 -71.6520944477443,-34.2017801451324 -71.6517292634943,-34.2021005937708 -71.6516577078596,-34.2021707388321 -71.6518737324632,-34.2023072766177 -71.6518788309924,-34.2023108796199 -71.6518792489342,-34.2023110941518 -71.6522506202333,-34.202592044258 -71.6524618607101,-34.2027317270287</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE6</SimpleData>
+		<SimpleData name="NOM">Zona ZE6 zona de baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Espacio público; Área verde. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, hospedajes; Equipamiento de todo tipo; Actividad productiva de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6541036104431,-34.2044155727079 -71.6541091146518,-34.2044122802437 -71.6544109343897,-34.2042739255094 -71.6544887407888,-34.2042253823611 -71.6549575124919,-34.2041539562977 -71.6550836955172,-34.2041460739665 -71.6554926587593,-34.2041127379011 -71.6551925692357,-34.2035815863058 -71.6551718508924,-34.2035461480257 -71.6550283373314,-34.2036166852199 -71.6548292412087,-34.2037131749745 -71.6546004874689,-34.2038379224034 -71.654317109223,-34.2040541638977 -71.6540396615992,-34.2042629381279 -71.6541036104431,-34.2044155727079</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE6</SimpleData>
+		<SimpleData name="NOM">Zona ZE6 zona de baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Espacio público; Área verde. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, hospedajes; Equipamiento de todo tipo; Actividad productiva de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6538883481535,-34.2043129732367 -71.6535860590416,-34.2045623416824 -71.6532907260012,-34.2037967877687 -71.6532903539987,-34.2037958239996 -71.6532250233118,-34.2036376385344 -71.6527246702784,-34.2035207861624 -71.6526099514565,-34.2034503089819 -71.6524770301061,-34.2033243647658 -71.6522480934281,-34.2031993582844 -71.6520980118569,-34.203138765304 -71.6520755715622,-34.2031327797892 -71.6520469871104,-34.203229737408 -71.651947367115,-34.2033382240398 -71.6517205380009,-34.2034543151712 -71.6514716394403,-34.203543969745 -71.6511956540236,-34.2036165608938 -71.6510015807253,-34.2036256107952 -71.6508521804698,-34.2036367829246 -71.6506543629913,-34.2037297432231 -71.6504808628416,-34.2038870361658 -71.6503439935032,-34.2039592651882 -71.650297633342,-34.2041067493328 -71.6502398848401,-34.2041957980521 -71.6501420105395,-34.2042923330679 -71.6500139119648,-34.2044411424356 -71.6498872871074,-34.204569183417 -71.6497467233206,-34.2046591395178 -71.6496683093889,-34.204698778782 -71.6495159955255,-34.2046508898422 -71.649460663316,-34.2045797274113 -71.6494186745319,-34.2044937163633 -71.6493738863707,-34.2043861468192 -71.6492943340668,-34.2042537384679 -71.649230167128,-34.2041717360418 -71.649118339269,-34.2041617985154 -71.6490229681982,-34.2041347390792 -71.6489450051155,-34.2040870087267 -71.6489390888296,-34.2039997762592 -71.6488294234556,-34.2039571428378 -71.6487390578578,-34.2039542417182 -71.6486329625228,-34.2039238842979 -71.6485448686522,-34.2038578412342 -71.648455271798,-34.2037777112057 -71.6483581233921,-34.2037277472348 -71.6481930344058,-34.2036788091627 -71.6481924825149,-34.2036611732245 -71.6482262351755,-34.2035519064848 -71.648198707945,-34.2035207339184 -71.6480997145779,-34.2035475799462 -71.6480826782271,-34.2035461828153 -71.6480915804853,-34.2034912808781 -71.6480727927657,-34.2034678608496 -71.6479129576678,-34.2034510178603 -71.6478464503936,-34.2034299519526 -71.6477922632636,-34.2032934652491 -71.6476961472628,-34.2031746494116 -71.6476168218559,-34.2031172401819 -71.6475793321844,-34.2032089387189 -71.6475208755058,-34.2032075544049 -71.6474004602508,-34.2031267657271 -71.6473126440028,-34.2030695396616 -71.6472183637792,-34.2030433377853 -71.6471172609154,-34.2030366970774 -71.6469734294089,-34.2030561273047 -71.6468775220073,-34.202977897461 -71.6466428961015,-34.202810890164 -71.6463316072143,-34.2027395156972 -71.6461291817156,-34.2027531510012 -71.6459880386316,-34.2027906116449 -71.6458378115916,-34.2028092960029 -71.6456977841024,-34.2027805509021 -71.6455355794243,-34.2027558136345 -71.6453631198867,-34.2026408493642 -71.6452596052182,-34.2027269123136 -71.6451721339354,-34.2028166010357 -71.6450207903787,-34.2027995709914 -71.6449539113217,-34.2028345455009 -71.6448269205152,-34.2030870106374 -71.6447043684717,-34.2032436372581 -71.6445174802324,-34.2033710942317 -71.6455658433908,-34.2062238383287 -71.6460891183273,-34.2061850029284 -71.6462708385683,-34.206208886165 -71.6464213488266,-34.2062653688258 -71.6465543737424,-34.2063175932678 -71.6468049795283,-34.2064038402327 -71.6475208291502,-34.2066221578367 -71.6478548655001,-34.2067205036366 -71.6481534126203,-34.2067938682212 -71.6483790379665,-34.2068739560619 -71.6485384467722,-34.2068978031542 -71.6487840694867,-34.2069831232099 -71.6490001523555,-34.2069959619135 -71.6492513354572,-34.206942130862 -71.6495359796355,-34.2068880917198 -71.6498424049035,-34.2068171024886 -71.650221454414,-34.2066111783766 -71.6505358183743,-34.2064375463606 -71.6506444012106,-34.20634251214 -71.6507599955734,-34.2062339379731 -71.6509216668006,-34.2061717412984 -71.6511250821565,-34.2060967976503 -71.6514345256682,-34.2060035983197 -71.6516922351863,-34.205960434734 -71.6521139824114,-34.2058910660187 -71.6523543506806,-34.2058482762373 -71.6524129434437,-34.2057007701334 -71.652455297702,-34.2056679278288 -71.6525188831076,-34.2056006421209 -71.6525778690433,-34.2055447842037 -71.6527141994944,-34.2054651107102 -71.6528330742049,-34.2053822097203 -71.6529137947387,-34.205347508355 -71.6529632711403,-34.2052650796075 -71.6530657840943,-34.2051742945655 -71.6531745912218,-34.2051261107855 -71.65332994774,-34.2050207935585 -71.653399662075,-34.204951314821 -71.6535934576236,-34.2047674123716 -71.6536405199596,-34.204687095562 -71.653869037853,-34.2045827685947 -71.6538725406887,-34.2045363491806 -71.6539649691292,-34.2044958512382 -71.6538883481535,-34.2043129732367</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6459461223545,-34.2013356693708 -71.6467348542562,-34.2014483688949 -71.6473460922589,-34.2015397317879 -71.6472041422937,-34.2010283611453 -71.6472040684987,-34.2010278750243 -71.6472038974164,-34.2010274351779 -71.6470583609882,-34.2004531950062 -71.646906535394,-34.1998602335637 -71.6467435582999,-34.1992733318099 -71.6466908531513,-34.1991151393355 -71.6453921116845,-34.1993690893971 -71.6454375256253,-34.199523633661 -71.645437532201,-34.1995236704809 -71.6454375486757,-34.1995237115946 -71.6456974172358,-34.2004142384956 -71.6456974902611,-34.2004147002937 -71.6456976775277,-34.2004151722474 -71.6459116829279,-34.2012158552209 -71.6459461223545,-34.2013356693708</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.647474120703,-34.2015598570547 -71.6482541850183,-34.2017002946762 -71.6482560366985,-34.2017006278983 -71.6480581164737,-34.2009200537663 -71.6479139444139,-34.2003169118607 -71.6478252948311,-34.1999480256978 -71.6476582597547,-34.1993533852077 -71.6476171776252,-34.1992109168354 -71.647518147588,-34.1987565618945 -71.6473970127495,-34.1982938836665 -71.6447466790803,-34.1978211255003 -71.6456709848095,-34.2013124221747 -71.6456716109962,-34.2013147868333 -71.645820240026,-34.2013244769689 -71.6457955266411,-34.2012384991387 -71.645795465823,-34.2012381155083 -71.6457953138418,-34.2012377311409 -71.645581331624,-34.2004371321808 -71.6453216123136,-34.1995471093343 -71.6451358197215,-34.198914851325 -71.6451214672615,-34.1988692175307 -71.6451213236704,-34.1988683723114 -71.6451209444485,-34.1988674167833 -71.6450696886808,-34.1986753677287 -71.6451861650812,-34.1986539058551 -71.6452371790617,-34.1988450495507 -71.645251371382,-34.19889017473 -71.6452514298722,-34.1988905187448 -71.6452516071633,-34.1988909494454 -71.6453638108408,-34.1992727827585 -71.6466923357293,-34.1990130090836 -71.6467067423043,-34.1990045538547 -71.6467294443192,-34.1990002891305 -71.6467523833279,-34.1990035684956 -71.6467720652652,-34.1990138913233 -71.6467854953219,-34.1990296869409 -71.6467884851414,-34.1990366144706 -71.6468588850436,-34.199247917515 -71.6468590479447,-34.1992488245187 -71.6468595208014,-34.1992499979867 -71.6470229034467,-34.1998383602661 -71.6470229701274,-34.1998387924506 -71.6470231246741,-34.1998391893822 -71.6471750697693,-34.2004326168644 -71.6471750779937,-34.2004326716786 -71.6471750956946,-34.2004327172732 -71.6473205277079,-34.2010065439492 -71.647474120703,-34.2015598570547</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6589110779333,-34.2076018662382 -71.6589136324448,-34.2075970743379 -71.6589178305328,-34.2075978315884 -71.6589144812658,-34.2075952880812 -71.6588330927675,-34.2075774665608 -71.6583635674763,-34.2075111729197 -71.6583533399143,-34.2075614695392 -71.6583525128105,-34.2075639819318 -71.6583522979258,-34.207565603886 -71.6582746664132,-34.2078230200486 -71.6582745742675,-34.2078232645509 -71.6582745591736,-34.2078233712554 -71.6582285663906,-34.2079716578149 -71.6582279644384,-34.2079732205502 -71.6582278937567,-34.2079736647204 -71.6581562200097,-34.2081726839509 -71.6581560248134,-34.2081729640434 -71.658155946937,-34.2081734209905 -71.6580767899621,-34.2083823134315 -71.6580754704063,-34.2083841757004 -71.6580749461678,-34.2083865544119 -71.6579943660708,-34.2085501582711 -71.6579941710235,-34.2085504086105 -71.6579922301865,-34.2085540476879 -71.6578218088074,-34.2088345166751 -71.6578210554666,-34.2088354056633 -71.6578197810972,-34.208837601407 -71.657614568357,-34.2091269172792 -71.6576088808171,-34.2091331870311 -71.6576076037269,-34.2091349510123 -71.6573995446241,-34.2093336894693 -71.6573975645533,-34.2093349061517 -71.6573961746822,-34.2093366725759 -71.6571719091852,-34.2095207114395 -71.6575228873048,-34.2099441204054 -71.6589110779333,-34.2076018662382</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.658282329435,-34.2072535401771 -71.6576680050827,-34.2071550332563 -71.6576175880431,-34.2071461809732 -71.6569906948176,-34.2070361054855 -71.6562729992028,-34.2069180490564 -71.6560021512622,-34.2068728514261 -71.6558431863848,-34.2074415142878 -71.6557032647159,-34.2079195239888 -71.6556189956926,-34.2082060387279 -71.6556379654783,-34.2082038707239 -71.6558116734435,-34.2081817409393 -71.65581466783,-34.2081815192007 -71.6558153651333,-34.2081813679659 -71.6559980637452,-34.2081676984484 -71.6560248008093,-34.208170792735 -71.6560293075754,-34.2081731561836 -71.6562306237576,-34.2081658036121 -71.6562311468182,-34.2081658743143 -71.6562316883324,-34.2081657724296 -71.6562423823145,-34.2081663403265 -71.656414517401,-34.2081885075332 -71.6564225004569,-34.2081902727605 -71.6564244090305,-34.2081905117665 -71.6565855734946,-34.208235575733 -71.6565866042188,-34.2082360906898 -71.6565879296314,-34.2082362801282 -71.6565927929592,-34.208238041738 -71.6567664519163,-34.2083087321222 -71.6567704535908,-34.2083110433851 -71.6567760013589,-34.2083135915882 -71.6568713795135,-34.2083730292869 -71.6568766531489,-34.2083767301376 -71.6568780896996,-34.2083784199677 -71.6568797590726,-34.2083793691258 -71.6570041206008,-34.2084932097855 -71.6570045196158,-34.2084937185986 -71.6570062659273,-34.2084952863204 -71.6570867810491,-34.2085777061658 -71.6570898329655,-34.2085818383047 -71.6570924386688,-34.208584615242 -71.6572027501885,-34.208747317839 -71.6572052737726,-34.2087514875712 -71.6572055276025,-34.2087524178277 -71.6572061143562,-34.2087531344233 -71.6573644379968,-34.2090798889845 -71.6573645955454,-34.2090805175217 -71.657364929871,-34.2090809357827 -71.6574032046049,-34.209165407916 -71.6575054615581,-34.209067730965 -71.6577065629251,-34.2087842118181 -71.657874870541,-34.2085072217344 -71.6579534475433,-34.2083476865882 -71.6580316488164,-34.2081413148074 -71.6581028308537,-34.2079436630651 -71.6581484574084,-34.2077965609487 -71.6582254181167,-34.2075413707871 -71.6582731762996,-34.2073065035731 -71.658282329435,-34.2072535401771</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6555764657795,-34.208310965549 -71.6553501226897,-34.2087400249155 -71.6552548349724,-34.2089232667102 -71.6550938657306,-34.2094283143029 -71.6550606622491,-34.2095281600112 -71.6549338307542,-34.2099095571264 -71.6549212544147,-34.209948771723 -71.6549868397645,-34.2099414508268 -71.6549877027929,-34.209941393369 -71.6549879678237,-34.2099413326368 -71.6555459188416,-34.2098872712808 -71.6558297346185,-34.2098491242848 -71.6561643807984,-34.2097872312429 -71.6563153314709,-34.2097571440291 -71.6565700757785,-34.2096814809817 -71.6567936783961,-34.209610971968 -71.6570657228486,-34.2094558459769 -71.6573029469064,-34.2092611735332 -71.6573142213876,-34.2092504040822 -71.6572534981276,-34.2091163861175 -71.6570968794152,-34.2087931526756 -71.6569909553354,-34.2086369205173 -71.6569146590542,-34.2085588193115 -71.6567952299824,-34.2084494936545 -71.6567089027653,-34.2083956969574 -71.6565438070415,-34.2083284927294 -71.6563911919888,-34.2082858190301 -71.6562299527248,-34.2082650555197 -71.6560179192401,-34.2082727989829 -71.6559939128748,-34.2082695526729 -71.6559905567916,-34.2082677926375 -71.6558279197004,-34.2082799619139 -71.6556555948996,-34.2083019148152 -71.6556549453642,-34.2083019631444 -71.6556546847047,-34.2083020246848 -71.6555764657795,-34.208310965549</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6628856265589,-34.2063323984842 -71.662806797253,-34.2061327697423 -71.6627730388109,-34.2060582187403 -71.6618891186853,-34.2064568456167 -71.6617288964832,-34.2064332220738 -71.6615283677719,-34.2063572731977 -71.6614001363466,-34.2063520267721 -71.6611325814934,-34.2062193125975 -71.6610949280911,-34.2060976682936 -71.6610662846252,-34.2060320405864 -71.6610957857197,-34.2058175938249 -71.6611050548826,-34.2055744767908 -71.6609758783014,-34.2055391366589 -71.6607581978059,-34.2054555281898 -71.6607395329302,-34.2052461422414 -71.6607380541714,-34.2050454171945 -71.6607365123681,-34.204842685867 -71.6606498727606,-34.2047000205515 -71.6606319226672,-34.2045812992715 -71.6602893423771,-34.2045052580048 -71.660267301703,-34.2045036601656 -71.6598086454167,-34.204476654897 -71.6593748845855,-34.2044466160644 -71.659169117234,-34.2044337728259 -71.6591743484086,-34.2044353334372 -71.659174897561,-34.2044356136113 -71.6591755689702,-34.2044357099314 -71.6591832846397,-34.2044387131402 -71.6594635369987,-34.2045688178626 -71.6594755060264,-34.2045761362178 -71.6594765797377,-34.2045773984651 -71.6594779017096,-34.2045781360613 -71.6596634885539,-34.2047421422997 -71.6600836444121,-34.2050999763959 -71.6600849613954,-34.2051015903529 -71.6600910209895,-34.2051076530752 -71.6602649298146,-34.2053308537168 -71.6602662955146,-34.2053329471147 -71.6602669613652,-34.2053336601762 -71.6605796404514,-34.2057998062052 -71.6605808299657,-34.2058017826219 -71.6605810347323,-34.2058020143709 -71.6607299911718,-34.2060529928984 -71.6607306695131,-34.2060552761012 -71.6607321838073,-34.2060571598239 -71.660860104845,-34.206334180258 -71.6608603483851,-34.2063351963724 -71.6608621389068,-34.2063394459469 -71.6611137822167,-34.2071424422427 -71.6611352324744,-34.2072065628102 -71.6612749055669,-34.2072334891858 -71.6613610990469,-34.2072316178436 -71.6614264922383,-34.2072165168765 -71.661706403156,-34.2070543461032 -71.6626715754743,-34.2064342119798 -71.6628856265589,-34.2063323984842</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6567295787712,-34.2056713408778 -71.656723180152,-34.2058107508565 -71.6567867956453,-34.2058147883284 -71.657101261366,-34.2058473220223 -71.6577096986738,-34.2059178400479 -71.6576896853727,-34.2063224984771 -71.657670992834,-34.206644152202 -71.6583962118599,-34.2067557240644 -71.6595252258927,-34.2069275882464 -71.6595256839076,-34.2069276955044 -71.6595260884106,-34.2069277227883 -71.6605577371448,-34.2070927297227 -71.6605602723568,-34.2070933318911 -71.6605618858853,-34.2070934708596 -71.6610027211462,-34.2071806437393 -71.6609986921349,-34.2071685978995 -71.6609986344231,-34.2071682809225 -71.6609984374095,-34.2071678128127 -71.6607475126374,-34.2063671039954 -71.660652743006,-34.2061618734354 -71.6596870083568,-34.2060353120791 -71.6596866991447,-34.2060352439635 -71.6596863501727,-34.2060352226872 -71.6586303293289,-34.2058875865801 -71.6586293785294,-34.2058873701066 -71.6586285053042,-34.2058873088119 -71.6582268106638,-34.2058213164758 -71.657378912356,-34.2057027460365 -71.6570138273215,-34.2056616461405 -71.6567295787712,-34.2056713408778</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6576832039936,-34.2068110033882 -71.6576175880431,-34.2071461809732 -71.6576680050827,-34.2071550332563 -71.658282329435,-34.2072535401771 -71.6583413108846,-34.2069122506632 -71.6576832039936,-34.2068110033882</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6564496222525,-34.2057933881506 -71.656723180152,-34.2058107508565 -71.6567295787712,-34.2056713408778 -71.6564876257539,-34.2056795918985 -71.6564850147127,-34.2056991759273 -71.6564801034058,-34.2057159619587 -71.6564800919591,-34.2057159775323 -71.6564800881592,-34.2057159947432 -71.6564527002886,-34.2057751651877 -71.6564496222525,-34.2057933881506</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6561974397604,-34.2064201503616 -71.6562340795392,-34.2061835323849 -71.6562807508557,-34.2058207291729 -71.6562809839515,-34.2058199280952 -71.6562810796826,-34.2058185187754 -71.6562873638767,-34.2057813128177 -71.6562792234802,-34.2057807842401 -71.65627871702,-34.2057806888375 -71.6562774211957,-34.2057806456984 -71.6553979792206,-34.2057030304251 -71.6553978088798,-34.205702996252 -71.6553974742883,-34.2057029836669 -71.6547948479444,-34.2056458372212 -71.6547627264977,-34.20613155947 -71.6547923893337,-34.2062100140162 -71.6552893623757,-34.2062785514861 -71.6552903885284,-34.2062787834819 -71.6552913964674,-34.2062788499958 -71.6561814808705,-34.2064177375742 -71.6561974397604,-34.2064201503616</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.655879622946,-34.2045964643386 -71.6557881011906,-34.2045650456111 -71.65567277715,-34.2045295862738 -71.6553973042706,-34.2044803133244 -71.6550835502183,-34.2044378792115 -71.6548296440039,-34.2044101832046 -71.6546271376506,-34.204410309136 -71.654506824484,-34.2044375697219 -71.6544201799233,-34.2044685644858 -71.6542552816417,-34.2045491784102 -71.6541531518643,-34.2046281419088 -71.6541531707161,-34.2046432723306 -71.6541811585489,-34.2047113960474 -71.6542275120666,-34.2048149838946 -71.6547956197268,-34.2048545118507 -71.6548120269501,-34.2048576336162 -71.6548317111942,-34.2048679550299 -71.6548451437004,-34.204883749636 -71.6548502786004,-34.2049026132625 -71.65485010072,-34.2049079413916 -71.6547923784625,-34.2054949133023 -71.6547971082338,-34.2055372112568 -71.6548053486002,-34.2055379874851 -71.654805364978,-34.2055379907364 -71.654805397564,-34.2055379918337 -71.6554119812676,-34.2055955140918 -71.6562902698743,-34.2056730280759 -71.6563245069307,-34.2056752521176 -71.6564524836902,-34.2047154013787 -71.6562524531025,-34.2047132911262 -71.6562488359095,-34.204712714114 -71.6562382174785,-34.2047117046359 -71.6560921923794,-34.2046802032402 -71.6560858001106,-34.2046784999745 -71.6560813721827,-34.2046769137123 -71.655879622946,-34.2045964643386</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6535608244161,-34.2051265898648 -71.6538342955039,-34.2054799728695 -71.6539989772632,-34.2056829490988 -71.6542818803218,-34.205515395176 -71.6542867865864,-34.2055130667357 -71.6542884484672,-34.2055120156585 -71.6543530395204,-34.205483412393 -71.654028272867,-34.2047576475203 -71.6540282013134,-34.2047573380509 -71.6540275353626,-34.2047559280941 -71.6540180623915,-34.2047328698986 -71.653920948939,-34.2048081510473 -71.6535608244161,-34.2051265898648</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6539824752626,-34.2058144633636 -71.6540836481624,-34.2059661603467 -71.6540863991119,-34.2060027360665 -71.6540946507747,-34.2065214526399 -71.6539876973342,-34.2068434989875 -71.6542928175022,-34.2069381330476 -71.6543169363777,-34.2068619647774 -71.6543193327323,-34.2068557898798 -71.6543193787994,-34.2068555635065 -71.654478428032,-34.2065008956821 -71.6544799112664,-34.2064989226271 -71.6544803979396,-34.2064968999338 -71.6545671810379,-34.2063356799894 -71.6545694651257,-34.2063328448823 -71.654574784704,-34.2063245287119 -71.6546190561631,-34.206271952628 -71.6546267111363,-34.2062641664482 -71.6546392089175,-34.2062559364266 -71.6545758295896,-34.2060882996985 -71.6545758283075,-34.2060882934158 -71.6545758224902,-34.2060882809207 -71.6544538458582,-34.2057653355106 -71.6544536053056,-34.2057641354102 -71.6544526623524,-34.2057618858447 -71.6543971289234,-34.205581940358 -71.6543949935458,-34.205577167162 -71.6543479866882,-34.2055979838447 -71.6539824752626,-34.2058144633636</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6544366704478,-34.2070151535395 -71.6551743858159,-34.2071984724318 -71.655184551602,-34.2071792386407 -71.6552096835525,-34.2070905651643 -71.6552130910788,-34.2070167890047 -71.6552137063674,-34.2069463556984 -71.6551877544996,-34.2068472810589 -71.6551182718676,-34.2066669764281 -71.6551180411824,-34.2066658491373 -71.6551171603441,-34.2066637127234 -71.6550930676222,-34.2065824186919 -71.6550913582834,-34.2065718603544 -71.6550917313944,-34.2065700573809 -71.6550913871364,-34.2065685611309 -71.6550970048355,-34.206453386066 -71.6550976001789,-34.2064509886962 -71.6550982379929,-34.2064451728095 -71.6551052327793,-34.2064175930818 -71.6547376723079,-34.2063669029977 -71.6547125453393,-34.2063967442081 -71.6546299867218,-34.2065501162326 -71.6544732572572,-34.2068996089599 -71.6544366704478,-34.2070151535395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6556189956926,-34.2082060387279 -71.6557032647159,-34.2079195239888 -71.6558431863848,-34.2074415142878 -71.6560021512622,-34.2068728514261 -71.6562729992028,-34.2069180490564 -71.6569906948176,-34.2070361054855 -71.6576175880431,-34.2071461809732 -71.6576832039936,-34.2068110033882 -71.6571910255285,-34.2067352815317 -71.6561462487328,-34.2065772898457 -71.656145966714,-34.2065772238364 -71.65614571119,-34.2065772068357 -71.6552563720789,-34.2064384363193 -71.6552230488131,-34.2064338410734 -71.6552160212118,-34.2064615495311 -71.6552109481226,-34.2065655476895 -71.6552325288678,-34.2066383651872 -71.6553022596914,-34.2068193107495 -71.6553026097966,-34.2068210277402 -71.6553037356876,-34.2068238845539 -71.6553317056708,-34.2069306620617 -71.6553330495011,-34.2069399103152 -71.6553328715616,-34.2069407751048 -71.655333068793,-34.2069415623517 -71.6553323990639,-34.2070182794072 -71.655332200635,-34.2070191482465 -71.6553323562679,-34.2070198201007 -71.655328691548,-34.2070991586943 -71.6553279453901,-34.2071021786642 -71.6553271470415,-34.2071086182626 -71.6552994410978,-34.2072063751644 -71.6552970651423,-34.2072127831267 -71.6552962533808,-34.2072138509614 -71.6552959947055,-34.2072149437769 -71.6552523305321,-34.2072975567331 -71.655229354429,-34.2074023023847 -71.6552281422634,-34.2074058940845 -71.6552279125839,-34.2074073576908 -71.6550724819525,-34.2078479288435 -71.655071346628,-34.2078507192447 -71.6550713119351,-34.2078508930847 -71.6549797128138,-34.2080606274707 -71.6549796614415,-34.2080607538923 -71.6550218975791,-34.2080779845191 -71.655026767892,-34.2080807998975 -71.6550323141535,-34.2080834059103 -71.6551097285625,-34.2081336177855 -71.6551104367735,-34.2081341253167 -71.6551106471916,-34.2081342262348 -71.6551680206803,-34.2081729750366 -71.6552139050206,-34.2081893774221 -71.6553300667055,-34.2082108483246 -71.6554848741166,-34.2082213697633 -71.6556189956926,-34.2082060387279</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona ZE1 Área central continua y comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.657670992834,-34.206644152202 -71.6576896853727,-34.2063224984771 -71.6577096986738,-34.2059178400479 -71.657101261366,-34.2058473220223 -71.6567867956453,-34.2058147883284 -71.656723180152,-34.2058107508565 -71.6564496222525,-34.2057933881506 -71.6564423900988,-34.2058362030715 -71.6563957681216,-34.2061986203163 -71.6563956212547,-34.2061991265373 -71.6563955638093,-34.2062000617387 -71.6563577321078,-34.2064443908892 -71.6572261347088,-34.2065757109416 -71.6572262888154,-34.2065757463655 -71.6572264301739,-34.2065757559223 -71.657670992834,-34.206644152202</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6499765552514,-34.2082104158251 -71.6499709226284,-34.2083289393164 -71.6499702963793,-34.2083314635434 -71.6499696175881,-34.2083374723174 -71.6499334667935,-34.2084761947576 -71.6499308519275,-34.2084834768403 -71.6499308175263,-34.2084835217577 -71.6499308072349,-34.2084835742674 -71.6498738956929,-34.2086059234385 -71.6498737466395,-34.2086061186811 -71.6498661010349,-34.2086176546313 -71.6497800191139,-34.2087137190572 -71.6497754331172,-34.2087182454789 -71.6497630254866,-34.2087265397846 -71.6496194968463,-34.2087986128196 -71.6496128937073,-34.2088014780938 -71.6496074181484,-34.2088032398939 -71.6494749242708,-34.2088397479046 -71.6494576953577,-34.2088422505546 -71.6494515844426,-34.2088421230059 -71.6493242951435,-34.2088340165172 -71.6493079194588,-34.2088309510461 -71.6493075815858,-34.2088309033569 -71.649243797878,-34.2088106782736 -71.6491541254556,-34.2090596734995 -71.6491457608657,-34.2091368995162 -71.6491756374207,-34.2092086509027 -71.649258317459,-34.2093147505558 -71.6494041307636,-34.2094507749823 -71.6496775021911,-34.2096862111548 -71.6496789295031,-34.2096853229711 -71.6496807126887,-34.2096849878299 -71.6496820204046,-34.2096842654035 -71.6497808762955,-34.20965309911 -71.6497832340966,-34.2096527136825 -71.6497902766192,-34.2096508485838 -71.6503363316544,-34.2095595817915 -71.6509385716294,-34.2094560405608 -71.6509407212455,-34.2094558336038 -71.6509418983592,-34.2094555494151 -71.6515253821895,-34.2093835615126 -71.6514871222105,-34.2090695751273 -71.6514873920354,-34.2090679015094 -71.6514868390681,-34.2090658724669 -71.6514850466157,-34.2090086765903 -71.6514866612445,-34.2089958655575 -71.651499739708,-34.2089503965982 -71.6515020710564,-34.2089441474306 -71.6515020793925,-34.2089441364322 -71.6515020822503,-34.2089441237494 -71.6515494153402,-34.2088418817657 -71.6515811753192,-34.2087690438167 -71.6511818248762,-34.2088213732261 -71.6511740827138,-34.2088219616802 -71.6511511409287,-34.2088186841817 -71.6511409322479,-34.2088144560583 -71.6499765552514,-34.2082104158251</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6521277773304,-34.206402959527 -71.652121649684,-34.2064264563699 -71.6518629614881,-34.2071471715844 -71.6517076597192,-34.2075866254671 -71.6516927975175,-34.2076321591787 -71.6519444927069,-34.2076925734764 -71.6519985255326,-34.2075648334067 -71.6521236405979,-34.2072053979708 -71.6521236456243,-34.207205385241 -71.6521236465675,-34.207205380713 -71.6522512079318,-34.2068215543402 -71.6522530219162,-34.206816976923 -71.6522532219755,-34.2068167129614 -71.6522532863914,-34.2068164140715 -71.6523772396804,-34.2064102524647 -71.6523795141142,-34.206404199238 -71.6523804498588,-34.2064029664685 -71.6523807475099,-34.2064017312788 -71.6523927780596,-34.2063793841295 -71.6523020628371,-34.2063044532294 -71.6521277773304,-34.206402959527</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6460308545959,-34.2074891293724 -71.6464878265179,-34.2087325029907 -71.6489376430511,-34.2108564535647 -71.6490829593683,-34.2108178488049 -71.6494556618644,-34.2107193436953 -71.6496507642393,-34.2106691722361 -71.6498903274158,-34.2105808378488 -71.6501316446255,-34.2104924659823 -71.6502256737889,-34.2104670912552 -71.6503421344012,-34.2104320171733 -71.6499393630903,-34.2100983621653 -71.6499391476781,-34.2100981017802 -71.6499388749834,-34.2100979526169 -71.6496431729593,-34.2098472306961 -71.6496312795711,-34.2098326941092 -71.649629424473,-34.2098287928347 -71.6496168330287,-34.209798653683 -71.6496135550903,-34.2097836910612 -71.6496138063014,-34.2097776798124 -71.6496141774501,-34.2097744588299 -71.6493174294778,-34.2095188896446 -71.6493172635305,-34.2095186840824 -71.6493158150996,-34.2095174424646 -71.6491661690347,-34.2093778424649 -71.6491644356956,-34.2093756108407 -71.6491606415837,-34.2093718145699 -71.6490715413453,-34.209257475923 -71.649067115466,-34.2092506912939 -71.6490652405069,-34.2092467435605 -71.6490288110591,-34.2091592564712 -71.6490255531571,-34.2091443402743 -71.6490257730339,-34.2091386091687 -71.6490358247129,-34.2090458110777 -71.6490374611178,-34.2090399565042 -71.6490380884757,-34.2090360457441 -71.6491409766971,-34.2087503532263 -71.6491351573357,-34.2087495215963 -71.6491170434378,-34.2087403940884 -71.6490436401714,-34.2086865072824 -71.6490430293061,-34.2086858155077 -71.6490420695244,-34.2086853124757 -71.6490296437193,-34.2086712984803 -71.6489274584701,-34.20849926043 -71.6488713715052,-34.2084118257512 -71.6485439522946,-34.2080941446068 -71.6482605521541,-34.2078803690984 -71.6482601672638,-34.2078799284646 -71.6482595803508,-34.2078796202089 -71.6482509877278,-34.207871131572 -71.6480715217464,-34.2076470686905 -71.6479454637003,-34.2075712112938 -71.6476193318918,-34.2074573307651 -71.647406243615,-34.2074066140615 -71.6472254187174,-34.2073844919217 -71.6469969698193,-34.2073711445446 -71.6467955158543,-34.2073623857915 -71.6466087273967,-34.2073793878994 -71.646411222913,-34.2074100336661 -71.6460308545959,-34.2074891293724</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6554926587593,-34.2041127379011 -71.6550836955172,-34.2041460739665 -71.6549575124919,-34.2041539562977 -71.6544887407888,-34.2042253823611 -71.6544109343897,-34.2042739255094 -71.6541091146518,-34.2044122802437 -71.6541036104431,-34.2044155727079 -71.6541401489796,-34.2045027809373 -71.6541787717797,-34.2044729189905 -71.6541826032409,-34.2044708148621 -71.6541891588502,-34.204466484537 -71.6543628979844,-34.2043815485826 -71.6543688937701,-34.2043789846954 -71.654369260539,-34.204378916353 -71.6543695599714,-34.2043787421897 -71.6544634922489,-34.2043451402703 -71.6544638882089,-34.204345068591 -71.6544713887977,-34.2043428462375 -71.6546034313001,-34.2043129291825 -71.6546175725677,-34.2043111994759 -71.6546183551362,-34.2043113114441 -71.6546190824214,-34.2043111830066 -71.6548334759518,-34.2043110493697 -71.6548342239077,-34.2043111647906 -71.6548412862683,-34.2043114716066 -71.6550999925363,-34.2043396910775 -71.655100766958,-34.2043398546047 -71.6551018115138,-34.2043399131156 -71.6554179657062,-34.2043826711263 -71.6554195709531,-34.2043830321134 -71.6554209370742,-34.204383137746 -71.6556914361333,-34.204431521342 -71.6556587971557,-34.2043864374984 -71.6556575361651,-34.2043844265184 -71.655657046447,-34.2043838962259 -71.6555765531039,-34.2042609495281 -71.6555745460955,-34.2042575709013 -71.6555743749777,-34.2042573735731 -71.6554926587593,-34.2041127379011</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6539649691292,-34.2044958512382 -71.6538725406887,-34.2045363491806 -71.653869037853,-34.2045827685947 -71.6536405199596,-34.204687095562 -71.6535934576236,-34.2047674123716 -71.653399662075,-34.204951314821 -71.65332994774,-34.2050207935585 -71.6531745912218,-34.2051261107855 -71.6530657840943,-34.2051742945655 -71.6529632711403,-34.2052650796075 -71.6529137947387,-34.205347508355 -71.6528330742049,-34.2053822097203 -71.6527141994944,-34.2054651107102 -71.6525778690433,-34.2055447842037 -71.6525188831076,-34.2056006421209 -71.652455297702,-34.2056679278288 -71.6524129434437,-34.2057007701334 -71.6523543506806,-34.2058482762373 -71.6521139824114,-34.2058910660187 -71.6516922351863,-34.205960434734 -71.6514345256682,-34.2060035983197 -71.6511250821565,-34.2060967976503 -71.6509216668006,-34.2061717412984 -71.6507599955734,-34.2062339379731 -71.6506444012106,-34.20634251214 -71.6505358183743,-34.2064375463606 -71.650221454414,-34.2066111783766 -71.6498424049035,-34.2068171024886 -71.6495359796355,-34.2068880917198 -71.6492513354572,-34.206942130862 -71.6490001523555,-34.2069959619135 -71.6487840694867,-34.2069831232099 -71.6485384467722,-34.2068978031542 -71.6483790379665,-34.2068739560619 -71.6481534126203,-34.2067938682212 -71.6478548655001,-34.2067205036366 -71.6475208291502,-34.2066221578367 -71.6468049795283,-34.2064038402327 -71.6465543737424,-34.2063175932678 -71.6464213488266,-34.2062653688258 -71.6462708385683,-34.206208886165 -71.6460891183273,-34.2061850029284 -71.6455658433908,-34.2062238383287 -71.6459959638437,-34.2073941949708 -71.6463840065173,-34.2073135030123 -71.6463858835589,-34.2073132903014 -71.646387539025,-34.2073128624069 -71.6465890365201,-34.2072815967811 -71.6465923488518,-34.2072813062001 -71.6465934920713,-34.2072810489289 -71.6467873176188,-34.2072634062875 -71.6467922644648,-34.2072631281879 -71.6467948574495,-34.2072634986112 -71.6467969329921,-34.207263179738 -71.6470037391067,-34.2072721718028 -71.6470039584127,-34.2072722103394 -71.6470048063565,-34.207272226286 -71.6472360509098,-34.2072857368539 -71.6472373998404,-34.207285985386 -71.647240556935,-34.2072861434833 -71.6474275511142,-34.2073090203474 -71.6474326324534,-34.2073101276345 -71.6474352899084,-34.2073104083043 -71.647655604136,-34.2073628449191 -71.6476605648445,-34.2073642234505 -71.6476613977611,-34.2073646607198 -71.6476622897166,-34.2073648001189 -71.647998018351,-34.2074820314681 -71.6480001939693,-34.2074832114176 -71.6480098990162,-34.2074875832128 -71.6481502254106,-34.2075720265439 -71.6481563051135,-34.2075762215211 -71.6481648976673,-34.2075847092661 -71.6483462292225,-34.2078111017586 -71.6486269332557,-34.2080228438369 -71.6486273181768,-34.2080232853704 -71.6486279050638,-34.2080235927232 -71.6486321466974,-34.2080273027157 -71.6489662591866,-34.2083514776576 -71.6489703808039,-34.2083568985814 -71.6489735928418,-34.2083604045335 -71.6490331957244,-34.2084533200536 -71.649033402768,-34.2084539718742 -71.6490340461778,-34.2084546981044 -71.6491314480427,-34.2086186817295 -71.6491960518219,-34.2086661082656 -71.6492110535337,-34.2086830983299 -71.6492149502882,-34.2086974165405 -71.6492263292627,-34.2086990322177 -71.6493420435456,-34.208735724165 -71.6494487453677,-34.2087425194975 -71.6495635032643,-34.2087108979014 -71.6496912947976,-34.2086467278308 -71.6497655313447,-34.2085638813509 -71.6498178336084,-34.2084514429342 -71.6498519009375,-34.2083207150246 -71.649861313897,-34.2081226683818 -71.6498383579216,-34.2078982276685 -71.6497967187483,-34.2076004577026 -71.6497967131253,-34.2076003820978 -71.6497967059421,-34.207600360617 -71.6497757280616,-34.207447733294 -71.6497756849562,-34.207447223073 -71.6497756464202,-34.2074471013014 -71.6497592944932,-34.2073128782459 -71.6497595632932,-34.2073112055543 -71.6497590114373,-34.2073091755768 -71.6497625242886,-34.2072928013486 -71.6497629567,-34.2072901163372 -71.6497631578245,-34.2072898514549 -71.6497632222778,-34.2072895534668 -71.6498088352824,-34.2071943638909 -71.6498209948626,-34.2071785717283 -71.6498262853,-34.2071744709137 -71.6499174654249,-34.2071119403975 -71.6499311864968,-34.2071048824972 -71.6499336751177,-34.2071044149081 -71.64993540259,-34.2071034805672 -71.6501681135479,-34.2070345257736 -71.6501689752664,-34.2070343926525 -71.6501717087264,-34.2070335663756 -71.6505110853685,-34.2069527046855 -71.6510505030697,-34.2067846497239 -71.6514618858902,-34.2066007981622 -71.6520379463798,-34.2063338366133 -71.6523121610457,-34.2061788500175 -71.6525576995767,-34.206012674562 -71.652571711557,-34.2059972567483 -71.6529365063171,-34.2055958398997 -71.652937860077,-34.2055945124367 -71.6529381208016,-34.2055941416852 -71.6534440416915,-34.2050852335173 -71.653445426994,-34.2050843588224 -71.6534465615353,-34.2050828576016 -71.6538353408367,-34.2047390813491 -71.6538370901033,-34.204738049121 -71.6538381190983,-34.2047367809666 -71.6539904383776,-34.2046187057054 -71.6539903574638,-34.2045564478388 -71.6539649691292,-34.2044958512382</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6523020628371,-34.2063044532294 -71.6523927780596,-34.2063793841295 -71.652500525327,-34.206179226749 -71.6523855213376,-34.2062570592775 -71.6523836887035,-34.2062579950259 -71.6523813999758,-34.2062596113617 -71.6523020628371,-34.2063044532294</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.653025664637,-34.2113987435773 -71.6532018672119,-34.2113805632981 -71.6532432913091,-34.2113680868285 -71.6532644538917,-34.2113444691332 -71.6532675522408,-34.2113162805906 -71.6532163626025,-34.2110808307342 -71.6532030236834,-34.2110364545137 -71.653178575194,-34.2110187868851 -71.6531427578981,-34.2110195621658 -71.6530396496782,-34.211033373732 -71.6529345504838,-34.211047228304 -71.6529074701589,-34.2110726282812 -71.6529019671277,-34.2110876348026 -71.6529093363424,-34.2111321402643 -71.6529368752496,-34.2113118574026 -71.6529508361709,-34.2113760712812 -71.6529774003857,-34.2114002335628 -71.653025664637,-34.2113987435773</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6489376430511,-34.2108564535647 -71.6492821220252,-34.2111550970713 -71.6494852882535,-34.2111278372677 -71.6497124034592,-34.211077932013 -71.6499788328903,-34.2110151891046 -71.6503484641813,-34.2108667701268 -71.6503502811291,-34.2108664035942 -71.6503519052867,-34.2108654597604 -71.6506501345805,-34.2107580200305 -71.6506517799137,-34.2107577176054 -71.6506529945088,-34.210757035947 -71.6506812035192,-34.2107477958353 -71.6506493751647,-34.2107090181039 -71.650362046517,-34.2104485123568 -71.6503421344012,-34.2104320171733 -71.6502256737889,-34.2104670912552 -71.6501316446255,-34.2104924659823 -71.6498903274158,-34.2105808378488 -71.6496507642393,-34.2106691722361 -71.6494556618644,-34.2107193436953 -71.6490829593683,-34.2108178488049 -71.6489376430511,-34.2108564535647</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6494371382807,-34.21128948724 -71.6504187010092,-34.2121404271136 -71.6506418081077,-34.2120447526893 -71.6513065192544,-34.211856249272 -71.6524827569847,-34.2116706444947 -71.6529972375753,-34.2115955303639 -71.6530427057583,-34.2115888911037 -71.6542184945314,-34.2114172158599 -71.6545454613368,-34.211374072425 -71.6545174798295,-34.2113153370215 -71.6545173889663,-34.2113149657674 -71.6545162576845,-34.2113125264612 -71.6544347106702,-34.2111057199726 -71.6544344871524,-34.2111046484192 -71.6544335623568,-34.21110242641 -71.6543820291309,-34.2109329024121 -71.6543201004967,-34.2107691134778 -71.6541572363989,-34.2107870768244 -71.6536808664126,-34.2108344968244 -71.653234595153,-34.2108808172252 -71.6532194340589,-34.2108091667172 -71.6531459730234,-34.2105000529834 -71.6525327201068,-34.2105842421331 -71.652086008925,-34.2106500889944 -71.6520850229725,-34.2106501716292 -71.6520845018306,-34.2106503010018 -71.6513891801368,-34.2107429411689 -71.6509064448852,-34.2108386923687 -71.6507220804707,-34.2108990883432 -71.6504270065379,-34.2110053917466 -71.6500518386831,-34.2111560338799 -71.6500504616759,-34.2111563115643 -71.6500492054441,-34.2111570500104 -71.6500368612629,-34.2111607633398 -71.6497619131115,-34.2112255133799 -71.6497612980956,-34.2112255906819 -71.6497603432534,-34.2112258700549 -71.6495280503732,-34.211276913238 -71.6495231497438,-34.2112774960645 -71.6495191753496,-34.2112784798718 -71.6494371382807,-34.21128948724</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.6529774003857,-34.2114002335628 -71.6529508361709,-34.2113760712812 -71.6529368752496,-34.2113118574026 -71.6529093363424,-34.2111321402643 -71.6529019671277,-34.2110876348026 -71.6529074701589,-34.2110726282812 -71.6529345504838,-34.211047228304 -71.6530396496782,-34.211033373732 -71.6531427578981,-34.2110195621658 -71.653178575194,-34.2110187868851 -71.6532030236834,-34.2110364545137 -71.6532163626025,-34.2110808307342 -71.6532675522408,-34.2113162805906 -71.6532644538917,-34.2113444691332 -71.6532432913091,-34.2113680868285 -71.6532018672119,-34.2113805632981 -71.653025664637,-34.2113987435773 -71.6529774003857,-34.2114002335628</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6514270885898,-34.2105827290845 -71.6513547281725,-34.2102333129222 -71.6513088489653,-34.2100227323823 -71.6512410493668,-34.210031813868 -71.6511647930418,-34.2096456698118 -71.6511410166857,-34.2095312027049 -71.6509610976426,-34.2095533998796 -71.6503603496764,-34.2096566845019 -71.6503601668409,-34.2096567019778 -71.650360026945,-34.2096567392598 -71.6498186216127,-34.2097472286266 -71.6497387219263,-34.20977241839 -71.6497340768257,-34.2097769650203 -71.6497377626091,-34.2097857894975 -71.6500238602635,-34.2100283673017 -71.6504472499733,-34.2103791032353 -71.6504481228699,-34.2103801571498 -71.6504491115667,-34.2103807163394 -71.6507402408343,-34.2106446672758 -71.6507415516449,-34.2106463292478 -71.6507455466307,-34.2106502293021 -71.6507950243357,-34.2107105093201 -71.6508448666013,-34.2106941806875 -71.6508470588809,-34.2106938105381 -71.650857277432,-34.2106909355209 -71.651349737045,-34.210593255024 -71.6513537491512,-34.2105928184568 -71.6513565487836,-34.2105921268469 -71.6514270885898,-34.2105827290845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6546662004753,-34.2113581405445 -71.6550813942956,-34.2113033531358 -71.654764613146,-34.2105344529078 -71.654763848049,-34.2105343117156 -71.6543924380583,-34.2106037349889 -71.6543832888293,-34.2106054449381 -71.6544963770002,-34.2109045421753 -71.6544965685929,-34.2109054954216 -71.6544973032164,-34.2109072590781 -71.6545487471347,-34.2110764892639 -71.65462909186,-34.2112802457835 -71.6546662004753,-34.2113581405445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.653992787447,-34.2103823624215 -71.6539866494688,-34.2103860454383 -71.6541679522011,-34.2103613031441 -71.6541637224089,-34.2103497500252 -71.6541587480442,-34.2103419957334 -71.6541569685906,-34.2103430376369 -71.6541413345,-34.2103504123941 -71.654129396739,-34.2103540307847 -71.6540419483284,-34.2103749874603 -71.6540367844674,-34.2103756509899 -71.6540316864806,-34.2103769270163 -71.653992787447,-34.2103823624215</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6542569725568,-34.2096729678545 -71.6538941133797,-34.2097204646396 -71.6534381162508,-34.209783060993 -71.6534145230513,-34.2097969094546 -71.6533835618228,-34.2098027263524 -71.6533522769055,-34.2097982568898 -71.6533471192071,-34.2097955522417 -71.6531917226295,-34.2098168838027 -71.6523561254906,-34.2099468794169 -71.6523891474108,-34.2101902666535 -71.6524187332993,-34.2104397547694 -71.6525010414411,-34.2104333155939 -71.6525017373416,-34.2104332572626 -71.6525021174162,-34.2104331624935 -71.6533753133343,-34.2103132862073 -71.6539959030124,-34.2102265721083 -71.6540633888031,-34.2102103992654 -71.6541090415984,-34.210183660237 -71.6541246767466,-34.2101762854616 -71.6541310920913,-34.2101750800721 -71.6541359161013,-34.2101653133126 -71.6541481109262,-34.2101145822398 -71.6541459917534,-34.2101068012813 -71.6541502962418,-34.2100860086744 -71.6541571468136,-34.2100769895517 -71.6542218995641,-34.2098076130775 -71.6542220578193,-34.2098071579979 -71.6542220943008,-34.2098068335685 -71.6542569725568,-34.2096729678545</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6549212544147,-34.209948771723 -71.6549338307542,-34.2099095571264 -71.6550606622491,-34.2095281600112 -71.6544414247596,-34.2094077496981 -71.6544118673596,-34.2095048920182 -71.6543805105879,-34.2096670499967 -71.6543800525895,-34.2096684653571 -71.6543799157957,-34.2096696736283 -71.6543388161356,-34.2098274169683 -71.6542892311576,-34.210033697932 -71.6544402211475,-34.2100027854763 -71.6544445658613,-34.2100022992353 -71.6544471273423,-34.2100016965528 -71.6549212544147,-34.209948771723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.654389339699,-34.209178435513 -71.6539969638018,-34.209108670498 -71.6537209297721,-34.2090601248025 -71.6535548033986,-34.2095466301559 -71.653552551118,-34.2095522474965 -71.653552543658,-34.2095522864226 -71.6534963504963,-34.2096745909455 -71.6538748818277,-34.2096226289456 -71.6538751773233,-34.2096226054193 -71.6538753226957,-34.2096225698178 -71.6542784654787,-34.209569800564 -71.6542944753552,-34.2094870060603 -71.6542953102642,-34.209484426812 -71.6542955388382,-34.2094827198255 -71.6543848122592,-34.2091893173287 -71.6543867865749,-34.2091841459266 -71.6543868138666,-34.2091840128147 -71.654389339699,-34.209178435513</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6535744539469,-34.2089937800451 -71.6532204302256,-34.2089189343553 -71.6527871049708,-34.2088286149127 -71.652490343126,-34.2087658880919 -71.6523785600338,-34.2090806615777 -71.6523783685215,-34.2090811290944 -71.6523783512513,-34.2090812358455 -71.652298476612,-34.2092965167665 -71.6522982927847,-34.2092967794755 -71.652298221026,-34.2092971903107 -71.6522788672409,-34.2093468293544 -71.6522709328156,-34.2093923763964 -71.6522914401987,-34.2096371658606 -71.6523231508748,-34.2098487070599 -71.6531706834263,-34.2097193043684 -71.6531713608577,-34.2097192455317 -71.6531717409282,-34.2097191507608 -71.6533104659428,-34.209700108422 -71.6533992502301,-34.2095068669041 -71.6535744539469,-34.2089937800451</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6531459730234,-34.2105000529834 -71.6532194340589,-34.2108091667172 -71.653234595153,-34.2108808172252 -71.6536808664126,-34.2108344968244 -71.6541572363989,-34.2107870768244 -71.6543201004967,-34.2107691134778 -71.6542301290211,-34.2105311557197 -71.6542301031222,-34.2105310219566 -71.6542299689785,-34.2105307237596 -71.6541679522011,-34.2103613031441 -71.6539866494688,-34.2103860454383 -71.653992787447,-34.2103823624215 -71.6534057684051,-34.2104643859165 -71.6534055974122,-34.2104644004361 -71.6534055080303,-34.210464422204 -71.6531459730234,-34.2105000529834</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6462142876734,-34.2016854097115 -71.646214063335,-34.2016782349627 -71.6461796925338,-34.2015366895314 -71.646011931194,-34.2015646161407 -71.6460379792394,-34.2016552367104 -71.6462142876734,-34.2016854097115</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6458946740186,-34.2015834344951 -71.6457663033145,-34.201603925988 -71.645768172735,-34.2016090611866 -71.6459089664899,-34.2016331568827 -71.6458946740186,-34.2015834344951</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6474480654605,-34.202049666699 -71.6475612515988,-34.2025334869947 -71.6481802769987,-34.2026347047401 -71.6483791901556,-34.2026284387188 -71.6483794832658,-34.2026284783632 -71.6483797820617,-34.2026284223253 -71.6490024420742,-34.2026139492664 -71.6490031919242,-34.2026140565691 -71.6490038975766,-34.2026139304356 -71.6503064073464,-34.2026100542208 -71.6503208690639,-34.2026073372506 -71.6506435934907,-34.2026003596091 -71.6509972393265,-34.2025927124379 -71.6510001222671,-34.2025303678656 -71.6509973673501,-34.2021418069539 -71.6508291475705,-34.2021438191994 -71.6508291399241,-34.2021438175617 -71.6508291334749,-34.2021438195042 -71.6499315202526,-34.2021544272938 -71.6487570840472,-34.2021833219352 -71.6485183760674,-34.2022006858043 -71.6485133176895,-34.2022000946205 -71.6485083192484,-34.2022008985728 -71.6483725566352,-34.2021967881637 -71.648370875698,-34.2021965026409 -71.648364539966,-34.2021962140055 -71.648181634224,-34.2021755136399 -71.6481783529784,-34.2021748146364 -71.6481751975652,-34.2021745654702 -71.6478648838662,-34.2021180558549 -71.6474652932213,-34.2020528916515 -71.6474638753591,-34.2020525526548 -71.6474629191796,-34.2020524741392 -71.6474480654605,-34.202049666699</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6459474339112,-34.202228314768 -71.6458381620239,-34.2017590577049 -71.6455251568425,-34.2017054885875 -71.6455241225579,-34.2017052368499 -71.6455234557294,-34.2017051818243 -71.6449196593536,-34.2015906004452 -71.6450383230186,-34.2020445781453 -71.6459474339112,-34.202228314768</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.645768172735,-34.2016090611866 -71.6457663033145,-34.201603925988 -71.6458946740186,-34.2015834344951 -71.645820240026,-34.2013244769689 -71.6456716109962,-34.2013147868333 -71.6456718014899,-34.201317895622 -71.6456653811943,-34.2013178151147 -71.6447682427733,-34.2011454283164 -71.6441340569213,-34.201094665286 -71.6436263252227,-34.2011884430788 -71.6432191224359,-34.2012985276725 -71.6427680559477,-34.201427852621 -71.6417578298485,-34.2016802654163 -71.6418714780908,-34.2019613591357 -71.6422876088506,-34.2018540136731 -71.6430521329487,-34.2016510156255 -71.643560468059,-34.2015133300709 -71.6435608072264,-34.2015132812877 -71.6435616571761,-34.2015130159465 -71.6439358821712,-34.2014169035041 -71.6439396808212,-34.2014163843472 -71.6439446908153,-34.2014150817993 -71.6441766624303,-34.2013783834219 -71.6441897673983,-34.2013772127741 -71.6444608492554,-34.2013713654323 -71.6444799586444,-34.2013728346561 -71.6448337178855,-34.2014356367434 -71.6448344045795,-34.2014358067371 -71.644834833162,-34.2014358416644 -71.6455588328398,-34.2015732339404 -71.645768172735,-34.2016090611866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6419233023569,-34.2020895363918 -71.6420367542364,-34.2023701410227 -71.6423390730597,-34.2022961193566 -71.6426253967774,-34.2022255952297 -71.6431208998125,-34.2020952224792 -71.6437531724344,-34.2019326966831 -71.6439746363911,-34.2018938524951 -71.6445174802324,-34.2033710942317 -71.6447043684717,-34.2032436372581 -71.6448269205152,-34.2030870106374 -71.6449539113217,-34.2028345455009 -71.6450207903787,-34.2027995709914 -71.6451721339354,-34.2028166010357 -71.6452596052182,-34.2027269123136 -71.6453631198867,-34.2026408493642 -71.6455355794243,-34.2027558136345 -71.6456977841024,-34.2027805509021 -71.6458378115916,-34.2028092960029 -71.6459880386316,-34.2027906116449 -71.6461291817156,-34.2027531510012 -71.6463316072143,-34.2027395156972 -71.6466428961015,-34.202810890164 -71.6468775220073,-34.202977897461 -71.6469734294089,-34.2030561273047 -71.6471172609154,-34.2030366970774 -71.6472183637792,-34.2030433377853 -71.6473126440028,-34.2030695396616 -71.6474004602508,-34.2031267657271 -71.6475208755058,-34.2032075544049 -71.6475793321844,-34.2032089387189 -71.6476168218559,-34.2031172401819 -71.6476961472628,-34.2031746494116 -71.6477922632636,-34.2032934652491 -71.6478464503936,-34.2034299519526 -71.6479129576678,-34.2034510178603 -71.6480727927657,-34.2034678608496 -71.6480915804853,-34.2034912808781 -71.6480826782271,-34.2035461828153 -71.6480997145779,-34.2035475799462 -71.648198707945,-34.2035207339184 -71.6482262351755,-34.2035519064848 -71.6481924825149,-34.2036611732245 -71.6481930344058,-34.2036788091627 -71.6483581233921,-34.2037277472348 -71.648455271798,-34.2037777112057 -71.6485448686522,-34.2038578412342 -71.6486329625228,-34.2039238842979 -71.6487390578578,-34.2039542417182 -71.6488294234556,-34.2039571428378 -71.6489390888296,-34.2039997762592 -71.6489450051155,-34.2040870087267 -71.6490229681982,-34.2041347390792 -71.649118339269,-34.2041617985154 -71.649230167128,-34.2041717360418 -71.6492943340668,-34.2042537384679 -71.6493738863707,-34.2043861468192 -71.6494186745319,-34.2044937163633 -71.649460663316,-34.2045797274113 -71.6495159955255,-34.2046508898422 -71.6496683093889,-34.204698778782 -71.6497467233206,-34.2046591395178 -71.6498872871074,-34.204569183417 -71.6500139119648,-34.2044411424356 -71.6501420105395,-34.2042923330679 -71.6502398848401,-34.2041957980521 -71.650297633342,-34.2041067493328 -71.6503439935032,-34.2039592651882 -71.6504808628416,-34.2038870361658 -71.6506543629913,-34.2037297432231 -71.6508521804698,-34.2036367829246 -71.6510015807253,-34.2036256107952 -71.6511956540236,-34.2036165608938 -71.6514716394403,-34.203543969745 -71.6517205380009,-34.2034543151712 -71.651947367115,-34.2033382240398 -71.6520469871104,-34.203229737408 -71.6520755715622,-34.2031327797892 -71.6520757873213,-34.2031320476077 -71.6519337656363,-34.2030058452834 -71.65175713311,-34.2028596550758 -71.6516806711222,-34.2027920383698 -71.6515118961412,-34.2026593554371 -71.6513778039585,-34.2025488645098 -71.6513528157834,-34.2021735092477 -71.6513048243738,-34.2021553505663 -71.6511864418643,-34.2021395453976 -71.651116670437,-34.2021403799759 -71.6511194389836,-34.2025308824166 -71.6511191712884,-34.2025321043351 -71.6511193959673,-34.2025330767068 -71.6511150210173,-34.2026276949449 -71.6511110987975,-34.2026435615013 -71.6510986755614,-34.2026599157087 -71.6510834665267,-34.2026695328185 -71.6510472712048,-34.2026855609114 -71.6510453961533,-34.2026859719789 -71.651043468807,-34.2026871035778 -71.6510207650026,-34.2026913691589 -71.6506466973859,-34.2026994579785 -71.6503330393553,-34.2027062396237 -71.6503166633783,-34.2027091557447 -71.649005051842,-34.2027130602064 -71.6483834145824,-34.2027275084969 -71.6481778446853,-34.2027339850431 -71.6481774937977,-34.2027339367298 -71.6481771356756,-34.2027340039654 -71.6481640661875,-34.2027330881949 -71.6475254191603,-34.2026286619898 -71.6475243980963,-34.2026284171961 -71.6475237106021,-34.2026283608249 -71.6467686109163,-34.2024856885222 -71.6460332852038,-34.2023476808903 -71.6460326640361,-34.2023475248149 -71.6460323310909,-34.2023474950397 -71.6449707522303,-34.2021329439434 -71.6449634615036,-34.202131052124 -71.6449437790161,-34.202120729034 -71.6449303487597,-34.2021049332286 -71.6449252173409,-34.2020860690435 -71.6449260393977,-34.2020820991049 -71.6447912228138,-34.2015663244504 -71.6444554130827,-34.2015067086284 -71.6442005992223,-34.2015122050789 -71.6439795869696,-34.2015471697413 -71.6436102998751,-34.2016420147049 -71.6431023331379,-34.2017796005858 -71.64310220784,-34.2017796186128 -71.6431018833707,-34.2017797211683 -71.642336812675,-34.2019828638529 -71.6423366225448,-34.2019828904886 -71.6423361712537,-34.2019830318359 -71.6419233023569,-34.2020895363918</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6458381620239,-34.2017590577049 -71.6459474339112,-34.202228314768 -71.6460600526158,-34.202251074739 -71.6467949420361,-34.2023890005997 -71.6467949945325,-34.2023890138903 -71.6467950260893,-34.202389016815 -71.6475493150413,-34.2025315352006 -71.6475612515988,-34.2025334869947 -71.6474480654605,-34.202049666699 -71.6466024566206,-34.2018898584539 -71.6458381620239,-34.2017590577049</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.646011931194,-34.2015646161407 -71.6461796925338,-34.2015366895314 -71.646214063335,-34.2016782349627 -71.6462142876734,-34.2016854097115 -71.6466360960446,-34.2017575971315 -71.6466370855111,-34.2017578381077 -71.6466377284018,-34.2017578909395 -71.6474388426035,-34.2019092914454 -71.6473847426255,-34.2016789703256 -71.6473460922589,-34.2015397317879 -71.6467348542562,-34.2014483688949 -71.6459461223545,-34.2013356693708 -71.646011931194,-34.2015646161407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6545299179129,-34.205490774384 -71.6545398548338,-34.2055129804812 -71.6546760036364,-34.2055258047907 -71.6546739236865,-34.2055072004425 -71.6546730928606,-34.2054997747249 -71.6546733439043,-34.2054982655813 -71.6546728582439,-34.2054964812064 -71.6546730361341,-34.2054911530774 -71.6547263341786,-34.2049491700622 -71.6543371712842,-34.2049220925194 -71.6542734573176,-34.2049176592238 -71.654497732677,-34.205418850774 -71.6545299179129,-34.205490774384</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6546211722398,-34.2057568637552 -71.6546610309583,-34.2058623959535 -71.6546760926806,-34.2056346494287 -71.6545785260963,-34.2056254592681 -71.6546027286905,-34.20570388337 -71.6546097305694,-34.2057265731203 -71.6546211722398,-34.2057568637552</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona ZE3 Interior residencial en consolidación y densificación</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6589178305328,-34.2075978315884 -71.6609044319087,-34.2079559912427 -71.6614115020073,-34.2079885163012 -71.6618675888219,-34.2078935319877 -71.6631780611733,-34.2071115967727 -71.6632209978127,-34.2070867209679 -71.6632187210365,-34.206982463222 -71.6630987175503,-34.2067588776121 -71.6630929064029,-34.2067574442653 -71.6630239454381,-34.2067143938917 -71.6629467014455,-34.2067044507282 -71.6621745364086,-34.2070582345279 -71.6621970863185,-34.2071081026215 -71.6618628169681,-34.2072276987794 -71.6618969125147,-34.2071429691503 -71.6618968931322,-34.2071428704061 -71.6619019166582,-34.2071259934014 -71.6618235128556,-34.2071766303364 -71.6615336946999,-34.2073531394066 -71.6615119083636,-34.2073642393386 -71.6614983485899,-34.2073682876052 -71.6614018055725,-34.2073905818824 -71.6613782128902,-34.2073935164499 -71.6612675382552,-34.207395919311 -71.6612429222143,-34.2073938474978 -71.6610336600575,-34.2073535065471 -71.6610333111237,-34.2073534176614 -71.6610331217981,-34.2073534010368 -71.6605187432906,-34.2072516858543 -71.6594896085851,-34.2070870820601 -71.658469433225,-34.2069317860387 -71.6584019042419,-34.2073225361572 -71.6584017178988,-34.2073231324852 -71.6584016560494,-34.2073238577324 -71.6583635674763,-34.2075111729197 -71.6588330927675,-34.2075774665608 -71.6589144812658,-34.2075952880812 -71.6589178305328,-34.2075978315884</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6618969125147,-34.2071429691503 -71.6618628169681,-34.2072276987794 -71.6621970863185,-34.2071081026215 -71.6621745364086,-34.2070582345279 -71.6629467014455,-34.2067044507282 -71.6630239454381,-34.2067143938917 -71.6630929064029,-34.2067574442653 -71.6630987175503,-34.2067588776121 -71.6632187210365,-34.206982463222 -71.6632209978127,-34.2070867209679 -71.6632694874517,-34.2070586278454 -71.6633854285588,-34.206991456751 -71.6633662631894,-34.2063825147349 -71.6633364672004,-34.2063052192869 -71.6628986185108,-34.2065174260206 -71.6628027859,-34.2065638715659 -71.6626329072413,-34.2066460697913 -71.6625726579364,-34.206687446583 -71.6624419767035,-34.2067771942231 -71.6623886200211,-34.2068116545557 -71.6619019166582,-34.2071259934014 -71.6618968931322,-34.2071428704061 -71.6618969125147,-34.2071429691503</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6548384635448,-34.2100671282632 -71.6549624030744,-34.2105057310121 -71.6571290385191,-34.2101970188803 -71.6567754394078,-34.2097357321859 -71.6567753342901,-34.2097357020103 -71.6567733919276,-34.2097330405059 -71.6566156752806,-34.2097827726052 -71.656614937967,-34.209782894061 -71.656614490887,-34.2097831354367 -71.6563558426975,-34.2098599577746 -71.6563540102168,-34.2098602426952 -71.6563491162764,-34.2098616216734 -71.6561942294337,-34.2098924937949 -71.6561937114631,-34.2098925509958 -71.6561931885888,-34.2098926939458 -71.6558561566965,-34.2099550282162 -71.6558538852588,-34.2099552604366 -71.6558524090501,-34.2099556259776 -71.6555652853783,-34.2099942179212 -71.6555631518428,-34.2099943840435 -71.6555624299796,-34.2099945484304 -71.6550036106427,-34.2100486935948 -71.6548384635448,-34.2100671282632</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6571290385191,-34.2101970188803 -71.6573955015222,-34.2101590487833 -71.6575228873048,-34.2099441204054 -71.6571719091852,-34.2095207114395 -71.6571530711938,-34.2095361703766 -71.6571516372828,-34.209536983964 -71.6571441645755,-34.2095422827116 -71.6570754824518,-34.2095814462155 -71.6568609033909,-34.2097038047554 -71.6568505389345,-34.2097086225596 -71.6568485939493,-34.2097089874551 -71.6568471679151,-34.2097097756263 -71.6567733919276,-34.2097330405059 -71.6567753342901,-34.2097357020103 -71.6567754394078,-34.2097357321859 -71.6571290385191,-34.2101970188803</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona ZE2 Área mixta Peri-central</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacios públicos; Áreas verdes. Con excepciones que se indican en usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets, multicanchas; Actividades productivas: bodegas, grandes depósitos, talleres, bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.654764613146,-34.2105344529078 -71.6547644017594,-34.2105339409252 -71.6549624030744,-34.2105057310121 -71.6548384635448,-34.2100671282632 -71.654467949288,-34.2101084874748 -71.6543471353925,-34.2101332221059 -71.6543452288878,-34.2101410397518 -71.6543451033983,-34.2101411903157 -71.6543452818575,-34.2101412062842 -71.65430560752,-34.2103529304659 -71.6542903898494,-34.2103550738204 -71.6543440491725,-34.210501663596 -71.6543832888293,-34.2106054449381 -71.6543924380583,-34.2106037349889 -71.654763848049,-34.2105343117156 -71.654764613146,-34.2105344529078</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6542514569817,-34.2101904010188 -71.6542489900447,-34.2101974762414 -71.654248610764,-34.2101979766748 -71.6542484890634,-34.2101985247191 -71.6542425376021,-34.2102105732591 -71.6542464043686,-34.2102151205465 -71.6542543407227,-34.2102442727666 -71.6542487048443,-34.2102714993818 -71.6542496961302,-34.2102730050617 -71.6542499183982,-34.2102733797813 -71.6542499880602,-34.210273455802 -71.6542717587633,-34.2103073884159 -71.6542722525087,-34.2103089454371 -71.6542736157623,-34.2103105476364 -71.6542761894086,-34.210316281355 -71.6542903898494,-34.2103550738204 -71.65430560752,-34.2103529304659 -71.6543452818575,-34.2101412062842 -71.6543451033983,-34.2101411903157 -71.6543452288878,-34.2101410397518 -71.6543471353925,-34.2101332221059 -71.6543193753299,-34.2101389050128 -71.6543126722411,-34.2101402771105 -71.6542610724183,-34.2101508413173 -71.6542518003969,-34.2101894145507 -71.6542514569817,-34.2101904010188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZD</SimpleData>
+		<SimpleData name="NOM">Zona ZD Áreas deportivas</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo vivienda del cuidador; Espacio público; Área verde; Equipamiento de culto y cultura, deporte y esparcimiento. Con Excepción de los indicados como usos prohibidos</SimpleData>
+		<SimpleData name="UPROH">Residencial; Equipamiento de comercio, educación, salud, seguridad, servicios, social; Actividad de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6502091423043,-34.2072760225043 -71.6516927975175,-34.2076321591787 -71.6517076597192,-34.2075866254671 -71.6518629614881,-34.2071471715844 -71.652121649684,-34.2064264563699 -71.6521277773304,-34.206402959527 -71.6521028725295,-34.2064170362343 -71.6520996178698,-34.2064185418438 -71.6520983777412,-34.206419341263 -71.6515196099136,-34.2066875579606 -71.6515189554603,-34.206687829947 -71.6515188107576,-34.2066879214244 -71.6511034800789,-34.2068735362636 -71.6510996362467,-34.2068743856738 -71.6510961663441,-34.2068762952788 -71.6505507584557,-34.2070462171758 -71.6505498645463,-34.2070463618138 -71.6505462582836,-34.2070474521806 -71.6502064160051,-34.2071284241102 -71.6501841883985,-34.2071350105587 -71.6499853459919,-34.2071939296892 -71.6499547029932,-34.2072149444919 -71.6502091423043,-34.2072760225043</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE5</SimpleData>
+		<SimpleData name="NOM">Zona ZE5 zona de expansión preferentemente residencial en media densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento comercio, culto- cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Espacio público; Área verde; Actividad productiva inofensiva. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, discotecas, cabarets;  Actividades productivas: bodegas industriales, actividades productivas molestas, insalubres o contaminantes y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.649900669403,-34.2074830046603 -71.6499152476594,-34.207589065182 -71.6499569866028,-34.2078875478334 -71.6499570961799,-34.2078888292062 -71.6499571710278,-34.2078890709942 -71.6499781696643,-34.2080943826096 -71.6511852364305,-34.2087205690396 -71.6515931527704,-34.2086671176719 -71.6516649251801,-34.2084942118112 -71.6518306879316,-34.2079963955225 -71.6519116421429,-34.2078017738085 -71.6501562306285,-34.207376415732 -71.6498818810298,-34.2073099343974 -71.6498794753574,-34.2073149563939 -71.6498943189492,-34.2074368019307 -71.649900669403,-34.2074830046603</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">La Estrella</SimpleData>
+		<SimpleData name="LOC">La Estrella</SimpleData>
+		<SimpleData name="ZONA">ZE6</SimpleData>
+		<SimpleData name="NOM">Zona ZE6 zona de baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial; Espacio público; Área verde. Con excepción los indicados como usos prohibidos.</SimpleData>
+		<SimpleData name="UPROH">Motel, hospedajes; Equipamiento de todo tipo; Actividad productiva de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">26/05/1995</SimpleData>
+		<SimpleData name="N_DOC">2</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6556912442091,-34.2040132831706 -71.6557342968932,-34.2038973132939 -71.6558018938052,-34.203602389815 -71.6556976732711,-34.2031321934345 -71.6556209846733,-34.2029121382276 -71.6554343408793,-34.2025208767754 -71.6551859568648,-34.2020152262728 -71.6552060129934,-34.2015423374497 -71.6553393482951,-34.2013466647545 -71.6554228188051,-34.2010472515643 -71.6553082431968,-34.2007315792776 -71.6552465933203,-34.2006171895065 -71.6550980587683,-34.2003311826434 -71.6550064271981,-34.2000053687811 -71.6548036493895,-34.1996841254037 -71.6546520242636,-34.1994848887323 -71.6542912651339,-34.1991381332972 -71.6541418757497,-34.1986249294377 -71.6538803173732,-34.1982862100954 -71.6537437380784,-34.198007423161 -71.6535133717246,-34.1977418428876 -71.6533087647616,-34.1974988678874 -71.653129124887,-34.1975786704112 -71.6531809584291,-34.1976430862198 -71.6532539369251,-34.1977309766151 -71.653390563913,-34.1978704906448 -71.6534524677682,-34.1979411160947 -71.6534685746981,-34.1980068973147 -71.6534710760566,-34.1981240297007 -71.6534910755185,-34.1982393238158 -71.6535176667002,-34.1983408607347 -71.6535501640504,-34.1984067730828 -71.6536279502874,-34.1985733316803 -71.6537245235998,-34.1987044736376 -71.6537947220279,-34.1987783225139 -71.6537697593624,-34.198878058066 -71.653766541254,-34.1990740858434 -71.6539945021048,-34.199140143531 -71.6540031462563,-34.1991545436303 -71.6540560716063,-34.1993493568424 -71.6542291584812,-34.1996436800218 -71.6543377461832,-34.1998966095785 -71.6544376246311,-34.2000957545686 -71.6544897896517,-34.2002662704394 -71.654554233526,-34.2004924397634 -71.6546805358506,-34.2006010558003 -71.6547527639688,-34.2007395312523 -71.6548218647685,-34.2008902311527 -71.6549486101929,-34.2011622167508 -71.6549295274374,-34.2014120751137 -71.6549169409693,-34.2016078197727 -71.6549805906599,-34.2017712793771 -71.655098891621,-34.2020351817457 -71.6551734503848,-34.2022105617184 -71.6552537349754,-34.202381926725 -71.6553664900428,-34.2026182330832 -71.6554939374008,-34.2028751287087 -71.6554227796751,-34.2029573879924 -71.6553271905089,-34.2030071102117 -71.655208687704,-34.2029980070562 -71.6551637529387,-34.2029834203811 -71.655080564422,-34.20294340414 -71.6549869050999,-34.2029185903876 -71.6549989424807,-34.2029410069946 -71.6553391515703,-34.2035229264645 -71.6553392741433,-34.2035233403039 -71.6553396186281,-34.2035237376168 -71.6556329720099,-34.2040429654455 -71.6557206302166,-34.2041981172373 -71.6557991270544,-34.2043180158386 -71.655929047096,-34.2044974731914 -71.6559336571156,-34.2045048269349 -71.6559346420139,-34.2045084467655 -71.6559506326972,-34.2045148228137 -71.6559830865311,-34.2044398511551 -71.6560643027496,-34.2044099862053 -71.6562588191964,-34.2043716423379 -71.6564135042722,-34.2042960187419 -71.6566073488552,-34.2041593178273 -71.6567879854554,-34.203986767047 -71.6568292763267,-34.2039166115045 -71.6568621364947,-34.2038857855203 -71.6570528718154,-34.2037270690187 -71.6571788314518,-34.2036600958994 -71.6574389382185,-34.2035560873865 -71.6575579997031,-34.2035003059316 -71.6576598756285,-34.2034358620903 -71.6578492648853,-34.2033113026606 -71.6581762027552,-34.2032580396935 -71.6584433736527,-34.2032251441806 -71.658678745743,-34.203179888508 -71.6588042425315,-34.2031751599028 -71.6591075803227,-34.2032167620496 -71.6593815344105,-34.2032459525489 -71.6594823620782,-34.203301985054 -71.6596349052134,-34.2033890168753 -71.659799773284,-34.2034838107555 -71.659877212254,-34.2035644412243 -71.6599943565215,-34.2036783382296 -71.6601451605401,-34.2038637780799 -71.6602377496174,-34.2039651593482 -71.6603434081259,-34.2040210862671 -71.6605631207207,-34.204092605626 -71.6606431638587,-34.204179201982 -71.6607018542124,-34.2042783067066 -71.6606637697116,-34.2043734889796 -71.660631569187,-34.2045789603353 -71.6606319226672,-34.2045812992715 -71.6606498727606,-34.2047000205515 -71.6607365123681,-34.204842685867 -71.6607380541714,-34.2050454171945 -71.6607395329302,-34.2052461422414 -71.6607581978059,-34.2054555281898 -71.6609758783014,-34.2055391366589 -71.6611050548826,-34.2055744767908 -71.6610957857197,-34.2058175938249 -71.6610662846252,-34.2060320405864 -71.6610949280911,-34.2060976682936 -71.6611325814934,-34.2062193125975 -71.6614001363466,-34.2063520267721 -71.6615283677719,-34.2063572731977 -71.6617288964832,-34.2064332220738 -71.6618891186853,-34.2064568456167 -71.6627730388109,-34.2060582187403 -71.662806797253,-34.2061327697423 -71.6628856265589,-34.2063323984842 -71.6632754668083,-34.2061469682194 -71.6632706898603,-34.2061345754053 -71.6631894383902,-34.205943645841 -71.6630880668762,-34.2059094356691 -71.6627029922468,-34.2058240663734 -71.6622803307583,-34.2059374348904 -71.6618529193663,-34.2058998487126 -71.661638478266,-34.2058576378604 -71.661562505251,-34.2056353185219 -71.6615119846902,-34.2054229012076 -71.6614801484985,-34.2052099880426 -71.6616876013344,-34.2050471278352 -71.661566612794,-34.2048954547992 -71.6613874206032,-34.2047450452898 -71.6612646173786,-34.2045356386118 -71.6612328899879,-34.2042663926607 -71.6611194961773,-34.2039891851465 -71.6610496408226,-34.2036682218847 -71.6610429766321,-34.2034562937356 -71.6608256781091,-34.2032006289702 -71.6604860741495,-34.2031212059739 -71.660310917901,-34.2030961655077 -71.6601365788275,-34.2030999488015 -71.6599872387811,-34.2029711509352 -71.6597447159488,-34.202889167601 -71.6595025859502,-34.2028197043252 -71.6588979514884,-34.2026707680366 -71.6585662736941,-34.2026156822382 -71.658341422231,-34.2026205575055 -71.6580412580267,-34.2026146282481 -71.6577888004798,-34.2026948175985 -71.6578238512231,-34.2029448862943 -71.6576037654804,-34.203010403745 -71.6574148175994,-34.2032014264119 -71.6573334489487,-34.203390928181 -71.6570799376692,-34.2036257097038 -71.6566665633203,-34.2037412906195 -71.6565762925507,-34.2040263403934 -71.6562133079615,-34.2042737679134 -71.6557615314021,-34.2041807183067 -71.6556796869006,-34.2040444145288 -71.6556912442091,-34.2040132831706</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

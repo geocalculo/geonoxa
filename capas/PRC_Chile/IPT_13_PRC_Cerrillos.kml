@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Zona C</SimpleData>
+		<SimpleData name="NOM">Zona C - Sector Buzeta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, industria y almacenamiento inofensivo, infraestructura y transporte</SimpleData>
+		<SimpleData name="UPROH">Industria y almacenamiento molesto</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6905612598091,-33.4778680145338 -70.6875731020184,-33.477064083491 -70.6875767103112,-33.477250146247 -70.6877329200875,-33.477376865401 -70.6877704104888,-33.4775481512461 -70.6880674189012,-33.4778876974511 -70.6882404320701,-33.4779998707063 -70.688191971201,-33.4781436939189 -70.6858330910948,-33.478075595341 -70.6858173982727,-33.4781473903585 -70.685854606944,-33.4783043634537 -70.6859240332724,-33.4783606849703 -70.6860620541858,-33.4784303884899 -70.6861841064666,-33.4785575743591 -70.6861695232492,-33.4786866195158 -70.6861546626521,-33.4788013521432 -70.686021909149,-33.4790035876848 -70.6857497476531,-33.4790645558676 -70.6856133884182,-33.479080727224 -70.6855800613162,-33.4791241294935 -70.6856360142107,-33.4793667463524 -70.6857349985858,-33.4800668993321 -70.6864302328073,-33.4815606534803 -70.6868363912227,-33.4822423076205 -70.6876794117441,-33.4843066938207 -70.6878474392945,-33.4841612412004 -70.6879642262416,-33.4840164873528 -70.688083788888,-33.4840148584212 -70.6882893089035,-33.4840406906959 -70.6883923467194,-33.4840679192016 -70.6884455333901,-33.4841674083899 -70.6884315085411,-33.4843250795207 -70.6895028525117,-33.4840670975637 -70.6903215990259,-33.4839986652904 -70.6913004677632,-33.4842573171862 -70.6917823381333,-33.484436849974 -70.6920214640997,-33.4844335845927 -70.6950411472921,-33.4833329042949 -70.6951526212956,-33.4829162066199 -70.6905612598091,-33.4778680145338</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZIEAM</SimpleData>
+		<SimpleData name="NOM">Zona industrial exclusiva con actividad molesta reincorporada</SimpleData>
+		<SimpleData name="UPERM">Industria molesta  o inofensivas, equipamiento, actividades de vialidad - transporte y talleres</SimpleData>
+		<SimpleData name="UPROH">Salud, educación, cultura, esparcimiento y turismo</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7002094851375,-33.4802831103421 -70.6975043249134,-33.4795447348932 -70.6950560957573,-33.4788385751651 -70.6935248306352,-33.4784300238651 -70.6912959469553,-33.478019047228 -70.690953668146,-33.4779879274504 -70.6934429295475,-33.4808052635986 -70.6940897570452,-33.4803907935362 -70.6943949219377,-33.4807087374316 -70.6946501877959,-33.4806575252351 -70.6948575828023,-33.4810722474873 -70.6943486734064,-33.481258161496 -70.694366390407,-33.4814368730628 -70.696107856133,-33.4831310010612 -70.6972307122429,-33.4823043687465 -70.6969402297742,-33.482010092153 -70.6975581159835,-33.4815721395058 -70.6979342310698,-33.4818771721724 -70.7002094851375,-33.4802831103421</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Zona C</SimpleData>
+		<SimpleData name="NOM">Zona C - Sector Buzeta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, industria y almacenamiento inofensivo, infraestructura y transporte</SimpleData>
+		<SimpleData name="UPROH">Industria y almacenamiento molesto</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6934429295475,-33.4808052635986 -70.6958266737841,-33.4833138036389 -70.696107856133,-33.4831310010612 -70.694366390407,-33.4814368730628 -70.6943486734064,-33.481258161496 -70.6948575828023,-33.4810722474873 -70.6946501877959,-33.4806575252351 -70.6943949219377,-33.4807087374316 -70.6940897570452,-33.4803907935362 -70.6934429295475,-33.4808052635986</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6979342310698,-33.4818771721724 -70.6975581159835,-33.4815721395058 -70.6969402297742,-33.482010092153 -70.6972307122429,-33.4823043687465 -70.6979342310698,-33.4818771721724</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZMH 1</SimpleData>
+		<SimpleData name="NOM">Zona de uso mixto preferentemente en densidad alta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6933883338028,-33.4888255215595 -70.6922062848362,-33.4895431702938 -70.6952669542488,-33.4931662943594 -70.6964666638037,-33.4924770060934 -70.6933883338028,-33.4888255215595</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZMH 3</SimpleData>
+		<SimpleData name="NOM">Zona de uso preferentemente residencial en densidad media</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6919895162476,-33.489818140792 -70.6917556647718,-33.4900933441992 -70.691734027898,-33.4907378722478 -70.6918583335999,-33.4909795520368 -70.6935121499176,-33.4943069645182 -70.6950650374933,-33.4933265359932 -70.6919895162476,-33.489818140792</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZEE</SimpleData>
+		<SimpleData name="NOM">Zona equipamiento exclusivo</SimpleData>
+		<SimpleData name="UPERM">Comercio, científico, culto y cultura, deporte, educación, esparcimiento, salud y social, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6965958408118,-33.4926756653557 -70.6935054991905,-33.4945504325221 -70.6940733270277,-33.4956307050216 -70.6974686596796,-33.4936228986784 -70.6965958408118,-33.4926756653557</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZMH 1</SimpleData>
+		<SimpleData name="NOM">Zona de uso mixto preferentemente en densidad alta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.697605102561,-33.4937832799943 -70.6964093024352,-33.494527403645 -70.6988128855351,-33.4972980665641 -70.7020175947149,-33.50097629823 -70.7031854259068,-33.5002563649888 -70.697605102561,-33.4937832799943</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZMH 3</SimpleData>
+		<SimpleData name="NOM">Zona de uso preferentemente residencial en densidad media</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6960503296534,-33.4946659373948 -70.6943125893597,-33.4958063862758 -70.6941792743876,-33.4959800044779 -70.6949784047254,-33.4975295462622 -70.6959027317603,-33.4993636926356 -70.6971026730459,-33.501308584842 -70.6973941753858,-33.5022351467139 -70.6978377980623,-33.5022004343329 -70.6981467064469,-33.5022677808187 -70.6983029776304,-33.5023944851586 -70.6989101448572,-33.502858594852 -70.7017289936003,-33.5010733192283 -70.7002771838734,-33.4993609904726 -70.696289484283,-33.4946626628859 -70.6960503296534,-33.4946659373948</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZEE</SimpleData>
+		<SimpleData name="NOM">Zona equipamiento exclusivo</SimpleData>
+		<SimpleData name="UPERM">Comercio, científico, culto y cultura, deporte, educación, esparcimiento, salud y social, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7033572449597,-33.500449656889 -70.6991019848548,-33.503056390429 -70.6999046436538,-33.5039043517473 -70.7040781476069,-33.5014848268981 -70.7041428351951,-33.5012978254499 -70.7033572449597,-33.500449656889</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZMH 1</SimpleData>
+		<SimpleData name="NOM">Zona de uso mixto preferentemente en densidad alta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7043192829232,-33.5015817226962 -70.7031875715218,-33.5022558352079 -70.7031895343059,-33.5023560225295 -70.7044297076985,-33.5037276373243 -70.7056485333194,-33.5031382101261 -70.7043192829232,-33.5015817226962</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZMH 3</SimpleData>
+		<SimpleData name="NOM">Zona de uso preferentemente residencial en densidad media</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7028839864072,-33.5024604369318 -70.7001648251221,-33.5041012076221 -70.7005275143624,-33.5042966565222 -70.701403575107,-33.5045280012815 -70.7021041719429,-33.5045255342551 -70.7027354502496,-33.5044739090634 -70.7040726248168,-33.503818447645 -70.7028839864072,-33.5024604369318</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7005158659495,-33.4804709826875 -70.6997496056034,-33.480891897533 -70.6995573403966,-33.4809613438046 -70.6983658332717,-33.4817698490713 -70.6995966688222,-33.4829746283741 -70.7001744088,-33.4828139946969 -70.7003496857865,-33.4830406503366 -70.7013674006027,-33.4826640001456 -70.7013627358318,-33.4824254594612 -70.7025389187416,-33.4819989035009 -70.7027323040328,-33.4819867021998 -70.7028683836459,-33.481956199567 -70.7031007774801,-33.4816094146566 -70.7005158659495,-33.4804709826875</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZME</SimpleData>
+		<SimpleData name="NOM">Zona de uso mixto preferentemente equipamiento</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, infraestructura de transporte, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6894515275959,-33.4844209329145 -70.6886713822368,-33.4847178948024 -70.6882314540873,-33.4849386351286 -70.6881499396318,-33.4851401737542 -70.6882753368136,-33.4854391079076 -70.6889756631968,-33.4871904686065 -70.6903587678471,-33.4906647812713 -70.6921151989721,-33.4948784236902 -70.6959428641412,-33.5027716041368 -70.6971284073473,-33.5022256652369 -70.6969139015225,-33.5017418516666 -70.6967842590389,-33.5012282427485 -70.6961491413519,-33.5002061711412 -70.6953533125719,-33.4988283888275 -70.694036449068,-33.4961406303526 -70.6924335426395,-33.4927982141002 -70.691506859533,-33.4908352233489 -70.69146378917,-33.4903776901809 -70.6916579118649,-33.4898167036761 -70.6921267274236,-33.4893235475465 -70.6931385179591,-33.4886368590306 -70.6894515275959,-33.4844209329145</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">27 H2</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 27 H 2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7220596107254,-33.4732730158319 -70.7180268102726,-33.4766694498368 -70.7168296125031,-33.4777549894428 -70.7161376084777,-33.4784708432961 -70.7231386894685,-33.4783068719271 -70.7222254250526,-33.4735952127117 -70.7220596107254,-33.4732730158319</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">27 H1</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 27 H 1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7231386894685,-33.4783068719271 -70.7161376084777,-33.4784708432961 -70.7157055564086,-33.4787488354369 -70.7154237255988,-33.4788958996521 -70.7151013122681,-33.4791508970436 -70.7146242163505,-33.4795034762484 -70.7143006234786,-33.4796988368855 -70.714161585165,-33.4798677826848 -70.7139112674669,-33.4801695006744 -70.713700828315,-33.4803275044671 -70.7133905235108,-33.4804749579842 -70.7132223122197,-33.4806085160781 -70.7128865914242,-33.4809114128942 -70.7126070963805,-33.4811777406899 -70.7116394847388,-33.4812030413072 -70.7116705325305,-33.4813338454774 -70.7118278000596,-33.4813674629039 -70.7119701308032,-33.4813654964117 -70.7123702993148,-33.4814434777885 -70.7127716424709,-33.481581093576 -70.7136177380848,-33.4818915099947 -70.7139446298871,-33.4818631284837 -70.7145988838783,-33.481830215523 -70.7153219513908,-33.4816770453316 -70.7157024814819,-33.4814808935888 -70.7161007724249,-33.4814634477536 -70.7206358384204,-33.4818538994063 -70.7245136148714,-33.482122102514 -70.7244311024432,-33.4815506027519 -70.7242238037805,-33.481147861278 -70.7239595753795,-33.4807459124125 -70.7236841895564,-33.4804992100058 -70.7234759520319,-33.4800487592421 -70.7233135455282,-33.4790369530335 -70.7231386894685,-33.4783068719271</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">AV intercomunal parque Cerrillos</SimpleData>
+		<SimpleData name="NOM">AV intercomunal parque Cerrillos</SimpleData>
+		<SimpleData name="UPERM">Según art. 5.2.5 Área verde intercomunal</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6983658332717,-33.4817698490713 -70.6979905821066,-33.4820076324708 -70.6992435377005,-33.4831787063381 -70.6995966688222,-33.4829746283741 -70.6983658332717,-33.4817698490713</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">AV intercomunal parque Cerrillos</SimpleData>
+		<SimpleData name="NOM">AV intercomunal parque Cerrillos</SimpleData>
+		<SimpleData name="UPERM">Según art. 5.2.5 Área verde intercomunal</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6897677745755,-33.4843223718079 -70.6901338120073,-33.4848423099121 -70.6925807836801,-33.4876721654243 -70.6947495555053,-33.4901001453496 -70.6986244782236,-33.4945805614898 -70.7013053799389,-33.4976933470859 -70.7025443821866,-33.4991556691402 -70.7059253050855,-33.5030938361964 -70.7069267400459,-33.5026028323578 -70.7065675033219,-33.5017130189712 -70.7055290708913,-33.499591817372 -70.704447516854,-33.4974473387862 -70.7040092248904,-33.4968807193733 -70.7012701488592,-33.4937091410837 -70.6981075248791,-33.4899825828608 -70.6974947752174,-33.4892274458834 -70.6964263049519,-33.4884666155873 -70.6916873823618,-33.4849284799553 -70.691625345677,-33.484666861694 -70.6905513232865,-33.4843474733527 -70.6897677745755,-33.4843223718079</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZME</SimpleData>
+		<SimpleData name="NOM">Zona de uso mixto preferentemente equipamiento</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, infraestructura de transporte, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6954918828342,-33.4835639497306 -70.6933986880919,-33.4842797586492 -70.6919605251048,-33.4847098068395 -70.691940164304,-33.4848341598355 -70.6922403100423,-33.4850400323761 -70.6928290333964,-33.4854423911638 -70.6940552034969,-33.4864086832433 -70.6962395747116,-33.4880299416107 -70.6976734025475,-33.4891269714464 -70.6982701893525,-33.4899395913229 -70.6994135850991,-33.4913269071703 -70.7016278645197,-33.4938829829014 -70.7035011677023,-33.4958901434282 -70.7045874100383,-33.4972591047592 -70.7056317170612,-33.4993921641184 -70.7071955610517,-33.502453381106 -70.7096960111814,-33.5009968158056 -70.7077973844069,-33.4982933811797 -70.7058777857738,-33.4956760993859 -70.704308172674,-33.4934739148181 -70.7023447330932,-33.4909335292327 -70.7001751300693,-33.4883291309687 -70.6981973513665,-33.48620881477 -70.6954918828342,-33.4835639497306</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZME</SimpleData>
+		<SimpleData name="NOM">Zona de uso mixto preferentemente equipamiento</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, infraestructura de transporte, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6960880580754,-33.503038642895 -70.6979290770335,-33.5068883489865 -70.7015525360554,-33.5051683957663 -70.7015904374622,-33.5047765653109 -70.7011001244979,-33.5047546677775 -70.7002390013625,-33.5044133576831 -70.6995825222629,-33.5040501450318 -70.6989531308232,-33.5033238795937 -70.6983235625452,-33.5025880683708 -70.6979223280451,-33.5024599507327 -70.697693983186,-33.5024344481807 -70.6969462010876,-33.502645122009 -70.6960880580754,-33.503038642895</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">25 F</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 25 F</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, industria, talleres inofensivos y actividades de vialidad - transporte</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7016714754615,-33.5053274224393 -70.6980026852138,-33.507059929766 -70.7000992721943,-33.5115885007804 -70.7032236879715,-33.5184054192134 -70.7049609072478,-33.5191092526319 -70.7055447183877,-33.5191012133625 -70.7115524685486,-33.5167873879835 -70.7104304840651,-33.5155025033207 -70.707979544247,-33.5125418605067 -70.7052582576096,-33.5095848865295 -70.7016714754615,-33.5053274224393</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Parque Cerrillos</SimpleData>
+		<SimpleData name="NOM">Parque Cerrillos</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, recreación, deporte, culto y cultura, científico, esparcimiento y turismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7130024587649,-33.506892753817 -70.7089723445619,-33.5090719969355 -70.7095239315461,-33.5096012414642 -70.7064939053554,-33.5109275847838 -70.707979544247,-33.5125418605067 -70.7086634883895,-33.5133680645767 -70.7104304840651,-33.5155025033207 -70.7108041322467,-33.5159304068249 -70.7115524685486,-33.5167873879835 -70.7120829705156,-33.5166046819087 -70.7160819332393,-33.5149984140102 -70.7174066832726,-33.5142881022194 -70.7177429829545,-33.5140090444987 -70.7175716514206,-33.513987560861 -70.7174131427339,-33.5138943184891 -70.7173970188643,-33.5137991005837 -70.7173941903072,-33.5136559784537 -70.7174644390035,-33.5136072835206 -70.7176352993555,-33.5136049139324 -70.7178206324696,-33.5136142733228 -70.7167482496361,-33.5119589238787 -70.7130024587649,-33.506892753817</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">25 F</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 25 F</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, industria, talleres inofensivos y actividades de vialidad - transporte</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7089723445619,-33.5090719969355 -70.7061812805834,-33.5105878808132 -70.7064939053554,-33.5109275847838 -70.7095239315461,-33.5096012414642 -70.7089723445619,-33.5090719969355</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZMH 2</SimpleData>
+		<SimpleData name="NOM">Zona de uso preferentemente residencial en densidad media, cabezal sur</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, área verde y espacio público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7079405939046,-33.5022443529611 -70.7061573890815,-33.5030992689918 -70.7036850020707,-33.504249966005 -70.7024961658007,-33.5048100988165 -70.7017700754326,-33.5047821306474 -70.7016714754615,-33.5053274224393 -70.7032889226249,-33.5072473787445 -70.7033064542747,-33.507268188534 -70.7033791831271,-33.507354517541 -70.7052582576096,-33.5095848865295 -70.7053342200393,-33.5096674317793 -70.7061812805834,-33.5105878808132 -70.7079422144608,-33.5096314946446 -70.7089723445619,-33.5090719969355 -70.7090802028989,-33.5090136768097 -70.7130024587649,-33.506892753817 -70.7127070851632,-33.5065211184455 -70.7117535125552,-33.5049595185934 -70.7112447396565,-33.5051574313705 -70.7111782806449,-33.5052537912902 -70.711126215869,-33.5055026578475 -70.711004875084,-33.5057047614146 -70.7107220115879,-33.5058041094365 -70.7079405939046,-33.5022443529611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZIEAM</SimpleData>
+		<SimpleData name="NOM">Zona industrial exclusiva con actividad molesta reincorporada</SimpleData>
+		<SimpleData name="UPERM">Industria molesta  o inofensivas, equipamiento, actividades de vialidad - transporte y talleres</SimpleData>
+		<SimpleData name="UPROH">Salud, educación, cultura, esparcimiento y turismo</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7079405939046,-33.5022443529611 -70.7107220115879,-33.5058041094365 -70.711004875084,-33.5057047614146 -70.711126215869,-33.5055026578475 -70.7111782806449,-33.5052537912902 -70.7112447396565,-33.5051574313705 -70.7116396953147,-33.5050037947142 -70.7115535620671,-33.5043514578143 -70.7103352048298,-33.5020681496068 -70.7098160670262,-33.501159079207 -70.7079405939046,-33.5022443529611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZI</SimpleData>
+		<SimpleData name="NOM">Zona industrial</SimpleData>
+		<SimpleData name="UPERM">Industria y talleres</SimpleData>
+		<SimpleData name="UPROH">Residencia, excepto que sea parte de la industria</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7173228365926,-33.5080463010846 -70.7163477223843,-33.5077066854664 -70.716313552826,-33.5077071589716 -70.715944744665,-33.5074927544952 -70.7140515953109,-33.5062400560112 -70.7120623095812,-33.5047309633775 -70.7119026684786,-33.504723626089 -70.7118586130033,-33.5048005881886 -70.7117535125552,-33.5049595185934 -70.7122375499513,-33.5055302482596 -70.7135041169487,-33.5073642936468 -70.7154227073586,-33.5099051039036 -70.7173228365926,-33.5080463010846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Zona actividades productivas e industrial</SimpleData>
+		<SimpleData name="NOM">Zona de actividades productivas y de servicios de carácter industrial</SimpleData>
+		<SimpleData name="UPERM">Industria, equipamiento y transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7184871279523,-33.5142113246108 -70.716942813105,-33.5150535381344 -70.7163443755649,-33.5153290685302 -70.7129084428202,-33.5167414478641 -70.7090987356749,-33.5182734226817 -70.705400744485,-33.5196987583069 -70.7051385837865,-33.5202750156426 -70.7049664928375,-33.5219571514041 -70.7056616886672,-33.5237036953789 -70.7059118279361,-33.5248359993281 -70.7060734998606,-33.5266853303407 -70.7063805017902,-33.531290904617 -70.706450547254,-33.5313758360202 -70.706553271895,-33.5313839648647 -70.7118587927231,-33.5293923602484 -70.7170282948366,-33.5274501378447 -70.7211232413997,-33.5259234955022 -70.7262693419281,-33.5239716757288 -70.7242927753491,-33.521412769048 -70.7228080061114,-33.5195150724095 -70.7218857724052,-33.5184016961766 -70.7217023787588,-33.5183469816003 -70.7214675592368,-33.5179971146783 -70.7184871279523,-33.5142113246108</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7173228365926,-33.5080463010846 -70.7154227073586,-33.5099051039036 -70.7182423673239,-33.5135303130981 -70.7219685362646,-33.5103886563129 -70.7221220800331,-33.5102314292591 -70.7221341905459,-33.510123889446 -70.7220884047897,-33.5099694348326 -70.7217006800423,-33.5098078032141 -70.7173228365926,-33.5080463010846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZI</SimpleData>
+		<SimpleData name="NOM">Zona industrial</SimpleData>
+		<SimpleData name="UPERM">Industria y talleres</SimpleData>
+		<SimpleData name="UPROH">Residencia, excepto que sea parte de la industria</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7245673839284,-33.5087250270759 -70.7240652453813,-33.5092569440819 -70.7239558878597,-33.5094875243293 -70.7240399709963,-33.5097058681173 -70.7240543901613,-33.5098583733237 -70.7258775639324,-33.509871157594 -70.7258217727504,-33.5093565529406 -70.7245673839284,-33.5087250270759</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.735119418087,-33.5084076928601 -70.7388432919402,-33.508458614473 -70.736750290993,-33.5037779766955 -70.7354480067059,-33.5041203853912 -70.7358778772723,-33.5051435282401 -70.7353429235334,-33.5074511483531 -70.735119418087,-33.5084076928601</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7261384915385,-33.5072333496822 -70.7245673839284,-33.5087250270759 -70.7247955360483,-33.5088398933336 -70.7251418198833,-33.5086788511162 -70.7267620434171,-33.5085131114012 -70.7267822560632,-33.5086703068997 -70.7300568570095,-33.5083382855408 -70.7344862167022,-33.5083990229113 -70.7348819649172,-33.5066177267764 -70.7352867704959,-33.5052090755374 -70.7348859989941,-33.5042681478314 -70.7298484050473,-33.505592498054 -70.7278953760728,-33.5062067210768 -70.7261384915385,-33.5072333496822</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRE</SimpleData>
+		<SimpleData name="NOM">Zona residencial exclusiva</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, equipamiento y religiso</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7300568570095,-33.5083382855408 -70.7267822560632,-33.5086703068997 -70.7267620434171,-33.5085131114012 -70.7251418198833,-33.5086788511162 -70.7247955360483,-33.5088398933336 -70.7258217727504,-33.5093565529406 -70.7258775639324,-33.509871157594 -70.734131099566,-33.5099973801594 -70.7344862167022,-33.5083990229113 -70.7300568570095,-33.5083382855408</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRE</SimpleData>
+		<SimpleData name="NOM">Zona residencial exclusiva</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, equipamiento y religiso</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7347457717734,-33.5100067585423 -70.7395764237125,-33.5100803551843 -70.7388432919402,-33.508458614473 -70.735119418087,-33.5084076928601 -70.7347457717734,-33.5100067585423</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7234244155913,-33.5081814137877 -70.724157618101,-33.5085291132337 -70.7252997543127,-33.5072366844327 -70.7243040969312,-33.5072982705457 -70.7234244155913,-33.5081814137877</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Avenida parque Américo Vespucio</SimpleData>
+		<SimpleData name="NOM">Avenida parque Américo Vespucio</SimpleData>
+		<SimpleData name="UPERM">Acorde al art. 5.2.3.4 del PRMS área de uso público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7234244155913,-33.5081814137877 -70.7227865176036,-33.5090492580667 -70.7229307842895,-33.5091426927013 -70.7231602398967,-33.5092230110983 -70.7234020412847,-33.5092077167237 -70.724157618101,-33.5085291132337 -70.7234244155913,-33.5081814137877</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZEES</SimpleData>
+		<SimpleData name="NOM">Zona equipamiento salud y educación</SimpleData>
+		<SimpleData name="UPERM">Equipamiento y salud</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7220452802818,-33.5082960381565 -70.7220814944296,-33.5094050371136 -70.722405176461,-33.5092096540775 -70.7225591901816,-33.5090762798861 -70.7227865176036,-33.5090492580667 -70.7234244155913,-33.5081814137877 -70.7243040969312,-33.5072982705457 -70.7229672165307,-33.5073884558362 -70.7230101127996,-33.5081155974323 -70.7220452802818,-33.5082960381565</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZIEAM</SimpleData>
+		<SimpleData name="NOM">Zona industrial exclusiva con actividad molesta reincorporada</SimpleData>
+		<SimpleData name="UPERM">Industria molesta  o inofensivas, equipamiento, actividades de vialidad - transporte y talleres</SimpleData>
+		<SimpleData name="UPROH">Salud, educación, cultura, esparcimiento y turismo</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7128063287616,-33.504868961828 -70.7141259016861,-33.5059244220319 -70.7164784997264,-33.5073664077528 -70.7176675285005,-33.5078653059354 -70.7202324285352,-33.5088032076654 -70.720884775086,-33.5089516228249 -70.7211920223916,-33.5089330372429 -70.7214662324127,-33.5089721746322 -70.7216729543276,-33.5090551988758 -70.7217782995776,-33.5091968957541 -70.7218326735661,-33.5093536172934 -70.7220814944296,-33.5094050371136 -70.7220452802818,-33.5082960381565 -70.7230101127996,-33.5081155974323 -70.7230021487403,-33.5079805928068 -70.7192327372045,-33.5057820598525 -70.7179368677458,-33.5059288867313 -70.7178090744925,-33.5055154898906 -70.7169383363668,-33.505556195415 -70.7168105484455,-33.5051427973518 -70.716163322857,-33.5052519798691 -70.7163434914333,-33.5057219174299 -70.7161054401995,-33.5057824805523 -70.7154648414418,-33.5053618689345 -70.7154793837156,-33.5052328220929 -70.7152218472227,-33.5043058364894 -70.7137027671906,-33.5043984440172 -70.7132443146531,-33.5045479478116 -70.7128063287616,-33.504868961828</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7340300822098,-33.500980300413 -70.7350424102234,-33.503185125775 -70.7363108496543,-33.5028094478391 -70.7359503147638,-33.5018696365682 -70.7346041539154,-33.4989202824083 -70.7333775099829,-33.4968186629502 -70.7323278472016,-33.4955926129188 -70.7316788440492,-33.4951138311514 -70.7317049636183,-33.495775501665 -70.7321035712049,-33.4964857370323 -70.7330462788338,-33.4987750660503 -70.7340300822098,-33.500980300413</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7219271774419,-33.4955753717701 -70.7212852241121,-33.4959469707184 -70.7201862225852,-33.494521072588 -70.7202405199438,-33.4943867007392 -70.720262163992,-33.4943291355086 -70.7202710990623,-33.4942049373742 -70.7202677016391,-33.4940331905334 -70.7202151654382,-33.4936807872982 -70.7202189043469,-33.4935296693554 -70.7200200594641,-33.4936071431852 -70.718204197967,-33.4939472988492 -70.7184936530937,-33.4953367267001 -70.7187896017889,-33.4964779170245 -70.7189077521763,-33.4972684400363 -70.7181182871386,-33.4976707020809 -70.7161454399351,-33.4987192719413 -70.7148160637324,-33.4994725803608 -70.7133947994454,-33.5001889697156 -70.7128182884562,-33.5004164578459 -70.7115240802204,-33.5006443181997 -70.7102072750291,-33.5008820209442 -70.7101968248437,-33.5009298861387 -70.7101985140511,-33.5010157599175 -70.7118898987764,-33.5041801379755 -70.7128063287616,-33.504868961828 -70.7132443146531,-33.5045479478116 -70.7137027671906,-33.5043984440172 -70.7138268717336,-33.5043908786827 -70.7152218472227,-33.5043058364894 -70.7154793837156,-33.5052328220929 -70.7154648414418,-33.5053618689345 -70.7161054401995,-33.5057824805523 -70.7163434914333,-33.5057219174299 -70.716163322857,-33.5052519798691 -70.7168105484455,-33.5051427973518 -70.7169383363668,-33.505556195415 -70.7178090744925,-33.5055154898906 -70.7179368677458,-33.5059288867313 -70.7192327372045,-33.5057820598525 -70.7216319070237,-33.5071814181357 -70.7230021487403,-33.5079805928068 -70.7229672165307,-33.5073884558362 -70.7243040969312,-33.5072982705457 -70.7251808655801,-33.5064127756548 -70.7260593004082,-33.5061857951575 -70.7261352486212,-33.505707531332 -70.7275328536942,-33.5050915393498 -70.731611198402,-33.5039370185019 -70.7344736651686,-33.5032288820281 -70.7329196101476,-33.4995642265826 -70.7312254763327,-33.4960088764609 -70.731204830132,-33.4956870515731 -70.7310297326112,-33.4954747555728 -70.7309058272227,-33.4945435501911 -70.7280309382536,-33.4931807013914 -70.7273366713633,-33.4926368254188 -70.7228881773845,-33.4906086076879 -70.7227849332303,-33.4905718673126 -70.7224584220186,-33.4913399375836 -70.7223849443195,-33.4916559157592 -70.722374917945,-33.4934503508862 -70.7223034172176,-33.4950165825927 -70.7222496885745,-33.4951795796976 -70.7221505962621,-33.4953527512394 -70.7219271774419,-33.4955753717701</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Avenida parque Américo Vespucio</SimpleData>
+		<SimpleData name="NOM">Avenida parque Américo Vespucio</SimpleData>
+		<SimpleData name="UPERM">Acorde al art. 5.2.3.4 del PRMS área de uso público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7346361620798,-33.5037029355357 -70.7348859989941,-33.5042681478314 -70.7352867704959,-33.5052090755374 -70.7348819649172,-33.5066177267764 -70.734131099566,-33.5099973801594 -70.7347457717734,-33.5100067585423 -70.7353429235334,-33.5074511483531 -70.7358778772723,-33.5051435282401 -70.7352069375172,-33.5035465988596 -70.7346361620798,-33.5037029355357</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Avenida parque Américo Vespucio</SimpleData>
+		<SimpleData name="NOM">Avenida parque Américo Vespucio</SimpleData>
+		<SimpleData name="UPERM">Acorde al art. 5.2.3.4 del PRMS área de uso público</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7329196101476,-33.4995642265826 -70.7344736651686,-33.5032288820281 -70.731611198402,-33.5039370185019 -70.7275328536942,-33.5050915393498 -70.7261352486212,-33.505707531332 -70.7260593004082,-33.5061857951575 -70.7251808655801,-33.5064127756548 -70.7243040969312,-33.5072982705457 -70.7252997543127,-33.5072366844327 -70.7260420571831,-33.506608361603 -70.7272706385123,-33.5059422355773 -70.7279037132477,-33.5056948027738 -70.7298628994991,-33.5051043536812 -70.7319754411492,-33.504446330981 -70.7323651355537,-33.5043249427751 -70.7346361620798,-33.5037029355357 -70.7352069375172,-33.5035465988596 -70.7353903929864,-33.5034963495039 -70.7364781113826,-33.5031984110401 -70.7363108496543,-33.5028094478391 -70.7350424102234,-33.503185125775 -70.7340300822098,-33.500980300413 -70.7330462788338,-33.4987750660503 -70.7321035712049,-33.4964857370323 -70.7317049636183,-33.495775501665 -70.7316788440492,-33.4951138311514 -70.7312942804506,-33.4948301268491 -70.7309058272227,-33.4945435501911 -70.7310297326112,-33.4954747555728 -70.731204830132,-33.4956870515731 -70.7312254763327,-33.4960088764609 -70.7329196101476,-33.4995642265826</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZHMM</SimpleData>
+		<SimpleData name="NOM">Zona habitacional mixta metropolitana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, actividades productivas y de almacenamiento inofensivo, infraestructura y transporte</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7184936530937,-33.4953367267001 -70.7138396065853,-33.4988625942698 -70.7138179583161,-33.4989201584935 -70.7141279791656,-33.4998194129351 -70.7148160637324,-33.4994725803608 -70.7161454399351,-33.4987192719413 -70.7181182871386,-33.4976707020809 -70.7189077521763,-33.4972684400363 -70.7187896017889,-33.4964779170245 -70.7184936530937,-33.4953367267001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZI</SimpleData>
+		<SimpleData name="NOM">Zona industrial</SimpleData>
+		<SimpleData name="UPERM">Industria y talleres</SimpleData>
+		<SimpleData name="UPROH">Residencia, excepto que sea parte de la industria</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7138179583161,-33.4989201584935 -70.7130662536535,-33.4989281701875 -70.7106062516777,-33.499105327865 -70.7102112492466,-33.4978461832555 -70.7081853725422,-33.4983752038339 -70.7100122393927,-33.5007598944899 -70.7102072750291,-33.5008820209442 -70.7115240802204,-33.5006443181997 -70.7128182884562,-33.5004164578459 -70.7133947994454,-33.5001889697156 -70.7141279791656,-33.4998194129351 -70.7138179583161,-33.4989201584935</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZUE</SimpleData>
+		<SimpleData name="NOM">Zona uso especial</SimpleData>
+		<SimpleData name="UPERM">Facultad de arquitectura y urbanismo de la universidad de Chile y , Escuela de formación policial de Carabineros de Chile.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7182189678581,-33.494018196908 -70.7132869512026,-33.494952368557 -70.7132893010377,-33.4950716379168 -70.7132335355568,-33.4951320600909 -70.7130631810228,-33.4951582768796 -70.7129355327703,-33.4951839020183 -70.7127630648829,-33.4951027757569 -70.7073061620362,-33.4971107942861 -70.7081853725422,-33.4983752038339 -70.7102112492466,-33.4978461832555 -70.7106062516777,-33.499105327865 -70.7130662536535,-33.4989281701875 -70.7138179583161,-33.4989201584935 -70.7138396065853,-33.4988625942698 -70.7184936530937,-33.4953367267001 -70.7182189678581,-33.494018196908</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Zona B</SimpleData>
+		<SimpleData name="NOM">Zona B - Seccional Lo Errázuriz</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes</SimpleData>
+		<SimpleData name="UPROH">Todas excepto relacionadas a áreas verdes</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.722374917945,-33.4934503508862 -70.7202189043469,-33.4935296693554 -70.7202151654382,-33.4936807872982 -70.7202677016391,-33.4940331905334 -70.7202710990623,-33.4942049373742 -70.720262163992,-33.4943291355086 -70.7202405199438,-33.4943867007392 -70.7207660346837,-33.4941233515133 -70.7215400453561,-33.4940935091234 -70.7212618963105,-33.4950040667159 -70.7217463608381,-33.4956800397459 -70.7219271774419,-33.4955753717701 -70.7221505962621,-33.4953527512394 -70.7222496885745,-33.4951795796976 -70.7223034172176,-33.4950165825927 -70.722374917945,-33.4934503508862</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Zona A</SimpleData>
+		<SimpleData name="NOM">Zona A - Seccional Lo Errázuriz</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación, culto y comercio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7215400453561,-33.4940935091234 -70.7207660346837,-33.4941233515133 -70.7202405199438,-33.4943867007392 -70.7201862225852,-33.494521072588 -70.7212852241121,-33.4959469707184 -70.7217463608381,-33.4956800397459 -70.7212618963105,-33.4950040667159 -70.7215400453561,-33.4940935091234</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZIEAM</SimpleData>
+		<SimpleData name="NOM">Zona industrial exclusiva con actividad molesta reincorporada</SimpleData>
+		<SimpleData name="UPERM">Industria molesta  o inofensivas, equipamiento, actividades de vialidad - transporte y talleres</SimpleData>
+		<SimpleData name="UPROH">Salud, educación, cultura, esparcimiento y turismo</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7227238068393,-33.4907156598749 -70.7175227667377,-33.488146006747 -70.7172847640022,-33.4882065707458 -70.717217853006,-33.4882790791458 -70.7171520710002,-33.4884088366211 -70.7170353294024,-33.4885536174285 -70.7167287186036,-33.488600815032 -70.7168789270029,-33.4892859115106 -70.7173689439847,-33.4907393743213 -70.717815931387,-33.4926086004532 -70.7198934028202,-33.4922505030275 -70.7202189043469,-33.4935296693554 -70.722374917945,-33.4934503508862 -70.7223849443195,-33.4916559157592 -70.7224584220186,-33.4913399375836 -70.7227238068393,-33.4907156598749</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZEES</SimpleData>
+		<SimpleData name="NOM">Zona equipamiento salud y educación</SimpleData>
+		<SimpleData name="UPERM">Equipamiento y salud</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.717815931387,-33.4926086004532 -70.718204197967,-33.4939472988492 -70.7200200594641,-33.4936071431852 -70.7202189043469,-33.4935296693554 -70.7198934028202,-33.4922505030275 -70.717815931387,-33.4926086004532</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">27 H2</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 27 H 2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7303543835041,-33.4911680753186 -70.729420784255,-33.4917633023337 -70.729088643999,-33.4916724978837 -70.7284689568622,-33.4920151892599 -70.7278388399127,-33.4918330969674 -70.7274394943807,-33.4923731369381 -70.7309000720152,-33.4939759649083 -70.7310259019766,-33.4934301925803 -70.7309845082376,-33.4919228012758 -70.7303543835041,-33.4911680753186</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7278388399127,-33.4918330969674 -70.728292653158,-33.4911682228949 -70.7238204945224,-33.4890926465513 -70.7230473829271,-33.4903155061205 -70.7274394943807,-33.4923731369381 -70.7278388399127,-33.4918330969674</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">AV Parque Las Torres</SimpleData>
+		<SimpleData name="NOM">AV Parque Las Torres</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, recreación, deporte, culto y cultura, científico, esparcimiento y turismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7313796523369,-33.4850404245642 -70.7311904874665,-33.4849786456445 -70.7311307246879,-33.486697422715 -70.7310282404905,-33.48669885466 -70.7308137367109,-33.486651744522 -70.7304530528895,-33.4865565697424 -70.7299695320848,-33.4862984729286 -70.7295546202789,-33.4860537325662 -70.7286671560529,-33.4856724225267 -70.728138812665,-33.4853075720505 -70.7269091712667,-33.4853318759051 -70.7266555235759,-33.4854642565947 -70.7260888688959,-33.4857513181511 -70.7250001210819,-33.4859883827471 -70.7249474351666,-33.4863470214682 -70.7251606571064,-33.4863297364783 -70.7258582620751,-33.486184016684 -70.7263507562619,-33.4860339935526 -70.7265608533986,-33.4858592718741 -70.7269542875941,-33.4854529349171 -70.7270735656359,-33.4854369561033 -70.72725319358,-33.4854487681726 -70.7273679106458,-33.485633278976 -70.7278455916726,-33.4855979858248 -70.7281795127366,-33.485636276998 -70.7283683917111,-33.4856837492542 -70.7285780483802,-33.485917041425 -70.7287908360514,-33.4863077672791 -70.7291688822093,-33.4864170207931 -70.7292951369866,-33.4863222040334 -70.7294404637119,-33.4863273331258 -70.7295355450267,-33.4863832704744 -70.7295294230148,-33.4865050437217 -70.7298031389232,-33.4865226970874 -70.7301164233379,-33.4868118042363 -70.7303211063209,-33.4867946295984 -70.7305344702195,-33.4867844909948 -70.7310764962834,-33.4869773458299 -70.7311553532379,-33.4870764570417 -70.7311479613422,-33.4879927957242 -70.7311304839031,-33.4905484770078 -70.7303543835041,-33.4911680753186 -70.7309845082376,-33.4919228012758 -70.7310142281436,-33.4930051136381 -70.7310259019766,-33.4934301925803 -70.7309000720152,-33.4939759649083 -70.7313590066924,-33.4943032776644 -70.7314337012243,-33.4920474380373 -70.7314501781592,-33.4898711496911 -70.7313745575403,-33.4873597177964 -70.7313796523369,-33.4850404245642</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">27 H2</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 27 H 2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7249474351666,-33.4863470214682 -70.7246761054577,-33.4868804980572 -70.724626848864,-33.4869813978276 -70.7242495977321,-33.4877740389888 -70.7238204945224,-33.4890926465513 -70.728292653158,-33.4911682228949 -70.7278388399127,-33.4918330969674 -70.7284689568622,-33.4920151892599 -70.729088643999,-33.4916724978837 -70.729420784255,-33.4917633023337 -70.7303543835041,-33.4911680753186 -70.7311304839031,-33.4905484770078 -70.7311479613422,-33.4879927957242 -70.7311553532379,-33.4870764570417 -70.7310764962834,-33.4869773458299 -70.7305344702195,-33.4867844909948 -70.7303211063209,-33.4867946295984 -70.7301164233379,-33.4868118042363 -70.7298031389232,-33.4865226970874 -70.7295294230148,-33.4865050437217 -70.7295355450267,-33.4863832704744 -70.7294404637119,-33.4863273331258 -70.7292951369866,-33.4863222040334 -70.7291688822093,-33.4864170207931 -70.7287908360514,-33.4863077672791 -70.7285780483802,-33.485917041425 -70.7283683917111,-33.4856837492542 -70.7281795127366,-33.485636276998 -70.7278455916726,-33.4855979858248 -70.7273679106458,-33.485633278976 -70.72725319358,-33.4854487681726 -70.7270735656359,-33.4854369561033 -70.7269542875941,-33.4854529349171 -70.7265608533986,-33.4858592718741 -70.7263507562619,-33.4860339935526 -70.7258582620751,-33.486184016684 -70.7251606571064,-33.4863297364783 -70.7249474351666,-33.4863470214682</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">27 H2</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 27 H 2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7311904874665,-33.4849786456445 -70.7307900505094,-33.4847456370492 -70.7296232866805,-33.484494695192 -70.7251200227172,-33.4842806998349 -70.7251492297368,-33.4846047937107 -70.7251161709204,-33.4852351665446 -70.7250001210819,-33.4859883827471 -70.7260888688959,-33.4857513181511 -70.7266555235759,-33.4854642565947 -70.7269091712667,-33.4853318759051 -70.728138812665,-33.4853075720505 -70.7286671560529,-33.4856724225267 -70.7295546202789,-33.4860537325662 -70.7299695320848,-33.4862984729286 -70.7304530528895,-33.4865565697424 -70.7308137367109,-33.486651744522 -70.7310282404905,-33.48669885466 -70.7311307246879,-33.486697422715 -70.7311904874665,-33.4849786456445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">AV intercomunal parque Cerrillos</SimpleData>
+		<SimpleData name="NOM">AV intercomunal parque Cerrillos</SimpleData>
+		<SimpleData name="UPERM">Según art. 5.2.5 Área verde intercomunal</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7171742470787,-33.4880548395555 -70.7166221959662,-33.4877857099173 -70.7165434270728,-33.4878345213397 -70.7167033245928,-33.48843358767 -70.7167828482615,-33.4884229409889 -70.7168967211486,-33.488421362973 -70.7170430619134,-33.488333437734 -70.7171742470787,-33.4880548395555</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Parque Isabel Riquelme</SimpleData>
+		<SimpleData name="NOM">Parque Isabel Riquelme</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, recreación, deporte, culto y cultura, científico, esparcimiento y turismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7311455978749,-33.4825260353262 -70.7299832269609,-33.4824945497005 -70.7295406709258,-33.4825770813379 -70.7289056808272,-33.4827195614414 -70.7285891328283,-33.4828385074796 -70.7281224744533,-33.4828545609702 -70.7277675964489,-33.482764069354 -70.727537213238,-33.4826336638915 -70.7272717240875,-33.4824560265187 -70.7270853726441,-33.4822486531165 -70.7269001584363,-33.4820985291588 -70.7266693995339,-33.4819490387154 -70.726349632428,-33.4819057736123 -70.7261444876491,-33.4818990879414 -70.7257928328598,-33.4819707950515 -70.7255556102779,-33.4820695408108 -70.7252734082113,-33.4821975439053 -70.7251035561919,-33.4822476297963 -70.7248883486644,-33.4823078906989 -70.7247065426171,-33.4823295101093 -70.7245122155821,-33.482294038805 -70.7245136148714,-33.482122102514 -70.7206358384204,-33.4818538994063 -70.7161007724249,-33.4814634477536 -70.7157024814819,-33.4814808935888 -70.7153219513908,-33.4816770453316 -70.7145988838783,-33.481830215523 -70.7139446298871,-33.4818631284837 -70.7136177380848,-33.4818915099947 -70.7127716424709,-33.481581093576 -70.7123702993148,-33.4814434777885 -70.7119701308032,-33.4813654964117 -70.7118278000596,-33.4813674629039 -70.7116705325305,-33.4813338454774 -70.7113904524377,-33.4813807847366 -70.7109184149044,-33.4812680015813 -70.7106024739529,-33.4811292015829 -70.7102872373156,-33.4810261811478 -70.7100581025279,-33.4809577626152 -70.7097720358031,-33.4808901283711 -70.7094295059514,-33.4808471343359 -70.7091301443863,-33.4808274030754 -70.708888183681,-33.4808307404175 -70.7086326917292,-33.480870054909 -70.7081926391344,-33.4809357735145 -70.7079224464912,-33.4809514282301 -70.7073108934543,-33.4809837165541 -70.7062254406174,-33.4808077850317 -70.7048966277893,-33.4805636114881 -70.703425258657,-33.4803094533884 -70.7016242068929,-33.4799405023363 -70.7005240775621,-33.4797408617828 -70.6997944720924,-33.479559989109 -70.6996225121456,-33.4795026967449 -70.6992944581684,-33.4794714050715 -70.6990664997453,-33.4794626010578 -70.6987956094875,-33.4794424551648 -70.698581650948,-33.4794215273441 -70.6981084758374,-33.4792490591648 -70.6976068362803,-33.4790769791189 -70.6972785517752,-33.4790337560473 -70.6963378017,-33.4788295075416 -70.6951598159274,-33.4785783910516 -70.6943019506666,-33.4783896963218 -70.6932611674384,-33.4781653179723 -70.6921869720597,-33.4779795644276 -70.6917496620674,-33.4777469304037 -70.6905525312071,-33.477095173876 -70.6892657250963,-33.4771031793374 -70.6885683994597,-33.4769695199487 -70.6873077967096,-33.4765667467097 -70.6865280029315,-33.4762910355662 -70.6862057610359,-33.4767058223551 -70.6876090128532,-33.476829882956 -70.6889948673715,-33.4772309458316 -70.6908374753178,-33.4776925710989 -70.6927028743137,-33.478153857224 -70.6953561696605,-33.4787188682982 -70.6971880114577,-33.479209177626 -70.6987805733678,-33.4796931963488 -70.6996041157117,-33.479872786538 -70.7002551871786,-33.479968840418 -70.7016034398161,-33.4801889362131 -70.7025518676864,-33.4803477037433 -70.7037412818557,-33.4805985918777 -70.7063613027695,-33.481201998134 -70.7093477893512,-33.4819052781327 -70.712893767657,-33.4826771059795 -70.7142885745267,-33.4829441395965 -70.7157278076028,-33.4831532782248 -70.7168114224797,-33.4832337090186 -70.718248592189,-33.4833378609806 -70.7204602471013,-33.4834407880038 -70.723891791692,-33.4836030615644 -70.7261023185206,-33.4836486385357 -70.7295112907698,-33.4838206142377 -70.7311750728472,-33.4838641866109 -70.7311455978749,-33.4825260353262</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">27 E2</SimpleData>
+		<SimpleData name="NOM">Zona subsector geográfico sur poniente 27 E 2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, talleres inofensivos y actividades de vialidad - transporte</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7243355465862,-33.4864680006683 -70.7238897497182,-33.486388307351 -70.7235828674104,-33.4864212093478 -70.7233684035725,-33.486519634498 -70.7231765246744,-33.4866082004451 -70.7229854013503,-33.4867349326628 -70.7227147561078,-33.4868723141741 -70.7224315896364,-33.4869526035745 -70.7222510966295,-33.4870410107237 -70.7219690624509,-33.487178548955 -70.7217779360488,-33.4873052784928 -70.7216433675898,-33.4874121341739 -70.721407446055,-33.4875776627099 -70.7212051199128,-33.4877140917204 -70.7210027920544,-33.4878505204326 -70.7208469570808,-33.4880340239454 -70.7207581248704,-33.4881497872274 -70.7206250627222,-33.4883329741704 -70.7204462634613,-33.4885072514071 -70.720449660526,-33.4886789983851 -70.7203731566731,-33.4888423110952 -70.7202270084128,-33.4889397822677 -70.7200920570712,-33.4890275530926 -70.7228630688252,-33.4903347718114 -70.7235813268829,-33.4892176620367 -70.7236437897191,-33.4889209249265 -70.723939186732,-33.487733342363 -70.7243518508977,-33.4867159219309 -70.7243355465862,-33.4864680006683</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">Zona de derrumbes y asentamiento del suelo</SimpleData>
+		<SimpleData name="NOM">Zona de derrumbes y asentamiento del suelo</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, culto y cultura, deportivo y esparcimiento</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7245770911595,-33.4838574996226 -70.7207809731979,-33.4836907653811 -70.717075958332,-33.4835226510235 -70.7147018797623,-33.4832692055407 -70.7121758436188,-33.4828173863286 -70.7092815230196,-33.4821701681949 -70.7056206063463,-33.4813425540762 -70.7014107808364,-33.4803982932048 -70.7038581287433,-33.4814908769943 -70.7068704079608,-33.4829287642427 -70.7111576102479,-33.4849025365587 -70.7151121414615,-33.4867471430293 -70.7200920570712,-33.4890275530926 -70.7202270084128,-33.4889397822677 -70.7203731566731,-33.4888423110952 -70.720449660526,-33.4886789983851 -70.7204462634613,-33.4885072514071 -70.7206250627222,-33.4883329741704 -70.7207581248704,-33.4881497872274 -70.7208469570808,-33.4880340239454 -70.7210027920544,-33.4878505204326 -70.7212051199128,-33.4877140917204 -70.721407446055,-33.4875776627099 -70.7216433675898,-33.4874121341739 -70.7217779360488,-33.4873052784928 -70.7219690624509,-33.487178548955 -70.7222510966295,-33.4870410107237 -70.7224315896364,-33.4869526035745 -70.7227147561078,-33.4868723141741 -70.7229854013503,-33.4867349326628 -70.7231765246744,-33.4866082004451 -70.7233684035725,-33.486519634498 -70.7235828674104,-33.4864212093478 -70.7238897497182,-33.486388307351 -70.7243355465862,-33.4864680006683 -70.7243395165847,-33.4862372958672 -70.7244114703093,-33.4858449844756 -70.7246305079481,-33.4854029057316 -70.7246857767686,-33.4847435914602 -70.7245770911595,-33.4838574996226</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.708627538646,-33.4955054623205 -70.7067405715502,-33.4962174610429 -70.7073187990397,-33.4970207459426 -70.7090220060348,-33.4963768900093 -70.708627538646,-33.4955054623205</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7167287186036,-33.488600815032 -70.7143936140096,-33.4893962841585 -70.7097452337124,-33.4910830292722 -70.7086809726213,-33.4890934384675 -70.7080376945776,-33.4893981778833 -70.7090554560016,-33.4913406948267 -70.7059010968347,-33.4925485579637 -70.7057024756981,-33.4928757943088 -70.7050811872377,-33.4931420398302 -70.7060115086689,-33.4941122796965 -70.7064534659309,-33.4951560498869 -70.7099809046407,-33.4937998603832 -70.7105478023819,-33.4948228019267 -70.710978301499,-33.4947023272147 -70.7113700734853,-33.4955081679917 -70.7121155017532,-33.4951829106098 -70.7116085289798,-33.4943118544911 -70.7112917260745,-33.4944212169636 -70.7107832645929,-33.4934738252527 -70.7123674452265,-33.4929365540225 -70.7130192326581,-33.4947981951382 -70.7131445030133,-33.4947964628192 -70.7132016311871,-33.4948052174983 -70.7132934889338,-33.4948421233063 -70.7151762146952,-33.4944247600341 -70.718204197967,-33.4939472988492 -70.7180810986995,-33.4935228701981 -70.717815931387,-33.4926086004532 -70.7173689439847,-33.4907393743213 -70.7172086719068,-33.4902639909166 -70.7168789270029,-33.4892859115106 -70.7167287186036,-33.488600815032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZCO</SimpleData>
+		<SimpleData name="NOM">Zona comercial obligatoria</SimpleData>
+		<SimpleData name="UPERM">Comercio, educación y residencial.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7050811872377,-33.4931420398302 -70.7046034667822,-33.4932943211698 -70.7051405998762,-33.493964564454 -70.706090182443,-33.4953353939448 -70.7064534659309,-33.4951560498869 -70.7060115086689,-33.4941122796965 -70.7050811872377,-33.4931420398302</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZIEAM</SimpleData>
+		<SimpleData name="NOM">Zona industrial exclusiva con actividad molesta reincorporada</SimpleData>
+		<SimpleData name="UPERM">Industria molesta  o inofensivas, equipamiento, actividades de vialidad - transporte y talleres</SimpleData>
+		<SimpleData name="UPROH">Salud, educación, cultura, esparcimiento y turismo</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7130082792457,-33.4947669123117 -70.7123674452265,-33.4929365540225 -70.7107832645929,-33.4934738252527 -70.7112917260745,-33.4944212169636 -70.7116085289798,-33.4943118544911 -70.7121155017532,-33.4951829106098 -70.7130082792457,-33.4947669123117</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZIEAM</SimpleData>
+		<SimpleData name="NOM">Zona industrial exclusiva con actividad molesta reincorporada</SimpleData>
+		<SimpleData name="UPERM">Industria molesta  o inofensivas, equipamiento, actividades de vialidad - transporte y talleres</SimpleData>
+		<SimpleData name="UPROH">Salud, educación, cultura, esparcimiento y turismo</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7113700734853,-33.4955081679917 -70.710978301499,-33.4947023272147 -70.7105478023819,-33.4948228019267 -70.7099809046407,-33.4937998603832 -70.7064534659309,-33.4951560498869 -70.706090182443,-33.4953353939448 -70.7067405715502,-33.4962174610429 -70.708627538646,-33.4955054623205 -70.7090220060348,-33.4963768900093 -70.7113700734853,-33.4955081679917</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7003953466299,-33.4880552788439 -70.7006089303551,-33.4883299046351 -70.7016105303134,-33.4878256962794 -70.7013995860235,-33.487523179065 -70.7003953466299,-33.4880552788439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7031856622859,-33.48391957206 -70.7024697842892,-33.4840057644051 -70.7026461939754,-33.4848718612751 -70.7023966140477,-33.4849230110365 -70.7025965467567,-33.4858269609529 -70.7010596614822,-33.4858671601283 -70.7012076900512,-33.486447322053 -70.7014992740948,-33.4867964524592 -70.7017145117035,-33.4867362313596 -70.7027994850582,-33.4880479652617 -70.703588379388,-33.4876171760418 -70.7040446349476,-33.4882312725842 -70.7037750747403,-33.4884258632615 -70.7043101143646,-33.4889911541119 -70.7046026361948,-33.4888057911018 -70.7041697095023,-33.4882200083544 -70.7046869845005,-33.4878788454908 -70.703733038045,-33.4868611971359 -70.7043068692353,-33.486500170456 -70.7036792548359,-33.4858597985816 -70.7031856622859,-33.48391957206</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7034595902439,-33.4886019971156 -70.7032225094383,-33.4887102417559 -70.7036895950396,-33.489295558107 -70.702969385494,-33.4897444926148 -70.7043803797242,-33.4914144060958 -70.7052813027831,-33.4908866234399 -70.7034595902439,-33.4886019971156</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZRM</SimpleData>
+		<SimpleData name="NOM">Zona residencial mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, educación y religioso. Comercio, bomberos, carabineros. Usos sociales, talleres, bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">En calles menores a 15 mts supermercados, bodegas, carabineros</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7163983315327,-33.4876920971987 -70.714227831898,-33.4866484313869 -70.71122455099,-33.485246394245 -70.7111974972646,-33.4852337755415 -70.7106098739151,-33.4862796871276 -70.711703458993,-33.4862860579973 -70.7129714268924,-33.4869056051474 -70.7144669023246,-33.487364513517 -70.716270413378,-33.4878477690644 -70.7163983315327,-33.4876920971987</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Cerrillos</SimpleData>
+		<SimpleData name="LOC">Cerrillos</SimpleData>
+		<SimpleData name="ZONA">ZIEAM</SimpleData>
+		<SimpleData name="NOM">Zona industrial exclusiva con actividad molesta reincorporada</SimpleData>
+		<SimpleData name="UPERM">Industria molesta  o inofensivas, equipamiento, actividades de vialidad - transporte y talleres</SimpleData>
+		<SimpleData name="UPROH">Salud, educación, cultura, esparcimiento y turismo</SimpleData>
+		<SimpleData name="P_DO">19/11/2019</SimpleData>
+		<SimpleData name="N_DOC">202</SimpleData>
+		<SimpleData name="T_DO">Enmienda</SimpleData>
+		<SimpleData name="OBS">La comuna se rige por 3 instrumentos de planificación. PRC Maipú 1965, PRC Santiago 1990 y PRMS 1994. Para ver el detalle revisar ordenanzas locales</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7013674006027,-33.4826640001456 -70.7003496857865,-33.4830406503366 -70.7001744088,-33.4828139946969 -70.6995966688222,-33.4829746283741 -70.6992435377005,-33.4831787063381 -70.6979905821066,-33.4820076324708 -70.6959425057451,-33.4835238238265 -70.6974101113877,-33.4850427273383 -70.6998909311747,-33.4874066910063 -70.7003953466299,-33.4880552788439 -70.7013995860235,-33.487523179065 -70.7016105303134,-33.4878256962794 -70.7006089303551,-33.4883299046351 -70.7011761917917,-33.4890592807214 -70.7034070781871,-33.4917367858826 -70.7046034667822,-33.4932943211698 -70.7050811872377,-33.4931420398302 -70.7057024756981,-33.4928757943088 -70.7059010968347,-33.4925485579637 -70.7086813043224,-33.4914839705002 -70.708724337227,-33.4914674916102 -70.7090554560016,-33.4913406948267 -70.7080376945776,-33.4893981778833 -70.7086809726213,-33.4890934384675 -70.7097452337124,-33.4910830292722 -70.7143936140096,-33.4893962841585 -70.7167287186036,-33.488600815032 -70.7167033245928,-33.48843358767 -70.7165434270728,-33.4878345213397 -70.7163983315327,-33.4876920971987 -70.716270413378,-33.4878477690644 -70.7144669023246,-33.487364513517 -70.7129714268924,-33.4869056051474 -70.711703458993,-33.4862860579973 -70.7106098739151,-33.4862796871276 -70.7111974972646,-33.4852337755415 -70.7097588827249,-33.48456274714 -70.7071001528188,-33.4832990150325 -70.7044433676756,-33.4821306387535 -70.7034803988096,-33.4816666734867 -70.7031007774801,-33.4816094146566 -70.7028683836459,-33.481956199567 -70.7027323040328,-33.4819867021998 -70.7025389187416,-33.4819989035009 -70.7013627358318,-33.4824254594612 -70.7013674006027,-33.4826640001456</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.7046869845005,-33.4878788454908 -70.7041697095023,-33.4882200083544 -70.7046026361948,-33.4888057911018 -70.7043101143646,-33.4889911541119 -70.7037750747403,-33.4884258632615 -70.7040446349476,-33.4882312725842 -70.703588379388,-33.4876171760418 -70.7027994850582,-33.4880479652617 -70.7017145117035,-33.4867362313596 -70.7014992740948,-33.4867964524592 -70.7012076900512,-33.486447322053 -70.7010596614822,-33.4858671601283 -70.7025965467567,-33.4858269609529 -70.7023966140477,-33.4849230110365 -70.7026461939754,-33.4848718612751 -70.7024697842892,-33.4840057644051 -70.7031856622859,-33.48391957206 -70.7036792548359,-33.4858597985816 -70.7043068692353,-33.486500170456 -70.703733038045,-33.4868611971359 -70.7046869845005,-33.4878788454908</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.7034595902439,-33.4886019971156 -70.7052813027831,-33.4908866234399 -70.7043803797242,-33.4914144060958 -70.702969385494,-33.4897444926148 -70.7036895950396,-33.489295558107 -70.7032225094383,-33.4887102417559 -70.7034595902439,-33.4886019971156</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

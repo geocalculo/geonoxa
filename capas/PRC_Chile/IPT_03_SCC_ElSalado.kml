@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="prc_chaaral_elsalado_mono" id="prc_chaaral_elsalado_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>prc_chaaral_elsalado_mono</name>
+  <Placemark id="prc_chaaral_elsalado_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU9</SimpleData>
+		<SimpleData name="NOMBRE">ZU9 Zona Urbana Industrial de Alto Impacto</SimpleData>
+		<SimpleData name="UPERM">Industria pesquera y minera. Talleres y servicios vinculados con la pesca y minería. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">260022.19335900000</SimpleData>
+		<SimpleData name="Shape_STLe">2361.55466066000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.314450410245,-26.4194998522238 -70.3145862723014,-26.4218867501717 -70.315426881395,-26.4218573855521 -70.3161067636292,-26.4218292562944 -70.3166885520482,-26.4217200034521 -70.3171612200559,-26.4216281580939 -70.3175488708557,-26.4215370955306 -70.3177797532484,-26.4215459041985 -70.3180773712969,-26.4215486291242 -70.3185803377118,-26.421451031629 -70.3184446267851,-26.4212663638708 -70.3191404816927,-26.4210412165555 -70.3185936254198,-26.4198486638433 -70.3184667499391,-26.4198892458954 -70.3179662971776,-26.4185717525414 -70.3191643163156,-26.4182454058706 -70.319977566678,-26.4180265070519 -70.3202238448216,-26.4179884045414 -70.319925357035,-26.4172853189468 -70.319077496854,-26.415161288376 -70.3171234290103,-26.4154838503743 -70.3164270931686,-26.4165364833593 -70.3157502325963,-26.4175531049884 -70.314450410245,-26.4194998522238</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3219694282291,-26.4231210493331 -70.322514111742,-26.4248214923888 -70.3229215355955,-26.4247221784396 -70.3231542089394,-26.42465314328 -70.3235188072027,-26.4245207829797 -70.3238408519996,-26.4243792607087 -70.3242098810123,-26.4241704214657 -70.3245522175873,-26.4239474968618 -70.3248309436203,-26.4237299384551 -70.3250934786171,-26.4234886427717 -70.3253713831923,-26.4231994314289 -70.3255804266975,-26.422920413106 -70.3257945016204,-26.4226174610265 -70.3260125695428,-26.4221998177945 -70.3261468440014,-26.4218784969094 -70.3261392750901,-26.4218800955273 -70.3242784044938,-26.4222732170388 -70.3232769479684,-26.4228557602767 -70.3219688632092,-26.4231178397336 -70.3219694282291,-26.4231210493331</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.30848398789,-26.4226728182301 -70.308719377768,-26.423462596386 -70.3142298515486,-26.422653313673 -70.3148134913086,-26.4225673324013 -70.3154075544968,-26.4224717681804 -70.3158595903589,-26.4223917348165 -70.3161798074058,-26.4222986883037 -70.3160888703398,-26.4218299969747 -70.315426881395,-26.4218573855521 -70.3145862723014,-26.4218867501717 -70.30848398789,-26.4226728182301</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3116138150686,-26.4247112245581 -70.3113909226943,-26.4248141359916 -70.314319968288,-26.4244712924942 -70.315425154088,-26.4243419143513 -70.3153644076132,-26.424012868913 -70.3153640443599,-26.4240109005657 -70.3130728301298,-26.4237357167938 -70.3130690043335,-26.4237346071936 -70.3130008839567,-26.4237798630501 -70.3128722372751,-26.4238816042399 -70.3124890972539,-26.4241677778756 -70.3121925019773,-26.4243661842863 -70.3119377927961,-26.4245315925097 -70.3116138150686,-26.4247112245581</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3212556992798,-26.4241022078574 -70.322030786081,-26.4248952332751 -70.3223949515451,-26.4248411062394 -70.3218551628198,-26.4231366253101 -70.3205718442102,-26.4234099385018 -70.3212556992798,-26.4241022078574</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3141584068964,-26.4237746955964 -70.3159782731627,-26.4239973525324 -70.3163594048046,-26.4239186029079 -70.3160648575064,-26.4234358194792 -70.3160034748417,-26.4234131006747 -70.3157796752222,-26.4233291698665 -70.3155881144372,-26.423280771012 -70.3153448663824,-26.42323643058 -70.3151337765778,-26.4232204574606 -70.3148273943477,-26.423223275309 -70.3146325862591,-26.4232393984155 -70.3144736288825,-26.4232587748315 -70.3142909615043,-26.4232927007915 -70.3141441041823,-26.4233262973829 -70.3140511633235,-26.4233476142077 -70.3141584068964,-26.4237746955964</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3168732751178,-26.4235450286974 -70.3170556466658,-26.4235433488502 -70.3173302165195,-26.4234840890345 -70.3182994460113,-26.4232721222785 -70.3182453279519,-26.4228874550529 -70.3161407745864,-26.4232860378525 -70.3161312868006,-26.4232922731767 -70.3162442092096,-26.4233418159645 -70.3164677601446,-26.4234621749157 -70.3166707040942,-26.4235200219472 -70.3168732751178,-26.4235450286974</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3159961260452,-26.4231052363305 -70.3161927422213,-26.4231900146992 -70.3172846240454,-26.4229739392685 -70.3172346063756,-26.4226579070365 -70.3158074650031,-26.4227808819951 -70.3158168624056,-26.422796364094 -70.3159961260452,-26.4231052363305</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3139815725476,-26.4230304063129 -70.3140319672205,-26.4232604359136 -70.3141429668503,-26.4232259854664 -70.3142898240469,-26.4231923888805 -70.314464452547,-26.4231513714002 -70.3146511405069,-26.4231209905213 -70.3148975128538,-26.4230900614257 -70.3150486730375,-26.4230850889291 -70.3152317067001,-26.4230834053397 -70.3154587935017,-26.4231063965722 -70.3156022818296,-26.4231265735303 -70.3157659897253,-26.4231752286969 -70.3159336162468,-26.423220705 -70.315675191337,-26.4227971243321 -70.313980588602,-26.4230218876148 -70.3139815725476,-26.4230304063129</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU8</SimpleData>
+		<SimpleData name="NOMBRE">ZU8 Zona Industrial Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria Inofensiva y de bajo impacto ambiental y funcional. Talleres y servicios artesanales. Bodegas y almacenes de acopio de materias primas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">200056.23339800001</SimpleData>
+		<SimpleData name="Shape_STLe">6347.19475388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3162603840468,-26.4235361962039 -70.3164776612186,-26.4238924905994 -70.3173203658866,-26.4237266767076 -70.317309561859,-26.4236401248793 -70.3171110706026,-26.4236895954701 -70.3169519774567,-26.4236970320159 -70.3167728543739,-26.423692710781 -70.316629933936,-26.4236641690774 -70.3164537205146,-26.4236239898959 -70.3163004457503,-26.4235597142494 -70.3162603840468,-26.4235361962039</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">2786.61694336000</SimpleData>
+		<SimpleData name="Shape_STLe">298.67904763000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3174363824755,-26.423922475024 -70.3174897508974,-26.4242414626459 -70.3179036213611,-26.4241839043977 -70.3178480897219,-26.4238415194912 -70.3174363824755,-26.423922475024</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">2786.61694336000</SimpleData>
+		<SimpleData name="Shape_STLe">298.67904763000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3170062382149,-26.4240070541889 -70.3170527369134,-26.4243052048454 -70.3174135879029,-26.4242511219243 -70.3173611028817,-26.4239403234413 -70.3170062382149,-26.4240070541889</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3269110677618,-26.4216217819184 -70.3242507871166,-26.4221779282373 -70.3242430152095,-26.4221784380701 -70.3232441346847,-26.4227700726441 -70.3219532549683,-26.4230292662869 -70.3219688632092,-26.4231178397336 -70.3232769479684,-26.4228557602767 -70.3242784044938,-26.4222732170388 -70.3261392750901,-26.4218800955273 -70.3261467893481,-26.4218737198728 -70.3263162294292,-26.4218434847675 -70.3261922377213,-26.4221360469689 -70.3260108705693,-26.4225151324543 -70.3258861670976,-26.4227455965565 -70.3256042157777,-26.4231447235479 -70.3253370324413,-26.4234433901276 -70.3250327091782,-26.4237424004387 -70.3247067815159,-26.4240081693087 -70.3242697130203,-26.4242988528595 -70.3238003736839,-26.4245516171853 -70.3233989650549,-26.4247129823985 -70.3230024802914,-26.4248408608395 -70.3225527214377,-26.4249501217484 -70.3226852294555,-26.4254027347466 -70.3229181224098,-26.4253528071808 -70.3233148281739,-26.4252440361606 -70.3236002827243,-26.4251506257896 -70.3238907161217,-26.4250285052971 -70.3242074015311,-26.4248822551685 -70.3246134044809,-26.4246587406822 -70.3248662608651,-26.4244987487674 -70.3253605954257,-26.4241119862279 -70.3257647356453,-26.4237260593323 -70.3260788464104,-26.4233552981133 -70.3264024184947,-26.4228841263964 -70.3265995913012,-26.4224953396217 -70.3267856049149,-26.4220588834266 -70.3268927507873,-26.4216852633729 -70.3269110677618,-26.4216217819184</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3148102462442,-26.4262826724178 -70.3152118397976,-26.4262925681776 -70.3156010514809,-26.4262753974188 -70.3159628814095,-26.4262394532027 -70.3176412050101,-26.4260228754065 -70.3173736369559,-26.4255877691288 -70.3147335345003,-26.4259206033632 -70.3148083946851,-26.4262825350693 -70.3148102462442,-26.4262826724178</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3265379618021,-26.420819095781 -70.3246530271323,-26.4219355840584 -70.3246565623861,-26.4219353066508 -70.3269571084744,-26.4214622196756 -70.3269590932054,-26.4214553400836 -70.3270039428319,-26.4212017294241 -70.3270328757275,-26.4209482664707 -70.3270453461556,-26.4206471835712 -70.3270496663456,-26.4205611531139 -70.3265379618021,-26.420819095781</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3241192841097,-26.4199866414372 -70.3263967219398,-26.4205626904205 -70.3260837133084,-26.4195871720102 -70.3241192841097,-26.4199866414372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.311114258588,-26.424579915193 -70.3112487255993,-26.4246895806028 -70.3115157223762,-26.4245789504228 -70.3117558026593,-26.424454445292 -70.3120437137131,-26.4242887327032 -70.3123014707817,-26.4241260146266 -70.3124961215444,-26.4239883355879 -70.3126875981657,-26.4238370966614 -70.3128402001027,-26.4237092319548 -70.3128340478334,-26.4237080128063 -70.3122453822532,-26.4236353870322 -70.3106198899673,-26.4242248751361 -70.31062123666,-26.4242256798153 -70.3108950041638,-26.4244107009085 -70.311114258588,-26.424579915193</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3242058255414,-26.4201015709387 -70.3245079030473,-26.4210292607154 -70.3245141027433,-26.4210278770923 -70.3262756494831,-26.4206345964307 -70.3242137546374,-26.4201026332131 -70.3242078546805,-26.420101111587 -70.3242058255414,-26.4201015709387</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3201809219328,-26.4252377769969 -70.3202459469024,-26.4257059450126 -70.3216930856167,-26.4255253697329 -70.3213270442301,-26.4250895926358 -70.3201809219328,-26.4252377769969</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3193839760286,-26.4229966393013 -70.3194273297577,-26.4230413686667 -70.3194464933052,-26.4230376077539 -70.3239588970957,-26.4220882158174 -70.3243394250264,-26.4220086987871 -70.3250462170001,-26.4215914603795 -70.3234953536212,-26.4218894742541 -70.3235610127669,-26.4221217574159 -70.3229050820062,-26.4222415437311 -70.3206754426667,-26.4227189805355 -70.3193839760286,-26.4229966393013</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3195520401682,-26.4231700376679 -70.3196447442249,-26.4232656836997 -70.3230348081039,-26.4225924103201 -70.3238900535971,-26.4222739714412 -70.3239441201801,-26.4222420547485 -70.3239311597534,-26.422243733869 -70.3238716123121,-26.4222562282013 -70.3195520401682,-26.4231700376679</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.314319968288,-26.4244712924942 -70.3143464939763,-26.4246052815271 -70.3143604515793,-26.4246043154257 -70.3166121893267,-26.4243148759938 -70.316504250193,-26.4241546374551 -70.3153644076132,-26.424012868913 -70.315425154088,-26.4243419143513 -70.314319968288,-26.4244712924942</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3191671646466,-26.4253671627379 -70.3192424454179,-26.4258288214798 -70.3201898443208,-26.4257124341194 -70.3201248525827,-26.4252472521846 -70.3191671646466,-26.4253671627379</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3215231380615,-26.4251626753763 -70.3218322501349,-26.4255151256841 -70.3222761018888,-26.4254692204739 -70.3225807548714,-26.425430573605 -70.3224275545144,-26.42495308784 -70.322422773554,-26.4249543092958 -70.3215783163499,-26.4250576623614 -70.3215354481779,-26.4250789590322 -70.3215193789354,-26.4251238948122 -70.3215231380615,-26.4251626753763</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3124522233471,-26.4235659255589 -70.3129700571554,-26.4236292901533 -70.3130884901056,-26.4235832192597 -70.3135720205357,-26.423410379634 -70.3140319672205,-26.4232604359136 -70.3139815725476,-26.4230304063129 -70.313980588602,-26.4230218876148 -70.3139695546214,-26.4230233504232 -70.3124522233471,-26.4235659255589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3175021767034,-26.42557957811 -70.3177638170958,-26.42600753182 -70.3182068529315,-26.4259564574549 -70.3181300552412,-26.425502131846 -70.3175021767034,-26.42557957811</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.317309561859,-26.4236401248793 -70.3173203658866,-26.4237266767076 -70.3173214043514,-26.4237264721374 -70.3195812267601,-26.4232756805944 -70.3194951070603,-26.423181417312 -70.3188742677718,-26.4233090750999 -70.3173723087375,-26.4236244864383 -70.317309561859,-26.4236401248793</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.313197981297,-26.4236571794128 -70.3141584068964,-26.4237746955964 -70.3140511633235,-26.4233476142077 -70.313894279783,-26.4234038353924 -70.3137276487732,-26.4234483618743 -70.3133828555601,-26.4235733500665 -70.313197981297,-26.4236571794128</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3181935164566,-26.4254836318233 -70.3182624789913,-26.4259487791269 -70.3186876265196,-26.4258965122397 -70.3186147265436,-26.4254295868988 -70.3181935164566,-26.4254836318233</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3186982462171,-26.4254252333991 -70.3187670037197,-26.4258922799562 -70.3191845251577,-26.4258435342051 -70.3191075596462,-26.4253748790239 -70.3186982462171,-26.4254252333991</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3188780192415,-26.4200781585731 -70.318974202844,-26.4202779159609 -70.3197474589264,-26.4200231012682 -70.3196838258799,-26.419824092149 -70.3188780192415,-26.4200781585731</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3201356057577,-26.4250055445381 -70.3201602102763,-26.4251663095355 -70.3212695655276,-26.4250276726713 -70.3211350472027,-26.4248801274909 -70.3201356057577,-26.4250055445381</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3144856647424,-26.4246972763291 -70.3146252225532,-26.4254233307608 -70.3148314200309,-26.4253972236116 -70.3146867449929,-26.424672033493 -70.3144856647424,-26.4246972763291</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3156682895185,-26.4225618544259 -70.3157087235243,-26.42261821176 -70.3166881548089,-26.4225198782347 -70.3166455027326,-26.4222953016471 -70.316128169496,-26.4224680482182 -70.3156682895185,-26.4225618544259</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3204840747181,-26.4233210888448 -70.3205718442102,-26.4234099385018 -70.3218551628198,-26.4231366253101 -70.3218290647201,-26.4230542155559 -70.3204840747181,-26.4233210888448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3184260122607,-26.4237252478382 -70.3184730228752,-26.4240681805075 -70.3186894574858,-26.423854192791 -70.3188503035098,-26.4237093916768 -70.3197762897152,-26.4234858708449 -70.3197640621969,-26.4234644043911 -70.3184260122607,-26.4237252478382</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3166026071316,-26.4240901935372 -70.3167448028483,-26.4243468565409 -70.3169951156211,-26.4243123043205 -70.3169491157546,-26.424025832926 -70.3166026071316,-26.4240901935372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3146417483862,-26.4254769235832 -70.3147177206379,-26.4258596002455 -70.3149185411845,-26.4258339206649 -70.3148421611459,-26.4254510628051 -70.3146417483862,-26.4254769235832</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3199299489751,-26.4236430161003 -70.3200022069665,-26.4241048287895 -70.3203232320334,-26.4240481198428 -70.3199299489751,-26.4236430161003</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3262937105555,-26.4207813979671 -70.3251064122442,-26.4214977963723 -70.3251127966309,-26.4214966042074 -70.3252663208522,-26.4214665178551 -70.3263087119523,-26.4208375348912 -70.3263148458652,-26.4208261985845 -70.3262984930841,-26.4207881317236 -70.3262937105555,-26.4207813979671</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3185936254198,-26.4198486638433 -70.3191404816927,-26.4210412165555 -70.3192004250606,-26.4210234284021 -70.3186387017589,-26.4198320070047 -70.3185936254198,-26.4198486638433</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3167851634158,-26.42439664642 -70.3170973704209,-26.424906131519 -70.3170076467691,-26.4243664392089 -70.3167851634158,-26.42439664642</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3200116466295,-26.4219995646282 -70.3200195695542,-26.4221129510867 -70.3209683226176,-26.4218930649128 -70.3200116466295,-26.4219995646282</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3203734280018,-26.4232146221598 -70.3203936632429,-26.4232442931661 -70.3217932253473,-26.4229656268993 -70.321809736823,-26.4229595023187 -70.3217996794244,-26.4229281557463 -70.3203734280018,-26.4232146221598</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3183944791681,-26.4236061070499 -70.318401484804,-26.4236388867619 -70.3196720456411,-26.4233883019588 -70.3196620130332,-26.4233516005624 -70.3183944791681,-26.4236061070499</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3219181284929,-26.4229038473013 -70.3219275506553,-26.4229383089356 -70.3231749183492,-26.4226908933425 -70.3231414195032,-26.4226613454891 -70.3219181284929,-26.4229038473013</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3174084637945,-26.42380031517 -70.3174155370306,-26.423839065352 -70.3183055289327,-26.423657685571 -70.3183012147044,-26.4236257143105 -70.3174084637945,-26.42380031517</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3165296821664,-26.4239762110055 -70.3165579012431,-26.424008197836 -70.317336079102,-26.4238505460738 -70.3173288991755,-26.4238218151056 -70.3165296821664,-26.4239762110055</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3197248870685,-26.4233400414285 -70.3197584872678,-26.4233785466188 -70.3202977420955,-26.4232660793949 -70.3202676822971,-26.42323250968 -70.3197248870685,-26.4233400414285</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3186069499272,-26.4213244952358 -70.3186607156856,-26.421386700709 -70.3189604912505,-26.421233651371 -70.3186069499272,-26.4213244952358</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">161204.01293900001</SimpleData>
+		<SimpleData name="Shape_STLe">14589.90545620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3161892087282,-26.4240259241849 -70.3164362742075,-26.4240558962121 -70.3164028081033,-26.4239866571808 -70.3161892087282,-26.4240259241849</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3144475824764,-26.4262452400733 -70.3146765532809,-26.4262725457212 -70.3144034545668,-26.424893019064 -70.3143565501582,-26.4248919426172 -70.313967090601,-26.4249385177623 -70.3137682595541,-26.4249510935773 -70.3136172176446,-26.424966813203 -70.3134145299975,-26.4249901734647 -70.3131762730905,-26.4250353573477 -70.3130022500552,-26.4251301116788 -70.312915643782,-26.4252133153683 -70.3128526687532,-26.4252748039061 -70.3127864042095,-26.4253972319596 -70.312763585411,-26.4254905984301 -70.3127488865407,-26.4255982221066 -70.3127619191764,-26.4256948416435 -70.3127675446064,-26.4257587760264 -70.3129215048024,-26.4258325618047 -70.3132065524262,-26.4259468106745 -70.3136095310037,-26.4260790007862 -70.3140302507655,-26.4261784125456 -70.3144475824764,-26.4262452400733</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3224961582272,-26.4204889430725 -70.3227876353579,-26.4213891483882 -70.3245132075739,-26.4210292115779 -70.3245141027433,-26.4210278770923 -70.3245079030473,-26.4210292607154 -70.3242058255414,-26.4201015709387 -70.3224961582272,-26.4204889430725</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3105308445271,-26.4233307988611 -70.3124522233471,-26.4235659255589 -70.3139695546214,-26.4230233504232 -70.313980588602,-26.4230218876148 -70.315675191337,-26.4227971243321 -70.3155305736149,-26.4225600810054 -70.3105308445271,-26.4233307988611</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3209683226176,-26.4218930649128 -70.3200195695542,-26.4221129510867 -70.3187686797038,-26.4223424567368 -70.3187804851694,-26.4223959472499 -70.3189356431642,-26.4225091709763 -70.3191068260073,-26.4226317999784 -70.3196944077302,-26.4225117238122 -70.3210616946733,-26.4222562601689 -70.3209555669044,-26.4222744965674 -70.3209308934679,-26.4221463355502 -70.3214896452854,-26.422047323186 -70.3215230288751,-26.422170061796 -70.3228414877713,-26.4219237029929 -70.3227201934455,-26.4215235355135 -70.3209683226176,-26.4218930649128</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3228101093183,-26.4214988177495 -70.3229579307695,-26.421898738799 -70.3251064122442,-26.4214977963723 -70.3262937105555,-26.4207813979671 -70.3262715292995,-26.4207501641865 -70.3262396982292,-26.420750459434 -70.3228101093183,-26.4214988177495</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3104419286177,-26.4241186095293 -70.3106198899673,-26.4242248751361 -70.3122453822532,-26.4236353870322 -70.3101890915668,-26.4233816731894 -70.3090137450732,-26.423550074045 -70.3091529850183,-26.4235841307377 -70.3095801281428,-26.4237188296512 -70.3099773657603,-26.4238782614381 -70.3104419286177,-26.4241186095293</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3157087235243,-26.42261821176 -70.3158074650031,-26.4227808819951 -70.3172346063756,-26.4226579070365 -70.3173356688504,-26.4226542459019 -70.3188232201167,-26.4225225734781 -70.3186891686264,-26.4223491620216 -70.3166881548089,-26.4225198782347 -70.3157087235243,-26.42261821176</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3200634727601,-26.4245342163759 -70.3201356057577,-26.4250055445381 -70.3211350472027,-26.4248801274909 -70.3207473231266,-26.4244548526185 -70.3200634727601,-26.4245342163759</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3228408011763,-26.4220141297548 -70.3229050820062,-26.4222415437311 -70.3235610127669,-26.4221217574159 -70.3234953536212,-26.4218894742541 -70.3228408011763,-26.4220141297548</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">113765.10449200000</SimpleData>
+		<SimpleData name="Shape_STLe">5866.58499563000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3200128006388,-26.4241614603178 -70.3200594091197,-26.4244685662083 -70.320652164757,-26.4243944188692 -70.3203646857903,-26.424088568273 -70.3200128006388,-26.4241614603178</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3209375016781,-26.4206056500666 -70.3210248080627,-26.4206871912272 -70.3213237738165,-26.4206158061566 -70.3202238448216,-26.4179884045414 -70.319977566678,-26.4180265070519 -70.319785383417,-26.4180782367069 -70.3202866583951,-26.4192254688755 -70.3205736880572,-26.4198907529126 -70.3209375016781,-26.4206056500666</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.31914200985,-26.4227152224498 -70.3193839760286,-26.4229966393013 -70.3206754426667,-26.4227189805355 -70.3229050820062,-26.4222415437311 -70.3228408011763,-26.4220141297548 -70.31914200985,-26.4227152224498</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3198393264524,-26.4234532851461 -70.3214492011886,-26.4250767707132 -70.3215774652723,-26.424983026024 -70.3216234106625,-26.4249408004822 -70.3216493244126,-26.4248868162378 -70.321681495787,-26.4247999316658 -70.3216771928988,-26.4247133833708 -70.3216732985665,-26.4246626610947 -70.3203748223968,-26.4233370263119 -70.3198393264524,-26.4234532851461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3191123335461,-26.4205674152053 -70.3193095394947,-26.4209955492774 -70.3197093527074,-26.4208694425894 -70.3197708034416,-26.4210241359007 -70.3200583226169,-26.4209378800379 -70.3201938953998,-26.4209037849403 -70.3203586620876,-26.4208126898784 -70.3206956789207,-26.4207050743461 -70.3208776024717,-26.4206645785459 -70.3206013280171,-26.4201002079441 -70.3191123335461,-26.4205674152053</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3185803377118,-26.421451031629 -70.3180773712969,-26.4215486291242 -70.3177797532484,-26.4215459041985 -70.3175488708557,-26.4215370955306 -70.3171612200559,-26.4216281580939 -70.3166885520482,-26.4217200034521 -70.3161067636292,-26.4218292562944 -70.3160888703398,-26.4218299969747 -70.3161798074058,-26.4222986883037 -70.3162246815844,-26.4222972252723 -70.3169974912102,-26.4220184022872 -70.3172718878875,-26.4219442157665 -70.3174008647234,-26.4219131695541 -70.3180828641407,-26.4218143249128 -70.3186700298271,-26.4218327968584 -70.3186196694088,-26.4214869095169 -70.3185803377118,-26.421451031629</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3166455027326,-26.4222953016471 -70.3166881548089,-26.4225198782347 -70.3186891686264,-26.4223491620216 -70.318681098099,-26.4219312259262 -70.3181535817567,-26.4219092177207 -70.317858850598,-26.4219447779787 -70.3174451237896,-26.422014278449 -70.3170486872728,-26.4221463198024 -70.3166455027326,-26.4222953016471</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3173356688504,-26.4226542459019 -70.3173788850953,-26.4229554122594 -70.3175824347468,-26.4229206932132 -70.3182938410712,-26.422782761065 -70.3183557108761,-26.4232658879349 -70.3193812722146,-26.4230504080861 -70.3191061128267,-26.4227663119587 -70.3188232201167,-26.4225225734781 -70.3173356688504,-26.4226542459019</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3171706222841,-26.4250487742093 -70.3172109822848,-26.4250985639566 -70.3180454835521,-26.4249941330802 -70.3179203695253,-26.4242398284682 -70.3170672260303,-26.4243546353202 -70.3171706222841,-26.4250487742093</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3198477882071,-26.4195040139311 -70.3199820661852,-26.4196949201491 -70.3203616392626,-26.4195633191663 -70.3197350084407,-26.4181648673206 -70.3193459596518,-26.4182688492255 -70.3198477882071,-26.4195040139311</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3213181705522,-26.4212111919159 -70.3214594260384,-26.4216756695693 -70.3226768721098,-26.4214225641425 -70.3225330845369,-26.420976639123 -70.3213181705522,-26.4212111919159</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3202671241495,-26.4214000481119 -70.3203354280737,-26.4218652005811 -70.320974557968,-26.4217876385039 -70.3214079720521,-26.4217000310443 -70.3212672782172,-26.421225964158 -70.3202671241495,-26.4214000481119</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3183330075542,-26.4185526852821 -70.3185165956083,-26.4190588063429 -70.3194632980273,-26.4187572798098 -70.319265105894,-26.418291504961 -70.3183330075542,-26.4185526852821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3211773246022,-26.4207825400977 -70.3212944158231,-26.4211636395467 -70.3225185900753,-26.420919429969 -70.3223756143354,-26.4205151987546 -70.3211773246022,-26.4207825400977</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3206376472263,-26.4207696116504 -70.3202908877967,-26.4208952310234 -70.32016506066,-26.4209669826773 -70.3202593782664,-26.4213314464058 -70.3212358280963,-26.421173137486 -70.3211254030045,-26.4207949637153 -70.3209897976462,-26.4208260744694 -70.3209188733403,-26.4207132691942 -70.3206376472263,-26.4207696116504</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.76">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3179662971776,-26.4185717525414 -70.3184667499391,-26.4198892458954 -70.3185936254198,-26.4198486638433 -70.3187181329738,-26.4198026551941 -70.3182157111256,-26.4185038117672 -70.3179662971776,-26.4185717525414</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.77">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3191059852111,-26.4249043337957 -70.3191733696981,-26.4252888780763 -70.3200906451243,-26.4251729238104 -70.3200141798365,-26.4247900130646 -70.3191059852111,-26.4249043337957</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.78">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3194471155048,-26.4240209756999 -70.3195712765261,-26.4247901627413 -70.3200044619154,-26.4247395855347 -70.3199122369597,-26.4239440018348 -70.3194471155048,-26.4240209756999</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.79">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3190001621397,-26.4203266012774 -70.31908522942,-26.4205169069132 -70.3205853745247,-26.4200462340808 -70.3204808823126,-26.4198290395933 -70.3190001621397,-26.4203266012774</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.80">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3188670609322,-26.4237540243816 -70.3185485103252,-26.4240865927553 -70.3199029486951,-26.4238627022246 -70.3198288163319,-26.4235522599353 -70.3188670609322,-26.4237540243816</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.81">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3195197196976,-26.4218996022209 -70.320199728404,-26.4219172119224 -70.3202492946699,-26.4219018248568 -70.3202951713893,-26.4218536293447 -70.3202236531719,-26.421397463986 -70.3195848316453,-26.4215018921884 -70.319502166109,-26.4215166392602 -70.3195197196976,-26.4218996022209</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.82">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3189663892046,-26.4240899046491 -70.3190746310036,-26.4248592390645 -70.3195197945779,-26.4248121359629 -70.3193908293398,-26.4240385767693 -70.3189663892046,-26.4240899046491</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.83">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3179770390479,-26.4242244308482 -70.3180970076433,-26.4249757440577 -70.318522358262,-26.4249359921255 -70.3184035321031,-26.4241655558985 -70.3179770390479,-26.4242244308482</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.84">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3184777037316,-26.424158905395 -70.3185936961666,-26.4249102538695 -70.3190190870822,-26.4248740832606 -70.318905245798,-26.4241042371098 -70.3184777037316,-26.424158905395</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.85">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3187773344049,-26.4219403791349 -70.3187686797038,-26.4223424567368 -70.3200195695542,-26.4221129510867 -70.3200116466295,-26.4219995646282 -70.3188669523025,-26.4219444402154 -70.3187773344049,-26.4219403791349</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.86">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3172449751479,-26.425142440415 -70.3174647492181,-26.4255136385513 -70.3181203787212,-26.4254269791524 -70.3180489898125,-26.4250426102319 -70.3172449751479,-26.425142440415</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.87">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3194123622849,-26.4211797125836 -70.319471754642,-26.4214730778354 -70.3202229391123,-26.4213347692879 -70.3201227024756,-26.4209774001169 -70.319653393608,-26.42111609235 -70.3194123622849,-26.4211797125836</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.88">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3187724374235,-26.4198390323437 -70.3188508391118,-26.4200264141088 -70.3196900773178,-26.4197589073498 -70.3198555236655,-26.4197275224084 -70.319904954095,-26.4197001937592 -70.3198202930328,-26.4195457147 -70.3198114031199,-26.4195235737332 -70.3197834805345,-26.4195161965823 -70.3187724374235,-26.4198390323437</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.89">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3186176598329,-26.4193507902855 -70.3186994442436,-26.4195441120069 -70.31966751766,-26.4192336163689 -70.319586797848,-26.4190439182266 -70.3186176598329,-26.4193507902855</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.90">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3187132513123,-26.4195917575018 -70.3187851227572,-26.4197881570025 -70.3197597267926,-26.4194686430077 -70.3196895469263,-26.4192827702707 -70.3187132513123,-26.4195917575018</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.91">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3185393948467,-26.4191753500741 -70.3185905911845,-26.4193032670699 -70.3195653617196,-26.418998682347 -70.3194961801374,-26.4188154544705 -70.3185717369783,-26.4191033930433 -70.3185393948467,-26.4191753500741</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.92">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3187863875353,-26.4218585960621 -70.319453132094,-26.4218763307649 -70.3194361649796,-26.4215510369577 -70.3193993519139,-26.4215215187694 -70.3187646530043,-26.4216419153377 -70.3187863875353,-26.4218585960621</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.93">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3187156297772,-26.4214336781796 -70.3187338321238,-26.4216112601672 -70.319415488521,-26.4214825545153 -70.319362286351,-26.4211784945717 -70.3190283794147,-26.4212681634194 -70.3187156297772,-26.4214336781796</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.94">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3186092495234,-26.424965645383 -70.3186733847844,-26.4253561927501 -70.3191006587052,-26.4253104493878 -70.3190483165129,-26.4249146809634 -70.3186092495234,-26.424965645383</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.95">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3181159306828,-26.4250358821153 -70.3181700836117,-26.4254235353633 -70.3186105195043,-26.4253687155482 -70.3185449497895,-26.4249782743641 -70.3181159306828,-26.4250358821153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.96">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3179128118853,-26.4238255249627 -70.3179664870874,-26.4241713810179 -70.318393723091,-26.4241226556125 -70.3183303953084,-26.4237480203194 -70.3179128118853,-26.4238255249627</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.97">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3209308934679,-26.4221463355502 -70.3209555669044,-26.4222744965674 -70.3215248278915,-26.4221766770414 -70.3214896452854,-26.422047323186 -70.3209308934679,-26.4221463355502</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.98">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3200113965883,-26.4197290690689 -70.3201194040438,-26.4198952763405 -70.320459665914,-26.4197816604254 -70.3203746980215,-26.4196003121783 -70.3200101475051,-26.4197258305644 -70.3200113965883,-26.4197290690689</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.99">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial, Equipamiento y Servicios.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua. Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">181089.46997100001</SimpleData>
+		<SimpleData name="Shape_STLe">12136.75712450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3196838258799,-26.419824092149 -70.3197474589264,-26.4200231012682 -70.3200525280006,-26.4199225693128 -70.3199335565805,-26.4197453525904 -70.3196838258799,-26.419824092149</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.100">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOMBRE">ZE1 Zona Urbanizable de Extensión Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, cárceles, plantas depuradoras de agua, industria molesta y peligrosa, talleres y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">44929.18530270001</SimpleData>
+		<SimpleData name="Shape_STLe">1896.83457491000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3146867449929,-26.424672033493 -70.3148314200309,-26.4253972236116 -70.3170969058792,-26.4251103635123 -70.3166670494297,-26.4244234185228 -70.3146867449929,-26.424672033493</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.101">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOMBRE">ZE1 Zona Urbanizable de Extensión Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, cárceles, plantas depuradoras de agua, industria molesta y peligrosa, talleres y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">44929.18530270001</SimpleData>
+		<SimpleData name="Shape_STLe">1896.83457491000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3113894803273,-26.424814801938 -70.3116570210172,-26.4250614298369 -70.311961528068,-26.4252950879617 -70.3123295448354,-26.4255390347261 -70.3127211865062,-26.4257365588544 -70.3127675446064,-26.4257587760264 -70.3127619191764,-26.4256948416435 -70.3127488865407,-26.4255982221066 -70.312763585411,-26.4254905984301 -70.3127864042095,-26.4253972319596 -70.3128526687532,-26.4252748039061 -70.312915643782,-26.4252133153683 -70.3130022500552,-26.4251301116788 -70.3131762730905,-26.4250353573477 -70.3134145299975,-26.4249901734647 -70.3136172176446,-26.424966813203 -70.3137682595541,-26.4249510935773 -70.313967090601,-26.4249385177623 -70.3143565501582,-26.4248919426172 -70.3144034545668,-26.424893019064 -70.3143464939763,-26.4246052815271 -70.314319968288,-26.4244712924942 -70.3113909226943,-26.4248141359916 -70.3113894803273,-26.424814801938</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_elsalado_mono.102">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_elsalado_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">El Salado</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOMBRE">ZE1 Zona Urbanizable de Extensión Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, cárceles, plantas depuradoras de agua, industria molesta y peligrosa, talleres y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - El Salado</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">44929.18530270001</SimpleData>
+		<SimpleData name="Shape_STLe">1896.83457491000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3148421611459,-26.4254510628051 -70.3149185411845,-26.4258339206649 -70.3173443517561,-26.4255237054334 -70.3171160630768,-26.425157621293 -70.3148421611459,-26.4254510628051</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

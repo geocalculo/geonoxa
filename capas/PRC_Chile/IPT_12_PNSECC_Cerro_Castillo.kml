@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Torres del Paine</SimpleData>
+		<SimpleData name="LOC">Villa Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento a escala comunal servicios públicos, salud, educación, culto, cultura, áreas verdes y almacenamiento inofensivo. Organizaciones comunitaria, espacimiento y turismo, comerio minorista, servicios profesionales y artesanales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/02/1993</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3394692904478,-51.2573685408922 -72.3396473647263,-51.2573704331417 -72.3398516880153,-51.2574419492364 -72.3399953549177,-51.257461645974 -72.3401773071447,-51.2574861994434 -72.3404061425335,-51.2575034638338 -72.3407747692631,-51.2574869827805 -72.3413980364392,-51.2574513247073 -72.3414389044385,-51.257491807508 -72.3415206421516,-51.2575727739186 -72.3415640961085,-51.2576488837864 -72.3416518501711,-51.2576820762514 -72.3417981058534,-51.2577373978131 -72.3419503760525,-51.2577449462671 -72.3420686550384,-51.2576761153039 -72.3422247851798,-51.2576062014973 -72.3423047793784,-51.2575325140319 -72.3422819742608,-51.2574796152256 -72.3421555066102,-51.2574356287569 -72.3421438893467,-51.2574062102429 -72.3422458262559,-51.2573735462583 -72.3423499196938,-51.257370571087 -72.3424200398153,-51.2574221174966 -72.3424819911637,-51.2574917478616 -72.3425697441856,-51.2575249405703 -72.342798580381,-51.2575421993603 -72.3430919344371,-51.257533813175 -72.3433392654271,-51.2575445925978 -72.3436175745844,-51.2575901867628 -72.3436962975966,-51.2576295863996 -72.3437281353956,-51.2576762770964 -72.3437057846126,-51.257760217371 -72.3437118218238,-51.2578433459239 -72.3437737742603,-51.2579129755948 -72.3439097069422,-51.2579566896812 -72.3440232651831,-51.2579534423803 -72.3441346655308,-51.2579205061267 -72.3442757226677,-51.2577736698841 -72.3444395879816,-51.2576797317862 -72.3445987338395,-51.2576513800171 -72.3447385223595,-51.2576176312296 -72.344856796661,-51.2575487966295 -72.3451183095893,-51.2574937150414 -72.3455123028844,-51.2574348427689 -72.3459483719203,-51.2573870287113 -72.3420835301737,-51.257059338641 -72.342457493194,-51.2554183205867 -72.3433710736325,-51.2554636047937 -72.3433349926596,-51.255750241897 -72.3442305191911,-51.2558079356751 -72.3442434064588,-51.2557242659074 -72.346860695426,-51.2557682499301 -72.3466958851365,-51.2550625817793 -72.3475611653822,-51.254979582375 -72.3474433348774,-51.2544022249425 -72.3466870400406,-51.2544333924311 -72.3465143380846,-51.2545620968347 -72.3452419057894,-51.2545889851465 -72.3446679720635,-51.2546244432127 -72.3437843426215,-51.2545735524803 -72.3424237926795,-51.2544315661098 -72.3425234997119,-51.2539241467671 -72.3399750987739,-51.2536483336101 -72.339776853156,-51.2543978006579 -72.3411375974988,-51.2544778436949 -72.3410000616449,-51.255300507393 -72.3395645777591,-51.255198442526 -72.3392166629473,-51.2564856761919 -72.3390773576852,-51.2571798656253 -72.3394692904478,-51.2573685408922</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Torres del Paine</SimpleData>
+		<SimpleData name="LOC">Villa Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">ZE2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento a escala vecinal de áreas verdes y deporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/02/1993</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3395645777591,-51.255198442526 -72.3410000616449,-51.255300507393 -72.3411375974988,-51.2544778436949 -72.339776853156,-51.2543978006579 -72.3395874805947,-51.2551137029178 -72.3395645777591,-51.255198442526</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Torres del Paine</SimpleData>
+		<SimpleData name="LOC">Villa Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">ZR1</SimpleData>
+		<SimpleData name="UPERM">Zona de resguardo de obras de infraestructura</SimpleData>
+		<SimpleData name="UPROH">Todo tipo de construcciones, salvo equipamiento recreativo.</SimpleData>
+		<SimpleData name="P_DO">27/02/1993</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3520450955216,-51.2539628998815 -72.350843470774,-51.2540097154458 -72.3501424440278,-51.2533805624705 -72.34839028918,-51.254043869807 -72.3480693978583,-51.2540148579934 -72.3478431665272,-51.2540332352764 -72.3475543701703,-51.2541039800272 -72.3471640768831,-51.2542133295249 -72.3468724714861,-51.2542454762249 -72.3464541726675,-51.2541652213487 -72.3460967329549,-51.254074298255 -72.3459562795494,-51.2539682393045 -72.3453163866019,-51.2534480622334 -72.3450972202646,-51.2533026043891 -72.3448640914622,-51.2532259719454 -72.3445081581617,-51.2530903746886 -72.3440955113749,-51.2529114751279 -72.3439447984254,-51.2528729444319 -72.3438372706058,-51.2528545994361 -72.3436752043421,-51.2528163930542 -72.3434217856714,-51.252773657903 -72.3433001541775,-51.2527699959087 -72.3431561586944,-51.2527717326578 -72.343042622873,-51.2528273391638 -72.342884350571,-51.2528413846808 -72.3425407944027,-51.2528631057269 -72.3422810116057,-51.2528372104453 -72.342069226651,-51.2527932823625 -72.3418707002988,-51.2528275166969 -72.3416931658455,-51.2528897121536 -72.3415589790977,-51.2529221072644 -72.341373350149,-51.2529250315363 -72.3410406231431,-51.2528869376152 -72.340832477204,-51.2528652758303 -72.3407414692342,-51.2528654966216 -72.3406206990172,-51.2528737063684 -72.3405221222643,-51.2528741423165 -72.3404190698661,-51.2528651861852 -72.3404034142101,-51.2528584937508 -72.3402066057609,-51.2527730982849 -72.3399750987739,-51.2536483336101 -72.3425234997119,-51.2539241467671 -72.3424237926795,-51.2544315661098 -72.3437843426215,-51.2545735524803 -72.3446679720635,-51.2546244432127 -72.3452419057894,-51.2545889851465 -72.3465143380846,-51.2545620968347 -72.3466870400406,-51.2544333924311 -72.3474433348774,-51.2544022249425 -72.3475611653822,-51.254979582375 -72.3496200374338,-51.2555395629684 -72.3496303685994,-51.255527617047 -72.3504980278005,-51.2545507403969 -72.350629877906,-51.2544862720569 -72.3520450955216,-51.2539628998815</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Torres del Paine</SimpleData>
+		<SimpleData name="LOC">Villa Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento a escala comunal servicios públicos, salud, educación, culto, cultura, áreas verdes y almacenamiento inofensivo. Organizaciones comunitaria, espacimiento y turismo, comerio minorista, servicios profesionales y artesanales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/02/1993</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3501424440278,-51.2533805624705 -72.350843470774,-51.2540097154458 -72.3520450955216,-51.2539628998815 -72.3539261723624,-51.253267200614 -72.3550102935354,-51.2533110720997 -72.3573691830489,-51.2533865673741 -72.3574755972753,-51.2521411249497 -72.3575248695534,-51.2515684980326 -72.3560360095031,-51.2517469020764 -72.3542619004351,-51.2519144292129 -72.352870671402,-51.2523922577867 -72.351416971987,-51.2528980411629 -72.3501424440278,-51.2533805624705</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Torres del Paine</SimpleData>
+		<SimpleData name="LOC">Villa Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZV</SimpleData>
+		<SimpleData name="UPERM">Viviendas y equipamiento a escala vecinal, en comercio minorista, almacenamiento inofensivo, áreas verdes y servicios artesanales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/02/1993</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3440390280008,-51.2572251568942 -72.3441309134607,-51.2563021843231 -72.3469629000374,-51.2563188861782 -72.3469782639848,-51.2563005329372 -72.3468637167484,-51.2557683010862 -72.3442434064588,-51.2557242659074 -72.3442305191911,-51.2558079356751 -72.3433349926596,-51.255750241897 -72.3433710736325,-51.2554636047937 -72.342457493194,-51.2554183205867 -72.3420835301737,-51.257059338641 -72.3440390280008,-51.2572251568942</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Torres del Paine</SimpleData>
+		<SimpleData name="LOC">Villa Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">ZE3</SimpleData>
+		<SimpleData name="UPERM">Equipamiento, aceptado solamente a escala regional de áreas verdes, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/02/1993</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.346860695426,-51.2557682499301 -72.3468637167484,-51.2557683010862 -72.3468644247305,-51.2557715920397 -72.3469782639848,-51.2563005329372 -72.346060748191,-51.2573965552508 -72.3459483719203,-51.2573870287113 -72.3455123028844,-51.2574348427689 -72.3451183095893,-51.2574937150414 -72.344856796661,-51.2575487966295 -72.3447385223595,-51.2576176312296 -72.3445987338395,-51.2576513800171 -72.3444395879816,-51.2576797317862 -72.3442757226677,-51.2577736698841 -72.3441346655308,-51.2579205061267 -72.3440232651831,-51.2579534423803 -72.3439097069422,-51.2579566896812 -72.3437737742603,-51.2579129755948 -72.3437118218238,-51.2578433459239 -72.3437057846126,-51.257760217371 -72.3437281353956,-51.2576762770964 -72.3436962975966,-51.2576295863996 -72.3436175745844,-51.2575901867628 -72.3433392654271,-51.2575445925978 -72.3430919344371,-51.257533813175 -72.342798580381,-51.2575421993603 -72.3425697441856,-51.2575249405703 -72.3424819911637,-51.2574917478616 -72.3424200398153,-51.2574221174966 -72.3423499196938,-51.257370571087 -72.3422458262559,-51.2573735462583 -72.3421438893467,-51.2574062102429 -72.3421555066102,-51.2574356287569 -72.3422819742608,-51.2574796152256 -72.3423047793784,-51.2575325140319 -72.3422247851798,-51.2576062014973 -72.3420686550384,-51.2576761153039 -72.3419503760525,-51.2577449462671 -72.3417981058534,-51.2577373978131 -72.3416518501711,-51.2576820762514 -72.3415640961085,-51.2576488837864 -72.3415206421516,-51.2575727739186 -72.3414389044385,-51.257491807508 -72.3413980364392,-51.2574513247073 -72.3407747692631,-51.2574869827805 -72.3404061425335,-51.2575034638338 -72.3401773071447,-51.2574861994434 -72.3399953549177,-51.257461645974 -72.3398516880153,-51.2574419492364 -72.3396473647263,-51.2573704331417 -72.3394692904478,-51.2573685408922 -72.340869580939,-51.2580426122204 -72.3452237560745,-51.2584560243228 -72.3453088226123,-51.2584573994913 -72.3452308837401,-51.2592640832969 -72.3451934207166,-51.259479359325 -72.3453996950698,-51.2601255895443 -72.3468656157495,-51.2598361193421 -72.3470229774058,-51.2588700775129 -72.3482816095045,-51.2570870936628 -72.3496200374338,-51.2555395629684 -72.3475611653822,-51.254979582375 -72.3466958851365,-51.2550625817793 -72.346860695426,-51.2557682499301</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Torres del Paine</SimpleData>
+		<SimpleData name="LOC">Villa Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">ZE2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento a escala vecinal de áreas verdes y deporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/02/1993</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3440390280008,-51.2572251568942 -72.346060748191,-51.2573965552508 -72.3469629000374,-51.2563188861782 -72.3441309134607,-51.2563021843231 -72.3440390280008,-51.2572251568942</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

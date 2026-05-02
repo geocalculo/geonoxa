@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Residencial Exclusiva</SimpleData>
+		<SimpleData name="NOM">Residencial Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4920089641124,-38.6758319698004 -72.4980963819444,-38.681296742696 -72.5014643905179,-38.6789894062669 -72.4954392190979,-38.6734550710025 -72.4920089641124,-38.6758319698004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Residencial Exclusiva</SimpleData>
+		<SimpleData name="NOM">Residencial Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4958705789456,-38.6731578870104 -72.5019538814825,-38.6786540481572 -72.5036217031427,-38.6775113612463 -72.5036341551191,-38.6775028299965 -72.4976434929844,-38.6720495325318 -72.4958705789456,-38.6731578870104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Residencial Exclusiva</SimpleData>
+		<SimpleData name="NOM">Residencial Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5021222830701,-38.672009878912 -72.5030316373115,-38.6725535831131 -72.5037439185343,-38.6718468477215 -72.5028389433091,-38.6712447673946 -72.5021222830701,-38.672009878912</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Residencial Exclusiva</SimpleData>
+		<SimpleData name="NOM">Residencial Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4924523754873,-38.6735949274854 -72.4924680118962,-38.6735971102095 -72.4925333266792,-38.6733166105592 -72.4928605044087,-38.6712688990057 -72.4928662353133,-38.6712330318865 -72.4880853081844,-38.6705151283958 -72.4876045844325,-38.6729182429149 -72.4924523754873,-38.6735949274854</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Residencial Exclusiva</SimpleData>
+		<SimpleData name="NOM">Residencial Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4935515877385,-38.670863776026 -72.4935987045711,-38.6708706824012 -72.4938411142446,-38.6668105469252 -72.4892091961202,-38.6648963455676 -72.4881732944687,-38.6700752703414 -72.4935515877385,-38.670863776026</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Reforestación</SimpleData>
+		<SimpleData name="NOM">Reforestación</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5023517342779,-38.6841596200233 -72.5024323553663,-38.6848534963464 -72.5028904208492,-38.6847297854601 -72.502886741904,-38.68468067084 -72.5028380481273,-38.6840306340018 -72.5029292336767,-38.6836560878123 -72.5031135989507,-38.6833216483278 -72.5033028433762,-38.6830871660291 -72.503582477059,-38.682835670988 -72.5038655959122,-38.6826555737206 -72.5062180093911,-38.6815124529627 -72.5070701141756,-38.6810292586527 -72.5076573975333,-38.6803538043105 -72.5078491158674,-38.6797893629944 -72.5066862471707,-38.6787125039645 -72.5067306508301,-38.6793090973767 -72.5064901863131,-38.6799884361005 -72.5060353788348,-38.6803881998763 -72.505362655095,-38.680808802049 -72.5024574450144,-38.6822715897132 -72.5023517342779,-38.6841596200233</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Reforestación</SimpleData>
+		<SimpleData name="NOM">Reforestación</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.498770843834,-38.6856559012931 -72.5013561618626,-38.6856678105056 -72.5021963255388,-38.6855561726211 -72.5019914271091,-38.6851037775351 -72.501892963999,-38.6847043856619 -72.4980963819444,-38.681296742696 -72.4920089641124,-38.6758319698004 -72.4919834030936,-38.6758090208097 -72.4924523754873,-38.6735949274854 -72.4876045844325,-38.6729182429149 -72.4866407030549,-38.677736240913 -72.4908589036765,-38.6816322734306 -72.4914557063498,-38.6821804967137 -72.4932461685947,-38.6838251472749 -72.4937642014953,-38.6843161292162 -72.4945450290797,-38.6847396615841 -72.4962396913892,-38.6851954237034 -72.498770843834,-38.6856559012931</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4880853081844,-38.6705151283958 -72.4928662353133,-38.6712330318865 -72.4928605044087,-38.6712688990057 -72.4957665824883,-38.6716105199221 -72.4955028979368,-38.6733877392969 -72.4954990609894,-38.673413603035 -72.4954392190979,-38.6734550710025 -72.5014643905179,-38.6789894062669 -72.5019538814825,-38.6786540481572 -72.4958705789456,-38.6731578870104 -72.4976434929844,-38.6720495325318 -72.5036341551191,-38.6775028299965 -72.5036217031427,-38.6775113612463 -72.5036327174164,-38.6775115389483 -72.5039940206875,-38.6772455731052 -72.5040214137916,-38.6772254082251 -72.5040255004358,-38.6772223994309 -72.504037752685,-38.6772133804844 -72.5008273031881,-38.6742508112672 -72.5002554349478,-38.673723060379 -72.5007671499033,-38.6734187818784 -72.5007872777112,-38.6734068131037 -72.5007483400659,-38.6733564984156 -72.5005925900477,-38.6731552395042 -72.5001583188722,-38.6728536417058 -72.4997247474349,-38.6725663216947 -72.4997191014686,-38.6725593581865 -72.4996841373867,-38.6726074075018 -72.4991535737002,-38.6722519058583 -72.498424400897,-38.6718714004086 -72.4973010183547,-38.6715026927087 -72.4966218195799,-38.6713373275768 -72.4936396294941,-38.6709004078542 -72.4935515877385,-38.670863776026 -72.4881732944687,-38.6700752703414 -72.4880853081844,-38.6705151283958</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Parque Nacional</SimpleData>
+		<SimpleData name="NOM">Parque Nacional</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5121209701839,-38.6804980619946 -72.5163737109664,-38.6795893487205 -72.5167341244289,-38.6791281587593 -72.5172392010165,-38.6785766862767 -72.5177807626253,-38.6779943204379 -72.5142341162218,-38.6754197467658 -72.5136430329287,-38.674990639127 -72.5100342937267,-38.6735002837745 -72.5098501633799,-38.6738189307885 -72.5095074482914,-38.6740768232004 -72.5090919288111,-38.6744607004233 -72.5085930270379,-38.6747542320729 -72.5082442615554,-38.6748885047624 -72.5082622329322,-38.6760640468543 -72.508403161225,-38.6765240563757 -72.5090019294451,-38.6774655062898 -72.5094612845838,-38.677977847774 -72.5098463309478,-38.6785852686442 -72.5114519411363,-38.6799297402327 -72.5118366021987,-38.6802565004492 -72.5120797285247,-38.6804630281141 -72.5121209701839,-38.6804980619946</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Zona Ferroviaria</SimpleData>
+		<SimpleData name="NOM">Zona Ferroviaria</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5007483400659,-38.6733564984156 -72.5013296947031,-38.6738892449342 -72.5013394839202,-38.6738821990143 -72.5046091455448,-38.6768839043635 -72.5057710494004,-38.6779505009199 -72.505806942459,-38.6779525414057 -72.5058451592867,-38.6779335979528 -72.5065621492555,-38.6775782049325 -72.5065181874305,-38.6775400905996 -72.506698701575,-38.677194226454 -72.5061029842403,-38.6763145719497 -72.5020934065715,-38.6726280531389 -72.5013945935922,-38.6720609588769 -72.5011050761355,-38.671791089848 -72.5004776615918,-38.6715168803835 -72.4997191014686,-38.6725593581865 -72.4997247474349,-38.6725663216947 -72.5001583188722,-38.6728536417058 -72.5005925900477,-38.6731552395042 -72.5007483400659,-38.6733564984156</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5024574450144,-38.6822715897132 -72.505362655095,-38.680808802049 -72.5060353788348,-38.6803881998763 -72.5064901863131,-38.6799884361005 -72.5067306508301,-38.6793090973767 -72.5066862471707,-38.6787125039645 -72.5058451592867,-38.6779335979528 -72.505806942459,-38.6779525414057 -72.5057710494004,-38.6779505009199 -72.5057894234392,-38.6779673676044 -72.5052043171251,-38.6783138360065 -72.5051964141933,-38.6783056703631 -72.5029186565696,-38.6811967289717 -72.502478454432,-38.6818963500588 -72.5024574450144,-38.6822715897132</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Estacionamiento</SimpleData>
+		<SimpleData name="NOM">Estacionamiento</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5050062321347,-38.6742877248675 -72.5056348035794,-38.6747074108031 -72.5069077118897,-38.6734227182642 -72.5062563794507,-38.6729917693553 -72.5050062321347,-38.6742877248675</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Centro Comunitario</SimpleData>
+		<SimpleData name="NOM">Centro Comunitario</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4925333266792,-38.6733166105592 -72.4924680118962,-38.6735971102095 -72.4924523754873,-38.6735949274854 -72.4919834030936,-38.6758090208097 -72.4920089641124,-38.6758319698004 -72.4954392190979,-38.6734550710025 -72.4954990609894,-38.673413603035 -72.4955028979368,-38.6733877392969 -72.4957665824883,-38.6716105199221 -72.4928605044087,-38.6712688990057 -72.4925333266792,-38.6733166105592</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Centro Comunitario</SimpleData>
+		<SimpleData name="NOM">Centro Comunitario</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5045663901924,-38.6737479710323 -72.5049829922458,-38.6738117411415 -72.5053902979517,-38.6736851152312 -72.505714513268,-38.6733512423383 -72.5055894739699,-38.6727829770093 -72.5053120913809,-38.6725815605977 -72.5049674272887,-38.6724965665143 -72.5044144049491,-38.6726275614279 -72.504228474505,-38.6728047441549 -72.5041135443479,-38.6729416626765 -72.5041984868856,-38.6731869899049 -72.5041208490454,-38.6732125084766 -72.5042124273161,-38.6734725802373 -72.5045663901924,-38.6737479710323</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Centro Comunitario</SimpleData>
+		<SimpleData name="NOM">Centro Comunitario</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5040474247636,-38.6772308381855 -72.504021209363,-38.6772481977416 -72.5039940206875,-38.6772455731052 -72.5036327174164,-38.6775115389483 -72.5036217031427,-38.6775113612463 -72.5019538814825,-38.6786540481572 -72.5014643905179,-38.6789894062669 -72.4980963819444,-38.681296742696 -72.501892963999,-38.6847043856619 -72.5019914271091,-38.6851037775351 -72.5021963255388,-38.6855561726211 -72.5022247781095,-38.6855523918771 -72.5022967485228,-38.6857435539043 -72.5026613203275,-38.6856835934364 -72.5024461147174,-38.6849719154798 -72.5024323553663,-38.6848534963464 -72.5023517342779,-38.6841596200233 -72.5024574450144,-38.6822715897132 -72.502478454432,-38.6818963500588 -72.5029186565696,-38.6811967289717 -72.5051964141933,-38.6783056703631 -72.5050698279283,-38.6781748674305 -72.5040569449274,-38.6772328253614 -72.5040474247636,-38.6772308381855</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Centro Comunitario</SimpleData>
+		<SimpleData name="NOM">Centro Comunitario</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5076573975333,-38.6803538043105 -72.5070701141756,-38.6810292586527 -72.5062180093911,-38.6815124529627 -72.5038655959122,-38.6826555737206 -72.503582477059,-38.682835670988 -72.5033028433762,-38.6830871660291 -72.5031135989507,-38.6833216483278 -72.5029292336767,-38.6836560878123 -72.5028380481273,-38.6840306340018 -72.502886741904,-38.68468067084 -72.5080997068407,-38.6830576027922 -72.5088543790305,-38.6828204291936 -72.5090842272236,-38.6826705195639 -72.5093631398253,-38.6824047331641 -72.5095313489876,-38.6821136706031 -72.5095902537818,-38.6818258928933 -72.5096253532754,-38.6814244263486 -72.5097227854837,-38.6811783912549 -72.5098419259304,-38.6810032066797 -72.5101623030857,-38.6806992689808 -72.5097156160727,-38.6803120468349 -72.5096609237245,-38.6803483290709 -72.5089570278837,-38.6808152855919 -72.5078491158674,-38.6797893629944 -72.5076573975333,-38.6803538043105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Zona Comercio</SimpleData>
+		<SimpleData name="NOM">Zona Comercio</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5101623030857,-38.6806992689808 -72.5109395195633,-38.6813730041471 -72.5111697681359,-38.681191127594 -72.5094870501283,-38.6796114476358 -72.5091264912441,-38.6798013379381 -72.5097156160727,-38.6803120468349 -72.5101623030857,-38.6806992689808</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Zona Comercio</SimpleData>
+		<SimpleData name="NOM">Zona Comercio</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5024719376255,-38.6753030576397 -72.5043572817673,-38.6770256474929 -72.5045867028984,-38.6768737219747 -72.5027097835792,-38.6751538982407 -72.5024719376255,-38.6753030576397</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Vivienda Artesanal</SimpleData>
+		<SimpleData name="NOM">Vivienda Artesanal</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5068982911629,-38.6777804923165 -72.50684059111,-38.6778196065015 -72.5065621492555,-38.6775782049325 -72.5058451592867,-38.6779335979528 -72.5066862471707,-38.6787125039645 -72.5078491158674,-38.6797893629944 -72.5089570278837,-38.6808152855919 -72.5096609237245,-38.6803483290709 -72.5097156160727,-38.6803120468349 -72.5091264912441,-38.6798013379381 -72.5094870501283,-38.6796114476358 -72.5111697681359,-38.681191127594 -72.5109395195633,-38.6813730041471 -72.5113671689643,-38.6817437079217 -72.5125002667691,-38.6808202582344 -72.5120797285247,-38.6804630281141 -72.5118366021987,-38.6802565004492 -72.511462525143,-38.6801460682561 -72.5109788327122,-38.6799439615066 -72.5105709713035,-38.6796776744093 -72.5102374298565,-38.6793163039502 -72.5100721718072,-38.6791665229936 -72.5097507238167,-38.6790523831591 -72.5094641695785,-38.6788443464259 -72.5092868262648,-38.6784473309319 -72.5092762494495,-38.6782310023404 -72.5091049524142,-38.6779576026497 -72.5089396999565,-38.6778078198032 -72.5086212811177,-38.6777554850622 -72.5082634385058,-38.6777043343786 -72.5078646617575,-38.6776234617096 -72.507838273917,-38.6775961965084 -72.5075735880957,-38.6773227072121 -72.5068982911629,-38.6777804923165</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Vivienda Artesanal</SimpleData>
+		<SimpleData name="NOM">Vivienda Artesanal</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5002554349478,-38.673723060379 -72.5008273031881,-38.6742508112672 -72.504037752685,-38.6772133804844 -72.5040255004358,-38.6772223994309 -72.5040214137916,-38.6772254082251 -72.5039940206875,-38.6772455731052 -72.504021209363,-38.6772481977416 -72.5040474247636,-38.6772308381855 -72.5040569449274,-38.6772328253614 -72.5050698279283,-38.6781748674305 -72.5051964141933,-38.6783056703631 -72.5052043171251,-38.6783138360065 -72.5057894234392,-38.6779673676044 -72.5057710494004,-38.6779505009199 -72.5046091455448,-38.6768839043635 -72.5013394839202,-38.6738821990143 -72.5013296947031,-38.6738892449342 -72.5007483400659,-38.6733564984156 -72.5007872777112,-38.6734068131037 -72.5007671499033,-38.6734187818784 -72.5002554349478,-38.673723060379</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5045867028984,-38.6768737219747 -72.5043572817673,-38.6770256474929 -72.5024719376255,-38.6753030576397 -72.5027097835792,-38.6751538982407 -72.5045867028984,-38.6768737219747</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Río Cautín</SimpleData>
+		<SimpleData name="NOM">Río Cautín</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5028109324,-38.6863354196365 -72.5027526928485,-38.6859656004857 -72.503524995361,-38.685841361489 -72.5041167084975,-38.6857185526741 -72.504540956742,-38.6856069081397 -72.5050098613542,-38.6855064289594 -72.5053336292012,-38.685428277476 -72.5056685609412,-38.6853166338289 -72.5061390970434,-38.6851283160961 -72.5066598050747,-38.6849093994431 -72.5072374862134,-38.6847101992659 -72.5076956469144,-38.6845109994072 -72.5082334884024,-38.6843914785354 -72.5089506106935,-38.684271958266 -72.5095681309795,-38.6842719580545 -72.5101258930935,-38.6844113980285 -72.5105641335341,-38.6844910788543 -72.5106613486715,-38.6844797993111 -72.5105217410164,-38.6843215743372 -72.5102351624565,-38.6841135407426 -72.5093920610561,-38.6838293796858 -72.5082516729906,-38.683925535796 -72.5068928353756,-38.6843996328368 -72.5048348298425,-38.6851113426687 -72.5036700727959,-38.6855176797147 -72.5026613203275,-38.6856835934364 -72.5022967485228,-38.6857435539043 -72.5025416766116,-38.686394103416 -72.5028109324,-38.6863354196365</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Reserva Agrícola</SimpleData>
+		<SimpleData name="NOM">Reserva Agrícola</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5026883272761,-38.6867836125311 -72.5028899997658,-38.6867499997938 -72.5028400007629,-38.6865200001351 -72.5028109324,-38.6863354196365 -72.5025416766116,-38.686394103416 -72.5026883272761,-38.6867836125311</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Reserva Agrícola</SimpleData>
+		<SimpleData name="NOM">Reserva Agrícola</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5125373016985,-38.6842285217343 -72.5126795300586,-38.6841996623764 -72.5129181918746,-38.6841830633218 -72.5131031841592,-38.6841106737802 -72.5132157878228,-38.6840221999846 -72.5132962196029,-38.6839337244817 -72.5133605653249,-38.6838372065936 -72.5133927377202,-38.6836843864347 -72.5133927372446,-38.6836039548126 -72.513440997132,-38.6834913503011 -72.5135053415172,-38.6834109190662 -72.5136340324433,-38.6833144004769 -72.513875327594,-38.6831133224435 -72.5139879324356,-38.6829926745257 -72.5140120611349,-38.6828318114338 -72.5139798890208,-38.6827513792874 -72.5139235870677,-38.6827031203539 -72.5137225073582,-38.6826307329425 -72.5135294719492,-38.6825503003788 -72.5134007811903,-38.6824457397205 -72.5134007813606,-38.6822446596961 -72.5133686085457,-38.6820677108422 -72.5132399180918,-38.6819148898995 -72.513054925812,-38.681786199532 -72.5129181919859,-38.6816333796001 -72.5128136298445,-38.6814886028093 -72.512741242378,-38.6813920849948 -72.5126929825358,-38.6812875242692 -72.5125884217812,-38.6812070921909 -72.5124114719506,-38.6810703587648 -72.5122852027016,-38.6809955327322 -72.5113671689643,-38.6817437079217 -72.5113834463816,-38.6817578171632 -72.5122097897943,-38.6825067103147 -72.5125145182362,-38.6830855870936 -72.5125373016985,-38.6842285217343</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Balneario</SimpleData>
+		<SimpleData name="NOM">Balneario</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5106613486715,-38.6844797993111 -72.5108058365102,-38.6844630343698 -72.5111056380465,-38.6845181724225 -72.5113922643101,-38.6844608475865 -72.5125373016985,-38.6842285217343 -72.5125145182362,-38.6830855870936 -72.5122097897943,-38.6825067103147 -72.5113834463816,-38.6817578171632 -72.5113671689643,-38.6817437079217 -72.5109395195633,-38.6813730041471 -72.5101623030857,-38.6806992689808 -72.5098419259304,-38.6810032066797 -72.5097227854837,-38.6811783912549 -72.5096253532754,-38.6814244263486 -72.5095902537818,-38.6818258928933 -72.5095313489876,-38.6821136706031 -72.5093631398253,-38.6824047331641 -72.5090842272236,-38.6826705195639 -72.5088543790305,-38.6828204291936 -72.5080997068407,-38.6830576027922 -72.502886741904,-38.68468067084 -72.5028904208492,-38.6847297854601 -72.5024323553663,-38.6848534963464 -72.5024461147174,-38.6849719154798 -72.5026613203275,-38.6856835934364 -72.5036700727959,-38.6855176797147 -72.5048348298425,-38.6851113426687 -72.5068928353756,-38.6843996328368 -72.5082516729906,-38.683925535796 -72.5093920610561,-38.6838293796858 -72.5102351624565,-38.6841135407426 -72.5105217410164,-38.6843215743372 -72.5106613486715,-38.6844797993111</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Temuco</SimpleData>
+		<SimpleData name="LOC">Cajón</SimpleData>
+		<SimpleData name="ZONA">Reserva Agrícola</SimpleData>
+		<SimpleData name="NOM">Reserva Agrícola</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">08/09/1983</SimpleData>
+		<SimpleData name="N_DOC">100</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4938411142446,-38.6668105469252 -72.4935987045711,-38.6708706824012 -72.4935515877385,-38.670863776026 -72.4936396294941,-38.6709004078542 -72.4966218195799,-38.6713373275768 -72.4973010183547,-38.6715026927087 -72.498424400897,-38.6718714004086 -72.4991535737002,-38.6722519058583 -72.4996841373867,-38.6726074075018 -72.4997191014686,-38.6725593581865 -72.5004776615918,-38.6715168803835 -72.5011050761355,-38.671791089848 -72.5013945935922,-38.6720609588769 -72.5020934065715,-38.6726280531389 -72.5061029842403,-38.6763145719497 -72.506698701575,-38.677194226454 -72.5065181874305,-38.6775400905996 -72.5065621492555,-38.6775782049325 -72.50684059111,-38.6778196065015 -72.5068982911629,-38.6777804923165 -72.5075735880957,-38.6773227072121 -72.507838273917,-38.6775961965084 -72.5078646617575,-38.6776234617096 -72.5082634385058,-38.6777043343786 -72.5086212811177,-38.6777554850622 -72.5089396999565,-38.6778078198032 -72.5091049524142,-38.6779576026497 -72.5092762494495,-38.6782310023404 -72.5092868262648,-38.6784473309319 -72.5094641695785,-38.6788443464259 -72.5097507238167,-38.6790523831591 -72.5100721718072,-38.6791665229936 -72.5102374298565,-38.6793163039502 -72.5105709713035,-38.6796776744093 -72.5109788327122,-38.6799439615066 -72.511462525143,-38.6801460682561 -72.5118366021987,-38.6802565004492 -72.5114519411363,-38.6799297402327 -72.5098463309478,-38.6785852686442 -72.5094612845838,-38.677977847774 -72.5090019294451,-38.6774655062898 -72.508403161225,-38.6765240563757 -72.5082622329322,-38.6760640468543 -72.5082442615554,-38.6748885047624 -72.5085930270379,-38.6747542320729 -72.5090919288111,-38.6744607004233 -72.5095074482914,-38.6740768232004 -72.5098501633799,-38.6738189307885 -72.5100342937267,-38.6735002837745 -72.501576535292,-38.6700066566381 -72.4938411142446,-38.6668105469252</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5037439185343,-38.6718468477215 -72.5030316373115,-38.6725535831131 -72.5021222830701,-38.672009878912 -72.5028389433091,-38.6712447673946 -72.5037439185343,-38.6718468477215</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5055894739699,-38.6727829770093 -72.505714513268,-38.6733512423383 -72.5053902979517,-38.6736851152312 -72.5049829922458,-38.6738117411415 -72.5045663901924,-38.6737479710323 -72.5042124273161,-38.6734725802373 -72.5041208490454,-38.6732125084766 -72.5041984868856,-38.6731869899049 -72.5041135443479,-38.6729416626765 -72.504228474505,-38.6728047441549 -72.5044144049491,-38.6726275614279 -72.5049674272887,-38.6724965665143 -72.5053120913809,-38.6725815605977 -72.5055894739699,-38.6727829770093</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5050062321347,-38.6742877248675 -72.5062563794507,-38.6729917693553 -72.5069077118897,-38.6734227182642 -72.5056348035794,-38.6747074108031 -72.5050062321347,-38.6742877248675</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

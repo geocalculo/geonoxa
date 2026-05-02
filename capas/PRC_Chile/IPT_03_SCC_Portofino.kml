@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="prc_chaaral_portofino_mono" id="prc_chaaral_portofino_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>prc_chaaral_portofino_mono</name>
+  <Placemark id="prc_chaaral_portofino_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZB</SimpleData>
+		<SimpleData name="NOMBRE">Zona Balneario</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura necesarias para el desarrollo de actividades recreativas y de ocio asociadas a bienes de playas marítimas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">70169.12377930000</SimpleData>
+		<SimpleData name="Shape_STLe">2958.19971611000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7029826470568,-26.5198597130162 -70.7029789032101,-26.5197824613033 -70.7029308491772,-26.519745636279 -70.7029296668325,-26.5196655114352 -70.7029807424343,-26.519504622642 -70.7031793409234,-26.5188771634042 -70.7032939965983,-26.5185979772449 -70.7034393651029,-26.5183878780814 -70.7034797460209,-26.5183072558446 -70.7035258284363,-26.5182105384175 -70.7035901182282,-26.5181403164545 -70.703630736517,-26.5180757193167 -70.7036657311061,-26.5180325602855 -70.7037072167057,-26.5180267216991 -70.703748149315,-26.5179834917066 -70.7037654105158,-26.5179458874781 -70.7037590003206,-26.5179139081184 -70.7037110247232,-26.5178824253508 -70.7037047722631,-26.5178611300204 -70.7038154591689,-26.5177155567425 -70.7038794330717,-26.5176239675038 -70.7039030255252,-26.5176130006 -70.7040037296538,-26.5175957693417 -70.7040451362021,-26.5175845886492 -70.7040922431825,-26.5175573127577 -70.7040616075705,-26.5174935678549 -70.7039951111915,-26.5174142225721 -70.7040004961726,-26.5173767602262 -70.7040293167958,-26.5173176469143 -70.7042522660252,-26.5171333329383 -70.704426845781,-26.5168908287225 -70.7045323038675,-26.5167934004407 -70.7045552649802,-26.5167397000269 -70.7045665887582,-26.5167021666795 -70.7046962698802,-26.5166365046928 -70.7047791590425,-26.5166194858716 -70.7048086901947,-26.5166084478344 -70.7048732939393,-26.5165595916102 -70.7049445447649,-26.5165587397993 -70.7050575962197,-26.5165734161534 -70.7052270065809,-26.5167850952909 -70.7053046690721,-26.5168162225623 -70.7054650639352,-26.516819647433 -70.7055784314266,-26.5168556896014 -70.7056962371093,-26.5167901696511 -70.7057378000729,-26.516789672523 -70.7058685068968,-26.5167934511329 -70.7059394430297,-26.5167712325668 -70.7059987400008,-26.5167651802649 -70.7060627116298,-26.5166735901438 -70.7060967583795,-26.5165663309433 -70.7060604218641,-26.5165186817565 -70.706077603141,-26.5164757352766 -70.7061242354013,-26.5164164084946 -70.7061589137065,-26.5163518817584 -70.7060632015649,-26.5163049438176 -70.7059981247538,-26.5163217493866 -70.7058263293546,-26.5163505182927 -70.7057667947348,-26.5163405444897 -70.7056760734485,-26.5162294347208 -70.7055492519745,-26.5160867006946 -70.705430264004,-26.5160720957073 -70.7050746397072,-26.5161190889876 -70.7049560452582,-26.5161311918813 -70.7048662717088,-26.5160841821129 -70.70473319883,-26.5159201511182 -70.7046786557698,-26.5158460061945 -70.7047068445659,-26.5157441593541 -70.7047590996573,-26.5156633957585 -70.7048361300699,-26.5156517890173 -70.7048660544635,-26.5156674592605 -70.704901285602,-26.5156403250996 -70.70494221695,-26.5155970948128 -70.7050134681823,-26.515596242984 -70.7050837725001,-26.5155312905574 -70.7051661094297,-26.5154768801458 -70.705184315778,-26.5155033754425 -70.7051733089594,-26.5155622759716 -70.7052151881614,-26.5155831461585 -70.7052565928574,-26.5155719651637 -70.7052964981069,-26.515459293115 -70.705378913793,-26.5154102236985 -70.7054023488098,-26.5153885734353 -70.7054474814557,-26.51522775493 -70.7055006039813,-26.5152057487294 -70.7055294233418,-26.5151466351603 -70.7055230118743,-26.5151146567986 -70.7054151104993,-26.5150464923075 -70.7053608042232,-26.5149883727768 -70.705330327529,-26.5149353112394 -70.7053235215323,-26.5148766236961 -70.7053407028807,-26.5148336772942 -70.7053211540161,-26.5147163731958 -70.7053383353451,-26.5146734267943 -70.7053840992134,-26.5145553417099 -70.7053953436213,-26.5145124662947 -70.7053772153031,-26.5144913121401 -70.7053350997448,-26.5144544177416 -70.7053404062885,-26.5144116133314 -70.7052978172818,-26.5143426686367 -70.7052082817597,-26.5143116832516 -70.705099354572,-26.5141740767951 -70.7050260537996,-26.514036045232 -70.7050287557238,-26.5138169651487 -70.7049910802972,-26.5136785067403 -70.7050596467154,-26.5134960381481 -70.7050794519668,-26.513228669651 -70.7051134199123,-26.5131160686248 -70.7051657515219,-26.5130406460483 -70.7052069985211,-26.5130187819665 -70.7052962962877,-26.5130337422618 -70.7053614502987,-26.5130222782033 -70.7053725367767,-26.5129687196594 -70.7052763533414,-26.5128897298381 -70.7052579886061,-26.5128525514077 -70.7053100053671,-26.5127557616131 -70.7053622587944,-26.5126749978497 -70.7054268601865,-26.5126261414666 -70.705485997249,-26.5126094063476 -70.705520990584,-26.5125662469309 -70.7055018366443,-26.5124756510844 -70.7054582234368,-26.5123372646868 -70.7054925054515,-26.5122460298571 -70.7056742762599,-26.512088920267 -70.7057901039348,-26.5118898572762 -70.705886856123,-26.5116055413252 -70.7058796554857,-26.5115201455157 -70.7057254599257,-26.5111319770771 -70.7058883116248,-26.5109002965989 -70.7059900207213,-26.5106329124309 -70.7045294299742,-26.5101688041351 -70.7047094299629,-26.51426863502 -70.7049630624722,-26.5148149222955 -70.7050616058983,-26.5151958789837 -70.7045612574211,-26.5154705489639 -70.7045269965023,-26.5158471229714 -70.7048057650943,-26.5162975757409 -70.7043222970192,-26.5168168480444 -70.7031911243625,-26.5179707966878 -70.7031061788133,-26.5180613741585 -70.7022130518266,-26.5196065498671 -70.702247200454,-26.5196718211849 -70.7029826470568,-26.5198597130162</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7033153176704,-26.5115446654107 -70.7040585584482,-26.5119895736291 -70.7044580638842,-26.5111787330291 -70.7044179460203,-26.5103614765389 -70.7036012853648,-26.5100580725492 -70.7033153176704,-26.5115446654107</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7016316077017,-26.5175013920964 -70.7017849374177,-26.5175473295319 -70.7026110179653,-26.5162163423174 -70.7018758148037,-26.5159407737212 -70.7010828899925,-26.5171974536263 -70.7016316077017,-26.5175013920964</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7001330195217,-26.5186857346791 -70.7008000310567,-26.5190897702955 -70.7014379484449,-26.5180835265946 -70.700787090429,-26.5176712474171 -70.7001330195217,-26.5186857346791</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7026990373118,-26.5111579470947 -70.7032348987603,-26.511491888328 -70.7034945278963,-26.510018410158 -70.7029380100319,-26.5098116493543 -70.7026990373118,-26.5111579470947</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7019099924746,-26.5159008645765 -70.7026408377002,-26.5161787417332 -70.7031408168379,-26.5153742187076 -70.7024772835612,-26.5149895071207 -70.7019099924746,-26.5159008645765</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7031122958718,-26.5126654283271 -70.7036374779804,-26.5128593162498 -70.7040387717488,-26.5120304441669 -70.7033074825957,-26.5115879170185 -70.7031122958718,-26.5126654283271</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7024607659157,-26.5124248904396 -70.7030256410258,-26.512633436715 -70.7032263008089,-26.511538791357 -70.7026896799893,-26.5112140583807 -70.7024607659157,-26.5124248904396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7005977877416,-26.5169315650663 -70.7009993262655,-26.5171566544935 -70.7017904934186,-26.5159087935179 -70.7013568466543,-26.5157462505011 -70.7005977877416,-26.5169315650663</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7021849072264,-26.5140129970241 -70.7027577649154,-26.5141072254638 -70.7029292608603,-26.5131355099682 -70.7023895748217,-26.5128371015217 -70.7023887359842,-26.5128458079556 -70.7021849072264,-26.5140129970241</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6996589732849,-26.5184047836826 -70.7000486149621,-26.5186330025885 -70.7007005281632,-26.517621927377 -70.7002312299526,-26.5175130797994 -70.6996589732849,-26.5184047836826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7013827294176,-26.5157011606584 -70.7018132010763,-26.5158632089101 -70.7024049508818,-26.5149366746592 -70.7020152368455,-26.514711406311 -70.7013827294176,-26.5157011606584</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6996715814308,-26.5194222853797 -70.7005591355866,-26.5194785777817 -70.7007508454235,-26.5191562534671 -70.7000932188245,-26.5187674973445 -70.6996715814308,-26.5194222853797</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.699049749084,-26.5193819295619 -70.6995652643505,-26.5194139994946 -70.7000063116446,-26.518716122007 -70.6996196170698,-26.5184948744745 -70.699049749084,-26.5193819295619</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7028516111897,-26.5141197137823 -70.7028588377564,-26.5141203487389 -70.7034361301975,-26.514022697493 -70.7034949694713,-26.5136924028443 -70.7032878906078,-26.5133318480397 -70.7030308975155,-26.5131868395734 -70.7028516111897,-26.5141197137823</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOMBRE">ZU5 Zona Urbana Residencial de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial y Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">115729.65063500000</SimpleData>
+		<SimpleData name="Shape_STLe">5544.62256154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7027895910899,-26.5144650974846 -70.7033086797063,-26.5147407235855 -70.7034314566297,-26.5140657434388 -70.7028402958578,-26.5141785889778 -70.702838590633,-26.5141874646282 -70.7027895910899,-26.5144650974846</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7035037556518,-26.5141416636299 -70.7033158329225,-26.5152592655586 -70.703661526041,-26.5152981264623 -70.7040229335895,-26.5153224687189 -70.7041612385525,-26.5153399231306 -70.7045680404397,-26.5154668255799 -70.7050616058983,-26.5151958789837 -70.7049630624722,-26.5148149222955 -70.7047094299629,-26.51426863502 -70.7047086390173,-26.5142506107451 -70.7045542525123,-26.5144933342406 -70.7035037556518,-26.5141416636299</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7018818612965,-26.5175939399666 -70.7026818226268,-26.5178321808919 -70.7034599345105,-26.5165899057598 -70.7034596701851,-26.5165719961454 -70.7034492768174,-26.5165422659743 -70.7027258888113,-26.5162633129532 -70.7018818612965,-26.5175939399666</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7006903713953,-26.5194851548424 -70.7015395074356,-26.5195466753638 -70.7021584631508,-26.518547706621 -70.701538819569,-26.518149502283 -70.7006903713953,-26.5194851548424</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7028016653619,-26.5178576190932 -70.7031957199707,-26.5179661083468 -70.704280270072,-26.5168597211653 -70.7036227768644,-26.5166058732945 -70.7035962339644,-26.516606190376 -70.7035765025122,-26.5166183676312 -70.7028016653619,-26.5178576190932</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7040557800775,-26.5167141459678 -70.7043224352963,-26.5168166992551 -70.7048057650943,-26.5162975757409 -70.7045269965023,-26.5158471229714 -70.7045563255945,-26.5155247524204 -70.7041333638142,-26.515369894793 -70.7036968066848,-26.5153262693892 -70.7036127348979,-26.5155298052125 -70.704186022174,-26.5158706985396 -70.7040557800775,-26.5167141459678</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7038661056496,-26.5141851021835 -70.7044025697482,-26.5143339339302 -70.7045902322632,-26.5142331717436 -70.7045459583442,-26.5132574656562 -70.7039548640284,-26.5130333562371 -70.7038661056496,-26.5141851021835</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7027475834152,-26.5162162779638 -70.7035051966055,-26.51650875853 -70.7039196151094,-26.5158462399562 -70.7032439025349,-26.5154430951076 -70.7027475834152,-26.5162162779638</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7037261571563,-26.5128908482029 -70.7045447532125,-26.5131945371158 -70.704500205511,-26.5123149063277 -70.7041231367224,-26.5120883983278 -70.7037261571563,-26.5128908482029</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOMBRE">ZU4 Zona Urbana Residencial Preferente de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento cultural, teatros, cines, quintas de recreo, ferias y mercados ambulantes, estadio, canchas y piscinas, talleres, servicios automotrices, almacenes de acopio, cementerios y cárceles.</SimpleData>
+		<SimpleData name="UPROH">Vertederos de basuras, plantas depuradoras de agua; Industrias peligrosas y contaminantes.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">84880.81591799999</SimpleData>
+		<SimpleData name="Shape_STLe">3783.05941125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7035322509569,-26.5140487751208 -70.7038324866349,-26.514155649503 -70.7038903596967,-26.5130115580757 -70.7037150651422,-26.5129449672769 -70.7035322509569,-26.5140487751208</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7016470101347,-26.5195453925586 -70.7021534134548,-26.5195895042549 -70.7024468549832,-26.5187216188265 -70.7022542979004,-26.5185995255846 -70.7016470101347,-26.5195453925586</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7023008614108,-26.5185165713448 -70.7024777934411,-26.5186326821601 -70.7027159387613,-26.5179285976619 -70.7026703376457,-26.5179174632704 -70.7023008614108,-26.5185165713448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.701589312436,-26.5180629195405 -70.7022125271087,-26.5184674711157 -70.7025791180021,-26.517891223763 -70.701830464134,-26.5176731298144 -70.701589312436,-26.5180629195405</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7008336019126,-26.5175847124084 -70.7014888231664,-26.5179996329262 -70.7017305040731,-26.5176320411635 -70.7016023540918,-26.5175970361739 -70.701553994929,-26.5175582058039 -70.7010321731487,-26.5172778293341 -70.7008336019126,-26.5175847124084</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6984966789726,-26.5171662266946 -70.698249320311,-26.5180511919788 -70.6987798927076,-26.5172169644494 -70.6984966789726,-26.5171662266946</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7002539049401,-26.5174304109907 -70.7007531796667,-26.5175319332139 -70.7009545223275,-26.517229946725 -70.7005223508738,-26.5170008905017 -70.7002539049401,-26.5174304109907</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6988877929864,-26.5171457610302 -70.7000781376541,-26.5173930990921 -70.7003731362118,-26.5169215783447 -70.6993781790934,-26.5163732589068 -70.6988877929864,-26.5171457610302</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6985250148894,-26.5170648485271 -70.6988329561956,-26.5171335303305 -70.6993342411862,-26.5163453390064 -70.698804466524,-26.5160650487038 -70.6985250148894,-26.5170648485271</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7036172438033,-26.516545753241 -70.7040017516063,-26.5166959237496 -70.7041073166904,-26.5159342136713 -70.7041050236848,-26.515922777043 -70.7040984559147,-26.5159094805224 -70.7040353209591,-26.5158767689853 -70.7036172438033,-26.516545753241</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7032979520605,-26.515345841191 -70.7035422229032,-26.5154919568567 -70.7036083584511,-26.5153133010503 -70.7033098187716,-26.5152864683291 -70.7032979520605,-26.515345841191</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6962816342655,-26.5165962600951 -70.6978661463083,-26.5169296853924 -70.6981811470372,-26.5157348913445 -70.6968086266488,-26.5149718836949 -70.6962816342655,-26.5165962600951</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7045280824066,-26.5144140198646 -70.7044751376871,-26.5144242065966 -70.7044028857301,-26.5144212481448 -70.7043411223633,-26.5144219862582 -70.7045542525123,-26.5144933342406 -70.7046388969218,-26.5143602578437 -70.7045787059017,-26.5143904867584 -70.7045280824066,-26.5144140198646</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7012823399451,-26.5141487164068 -70.7014556887743,-26.5142488119942 -70.7014726036355,-26.5140891264411 -70.7012823399451,-26.5141487164068</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6991319242685,-26.5148465174204 -70.6992677021388,-26.5149010834536 -70.7000998315766,-26.5135047009773 -70.7000557515962,-26.5135614298879 -70.7000069361767,-26.5136149286986 -70.6999536765575,-26.5136648782208 -70.6998962904947,-26.5137109804415 -70.6998325954078,-26.5137551218089 -70.6997651430163,-26.5137944871699 -70.6996943746898,-26.5138288189379 -70.6996207534969,-26.5138578924628 -70.6995447611752,-26.5138815175018 -70.6994668949789,-26.513899539464 -70.6993876644249,-26.5139118404221 -70.6991319242685,-26.5148465174204</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7001744346939,-26.513379508904 -70.7010293764,-26.5119448043025 -70.7003583186907,-26.5117004706314 -70.7003521461296,-26.5116982234257 -70.7001078209503,-26.5125467268617 -70.7001508350139,-26.5126155217763 -70.7001869532538,-26.5126874551857 -70.7002158954264,-26.5127619689793 -70.7002374369636,-26.5128384850251 -70.7002514107156,-26.512916409655 -70.7002577082481,-26.5129951382709 -70.7002562806845,-26.5130740600358 -70.7002471390851,-26.5131525626125 -70.7002303543621,-26.5132300369152 -70.7002060567295,-26.5133058818351 -70.7001744346939,-26.513379508904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZP1</SimpleData>
+		<SimpleData name="NOMBRE">ZP1 Zona de Protección Natural y Paisajística</SimpleData>
+		<SimpleData name="UPERM">Equipamiento e infraestructura (con condición).</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">72024.67065430000</SimpleData>
+		<SimpleData name="Shape_STLe">4270.62536056000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7041490098227,-26.5120427105718 -70.704505229371,-26.5122557929828 -70.7044653597736,-26.5113975989538 -70.7041490098227,-26.5120427105718</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6954408614527,-26.5191382810699 -70.6963762621794,-26.5191988068984 -70.6970291378859,-26.5168545415985 -70.6962490918025,-26.5166877764808 -70.6954408614527,-26.5191382810699</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6971008806112,-26.5140847171181 -70.6977281482394,-26.5143160865889 -70.6986100911749,-26.5110526250488 -70.6981558623553,-26.5109075965125 -70.6971008806112,-26.5140847171181</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6981753379218,-26.5108190435558 -70.6986474704216,-26.5109815595034 -70.6993492305687,-26.5084464702781 -70.6989922975098,-26.5083281488335 -70.6981753379218,-26.5108190435558</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7009155936969,-26.513930734431 -70.7012335154571,-26.5141120388822 -70.7014845719243,-26.5140344085057 -70.7018103142731,-26.5122388774562 -70.7012625758117,-26.5120308448423 -70.7009155936969,-26.513930734431</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6993877486246,-26.5149307991481 -70.7000658787638,-26.5151902119946 -70.7008288618021,-26.5140012715825 -70.7001731752081,-26.5136016438686 -70.6993877486246,-26.5149307991481</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.700119316726,-26.5152134580901 -70.7006958825441,-26.5154263123005 -70.7013912567599,-26.5143337086655 -70.7008691171725,-26.5140244516633 -70.700119316726,-26.5152134580901</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7011791408725,-26.510250599048 -70.7017928937453,-26.5106025841443 -70.7023656124232,-26.5095969932238 -70.7016795454594,-26.5093357151739 -70.7011791408725,-26.510250599048</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6994292342683,-26.5163059929616 -70.6999801760636,-26.5165812515302 -70.7006700435358,-26.5154743866697 -70.7000911545079,-26.5152580450195 -70.6994292342683,-26.5163059929616</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7002258752292,-26.5135150271586 -70.7008686163452,-26.5138954691027 -70.7012523361937,-26.5117488738606 -70.7002258752292,-26.5135150271586</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6979055090058,-26.5192932170174 -70.6982205218924,-26.5193201561084 -70.6989832680929,-26.5181121203144 -70.698474438914,-26.5178124734249 -70.6982098081117,-26.5182311976036 -70.6979055090058,-26.5192932170174</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7018598908675,-26.5122565832316 -70.7015411021262,-26.5140115832004 -70.7015538503127,-26.5140067127953 -70.7016960335607,-26.5139721768606 -70.7018053463653,-26.5139589309683 -70.7019248768013,-26.5139634749465 -70.7019813239937,-26.5139657873971 -70.7022701799139,-26.5124009586529 -70.7018598908675,-26.5122565832316</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7012718694477,-26.5119859529029 -70.7018182696631,-26.5121876844995 -70.7020676830077,-26.510837656261 -70.7018570043415,-26.5107101625415 -70.7013423709132,-26.5115910349645 -70.7012718694477,-26.5119859529029</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6982867250776,-26.5193252107287 -70.6988158805504,-26.5193656088463 -70.6994547263622,-26.5183978814999 -70.6990367062595,-26.5181353676665 -70.6982867250776,-26.5193252107287</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.700012661088,-26.5166238544448 -70.7004245242229,-26.5168291187968 -70.7011589308436,-26.5156720912808 -70.7007236224889,-26.5155071848163 -70.700012661088,-26.5166238544448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7018951198331,-26.5106480763261 -70.7025048470119,-26.5110408477944 -70.7027502011779,-26.5097310263466 -70.7024841591126,-26.5096379411091 -70.7018951198331,-26.5106480763261</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.700744152531,-26.5154591728478 -70.7011917449394,-26.5156203933143 -70.7018359508046,-26.5146054507902 -70.7014395968552,-26.5143713451391 -70.700744152531,-26.5154591728478</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7018712568981,-26.5122072470101 -70.7022762557772,-26.5123567703436 -70.7025051576659,-26.5111023951543 -70.7021099989974,-26.5108632640243 -70.7018712568981,-26.5122072470101</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6968340284013,-26.5148939598815 -70.6974826122391,-26.5152206110253 -70.6976915270277,-26.5144001839367 -70.6970756547212,-26.514174580456 -70.6968340284013,-26.5148939598815</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6985261041916,-26.5177340199033 -70.6990442044187,-26.5180323628164 -70.6994719483139,-26.5173666590007 -70.6988452092044,-26.5172286659254 -70.6985261041916,-26.5177340199033</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOMBRE">ZE2 Zona Urbanizable Zona de Extensión Preferente de Media Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento comercial; estadios, canchas deportivas, piscinas, quintas de recreo, ferias y mercados ambulantes.</SimpleData>
+		<SimpleData name="UPROH">Cementerios y cárceles; Vertederos de basura, plantas depuradoras de agua; Industrias peligrosas, talleres diversos y almacenes de acopio.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">187954.61230499999</SimpleData>
+		<SimpleData name="Shape_STLe">9034.28192421000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6990884240097,-26.5180604960668 -70.6994980759513,-26.5182956436289 -70.7000129885283,-26.517477312302 -70.6995243891195,-26.5173782048845 -70.6990884240097,-26.5180604960668</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6965302878491,-26.5192017515057 -70.6971839014817,-26.5192369640564 -70.6978157489805,-26.5170122858526 -70.6971758210319,-26.5168821484928 -70.6965302878491,-26.5192017515057</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.698819197453,-26.5159836689585 -70.6993862722219,-26.516273067818 -70.7000361971573,-26.5152375061116 -70.6991217564513,-26.5148957552337 -70.698819197453,-26.5159836689585</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6976031976234,-26.5152967963593 -70.6982119706374,-26.5156239178896 -70.6984541425072,-26.5146885210704 -70.6978299669471,-26.5144701167337 -70.6976031976234,-26.5152967963593</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7001078209503,-26.5125467268617 -70.7003521461296,-26.5116982234257 -70.7000258307256,-26.5115794100207 -70.6998326345476,-26.5122855321638 -70.6998967224867,-26.5123294018058 -70.6999566618256,-26.5123777858604 -70.7000120607597,-26.5124303680601 -70.7000625571622,-26.5124868046954 -70.7001078209503,-26.5125467268617</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6978682889124,-26.5143681558048 -70.6984822881988,-26.5145996797955 -70.6987090373943,-26.5137653878063 -70.6986376011245,-26.5137170523842 -70.6985712633912,-26.5136631556615 -70.698510557294,-26.5136041307652 -70.6984559706733,-26.5135404520332 -70.6984079421896,-26.5134726312019 -70.6983668577989,-26.5134012132941 -70.6983330476507,-26.513326772238 -70.6983067834359,-26.5132499062559 -70.698288276203,-26.5131712330559 -70.6982776746634,-26.5130913848679 -70.6982750639962,-26.5130110033633 -70.6982804651643,-26.5129307344975 -70.6982938347467,-26.5128512233199 -70.6983150652878,-26.5127731087893 -70.6983439861615,-26.5126970186398 -70.6983803649427,-26.5126235643362 -70.6984239092758,-26.5125533361603 -70.6984742692244,-26.5124868984672 -70.6985310400836,-26.512424785151 -70.6985937656325,-26.5123674953538 -70.6986619418006,-26.5123154894553 -70.6987350207189,-26.5122691853729 -70.698812415122,-26.512228955204 -70.6988935030678,-26.512195122236 -70.6989776329349,-26.5121679583478 -70.6990641286588,-26.5121476818262 -70.6991522951649,-26.5121344556112 -70.6993677503164,-26.5113416887535 -70.6987628570102,-26.5111153193902 -70.6978682889124,-26.5143681558048</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7000431180325,-26.5115239968978 -70.7010573501784,-26.5118940406091 -70.7017545337822,-26.5106699376845 -70.70049739908,-26.5099243592091 -70.7000431180325,-26.5115239968978</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7005097904897,-26.5098645027335 -70.7010853651081,-26.5101920087468 -70.7015707040836,-26.5092942635675 -70.7007556463019,-26.5089838530551 -70.7005097904897,-26.5098645027335</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOMBRE">ZU7 Zona Urbana Equipamiento Turístico y Recreativo de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico, recreativo y residencial, áreas verdes y parques temáticos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">100460.86547900000</SimpleData>
+		<SimpleData name="Shape_STLe">4257.19680529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6987814451186,-26.5110255348487 -70.6993958902951,-26.5112404201703 -70.7001083208495,-26.5087407934261 -70.6994943506014,-26.5085092758167 -70.6987814451186,-26.5110255348487</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">17369.83129880000</SimpleData>
+		<SimpleData name="Shape_STLe">1486.89021133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7020695985145,-26.5146074394798 -70.7024607864482,-26.5148511580262 -70.7026786046552,-26.5144998596434 -70.7027370940264,-26.5141456854085 -70.7021726901964,-26.5140561311728 -70.7021678816646,-26.5140712768617 -70.7020695985145,-26.5146074394798</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">17369.83129880000</SimpleData>
+		<SimpleData name="Shape_STLe">1486.89021133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7027822433193,-26.5179447871677 -70.7022130518266,-26.5196065498671 -70.7031061788133,-26.5180613741585 -70.703120770417,-26.5180458155261 -70.7027822433193,-26.5179447871677</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">17369.83129880000</SimpleData>
+		<SimpleData name="Shape_STLe">1486.89021133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7025457681401,-26.5148981092453 -70.7030982360622,-26.5152318519686 -70.703295692845,-26.5148951258964 -70.7033142347857,-26.5148023563021 -70.7027875820025,-26.5145113937476 -70.7025457681401,-26.5148981092453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">17369.83129880000</SimpleData>
+		<SimpleData name="Shape_STLe">1486.89021133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7030308330632,-26.5131262939845 -70.7035425992237,-26.513400812669 -70.7036140352647,-26.5129070185587 -70.7031067078158,-26.5127187206812 -70.7030308330632,-26.5131262939845</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">17369.83129880000</SimpleData>
+		<SimpleData name="Shape_STLe">1486.89021133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7023952100467,-26.5127786164046 -70.7029437330593,-26.5130706104954 -70.7030087176922,-26.512682351017 -70.702453802584,-26.5124763875171 -70.7023952100467,-26.5127786164046</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_chaaral_portofino_mono.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_chaaral_portofino_mono">
+		<SimpleData name="REG">Atacama</SimpleData>
+		<SimpleData name="COM">Chañaral</SimpleData>
+		<SimpleData name="LOCALIDAD">Portofino</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOMBRE">ZU6 Zona Urbana Equipamiento Exclusivo.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">Seccional Chañaral - Portofino</SimpleData>
+		<SimpleData name="CUT">03201</SimpleData>
+		<SimpleData name="Shape_STAr">17369.83129880000</SimpleData>
+		<SimpleData name="Shape_STLe">1486.89021133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7014919550881,-26.5142697538941 -70.7018821083152,-26.5144950365903 -70.7019708266823,-26.5140217849632 -70.7019054442528,-26.5140071374945 -70.7018257282508,-26.5140021175119 -70.7016931906185,-26.5140156405358 -70.7015359540905,-26.5140644875262 -70.7014910635517,-26.5142608677133 -70.7014919550881,-26.5142697538941</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

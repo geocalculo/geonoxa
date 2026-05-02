@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">1</SimpleData>
+		<SimpleData name="NOM">Área residencial</SimpleData>
+		<SimpleData name="UPERM">Viviendas, además de actividades destinadas al quipamiento vecinal, asimismo se aceptarán la localización de hoteles, moteles y residenciales</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4338778739088,-40.7113170229898 -72.4331473511511,-40.7062705846483 -72.4304600901511,-40.7063745310615 -72.429145135446,-40.7091768710571 -72.4287324580489,-40.7100427662186 -72.4285206243924,-40.7105530720385 -72.4284313947752,-40.7111776807188 -72.4284908816758,-40.7118022893946 -72.4286990841186,-40.7130812495565 -72.428996516895,-40.7143304663946 -72.4291481084764,-40.7154753655652 -72.4291121069193,-40.7156735490577 -72.4288848317395,-40.7160951977078 -72.4286354023298,-40.7164302592982 -72.4285392949098,-40.7164975948002 -72.4280342176214,-40.7168722119112 -72.4272281249836,-40.7173851272626 -72.4262788752685,-40.7179853389233 -72.425440485362,-40.7184015297287 -72.4246796224561,-40.7186880226974 -72.4237171772053,-40.7189579694004 -72.4230529865596,-40.7190918852434 -72.4223737185644,-40.7192122256649 -72.4219782458954,-40.7192277734163 -72.420951605781,-40.7193392530428 -72.4216843038645,-40.7210513133185 -72.4220434322146,-40.7210046892251 -72.4225309014553,-40.7209588286258 -72.4225559899209,-40.7209588332043 -72.4232646019067,-40.7208659711111 -72.4234720275903,-40.7208425256497 -72.4237762395882,-40.7208484391583 -72.4240169231246,-40.7208660598388 -72.4244758328188,-40.72094174735 -72.4256181166302,-40.7213167334061 -72.4264752227875,-40.7215967196309 -72.4268922784488,-40.7217038626482 -72.4271580955451,-40.7217190130806 -72.4272929564501,-40.7217190219659 -72.4275226484929,-40.7216785897604 -72.4277169135284,-40.7216429641465 -72.4279423438695,-40.7215554542295 -72.4284026546059,-40.7213169182766 -72.4286132676728,-40.7212300169792 -72.4304806883269,-40.7203957412705 -72.4304951735763,-40.7204110550103 -72.4305007245329,-40.7203867900206 -72.4328345942716,-40.7192473610193 -72.4355055995978,-40.717925419226 -72.4356005867874,-40.718095617774 -72.4355054157275,-40.71791766132 -72.4355124717475,-40.7179127642216 -72.4358569298158,-40.7176822998849 -72.4362154488242,-40.7173493332785 -72.4364824397383,-40.7169066110187 -72.4366346553251,-40.7165970118194 -72.4367300295351,-40.7163027989205 -72.4367612608824,-40.7159028084019 -72.4366897253287,-40.7154448259068 -72.4364603515298,-40.7149675839436 -72.4363150052327,-40.7146602582236 -72.4359603327437,-40.7142340097137 -72.4357257269889,-40.7140353466679 -72.4355022643414,-40.7138746159603 -72.4352334085262,-40.7136806172211 -72.4350335561233,-40.7135076640333 -72.4347127096171,-40.7131975543532 -72.4344744218077,-40.7129107001322 -72.4342260655124,-40.7124716549864 -72.4340832444052,-40.7121321283741 -72.4338858653192,-40.7113722266008 -72.4338593469853,-40.7113176801251 -72.4338778739088,-40.7113170229898</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">5</SimpleData>
+		<SimpleData name="NOM">Área de equipamiento turístico</SimpleData>
+		<SimpleData name="UPERM">Hoteles, moteles, residenciales y todas aquellas edificaciones de carácter recreativo cultural, deportivo y comercial vinculado a éstos.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4292275831594,-40.7061855869914 -72.4292302117559,-40.7061866949409 -72.4301404385579,-40.7063868956388 -72.434083996162,-40.7062343546128 -72.4341072509953,-40.7062080184924 -72.4340517588063,-40.7059857818623 -72.4335846860224,-40.7054731313719 -72.4328126367396,-40.7050496380801 -72.4325889440181,-40.7050092488082 -72.4322394995505,-40.7050093317042 -72.4319393859303,-40.7050336788705 -72.4314971583669,-40.7049039641448 -72.4309389456411,-40.7046748518545 -72.4306893188948,-40.7044430115717 -72.430533233813,-40.7043177067267 -72.4303548658878,-40.7043093607133 -72.4301375475397,-40.7043094060654 -72.4298179641149,-40.7043847979879 -72.4298384406801,-40.7049693342467 -72.4296183513814,-40.7053231930439 -72.4292275831594,-40.7061855869914</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">6</SimpleData>
+		<SimpleData name="NOM">Área verde con equipamiento turístico</SimpleData>
+		<SimpleData name="UPERM">Jardies y edificaciones que tengan relación con las actividades lacustres.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4274023969136,-40.7097050350907 -72.4287324580489,-40.7100427662186 -72.429145135446,-40.7091768710571 -72.4277849947332,-40.7088223243071 -72.4277824813814,-40.7088286268584 -72.4276412224416,-40.7091828060934 -72.4274023969136,-40.7097050350907</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">6</SimpleData>
+		<SimpleData name="NOM">Área verde con equipamiento turístico</SimpleData>
+		<SimpleData name="UPERM">Jardies y edificaciones que tengan relación con las actividades lacustres.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4274704644044,-40.715991171215 -72.4285392949098,-40.7164975948002 -72.4286354023298,-40.7164302592982 -72.4288848317395,-40.7160951977078 -72.4291121069193,-40.7156735490577 -72.4291481084764,-40.7154753655652 -72.4290935075551,-40.715458463578 -72.4279233458864,-40.7152575130673 -72.4279637445196,-40.7156464451524 -72.4274704644044,-40.715991171215</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">2</SimpleData>
+		<SimpleData name="NOM">Área residencial exclusivo</SimpleData>
+		<SimpleData name="UPERM">Viviendas</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4218807857767,-40.7185585112735 -72.4219782458954,-40.7192277734163 -72.4223737185644,-40.7192122256649 -72.4230529865596,-40.7190918852434 -72.4237171772053,-40.7189579694004 -72.4246796224561,-40.7186880226974 -72.425440485362,-40.7184015297287 -72.4262788752685,-40.7179853389233 -72.4272281249836,-40.7173851272626 -72.4280342176214,-40.7168722119112 -72.4285392949098,-40.7164975948002 -72.4274704644044,-40.715991171215 -72.4274459282449,-40.7160083181037 -72.425434555777,-40.7173249236299 -72.4246432325124,-40.7178727003635 -72.4233845724537,-40.7181736839892 -72.4218807857767,-40.7185585112735</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">6</SimpleData>
+		<SimpleData name="NOM">Área verde con equipamiento turístico</SimpleData>
+		<SimpleData name="UPERM">Jardies y edificaciones que tengan relación con las actividades lacustres.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4196857276097,-40.7188114405445 -72.4199128337384,-40.7194520497603 -72.4219782458954,-40.7192277734163 -72.4218807857767,-40.7185585112735 -72.4215557725464,-40.7186416838823 -72.4197236586273,-40.7188174782089 -72.4196857276097,-40.7188114405445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">3</SimpleData>
+		<SimpleData name="NOM">Área mixta residencial-comercial-artesania-servicios</SimpleData>
+		<SimpleData name="UPERM">Actividades que tengan por objetivo entregra servicios al balneario, incluyendo la actividad residencial.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4131225143939,-40.718901960852 -72.413323871874,-40.7185113202909 -72.4137384011334,-40.7178220747351 -72.4122849798455,-40.7174403662665 -72.4117178987974,-40.7182765335694 -72.4116263515294,-40.7184115221647 -72.4131225143939,-40.718901960852</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">5</SimpleData>
+		<SimpleData name="NOM">Área de equipamiento turístico</SimpleData>
+		<SimpleData name="UPERM">Hoteles, moteles, residenciales y todas aquellas edificaciones de carácter recreativo cultural, deportivo y comercial vinculado a éstos.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4133148779338,-40.7185287696249 -72.4151810423094,-40.7191272829352 -72.4152148606008,-40.7190312010833 -72.4156063266146,-40.7181788341317 -72.4156091939784,-40.7181625351931 -72.4141508616824,-40.7179303966233 -72.4137384011334,-40.7178220747351 -72.413323871874,-40.7185113202909 -72.4133148779338,-40.7185287696249</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">7</SimpleData>
+		<SimpleData name="NOM">Área verde</SimpleData>
+		<SimpleData name="UPERM">Jardines. Se permitirán edificaciones relacionadas con la ormamentación y mantención de éstos.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4210971195534,-40.7215160158788 -72.4211825774188,-40.7214592399061 -72.4213773760908,-40.7212610136677 -72.4213961054281,-40.721201347974 -72.4164141152282,-40.7195944721585 -72.4165117091149,-40.7192792977238 -72.4158487855142,-40.719122774136 -72.4158351969657,-40.7191847706142 -72.4152148606008,-40.7190312010833 -72.4151810423094,-40.7191272829352 -72.4133148779338,-40.7185287696249 -72.4131225143939,-40.718901960852 -72.4140498692751,-40.7192059451069 -72.4210971195534,-40.7215160158788</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">3</SimpleData>
+		<SimpleData name="NOM">Área mixta residencial-comercial-artesania-servicios</SimpleData>
+		<SimpleData name="UPERM">Actividades que tengan por objetivo entregra servicios al balneario, incluyendo la actividad residencial.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4165117091149,-40.7192792977238 -72.4164141152282,-40.7195944721585 -72.4213961054281,-40.721201347974 -72.4213773760908,-40.7212610136677 -72.4211825774188,-40.7214592399061 -72.4210971195534,-40.7215160158788 -72.4211056088137,-40.7215187981939 -72.4263027576285,-40.723222409833 -72.4310385404296,-40.7209872870735 -72.4310378950779,-40.7209848421682 -72.4304806883269,-40.7203957412705 -72.4286132676728,-40.7212300169792 -72.4284026546059,-40.7213169182766 -72.4279423438695,-40.7215554542295 -72.4277169135284,-40.7216429641465 -72.4275226484929,-40.7216785897604 -72.4272929564501,-40.7217190219659 -72.4271580955451,-40.7217190130806 -72.4268922784488,-40.7217038626482 -72.4264752227875,-40.7215967196309 -72.4256181166302,-40.7213167334061 -72.4244758328188,-40.72094174735 -72.4240169231246,-40.7208660598388 -72.4237762395882,-40.7208484391583 -72.4234720275903,-40.7208425256497 -72.4232646019067,-40.7208659711111 -72.4225559899209,-40.7209588332043 -72.4225309014553,-40.7209588286258 -72.4220434322146,-40.7210046892251 -72.4216843038645,-40.7210513133185 -72.420951605781,-40.7193392530428 -72.4199128337384,-40.7194520497603 -72.4190330193044,-40.7193642660023 -72.4177838023328,-40.7191977040192 -72.4168677108262,-40.7190549365519 -72.4166416620353,-40.7189954499974 -72.4165117091149,-40.7192792977238</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">4</SimpleData>
+		<SimpleData name="NOM">Área de equipamiento deportivo</SimpleData>
+		<SimpleData name="UPERM">Edificaciones que tengan por finalidad difundir la práctica deportiva.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4304951735763,-40.7204110550103 -72.4310378950779,-40.7209848421682 -72.4310385404296,-40.7209872870735 -72.4334688713895,-40.7198402562095 -72.4328345942716,-40.7192473610193 -72.4305007245329,-40.7203867900206 -72.4304951735763,-40.7204110550103</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">3</SimpleData>
+		<SimpleData name="NOM">Área mixta residencial-comercial-artesania-servicios</SimpleData>
+		<SimpleData name="UPERM">Actividades que tengan por objetivo entregra servicios al balneario, incluyendo la actividad residencial.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4328345942716,-40.7192473610193 -72.4334688713895,-40.7198402562095 -72.4393553345316,-40.7170620540016 -72.4387076580485,-40.7162363743225 -72.4370536649773,-40.7170350493811 -72.4366763655115,-40.7175996353739 -72.4356005867874,-40.718095617774 -72.4355055995978,-40.717925419226 -72.4328345942716,-40.7192473610193</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">2</SimpleData>
+		<SimpleData name="NOM">Área residencial exclusivo</SimpleData>
+		<SimpleData name="UPERM">Viviendas</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4363218373936,-40.7146747032654 -72.4365490254566,-40.7147194721038 -72.4373768134695,-40.7157466036668 -72.4383894790245,-40.715775884234 -72.4383466032443,-40.715713461681 -72.4376866075702,-40.7148009582573 -72.4368576605458,-40.7138806395787 -72.4357217291164,-40.7127496649525 -72.4353703367506,-40.7122516034577 -72.4342267958883,-40.7124729454434 -72.4344744218077,-40.7129107001322 -72.4347127096171,-40.7131975543532 -72.4350335561233,-40.7135076640333 -72.4352334085262,-40.7136806172211 -72.4355022643414,-40.7138746159603 -72.4357257269889,-40.7140353466679 -72.4359603327437,-40.7142340097137 -72.4363150052327,-40.7146602582236 -72.4363218373936,-40.7146747032654</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">6</SimpleData>
+		<SimpleData name="NOM">Área verde con equipamiento turístico</SimpleData>
+		<SimpleData name="UPERM">Jardies y edificaciones que tengan relación con las actividades lacustres.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4342267958883,-40.7124729454434 -72.4353703367506,-40.7122516034577 -72.4349792289837,-40.7116972496803 -72.4349495669222,-40.7112904103228 -72.4349487381223,-40.7112790403008 -72.4338593469853,-40.7113176801251 -72.4338858653192,-40.7113722266008 -72.4340832444052,-40.7121321283741 -72.4342260655124,-40.7124716549864 -72.4342267958883,-40.7124729454434</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">6</SimpleData>
+		<SimpleData name="NOM">Área verde con equipamiento turístico</SimpleData>
+		<SimpleData name="UPERM">Jardies y edificaciones que tengan relación con las actividades lacustres.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4383894790245,-40.715775884234 -72.4373768134695,-40.7157466036668 -72.4365490254566,-40.7147194721038 -72.4363218373936,-40.7146747032654 -72.4364603515298,-40.7149675839436 -72.4366897253287,-40.7154448259068 -72.4367612608824,-40.7159028084019 -72.4367300295351,-40.7163027989205 -72.4366346553251,-40.7165970118194 -72.4364824397383,-40.7169066110187 -72.4362154488242,-40.7173493332785 -72.4358569298158,-40.7176822998849 -72.4355124717475,-40.7179127642216 -72.4355054157275,-40.71791766132 -72.4356005867874,-40.718095617774 -72.4366763655115,-40.7175996353739 -72.4370536649773,-40.7170350493811 -72.4387076580485,-40.7162363743225 -72.4386924798946,-40.7162170249732 -72.4383894790245,-40.715775884234</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">2</SimpleData>
+		<SimpleData name="NOM">Área residencial exclusivo</SimpleData>
+		<SimpleData name="UPERM">Viviendas</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4165117091149,-40.7192792977238 -72.4166416620353,-40.7189954499974 -72.4168677108262,-40.7190549365519 -72.4177838023328,-40.7191977040192 -72.4190330193044,-40.7193642660023 -72.4199128337384,-40.7194520497603 -72.4196857276097,-40.7188114405445 -72.4156091939784,-40.7181625351931 -72.4156063266146,-40.7181788341317 -72.4152148606008,-40.7190312010833 -72.4158351969657,-40.7191847706142 -72.4158487855142,-40.719122774136 -72.4165117091149,-40.7192792977238</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">2</SimpleData>
+		<SimpleData name="NOM">Área residencial exclusivo</SimpleData>
+		<SimpleData name="UPERM">Viviendas</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4291481084764,-40.7154753655652 -72.428996516895,-40.7143304663946 -72.4286990841186,-40.7130812495565 -72.4284908816758,-40.7118022893946 -72.4284313947752,-40.7111776807188 -72.4285206243924,-40.7105530720385 -72.4287324580489,-40.7100427662186 -72.4274023969136,-40.7097050350907 -72.4270454452399,-40.7104855673025 -72.4272304334483,-40.7123813607819 -72.4278259023203,-40.7143193900222 -72.4279233458864,-40.7152575130673 -72.4290935075551,-40.715458463578 -72.4291481084764,-40.7154753655652</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">2</SimpleData>
+		<SimpleData name="NOM">Área residencial exclusivo</SimpleData>
+		<SimpleData name="UPERM">Viviendas</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.429145135446,-40.7091768710571 -72.4304600901511,-40.7063745310615 -72.4304567026772,-40.7063746624644 -72.4301404385579,-40.7063868956388 -72.4292302117559,-40.7061866949409 -72.4292275831594,-40.7061855869914 -72.4291506152656,-40.706355449344 -72.4285102405437,-40.7073482003562 -72.4283222385132,-40.7074752857884 -72.4277849947332,-40.7088223243071 -72.429145135446,-40.7091768710571</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Entre Lagos</SimpleData>
+		<SimpleData name="LOC">Puntilla de Ñiquen</SimpleData>
+		<SimpleData name="ZONA">2</SimpleData>
+		<SimpleData name="NOM">Área residencial exclusivo</SimpleData>
+		<SimpleData name="UPERM">Viviendas</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">20/08/1990</SimpleData>
+		<SimpleData name="N_DOC">235</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4331473511511,-40.7062705846483 -72.4338778739088,-40.7113170229898 -72.4349487381223,-40.7112790403008 -72.4349184041373,-40.7108629949224 -72.4349954379386,-40.7105666421859 -72.4348560436118,-40.710162576415 -72.4348712665346,-40.7098857083288 -72.4348209711417,-40.70955220002 -72.4347972659608,-40.7089600153157 -72.4345889369962,-40.7081967030588 -72.4344459514796,-40.7074748658794 -72.4343365768462,-40.7069506612912 -72.4341481205601,-40.7063716905867 -72.4341072509953,-40.7062080184924 -72.434083996162,-40.7062343546128 -72.4331473511511,-40.7062705846483</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

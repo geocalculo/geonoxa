@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZC</SimpleData>
+		<SimpleData name="NOM">ZC Zona Céntrica Mixta, de Equipamiento, Comercio y Vivienda</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal de todo tipo y comercio, almacenamiento y artesanías no molestas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos: industrias y talleres artesanales molestos tales como herrerías, vulcanizaciones y talleres mecánicos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5482255889099,-34.4471020129403 -71.5469831660719,-34.4476221370244 -71.5447803779885,-34.4486602902112 -71.5445880959449,-34.448775923338 -71.544856357278,-34.4495201436429 -71.5452871420962,-34.4493476073112 -71.5453640304217,-34.4495376065507 -71.5458361887623,-34.449323841616 -71.5459016413886,-34.4494893415207 -71.5463140446274,-34.4505541013197 -71.546332112684,-34.4506007507636 -71.5499701872162,-34.4489970647602 -71.5499160796789,-34.4489214292549 -71.5490700854634,-34.4477388114659 -71.5493952639059,-34.4475860001067 -71.5495341705741,-34.4477585341441 -71.5504457144069,-34.4473432935371 -71.5509181197166,-34.4481053232218 -71.5517857543528,-34.4477061219745 -71.5518237430789,-34.4476886427188 -71.550785418906,-34.4460834563898 -71.5482255889099,-34.4471020129403</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZVa</SimpleData>
+		<SimpleData name="NOM">ZVa Zona de Vivienda de Alta Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio de barrio, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5497877366277,-34.4613952814315 -71.5498132413857,-34.461468242129 -71.5512842128506,-34.4611625632644 -71.5508305324288,-34.4598300924184 -71.5493458225608,-34.4601310703439 -71.5497877366277,-34.4613952814315</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">Z_DIFUSA</SimpleData>
+		<SimpleData name="NOM">Zona difusa</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5480277933903,-34.4555695729199 -71.5480808176664,-34.4557509372954 -71.5490479856809,-34.4554552689093 -71.5489857395911,-34.4552940638418 -71.5480277933903,-34.4555695729199</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZRa</SimpleData>
+		<SimpleData name="NOM">ZRa Zona de Resguardo del Patrimonio Arquitectónico</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio de barrio, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5515698397998,-34.4532833541193 -71.5511265499186,-34.4536538099157 -71.550918049938,-34.4535780378564 -71.5508468114505,-34.4535079676379 -71.5505664988767,-34.4533802469352 -71.5502262664508,-34.4533084243829 -71.5500543974133,-34.4532195834196 -71.5498979145314,-34.4531632195198 -71.549724532557,-34.453142985063 -71.5494402791326,-34.4531459354489 -71.5490514391887,-34.45314212252 -71.548883182274,-34.4531128352364 -71.54870296954,-34.4531046686877 -71.5484983930475,-34.4531238441694 -71.5482687539556,-34.45326578388 -71.5482262232752,-34.4532875415928 -71.5481619302232,-34.4533037906334 -71.5480363057123,-34.4533153552798 -71.5478957510595,-34.4533093417435 -71.5477944000214,-34.4532905845743 -71.5476819873089,-34.453263113275 -71.5476100469508,-34.4532646133494 -71.5475026796434,-34.4532847414607 -71.5474667099321,-34.4533057076235 -71.5474177999525,-34.4533342150938 -71.5473196187152,-34.453419745709 -71.5472902085888,-34.4534853959391 -71.547258945485,-34.4535551794168 -71.5472422528315,-34.453716530287 -71.5472467380285,-34.4537521452725 -71.547256483198,-34.4538295325748 -71.5472806252101,-34.454031773436 -71.5472882959591,-34.4541657822437 -71.5473084546587,-34.4542369195728 -71.5472818750016,-34.4544282919438 -71.5472284448882,-34.4548020976065 -71.547200446806,-34.4555391208992 -71.5471574073358,-34.455853721903 -71.5473293402072,-34.456427225472 -71.5473840993771,-34.4563236091388 -71.547463911331,-34.4561072749209 -71.5475134472926,-34.4556053442564 -71.5474818474485,-34.4551814327788 -71.5475474511779,-34.4549713572898 -71.5475564065359,-34.4547922783436 -71.5475870765387,-34.4543801870831 -71.5475233663308,-34.4541787713502 -71.5474700617371,-34.4538459502452 -71.5474527754583,-34.4537509020124 -71.5474860296518,-34.4536607625285 -71.5475531379244,-34.4535949617766 -71.5476474468533,-34.4535715278419 -71.5477867677695,-34.4536079795478 -71.5479038554622,-34.4536234272781 -71.5480206160724,-34.4536281475338 -71.5482481926239,-34.4535840452942 -71.548453098545,-34.4535046367078 -71.5485856029694,-34.4534589387972 -71.5486414992616,-34.4534506167012 -71.5487987748536,-34.4533885137727 -71.548958326904,-34.453332710627 -71.5491141535919,-34.4533437709445 -71.5493402015028,-34.4533915291421 -71.5495476792081,-34.453396741319 -71.5498698268986,-34.4533852478086 -71.5502119954047,-34.4534639743064 -71.5505268391218,-34.4535909749843 -71.5506733308604,-34.4536737848172 -71.5508952215198,-34.453774102354 -71.5510489566296,-34.4538232598067 -71.5511611874845,-34.4538591454623 -71.5518041270287,-34.4533470914492 -71.5526457259549,-34.4529167923826 -71.55258882184,-34.4527221274925 -71.5518368640734,-34.4530690699655 -71.5515698397998,-34.4532833541193</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZRa</SimpleData>
+		<SimpleData name="NOM">ZRa Zona de Resguardo del Patrimonio Arquitectónico</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio de barrio, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5458361887623,-34.449323841616 -71.5453640304217,-34.4495376065507 -71.5452871420962,-34.4493476073112 -71.544856357278,-34.4495201436429 -71.5450659877696,-34.4501016993168 -71.5464522607584,-34.453772031991 -71.5472902085888,-34.4534853959391 -71.5473196187152,-34.453419745709 -71.5474177999525,-34.4533342150938 -71.5474667099321,-34.4533057076235 -71.5467524536771,-34.451472114314 -71.5467381637686,-34.4514354298357 -71.5465326346917,-34.4514240581551 -71.5463579996364,-34.4514775553709 -71.5461808192665,-34.4510987735967 -71.546093252801,-34.4508687823713 -71.5460738702898,-34.4508253615186 -71.5460632910892,-34.4508016642011 -71.5460325470832,-34.4507327935748 -71.546332112684,-34.4506007507636 -71.5463140446274,-34.4505541013197 -71.5459016413886,-34.4494893415207 -71.5458361887623,-34.449323841616</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5484489172994,-34.4523463112248 -71.548527082428,-34.4525488682981 -71.5486968125648,-34.4524780911283 -71.548627654554,-34.4522932843709 -71.5484489172994,-34.4523463112248</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5480408385941,-34.4509265662012 -71.5481966164917,-34.4512925321627 -71.5483499387338,-34.4512213557765 -71.5481837239909,-34.4508660624049 -71.5480408385941,-34.4509265662012</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5504457144069,-34.4473432935371 -71.5495341705741,-34.4477585341441 -71.5493952639059,-34.4475860001067 -71.5490700854634,-34.4477388114659 -71.5499160796789,-34.4489214292549 -71.5499701872162,-34.4489970647602 -71.5509139399409,-34.4485810247641 -71.5509652016056,-34.4486262998577 -71.5510219168278,-34.4486668661147 -71.5510834604028,-34.4487022759139 -71.5511491511539,-34.4487321377945 -71.5512182629735,-34.4487561216361 -71.5512900314851,-34.4487739630264 -71.5513636660348,-34.4487854639134 -71.5514383498292,-34.4487904971096 -71.5523026466354,-34.4484289733482 -71.5518237430789,-34.4476886427188 -71.5517857543528,-34.4477061219745 -71.5509181197166,-34.4481053232218 -71.5504457144069,-34.4473432935371</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZVb</SimpleData>
+		<SimpleData name="NOM">ZVb Zona de Vivienda de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo, servicios públicos, comercio minorista, talleres artesanales y oficinas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5468452444618,-34.4548124391351 -71.5471574073358,-34.455853721903 -71.547200446806,-34.4555391208992 -71.5472284448882,-34.4548020976065 -71.5472818750016,-34.4544282919438 -71.5473084546587,-34.4542369195728 -71.5472882959591,-34.4541657822437 -71.5472806252101,-34.454031773436 -71.547256483198,-34.4538295325748 -71.5472467380285,-34.4537521452725 -71.5472422528315,-34.453716530287 -71.547258945485,-34.4535551794168 -71.5472902085888,-34.4534853959391 -71.5464522607584,-34.453772031991 -71.5465408905725,-34.4540066776061 -71.5468452444618,-34.4548124391351</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZVb</SimpleData>
+		<SimpleData name="NOM">ZVb Zona de Vivienda de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo, servicios públicos, comercio minorista, talleres artesanales y oficinas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5487987748536,-34.4533885137727 -71.5486414992616,-34.4534506167012 -71.5485856029694,-34.4534589387972 -71.548453098545,-34.4535046367078 -71.5482481926239,-34.4535840452942 -71.5480206160724,-34.4536281475338 -71.5479038554622,-34.4536234272781 -71.5477867677695,-34.4536079795478 -71.5476474468533,-34.4535715278419 -71.5475531379244,-34.4535949617766 -71.5474860296518,-34.4536607625285 -71.5474527754583,-34.4537509020124 -71.5474700617371,-34.4538459502452 -71.5475233663308,-34.4541787713502 -71.5475870765387,-34.4543801870831 -71.5475564065359,-34.4547922783436 -71.5475474511779,-34.4549713572898 -71.5474818474485,-34.4551814327788 -71.5475134472926,-34.4556053442564 -71.547463911331,-34.4561072749209 -71.5473840993771,-34.4563236091388 -71.5473293402072,-34.456427225472 -71.5476911845128,-34.4576341770404 -71.5487908123777,-34.4612391281439 -71.5489186079968,-34.4616580621617 -71.5489491302528,-34.4616478018097 -71.5498132413857,-34.461468242129 -71.5497877366277,-34.4613952814315 -71.5493458225608,-34.4601310703439 -71.5508305324288,-34.4598300924184 -71.5508069175483,-34.4597607327263 -71.5505926420846,-34.4591313840129 -71.5511611874845,-34.4538591454623 -71.5510489566296,-34.4538232598067 -71.5508952215198,-34.453774102354 -71.5506733308604,-34.4536737848172 -71.5505268391218,-34.4535909749843 -71.5502119954047,-34.4534639743064 -71.5498698268986,-34.4533852478086 -71.5495476792081,-34.453396741319 -71.5493402015028,-34.4533915291421 -71.5491141535919,-34.4533437709445 -71.548958326904,-34.453332710627 -71.5487987748536,-34.4533885137727</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5490479856809,-34.4554552689093 -71.5480808176664,-34.4557509372954 -71.5480277933903,-34.4555695729199 -71.5489857395911,-34.4552940638418 -71.5490479856809,-34.4554552689093</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZVb</SimpleData>
+		<SimpleData name="NOM">ZVb Zona de Vivienda de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo, servicios públicos, comercio minorista, talleres artesanales y oficinas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5483499387338,-34.4512213557765 -71.5481966164917,-34.4512925321627 -71.5480408385941,-34.4509265662012 -71.5479777973543,-34.4509532608515 -71.5467381637686,-34.4514354298357 -71.5467524536771,-34.451472114314 -71.5474667099321,-34.4533057076235 -71.5475026796434,-34.4532847414607 -71.5476100469508,-34.4532646133494 -71.5476819873089,-34.453263113275 -71.5477944000214,-34.4532905845743 -71.5478957510595,-34.4533093417435 -71.5480363057123,-34.4533153552798 -71.5481619302232,-34.4533037906334 -71.5482262232752,-34.4532875415928 -71.5482687539556,-34.45326578388 -71.5484983930475,-34.4531238441694 -71.54870296954,-34.4531046686877 -71.548883182274,-34.4531128352364 -71.5490514391887,-34.45314212252 -71.5494402791326,-34.4531459354489 -71.549724532557,-34.453142985063 -71.5498979145314,-34.4531632195198 -71.5500543974133,-34.4532195834196 -71.5502262664508,-34.4533084243829 -71.5505664988767,-34.4533802469352 -71.5508468114505,-34.4535079676379 -71.550918049938,-34.4535780378564 -71.5511265499186,-34.4536538099157 -71.5515698397998,-34.4532833541193 -71.5518368640734,-34.4530690699655 -71.55258882184,-34.4527221274925 -71.5525612730642,-34.4526363374592 -71.5516186323271,-34.4494114945593 -71.5515398729261,-34.4494448477863 -71.5481837239909,-34.4508660624049 -71.5483499387338,-34.4512213557765</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5486968125648,-34.4524780911283 -71.548527082428,-34.4525488682981 -71.5484489172994,-34.4523463112248 -71.548627654554,-34.4522932843709 -71.5486968125648,-34.4524780911283</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZRv</SimpleData>
+		<SimpleData name="NOM">ZRv Áreas Verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes y edificaciones inherentes a su carácter.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.546093252801,-34.4508687823713 -71.5461808192665,-34.4510987735967 -71.5477776066556,-34.4504499608629 -71.5476251281465,-34.4501671440348 -71.5460738702898,-34.4508253615186 -71.546093252801,-34.4508687823713</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Población</SimpleData>
+		<SimpleData name="ZONA">ZRc</SimpleData>
+		<SimpleData name="NOM">ZRc Alto Riesgo para Asentamientos Humanos</SimpleData>
+		<SimpleData name="UPERM">Zonas de alto riesgo para asentamientos humanos.</SimpleData>
+		<SimpleData name="UPROH">Asentamiento humanos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5499701872162,-34.4489970647602 -71.546332112684,-34.4506007507636 -71.5460325470832,-34.4507327935748 -71.5460632910892,-34.4508016642011 -71.5460738702898,-34.4508253615186 -71.5476251281465,-34.4501671440348 -71.5477776066556,-34.4504499608629 -71.5461808192665,-34.4510987735967 -71.5463579996364,-34.4514775553709 -71.5465326346917,-34.4514240581551 -71.5467381637686,-34.4514354298357 -71.5479777973543,-34.4509532608515 -71.5480408385941,-34.4509265662012 -71.5481837239909,-34.4508660624049 -71.5515398729261,-34.4494448477863 -71.5516186323271,-34.4494114945593 -71.5514397401504,-34.448799459654 -71.5514383498292,-34.4487904971096 -71.5513636660348,-34.4487854639134 -71.5512900314851,-34.4487739630264 -71.5512182629735,-34.4487561216361 -71.5511491511539,-34.4487321377945 -71.5510834604028,-34.4487022759139 -71.5510219168278,-34.4486668661147 -71.5509652016056,-34.4486262998577 -71.5509139399409,-34.4485810247641 -71.5499701872162,-34.4489970647602</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRb</SimpleData>
+		<SimpleData name="NOM">ZRb Protección de Vertientes y Cauces de Esteros y Canales</SimpleData>
+		<SimpleData name="UPERM">Protección de vertientes y cauces de esteros y canales</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.483240094804,-34.4811269132149 -71.4826655202177,-34.4813723493499 -71.4822250553936,-34.4812606700463 -71.4817276555756,-34.4811944491546 -71.4812735460794,-34.4812569431886 -71.48110114683,-34.4812864081454 -71.4810270354652,-34.4812977302125 -71.4808526409359,-34.4813907200606 -71.4807095336147,-34.4815188526439 -71.4805833794612,-34.4816359082136 -71.4804992415478,-34.4817127528995 -71.4803463304349,-34.4818017276262 -71.4801167535318,-34.4819280374081 -71.4800329314784,-34.4820156097161 -71.479942607934,-34.4820515724021 -71.4798607745812,-34.4821783012081 -71.4796241824198,-34.4823596142595 -71.4794572202296,-34.4825090998228 -71.4792425503783,-34.4827012991752 -71.4783124583853,-34.483243868796 -71.4782890201616,-34.4832529691925 -71.4786602719669,-34.483848565579 -71.4786788815362,-34.4837863745892 -71.4787123872707,-34.4837115476461 -71.478813886533,-34.4834912361766 -71.4788781089637,-34.483325349335 -71.478956449715,-34.4831985333705 -71.4790352146838,-34.4830860194062 -71.4791231444929,-34.4829912090399 -71.4792922721115,-34.4828661281504 -71.479422748328,-34.4827489861123 -71.4795867096429,-34.4825953865937 -71.4797816392387,-34.4824662022075 -71.4799445834789,-34.4823509084363 -71.4800488119971,-34.4822961940498 -71.4802476339215,-34.4821526192548 -71.4804628814522,-34.4819800865511 -71.4805610185097,-34.481911568844 -71.4808157270491,-34.4817585091763 -71.4809889009958,-34.4816509702655 -71.4811760369134,-34.4815505651538 -71.4813382178729,-34.4814828679688 -71.4815635650819,-34.4813888431058 -71.4816274883517,-34.4813589203085 -71.4817821973982,-34.4813307318077 -71.4818777253831,-34.4813466803563 -71.4819908435912,-34.481373004814 -71.4821704283169,-34.4814552246065 -71.4823149388381,-34.4815202682144 -71.4824631308865,-34.4815637681423 -71.4826640951869,-34.4816383973174 -71.4828767417729,-34.4816698540277 -71.4830835870222,-34.4816513374435 -71.4833685812422,-34.4816455431114 -71.483584486032,-34.4816411530214 -71.4837012860991,-34.4816459332346 -71.4837955421952,-34.4816189714967 -71.48385040499,-34.481574921161 -71.4839001009966,-34.4815023527915 -71.4839972954159,-34.481428817504 -71.4840526882551,-34.4814026459556 -71.4841780186331,-34.4814036750191 -71.4842463653286,-34.4813772399134 -71.4843802262648,-34.4813745171497 -71.4844919651172,-34.4813543545901 -71.4846338250975,-34.4813300010726 -71.4847840034091,-34.4812947447334 -71.4848951066029,-34.4812531278814 -71.4849934668648,-34.481218925515 -71.4850901305789,-34.4811275114323 -71.4851736269365,-34.4810292098774 -71.4852651220083,-34.4809092777521 -71.4853438762792,-34.4807967601382 -71.4854056754858,-34.4806953218269 -71.4855005342471,-34.4805431198999 -71.4855702332638,-34.4804021642446 -71.4856283514208,-34.4803222675959 -71.485664242477,-34.4802213564095 -71.4856992845035,-34.4800918394141 -71.4857008425874,-34.4799987822502 -71.4857054466045,-34.4798627284785 -71.4857334111033,-34.4796403300494 -71.485768346709,-34.4795072370876 -71.4858041311792,-34.4794027499198 -71.4859202584645,-34.4792393814043 -71.4860032214218,-34.4791232005281 -71.4861505284279,-34.4789913974739 -71.4863182584847,-34.4788198229149 -71.4865034707374,-34.4786550475637 -71.486620975623,-34.4785381621989 -71.4862048951353,-34.4783797375732 -71.4862104706171,-34.4784147470835 -71.4860396004018,-34.4785940617984 -71.4857936391696,-34.4788471347723 -71.4856831636506,-34.4790068109417 -71.4854988721072,-34.4791848645972 -71.4849215330333,-34.4797426572673 -71.4847299269238,-34.4800804916094 -71.4845352079605,-34.480313438277 -71.4844686653638,-34.4804006611132 -71.4843670127722,-34.4804695157145 -71.484098961271,-34.4805608378729 -71.4839335521393,-34.4806166772597 -71.4838163233697,-34.4807430952692 -71.483544634238,-34.4809060470423 -71.483240094804,-34.4811269132149</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRb</SimpleData>
+		<SimpleData name="NOM">ZRb Protección de Vertientes y Cauces de Esteros y Canales</SimpleData>
+		<SimpleData name="UPERM">Protección de vertientes y cauces de esteros y canales</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4809021134978,-34.4736603453252 -71.48066805585,-34.4737318858862 -71.480414186203,-34.4737179597859 -71.4801645212954,-34.4736514714129 -71.4799395782824,-34.4736417260049 -71.4797330339358,-34.4736697723797 -71.4796097681073,-34.4737867672886 -71.479508734341,-34.4738902397078 -71.4795018793561,-34.4740358096998 -71.4796361828924,-34.4739007236727 -71.4798118256478,-34.4738017478274 -71.480012330738,-34.4737642831791 -71.4801915013357,-34.4737844976812 -71.4803828912824,-34.4738283170135 -71.4805856548114,-34.473867134246 -71.4807750686236,-34.4738442060569 -71.4809973295168,-34.4737633632435 -71.4812921719132,-34.4736047170127 -71.4814892854142,-34.4734528263106 -71.4817779448059,-34.4732799929844 -71.4820597157841,-34.4730691350905 -71.4822798543873,-34.4729167752998 -71.4825140040503,-34.4728718669412 -71.4825197584167,-34.4727513777844 -71.4825213006557,-34.4727190775798 -71.4821847780559,-34.4728185263698 -71.4818467114377,-34.4730734630503 -71.4813770809712,-34.4733596955288 -71.4811173457427,-34.4735367103496 -71.4809021134978,-34.4736603453252</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRc</SimpleData>
+		<SimpleData name="NOM">ZRc Alto Riesgo para Asentamientos Humanos</SimpleData>
+		<SimpleData name="UPERM">Zonas de alto riesgo para asentamientos humanos.</SimpleData>
+		<SimpleData name="UPROH">Asentamiento humanos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4780240474215,-34.4828278690612 -71.4782890201616,-34.4832529691925 -71.4783124583853,-34.483243868796 -71.4792425503783,-34.4827012991752 -71.4794572202296,-34.4825090998228 -71.4796241824198,-34.4823596142595 -71.4798607745812,-34.4821783012081 -71.479942607934,-34.4820515724021 -71.4780300348525,-34.4828257218755 -71.4780240474215,-34.4828278690612</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRc</SimpleData>
+		<SimpleData name="NOM">ZRc Alto Riesgo para Asentamientos Humanos</SimpleData>
+		<SimpleData name="UPERM">Zonas de alto riesgo para asentamientos humanos.</SimpleData>
+		<SimpleData name="UPROH">Asentamiento humanos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4826862856126,-34.4801141985289 -71.4812735460794,-34.4812569431886 -71.4817276555756,-34.4811944491546 -71.4822250553936,-34.4812606700463 -71.4826655202177,-34.4813723493499 -71.483240094804,-34.4811269132149 -71.483544634238,-34.4809060470423 -71.4838163233697,-34.4807430952692 -71.4839335521393,-34.4806166772597 -71.484098961271,-34.4805608378729 -71.4843670127722,-34.4804695157145 -71.4844686653638,-34.4804006611132 -71.4845352079605,-34.480313438277 -71.4847299269238,-34.4800804916094 -71.4849215330333,-34.4797426572673 -71.4854988721072,-34.4791848645972 -71.4856831636506,-34.4790068109417 -71.4857936391696,-34.4788471347723 -71.4860396004018,-34.4785940617984 -71.4862104706171,-34.4784147470835 -71.4862048951353,-34.4783797375732 -71.4857782249058,-34.4782172781668 -71.485596712593,-34.4783178605297 -71.4851644438732,-34.478553256606 -71.4846598533353,-34.4787781953781 -71.484105589943,-34.4790279955482 -71.4832601493024,-34.479414902908 -71.4826979746442,-34.4796410054084 -71.4824625866837,-34.4797489312444 -71.4824619983144,-34.4797497960361 -71.4826862856126,-34.4801141985289</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4795128583083,-34.4810235644913 -71.479510406003,-34.4810275151334 -71.4795200544502,-34.4810234184037 -71.4797770976523,-34.4814356214898 -71.4826862856126,-34.4801141985289 -71.4824619983144,-34.4797497960361 -71.482456625075,-34.4797410658894 -71.4795128583083,-34.4810235644913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4769164728567,-34.4808856632067 -71.4771806939841,-34.4813229076632 -71.4773721702349,-34.4812435581194 -71.4790527361473,-34.4805521125576 -71.4791517273676,-34.4804904716371 -71.4792431673341,-34.4804170568635 -71.4792854662053,-34.480386383325 -71.4794957737617,-34.4802968298688 -71.4798059678347,-34.4801647421042 -71.4810206382732,-34.4796474956268 -71.481070132069,-34.4796166744392 -71.4811489416618,-34.4796031473926 -71.4813423685901,-34.4795694021805 -71.4821739572514,-34.4792006790612 -71.4822456925245,-34.4791686842023 -71.4819577900705,-34.4787071901707 -71.479663645448,-34.4796921496292 -71.4769164728567,-34.4808856632067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4763637123525,-34.4783031803612 -71.4764863087226,-34.4785075252295 -71.4768786075834,-34.4783194466941 -71.4767773504576,-34.4781322752441 -71.4763637123525,-34.4783031803612</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4779460612389,-34.4780535830211 -71.4785059086381,-34.4789201881548 -71.4789501598426,-34.4787158456318 -71.4783845034761,-34.4778607844717 -71.4779460612389,-34.4780535830211</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4767880743351,-34.477900319312 -71.477027152437,-34.4782777529681 -71.4770283733543,-34.4782771827907 -71.4774277506357,-34.4780907331715 -71.4771922803469,-34.4777291353139 -71.4768384300104,-34.4778811371545 -71.4767880743351,-34.477900319312</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4781686295625,-34.4773097231125 -71.4783975519966,-34.4777204249691 -71.4795095672608,-34.4772506186386 -71.4792425194971,-34.4767659417692 -71.4792415891352,-34.4767654404783 -71.4790024435501,-34.4764430267223 -71.477932162226,-34.4768854824816 -71.4781686295625,-34.4773097231125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4807750686236,-34.4738442060569 -71.4805856548114,-34.473867134246 -71.4803828912824,-34.4738283170135 -71.4801915013357,-34.4737844976812 -71.480012330738,-34.4737642831791 -71.4798118256478,-34.4738017478274 -71.4796361828924,-34.4739007236727 -71.4795018793561,-34.4740358096998 -71.4794792751284,-34.4745158365498 -71.4796237295766,-34.4745704957928 -71.4824046774966,-34.475622707606 -71.482465866021,-34.4738969176967 -71.4824975475737,-34.4732164731834 -71.4825140040503,-34.4728718669412 -71.4822798543873,-34.4729167752998 -71.4820597157841,-34.4730691350905 -71.4817779448059,-34.4732799929844 -71.4814892854142,-34.4734528263106 -71.4812921719132,-34.4736047170127 -71.4809973295168,-34.4737633632435 -71.4807750686236,-34.4738442060569</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona Equipamiento Específico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunal de salud, educación, seguridad, culto, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos. Vivienda sólo la indispensable para el personal de servicio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4795654442069,-34.4727340330343 -71.4806774688951,-34.4728825402722 -71.4808019086384,-34.4722216789285 -71.4798919269709,-34.4720385591804 -71.4795654442069,-34.4727340330343</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZVa</SimpleData>
+		<SimpleData name="NOM">ZVa Zona de Vivienda de Alta Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio de barrio, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo y servicios públicos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.479510406003,-34.4810275151334 -71.4774476778447,-34.4819031723336 -71.4780240474215,-34.4828278690612 -71.4780300348525,-34.4828257218755 -71.479942607934,-34.4820515724021 -71.4800329314784,-34.4820156097161 -71.4801167535318,-34.4819280374081 -71.4803463304349,-34.4818017276262 -71.4804992415478,-34.4817127528995 -71.4805833794612,-34.4816359082136 -71.4807095336147,-34.4815188526439 -71.4808526409359,-34.4813907200606 -71.4810270354652,-34.4812977302125 -71.48110114683,-34.4812864081454 -71.4812735460794,-34.4812569431886 -71.4826862856126,-34.4801141985289 -71.4797770976523,-34.4814356214898 -71.4795200544502,-34.4810234184037 -71.479510406003,-34.4810275151334</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZC</SimpleData>
+		<SimpleData name="NOM">ZC Zona Céntrica Mixta, de Equipamiento, Comercio y Vivienda</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal de todo tipo y comercio, almacenamiento y artesanías no molestas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos: industrias y talleres artesanales molestos tales como herrerías, vulcanizaciones y talleres mecánicos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4812741965242,-34.4797475355111 -71.4811512069872,-34.4798740671642 -71.48005359051,-34.4803543299694 -71.4793082637731,-34.4806700053154 -71.479108589756,-34.4807360754151 -71.4790402053981,-34.4807613157266 -71.4789231370726,-34.4807576516321 -71.477170530591,-34.4814585251356 -71.4774476778447,-34.4819031723336 -71.479510406003,-34.4810275151334 -71.4795128583083,-34.4810235644913 -71.482456625075,-34.4797410658894 -71.4824619983144,-34.4797497960361 -71.4824625866837,-34.4797489312444 -71.4826979746442,-34.4796410054084 -71.4832601493024,-34.479414902908 -71.484105589943,-34.4790279955482 -71.4846598533353,-34.4787781953781 -71.4851644438732,-34.478553256606 -71.485596712593,-34.4783178605297 -71.4857782249058,-34.4782172781668 -71.485387713207,-34.4780685850385 -71.4855140907175,-34.4778663099167 -71.485104309009,-34.4780525140717 -71.4847087686937,-34.4782322445918 -71.4827782253222,-34.4790839948996 -71.4822849381749,-34.4793016245976 -71.4812741965242,-34.4797475355111</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZC</SimpleData>
+		<SimpleData name="NOM">ZC Zona Céntrica Mixta, de Equipamiento, Comercio y Vivienda</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal de todo tipo y comercio, almacenamiento y artesanías no molestas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos: industrias y talleres artesanales molestos tales como herrerías, vulcanizaciones y talleres mecánicos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4795095672608,-34.4772506186386 -71.4783975519966,-34.4777204249691 -71.4781686295625,-34.4773097231125 -71.4771922803469,-34.4777291353139 -71.4774277506357,-34.4780907331715 -71.4770283733543,-34.4782771827907 -71.477027469655,-34.478288479992 -71.4770559145396,-34.4783737725926 -71.4773704364003,-34.4788922295632 -71.4759984302419,-34.4794448091665 -71.4766405445564,-34.4804430669765 -71.4753007376147,-34.4810140678907 -71.4758118317406,-34.4818534179463 -71.4758286728046,-34.4818831827085 -71.4771806939841,-34.4813229076632 -71.4769164728567,-34.4808856632067 -71.479663645448,-34.4796921496292 -71.4819577900705,-34.4787071901707 -71.4822456925245,-34.4791686842023 -71.4848741700911,-34.4779962835758 -71.484959769556,-34.4779581010894 -71.4842902213802,-34.4776651175419 -71.4824052262118,-34.4784996431946 -71.48118476175,-34.4763601827691 -71.4811749943225,-34.476342710565 -71.480641706613,-34.4761276610154 -71.4792421122527,-34.4767652026782 -71.4792425194971,-34.4767659417692 -71.4795095672608,-34.4772506186386</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.480075305699,-34.478188706934 -71.4790301228717,-34.4786645031981 -71.4784777427618,-34.477823378213 -71.4795649674632,-34.4773506224879 -71.480075305699,-34.478188706934</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.4783845034761,-34.4778607844717 -71.4789501598426,-34.4787158456318 -71.4785059086381,-34.4789201881548 -71.4779460612389,-34.4780535830211 -71.4783845034761,-34.4778607844717</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRe</SimpleData>
+		<SimpleData name="NOM">ZRe Protección de Trazados Ferroviarios</SimpleData>
+		<SimpleData name="UPERM">Trazados ferroviarios destinados a proteger el normal funcionamiento de las vías.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.484959769556,-34.4779581010894 -71.4848741700911,-34.4779962835758 -71.4822456925245,-34.4791686842023 -71.4821739572514,-34.4792006790612 -71.4813423685901,-34.4795694021805 -71.4811489416618,-34.4796031473926 -71.481070132069,-34.4796166744392 -71.4810206382732,-34.4796474956268 -71.4798059678347,-34.4801647421042 -71.4794957737617,-34.4802968298688 -71.4792854662053,-34.480386383325 -71.4792431673341,-34.4804170568635 -71.4791517273676,-34.4804904716371 -71.4790527361473,-34.4805521125576 -71.4773721702349,-34.4812435581194 -71.4771806939841,-34.4813229076632 -71.4758286728046,-34.4818831827085 -71.4758694789845,-34.4819505083689 -71.4771406880131,-34.4814106450453 -71.477170530591,-34.4814585251356 -71.4789231370726,-34.4807576516321 -71.4790402053981,-34.4807613157266 -71.479108589756,-34.4807360754151 -71.4793082637731,-34.4806700053154 -71.48005359051,-34.4803543299694 -71.4811512069872,-34.4798740671642 -71.4812741965242,-34.4797475355111 -71.4822849381749,-34.4793016245976 -71.4827782253222,-34.4790839948996 -71.4847087686937,-34.4782322445918 -71.485104309009,-34.4780525140717 -71.4855140907175,-34.4778663099167 -71.4856454436694,-34.477656071313 -71.4855220408136,-34.477710345683 -71.4850337760674,-34.4779250901992 -71.484959769556,-34.4779581010894</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZVb</SimpleData>
+		<SimpleData name="NOM">ZVb Zona de Vivienda de Baja Densidad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, áreas verdes, deportes, esparcimiento y turismo, servicios públicos, comercio minorista, talleres artesanales y oficinas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4774734565949,-34.4748669063421 -71.4707500004909,-34.4777653982436 -71.4726292955278,-34.4807614330006 -71.4739202585411,-34.4827782741363 -71.4758241856901,-34.4819697426191 -71.4758694789845,-34.4819505083689 -71.4758286728046,-34.4818831827085 -71.4758118317406,-34.4818534179463 -71.4753007376147,-34.4810140678907 -71.4766405445564,-34.4804430669765 -71.4759984302419,-34.4794448091665 -71.4773704364003,-34.4788922295632 -71.4770559145396,-34.4783737725926 -71.477027469655,-34.478288479992 -71.4770283733543,-34.4782771827907 -71.477027152437,-34.4782777529681 -71.4767880743351,-34.477900319312 -71.4768384300104,-34.4778811371545 -71.4771922803469,-34.4777291353139 -71.4781686295625,-34.4773097231125 -71.477932162226,-34.4768854824816 -71.4790024435501,-34.4764430267223 -71.4792415891352,-34.4767654404783 -71.4792425194971,-34.4767659417692 -71.4792421122527,-34.4767652026782 -71.480641706613,-34.4761276610154 -71.4811749943225,-34.476342710565 -71.48118476175,-34.4763601827691 -71.4824052262118,-34.4784996431946 -71.4842902213802,-34.4776651175419 -71.484959769556,-34.4779581010894 -71.4850337760674,-34.4779250901992 -71.4855220408136,-34.477710345683 -71.4856454436694,-34.477656071313 -71.4860076279753,-34.4770763647611 -71.4865250459143,-34.4762323293509 -71.4876983531872,-34.4742337508507 -71.4825564173631,-34.4719837104103 -71.4825213006557,-34.4727190775798 -71.4825197584167,-34.4727513777844 -71.4825140040503,-34.4728718669412 -71.4824975475737,-34.4732164731834 -71.482465866021,-34.4738969176967 -71.4824046774966,-34.475622707606 -71.4796237295766,-34.4745704957928 -71.4794792751284,-34.4745158365498 -71.4795018793561,-34.4740358096998 -71.479508734341,-34.4738902397078 -71.4795629282463,-34.4727393931373 -71.4795654442069,-34.4727340330343 -71.4798919269709,-34.4720385591804 -71.4803673858854,-34.4710257151827 -71.4797277359086,-34.470762670724 -71.4790621224506,-34.4704889041966 -71.4779753353554,-34.4725002697946 -71.4778930417017,-34.4727366491409 -71.4778470112526,-34.4729331751157 -71.4778346376833,-34.4730634374935 -71.4774734565949,-34.4748669063421</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.4788842935703,-34.4755153210339 -71.479362870239,-34.4757151986249 -71.4793715344052,-34.4759106139408 -71.4790693278953,-34.4760519707824 -71.4786074502946,-34.4758831863969 -71.4788842935703,-34.4755153210339</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.4826628225631,-34.4775436731867 -71.482799029497,-34.4775994048415 -71.4830165057149,-34.477539340728 -71.4833567734971,-34.4776847088371 -71.4828886466338,-34.4778787261168 -71.4827997465609,-34.4777428898613 -71.4827576822616,-34.4777554591782 -71.4826350651978,-34.4775558804411 -71.4826628225631,-34.4775436731867</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.4767773504576,-34.4781322752441 -71.4768786075834,-34.4783194466941 -71.4764863087226,-34.4785075252295 -71.4763637123525,-34.4783031803612 -71.4767773504576,-34.4781322752441</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.4742831070385,-34.4809945345507 -71.4741480480986,-34.4810682983081 -71.4739294569145,-34.4810727260758 -71.4736871287222,-34.4809995042207 -71.4733451715841,-34.4808927841503 -71.4731251134782,-34.4808475205929 -71.4729991391629,-34.4807932486678 -71.4728938632536,-34.4807136982001 -71.4728364670177,-34.4806580376171 -71.4727907763962,-34.4805630754672 -71.4727758224537,-34.4804923494646 -71.4727994441155,-34.4804208433804 -71.4728404180651,-34.4803560890358 -71.4729608374858,-34.4802222485063 -71.4730481196064,-34.4801281451719 -71.47315325542,-34.4800759578292 -71.47324767821,-34.4800601796438 -71.473462190808,-34.4800629379058 -71.4738550528738,-34.4801508695229 -71.4739945127378,-34.480226175683 -71.4742076757661,-34.4803283999969 -71.4743319845896,-34.4804714885157 -71.4743964984486,-34.4806228922345 -71.4744269333796,-34.4807820884722 -71.4744129352219,-34.4808889142362 -71.4742831070385,-34.4809945345507</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRv</SimpleData>
+		<SimpleData name="NOM">ZRv Áreas Verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes y edificaciones inherentes a su carácter.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4739294569145,-34.4810727260758 -71.4741480480986,-34.4810682983081 -71.4742831070385,-34.4809945345507 -71.4744129352219,-34.4808889142362 -71.4744269333796,-34.4807820884722 -71.4743964984486,-34.4806228922345 -71.4743319845896,-34.4804714885157 -71.4742076757661,-34.4803283999969 -71.4739945127378,-34.480226175683 -71.4738550528738,-34.4801508695229 -71.473462190808,-34.4800629379058 -71.47324767821,-34.4800601796438 -71.47315325542,-34.4800759578292 -71.4730481196064,-34.4801281451719 -71.4729608374858,-34.4802222485063 -71.4728404180651,-34.4803560890358 -71.4727994441155,-34.4804208433804 -71.4727758224537,-34.4804923494646 -71.4727907763962,-34.4805630754672 -71.4728364670177,-34.4806580376171 -71.4728938632536,-34.4807136982001 -71.4729991391629,-34.4807932486678 -71.4731251134782,-34.4808475205929 -71.4733451715841,-34.4808927841503 -71.4736871287222,-34.4809995042207 -71.4739294569145,-34.4810727260758</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRv</SimpleData>
+		<SimpleData name="NOM">ZRv Áreas Verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes y edificaciones inherentes a su carácter.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4826350651978,-34.4775558804411 -71.4827576822616,-34.4777554591782 -71.4827997465609,-34.4777428898613 -71.4828886466338,-34.4778787261168 -71.4833567734971,-34.4776847088371 -71.4830165057149,-34.477539340728 -71.482799029497,-34.4775994048415 -71.4826628225631,-34.4775436731867 -71.4826350651978,-34.4775558804411</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRv</SimpleData>
+		<SimpleData name="NOM">ZRv Áreas Verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes y edificaciones inherentes a su carácter.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4784777427618,-34.477823378213 -71.4790301228717,-34.4786645031981 -71.480075305699,-34.478188706934 -71.4795649674632,-34.4773506224879 -71.4784777427618,-34.477823378213</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRv</SimpleData>
+		<SimpleData name="NOM">ZRv Áreas Verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes y edificaciones inherentes a su carácter.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4798919269709,-34.4720385591804 -71.4808019086384,-34.4722216789285 -71.4806774688951,-34.4728825402722 -71.4795654442069,-34.4727340330343 -71.4795629282463,-34.4727393931373 -71.479508734341,-34.4738902397078 -71.4796097681073,-34.4737867672886 -71.4797330339358,-34.4736697723797 -71.4799395782824,-34.4736417260049 -71.4801645212954,-34.4736514714129 -71.480414186203,-34.4737179597859 -71.48066805585,-34.4737318858862 -71.4809021134978,-34.4736603453252 -71.4811173457427,-34.4735367103496 -71.4813770809712,-34.4733596955288 -71.4818467114377,-34.4730734630503 -71.4821847780559,-34.4728185263698 -71.4825213006557,-34.4727190775798 -71.4825564173631,-34.4719837104103 -71.4803673858854,-34.4710257151827 -71.4798919269709,-34.4720385591804</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.4816905769645,-34.4722751864982 -71.4816987349188,-34.472356119352 -71.481652679661,-34.4723570550188 -71.4816494655396,-34.472442989734 -71.4815458427273,-34.4724450948896 -71.4815444305703,-34.4723974180442 -71.4813829568344,-34.4723911575479 -71.481385182787,-34.4722718489407 -71.4816383419803,-34.4722619352361 -71.4816294780165,-34.4721571644025 -71.4817387298489,-34.4721506283618 -71.4817422470271,-34.4722693659203 -71.4816905769645,-34.4722751864982</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRf</SimpleData>
+		<SimpleData name="NOM">Zona difusa</SimpleData>
+		<SimpleData name="UPERM">Sin información</SimpleData>
+		<SimpleData name="UPROH">Sin información</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4786074502946,-34.4758831863969 -71.4790693278953,-34.4760519707824 -71.4793715344052,-34.4759106139408 -71.479362870239,-34.4757151986249 -71.4788842935703,-34.4755153210339 -71.4786074502946,-34.4758831863969</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Peralillo</SimpleData>
+		<SimpleData name="LOC">Peralillo</SimpleData>
+		<SimpleData name="ZONA">ZRa</SimpleData>
+		<SimpleData name="NOM">ZRa Zona de Resguardo del Patrimonio Arquitectónico</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio de barrio, equipamiento vecinal de salud, educación, cultura, organizaciones comunitarias, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">26/11/1996</SimpleData>
+		<SimpleData name="N_DOC">688</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.481385182787,-34.4722718489407 -71.4813829568344,-34.4723911575479 -71.4815444305703,-34.4723974180442 -71.4815458427273,-34.4724450948896 -71.4816494655396,-34.472442989734 -71.481652679661,-34.4723570550188 -71.4816987349188,-34.472356119352 -71.4816905769645,-34.4722751864982 -71.4817422470271,-34.4722693659203 -71.4817387298489,-34.4721506283618 -71.4816294780165,-34.4721571644025 -71.4816383419803,-34.4722619352361 -71.481385182787,-34.4722718489407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

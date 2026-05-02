@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="prc_sanpedroatacama_mono" id="prc_sanpedroatacama_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="SHAPE_Leng" type="float"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+</Schema>
+<Folder><name>prc_sanpedroatacama_mono</name>
+  <Placemark id="prc_sanpedroatacama_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H1</SimpleData>
+		<SimpleData name="NOMBRE">H1 Área Extension</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Local, Comunal), Industrias inofensiva, Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">6569.55854176</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1956330169021,-22.9091268157724 -68.1955264325338,-22.9096977423242 -68.1960906841968,-22.9098039650336 -68.1962446538386,-22.9089455275831 -68.196381102041,-22.9081847727345 -68.1968241493,-22.9082538892909 -68.1969944386871,-22.9073566898932 -68.1983147204945,-22.9076156118159 -68.1983771137823,-22.90734868011 -68.1971756205527,-22.9048030047913 -68.1894447812178,-22.907794145527 -68.1896250751099,-22.9080674420315 -68.1917490201395,-22.911175293415 -68.1914481207161,-22.9121678545612 -68.1909990124607,-22.9136831536707 -68.1897574070429,-22.9185330925173 -68.1906030832542,-22.9169473398716 -68.1914024283419,-22.9163670271441 -68.1918515306977,-22.9160907125246 -68.1912517475321,-22.9156976483904 -68.192229246177,-22.9138813331539 -68.1935862382756,-22.9113452228413 -68.1940313502702,-22.9105690877802 -68.1955708529255,-22.911749698397 -68.1954667112675,-22.9112142936955 -68.1954245411918,-22.9108319260363 -68.1954005446139,-22.910596634137 -68.1954209712146,-22.9103615672178 -68.1954541255625,-22.910120684311 -68.1955264325338,-22.9096977423242 -68.1948767521144,-22.9097057685265 -68.1956330169021,-22.9091268157724</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.1951686796245,-22.9078075999557 -68.1951698496688,-22.9078076040762 -68.1952196400301,-22.9078099094743 -68.1952853110796,-22.9078193310391 -68.1953493185412,-22.9078358828739 -68.1954107628463,-22.9078593318921 -68.1954687830263,-22.9078893476485 -68.1955225625144,-22.9079255104976 -68.1955713486453,-22.9079673116921 -68.1956144555113,-22.9080141651401 -68.1956512785555,-22.9080654128983 -68.195681299383,-22.9081203360353 -68.195704098389,-22.9081781628253 -68.1957193537093,-22.9082380813881 -68.1957268528575,-22.9082992505878 -68.1957264897261,-22.9083608126633 -68.1957182694085,-22.9084219022857 -68.1957023081046,-22.908481662817 -68.1956788281928,-22.9085392553184 -68.1956481610861,-22.9085938703074 -68.1956107354476,-22.9086447421514 -68.1955670781229,-22.9086911562988 -68.1955178013904,-22.9087324618609 -68.195463598049,-22.9087680779107 -68.1954052267285,-22.908797504248 -68.1953435089161,-22.9088203295143 -68.1952793094555,-22.9088362310948 -68.1952135306215,-22.9088449877339 -68.1951470955646,-22.9088464758392 -68.1950809375592,-22.908840673943 -68.1950159834209,-22.9088276635217 -68.1949531476562,-22.9088076289662 -68.1948933100838,-22.9087808493386 -68.1948373109428,-22.9087477010572 -68.1947859372898,-22.9087086496976 -68.1947399103556,-22.9086642445085 -68.1946998758578,-22.9086151075228 -68.1946663952584,-22.9085619280933 -68.1946399389866,-22.9085054547282 -68.1946208787347,-22.9084464787926 -68.1946094816511,-22.9083858272525 -68.1946059084448,-22.9083243536322 -68.1946102076418,-22.908262919919 -68.1946223205097,-22.9082023884587 -68.1946420762575,-22.908143609285 -68.1946691979667,-22.9080874066007 -68.1947033045902,-22.908034570658 -68.1947439168931,-22.9079858424333 -68.1947904653017,-22.9079419055374 -68.194842296777,-22.9079033781208 -68.1948986836695,-22.9078707993702 -68.1949588334803,-22.907844627751 -68.1950219016,-22.9078252302332 -68.1950870049748,-22.9078128796508 -68.195153227018,-22.9078077484035 -68.1951686796245,-22.9078075999557</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H1</SimpleData>
+		<SimpleData name="NOMBRE">H1 Área Extension</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Local, Comunal), Industrias inofensiva, Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">6569.55854176</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1990845057726,-22.9043877106376 -68.1992675541925,-22.9053407931886 -68.1999820913778,-22.9046386716534 -68.1995990317067,-22.9042799171362 -68.1997558011903,-22.9040979956963 -68.1998102392902,-22.904034823393 -68.200116101707,-22.903679883858 -68.2001367428996,-22.9036539765098 -68.2001571611172,-22.9036283480574 -68.2019486842092,-22.9013795760988 -68.1984147893398,-22.9005850366227 -68.199026699963,-22.9040867272517 -68.1990845057726,-22.9043877106376</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOMBRE">H5 Semi Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo y Discotecas, Playas de Estacionamiento y Ferias Libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">5670.58051026</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2009225385387,-22.9044772221778 -68.2012009935253,-22.9046648561769 -68.2013356706053,-22.9045261223847 -68.2014447092949,-22.9044137965953 -68.2014708771394,-22.9043868401209 -68.2015218237607,-22.9043343600288 -68.201577932111,-22.9042765601612 -68.2016172619085,-22.904270749066 -68.2016507091216,-22.9042658062796 -68.2017086020451,-22.9042572520833 -68.2017584115831,-22.9042204401577 -68.2017964542219,-22.9041923220267 -68.20185201008,-22.9041512591284 -68.2019239431747,-22.9040980912212 -68.2019494282753,-22.9040731455802 -68.2020190464719,-22.9040049966107 -68.202073590081,-22.9039516058082 -68.2021623921468,-22.9038522431203 -68.2022621478102,-22.9038051782939 -68.2022947184917,-22.9037990422328 -68.2023741552423,-22.903787186907 -68.2024353767402,-22.9037579474503 -68.2025163196131,-22.9037192916451 -68.2026159513338,-22.9036717092843 -68.2026053491235,-22.9036383136825 -68.2027249831082,-22.9034888840211 -68.2027877304179,-22.9033800628142 -68.2028964098312,-22.9031359959024 -68.2029253380781,-22.9031037579069 -68.2029666085827,-22.9030577686343 -68.2030063087945,-22.9030135292851 -68.2030419640221,-22.9029720553985 -68.2030856084049,-22.9029636496268 -68.2032024177508,-22.9029320184852 -68.203259400184,-22.9029056299153 -68.2033555890429,-22.9028610829391 -68.2034392793389,-22.9028223247929 -68.2035671356493,-22.9027342314211 -68.2036014816929,-22.9026687918558 -68.2036447331384,-22.9025863896809 -68.2037249975963,-22.9025114499068 -68.2038032496479,-22.9024394953314 -68.2042175516551,-22.9018896485241 -68.2019486842092,-22.9013795760988 -68.2001571611172,-22.9036283480574 -68.2001367428996,-22.9036539765098 -68.2009458785396,-22.9043573035285 -68.2008597590028,-22.9044590862714 -68.2009225385387,-22.9044772221778</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOMBRE">H5 Semi Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo y Discotecas, Playas de Estacionamiento y Ferias Libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">5670.58051026</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1948324318323,-22.9144673062372 -68.1946444552888,-22.9147238998514 -68.1947854185159,-22.9147055983959 -68.1948511605879,-22.9147233597599 -68.1948980133077,-22.9147540959892 -68.1949493629879,-22.914819711223 -68.1949770166271,-22.9149157050946 -68.1950045159162,-22.9150378403482 -68.1950084467966,-22.9151685702107 -68.1950357917744,-22.9153168468432 -68.1950537301835,-22.9154650758001 -68.1950531126634,-22.9155696404384 -68.1950527009777,-22.9156393507986 -68.1950050759705,-22.9157393206282 -68.1949604156773,-22.9157784615415 -68.1949854872517,-22.9158008448167 -68.1953834935429,-22.916101849272 -68.1960700612997,-22.916604768481 -68.1961650386421,-22.9166698038361 -68.1962894987931,-22.9167112046518 -68.1965787007781,-22.9168044025045 -68.1968789681384,-22.9168874630447 -68.1970077756508,-22.9168133668947 -68.1971519447164,-22.9166221316973 -68.1972297056454,-22.9164968153937 -68.1973478117526,-22.9163717011266 -68.197432706923,-22.9162803953858 -68.1974661157331,-22.9162126131425 -68.1974886816547,-22.9161175942415 -68.1974547853558,-22.9156451601757 -68.1974403962482,-22.9155975219141 -68.1974003712599,-22.9155429577463 -68.1972101168065,-22.9154638524835 -68.1970564373197,-22.9154019192027 -68.1968442357392,-22.9153125080089 -68.196830467481,-22.9151595489762 -68.1967910034427,-22.9150098545782 -68.1967402383124,-22.9149110685687 -68.1966455822572,-22.9147916750711 -68.1962517859402,-22.9143989603251 -68.1960403679511,-22.9141770481436 -68.1959641504393,-22.9140407584588 -68.1959246495039,-22.9138978600378 -68.1959071320468,-22.9137584710742 -68.1959305021494,-22.9135275543433 -68.1958873111794,-22.9133880354149 -68.1960265285751,-22.9131888379127 -68.1962091130814,-22.9129275921699 -68.1965778646459,-22.9122046964879 -68.19667420397,-22.9120111664244 -68.1955708529255,-22.911749698397 -68.1955960634559,-22.9118793075864 -68.1957009358504,-22.9123913350665 -68.1958371406749,-22.9129711343099 -68.1958935644519,-22.9130890050958 -68.1955665939761,-22.9132726925274 -68.1954223362953,-22.9135053003368 -68.1950752715202,-22.9141559410759 -68.1948324318323,-22.9144673062372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOMBRE">H5 Semi Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo y Discotecas, Playas de Estacionamiento y Ferias Libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">5670.58051026</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1918515306977,-22.9160907125246 -68.1924217477172,-22.9164197804061 -68.1928603886348,-22.9160516732334 -68.1937178328157,-22.915352501303 -68.1938593459836,-22.915233264254 -68.1938562495575,-22.915145298645 -68.193889610193,-22.9150713998442 -68.1939682810983,-22.9149914088284 -68.192229246177,-22.9138813331539 -68.1912517475321,-22.9156976483904 -68.1918515306977,-22.9160907125246</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOMBRE">H5 Semi Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo y Discotecas, Playas de Estacionamiento y Ferias Libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">5670.58051026</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1969944386871,-22.9073566898932 -68.1968241493,-22.9082538892909 -68.196381102041,-22.9081847727345 -68.1962446538386,-22.9089455275831 -68.1967606115729,-22.9088985426401 -68.1978723893516,-22.9091492176841 -68.1979102985508,-22.9090277987488 -68.1981492579833,-22.9083234915755 -68.1983147204945,-22.9076156118159 -68.1969944386871,-22.9073566898932</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOMBRE">H5 Semi Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo y Discotecas, Playas de Estacionamiento y Ferias Libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">5670.58051026</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2000948464391,-22.9152718158671 -68.2000530387978,-22.9153526866701 -68.1998024357718,-22.915797365446 -68.1997138541327,-22.9159770989079 -68.1997063488949,-22.9160130970423 -68.1996975815394,-22.916113251486 -68.20066845752,-22.9159475842643 -68.2006588310621,-22.9158960589799 -68.2006420023539,-22.9156154242436 -68.2005889611939,-22.9156005998381 -68.2006106042925,-22.9155617840772 -68.2006373429534,-22.9155256911886 -68.2006248762076,-22.9154792895351 -68.200631900377,-22.9154135398869 -68.2006451729824,-22.9153271850586 -68.2007434614491,-22.9153336504281 -68.2008072715607,-22.9153378484316 -68.2007590365389,-22.9151293353385 -68.2007483072731,-22.9150363975673 -68.2007507948349,-22.9149776852172 -68.2007608017122,-22.9149314020713 -68.2008013055601,-22.914866581437 -68.2008363679617,-22.9148104610288 -68.2008974280495,-22.9147128621243 -68.2009401900967,-22.9146633473639 -68.2009724667982,-22.9146259742998 -68.2009673533359,-22.9145947018726 -68.2009668924359,-22.9145176288046 -68.2009666400112,-22.9144751890315 -68.2009661418016,-22.9143915054778 -68.2034786719511,-22.9141503044213 -68.2032506741285,-22.9136686794293 -68.2007304324995,-22.9140452825333 -68.2006319249705,-22.9141784253979 -68.2005960876513,-22.9142268629753 -68.2004358045444,-22.9145023825389 -68.2002375100021,-22.914765952374 -68.2001775799892,-22.9148455333045 -68.2001850914526,-22.9148953524889 -68.2001847881333,-22.9149470445935 -68.20017636368,-22.9149981438932 -68.200159996085,-22.9150475628152 -68.2001360367101,-22.9150942480802 -68.2001317255644,-22.915101092298 -68.2001296643859,-22.9151391096347 -68.200124536346,-22.9151841292075 -68.2001096187028,-22.915240359927 -68.2000948464391,-22.9152718158671</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOMBRE">H5 Semi Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo y Discotecas, Playas de Estacionamiento y Ferias Libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">5670.58051026</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1999820913778,-22.9046386716534 -68.2004002686707,-22.90500148165 -68.2005655610799,-22.9048063663462 -68.1998102392902,-22.904034823393 -68.1997558011903,-22.9040979956963 -68.1995990317067,-22.9042799171362 -68.1999820913778,-22.9046386716534</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Plaza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">1691.99549745</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1992675541925,-22.9053407931886 -68.1994394946072,-22.9064937870079 -68.1994489574899,-22.9063972852598 -68.1996366504295,-22.905902870078 -68.2003965180729,-22.9050059078847 -68.2004002686707,-22.90500148165 -68.1999820913778,-22.9046386716534 -68.1992675541925,-22.9053407931886</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Plaza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">1691.99549745</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1998102392902,-22.904034823393 -68.2005655610799,-22.9048063663462 -68.2005684722157,-22.9048029286036 -68.2008597590028,-22.9044590862714 -68.2009458785396,-22.9043573035285 -68.2001367428996,-22.9036539765098 -68.200116101707,-22.903679883858 -68.1998102392902,-22.904034823393</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Plaza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">1691.99549745</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1971092887615,-22.9114136809438 -68.1979465935952,-22.9114884613152 -68.1983268017477,-22.9105085409314 -68.1981284065235,-22.9107897445871 -68.1979750909776,-22.9109594689596 -68.1977835954594,-22.9111466398755 -68.1976180702587,-22.9112339923854 -68.1974972816965,-22.9112686594461 -68.1972682938159,-22.91135569098 -68.1971092887615,-22.9114136809438</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Plaza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">1691.99549745</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1999720104476,-22.9106045696166 -68.1998779416252,-22.9111030225605 -68.2003348969458,-22.9111063576734 -68.2003505147146,-22.9107243541357 -68.2007014021011,-22.9107261199598 -68.1999720104476,-22.9106045696166</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Plaza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">1691.99549745</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1956330169021,-22.9091268157724 -68.1948767521144,-22.9097057685265 -68.1955264325338,-22.9096977423242 -68.1956330169021,-22.9091268157724</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E4</SimpleData>
+		<SimpleData name="NOMBRE">E4 Reserva Urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (Comunal)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">3578.89792727</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1935862382756,-22.9113452228413 -68.192229246177,-22.9138813331539 -68.1939682810983,-22.9149914088284 -68.1940360807409,-22.9149588603974 -68.1941397077313,-22.9149332449085 -68.1942573143294,-22.9149294840486 -68.1943372698077,-22.9149298896136 -68.1944031158986,-22.9149302235803 -68.1944454707878,-22.9149260818106 -68.1945762719688,-22.9148169680576 -68.1946444552888,-22.9147238998514 -68.1948324318323,-22.9144673062372 -68.1950752715202,-22.9141559410759 -68.1954223362953,-22.9135053003368 -68.1955665939761,-22.9132726925274 -68.1958935644519,-22.9130890050958 -68.1958371406749,-22.9129711343099 -68.1957009358504,-22.9123913350665 -68.1955960634559,-22.9118793075864 -68.1955708529255,-22.911749698397 -68.1940313502702,-22.9105690877802 -68.1935862382756,-22.9113452228413</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.1941880026373,-22.9138241879915 -68.1941561290117,-22.9138249377185 -68.1941139343126,-22.9138238122341 -68.1940403447334,-22.9138160201355 -68.1939680953614,-22.913800902784 -68.1938980334879,-22.9137786388165 -68.1938309815503,-22.9137494871385 -68.1937677244294,-22.9137137913754 -68.1937090046425,-22.9136719681048 -68.1936555106263,-22.9136245095074 -68.193607869981,-22.913571971589 -68.1935666397461,-22.9135149696145 -68.1935323044826,-22.9134541726781 -68.1935052656114,-22.9133902928095 -68.193485841446,-22.9133240795538 -68.1934742594566,-22.9132563090929 -68.193470654374,-22.9131877752024 -68.1934750701777,-22.9131192829389 -68.1934874533623,-22.9130516332496 -68.193507659774,-22.9129856212007 -68.1935354527574,-22.9129220197086 -68.1935705051332,-22.9128615750338 -68.1936124070683,-22.9128049950784 -68.1936606661086,-22.9127529439667 -68.1937147179687,-22.9127060312606 -68.193773928509,-22.9126648074539 -68.1938376035399,-22.912629754989 -68.1939049956571,-22.9126012864858 -68.1939753160069,-22.9125797339615 -68.1940477391496,-22.912565350663 -68.1941214157673,-22.9125583057111 -68.1941584550801,-22.912557564123 -68.1941954834046,-22.9125586814454 -68.1942690732936,-22.9125664734592 -68.1943413220538,-22.9125815906584 -68.194411382417,-22.9126038553165 -68.1944784349118,-22.9126330058427 -68.1945416907557,-22.912668702217 -68.1946004103917,-22.9127105242766 -68.1946539043994,-22.9127579825603 -68.1947015461593,-22.9128105201786 -68.1947427757002,-22.9128675218661 -68.1947771123484,-22.9129283185614 -68.1948041507634,-22.9129921982266 -68.1948235755326,-22.9130584113408 -68.1948351581773,-22.9131261826269 -68.1948387639518,-22.9131947156032 -68.194834348823,-22.9132632088267 -68.194821966286,-22.9133308577345 -68.1948017604486,-22.9133968699645 -68.1947739689195,-22.9134604716935 -68.1947389159307,-22.9135209166352 -68.1946970151984,-22.9135774968948 -68.1946487552659,-22.913629548314 -68.1945947033399,-22.9136764613313 -68.1945354925826,-22.9137176863366 -68.1944718181848,-22.9137527381688 -68.1944044246202,-22.9137812077939 -68.1943341046862,-22.9138027595908 -68.1942616809076,-22.9138171429997 -68.1941880026373,-22.9138241879915</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E4</SimpleData>
+		<SimpleData name="NOMBRE">E4 Reserva Urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (Comunal)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">3578.89792727</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.199026699963,-22.9040867272517 -68.1971756205527,-22.9048030047913 -68.1983771137823,-22.90734868011 -68.1988753596372,-22.9052631618116 -68.1988329679068,-22.9053014888951 -68.1987802484828,-22.9053393257919 -68.1987229903559,-22.9053709991931 -68.1986620289243,-22.905396048111 -68.1985982516769,-22.9054141075706 -68.1985325903658,-22.9054249130873 -68.1984660014682,-22.9054283068912 -68.1983994573896,-22.9054242414959 -68.1983339269946,-22.9054127741812 -68.1982703667987,-22.9053940723676 -68.1982097024643,-22.9053684099101 -68.1981528200614,-22.9053361607307 -68.1981005485441,-22.9052977942131 -68.1980536490566,-22.9052538697289 -68.1980128071756,-22.9052050293715 -68.1979786183647,-22.9051519843331 -68.1979515792422,-22.905095507634 -68.1979320866651,-22.9050364241809 -68.1979204231994,-22.9049755944349 -68.1979167591195,-22.9049139062911 -68.1979211486093,-22.904852257897 -68.1979335268859,-22.904791549508 -68.1979537132318,-22.9047326654376 -68.197981414943,-22.9046764659472 -68.1980162254866,-22.9046237691712 -68.1980576391737,-22.9045753430622 -68.1981050521933,-22.9045318954596 -68.1981577714776,-22.9044940587795 -68.1982150293541,-22.9044623855718 -68.198275991414,-22.9044373368179 -68.1983397672636,-22.9044192774688 -68.1984054281005,-22.9044084720171 -68.1984720164999,-22.9044050782241 -68.1985385600853,-22.9044091435754 -68.1986040890458,-22.904420610789 -68.1986676498176,-22.9044393124647 -68.1987283128614,-22.9044649747361 -68.1987851950506,-22.9044972237065 -68.1988374674436,-22.9045355900043 -68.1988843659768,-22.9045795142563 -68.1989252079975,-22.904628354397 -68.1989593980339,-22.9046813992468 -68.1989864365332,-22.9047378748787 -68.1989952226445,-22.9047614364193 -68.1990845057726,-22.9043877106376 -68.199026699963,-22.9040867272517</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E4</SimpleData>
+		<SimpleData name="NOMBRE">E4 Reserva Urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (Comunal)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">3578.89792727</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1994118991027,-22.9080215922145 -68.1992461521075,-22.9084995222232 -68.1981492579833,-22.9083234915755 -68.1979102985508,-22.9090277987488 -68.1987974258226,-22.9092615669648 -68.1988407374708,-22.909261550527 -68.1989324864978,-22.9092741651755 -68.1990143081612,-22.9093019194975 -68.1990730495753,-22.9093508236533 -68.199121846784,-22.9094179052105 -68.1991379397098,-22.9094696321183 -68.1991507819576,-22.9095482183176 -68.1992085515626,-22.9094988112351 -68.1993039529514,-22.9094640166776 -68.1994562631044,-22.9094647842372 -68.199642827712,-22.9080686971961 -68.1994667490739,-22.9080546491085 -68.1994118991027,-22.9080215922145</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E4</SimpleData>
+		<SimpleData name="NOMBRE">E4 Reserva Urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (Comunal)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">3578.89792727</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1985608390678,-22.9098906029927 -68.1984553714138,-22.9102299240314 -68.1986719745356,-22.9100899133422 -68.1987931072552,-22.9099964562635 -68.1987119288468,-22.9099748284888 -68.1986399271912,-22.909950161314 -68.1985608390678,-22.9098906029927</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOMBRE">ZE1 Cementerio</SimpleData>
+		<SimpleData name="UPERM">Cementerios</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">1025.14160156</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1981492579833,-22.9083234915755 -68.1992461521075,-22.9084995222232 -68.1994118991027,-22.9080215922145 -68.1993693155851,-22.9079084641609 -68.1993390374191,-22.9077079828004 -68.1993529078197,-22.9073547421514 -68.199390408636,-22.9069943382073 -68.1994394946072,-22.9064937870079 -68.1992675541925,-22.9053407931886 -68.1990845057726,-22.9043877106376 -68.1989952226445,-22.9047614364193 -68.1990059295225,-22.9047969600229 -68.1990175934678,-22.9048577888006 -68.1990212580405,-22.9049194778368 -68.1990168690492,-22.9049811253717 -68.1990044912321,-22.9050418338568 -68.1989843052855,-22.90510071807 -68.1989566048648,-22.9051569177466 -68.1989217935598,-22.9052096147266 -68.1988803809524,-22.905258040162 -68.1988753596372,-22.9052631618116 -68.1983771137823,-22.90734868011 -68.1983147204945,-22.9076156118159 -68.1981492579833,-22.9083234915755</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H4</SimpleData>
+		<SimpleData name="NOMBRE">H4 Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (Regional. Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos, especialmente servicentros y estacionamientos de camiones de cualquier tipo</SimpleData>
+		<SimpleData name="SHAPE_Leng">3255.84162872</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.199642827712,-22.9080686971961 -68.1994562631044,-22.9094647842372 -68.199551353773,-22.9094829010702 -68.1998872918669,-22.9095551450136 -68.1999131285823,-22.9095589199204 -68.2001789788881,-22.9095977687052 -68.2012890615811,-22.9096915429159 -68.2021707130684,-22.9097782828617 -68.2031096204253,-22.909841787896 -68.2025923573912,-22.911473634284 -68.2025727682309,-22.9115676040251 -68.202572458728,-22.9116205164951 -68.2025913601379,-22.9116441286172 -68.2026802371017,-22.9116449893313 -68.2042200702087,-22.911659893353 -68.2041622710882,-22.9116278078704 -68.2041647391238,-22.9116032380015 -68.204166833448,-22.9115080557963 -68.2041497377935,-22.9113497889805 -68.2041308868408,-22.9111885469506 -68.2040968364839,-22.9110266145279 -68.2040811947118,-22.9109149613245 -68.2040594336287,-22.9108179595955 -68.2040502364583,-22.9107211274008 -68.2040326815678,-22.9104391341182 -68.2039916052799,-22.910210031864 -68.2039658961658,-22.9099462135262 -68.204066860168,-22.9094072235344 -68.2039058963325,-22.909366352339 -68.2037291413901,-22.909336326273 -68.2035840521319,-22.9092700379478 -68.2033803292102,-22.9091451749861 -68.2033206634605,-22.9091403972675 -68.2032904474954,-22.9091388239596 -68.2031348706278,-22.9091479817376 -68.202997356794,-22.9091616579252 -68.2029692392126,-22.9091754239774 -68.202861165265,-22.909189320001 -68.2028102461319,-22.9092021767179 -68.2026574763895,-22.9092205057027 -68.2026157860038,-22.9092242348228 -68.202531628205,-22.9092425105876 -68.2022667892967,-22.9092272684603 -68.2019071544971,-22.9092493091909 -68.2018485387735,-22.9086827255298 -68.2017248993653,-22.9087149119676 -68.201672486911,-22.9087213727267 -68.2019032940309,-22.9082490258166 -68.199642827712,-22.9080686971961</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.203262915622,-22.910902127416 -68.2031551406587,-22.9109380428855 -68.203065985499,-22.9109303042784 -68.2030058158602,-22.9109008377879 -68.202932671941,-22.9108470021638 -68.2028911222543,-22.9107738825465 -68.202888854607,-22.9107131111287 -68.2028891814278,-22.910657213351 -68.2029399078951,-22.9105067840474 -68.2029876125881,-22.9104243891849 -68.2030534549413,-22.910380972987 -68.2031401289104,-22.9103643951298 -68.2032162516057,-22.9103574855518 -68.2032765479014,-22.9103650793399 -68.2033288609822,-22.9103920755639 -68.2033759131447,-22.9104214761538 -68.2034202562697,-22.9104654459192 -68.2034408608107,-22.9105311699032 -68.2034378251639,-22.9106016359751 -68.2034161272074,-22.9107230472694 -68.2033894238726,-22.9108031159061 -68.2033287155258,-22.9108660013796 -68.203262915622,-22.910902127416</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.2008818189088,-22.9089242970992 -68.2008918142874,-22.9089402724379 -68.2009106557381,-22.9089806586098 -68.2009220643026,-22.9090233677004 -68.2009257289408,-22.9090672328983 -68.2009215503646,-22.9091110595505 -68.2009096418653,-22.909153650459 -68.200890328107,-22.9091938456195 -68.2008641362092,-22.9092305465662 -68.2008317808993,-22.9092627542353 -68.2007941448957,-22.9092895887392 -68.2007522543627,-22.9093103181494 -68.2007072514924,-22.9093243782309 -68.2006603642092,-22.9093313840334 -68.2006128719522,-22.9093311450753 -68.2005660705573,-22.9093236678766 -68.2005212352047,-22.9093091557733 -68.2004795902069,-22.9092880060543 -68.2004422700974,-22.9092607944101 -68.200410294347,-22.9092282630622 -68.2003845353044,-22.9091913007283 -68.2003656939899,-22.9091509135954 -68.2003542855864,-22.9091082053734 -68.2003506201621,-22.9090643392596 -68.2003547998891,-22.9090205135355 -68.2003667085527,-22.9089779217692 -68.2003860224252,-22.9089377275779 -68.2004122134205,-22.9089010258026 -68.2004445687328,-22.9088688191212 -68.2004822056586,-22.9088419847023 -68.2005240960894,-22.9088212544559 -68.2005690988037,-22.9088071953245 -68.2006159849346,-22.9088001895386 -68.2006397363032,-22.9087993994267 -68.2006634770067,-22.9088004284906 -68.2007102792042,-22.908807905661 -68.2007551144209,-22.9088224168045 -68.2007967593187,-22.908843567353 -68.2008340784152,-22.9088707789091 -68.2008660541939,-22.9089033092704 -68.2008818189088,-22.9089242970992</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.2012105995248,-22.9089274544781 -68.2012113863853,-22.908927457531 -68.2012227285896,-22.9089277503169 -68.2012676155456,-22.9089336125427 -68.2013106508097,-22.9089468065134 -68.2013504522896,-22.9089669061546 -68.2013857386303,-22.9089932663992 -68.2014153778646,-22.9090250405941 -68.2014384165113,-22.9090612068413 -68.2014541144747,-22.909100602498 -68.2014619662799,-22.909141961318 -68.201461720331,-22.9091839550995 -68.2014533845348,-22.909225232555 -68.2014455280618,-22.9092469344362 -68.2014372260164,-22.9092644680877 -68.2014137650426,-22.9093004006025 -68.2013837552785,-22.9093318749594 -68.2013481621204,-22.9093578788993 -68.2013081273933,-22.9093775771925 -68.2012649399458,-22.9093903376872 -68.2012199867972,-22.9093957482267 -68.2011747140182,-22.9093936363251 -68.2011305750473,-22.9093840698116 -68.2010889887682,-22.9093673557157 -68.2010512937298,-22.9093440319077 -68.2010186995093,-22.9093148469804 -68.2009922536823,-22.9092807393077 -68.2009728078766,-22.9092428061607 -68.2009609858184,-22.9092022656085 -68.2009571669691,-22.9091604203035 -68.2009614760394,-22.9091186167807 -68.2009737725451,-22.90907819753 -68.2009936617671,-22.9090404613067 -68.2010205057158,-22.909006622539 -68.2010534399667,-22.9089777671516 -68.2010914060066,-22.9089548238233 -68.2011331855662,-22.9089385289319 -68.2011774338924,-22.9089294059464 -68.2012105995248,-22.9089274544781</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H4</SimpleData>
+		<SimpleData name="NOMBRE">H4 Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (Regional. Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos, especialmente servicentros y estacionamientos de camiones de cualquier tipo</SimpleData>
+		<SimpleData name="SHAPE_Leng">3255.84162872</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.197982243962,-22.9133723730906 -68.1979834590884,-22.9133726782155 -68.197993646396,-22.913199570285 -68.1979817495066,-22.913064286427 -68.1979532338389,-22.9125173695386 -68.1970215239209,-22.9123068881096 -68.1965778646459,-22.9122046964879 -68.1962091130814,-22.9129275921699 -68.197982243962,-22.9133723730906</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H4</SimpleData>
+		<SimpleData name="NOMBRE">H4 Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (Regional. Comunal, Local), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos, especialmente servicentros y estacionamientos de camiones de cualquier tipo</SimpleData>
+		<SimpleData name="SHAPE_Leng">3255.84162872</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1975804116765,-22.9100844037319 -68.1984553714138,-22.9102299240314 -68.1985608390678,-22.9098906029927 -68.1985259018769,-22.9098219905573 -68.1984969240629,-22.9097307048144 -68.1984976384195,-22.9096091884141 -68.1985213964659,-22.909472599394 -68.1985546543054,-22.9093937787141 -68.1986140384008,-22.9093333191718 -68.1986667214961,-22.9092971289059 -68.1987974258226,-22.9092615669648 -68.1979102985508,-22.9090277987488 -68.1978723893516,-22.9091492176841 -68.1975804116765,-22.9100844037319</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOMBRE">H3 Vivienda Casco Antiguo</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Local, Comunal), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo, Discotecas, Playas de Estacionamiento y Ferias libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">2329.27172854</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.200962902595,-22.9133644542012 -68.2007304324995,-22.9140452825333 -68.2032506741285,-22.9136686794293 -68.2030791111866,-22.9132930406315 -68.2029535993479,-22.9130257424778 -68.2028692839606,-22.9128091016962 -68.2028356981715,-22.9126556334439 -68.2028818619391,-22.9126491409825 -68.2043953422121,-22.9124330909158 -68.2044244689909,-22.9124276092721 -68.2043835024471,-22.9123028073944 -68.2043319080406,-22.9121555253006 -68.2043201381538,-22.9120981505624 -68.2042968073345,-22.9119472721912 -68.2042759641077,-22.9118312914755 -68.2042724529274,-22.9117415641841 -68.2042748330189,-22.9116902943195 -68.2042200702087,-22.911659893353 -68.2026802371017,-22.9116449893313 -68.2028255190281,-22.9125894603881 -68.2014490570347,-22.9127142985585 -68.2013125434318,-22.913266264998 -68.200962902595,-22.9133644542012</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOMBRE">H3 Vivienda Casco Antiguo</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Local, Comunal), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo, Discotecas, Playas de Estacionamiento y Ferias libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">2329.27172854</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1979532338389,-22.9125173695386 -68.1979817495066,-22.913064286427 -68.197993646396,-22.913199570285 -68.1979834590884,-22.9133726782155 -68.1989639915674,-22.9136186306053 -68.1993188332133,-22.9123331813804 -68.1992301218135,-22.9123092169933 -68.1991665899078,-22.9123206557894 -68.1990266580612,-22.9123728633751 -68.1989313572128,-22.9123900205173 -68.198556626121,-22.912438104155 -68.1984550140375,-22.9124493505389 -68.1983277751664,-22.9125016215442 -68.1981690112425,-22.9125184579392 -68.1979532338389,-22.9125173695386</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.1988106924187,-22.9134573523197 -68.1987799141238,-22.9134592276814 -68.1987641796349,-22.9134589477863 -68.198718044248,-22.9134532384093 -68.1986736153357,-22.9134403880666 -68.1986321690797,-22.9134207672248 -68.1985948986125,-22.9133949401406 -68.1985628760787,-22.9133636493129 -68.1985370225249,-22.9133277954582 -68.1985180817376,-22.9132884093757 -68.1985065989457,-22.9132466256445 -68.1985029044688,-22.9132036446018 -68.1985071041366,-22.9131607033896 -68.1985190775688,-22.9131190371039 -68.198538480328,-22.913079844481 -68.1985647538728,-22.9130442536223 -68.1985971423366,-22.9130132877549 -68.1986347141388,-22.9129878382418 -68.1986763884759,-22.9129686367139 -68.1987209656654,-22.9129562353518 -68.1987671652628,-22.9129509917216 -68.1987788127898,-22.9129508219371 -68.198813656362,-22.9129530562824 -68.1988591014881,-22.9129623698978 -68.1989021946242,-22.9129786640278 -68.1989416952844,-22.9130014699328 -68.1989764674362,-22.9130301324197 -68.1990055096368,-22.9130638253488 -68.1990279880101,-22.9131015816085 -68.1990432546565,-22.9131423130802 -68.1990508708269,-22.913184849596 -68.19905061749,-22.9132279660908 -68.1990425019253,-22.9132704223805 -68.1990267575224,-22.9133109974855 -68.1990038367497,-22.9133485248242 -68.1989744002434,-22.9133819237737 -68.1989392932104,-22.9134102329729 -68.1988995267319,-22.9134326391341 -68.1988562444891,-22.9134484976511 -68.1988106924187,-22.9134573523197</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOMBRE">H3 Vivienda Casco Antiguo</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Local, Comunal), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo, Discotecas, Playas de Estacionamiento y Ferias libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">2329.27172854</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1992351373588,-22.9103749588509 -68.1998246206294,-22.9105013938692 -68.1999131285823,-22.9095589199204 -68.1998872918669,-22.9095551450136 -68.199551353773,-22.9094829010702 -68.1994562631044,-22.9094647842372 -68.1993039529514,-22.9094640166776 -68.1992085515626,-22.9094988112351 -68.1991507819576,-22.9095482183176 -68.1991470105701,-22.9096003111879 -68.1991300967707,-22.9096883277126 -68.1991100813537,-22.9097459490459 -68.1990768604088,-22.9098186935778 -68.199033908321,-22.9098731605866 -68.1989976214301,-22.9099094336382 -68.1989679293419,-22.9099396634808 -68.1989054614232,-22.9099666902734 -68.1987931072552,-22.9099964562635 -68.1986719745356,-22.9100899133422 -68.1984553714138,-22.9102299240314 -68.1992351373588,-22.9103749588509</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">ZRA</SimpleData>
+		<SimpleData name="NOMBRE">ZRA Zona Agrourbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda unifamiliar. Construcciones propias para actividades agropecuarias, Áreas verdes agrícolas, Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">2395.05862222</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1962446538386,-22.9089455275831 -68.1960906841968,-22.9098039650336 -68.1955264325338,-22.9096977423242 -68.1954541255625,-22.910120684311 -68.1954209712146,-22.9103615672178 -68.1954005446139,-22.910596634137 -68.1954245411918,-22.9108319260363 -68.1954667112675,-22.9112142936955 -68.1955708529255,-22.911749698397 -68.19667420397,-22.9120111664244 -68.1965778646459,-22.9122046964879 -68.1970215239209,-22.9123068881096 -68.1979532338389,-22.9125173695386 -68.1981690112425,-22.9125184579392 -68.1983277751664,-22.9125016215442 -68.1984550140375,-22.9124493505389 -68.198556626121,-22.912438104155 -68.1989313572128,-22.9123900205173 -68.1990122477942,-22.9115849676408 -68.1991042743517,-22.9110445362294 -68.1992284800037,-22.9104278374888 -68.1992351373588,-22.9103749588509 -68.1984553714138,-22.9102299240314 -68.1975804116765,-22.9100844037319 -68.1978723893516,-22.9091492176841 -68.1967606115729,-22.9088985426401 -68.1962446538386,-22.9089455275831</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.1981284065235,-22.9107897445871 -68.1983268017477,-22.9105085409314 -68.1979465935952,-22.9114884613152 -68.1971092887615,-22.9114136809438 -68.1972682938159,-22.91135569098 -68.1974972816965,-22.9112686594461 -68.1976180702587,-22.9112339923854 -68.1977835954594,-22.9111466398755 -68.1979750909776,-22.9109594689596 -68.1981284065235,-22.9107897445871</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.1977895493517,-22.9105054955926 -68.1977815436811,-22.9105292415752 -68.1977622221534,-22.9105670868187 -68.1977361006433,-22.9106012493204 -68.1977039711767,-22.9106306897735 -68.1976668121359,-22.9106545152427 -68.1976257510804,-22.9106720006557 -68.1975820363155,-22.9106826148557 -68.197536995844,-22.9106860366534 -68.1974919983315,-22.9106821600502 -68.1974484111144,-22.9106711048655 -68.1974075583353,-22.9106532056853 -68.1973706819721,-22.910629006246 -68.1973389019564,-22.9105992429725 -68.1973131831752,-22.9105648186161 -68.1972943082976,-22.9105267804372 -68.1972828497114,-22.9104862839318 -68.1972791570396,-22.9104445602494 -68.1972833408049,-22.9104028754618 -68.1972952755528,-22.9103624971572 -68.1973145971774,-22.9103246519723 -68.1973407197106,-22.9102904895452 -68.1973728481956,-22.9102610491594 -68.1974100071759,-22.9102372237562 -68.1974510681244,-22.9102197383951 -68.1974947827487,-22.9102091242266 -68.1975398230629,-22.9102057024362 -68.1975848204203,-22.9102095790216 -68.1976284075034,-22.9102206341657 -68.1976692601857,-22.9102385332871 -68.1977061365009,-22.9102627326568 -68.1977379174982,-22.910292495863 -68.1977636353648,-22.9103269201486 -68.1977825103494,-22.9103649582756 -68.1977939690762,-22.9104054547494 -68.1977976619,-22.9104471793278 -68.197793478295,-22.9104888632299 -68.1977895493517,-22.9105054955926</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">ZRA</SimpleData>
+		<SimpleData name="NOMBRE">ZRA Zona Agrourbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda unifamiliar. Construcciones propias para actividades agropecuarias, Áreas verdes agrícolas, Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">2395.05862222</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1993839858497,-22.9144003383068 -68.1993637871291,-22.9145607732682 -68.1994500383886,-22.9145555931209 -68.1995253528335,-22.9145753230127 -68.1995542812692,-22.9145894445352 -68.1995692603544,-22.9146077954333 -68.1995784270306,-22.9146332530524 -68.199606394726,-22.914616036311 -68.199656160087,-22.9145926506084 -68.1997090712022,-22.9145762270592 -68.1997639988108,-22.914567114062 -68.1998058128516,-22.9145652001673 -68.1998197687204,-22.914565507134 -68.1998752028136,-22.9145714400852 -68.1999291122099,-22.9145847867898 -68.1999803499142,-22.9146052623553 -68.2000278234491,-22.9146324304119 -68.2000705211342,-22.9146657113738 -68.2001075324716,-22.9147043978983 -68.2001380695451,-22.9147476640254 -68.2001614795685,-22.9147945869195 -68.200177266211,-22.9148441686559 -68.2001775799892,-22.9148455333045 -68.2002375100021,-22.914765952374 -68.2004358045444,-22.9145023825389 -68.2005960876513,-22.9142268629753 -68.2006319249705,-22.9141784253979 -68.1994575346094,-22.9137424272609 -68.1994358927087,-22.9139928915733 -68.1994242764058,-22.9140973078541 -68.1994041376635,-22.9142475485708 -68.1993839858497,-22.9144003383068</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOMBRE">H2 Casco Antiguo</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (Local y Comunal), Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos y especialmente Quintas de Recreo, Discotecas, Playas de Estacionamiento y Ferias libres.</SimpleData>
+		<SimpleData name="SHAPE_Leng">2332.04315562</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1999131285823,-22.9095589199204 -68.1998246206294,-22.9105013938692 -68.1992351373588,-22.9103749588509 -68.1992284800037,-22.9104278374888 -68.1991042743517,-22.9110445362294 -68.1990122477942,-22.9115849676408 -68.1989313572128,-22.9123900205173 -68.1990266580612,-22.9123728633751 -68.1991665899078,-22.9123206557894 -68.1992301218135,-22.9123092169933 -68.1993188332133,-22.9123331813804 -68.1989639915674,-22.9136186306053 -68.1994575346094,-22.9137424272609 -68.2006319249705,-22.9141784253979 -68.2007304324995,-22.9140452825333 -68.200962902595,-22.9133644542012 -68.2013125434318,-22.913266264998 -68.2014490570347,-22.9127142985585 -68.2028255190281,-22.9125894603881 -68.2026802371017,-22.9116449893313 -68.2025913601379,-22.9116441286172 -68.202572458728,-22.9116205164951 -68.2025727682309,-22.9115676040251 -68.2025923573912,-22.911473634284 -68.2031096204253,-22.909841787896 -68.2021707130684,-22.9097782828617 -68.2012890615811,-22.9096915429159 -68.2001789788881,-22.9095977687052 -68.1999131285823,-22.9095589199204</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.20070140497,-22.9112851103059 -68.2003275416537,-22.9112862665686 -68.2003348969458,-22.9111063576734 -68.1998779416252,-22.9111030225605 -68.1999720104476,-22.9106045696166 -68.2007014021011,-22.9107261199598 -68.20070140497,-22.9112851103059</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.2001680481176,-22.9105229288892 -68.2000958854755,-22.9105256033324 -68.2000172181336,-22.9105191307601 -68.1999582788056,-22.9105036441762 -68.1999126360693,-22.9104578449828 -68.1998866153698,-22.9104212579269 -68.1998839781148,-22.9103118766242 -68.1998844951408,-22.9102237774365 -68.1999013193949,-22.9101509501539 -68.199924738412,-22.910072080531 -68.19998727652,-22.9100329016847 -68.2000858338764,-22.9100030184055 -68.2001350239144,-22.9100032660747 -68.2002169710234,-22.9100097541902 -68.2002889017419,-22.9100465723038 -68.2003410501505,-22.9101015183662 -68.2003571792483,-22.9101471697908 -68.2003570010719,-22.9101775484512 -68.2003498905486,-22.9102716909133 -68.2003329942715,-22.9103566689849 -68.2002997916292,-22.910426376096 -68.2002634870945,-22.9104656871249 -68.2002141196522,-22.9104958181539 -68.2001680481176,-22.9105229288892</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.1999767376187,-22.9118040925028 -68.1999736036136,-22.911804105625 -68.1999456902703,-22.9118017013956 -68.1999186513894,-22.9117948438148 -68.1998933097043,-22.9117837402677 -68.1998704335454,-22.9117687297468 -68.1998507193843,-22.9117502665044 -68.1998347645694,-22.9117289135921 -68.1998230557733,-22.9117053175103 -68.1998159476108,-22.9116801963573 -68.1998136559624,-22.9116543145037 -68.1998162513028,-22.911628456363 -68.1998236539319,-22.9116034083014 -68.1998356390049,-22.9115799324684 -68.199851843511,-22.9115587406359 -68.1998717732002,-22.911540477071 -68.1998948241567,-22.911525697869 -68.199920294616,-22.9115148511406 -68.199947412335,-22.9115082654075 -68.1999753521803,-22.9115061433675 -68.2000032654692,-22.9115085466868 -68.2000303033182,-22.9115154051504 -68.2000556459464,-22.9115265077765 -68.2000785220868,-22.9115415182706 -68.2000982362504,-22.9115599814853 -68.2001141910832,-22.9115813352754 -68.2001258999258,-22.911604930434 -68.2001330081424,-22.9116300515749 -68.200135299846,-22.9116559343289 -68.2001327045706,-22.9116817915732 -68.200125301993,-22.9117068396504 -68.2001133169521,-22.9117303164092 -68.2000971124698,-22.9117515073653 -68.200077182778,-22.911769770958 -68.2000541317982,-22.9117845501854 -68.2000286603175,-22.9117953978321 -68.2000015435247,-22.9118019826789 -68.1999767376187,-22.9118040925028</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2062233330808,-22.9221626834487 -68.206346959648,-22.9221651187752 -68.2064705047059,-22.9221602857044 -68.2065934688351,-22.9221482043229 -68.2067153592739,-22.9221289236579 -68.2068356831036,-22.9221025198358 -68.2069539569741,-22.9220691006477 -68.2070697051848,-22.9220288001196 -68.2071824606557,-22.9219817794207 -68.2072917688066,-22.9219282304959 -68.2073971915161,-22.9218683661489 -68.2074983021879,-22.9218024299539 -68.2075946945907,-22.9217306854599 -68.2076859798961,-22.921653422499 -68.2077717915855,-22.9215709517908 -68.2078517844702,-22.9214836058405 -68.207925634707,-22.9213917362292 -68.2079930456541,-22.9212957127396 -68.2080537469011,-22.9211959224474 -68.208107493315,-22.9210927661035 -68.2081540679491,-22.9209866608582 -68.2081932830658,-22.9208780321363 -68.2082249820599,-22.9207673181633 -68.2082490375343,-22.920654965439 -68.2082653503457,-22.9205414251196 -68.2082738573945,-22.920427154863 -68.2082745228696,-22.9203126151719 -68.208267344109,-22.9201982676164 -68.2082523516205,-22.9200845712211 -68.2082296032202,-22.9199719842421 -68.2081991928235,-22.9198609615015 -68.208161242681,-22.9197519480251 -68.2081159043269,-22.9196453835641 -68.2080633605548,-22.9195416980884 -68.2080038234888,-22.9194413081642 -68.2079375336022,-22.919344617852 -68.2078647568029,-22.9192520168861 -68.2077857854239,-22.9191638779697 -68.2077009392036,-22.9190805558766 -68.2076105594402,-22.9190023865188 -68.2075150090074,-22.9189296842373 -68.2074146733296,-22.9188627418067 -68.2073099555119,-22.9188018295079 -68.2072012792861,-22.9187471915301 -68.2070890802192,-22.9186990486365 -68.2069738106106,-22.9186575945761 -68.2068559355967,-22.9186229951609 -68.2067359292299,-22.9185953918598 -68.2066142735511,-22.9185748936642 -68.2064914604983,-22.9185615843241 -68.2063679821819,-22.9185555177833 -68.2063370677237,-22.918555135671 -68.2062443377218,-22.9185567164068 -68.2061210244293,-22.918565178163 -68.2059985388409,-22.9185808666929 -68.2058773737401,-22.9186037203283 -68.2057580172205,-22.9186336457633 -68.2056409497229,-22.9186705243634 -68.2055266431036,-22.9187142049336 -68.2054155576457,-22.9187645145435 -68.205308140167,-22.918821248581 -68.2052048229984,-22.918884178877 -68.2051060220382,-22.9189530527923 -68.2050121367586,-22.9190275923136 -68.2049235433579,-22.919107497633 -68.2048405996372,-22.9191924471717 -68.2047636381631,-22.9192820993523 -68.2046929711493,-22.91937609172 -68.2046288806733,-22.9194740463128 -68.2045716274525,-22.9195755697056 -68.2045214391477,-22.9196802520481 -68.2044785200881,-22.9197876716294 -68.2044430424788,-22.9198973975445 -68.204415148372,-22.9200089860903 -68.2043949505942,-22.9201219888998 -68.2043825317815,-22.9202359511307 -68.2043779394928,-22.9203504132477 -68.2043811949647,-22.9204649146788 -68.2043922823794,-22.9205789946657 -68.204411159585,-22.92069219322 -68.2044377492934,-22.9208040555959 -68.2044719439706,-22.9209141296052 -68.2045136067645,-22.921021973751 -68.2045625705554,-22.9211271527072 -68.2046186359742,-22.9212292427278 -68.2046815801621,-22.9213278344014 -68.2047511470405,-22.9214225289891 -68.2048270589697,-22.9215129457094 -68.2049090079784,-22.9215987207912 -68.204996665509,-22.921679508426 -68.2050896775215,-22.9217549843568 -68.2051876713399,-22.9218248422997 -68.2052902507189,-22.9218888038547 -68.2053970027224,-22.9219466095085 -68.2055074976766,-22.9219980267632 -68.2056212911253,-22.9220428492434 -68.2057379248106,-22.9220808957978 -68.2058569286029,-22.9221120141225 -68.2059778234467,-22.9221360771619 -68.2061001222947,-22.9221529903407 -68.2062233330808,-22.9221626834487</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1941139343126,-22.9138238122341 -68.1941561290117,-22.9138249377185 -68.1941880026373,-22.9138241879915 -68.1942616809076,-22.9138171429997 -68.1943341046862,-22.9138027595908 -68.1944044246202,-22.9137812077939 -68.1944718181848,-22.9137527381688 -68.1945354925826,-22.9137176863366 -68.1945947033399,-22.9136764613313 -68.1946487552659,-22.913629548314 -68.1946970151984,-22.9135774968948 -68.1947389159307,-22.9135209166352 -68.1947739689195,-22.9134604716935 -68.1948017604486,-22.9133968699645 -68.194821966286,-22.9133308577345 -68.194834348823,-22.9132632088267 -68.1948387639518,-22.9131947156032 -68.1948351581773,-22.9131261826269 -68.1948235755326,-22.9130584113408 -68.1948041507634,-22.9129921982266 -68.1947771123484,-22.9129283185614 -68.1947427757002,-22.9128675218661 -68.1947015461593,-22.9128105201786 -68.1946539043994,-22.9127579825603 -68.1946004103917,-22.9127105242766 -68.1945416907557,-22.912668702217 -68.1944784349118,-22.9126330058427 -68.194411382417,-22.9126038553165 -68.1943413220538,-22.9125815906584 -68.1942690732936,-22.9125664734592 -68.1941954834046,-22.9125586814454 -68.1941584550801,-22.912557564123 -68.1941214157673,-22.9125583057111 -68.1940477391496,-22.912565350663 -68.1939753160069,-22.9125797339615 -68.1939049956571,-22.9126012864858 -68.1938376035399,-22.912629754989 -68.193773928509,-22.9126648074539 -68.1937147179687,-22.9127060312606 -68.1936606661086,-22.9127529439667 -68.1936124070683,-22.9128049950784 -68.1935705051332,-22.9128615750338 -68.1935354527574,-22.9129220197086 -68.193507659774,-22.9129856212007 -68.1934874533623,-22.9130516332496 -68.1934750701777,-22.9131192829389 -68.193470654374,-22.9131877752024 -68.1934742594566,-22.9132563090929 -68.193485841446,-22.9133240795538 -68.1935052656114,-22.9133902928095 -68.1935323044826,-22.9134541726781 -68.1935666397461,-22.9135149696145 -68.193607869981,-22.913571971589 -68.1936555106263,-22.9136245095074 -68.1937090046425,-22.9136719681048 -68.1937677244294,-22.9137137913754 -68.1938309815503,-22.9137494871385 -68.1938980334879,-22.9137786388165 -68.1939680953614,-22.913800902784 -68.1940403447334,-22.9138160201355 -68.1941139343126,-22.9138238122341</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2000107481383,-22.9213615747434 -68.2000144925641,-22.9213616035422 -68.2000859482159,-22.9213582473399 -68.2001565500988,-22.9213475014904 -68.2002254080699,-22.9213295006187 -68.2002916577756,-22.9213044716168 -68.2003544655535,-22.921272729152 -68.2004130411366,-22.9212346712142 -68.2004666493603,-22.9211907782711 -68.2005146141323,-22.9211416015452 -68.2005563330858,-22.9210877585708 -68.2005912824818,-22.921029928702 -68.2006190212046,-22.9209688368729 -68.2006392014986,-22.9209052518452 -68.2006515690365,-22.9208399744651 -68.200655968849,-22.9207738241438 -68.2006523453507,-22.9207076343411 -68.2006407443902,-22.9206422354129 -68.2006213113148,-22.9205784518917 -68.2005942910764,-22.9205170844213 -68.2005600224059,-22.9204589052116 -68.2005189378822,-22.9204046462957 -68.2004715532684,-22.9203549886375 -68.2004184636328,-22.920310558499 -68.2003603385525,-22.9202719138672 -68.2002979075079,-22.920239540768 -68.2002319560298,-22.9202138451171 -68.2001633140043,-22.9201951517583 -68.2000928430491,-22.920183695367 -68.2000306763687,-22.920179728418 -68.2000214316443,-22.9201796195232 -68.1999499756358,-22.9201829757096 -68.1998793753213,-22.9201937214903 -68.1998105169132,-22.9202117222246 -68.1997442686335,-22.9202367519499 -68.1996814612069,-22.9202684941869 -68.1996228848829,-22.9203065509572 -68.1995692777292,-22.9203504436274 -68.199521312908,-22.9203996209741 -68.1994795937795,-22.9204534627723 -68.1994446440704,-22.9205112932946 -68.1994169049277,-22.9205723849097 -68.1993967241281,-22.9206359688667 -68.1993843560087,-22.9207012470375 -68.1993799555888,-22.9207673964035 -68.1993835784634,-22.9208335871205 -68.1993951788361,-22.9208989852192 -68.1994146113679,-22.9209627697762 -68.1994416311502,-22.9210241374313 -68.1994758994746,-22.9210823159655 -68.1995169837642,-22.9211365760439 -68.1995643682885,-22.9211862330768 -68.1996174569927,-22.9212306634929 -68.1996755832231,-22.9212693093057 -68.1997380145756,-22.9213016826546 -68.1998039655037,-22.9213273776113 -68.1998726090152,-22.9213460711425 -68.1999430795715,-22.9213575276414 -68.2000107481383,-22.9213615747434</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1944454707878,-22.9149260818106 -68.1944031158986,-22.9149302235803 -68.1943372698077,-22.9149298896136 -68.1942573143294,-22.9149294840486 -68.1941397077313,-22.9149332449085 -68.1940360807409,-22.9149588603974 -68.1939682810983,-22.9149914088284 -68.193889610193,-22.9150713998442 -68.1938562495575,-22.915145298645 -68.1938593459836,-22.915233264254 -68.193864754284,-22.9152978373092 -68.1939017613452,-22.9154025928712 -68.1939809183992,-22.9155380619611 -68.1940786827899,-22.9157084807395 -68.1941863177145,-22.9158005239506 -68.1943035139635,-22.9158664734282 -68.1944208896066,-22.915901924992 -68.1945618081858,-22.9159331383769 -68.1946746880366,-22.9159337107384 -68.1947453404199,-22.9159166408332 -68.1948066376114,-22.9158908094164 -68.1948963348776,-22.9158346231896 -68.1949604156773,-22.9157784615415 -68.1950050759705,-22.9157393206282 -68.1950527009777,-22.9156393507986 -68.1950531126634,-22.9155696404384 -68.1950537301835,-22.9154650758001 -68.1950357917744,-22.9153168468432 -68.1950084467966,-22.9151685702107 -68.1950045159162,-22.9150378403482 -68.1949770166271,-22.9149157050946 -68.1949493629879,-22.914819711223 -68.1948980133077,-22.9147540959892 -68.1948511605879,-22.9147233597599 -68.1947854185159,-22.9147055983959 -68.1946444552888,-22.9147238998514 -68.1945762719688,-22.9148169680576 -68.1944454707878,-22.9149260818106</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1950809375592,-22.908840673943 -68.1951470955646,-22.9088464758392 -68.1952135306215,-22.9088449877339 -68.1952793094555,-22.9088362310948 -68.1953435089161,-22.9088203295143 -68.1954052267285,-22.908797504248 -68.195463598049,-22.9087680779107 -68.1955178013904,-22.9087324618609 -68.1955670781229,-22.9086911562988 -68.1956107354476,-22.9086447421514 -68.1956481610861,-22.9085938703074 -68.1956788281928,-22.9085392553184 -68.1957023081046,-22.908481662817 -68.1957182694085,-22.9084219022857 -68.1957264897261,-22.9083608126633 -68.1957268528575,-22.9082992505878 -68.1957193537093,-22.9082380813881 -68.195704098389,-22.9081781628253 -68.195681299383,-22.9081203360353 -68.1956512785555,-22.9080654128983 -68.1956144555113,-22.9080141651401 -68.1955713486453,-22.9079673116921 -68.1955225625144,-22.9079255104976 -68.1954687830263,-22.9078893476485 -68.1954107628463,-22.9078593318921 -68.1953493185412,-22.9078358828739 -68.1952853110796,-22.9078193310391 -68.1952196400301,-22.9078099094743 -68.1951698496688,-22.9078076040762 -68.1951686796245,-22.9078075999557 -68.195153227018,-22.9078077484035 -68.1950870049748,-22.9078128796508 -68.1950219016,-22.9078252302332 -68.1949588334803,-22.907844627751 -68.1948986836695,-22.9078707993702 -68.194842296777,-22.9079033781208 -68.1947904653017,-22.9079419055374 -68.1947439168931,-22.9079858424333 -68.1947033045902,-22.908034570658 -68.1946691979667,-22.9080874066007 -68.1946420762575,-22.908143609285 -68.1946223205097,-22.9082023884587 -68.1946102076418,-22.908262919919 -68.1946059084448,-22.9083243536322 -68.1946094816511,-22.9083858272525 -68.1946208787347,-22.9084464787926 -68.1946399389866,-22.9085054547282 -68.1946663952584,-22.9085619280933 -68.1946998758578,-22.9086151075228 -68.1947399103556,-22.9086642445085 -68.1947859372898,-22.9087086496976 -68.1948373109428,-22.9087477010572 -68.1948933100838,-22.9087808493386 -68.1949531476562,-22.9088076289662 -68.1950159834209,-22.9088276635217 -68.1950809375592,-22.908840673943</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2053848609326,-22.9075988547778 -68.2054504371091,-22.9076046006917 -68.2055162864726,-22.9076031224937 -68.2055814855286,-22.907594438148 -68.2056451169873,-22.9075786722402 -68.2057062903079,-22.9075560443366 -68.2057641446041,-22.9075268726125 -68.2058178681862,-22.9074915667229 -68.2058667073746,-22.907450621523 -68.2059099772458,-22.9074046135091 -68.205947068537,-22.9073541873028 -68.2059774613275,-22.9073000502993 -68.2060007299667,-22.9072429636594 -68.2060165470577,-22.9071837278755 -68.2060246903293,-22.9071231746767 -68.2060250456289,-22.9070621553007 -68.2060176079914,-22.9070015242394 -68.2060024816701,-22.9069421338197 -68.2059798792557,-22.9068848179394 -68.2059501188134,-22.906830381214 -68.2059136171312,-22.9067795862966 -68.2058708858506,-22.9067331484393 -68.2058225266965,-22.9066917174038 -68.2057692178318,-22.9066558764898 -68.205711707117,-22.9066261280497 -68.2056508014057,-22.9066028898216 -68.2055873578064,-22.9065864885629 -68.2055222642202,-22.9065771536305 -68.2054729117072,-22.9065748717234 -68.2054564364209,-22.906575016063 -68.2053907975962,-22.9065801057685 -68.205326269568,-22.9065923523839 -68.2052637581786,-22.9066115833957 -68.2052041396141,-22.9066375285874 -68.2051482525846,-22.9066698236139 -68.2050968807366,-22.9067080162357 -68.2050507458131,-22.9067515689949 -68.2050104949095,-22.9067998708937 -68.2049766926316,-22.9068522445809 -68.2049498142281,-22.9069079535443 -68.2049302367309,-22.9069662165179 -68.2049182359765,-22.9070262165003 -68.2049139787531,-22.9070871097479 -68.2049175256298,-22.9071480420483 -68.204928826023,-22.9072081586318 -68.2049477230127,-22.9072666141316 -68.2049739503169,-22.9073225897314 -68.2050071400647,-22.9073752977213 -68.2050468256156,-22.9074239995774 -68.2050924502974,-22.9074680123293 -68.2051433741891,-22.9075067158207 -68.2051988818317,-22.907539568104 -68.2052581948875,-22.9075661082142 -68.2053204789239,-22.9075859634292 -68.2053848609326,-22.9075988547778</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2064415964833,-22.9089251546675 -68.2065071733548,-22.9089309001634 -68.2065730233623,-22.9089294215453 -68.2066382230022,-22.9089207367834 -68.2067018559516,-22.9089049704736 -68.2067630287375,-22.9088823421738 -68.2068208833922,-22.9088531700792 -68.2068746072463,-22.908817863845 -68.2069234475912,-22.9087769183364 -68.2069667165758,-22.9087309100392 -68.2070038078611,-22.9086804835936 -68.2070342015266,-22.9086263463983 -68.2070574689979,-22.9085692596021 -68.207073285806,-22.9085100237142 -68.2070814287086,-22.9084494704603 -68.2070817835582,-22.9083884510788 -68.2070743453961,-22.9083278200617 -68.207059218483,-22.9082684297353 -68.2070366163929,-22.9082111140011 -68.207006854275,-22.9081566774577 -68.2069703518522,-22.9081058827705 -68.2069276207765,-22.9080594451882 -68.2068792598585,-22.908018014454 -68.2068259501973,-22.9079821738782 -68.2067684386894,-22.9079524258033 -68.2067075331746,-22.9079291879673 -68.2066440878475,-22.9079127871075 -68.2065789935445,-22.9079034525898 -68.2065296414986,-22.9079011710022 -68.2065131650746,-22.9079013154421 -68.2064475256348,-22.9079064055664 -68.2063829970559,-22.907918652594 -68.2063204851876,-22.9079378840055 -68.2062608671981,-22.9079638295838 -68.2062049798527,-22.9079961249683 -68.2061536077776,-22.9080343179198 -68.2061074717438,-22.9080778709707 -68.2060672207988,-22.9081261731288 -68.206033418574,-22.9081785470344 -68.2060065403172,-22.9082342561721 -68.2059869640332,-22.9082925192785 -68.2059749626304,-22.9083525193358 -68.2059707058172,-22.9084134126138 -68.2059742531819,-22.9084743448948 -68.2059855551093,-22.9085344614143 -68.2060044517463,-22.9085929167918 -68.2060306797274,-22.9086488922273 -68.2060638701971,-22.9087016000083 -68.2061035565046,-22.9087503016138 -68.2061491829476,-22.9087943131787 -68.2062001076282,-22.9088330172506 -68.206255616067,-22.9088658691816 -68.206314928935,-22.90889240891 -68.2063772137385,-22.9089122637288 -68.2064415964833,-22.9089251546675</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2073792893858,-22.9065482805125 -68.2074448651643,-22.9065540264953 -68.2075107140307,-22.9065525465523 -68.2075759115017,-22.9065438622677 -68.2076395432419,-22.9065280946403 -68.2077007157796,-22.9065054659432 -68.2077585692197,-22.9064762934645 -68.2078122918846,-22.9064409868696 -68.2078611301022,-22.9064000419272 -68.2079043980034,-22.9063540324276 -68.2079414892487,-22.9063036057251 -68.2079718810068,-22.9062494692075 -68.2079951486321,-22.9061923813362 -68.208010963746,-22.9061331462166 -68.2080191060572,-22.906072592881 -68.2080194604515,-22.9060115725642 -68.2080120219608,-22.9059509424683 -68.2079968958412,-22.9058915522143 -68.2079742927388,-22.9058342365917 -68.2079445317088,-22.9057797993135 -68.2079080285568,-22.9057290057331 -68.2078652978771,-22.905682567498 -68.207816938454,-22.9056411379608 -68.2077636294449,-22.9056052977082 -68.207706118707,-22.9055755499864 -68.207645213094,-22.9055523125234 -68.2075817687437,-22.9055359111578 -68.2075166764684,-22.9055265770565 -68.2074673242761,-22.9055242966817 -68.2074508491174,-22.9055244403285 -68.2073852108419,-22.9055295317782 -68.2073206834666,-22.9055417792243 -68.2072581718494,-22.9055610101367 -68.2071985550809,-22.9055869561087 -68.2071426689343,-22.9056192527696 -68.2070912980345,-22.9056574451649 -68.2070451640955,-22.9057009985369 -68.2070049142042,-22.9057493009759 -68.2069711129521,-22.9058016751233 -68.2069442355737,-22.9058573844601 -68.2069246590809,-22.9059156486186 -68.2069126583371,-22.9059756478787 -68.2069084020456,-22.906036542117 -68.2069119498031,-22.9060974744051 -68.2069232519887,-22.9061575899785 -68.2069421497051,-22.9062160461719 -68.2069683776563,-22.9062720205639 -68.2070015679411,-22.9063247290618 -68.2070412539272,-22.9063734304375 -68.2070868789364,-22.9064174417274 -68.2071378030326,-22.9064561445894 -68.2071933107539,-22.9064889970849 -68.2072526227971,-22.9065155364471 -68.2073149076549,-22.9065353899791 -68.2073792893858,-22.9065482805125</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2079705131574,-22.9050348478267 -68.208036088243,-22.9050405935469 -68.2081019363796,-22.9050391133379 -68.2081671330941,-22.9050304287876 -68.2082307640616,-22.9050146608987 -68.2082919348465,-22.904992031943 -68.2083497875144,-22.904962859222 -68.2084035103987,-22.9049275524043 -68.2084523478878,-22.9048866072522 -68.2084956150978,-22.9048405975639 -68.208532704724,-22.9047901706913 -68.2085630968743,-22.9047360331359 -68.2085863629956,-22.9046789460515 -68.2086021786327,-22.9046197108546 -68.20861032057,-22.9045591574674 -68.2086106746736,-22.9044981371302 -68.2086032359798,-22.9044375070455 -68.2085881087721,-22.9043781168293 -68.2085655066235,-22.9043208012848 -68.2085357446895,-22.9042663641049 -68.2084992426745,-22.9042155706609 -68.2084565122457,-22.9041691325836 -68.2084081531587,-22.9041277032286 -68.2083548435914,-22.904091863175 -68.208297333345,-22.9040621156759 -68.2082364292664,-22.9040388784561 -68.2081729855355,-22.9040224773414 -68.2081078939308,-22.9040131434997 -68.2080585422696,-22.9040108633232 -68.2080420672924,-22.9040110070365 -68.2079764297613,-22.9040160987524 -68.2079119031519,-22.9040283464626 -68.2078493923113,-22.904047577633 -68.2077897763191,-22.9040735238535 -68.2077338909377,-22.9041058207499 -68.2076825207813,-22.9041440133642 -68.2076363875534,-22.9041875669358 -68.2075961373558,-22.9042358695472 -68.207562337696,-22.904288243852 -68.2075354608743,-22.9043439533145 -68.2075158848703,-22.9044022175701 -68.2075038845402,-22.9044622168972 -68.2074996285815,-22.9045231111715 -68.2075031765865,-22.9045840434643 -68.2075144789304,-22.9046441590108 -68.2075333767141,-22.9047026151461 -68.2075596046404,-22.9047585894497 -68.2075927938335,-22.9048112978252 -68.2076324805879,-22.9048599990608 -68.2076781053031,-22.9049040101804 -68.2077290290222,-22.904942712849 -68.2077845362885,-22.9049755651308 -68.2078438478052,-22.9050021042621 -68.2079061320727,-22.905021957549 -68.2079705131574,-22.9050348478267</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1983994573896,-22.9054242414959 -68.1984660014682,-22.9054283068912 -68.1985325903658,-22.9054249130873 -68.1985982516769,-22.9054141075706 -68.1986620289243,-22.905396048111 -68.1987229903559,-22.9053709991931 -68.1987802484828,-22.9053393257919 -68.1988329679068,-22.9053014888951 -68.1988753596372,-22.9052631618116 -68.1988803809524,-22.905258040162 -68.1989217935598,-22.9052096147266 -68.1989566048648,-22.9051569177466 -68.1989843052855,-22.90510071807 -68.1990044912321,-22.9050418338568 -68.1990168690492,-22.9049811253717 -68.1990212580405,-22.9049194778368 -68.1990175934678,-22.9048577888006 -68.1990059295225,-22.9047969600229 -68.1989952226445,-22.9047614364193 -68.1989864365332,-22.9047378748787 -68.1989593980339,-22.9046813992468 -68.1989252079975,-22.904628354397 -68.1988843659768,-22.9045795142563 -68.1988374674436,-22.9045355900043 -68.1987851950506,-22.9044972237065 -68.1987283128614,-22.9044649747361 -68.1986676498176,-22.9044393124647 -68.1986040890458,-22.904420610789 -68.1985385600853,-22.9044091435754 -68.1984720164999,-22.9044050782241 -68.1984054281005,-22.9044084720171 -68.1983397672636,-22.9044192774688 -68.198275991414,-22.9044373368179 -68.1982150293541,-22.9044623855718 -68.1981577714776,-22.9044940587795 -68.1981050521933,-22.9045318954596 -68.1980576391737,-22.9045753430622 -68.1980162254866,-22.9046237691712 -68.197981414943,-22.9046764659472 -68.1979537132318,-22.9047326654376 -68.1979335268859,-22.904791549508 -68.1979211486093,-22.904852257897 -68.1979167591195,-22.9049139062911 -68.1979204231994,-22.9049755944349 -68.1979320866651,-22.9050364241809 -68.1979515792422,-22.905095507634 -68.1979786183647,-22.9051519843331 -68.1980128071756,-22.9052050293715 -68.1980536490566,-22.9052538697289 -68.1981005485441,-22.9052977942131 -68.1981528200614,-22.9053361607307 -68.1982097024643,-22.9053684099101 -68.1982703667987,-22.9053940723676 -68.1983339269946,-22.9054127741812 -68.1983994573896,-22.9054242414959</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2093855181531,-22.9126670636831 -68.2094505491741,-22.9126692435993 -68.2095153765242,-22.912664003719 -68.209579017809,-22.9126514240637 -68.2096405075525,-22.9126316940393 -68.2096989147379,-22.9126051143296 -68.2097533526174,-22.912572087009 -68.2098029962791,-22.9125331129196 -68.2098470934252,-22.9124887826915 -68.209884976126,-22.912439767768 -68.2099160696421,-22.9123868123194 -68.2099399022585,-22.9123307188392 -68.2099561131476,-22.9122723373427 -68.2099644563426,-22.9122125527412 -68.2099648056901,-22.9121522713163 -68.209957155903,-22.9120924071759 -68.2099416226492,-22.9120338668989 -68.2099184416325,-22.9119775395938 -68.2098879638273,-22.9119242779067 -68.2098506516244,-22.911874889872 -68.2098070711244,-22.9118301226158 -68.2097578824182,-22.9117906568875 -68.2097038309108,-22.9117570898545 -68.209645735647,-22.9117299305286 -68.2095844786432,-22.9117095897762 -68.2095209873532,-22.9116963775221 -68.2094562249698,-22.9116904936682 -68.209439950634,-22.9116901796299 -68.2093911728854,-22.9116920262002 -68.2093268160564,-22.9117009529207 -68.2092641322992,-22.9117171377838 -68.2092040708079,-22.911740336207 -68.2091475414196,-22.9117701968244 -68.2090954019125,-22.9118062659401 -68.2090484423529,-22.9118479964823 -68.2090073743126,-22.9118947578861 -68.2089728201218,-22.9119458396522 -68.2089453049745,-22.9120004675671 -68.2089252441949,-22.9120578135754 -68.2089129431577,-22.9121170093282 -68.2089085884547,-22.9121771560757 -68.208912244864,-22.9122373427173 -68.2089238582061,-22.9122966575591 -68.20894325235,-22.9123542000413 -68.2089701320273,-22.912409099722 -68.2090040915759,-22.9124605217402 -68.2090446148083,-22.9125076893983 -68.2090910876764,-22.9125498860316 -68.2091428059726,-22.91258647221 -68.2091989860134,-22.9126168930175 -68.2092587753076,-22.9126406880421 -68.2093212681263,-22.9126574968737 -68.2093855181531,-22.9126670636831</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1997598623413,-22.9152710201034 -68.1998156162244,-22.9152731888659 -68.1998711169792,-22.9152678147442 -68.1999251801412,-22.91525501191 -68.1999766563919,-22.9152350536932 -68.2000244462334,-22.915208364526 -68.2000675321987,-22.9151755146848 -68.2001049955239,-22.9151372041147 -68.2001360367101,-22.9150942480802 -68.200159996085,-22.9150475628152 -68.20017636368,-22.9149981438932 -68.2001847881333,-22.9149470445935 -68.2001850914526,-22.9148953524889 -68.2001775799892,-22.9148455333045 -68.200177266211,-22.9148441686559 -68.2001614795685,-22.9147945869195 -68.2001380695451,-22.9147476640254 -68.2001075324716,-22.9147043978983 -68.2000705211342,-22.9146657113738 -68.2000278234491,-22.9146324304119 -68.1999803499142,-22.9146052623553 -68.1999291122099,-22.9145847867898 -68.1998752028136,-22.9145714400852 -68.1998197687204,-22.914565507134 -68.1998058128516,-22.9145652001673 -68.1997639988108,-22.914567114062 -68.1997090712022,-22.9145762270592 -68.199656160087,-22.9145926506084 -68.199606394726,-22.914616036311 -68.199560831157,-22.9146458854539 -68.1995204482258,-22.9146815607324 -68.199486103607,-22.9147223031907 -68.1994585288657,-22.9147672430357 -68.199438311762,-22.9148154239365 -68.1994258815345,-22.914865818306 -68.199421505831,-22.9149173516736 -68.1994252759435,-22.9149689260967 -68.1994371135006,-22.9150194427762 -68.1994567635128,-22.9150678237007 -68.1994838088341,-22.9151130397216 -68.1995176730014,-22.9151541250203 -68.1995576346902,-22.9151902060869 -68.1996028413072,-22.9152205117253 -68.1996523293241,-22.915244397545 -68.1997050447063,-22.915261354194 -68.1997598623413,-22.9152710201034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1987119288468,-22.9099748284888 -68.1987931072552,-22.9099964562635 -68.1989054614232,-22.9099666902734 -68.1989679293419,-22.9099396634808 -68.1989976214301,-22.9099094336382 -68.199033908321,-22.9098731605866 -68.1990768604088,-22.9098186935778 -68.1991100813537,-22.9097459490459 -68.1991300967707,-22.9096883277126 -68.1991470105701,-22.9096003111879 -68.1991507819576,-22.9095482183176 -68.1991379397098,-22.9094696321183 -68.199121846784,-22.9094179052105 -68.1990730495753,-22.9093508236533 -68.1990143081612,-22.9093019194975 -68.1989324864978,-22.9092741651755 -68.1988407374708,-22.909261550527 -68.1987974258226,-22.9092615669648 -68.1986667214961,-22.9092971289059 -68.1986140384008,-22.9093333191718 -68.1985546543054,-22.9093937787141 -68.1985213964659,-22.909472599394 -68.1984976384195,-22.9096091884141 -68.1984969240629,-22.9097307048144 -68.1985259018769,-22.9098219905573 -68.1985608390678,-22.9098906029927 -68.1986399271912,-22.909950161314 -68.1987119288468,-22.9099748284888</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.203065985499,-22.9109303042784 -68.2031551406587,-22.9109380428855 -68.203262915622,-22.910902127416 -68.2033287155258,-22.9108660013796 -68.2033894238726,-22.9108031159061 -68.2034161272074,-22.9107230472694 -68.2034378251639,-22.9106016359751 -68.2034408608107,-22.9105311699032 -68.2034202562697,-22.9104654459192 -68.2033759131447,-22.9104214761538 -68.2033288609822,-22.9103920755639 -68.2032765479014,-22.9103650793399 -68.2032162516057,-22.9103574855518 -68.2031401289104,-22.9103643951298 -68.2030534549413,-22.910380972987 -68.2029876125881,-22.9104243891849 -68.2029399078951,-22.9105067840474 -68.2028891814278,-22.910657213351 -68.202888854607,-22.9107131111287 -68.2028911222543,-22.9107738825465 -68.202932671941,-22.9108470021638 -68.2030058158602,-22.9109008377879 -68.203065985499,-22.9109303042784</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2006128719522,-22.9093311450753 -68.2006603642092,-22.9093313840334 -68.2007072514924,-22.9093243782309 -68.2007522543627,-22.9093103181494 -68.2007941448957,-22.9092895887392 -68.2008317808993,-22.9092627542353 -68.2008641362092,-22.9092305465662 -68.200890328107,-22.9091938456195 -68.2009096418653,-22.909153650459 -68.2009215503646,-22.9091110595505 -68.2009257289408,-22.9090672328983 -68.2009220643026,-22.9090233677004 -68.2009106557381,-22.9089806586098 -68.2008918142874,-22.9089402724379 -68.2008818189088,-22.9089242970992 -68.2008660541939,-22.9089033092704 -68.2008340784152,-22.9088707789091 -68.2007967593187,-22.908843567353 -68.2007551144209,-22.9088224168045 -68.2007102792042,-22.908807905661 -68.2006634770067,-22.9088004284906 -68.2006397363032,-22.9087993994267 -68.2006159849346,-22.9088001895386 -68.2005690988037,-22.9088071953245 -68.2005240960894,-22.9088212544559 -68.2004822056586,-22.9088419847023 -68.2004445687328,-22.9088688191212 -68.2004122134205,-22.9089010258026 -68.2003860224252,-22.9089377275779 -68.2003667085527,-22.9089779217692 -68.2003547998891,-22.9090205135355 -68.2003506201621,-22.9090643392596 -68.2003542855864,-22.9091082053734 -68.2003656939899,-22.9091509135954 -68.2003845353044,-22.9091913007283 -68.200410294347,-22.9092282630622 -68.2004422700974,-22.9092607944101 -68.2004795902069,-22.9092880060543 -68.2005212352047,-22.9093091557733 -68.2005660705573,-22.9093236678766 -68.2006128719522,-22.9093311450753</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1987641796349,-22.9134589477863 -68.1987799141238,-22.9134592276814 -68.1988106924187,-22.9134573523197 -68.1988562444891,-22.9134484976511 -68.1988995267319,-22.9134326391341 -68.1989392932104,-22.9134102329729 -68.1989744002434,-22.9133819237737 -68.1990038367497,-22.9133485248242 -68.1990267575224,-22.9133109974855 -68.1990425019253,-22.9132704223805 -68.19905061749,-22.9132279660908 -68.1990508708269,-22.913184849596 -68.1990432546565,-22.9131423130802 -68.1990279880101,-22.9131015816085 -68.1990055096368,-22.9130638253488 -68.1989764674362,-22.9130301324197 -68.1989416952844,-22.9130014699328 -68.1989021946242,-22.9129786640278 -68.1988591014881,-22.9129623698978 -68.198813656362,-22.9129530562824 -68.1987788127898,-22.9129508219371 -68.1987671652628,-22.9129509917216 -68.1987209656654,-22.9129562353518 -68.1986763884759,-22.9129686367139 -68.1986347141388,-22.9129878382418 -68.1985971423366,-22.9130132877549 -68.1985647538728,-22.9130442536223 -68.198538480328,-22.913079844481 -68.1985190775688,-22.9131190371039 -68.1985071041366,-22.9131607033896 -68.1985029044688,-22.9132036446018 -68.1985065989457,-22.9132466256445 -68.1985180817376,-22.9132884093757 -68.1985370225249,-22.9133277954582 -68.1985628760787,-22.9133636493129 -68.1985948986125,-22.9133949401406 -68.1986321690797,-22.9134207672248 -68.1986736153357,-22.9134403880666 -68.198718044248,-22.9134532384093 -68.1987641796349,-22.9134589477863</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2000172181336,-22.9105191307601 -68.2000958854755,-22.9105256033324 -68.2001680481176,-22.9105229288892 -68.2002141196522,-22.9104958181539 -68.2002634870945,-22.9104656871249 -68.2002997916292,-22.910426376096 -68.2003329942715,-22.9103566689849 -68.2003498905486,-22.9102716909133 -68.2003570010719,-22.9101775484512 -68.2003571792483,-22.9101471697908 -68.2003410501505,-22.9101015183662 -68.2002889017419,-22.9100465723038 -68.2002169710234,-22.9100097541902 -68.2001350239144,-22.9100032660747 -68.2000858338764,-22.9100030184055 -68.19998727652,-22.9100329016847 -68.199924738412,-22.910072080531 -68.1999013193949,-22.9101509501539 -68.1998844951408,-22.9102237774365 -68.1998839781148,-22.9103118766242 -68.1998866153698,-22.9104212579269 -68.1999126360693,-22.9104578449828 -68.1999582788056,-22.9105036441762 -68.2000172181336,-22.9105191307601</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2003348969458,-22.9111063576734 -68.2003275416537,-22.9112862665686 -68.20070140497,-22.9112851103059 -68.2007014021011,-22.9107261199598 -68.2003505147146,-22.9107243541357 -68.2003348969458,-22.9111063576734</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1974919983315,-22.9106821600502 -68.197536995844,-22.9106860366534 -68.1975820363155,-22.9106826148557 -68.1976257510804,-22.9106720006557 -68.1976668121359,-22.9106545152427 -68.1977039711767,-22.9106306897735 -68.1977361006433,-22.9106012493204 -68.1977622221534,-22.9105670868187 -68.1977815436811,-22.9105292415752 -68.1977895493517,-22.9105054955926 -68.197793478295,-22.9104888632299 -68.1977976619,-22.9104471793278 -68.1977939690762,-22.9104054547494 -68.1977825103494,-22.9103649582756 -68.1977636353648,-22.9103269201486 -68.1977379174982,-22.910292495863 -68.1977061365009,-22.9102627326568 -68.1976692601857,-22.9102385332871 -68.1976284075034,-22.9102206341657 -68.1975848204203,-22.9102095790216 -68.1975398230629,-22.9102057024362 -68.1974947827487,-22.9102091242266 -68.1974510681244,-22.9102197383951 -68.1974100071759,-22.9102372237562 -68.1973728481956,-22.9102610491594 -68.1973407197106,-22.9102904895452 -68.1973145971774,-22.9103246519723 -68.1972952755528,-22.9103624971572 -68.1972833408049,-22.9104028754618 -68.1972791570396,-22.9104445602494 -68.1972828497114,-22.9104862839318 -68.1972943082976,-22.9105267804372 -68.1973131831752,-22.9105648186161 -68.1973389019564,-22.9105992429725 -68.1973706819721,-22.910629006246 -68.1974075583353,-22.9106532056853 -68.1974484111144,-22.9106711048655 -68.1974919983315,-22.9106821600502</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2011747140182,-22.9093936363251 -68.2012199867972,-22.9093957482267 -68.2012649399458,-22.9093903376872 -68.2013081273933,-22.9093775771925 -68.2013481621204,-22.9093578788993 -68.2013837552785,-22.9093318749594 -68.2014137650426,-22.9093004006025 -68.2014372260164,-22.9092644680877 -68.2014455280618,-22.9092469344362 -68.2014533845348,-22.909225232555 -68.201461720331,-22.9091839550995 -68.2014619662799,-22.909141961318 -68.2014541144747,-22.909100602498 -68.2014384165113,-22.9090612068413 -68.2014153778646,-22.9090250405941 -68.2013857386303,-22.9089932663992 -68.2013504522896,-22.9089669061546 -68.2013106508097,-22.9089468065134 -68.2012676155456,-22.9089336125427 -68.2012227285896,-22.9089277503169 -68.2012113863853,-22.908927457531 -68.2012105995248,-22.9089274544781 -68.2011774338924,-22.9089294059464 -68.2011331855662,-22.9089385289319 -68.2010914060066,-22.9089548238233 -68.2010534399667,-22.9089777671516 -68.2010205057158,-22.909006622539 -68.2009936617671,-22.9090404613067 -68.2009737725451,-22.90907819753 -68.2009614760394,-22.9091186167807 -68.2009571669691,-22.9091604203035 -68.2009609858184,-22.9092022656085 -68.2009728078766,-22.9092428061607 -68.2009922536823,-22.9092807393077 -68.2010186995093,-22.9093148469804 -68.2010512937298,-22.9093440319077 -68.2010889887682,-22.9093673557157 -68.2011305750473,-22.9093840698116 -68.2011747140182,-22.9093936363251</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2023293357929,-22.9077156061513 -68.2023746090193,-22.9077177177139 -68.2024195615827,-22.9077123059265 -68.2024627483904,-22.9076995460003 -68.2025027814845,-22.9076798473884 -68.2025383749626,-22.9076538422675 -68.2025683840852,-22.9076223676679 -68.2025918444517,-22.9075864358615 -68.2026080014518,-22.9075472001833 -68.2026163377614,-22.9075059217474 -68.2026165833294,-22.9074639288485 -68.2026087302822,-22.9074225691615 -68.2025930331337,-22.9073831736116 -68.2025699944388,-22.9073470084269 -68.2025403552801,-22.9073152344435 -68.2025050681564,-22.9072888744509 -68.2024652679587,-22.9072687742055 -68.2024222330916,-22.90725558146 -68.2023773466306,-22.9072497186701 -68.2023660045606,-22.9072494259704 -68.2023320515145,-22.9072513755437 -68.2022878038085,-22.907260497967 -68.2022460258728,-22.9072767931888 -68.2022080595143,-22.9072997377149 -68.2021751259222,-22.9073285924629 -68.2021482835675,-22.9073624323583 -68.2021283939454,-22.9074001687451 -68.2021160979468,-22.9074405881077 -68.2021117902746,-22.907482391687 -68.2021156084794,-22.9075242360734 -68.2021274307494,-22.9075647774571 -68.2021468776321,-22.9076027104779 -68.2021733224677,-22.9076368179596 -68.2022059165539,-22.9076660026517 -68.2022436123194,-22.907689326188 -68.2022851972698,-22.9077060399697 -68.2023293357929,-22.9077156061513</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2020316770764,-22.9071001173794 -68.2020769500914,-22.9071022290211 -68.202121901485,-22.9070968173072 -68.2021650890961,-22.9070840574612 -68.2022051220471,-22.9070643589189 -68.2022407154152,-22.9070383538597 -68.2022707244592,-22.9070068802153 -68.2022941838217,-22.9069709475411 -68.2023103418028,-22.9069317118955 -68.2023186771832,-22.9068904334686 -68.2023189228355,-22.9068484405695 -68.2023110708834,-22.9068070808731 -68.2022953729118,-22.9067676852903 -68.202272335371,-22.9067315200697 -68.2022426964126,-22.9066997460341 -68.2022074095039,-22.9066733859795 -68.2021676095293,-22.9066532856643 -68.2021245739109,-22.9066400928385 -68.2020796886422,-22.9066342299751 -68.2020683456497,-22.9066339372507 -68.20203439373,-22.9066358867697 -68.201990146208,-22.9066450091158 -68.2019483684302,-22.9066613042649 -68.2019104021988,-22.9066842487251 -68.2018774686935,-22.9067131043192 -68.2018506254231,-22.9067469432602 -68.2018307367902,-22.9067846796177 -68.2018184407656,-22.9068250989594 -68.201814132053,-22.9068669025269 -68.2018179511303,-22.9069087469255 -68.2018297732637,-22.9069492883304 -68.2018492190053,-22.9069872213808 -68.2018756646254,-22.9070213289141 -68.2019082585031,-22.9070505136635 -68.2019459540487,-22.9070738372661 -68.2019875387748,-22.9070905511206 -68.2020316770764,-22.9071001173794</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2007293114385,-22.9065726064269 -68.2007745842462,-22.9065747184344 -68.2008195355047,-22.9065693070851 -68.2008627220823,-22.9065565475861 -68.2009027560283,-22.9065368493766 -68.2009383494941,-22.9065108446105 -68.2009683577355,-22.9064793712104 -68.2009918183146,-22.9064434387383 -68.2010079765985,-22.9064042032313 -68.2010163123282,-22.9063629257836 -68.2010165583805,-22.9063209319918 -68.2010087068453,-22.9062795731436 -68.20099300931,-22.9062401774419 -68.2009699712357,-22.9062040111342 -68.2009403336744,-22.9061722368703 -68.2009050471602,-22.9061458765357 -68.2008652465647,-22.9061257758978 -68.2008222122238,-22.9061125827315 -68.2007773271962,-22.9061067195062 -68.2007659842534,-22.9061064266902 -68.2007320324558,-22.9061083759341 -68.200687785031,-22.9061174979206 -68.2006460072726,-22.9061337927284 -68.2006080409821,-22.9061567368768 -68.2005751073412,-22.9061855921987 -68.200548263863,-22.9062194309156 -68.2005283749568,-22.9062571671045 -68.2005160786022,-22.9062975863385 -68.2005117695135,-22.9063393898626 -68.2005155881753,-22.9063812351868 -68.200527409883,-22.9064217757757 -68.2005468551866,-22.9064597089757 -68.2005733003758,-22.9064938167159 -68.2006058938435,-22.906523001723 -68.2006435890133,-22.9065463256256 -68.2006851734097,-22.906563039813 -68.2007293114385,-22.9065726064269</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.2028269286497,-22.9067692032582 -68.2028722005997,-22.9067713146657 -68.2029171528293,-22.9067659036306 -68.2029603392975,-22.9067531426547 -68.2030003730166,-22.9067334439101 -68.2030359651701,-22.9067074395633 -68.2030659739654,-22.9066759648569 -68.2030894340374,-22.9066400320612 -68.2031055917499,-22.9066007963254 -68.2031139268621,-22.9065595187511 -68.2031141722709,-22.9065175249387 -68.2031063200867,-22.906476166177 -68.2030906219177,-22.9064367706657 -68.2030675832454,-22.9064006046464 -68.2030379441662,-22.9063688307546 -68.2030026581565,-22.9063424708785 -68.2029628571728,-22.9063223716595 -68.2029198225541,-22.906309178151 -68.202874936372,-22.9063033164125 -68.2028635943784,-22.9063030237506 -68.2028296425523,-22.9063049725389 -68.202785395179,-22.9063140960147 -68.2027436175974,-22.9063303904759 -68.2027056515876,-22.9063533351335 -68.2026727183273,-22.9063821909007 -68.2026458753177,-22.9064160299848 -68.2026259869529,-22.9064537664511 -68.2026136911952,-22.9064941858635 -68.2026093827395,-22.9065359894614 -68.2026132020502,-22.9065778347526 -68.2026250244019,-22.9066183752026 -68.2026444703237,-22.9066563081621 -68.2026709160857,-22.9066904155682 -68.2027035100622,-22.9067196001583 -68.2027412056604,-22.9067429235743 -68.2027827903913,-22.9067596372213 -68.2028269286497,-22.9067692032582</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_mono.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">San Pedro de Atacama</SimpleData>
+		<SimpleData name="ZONA">E3</SimpleData>
+		<SimpleData name="NOMBRE">E3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="SHAPE_Leng">7509.64327204</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1999456902703,-22.9118017013956 -68.1999736036136,-22.911804105625 -68.1999767376187,-22.9118040925028 -68.2000015435247,-22.9118019826789 -68.2000286603175,-22.9117953978321 -68.2000541317982,-22.9117845501854 -68.200077182778,-22.911769770958 -68.2000971124698,-22.9117515073653 -68.2001133169521,-22.9117303164092 -68.200125301993,-22.9117068396504 -68.2001327045706,-22.9116817915732 -68.200135299846,-22.9116559343289 -68.2001330081424,-22.9116300515749 -68.2001258999258,-22.911604930434 -68.2001141910832,-22.9115813352754 -68.2000982362504,-22.9115599814853 -68.2000785220868,-22.9115415182706 -68.2000556459464,-22.9115265077765 -68.2000303033182,-22.9115154051504 -68.2000032654692,-22.9115085466868 -68.1999753521803,-22.9115061433675 -68.199947412335,-22.9115082654075 -68.199920294616,-22.9115148511406 -68.1998948241567,-22.911525697869 -68.1998717732002,-22.911540477071 -68.199851843511,-22.9115587406359 -68.1998356390049,-22.9115799324684 -68.1998236539319,-22.9116034083014 -68.1998162513028,-22.911628456363 -68.1998136559624,-22.9116543145037 -68.1998159476108,-22.9116801963573 -68.1998230557733,-22.9117053175103 -68.1998347645694,-22.9117289135921 -68.1998507193843,-22.9117502665044 -68.1998704335454,-22.9117687297468 -68.1998933097043,-22.9117837402677 -68.1999186513894,-22.9117948438148 -68.1999456902703,-22.9118017013956</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

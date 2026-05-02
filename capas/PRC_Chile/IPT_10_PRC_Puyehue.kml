@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Zona de resguardo del suelo agrícola circundante.</SimpleData>
+		<SimpleData name="UPERM">Sólo la vivienda del propietario y edificaciones que complementen la actividad agrícola del predio.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5964686752377,-40.688418836181 -72.5982081521398,-40.6887488001726 -72.5988249207736,-40.6888665652935 -72.5991368926683,-40.6889193771222 -72.5995847883359,-40.6889530523896 -72.6001993776276,-40.6889576920538 -72.6010615744872,-40.6889099174137 -72.6016580325378,-40.6887959738184 -72.6025929606173,-40.6885731584598 -72.6027349313744,-40.6885210661552 -72.6025395103559,-40.6881031798133 -72.6016214021174,-40.6883342492677 -72.6010796384744,-40.6884464844351 -72.6005118690122,-40.6885118728106 -72.5997761846657,-40.6885110145956 -72.5993048533507,-40.6884780725227 -72.5986506254313,-40.6883912647569 -72.5957631007817,-40.6878141511891 -72.5945026316902,-40.6875766285054 -72.5924267792824,-40.6871854202788 -72.5881418164528,-40.6863776155521 -72.5846041619086,-40.6856627655558 -72.5844144757881,-40.6860837491447 -72.5852947132982,-40.6862588717487 -72.587303871951,-40.686658059275 -72.589214274472,-40.6870394356553 -72.5908589743075,-40.6873545912401 -72.5929699176032,-40.6877534873269 -72.5943346344023,-40.6880078723434 -72.5944758460442,-40.688034193464 -72.5964686752377,-40.688418836181</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Zona de resguardo del suelo agrícola circundante.</SimpleData>
+		<SimpleData name="UPERM">Sólo la vivienda del propietario y edificaciones que complementen la actividad agrícola del predio.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.583119438632,-40.6858260885723 -72.5838515900595,-40.6859717595033 -72.5840101336394,-40.6856420441113 -72.5840118962263,-40.6855430739235 -72.5828555948306,-40.6853093867773 -72.5830947259996,-40.6858030282757 -72.583119438632,-40.6858260885723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Zona de resguardo del suelo agrícola circundante.</SimpleData>
+		<SimpleData name="UPERM">Sólo la vivienda del propietario y edificaciones que complementen la actividad agrícola del predio.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6053464150569,-40.6873545213263 -72.6055621978757,-40.6877625123352 -72.6065576181637,-40.6873560821252 -72.6072809773939,-40.6870564471173 -72.6075330121925,-40.686941333308 -72.6096671176223,-40.6855222756609 -72.6120378936577,-40.6839230082048 -72.6116485472181,-40.6836054704251 -72.6110899368942,-40.6839753379959 -72.6090285211148,-40.6853623605775 -72.6073900719215,-40.6864680447182 -72.6069410140047,-40.6867025068344 -72.6053484199255,-40.6873539858197 -72.6053464150569,-40.6873545213263</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona Z-5</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala comunal y vecinal; actividades productivas inofensivas; actividades complementarias a la vialidad y transporte. (ver detalles en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6037681600403,-40.6877764402942 -72.6037677040394,-40.687776562619 -72.6039501861189,-40.6880982570486 -72.6042192841678,-40.6886474323954 -72.604433232353,-40.6890446368855 -72.6048726380977,-40.6896170814443 -72.6050778630513,-40.6899394975058 -72.6055919788578,-40.690874525564 -72.6056922609637,-40.6910569055864 -72.6062754175106,-40.6920871560308 -72.6065331771186,-40.6925425220027 -72.6068935080125,-40.693128154185 -72.6082852200002,-40.6927091519999 -72.608151706777,-40.6924561407974 -72.6071331423546,-40.6906234320377 -72.6061672922548,-40.6888962930589 -72.6055621978757,-40.6877625123352 -72.6053464150569,-40.6873545213263 -72.6037681600403,-40.6877764402942</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">E-1</SimpleData>
+		<SimpleData name="NOM">Zona E-1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de escala regional e interurbana (turismo), comunal y vecinal (deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5822414609357,-40.6835163788307 -72.5826453569582,-40.6837272238674 -72.5830794711473,-40.6839424888474 -72.5837911051761,-40.6841669985588 -72.5844510831319,-40.684303753263 -72.5844922156224,-40.6841952456785 -72.5846187745347,-40.6838646703189 -72.5845520440661,-40.6838663386458 -72.584007328049,-40.6838505062291 -72.5835998066413,-40.6836933936249 -72.5830181818743,-40.6833540402642 -72.5825977511872,-40.6831020103588 -72.5823472761484,-40.6833927568042 -72.5822414609357,-40.6835163788307</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona Z-6</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala regional, comunal y vecinal; actividades productivas. (ver detalles en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.597197711163,-40.6814643707379 -72.5970015904825,-40.6816587342808 -72.5968044713167,-40.6816601182156 -72.5964030354348,-40.6817036169724 -72.5961815298375,-40.6817562276545 -72.5961800673966,-40.6817565749681 -72.5962233396964,-40.6818244152486 -72.5964059984863,-40.68211077539 -72.5968268259234,-40.6820785858021 -72.5972119478101,-40.6820808688004 -72.5975733525304,-40.6821077186949 -72.5977860456685,-40.6821630367827 -72.5979189021913,-40.6822470568743 -72.5983881891159,-40.6830954456705 -72.5984856127557,-40.6830593197592 -72.5990954672005,-40.6828642056352 -72.5996409269215,-40.6826470182745 -72.5998009539712,-40.6824799883325 -72.5998302987964,-40.6824709388303 -72.6002307726765,-40.6823474259169 -72.6003975732991,-40.6822364192006 -72.6007675264413,-40.682131458855 -72.6015628335046,-40.6819236930012 -72.6015982521123,-40.6818643689401 -72.6016657595537,-40.6817231016519 -72.6017387275568,-40.6815902420105 -72.6018186632594,-40.6814705089244 -72.6019027085896,-40.6813573190836 -72.6019660492632,-40.6812781361452 -72.6020689440984,-40.6811662639341 -72.6021719678611,-40.6810572506261 -72.6022435196589,-40.6809830372271 -72.6026762764122,-40.6806149480052 -72.6031332931814,-40.6802961258609 -72.602801514057,-40.6801480253721 -72.6025082223563,-40.6801071496909 -72.6020659706198,-40.6800899889268 -72.6014291690723,-40.6801217943965 -72.6006557758447,-40.6801745418544 -72.6000590319176,-40.6802527461555 -72.599446355637,-40.680383868018 -72.5988169790866,-40.6805536322691 -72.5982918694381,-40.6807415863565 -72.5979077547122,-40.680932286778 -72.5975329611882,-40.6811798835213 -72.597197711163,-40.6814643707379</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala regional e interurbana, comunal y vecinal; actividades productivas. (ver detalles em ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6053867676197,-40.6814970440655 -72.6053263152394,-40.6818102594454 -72.6052932379323,-40.6821544236563 -72.6052678687939,-40.6823803965912 -72.6051671188686,-40.6826015774459 -72.6050771571584,-40.6827616589942 -72.6050940388689,-40.6829005274874 -72.6051043020302,-40.6829458374778 -72.6051125292744,-40.6829821582557 -72.6051581128935,-40.6831308528194 -72.6053188866055,-40.6833259849886 -72.6054613640094,-40.6834430555468 -72.6054979586537,-40.6835991791235 -72.6054965453632,-40.6836599861265 -72.6059544208751,-40.6837922129214 -72.606384240372,-40.6838395329327 -72.6070052771479,-40.6838629981247 -72.6078527181437,-40.6838186131872 -72.6083243475272,-40.6843793131532 -72.6075413711328,-40.6849220831592 -72.6067132406909,-40.6854984290271 -72.6059740966416,-40.6858968467326 -72.6053444291327,-40.6861488649794 -72.6043319213497,-40.6864414421528 -72.6032185884332,-40.6867800534885 -72.6037681600403,-40.6877764402942 -72.6053464150569,-40.6873545213263 -72.6053484199255,-40.6873539858197 -72.6069410140047,-40.6867025068344 -72.6073900719215,-40.6864680447182 -72.6090285211148,-40.6853623605775 -72.6110899368942,-40.6839753379959 -72.6116485472181,-40.6836054704251 -72.6101387182178,-40.6823740636614 -72.6082029189075,-40.6807390118481 -72.6077283231598,-40.6811377479754 -72.6069389985254,-40.6817653032948 -72.6066535320642,-40.6816955984592 -72.6063097212162,-40.681646780792 -72.6059368457356,-40.68163938018 -72.6057000485978,-40.681601511066 -72.605436200775,-40.6815263611512 -72.6053867676197,-40.6814970440655</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOM">Zona de protección de pozos de captación, plantas de filtro y estanques de agua potable.</SimpleData>
+		<SimpleData name="UPERM">Edificaciones que sirvan y/o complementen su funcionamiento y fines propios</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5853885165984,-40.6844858377755 -72.5853394056416,-40.683997863711 -72.5852892665886,-40.6839988994881 -72.5850104112612,-40.6839646775686 -72.5849782928911,-40.6838556860113 -72.5846187745347,-40.6838646703189 -72.5844922156224,-40.6841952456785 -72.5844510831319,-40.684303753263 -72.5844088599476,-40.6843627307634 -72.5852184567226,-40.6844876808149 -72.5853885165984,-40.6844858377755</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona Z-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala regional interurbana, comunal y vecinal; actividades productivas</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5853394056416,-40.683997863711 -72.5853885165984,-40.6844858377755 -72.5861006587248,-40.6844781184385 -72.5871762841152,-40.6843981944872 -72.5878509831197,-40.6842842706481 -72.5884284818044,-40.684109031324 -72.5892686468789,-40.6837540467191 -72.5896050434129,-40.6842475491765 -72.5907357364868,-40.6839692916702 -72.5917765069409,-40.6837653107392 -72.5919868637228,-40.683748035269 -72.592794436999,-40.6837478945507 -72.593566510831,-40.6836988151098 -72.5942273182313,-40.6835888614722 -72.59463766581,-40.6834573076874 -72.5946842643066,-40.6834423684052 -72.595165685116,-40.6832271985118 -72.5945472498846,-40.6821848677644 -72.5943124845445,-40.6822334590591 -72.5937553855523,-40.6823509034003 -72.5933992810477,-40.6823643846482 -72.5927149929582,-40.6823285194288 -72.5917772400477,-40.6825269175514 -72.5907282638947,-40.6827525999599 -72.590368914709,-40.6828805498165 -72.5897508386182,-40.6830284677917 -72.5889851908017,-40.6832262502269 -72.5882393392068,-40.6834138804485 -72.5879450942286,-40.6835302656688 -72.5877404842239,-40.6836545837899 -72.586882700695,-40.6838564106357 -72.5859740152421,-40.683984754059 -72.5853394056416,-40.683997863711</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional e interurbana, comunal y vecinal; actividades productivas; actividades complementarias a la vialidad y transporte. (ver detalles en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5943140580913,-40.6864269384244 -72.5948675524537,-40.6865292023937 -72.5949580393044,-40.686547431029 -72.5953541072693,-40.6866272179438 -72.5955152044305,-40.686656422903 -72.5966608938019,-40.6868723251607 -72.5983029720729,-40.6871963914528 -72.5993412802788,-40.6873820145016 -72.5999175899802,-40.6874462306303 -72.6002273562049,-40.6874437077919 -72.6002605535863,-40.6874498193129 -72.6001786725414,-40.6872979458496 -72.599629151786,-40.687263615194 -72.5991173243578,-40.6872051282165 -72.5979272689535,-40.6869771772938 -72.5964643224909,-40.6866951755823 -72.5955631290661,-40.6865147907716 -72.594360533864,-40.6863099222297 -72.5943140580913,-40.6864269384244</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona Z-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala regional interurbana, comunal y vecinal; actividades productivas</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5821355472858,-40.6836401136946 -72.5825887285054,-40.6838970536834 -72.5829984825827,-40.6840958012951 -72.5834575835812,-40.6842662054646 -72.5845871264781,-40.6845349101456 -72.5866796965757,-40.6849583235923 -72.5899668390375,-40.6856215194193 -72.592053645226,-40.686009270467 -72.5943140580913,-40.6864269384244 -72.594360533864,-40.6863099222297 -72.5928939159722,-40.6860200251235 -72.5928053924679,-40.6860037204057 -72.5926347597523,-40.6857993456383 -72.5907380143434,-40.6854533438133 -72.5893751615932,-40.685197919739 -72.5895818742106,-40.6847339761098 -72.5891507207888,-40.6843995008988 -72.5896050434129,-40.6842475491765 -72.5892686468789,-40.6837540467191 -72.5884284818044,-40.684109031324 -72.5878509831197,-40.6842842706481 -72.5871762841152,-40.6843981944872 -72.5861006587248,-40.6844781184385 -72.5853885165984,-40.6844858377755 -72.5852184567226,-40.6844876808149 -72.5844088599476,-40.6843627307634 -72.5844510831319,-40.684303753263 -72.5837911051761,-40.6841669985588 -72.5830794711473,-40.6839424888474 -72.5826453569582,-40.6837272238674 -72.5822414609357,-40.6835163788307 -72.5821380133379,-40.683637233494 -72.5821355472858,-40.6836401136946</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala comunal y vecinal; actividades productivas; actividades complementarias a la vialidad y el transporte; terminales rodoviarios</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5896050434129,-40.6842475491765 -72.5891507207888,-40.6843995008988 -72.5895818742106,-40.6847339761098 -72.5893751615932,-40.685197919739 -72.5907380143434,-40.6854533438133 -72.5926347597523,-40.6857993456383 -72.5928053924679,-40.6860037204057 -72.5928939159722,-40.6860200251235 -72.594360533864,-40.6863099222297 -72.5946857121585,-40.6854911814397 -72.5951881160798,-40.6843567672826 -72.59463766581,-40.6834573076874 -72.5942273182313,-40.6835888614722 -72.593566510831,-40.6836988151098 -72.592794436999,-40.6837478945507 -72.5919868637228,-40.683748035269 -72.5917765069409,-40.6837653107392 -72.5907357364868,-40.6839692916702 -72.5896050434129,-40.6842475491765</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala comunal y vecinal; actividades productivas; actividades complementarias a la vialidad y el transporte; terminales rodoviarios</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5955631290661,-40.6865147907716 -72.5964643224909,-40.6866951755823 -72.5979272689535,-40.6869771772938 -72.5991173243578,-40.6872051282165 -72.599629151786,-40.687263615194 -72.6001786725414,-40.6872979458496 -72.5993319673388,-40.6857274137976 -72.5985757944661,-40.6843284523149 -72.5963550781508,-40.6846801066759 -72.5956186109648,-40.6863508194154 -72.5955631290661,-40.6865147907716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala comunal y vecinal; actividades productivas; actividades complementarias a la vialidad y el transporte; terminales rodoviarios</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6005555620387,-40.6857793625637 -72.601311029677,-40.6871675285542 -72.6020403726803,-40.6869750481114 -72.6023522934861,-40.6868819037798 -72.6025415154343,-40.6867628057629 -72.6026544327112,-40.6866073710819 -72.6027410255376,-40.6863991450023 -72.6027464911691,-40.6862828098752 -72.6019516561189,-40.6848213384348 -72.6014895189932,-40.6839422048758 -72.5997390065686,-40.684276853629 -72.6005555620387,-40.6857793625637</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">E-2</SimpleData>
+		<SimpleData name="NOM">Zona E-2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento a escala comunal (cultura, organizaciones comunitarias, áreas verdes, deportes, servicios públicos); actividades complementarias a la vialidad y el transporte (solo terminales rodoviarios)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6021697640497,-40.6845413905571 -72.6026730598638,-40.6854579566264 -72.6028615783414,-40.685398452323 -72.6030948281491,-40.6853703138738 -72.6034056623118,-40.6854022999579 -72.6037140354598,-40.6854611694785 -72.6039202047466,-40.6855113186272 -72.6041171190272,-40.6855349493333 -72.6047644820247,-40.6854223761699 -72.6045790562751,-40.6843188233066 -72.6039880016479,-40.6843743661929 -72.6021697640497,-40.6845413905571</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala comunal y vecinal; actividades productivas; actividades complementarias a la vialidad y el transporte; terminales rodoviarios</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6049150485553,-40.6930279960793 -72.6059152375232,-40.6950280977381 -72.6045734983719,-40.6954006730144 -72.6052533634968,-40.6967584893976 -72.6059829759033,-40.6982398452827 -72.6083011604272,-40.6976133057587 -72.6104893604276,-40.6970444050676 -72.6096029503609,-40.6952701324789 -72.6091413263718,-40.6943314443888 -72.6082852200002,-40.6927091519999 -72.6068935080125,-40.693128154185 -72.6065331771186,-40.6925425220027 -72.6062754175106,-40.6920871560308 -72.6056922609637,-40.6910569055864 -72.6055919788578,-40.690874525564 -72.6050778630513,-40.6899394975058 -72.6048726380977,-40.6896170814443 -72.604433232353,-40.6890446368855 -72.6042192841678,-40.6886474323954 -72.6039501861189,-40.6880982570486 -72.6037677040394,-40.687776562619 -72.602648312708,-40.6880757963112 -72.6025395103559,-40.6881031798133 -72.6027349313744,-40.6885210661552 -72.6032305017914,-40.6895838194222 -72.6040049811151,-40.6911739949702 -72.6049150485553,-40.6930279960793</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZI-1</SimpleData>
+		<SimpleData name="NOM">Zona ZI-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda (solo del cuidador);equipamiento de escala comunal; actividades productivas; actividades complementarias a la vialidad y el transporte (ver detalles en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5945026316902,-40.6875766285054 -72.5957631007817,-40.6878141511891 -72.5986506254313,-40.6883912647569 -72.5993048533507,-40.6884780725227 -72.5997761846657,-40.6885110145956 -72.6005118690122,-40.6885118728106 -72.6010796384744,-40.6884464844351 -72.6016214021174,-40.6883342492677 -72.6025395103559,-40.6881031798133 -72.602648312708,-40.6880757963112 -72.6037677040394,-40.687776562619 -72.6037681600403,-40.6877764402942 -72.6032185884332,-40.6867800534885 -72.6029370641159,-40.6868563645892 -72.6020021064764,-40.6871071813973 -72.6013468556729,-40.6872781573726 -72.6010528865426,-40.6873548616081 -72.6006243200502,-40.6874182858367 -72.6002605535863,-40.6874498193129 -72.6002273562049,-40.6874437077919 -72.5999175899802,-40.6874462306303 -72.5993412802788,-40.6873820145016 -72.5983029720729,-40.6871963914528 -72.5966608938019,-40.6868723251607 -72.5955152044305,-40.686656422903 -72.5953541072693,-40.6866272179438 -72.5949580393044,-40.686547431029 -72.5945026316902,-40.6875766285054</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala regional e interurbana, comunal y vecinal; actividades productivas. (ver detalles em ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5828555948306,-40.6853093867773 -72.5840118962263,-40.6855430739235 -72.5840498021275,-40.6854525330173 -72.5840961805884,-40.6854768262375 -72.5846343788175,-40.6855897236223 -72.5846041619086,-40.6856627655558 -72.5881418164528,-40.6863776155521 -72.5924267792824,-40.6871854202788 -72.5945026316902,-40.6875766285054 -72.5949580393044,-40.686547431029 -72.5948675524537,-40.6865292023937 -72.5943140580913,-40.6864269384244 -72.592053645226,-40.686009270467 -72.5899668390375,-40.6856215194193 -72.5866796965757,-40.6849583235923 -72.5845871264781,-40.6845349101456 -72.5834575835812,-40.6842662054646 -72.5829984825827,-40.6840958012951 -72.5825887285054,-40.6838970536834 -72.5821355472858,-40.6836401136946 -72.5820932131551,-40.6836895716968 -72.582044105871,-40.6837953479034 -72.5820706494092,-40.6840715301578 -72.5821739631509,-40.6842470351871 -72.582389521265,-40.6844726677973 -72.582507665282,-40.6846328184105 -72.5826376064718,-40.6848670672054 -72.5828175353172,-40.6852308197773 -72.5828555948306,-40.6853093867773</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional e interurbana, comunal y vecinal; actividades productivas; actividades complementarias a la vialidad y transporte. (ver detalles en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5945472498846,-40.6821848677644 -72.595165685116,-40.6832271985118 -72.5946842643066,-40.6834423684052 -72.59463766581,-40.6834573076874 -72.5951881160798,-40.6843567672826 -72.5946857121585,-40.6854911814397 -72.594360533864,-40.6863099222297 -72.5955631290661,-40.6865147907716 -72.5956186109648,-40.6863508194154 -72.5963550781508,-40.6846801066759 -72.5985757944661,-40.6843284523149 -72.5993319673388,-40.6857274137976 -72.6001786725414,-40.6872979458496 -72.6002605535863,-40.6874498193129 -72.6006243200502,-40.6874182858367 -72.6010528865426,-40.6873548616081 -72.6013468556729,-40.6872781573726 -72.6020021064764,-40.6871071813973 -72.6029370641159,-40.6868563645892 -72.6032185884332,-40.6867800534885 -72.6043319213497,-40.6864414421528 -72.6053444291327,-40.6861488649794 -72.6059740966416,-40.6858968467326 -72.6067132406909,-40.6854984290271 -72.6075413711328,-40.6849220831592 -72.6083243475272,-40.6843793131532 -72.6078527181437,-40.6838186131872 -72.6070052771479,-40.6838629981247 -72.606384240372,-40.6838395329327 -72.6059544208751,-40.6837922129214 -72.6054965453632,-40.6836599861265 -72.6054979586537,-40.6835991791235 -72.6054613640094,-40.6834430555468 -72.6053188866055,-40.6833259849886 -72.6051581128935,-40.6831308528194 -72.6051125292744,-40.6829821582557 -72.6051043020302,-40.6829458374778 -72.6043261238365,-40.6828667706891 -72.6025545382064,-40.6825194331527 -72.6025178779133,-40.6827683950335 -72.6014192153973,-40.6828265449454 -72.6014158994289,-40.6830554019476 -72.6009413373708,-40.6831941321445 -72.6007926111458,-40.6829318971214 -72.6001642882535,-40.6830635107488 -72.5998582761369,-40.6825305607661 -72.5998302987964,-40.6824709388303 -72.5998009539712,-40.6824799883325 -72.5996409269215,-40.6826470182745 -72.5990954672005,-40.6828642056352 -72.5984856127557,-40.6830593197592 -72.5983881891159,-40.6830954456705 -72.5979189021913,-40.6822470568743 -72.5977860456685,-40.6821630367827 -72.5975733525304,-40.6821077186949 -72.5972119478101,-40.6820808688004 -72.5968268259234,-40.6820785858021 -72.5964059984863,-40.68211077539 -72.5962233396964,-40.6818244152486 -72.5961800673966,-40.6817565749681 -72.5959641764186,-40.6818078519466 -72.5955825866923,-40.6819293634483 -72.5953710692326,-40.6820122105451 -72.5948139742933,-40.682129659853 -72.5945472498846,-40.6821848677644</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6005555620387,-40.6857793625637 -72.5997390065686,-40.684276853629 -72.6014895189932,-40.6839422048758 -72.6019516561189,-40.6848213384348 -72.6027464911691,-40.6862828098752 -72.6027410255376,-40.6863991450023 -72.6026544327112,-40.6866073710819 -72.6025415154343,-40.6867628057629 -72.6023522934861,-40.6868819037798 -72.6020403726803,-40.6869750481114 -72.601311029677,-40.6871675285542 -72.6005555620387,-40.6857793625637</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6021697640497,-40.6845413905571 -72.6039880016479,-40.6843743661929 -72.6045790562751,-40.6843188233066 -72.6047644820247,-40.6854223761699 -72.6041171190272,-40.6855349493333 -72.6039202047466,-40.6855113186272 -72.6037140354598,-40.6854611694785 -72.6034056623118,-40.6854022999579 -72.6030948281491,-40.6853703138738 -72.6028615783414,-40.685398452323 -72.6026730598638,-40.6854579566264 -72.6021697640497,-40.6845413905571</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOM">Zona de protección de pozos de captación, plantas de filtro y estanques de agua potable.</SimpleData>
+		<SimpleData name="UPERM">Edificaciones que sirvan y/o complementen su funcionamiento y fines propios</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5838515900595,-40.6859717595033 -72.5844144757881,-40.6860837491447 -72.5846041619086,-40.6856627655558 -72.5846343788175,-40.6855897236223 -72.5840961805884,-40.6854768262375 -72.5840498021275,-40.6854525330173 -72.5840118962263,-40.6855430739235 -72.5840101336394,-40.6856420441113 -72.5838515900595,-40.6859717595033</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Zona de restricción de cauces naturales de agua y borde lacustre</SimpleData>
+		<SimpleData name="UPERM">Obras de defensa de la ribera del lago y cauce del río y equipamiento complementario para su uso como playa pública cuando corresponda como. (ver detalles en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5961815298375,-40.6817562276545 -72.5959829693457,-40.6814323953374 -72.5958803011677,-40.681485207878 -72.5957557229202,-40.6815695150845 -72.5956442081668,-40.6816057565756 -72.5954935672297,-40.6817147035355 -72.5952094811912,-40.6818158979678 -72.5950278175638,-40.6818573043761 -72.5948718962188,-40.6818681231253 -72.5946941390666,-40.681909407218 -72.5946005544105,-40.6819153039153 -72.5945146211163,-40.6819179828129 -72.5945107823053,-40.6818466160457 -72.5944139317974,-40.6818645285052 -72.5943352629781,-40.681929530547 -72.5943151852419,-40.6819927061465 -72.5940991665766,-40.6820500753187 -72.5938073318591,-40.682080022305 -72.5935923397146,-40.6820837437029 -72.593401742348,-40.6821045769722 -72.5932759498396,-40.6820936038072 -72.5931076696664,-40.6820928912014 -72.5928962633198,-40.6820905429548 -72.5927546858603,-40.6820770827697 -72.5926443575876,-40.682062648766 -72.5925443985618,-40.6820955489243 -72.59252742667,-40.6821437350499 -72.5923667978214,-40.6821398037687 -72.5923264584168,-40.6821172323214 -72.5919712573644,-40.6822057401549 -72.5918745641439,-40.68222662389 -72.5917107598023,-40.6823091694942 -72.5916271332184,-40.6822819886587 -72.5914344580301,-40.6822641618616 -72.5912988635915,-40.6822892350696 -72.5911183144226,-40.6823514505479 -72.591017236738,-40.6823635343083 -72.5909323320114,-40.6823125645458 -72.5909061081293,-40.6823342311472 -72.5909686947041,-40.6824067459075 -72.5906439394366,-40.6824794099794 -72.5903901316121,-40.6825617772127 -72.5901669335959,-40.6826312767125 -72.5900034443544,-40.6827197676103 -72.5895368758015,-40.682847478568 -72.5890996373085,-40.6829385323546 -72.588767703096,-40.6830233278449 -72.5885544635829,-40.6830597502518 -72.5884260402274,-40.6830726828019 -72.5883309424366,-40.6831232996702 -72.5881080583333,-40.6831987429515 -72.5878547244721,-40.6832900257084 -72.5875725347141,-40.6834268847967 -72.5869367972912,-40.6836104843175 -72.5864895877618,-40.6837346024954 -72.5860552868678,-40.6838076817989 -72.5855337729566,-40.6838596432383 -72.5850404770713,-40.6838541317709 -72.5849782928911,-40.6838556860113 -72.5850104112612,-40.6839646775686 -72.5852892665886,-40.6839988994881 -72.5853394056416,-40.683997863711 -72.5859740152421,-40.683984754059 -72.586882700695,-40.6838564106357 -72.5877404842239,-40.6836545837899 -72.5879450942286,-40.6835302656688 -72.5882393392068,-40.6834138804485 -72.5889851908017,-40.6832262502269 -72.5897508386182,-40.6830284677917 -72.590368914709,-40.6828805498165 -72.5907282638947,-40.6827525999599 -72.5917772400477,-40.6825269175514 -72.5927149929582,-40.6823285194288 -72.5933992810477,-40.6823643846482 -72.5937553855523,-40.6823509034003 -72.5943124845445,-40.6822334590591 -72.5945472498846,-40.6821848677644 -72.5948139742933,-40.682129659853 -72.5953710692326,-40.6820122105451 -72.5955825866923,-40.6819293634483 -72.5959641764186,-40.6818078519466 -72.5961800673966,-40.6817565749681 -72.5961815298375,-40.6817562276545</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Zona de restricción de cauces naturales de agua y borde lacustre</SimpleData>
+		<SimpleData name="UPERM">Obras de defensa de la ribera del lago y cauce del río y equipamiento complementario para su uso como playa pública cuando corresponda como. (ver detalles en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6077802051635,-40.6803718654688 -72.60755316002,-40.6805052887646 -72.6074410980071,-40.6806327025021 -72.6072626022307,-40.6808050866333 -72.6069411396699,-40.6809962399042 -72.60660024144,-40.6810593255977 -72.6060774258254,-40.6809994269199 -72.6057075110553,-40.6808727893756 -72.605365507688,-40.6806833235661 -72.6050325792761,-40.6805459962293 -72.6046788497033,-40.6803711929357 -72.6043144208417,-40.6802300822448 -72.6039880019111,-40.6800973143447 -72.6036556152835,-40.6799409029281 -72.6031332931814,-40.6802961258609 -72.6031768896741,-40.6803155863956 -72.6032056166284,-40.6803284094104 -72.6037777251065,-40.6806060038602 -72.6045389451681,-40.6809658492898 -72.6048426797448,-40.6811422169005 -72.6052033878067,-40.6813882868467 -72.6053867676197,-40.6814970440655 -72.605436200775,-40.6815263611512 -72.6057000485978,-40.681601511066 -72.6059368457356,-40.68163938018 -72.6063097212162,-40.681646780792 -72.6066535320642,-40.6816955984592 -72.6069389985254,-40.6817653032948 -72.6077283231598,-40.6811377479754 -72.6082029189075,-40.6807390118481 -72.6079454561625,-40.6805215400638 -72.6077802051635,-40.6803718654688</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Zona de restricción de cauces naturales de agua y borde lacustre</SimpleData>
+		<SimpleData name="UPERM">Obras de defensa de la ribera del lago y cauce del río y equipamiento complementario para su uso como playa pública cuando corresponda como. (ver detalles en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5976552220101,-40.6800964058375 -72.5969296772069,-40.6805729748504 -72.5962182963487,-40.6811384556516 -72.5959546182502,-40.6813861553469 -72.5959829693457,-40.6814323953374 -72.5961815298375,-40.6817562276545 -72.5964030354348,-40.6817036169724 -72.5968044713167,-40.6816601182156 -72.5970015904825,-40.6816587342808 -72.597197711163,-40.6814643707379 -72.5975329611882,-40.6811798835213 -72.5979077547122,-40.680932286778 -72.5982918694381,-40.6807415863565 -72.5988169790866,-40.6805536322691 -72.599446355637,-40.680383868018 -72.6000590319176,-40.6802527461555 -72.6006557758447,-40.6801745418544 -72.6014291690723,-40.6801217943965 -72.6020659706198,-40.6800899889268 -72.6025082223563,-40.6801071496909 -72.602801514057,-40.6801480253721 -72.6031332931814,-40.6802961258609 -72.6036556152835,-40.6799409029281 -72.6028755908672,-40.6795512580111 -72.6025687482862,-40.67944766 -72.6021427487309,-40.6793835259297 -72.6014918119915,-40.6793562018747 -72.6008753274453,-40.67938736962 -72.6003841109558,-40.6794155593403 -72.599296922025,-40.6795447724095 -72.5983667363111,-40.679795409903 -72.5976552220101,-40.6800964058375</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Puyehue</SimpleData>
+		<SimpleData name="LOC">Puyehue</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento de escala comunal y vecinal; actividades productivas; actividades complementarias a la vialidad y el transporte; terminales rodoviarios</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">28/01/1993</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6021719678611,-40.6810572506261 -72.6020689440984,-40.6811662639341 -72.6019660492632,-40.6812781361452 -72.6019027085896,-40.6813573190836 -72.6018186632594,-40.6814705089244 -72.6017387275568,-40.6815902420105 -72.6016657595537,-40.6817231016519 -72.6015982521123,-40.6818643689401 -72.6015628335046,-40.6819236930012 -72.6007675264413,-40.682131458855 -72.6003975732991,-40.6822364192006 -72.6002307726765,-40.6823474259169 -72.5998302987964,-40.6824709388303 -72.5998582761369,-40.6825305607661 -72.6001642882535,-40.6830635107488 -72.6007926111458,-40.6829318971214 -72.6009413373708,-40.6831941321445 -72.6014158994289,-40.6830554019476 -72.6014192153973,-40.6828265449454 -72.6025178779133,-40.6827683950335 -72.6025545382064,-40.6825194331527 -72.6043261238365,-40.6828667706891 -72.6051043020302,-40.6829458374778 -72.6050940388689,-40.6829005274874 -72.6050771571584,-40.6827616589942 -72.6051671188686,-40.6826015774459 -72.6052678687939,-40.6823803965912 -72.6052932379323,-40.6821544236563 -72.6053263152394,-40.6818102594454 -72.6053867676197,-40.6814970440655 -72.6052033878067,-40.6813882868467 -72.6048426797448,-40.6811422169005 -72.6045389451681,-40.6809658492898 -72.6037777251065,-40.6806060038602 -72.6032056166284,-40.6803284094104 -72.6031768896741,-40.6803155863956 -72.6031332931814,-40.6802961258609 -72.6026762764122,-40.6806149480052 -72.6022435196589,-40.6809830372271 -72.6021719678611,-40.6810572506261</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="secc_cifuncho_mono" id="secc_cifuncho_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+</Schema>
+<Folder><name>secc_cifuncho_mono</name>
+  <Placemark id="secc_cifuncho_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.632650120101,-25.6114909167932 -70.6284966291747,-25.6137060374809 -70.6225889620845,-25.6136883413465 -70.6226830085922,-25.6137878714804 -70.6228090718825,-25.6138933457959 -70.6231134321211,-25.6142286550002 -70.6235596991119,-25.614659930596 -70.6237750537922,-25.6148421046649 -70.6242953504746,-25.615201945007 -70.6246211059485,-25.6154513277 -70.6253832497293,-25.6159551997175 -70.6261402179368,-25.616435167358 -70.626455529771,-25.6166606292179 -70.6267968925107,-25.6169673777147 -70.6274114402602,-25.61749468236 -70.6278577009199,-25.6179354971453 -70.6280238643977,-25.6180233773941 -70.6285404084037,-25.6178300458864 -70.6294898382914,-25.6175462451137 -70.6305970189362,-25.6173488909683 -70.63292129448,-25.6171551167768 -70.635671315265,-25.6172491713798 -70.6373618452513,-25.6174690699052 -70.6388306348026,-25.6178172843045 -70.6391936283991,-25.6179759777185 -70.6391614089577,-25.6181478559098 -70.6392078179107,-25.6184346100278 -70.6392855360524,-25.618807440656 -70.6397755431308,-25.618808860653 -70.639980508074,-25.6189575401359 -70.6401907926402,-25.619091904381 -70.6403908094574,-25.6191498062677 -70.6406647585588,-25.6191601524283 -70.640896757427,-25.6191130527607 -70.6412133943485,-25.6189706576948 -70.6414777437879,-25.6187134625267 -70.6415525143957,-25.6184270597404 -70.6415642919766,-25.6180735968461 -70.6414489803524,-25.6179012928486 -70.6412808143026,-25.6177766056659 -70.6411307522587,-25.6177475110575 -70.6411942305546,-25.6176760393496 -70.6415665123237,-25.6174406531983 -70.6419546754955,-25.6171838150196 -70.6421196166232,-25.6170638130291 -70.6408716564598,-25.6167558437715 -70.6405871029424,-25.6155347936402 -70.6376576381585,-25.6136261314553 -70.6350611698027,-25.6110175665308 -70.632650120101,-25.6114909167932</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6125052855462,-25.6498904427894 -70.6131210284515,-25.6501287934348 -70.6132789780398,-25.6501722704675 -70.613428434176,-25.6503733633595 -70.6137442800977,-25.6504746473457 -70.6141792422012,-25.6504329853684 -70.6148761229603,-25.65011266553 -70.6154499070533,-25.6499424433366 -70.6159121638564,-25.6500011765675 -70.6159949585842,-25.6500587527678 -70.6161280769539,-25.6504031034669 -70.616185920909,-25.650793800376 -70.6163040531138,-25.650915973451 -70.6165761434796,-25.6510923558795 -70.616813136689,-25.6511396527742 -70.6170858110412,-25.6511583947159 -70.6184855869144,-25.6510276888483 -70.6198668904706,-25.6509028857512 -70.6217736278705,-25.6507354616165 -70.6240669999769,-25.6505273716708 -70.6252408925982,-25.6504354771837 -70.6252358371722,-25.6494218686468 -70.624262292853,-25.6494189624565 -70.6115878673241,-25.6493805302743 -70.6115873164359,-25.6496920184353 -70.6125052855462,-25.6498904427894</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-16</SimpleData>
+		<SimpleData name="NOMBRE">ZT-16 Zona de Infraestructura Sanitaria</SimpleData>
+		<SimpleData name="UPERM">Zona destinada a la abducción de aguas subterraneas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6184595526468,-25.6519185308445 -70.6165085915853,-25.6521610152636 -70.6149065676721,-25.6521083653039 -70.6149163984005,-25.652299475753 -70.6154402924773,-25.653782658284 -70.6155050687039,-25.6538024477001 -70.6164850575098,-25.6538914165059 -70.6172596316214,-25.653943927971 -70.6184524788807,-25.6539719783273 -70.6184595526468,-25.6519185308445</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6115873164359,-25.6496920184353 -70.6115809384094,-25.6532996514564 -70.6121072993698,-25.653340626504 -70.612976470603,-25.6534651070109 -70.6139325788588,-25.6535970135793 -70.6153155439686,-25.6537445456226 -70.6154402924773,-25.653782658284 -70.6149163984005,-25.652299475753 -70.6149065676721,-25.6521083653039 -70.6165085915853,-25.6521610152636 -70.6184595526468,-25.6519185308445 -70.6184524788807,-25.6539719783273 -70.6186588370568,-25.6539768296243 -70.6196234121416,-25.65395824835 -70.6208015461911,-25.653911641078 -70.6216239747498,-25.6538496255784 -70.6229289882281,-25.6536958998275 -70.6240522985181,-25.6535057934465 -70.6249541942845,-25.6533293480377 -70.6252428270778,-25.6532576059651 -70.6252441582048,-25.6510902124371 -70.6252408925982,-25.6504354771837 -70.6240669999769,-25.6505273716708 -70.6217736278705,-25.6507354616165 -70.6198668904706,-25.6509028857512 -70.6184855869144,-25.6510276888483 -70.6170858110412,-25.6511583947159 -70.616813136689,-25.6511396527742 -70.6165761434796,-25.6510923558795 -70.6163040531138,-25.650915973451 -70.616185920909,-25.650793800376 -70.6161280769539,-25.6504031034669 -70.6159949585842,-25.6500587527678 -70.6159121638564,-25.6500011765675 -70.6157121841768,-25.6499456790885 -70.6154499070533,-25.6499424433366 -70.6148761229603,-25.65011266553 -70.6141792422012,-25.6504329853684 -70.6137442800977,-25.6504746473457 -70.613428434176,-25.6503733633595 -70.6132789780398,-25.6501722704675 -70.6131210284515,-25.6501287934348 -70.6125052855462,-25.6498904427894 -70.6115873164359,-25.6496920184353</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-11</SimpleData>
+		<SimpleData name="NOMBRE">ZT-11 Zona de Uso Productivo Especies Autóctonas</SimpleData>
+		<SimpleData name="UPERM">Zona de cultivos de especies autóctonas enunciadas en el punto 2 del Artículo 8 de la presente ordenanza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6196234121416,-25.65395824835 -70.6186588370568,-25.6539768296243 -70.6172596316214,-25.653943927971 -70.6164850575098,-25.6538914165059 -70.6155050687039,-25.6538024477001 -70.6154402924773,-25.653782658284 -70.615645745099,-25.6543598956244 -70.6157760464973,-25.6547543966038 -70.6158603650229,-25.6551129286883 -70.6159695763897,-25.6558656404285 -70.6160925413429,-25.6564631415225 -70.6161901487835,-25.6567918573235 -70.6163406404495,-25.6570729649448 -70.6165833897584,-25.6573483804211 -70.6168658478098,-25.6575761462389 -70.6175570230209,-25.6577394671993 -70.6183473336361,-25.6578194864585 -70.6187507586216,-25.6578181934627 -70.6187777560856,-25.6577049463222 -70.6188205716326,-25.6575283258115 -70.6189323441662,-25.6572324901673 -70.619096893518,-25.6569177042381 -70.6193457880563,-25.6565983974114 -70.6196683991797,-25.6562984191666 -70.6200223869125,-25.656065413945 -70.6205240533896,-25.6558041908958 -70.6209304281087,-25.655657326883 -70.6217483053218,-25.655401827296 -70.6221703831507,-25.6552836696821 -70.6227189706656,-25.6551611126741 -70.6232411175202,-25.6550623602172 -70.6236894238201,-25.6549777147134 -70.624111308185,-25.654912098556 -70.6246860873183,-25.6548326052742 -70.6250420807427,-25.6547691778419 -70.6254375837286,-25.6547106433556 -70.6260167292221,-25.6546177546952 -70.6257395692714,-25.6543639291985 -70.6252195121753,-25.6539202511373 -70.6252428160895,-25.6532756837645 -70.6252428270778,-25.6532576059651 -70.6249541942845,-25.6533293480377 -70.6240522985181,-25.6535057934465 -70.6229289882281,-25.6536958998275 -70.6216239747498,-25.6538496255784 -70.6208015461911,-25.653911641078 -70.6196234121416,-25.65395824835</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6236906594864,-25.6577758437673 -70.6260032556672,-25.657752882093 -70.6292448595404,-25.6577147149202 -70.6294096724268,-25.6577176500467 -70.6292789638914,-25.6575988861231 -70.6274599816636,-25.6559394746437 -70.6260167292221,-25.6546177546952 -70.6254375837286,-25.6547106433556 -70.6250420807427,-25.6547691778419 -70.6246860873183,-25.6548326052742 -70.624111308185,-25.654912098556 -70.6236894238201,-25.6549777147134 -70.6232411175202,-25.6550623602172 -70.6227189706656,-25.6551611126741 -70.6221703831507,-25.6552836696821 -70.6217483053218,-25.655401827296 -70.6209304281087,-25.655657326883 -70.6205240533896,-25.6558041908958 -70.6200223869125,-25.656065413945 -70.6196683991797,-25.6562984191666 -70.6193457880563,-25.6565983974114 -70.619096893518,-25.6569177042381 -70.6189323441662,-25.6572324901673 -70.6188205716326,-25.6575283258115 -70.6187777560856,-25.6577049463222 -70.6187507586216,-25.6578181934627 -70.6202645728306,-25.6578133328189 -70.6236906594864,-25.6577758437673</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-11</SimpleData>
+		<SimpleData name="NOMBRE">ZT-11 Zona de Uso Productivo Especies Autóctonas</SimpleData>
+		<SimpleData name="UPERM">Zona de cultivos de especies autóctonas enunciadas en el punto 2 del Artículo 8 de la presente ordenanza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6187507586216,-25.6578181934627 -70.6187471084425,-25.657941076378 -70.6187517282425,-25.658117839772 -70.618766854946,-25.6583041881412 -70.6195146574281,-25.6584784183409 -70.6204733579346,-25.6586341729459 -70.6212478151017,-25.6587272649563 -70.6219064575393,-25.6587817901932 -70.6225335115978,-25.6588266632682 -70.6231132862637,-25.6588283999809 -70.6238353341391,-25.6588401128538 -70.624562774238,-25.6588183991518 -70.6249686681841,-25.6588052789065 -70.6252059523879,-25.6587773233566 -70.6257016198498,-25.6587166982182 -70.6260919089257,-25.658646204225 -70.6268515746357,-25.6584573803025 -70.6272736056115,-25.6583535384041 -70.6275002786123,-25.6583446562603 -70.6275794417685,-25.6583162282227 -70.6277956407269,-25.658288206615 -70.6281277602967,-25.658270081864 -70.6285495669757,-25.6582283360613 -70.6290082497454,-25.6581914760143 -70.6295196558849,-25.6581499922214 -70.6298692057738,-25.6581351880388 -70.6294096724268,-25.6577176500467 -70.6292448595404,-25.6577147149202 -70.6260032556672,-25.657752882093 -70.6236906594864,-25.6577758437673 -70.6202645728306,-25.6578133328189 -70.6187507586216,-25.6578181934627</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6115773144739,-25.6553511316344 -70.6115439732858,-25.6611129766616 -70.6188549584235,-25.661368456029 -70.6233083004864,-25.6615132075707 -70.62985652892,-25.661735662653 -70.6339573856061,-25.6618883690921 -70.6328907897269,-25.6608996405896 -70.6309272760415,-25.6590965468116 -70.6298692057738,-25.6581351880388 -70.6295196558849,-25.6581499922214 -70.6290082497454,-25.6581914760143 -70.6285495669757,-25.6582283360613 -70.6281277602967,-25.658270081864 -70.6277956407269,-25.658288206615 -70.6275794417685,-25.6583162282227 -70.6275002786123,-25.6583446562603 -70.6272736056115,-25.6583535384041 -70.6268515746357,-25.6584573803025 -70.6260919089257,-25.658646204225 -70.6257016198498,-25.6587166982182 -70.6252059523879,-25.6587773233566 -70.6249686681841,-25.6588052789065 -70.624562774238,-25.6588183991518 -70.6238353341391,-25.6588401128538 -70.6231132862637,-25.6588283999809 -70.6225335115978,-25.6588266632682 -70.6219064575393,-25.6587817901932 -70.6212478151017,-25.6587272649563 -70.6204733579346,-25.6586341729459 -70.6195146574281,-25.6584784183409 -70.618766854946,-25.6583041881412 -70.6187517282425,-25.658117839772 -70.6187471084425,-25.657941076378 -70.6187507586216,-25.6578181934627 -70.6183473336361,-25.6578194864585 -70.6175570230209,-25.6577394671993 -70.6168658478098,-25.6575761462389 -70.6165833897584,-25.6573483804211 -70.6163406404495,-25.6570729649448 -70.6161901487835,-25.6567918573235 -70.6160925413429,-25.6564631415225 -70.6159695763897,-25.6558656404285 -70.6158603650229,-25.6551129286883 -70.6157760464973,-25.6547543966038 -70.615645745099,-25.6543598956244 -70.6154402924773,-25.653782658284 -70.6153155439686,-25.6537445456226 -70.6139325788588,-25.6535970135793 -70.612976470603,-25.6534651070109 -70.6121072993698,-25.653340626504 -70.6115809384094,-25.6532996514564 -70.6115773144739,-25.6553511316344</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3a</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3a Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6337354125056,-25.6499017770422 -70.6333760989355,-25.6501634598552 -70.632948048237,-25.6504870410005 -70.632689139567,-25.6506725855793 -70.632229532126,-25.650976963934 -70.6318070362063,-25.6512193506985 -70.6315482940084,-25.6513571226029 -70.631189313235,-25.6515232624128 -70.6308620388661,-25.6516656086995 -70.6305136991513,-25.6518031158298 -70.6300546472814,-25.6519498499897 -70.6296589753032,-25.6520585534999 -70.629268676562,-25.6521386106529 -70.6290050204712,-25.6521760471624 -70.6286727805779,-25.6522323892368 -70.628372093134,-25.6523079314509 -70.6278653961708,-25.6525118410265 -70.6271951425136,-25.6527630344014 -70.6265040279066,-25.6529520619993 -70.62569691068,-25.6531550716831 -70.6252428160895,-25.6532756837645 -70.6252195121753,-25.6539202511373 -70.6257395692714,-25.6543639291985 -70.6260167292221,-25.6546177546952 -70.6264370646521,-25.6545867877852 -70.6268586856475,-25.6545928174309 -70.6274323061518,-25.6548333688571 -70.6276321020895,-25.6549677167366 -70.6277736995075,-25.6551639926533 -70.6280507989881,-25.6557858219321 -70.6281868694169,-25.6560537356516 -70.628312897843,-25.6561830867514 -70.6284340000789,-25.656216884442 -70.6285080116961,-25.6561550024202 -70.6285245793889,-25.6559448634879 -70.6280273729524,-25.654973663905 -70.6277921470735,-25.6544331683763 -70.6277247674609,-25.6541176870594 -70.6277208065556,-25.6537546242783 -70.6278530847215,-25.6536117067078 -70.6280852249495,-25.6535455164929 -70.6283063423347,-25.6536130487673 -70.6287318208263,-25.6540107972038 -70.6293829205325,-25.654691052364 -70.6298345015301,-25.655160528478 -70.6300131161968,-25.6553234727006 -70.6302234743596,-25.6554530711886 -70.6303234933676,-25.6554868048584 -70.6305448210868,-25.6554970097912 -70.6307346449365,-25.6554736834067 -70.6309616028909,-25.6553835888804 -70.6311413983927,-25.6552169229394 -70.6311683490674,-25.6550498071648 -70.6310797762498,-25.6547629287194 -70.6306497520145,-25.654159764033 -70.629965313141,-25.6532226532514 -70.6298999259539,-25.6530851223493 -70.6298940237769,-25.6528940250303 -70.6299935083918,-25.652709210843 -70.630198356857,-25.6525366482514 -70.6303633778238,-25.6524475660535 -70.6306402223333,-25.6524065825338 -70.6309365744946,-25.6524373110625 -70.6313578845612,-25.6525281187067 -70.6318117936258,-25.6527145598125 -70.6321207259004,-25.6529125169067 -70.6324229634033,-25.653140309823 -70.632587301627,-25.6532423019436 -70.6328373276576,-25.6533326029632 -70.6331466451069,-25.6534230762097 -70.6333508104276,-25.6534415869874 -70.6334891805326,-25.6534360212376 -70.6335883187895,-25.6533467427753 -70.6336350091544,-25.6531856558201 -70.633589891623,-25.6529048768011 -70.6332104250965,-25.6521633354924 -70.6330668942858,-25.6517688140162 -70.6330486837393,-25.6513328613379 -70.6331018761987,-25.6511956792059 -70.6331724412827,-25.6511134826555 -70.6337533664185,-25.6507807934511 -70.6335335774832,-25.6503406686388 -70.6337292246034,-25.6501597153215 -70.6339351898505,-25.650040893327 -70.6340987887663,-25.6499792708017 -70.6343886710031,-25.649975339702 -70.6345781291358,-25.650052324465 -70.6348527758542,-25.6498859320576 -70.6352699562562,-25.6496530757556 -70.6359565600022,-25.649239477405 -70.6360779951454,-25.6491777302537 -70.6360201241276,-25.6491488997094 -70.6358514429974,-25.6491579634892 -70.6355929826995,-25.6492193118358 -70.6351868181971,-25.6493184450318 -70.6349230693935,-25.6493845541247 -70.6343216678156,-25.6495499933604 -70.6339942162903,-25.6497448930266 -70.6337354125056,-25.6499017770422</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-2</SimpleData>
+		<SimpleData name="NOMBRE">ZT-2 Zona de Equipamiento Turístico Media Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6338510563891,-25.6510239883699 -70.6339256363028,-25.6511710988378 -70.6341710114894,-25.6510858293399 -70.6344519614194,-25.6510006640146 -70.6346024699806,-25.6509151179487 -70.6347055469099,-25.6508294329837 -70.6347811950659,-25.6506755959224 -70.6348015436409,-25.6505108493551 -70.6347981765762,-25.6503460343185 -70.634719567221,-25.6502204090727 -70.6345781291358,-25.650052324465 -70.6343886710031,-25.649975339702 -70.6340987887663,-25.6499792708017 -70.6339351898505,-25.650040893327 -70.6337292246034,-25.6501597153215 -70.6335335774832,-25.6503406686388 -70.6337533664185,-25.6507807934511 -70.6337765922278,-25.6508446340184 -70.6338510563891,-25.6510239883699</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-2</SimpleData>
+		<SimpleData name="NOMBRE">ZT-2 Zona de Equipamiento Turístico Media Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6348874230177,-25.653353181075 -70.635194855613,-25.653783055229 -70.6353408109748,-25.6536888897583 -70.6357039990171,-25.6534510980522 -70.6357569777178,-25.6533736266842 -70.6358496960634,-25.6532365586839 -70.6358633577288,-25.6530992598148 -70.6358376613429,-25.6529140779497 -70.6357721408744,-25.6528123762287 -70.6356540852747,-25.6526627521917 -70.6354304962147,-25.6525486491914 -70.6350747244972,-25.6525535842273 -70.6349888905099,-25.6526070748857 -70.6347182753031,-25.6527495950298 -70.6346058974116,-25.6528567498074 -70.6348874230177,-25.653353181075</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3 Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6347811950659,-25.6506755959224 -70.6347055469099,-25.6508294329837 -70.6348167134583,-25.6508152068163 -70.6356640700051,-25.6505877836206 -70.6363037051738,-25.6504164780799 -70.6367586891424,-25.6502983754768 -70.6365949319399,-25.6500321806526 -70.6364703968788,-25.6498526830929 -70.6364395451336,-25.6497912432468 -70.6364376689692,-25.6497928757708 -70.6354480568721,-25.6501960402953 -70.6349664450119,-25.6503916867804 -70.6348005640385,-25.6504628766054 -70.6347811950659,-25.6506755959224</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3 Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6353097454998,-25.6524907350515 -70.6352615751604,-25.6525509920197 -70.6354304962147,-25.6525486491914 -70.6356041500352,-25.6526372695876 -70.6358740469805,-25.6523872832603 -70.6363710157658,-25.6519492462927 -70.6373385736062,-25.6510778682307 -70.6372231664425,-25.6509246704514 -70.6369398017751,-25.6505751296032 -70.6368871891059,-25.6504931803624 -70.6367550712568,-25.6506510252906 -70.6361144250372,-25.6514803572618 -70.6354897338867,-25.6522667405828 -70.6353097454998,-25.6524907350515</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3 Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6358633577288,-25.6530992598148 -70.6358496960634,-25.6532365586839 -70.6365653619961,-25.6530056111489 -70.638082428976,-25.6524905115857 -70.638654919285,-25.6523058653178 -70.6382962255079,-25.6520182101916 -70.6380823401291,-25.6518309110481 -70.6380781535623,-25.6518338153781 -70.6375397196074,-25.6520758825226 -70.6369695348875,-25.6523536826149 -70.636184195303,-25.6527395312724 -70.6358376613429,-25.6529140779497 -70.6358633577288,-25.6530992598148</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3 Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6379404424001,-25.6540471932036 -70.6373957338374,-25.6549448811632 -70.6375894371542,-25.6549418586819 -70.6377473492082,-25.6549996400344 -70.6381642401348,-25.6544777678951 -70.6385055957454,-25.654077488881 -70.6391088415587,-25.6533913476181 -70.6394581972617,-25.6529624284953 -70.6388879665221,-25.6525092727914 -70.638743522827,-25.6527382375297 -70.6383221575284,-25.6534105717913 -70.6379404424001,-25.6540471932036</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-2</SimpleData>
+		<SimpleData name="NOMBRE">ZT-2 Zona de Equipamiento Turístico Media Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6375894371542,-25.6549418586819 -70.6373957338374,-25.6549448811632 -70.6373237017046,-25.6549454679635 -70.6371786576925,-25.6549749045731 -70.6370002835832,-25.6551147107069 -70.6368151108525,-25.6553142090708 -70.6367092788007,-25.6554333263373 -70.6375798702207,-25.6560986535781 -70.6375947414471,-25.6561092056437 -70.6376689885254,-25.6560481561104 -70.6377747569817,-25.6559469521765 -70.6379235578497,-25.6557861601123 -70.6379864605696,-25.6556967734503 -70.638022989822,-25.6556132818677 -70.6380332928602,-25.6554938878573 -70.6380370275889,-25.6553685034686 -70.6379782714219,-25.6552160674512 -70.637879901439,-25.65508740236 -70.6377473492082,-25.6549996400344 -70.6375894371542,-25.6549418586819</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3 Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6380370275889,-25.6553685034686 -70.6380332928602,-25.6554938878573 -70.6383290406903,-25.6553617044572 -70.6392754992933,-25.6548736031076 -70.6402179846356,-25.6543890677449 -70.6409822597354,-25.653997165309 -70.6406114342309,-25.6537847193099 -70.6403346255828,-25.6536035251476 -70.6400857223078,-25.653779624431 -70.6393091090443,-25.6543076300601 -70.6388296948559,-25.6546251090313 -70.6380569727316,-25.6551674507285 -70.6379782714219,-25.6552160674512 -70.6380370275889,-25.6553685034686</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3 Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6409815612128,-25.655327547615 -70.640734791487,-25.6565640714948 -70.640856181194,-25.6565166499187 -70.6409721995037,-25.6564978756567 -70.6411197247037,-25.6565126298895 -70.6413910079906,-25.6558016415247 -70.6415611816025,-25.6553674259648 -70.6418164312333,-25.6547184912139 -70.6419015751956,-25.6544846646236 -70.6416858223346,-25.654388108732 -70.6414490581758,-25.6542709910704 -70.6412912371847,-25.6541869413694 -70.6412181800394,-25.6541435248853 -70.6411531215561,-25.654496848681 -70.6409815612128,-25.655327547615</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-2</SimpleData>
+		<SimpleData name="NOMBRE">ZT-2 Zona de Equipamiento Turístico Media Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6409248178737,-25.6572365755744 -70.6415989674245,-25.6573770418234 -70.641625770525,-25.6572481407779 -70.6416525227579,-25.6571335703712 -70.6416476527961,-25.6570189096389 -70.6416375448756,-25.6568946795023 -70.6415851894858,-25.6567942130186 -70.6414802450635,-25.6566601580892 -70.6413330869739,-25.6565403119902 -70.6411197247037,-25.6565126298895 -70.6409721995037,-25.6564978756567 -70.640856181194,-25.6565166499187 -70.640734791487,-25.6565640714948 -70.6406212131391,-25.6566385838409 -70.6405470743068,-25.656738686753 -70.6404306213012,-25.6568816613843 -70.6403879380853,-25.6570296245091 -70.6403579126614,-25.6570782434631 -70.6409248178737,-25.6572365755744</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6314502215336,-25.6491043175269 -70.6308630741093,-25.6493354687402 -70.6299924113215,-25.64963146442 -70.629530749034,-25.6497734121004 -70.6290889561589,-25.6498855609201 -70.6284625297427,-25.6500449315115 -70.6278888696754,-25.6501865416509 -70.6272823766511,-25.6502981968178 -70.6268406873444,-25.6503804822079 -70.6265243398701,-25.650415369467 -70.6259907871679,-25.6503958693542 -70.6255888828471,-25.6504066150322 -70.6252408925982,-25.6504354771837 -70.6252441582048,-25.6510902124371 -70.6252428160895,-25.6532756837645 -70.62569691068,-25.6531550716831 -70.6265040279066,-25.6529520619993 -70.6271951425136,-25.6527630344014 -70.6278653961708,-25.6525118410265 -70.628372093134,-25.6523079314509 -70.6286727805779,-25.6522323892368 -70.6290050204712,-25.6521760471624 -70.629268676562,-25.6521386106529 -70.6296589753032,-25.6520585534999 -70.6300546472814,-25.6519498499897 -70.6305136991513,-25.6518031158298 -70.6308620388661,-25.6516656086995 -70.631189313235,-25.6515232624128 -70.6315482940084,-25.6513571226029 -70.6318070362063,-25.6512193506985 -70.632229532126,-25.650976963934 -70.632689139567,-25.6506725855793 -70.632948048237,-25.6504870410005 -70.6333760989355,-25.6501634598552 -70.6337354125056,-25.6499017770422 -70.6339942162903,-25.6497448930266 -70.6343216678156,-25.6495499933604 -70.6349230693935,-25.6493845541247 -70.6351868181971,-25.6493184450318 -70.6355929826995,-25.6492193118358 -70.6358514429974,-25.6491579634892 -70.6360201241276,-25.6491488997094 -70.6360779951454,-25.6491777302537 -70.636142254024,-25.6492446251736 -70.6363562559555,-25.6490876072469 -70.6361989855393,-25.6488506899987 -70.6366026128462,-25.6487228843744 -70.6371886683284,-25.6484236365185 -70.637291795186,-25.6483698469353 -70.6361610329556,-25.6470720742182 -70.6361204938519,-25.647006389517 -70.635969879195,-25.6471338956995 -70.6354625744758,-25.6475193530247 -70.6352962851613,-25.6475976889874 -70.6347188202373,-25.6477034870888 -70.6343867493141,-25.6477168484883 -70.6341018545442,-25.6478020025175 -70.6335473895379,-25.6481084962099 -70.633167220234,-25.6483080165963 -70.632652405058,-25.6485787965663 -70.6321376895033,-25.6488209125221 -70.6318684727398,-25.6489419349304 -70.6314502215336,-25.6491043175269</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6446230059098,-25.6543111125518 -70.6446687916748,-25.6543166697957 -70.6446763672356,-25.6541217793632 -70.6447300763129,-25.6535778460624 -70.6446210588395,-25.6535614662201 -70.6442325024068,-25.6534881803702 -70.6442435204346,-25.6535544767061 -70.6444436505432,-25.6542776695766 -70.6446230059098,-25.6543111125518</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-12</SimpleData>
+		<SimpleData name="NOMBRE">ZT-12 Zona de Protección de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde a terrenos de playa del territorio marítimo. En ellos, además de su uso como paseos, senderos peatonales, pérgolas, miradores y otros,  se permitirán usos relacionados y de apoyo explusivo a la actividad turística recreac</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6447300763129,-25.6535778460624 -70.6446763672356,-25.6541217793632 -70.6446687916748,-25.6543166697957 -70.6454290523907,-25.6544089450855 -70.6457241465621,-25.654424113991 -70.6460301126719,-25.6543437740488 -70.6462151389403,-25.6541818829816 -70.6462946403697,-25.6540531308318 -70.6461580882669,-25.6539142113256 -70.6460215354992,-25.6537752925873 -70.6459250189545,-25.6536995250727 -70.6457042795134,-25.6537108404402 -70.6455527860801,-25.6537014538283 -70.6447300763129,-25.6535778460624</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-12</SimpleData>
+		<SimpleData name="NOMBRE">ZT-12 Zona de Protección de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde a terrenos de playa del territorio marítimo. En ellos, además de su uso como paseos, senderos peatonales, pérgolas, miradores y otros,  se permitirán usos relacionados y de apoyo explusivo a la actividad turística recreac</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6437644720728,-25.6541510266059 -70.6444436505432,-25.6542776695766 -70.6442435204346,-25.6535544767061 -70.6442325024068,-25.6534881803702 -70.6435281547964,-25.6533553294071 -70.6424258207635,-25.653020776491 -70.6416731965517,-25.6525319671019 -70.6412624405805,-25.6522471557177 -70.6404937518897,-25.6516448412257 -70.6397070636861,-25.6509176709267 -70.6389611169051,-25.6502228588602 -70.638367576705,-25.6496526842142 -70.6380984759359,-25.6493684726121 -70.6377970072207,-25.6489844464579 -70.6374076526999,-25.6485028143734 -70.637291795186,-25.6483698469353 -70.6371886683284,-25.6484236365185 -70.6366026128462,-25.6487228843744 -70.6364624929767,-25.6487672530685 -70.6365626646965,-25.6488421927359 -70.6368308876759,-25.6490006114523 -70.6371298395174,-25.6494122989637 -70.6372766646575,-25.6496229118675 -70.6377071400502,-25.6501018565351 -70.6381062837241,-25.6504995005619 -70.6383846847208,-25.6507630392137 -70.6388049303515,-25.6511559646237 -70.6397872774597,-25.6520711994141 -70.640260236561,-25.6524642719902 -70.6404600753881,-25.65258904807 -70.6407597176584,-25.6528096498077 -70.6410540733688,-25.6530350129769 -70.6412380529799,-25.6531740732893 -70.6413747330927,-25.6532747817751 -70.6415220203172,-25.6533564130352 -70.6417428599761,-25.6535051315623 -70.6421058854996,-25.6536876967981 -70.6423638191868,-25.6537791976611 -70.6425849275231,-25.6538514847565 -70.6429587941785,-25.6539480934129 -70.6433905211919,-25.654078304463 -70.6437644720728,-25.6541510266059</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.651864567899,-25.6486096726506 -70.6518564745853,-25.6490515164002 -70.6514021447032,-25.6489845609329 -70.6511383700148,-25.6490614470392 -70.6507624813446,-25.6491738442712 -70.6505645424871,-25.6492628560732 -70.6505050486458,-25.6493224007678 -70.6503733138689,-25.6493160600852 -70.6503665420433,-25.6493697815478 -70.6503331547392,-25.6495010532366 -70.6503791663968,-25.6495310385051 -70.6503854071034,-25.6496325665627 -70.6504045786698,-25.6498057846397 -70.6503977251365,-25.649883390433 -70.6500678858016,-25.6500138295495 -70.6499426564524,-25.6500313904746 -70.6498764307693,-25.6501327146742 -70.649843288201,-25.6501923332662 -70.6498167111703,-25.6502579417215 -70.6497507112736,-25.6502935823555 -70.6496912155315,-25.6503531267666 -70.6496249700029,-25.6504604221658 -70.6493275349206,-25.6507462011098 -70.6491096653181,-25.6508829249997 -70.6489549036868,-25.6510592355956 -70.6487567757702,-25.6512019851411 -70.6485190218487,-25.6513732849876 -70.648313062069,-25.6514945158321 -70.6480754792127,-25.6516156565261 -70.6479809660706,-25.6517045599556 -70.6480829235693,-25.6519413069451 -70.6481689724478,-25.6522066705658 -70.648247141789,-25.6524648456565 -70.6483489283688,-25.6527517499464 -70.6483717345011,-25.6530169355222 -70.6484653707328,-25.6533754700066 -70.6486067609656,-25.6536409892013 -70.6488191544472,-25.6539497011892 -70.6490473612114,-25.6542584571639 -70.649338789049,-25.6545745567381 -70.6494646908501,-25.6547468803315 -70.6495270776211,-25.654997845269 -70.6494705352069,-25.6553487915253 -70.6494345545496,-25.6554390567452 -70.6500251776337,-25.6556290062948 -70.6511043637934,-25.6560022469374 -70.6516214958382,-25.6559495568566 -70.6520329187471,-25.6558551688229 -70.6524339962051,-25.6557034277071 -70.6525762005982,-25.6556035091189 -70.6528800435846,-25.6553714808996 -70.6530257119884,-25.6551569258193 -70.653124857517,-25.6550616634386 -70.6531780482348,-25.6549185038039 -70.6532441720864,-25.6548470337654 -70.6533702761546,-25.6545727121124 -70.6534900152898,-25.654232688621 -70.6535498339788,-25.6540776046393 -70.6536096930406,-25.653910578944 -70.6535085414598,-25.6537562413403 -70.6534143867681,-25.6535457934912 -70.6532791733913,-25.6530103999154 -70.6532595182878,-25.6525899744361 -70.6533024274242,-25.6523703545243 -70.6534084819922,-25.6521795732387 -70.6534512612427,-25.651998169068 -70.6532833352976,-25.6517843305971 -70.6532904293135,-25.6516350709838 -70.6533171060579,-25.6515396072887 -70.6533369909338,-25.6515038355244 -70.6533506526789,-25.6513605655826 -70.6533511392841,-25.6512172588779 -70.6533054902645,-25.6510797939233 -70.6534178084817,-25.6509845691272 -70.6534385649495,-25.6506920395374 -70.6534787407767,-25.650501073562 -70.6535384565665,-25.6503758452027 -70.6536244827297,-25.6502626328993 -70.6535393676747,-25.6501071456899 -70.6535336512704,-25.6498503685838 -70.6535076449651,-25.649748786573 -70.6535278133123,-25.6496294192775 -70.6535873057216,-25.6495698734195 -70.6535874273285,-25.6495340465129 -70.6533701126126,-25.649509555795 -70.6528378843561,-25.6491020308667 -70.652832393027,-25.6487795719882 -70.6525956614404,-25.6486535153539 -70.6523591946754,-25.6484498349518 -70.6523068187716,-25.6483541493234 -70.6520828574098,-25.6483475511517 -70.6518722347192,-25.6482932208882 -70.651864567899,-25.6486096726506</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6457488506688,-25.6619893784071 -70.6457798483607,-25.6621709896244 -70.6451008262874,-25.6619063311481 -70.6450675329909,-25.6608648614468 -70.6450331501,-25.6601386676939 -70.6450332821589,-25.6601004527364 -70.6450333648082,-25.6600765674838 -70.6448743683738,-25.6601095672703 -70.6448845961588,-25.6607055082759 -70.644930171887,-25.6623859292858 -70.644930965612,-25.6630182543013 -70.6450482002828,-25.663018468502 -70.6459771193267,-25.6621956437402 -70.6455524445966,-25.6600066861356 -70.6455412160665,-25.6599473718758 -70.6454026428109,-25.6599820775514 -70.6455009203667,-25.6605221521118 -70.6457488506688,-25.6619893784071</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6448648574661,-25.6595554012586 -70.6448743683738,-25.6601095672703 -70.6450333648082,-25.6600765674838 -70.6450332821589,-25.6601004527364 -70.6450331501,-25.6601386676939 -70.6450675329909,-25.6608648614468 -70.6451008262874,-25.6619063311481 -70.6457798483607,-25.6621709896244 -70.6457488506688,-25.6619893784071 -70.6455009203667,-25.6605221521118 -70.6454026428109,-25.6599820775514 -70.6455412160665,-25.6599473718758 -70.6452742246868,-25.6585369845191 -70.6451095186659,-25.6585365163621 -70.6450556655071,-25.6579790529154 -70.6450304082899,-25.6576625082156 -70.6449658078358,-25.6572921101274 -70.6448185178262,-25.6560675980351 -70.6447222812252,-25.6553209246795 -70.6446710048785,-25.6549087672286 -70.644645376215,-25.6546997023824 -70.6446687916748,-25.6543166697957 -70.6446230059098,-25.6543111125518 -70.6444436505432,-25.6542776695766 -70.6445146362429,-25.6545314399869 -70.6445379061626,-25.6546604842351 -70.6446146530713,-25.6553270873746 -70.6447071145515,-25.6560223973319 -70.6447569507278,-25.6564703784602 -70.6448260435246,-25.6570653052637 -70.6448913328122,-25.6576172286865 -70.6449606743704,-25.6581405022132 -70.6449829912435,-25.6585454121513 -70.644864340544,-25.6585629888084 -70.6448648574661,-25.6595554012586</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-1a</SimpleData>
+		<SimpleData name="NOMBRE">ZT-1a Zona Vivienda Unifamiliar</SimpleData>
+		<SimpleData name="UPERM">Vivienda</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6415989674245,-25.6573770418234 -70.6414267086474,-25.6575774785256 -70.6398191794553,-25.657572860232 -70.6381746549664,-25.6575967786881 -70.6366935500697,-25.6576115985889 -70.6366250327754,-25.6576113999813 -70.6369091217645,-25.6577603093297 -70.6374826914424,-25.6580247038479 -70.6380510267968,-25.6582795273299 -70.6390562399607,-25.6587028016105 -70.639704545559,-25.6586998929582 -70.6413121570753,-25.6586854042592 -70.6426193736882,-25.6586604859724 -70.6439845493823,-25.6586404977882 -70.6442112524822,-25.6586220359804 -70.6442146821611,-25.6586250208033 -70.6446685788005,-25.6585946764856 -70.644864340544,-25.6585629888084 -70.6449118218957,-25.6585559544889 -70.6448324114499,-25.6580863969507 -70.6448049268656,-25.6580325778337 -70.6447353620583,-25.6575737924208 -70.6447054578447,-25.6574578666121 -70.6443996646425,-25.657485657679 -70.6442520561811,-25.6574947911969 -70.6441253964681,-25.6575422000117 -70.6432662584289,-25.6575493038311 -70.6425442221491,-25.6575376868308 -70.6415989674245,-25.6573770418234</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6363562559555,-25.6490876072469 -70.636142254024,-25.6492446251736 -70.6360779951454,-25.6491777302537 -70.6359565600022,-25.649239477405 -70.6352699562562,-25.6496530757556 -70.6348527758542,-25.6498859320576 -70.6345781291358,-25.650052324465 -70.6343886710031,-25.649975339702 -70.6340987887663,-25.6499792708017 -70.6339351898505,-25.650040893327 -70.6337292246034,-25.6501597153215 -70.6335335774832,-25.6503406686388 -70.6337533664185,-25.6507807934511 -70.6331724412827,-25.6511134826555 -70.6331018761987,-25.6511956792059 -70.6330486837393,-25.6513328613379 -70.6330668942858,-25.6517688140162 -70.6332104250965,-25.6521633354924 -70.633589891623,-25.6529048768011 -70.6336350091544,-25.6531856558201 -70.6335883187895,-25.6533467427753 -70.6334891805326,-25.6534360212376 -70.6333508104276,-25.6534415869874 -70.6331466451069,-25.6534230762097 -70.6328373276576,-25.6533326029632 -70.632587301627,-25.6532423019436 -70.6324229634033,-25.653140309823 -70.6321207259004,-25.6529125169067 -70.6318117936258,-25.6527145598125 -70.6313578845612,-25.6525281187067 -70.6309365744946,-25.6524373110625 -70.6306402223333,-25.6524065825338 -70.6303633778238,-25.6524475660535 -70.630198356857,-25.6525366482514 -70.6299935083918,-25.652709210843 -70.6298940237769,-25.6528940250303 -70.6298999259539,-25.6530851223493 -70.629965313141,-25.6532226532514 -70.6306497520145,-25.654159764033 -70.6310797762498,-25.6547629287194 -70.6311683490674,-25.6550498071648 -70.6311413983927,-25.6552169229394 -70.6309616028909,-25.6553835888804 -70.6307346449365,-25.6554736834067 -70.6305448210868,-25.6554970097912 -70.6303234933676,-25.6554868048584 -70.6302234743596,-25.6554530711886 -70.6300131161968,-25.6553234727006 -70.6298345015301,-25.655160528478 -70.6293829205325,-25.654691052364 -70.6287318208263,-25.6540107972038 -70.6283063423347,-25.6536130487673 -70.6280852249495,-25.6535455164929 -70.6278530847215,-25.6536117067078 -70.6277208065556,-25.6537546242783 -70.6277247674609,-25.6541176870594 -70.6277921470735,-25.6544331683763 -70.6280273729524,-25.654973663905 -70.6285245793889,-25.6559448634879 -70.6285080116961,-25.6561550024202 -70.6284340000789,-25.656216884442 -70.628312897843,-25.6561830867514 -70.6281868694169,-25.6560537356516 -70.6280507989881,-25.6557858219321 -70.6277736995075,-25.6551639926533 -70.6276321020895,-25.6549677167366 -70.6274323061518,-25.6548333688571 -70.6268586856475,-25.6545928174309 -70.6264370646521,-25.6545867877852 -70.6260167292221,-25.6546177546952 -70.6274599816636,-25.6559394746437 -70.6292789638914,-25.6575988861231 -70.6294096724268,-25.6577176500467 -70.6303456543866,-25.6576983833934 -70.6345729202083,-25.6576438875207 -70.6366250327754,-25.6576113999813 -70.6366935500697,-25.6576115985889 -70.6381746549664,-25.6575967786881 -70.6398191794553,-25.657572860232 -70.6414267086474,-25.6575774785256 -70.6415989674245,-25.6573770418234 -70.6409248178737,-25.6572365755744 -70.6403579126614,-25.6570782434631 -70.6403879380853,-25.6570296245091 -70.6404306213012,-25.6568816613843 -70.6405470743068,-25.656738686753 -70.6406212131391,-25.6566385838409 -70.640734791487,-25.6565640714948 -70.6409815612128,-25.655327547615 -70.6411531215561,-25.654496848681 -70.6412181800394,-25.6541435248853 -70.6412912371847,-25.6541869413694 -70.6414490581758,-25.6542709910704 -70.6416858223346,-25.654388108732 -70.6419015751956,-25.6544846646236 -70.6418164312333,-25.6547184912139 -70.6415611816025,-25.6553674259648 -70.6413910079906,-25.6558016415247 -70.6411197247037,-25.6565126298895 -70.6413330869739,-25.6565403119902 -70.6414802450635,-25.6566601580892 -70.6415026037931,-25.6566887184615 -70.6415364472339,-25.6566526557664 -70.6417005181901,-25.6564572710173 -70.6420126286821,-25.6561285553411 -70.6424414540863,-25.6555804330184 -70.6429817390404,-25.6549630799784 -70.643397040556,-25.655115022743 -70.6437128250548,-25.6552437067695 -70.6434296810519,-25.6555624298949 -70.6435516158966,-25.6555969412994 -70.6438874227388,-25.6556516392868 -70.6440620389472,-25.6556431806597 -70.6443782172218,-25.6556590093725 -70.6443298315738,-25.6553632978077 -70.6442666357294,-25.6553487867634 -70.6442203771674,-25.6550094913204 -70.644157860846,-25.6547991274524 -70.6439889909097,-25.6548607457111 -70.6439367509172,-25.6547268428706 -70.6442482049077,-25.654584421875 -70.6443272782688,-25.6545798703283 -70.6445086470987,-25.6545100299695 -70.6444873823517,-25.6544340086429 -70.644221268824,-25.6545310026635 -70.6439203557579,-25.6546734529464 -70.6437989358398,-25.6547304297831 -70.6436565181093,-25.6547634624981 -70.6435142491257,-25.6547535022971 -70.6432828966351,-25.6545952026542 -70.6431043491496,-25.654408391103 -70.643026239864,-25.6541358812979 -70.6428422070694,-25.6540111540628 -70.6426683826294,-25.653981995386 -70.6422201801542,-25.6540428130783 -70.6417880719965,-25.6540224667172 -70.6415668304727,-25.653988393447 -70.6412879150783,-25.6538681699044 -70.6410304494653,-25.6536429135327 -70.6408467699691,-25.6534178682177 -70.6406477817702,-25.653049469968 -70.6405537507508,-25.652810351362 -70.6404328838548,-25.65270968825 -70.640264382086,-25.65266621074 -70.6399114514093,-25.6526126479243 -70.6395218464604,-25.652496878171 -70.639190417382,-25.6523239516841 -70.6389066913679,-25.652074729769 -70.6387442173071,-25.6518163044893 -70.6386446851568,-25.6516440459357 -70.6386084817892,-25.6514480858539 -70.6384991497525,-25.6510656125592 -70.6383890791006,-25.6508933230958 -70.6381890595215,-25.6508210905894 -70.637941574978,-25.6507582738732 -70.6375626528587,-25.6506043131561 -70.6371632914567,-25.6502687680544 -70.6369692023519,-25.6500102481516 -70.636848965047,-25.6497328349707 -70.6367973253819,-25.6494317359817 -70.6367455860915,-25.6491592982862 -70.6366932889306,-25.6490444989054 -70.6364408250518,-25.6489004563945 -70.6363407916791,-25.6488715036151 -70.6362578622318,-25.6488320473156 -70.6361989855393,-25.6488506899987 -70.6363562559555,-25.6490876072469</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.638743522827,-25.6527382375297 -70.6388879665221,-25.6525092727914 -70.6394581972617,-25.6529624284953 -70.6391088415587,-25.6533913476181 -70.6385055957454,-25.654077488881 -70.6381642401348,-25.6544777678951 -70.6377473492082,-25.6549996400344 -70.637879901439,-25.65508740236 -70.6379782714219,-25.6552160674512 -70.6380569727316,-25.6551674507285 -70.6388296948559,-25.6546251090313 -70.6393091090443,-25.6543076300601 -70.6400857223078,-25.653779624431 -70.6403346255828,-25.6536035251476 -70.6406114342309,-25.6537847193099 -70.6409822597354,-25.653997165309 -70.6402179846356,-25.6543890677449 -70.6392754992933,-25.6548736031076 -70.6383290406903,-25.6553617044572 -70.6380332928602,-25.6554938878573 -70.638022989822,-25.6556132818677 -70.6379864605696,-25.6556967734503 -70.6379235578497,-25.6557861601123 -70.6377747569817,-25.6559469521765 -70.6376689885254,-25.6560481561104 -70.6375947414471,-25.6561092056437 -70.6375798702207,-25.6560986535781 -70.6367092788007,-25.6554333263373 -70.6368151108525,-25.6553142090708 -70.6370002835832,-25.6551147107069 -70.6371786576925,-25.6549749045731 -70.6373237017046,-25.6549454679635 -70.6373957338374,-25.6549448811632 -70.6379404424001,-25.6540471932036 -70.6383221575284,-25.6534105717913 -70.638743522827,-25.6527382375297</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.6367550712568,-25.6506510252906 -70.6368871891059,-25.6504931803624 -70.6369398017751,-25.6505751296032 -70.6372231664425,-25.6509246704514 -70.6373385736062,-25.6510778682307 -70.6363710157658,-25.6519492462927 -70.6358740469805,-25.6523872832603 -70.6356041500352,-25.6526372695876 -70.6356540852747,-25.6526627521917 -70.6357721408744,-25.6528123762287 -70.6358376613429,-25.6529140779497 -70.636184195303,-25.6527395312724 -70.6369695348875,-25.6523536826149 -70.6375397196074,-25.6520758825226 -70.6380781535623,-25.6518338153781 -70.6380823401291,-25.6518309110481 -70.6382962255079,-25.6520182101916 -70.638654919285,-25.6523058653178 -70.638082428976,-25.6524905115857 -70.6365653619961,-25.6530056111489 -70.6358496960634,-25.6532365586839 -70.6357569777178,-25.6533736266842 -70.6357039990171,-25.6534510980522 -70.6353408109748,-25.6536888897583 -70.635194855613,-25.653783055229 -70.6348874230177,-25.653353181075 -70.6346058974116,-25.6528567498074 -70.6347182753031,-25.6527495950298 -70.6349888905099,-25.6526070748857 -70.6350747244972,-25.6525535842273 -70.6352615751604,-25.6525509920197 -70.6353097454998,-25.6524907350515 -70.6354897338867,-25.6522667405828 -70.6361144250372,-25.6514803572618 -70.6367550712568,-25.6506510252906</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.6363037051738,-25.6504164780799 -70.6356640700051,-25.6505877836206 -70.6348167134583,-25.6508152068163 -70.6347055469099,-25.6508294329837 -70.6347811950659,-25.6506755959224 -70.6348005640385,-25.6504628766054 -70.6349664450119,-25.6503916867804 -70.6354480568721,-25.6501960402953 -70.6364376689692,-25.6497928757708 -70.6364395451336,-25.6497912432468 -70.6364703968788,-25.6498526830929 -70.6365949319399,-25.6500321806526 -70.6367586891424,-25.6502983754768 -70.6363037051738,-25.6504164780799</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-11</SimpleData>
+		<SimpleData name="NOMBRE">ZT-11 Zona de Uso Productivo Especies Autóctonas</SimpleData>
+		<SimpleData name="UPERM">Zona de cultivos de especies autóctonas enunciadas en el punto 2 del Artículo 8 de la presente ordenanza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6294096724268,-25.6577176500467 -70.6298692057738,-25.6581351880388 -70.6311876877126,-25.6580543561483 -70.6321047088918,-25.658076155166 -70.6336569752834,-25.6580615890888 -70.6343998785364,-25.6581354113856 -70.6347793132641,-25.658150848484 -70.6350085853568,-25.6581515160062 -70.6353802654184,-25.6581239352593 -70.635752047304,-25.6580676931401 -70.6361160491007,-25.6579755996608 -70.636313874362,-25.6579260158783 -70.6368593576841,-25.657934763211 -70.6374516732311,-25.6581146598013 -70.6376150119679,-25.6581294640048 -70.63768399614,-25.6581149629829 -70.6374826914424,-25.6580247038479 -70.6369091217645,-25.6577603093297 -70.6366250327754,-25.6576113999813 -70.6345729202083,-25.6576438875207 -70.6303456543866,-25.6576983833934 -70.6294096724268,-25.6577176500467</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6353802654184,-25.6581239352593 -70.6350085853568,-25.6581515160062 -70.6347793132641,-25.658150848484 -70.6343998785364,-25.6581354113856 -70.6336569752834,-25.6580615890888 -70.6321047088918,-25.658076155166 -70.6311876877126,-25.6580543561483 -70.6298692057738,-25.6581351880388 -70.6309272760415,-25.6590965468116 -70.6328907897269,-25.6608996405896 -70.6339573856061,-25.6618883690921 -70.635195574891,-25.6629901502472 -70.6402998568408,-25.6630096879086 -70.644930965612,-25.6630182543013 -70.644930171887,-25.6623859292858 -70.6448845961588,-25.6607055082759 -70.6448648574661,-25.6595554012586 -70.644864340544,-25.6585629888084 -70.6446685788005,-25.6585946764856 -70.6442146821611,-25.6586250208033 -70.6442112524822,-25.6586220359804 -70.6439845493823,-25.6586404977882 -70.6426193736882,-25.6586604859724 -70.6413121570753,-25.6586854042592 -70.639704545559,-25.6586998929582 -70.6390562399607,-25.6587028016105 -70.6380510267968,-25.6582795273299 -70.63768399614,-25.6581149629829 -70.6376150119679,-25.6581294640048 -70.6374516732311,-25.6581146598013 -70.6368593576841,-25.657934763211 -70.636313874362,-25.6579260158783 -70.6361160491007,-25.6579755996608 -70.635752047304,-25.6580676931401 -70.6353802654184,-25.6581239352593</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-13</SimpleData>
+		<SimpleData name="NOMBRE">ZT-13 Zona de Extensión de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde una franja de extensión de la Zona de Protección de Borde Costero. Se permiten los usos de la Zona ZT-12</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6415668304727,-25.653988393447 -70.6417880719965,-25.6540224667172 -70.6422201801542,-25.6540428130783 -70.6426683826294,-25.653981995386 -70.6428422070694,-25.6540111540628 -70.643026239864,-25.6541358812979 -70.6431043491496,-25.654408391103 -70.6432828966351,-25.6545952026542 -70.6435142491257,-25.6547535022971 -70.6436565181093,-25.6547634624981 -70.6437989358398,-25.6547304297831 -70.6439203557579,-25.6546734529464 -70.644221268824,-25.6545310026635 -70.6444873823517,-25.6544340086429 -70.6444436505432,-25.6542776695766 -70.6437644720728,-25.6541510266059 -70.6433905211919,-25.654078304463 -70.6429587941785,-25.6539480934129 -70.6425849275231,-25.6538514847565 -70.6423638191868,-25.6537791976611 -70.6421058854996,-25.6536876967981 -70.6417428599761,-25.6535051315623 -70.6415220203172,-25.6533564130352 -70.6413747330927,-25.6532747817751 -70.6412380529799,-25.6531740732893 -70.6410540733688,-25.6530350129769 -70.6407597176584,-25.6528096498077 -70.6404600753881,-25.65258904807 -70.640260236561,-25.6524642719902 -70.6397872774597,-25.6520711994141 -70.6388049303515,-25.6511559646237 -70.6383846847208,-25.6507630392137 -70.6381062837241,-25.6504995005619 -70.6377071400502,-25.6501018565351 -70.6372766646575,-25.6496229118675 -70.6371298395174,-25.6494122989637 -70.6368308876759,-25.6490006114523 -70.6365626646965,-25.6488421927359 -70.6364624929767,-25.6487672530685 -70.6362578622318,-25.6488320473156 -70.6363407916791,-25.6488715036151 -70.6364408250518,-25.6489004563945 -70.6366932889306,-25.6490444989054 -70.6367455860915,-25.6491592982862 -70.6367973253819,-25.6494317359817 -70.636848965047,-25.6497328349707 -70.6369692023519,-25.6500102481516 -70.6371632914567,-25.6502687680544 -70.6375626528587,-25.6506043131561 -70.637941574978,-25.6507582738732 -70.6381890595215,-25.6508210905894 -70.6383890791006,-25.6508933230958 -70.6384991497525,-25.6510656125592 -70.6386084817892,-25.6514480858539 -70.6386446851568,-25.6516440459357 -70.6387442173071,-25.6518163044893 -70.6389066913679,-25.652074729769 -70.639190417382,-25.6523239516841 -70.6395218464604,-25.652496878171 -70.6399114514093,-25.6526126479243 -70.640264382086,-25.65266621074 -70.6404328838548,-25.65270968825 -70.6405537507508,-25.652810351362 -70.6406477817702,-25.653049469968 -70.6408467699691,-25.6534178682177 -70.6410304494653,-25.6536429135327 -70.6412879150783,-25.6538681699044 -70.6415668304727,-25.653988393447</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-3</SimpleData>
+		<SimpleData name="NOMBRE">ZT-3 Zona de Equipamiento Turístico Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6416375448756,-25.6568946795023 -70.6416434551306,-25.6569673187574 -70.6420163499307,-25.6565728224275 -70.642793962327,-25.6557581880037 -70.643397040556,-25.655115022743 -70.6429817390404,-25.6549630799784 -70.6424414540863,-25.6555804330184 -70.6420126286821,-25.6561285553411 -70.6417005181901,-25.6564572710173 -70.6415364472339,-25.6566526557664 -70.6415026037931,-25.6566887184615 -70.6415851894858,-25.6567942130186 -70.6416375448756,-25.6568946795023</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-11</SimpleData>
+		<SimpleData name="NOMBRE">ZT-11 Zona de Uso Productivo Especies Autóctonas</SimpleData>
+		<SimpleData name="UPERM">Zona de cultivos de especies autóctonas enunciadas en el punto 2 del Artículo 8 de la presente ordenanza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6415989674245,-25.6573770418234 -70.6417692385556,-25.6574059797437 -70.6421201833274,-25.6570257368928 -70.6425805012719,-25.6565159193188 -70.6429826079779,-25.6560728122563 -70.6433106913545,-25.6556963702694 -70.6437128250548,-25.6552437067695 -70.643397040556,-25.655115022743 -70.642793962327,-25.6557581880037 -70.6420163499307,-25.6565728224275 -70.6416434551306,-25.6569673187574 -70.6416476527961,-25.6570189096389 -70.6416525227579,-25.6571335703712 -70.641625770525,-25.6572481407779 -70.6415989674245,-25.6573770418234</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6448324114499,-25.6580863969507 -70.6449118218957,-25.6585559544889 -70.6449829912435,-25.6585454121513 -70.6449606743704,-25.6581405022132 -70.6448913328122,-25.6576172286865 -70.6448260435246,-25.6570653052637 -70.6447628727404,-25.6565213746949 -70.6445426709954,-25.6565397495182 -70.6445815284876,-25.6567491320212 -70.6446330918611,-25.6570788880963 -70.6446952127996,-25.6574038974411 -70.6447054578447,-25.6574578666121 -70.6447353620583,-25.6575737924208 -70.6448049268656,-25.6580325778337 -70.6448324114499,-25.6580863969507</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-11</SimpleData>
+		<SimpleData name="NOMBRE">ZT-11 Zona de Uso Productivo Especies Autóctonas</SimpleData>
+		<SimpleData name="UPERM">Zona de cultivos de especies autóctonas enunciadas en el punto 2 del Artículo 8 de la presente ordenanza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6434475706349,-25.6569322550985 -70.6433731960662,-25.6571421743793 -70.6432277707887,-25.6575486844733 -70.6432662584289,-25.6575493038311 -70.6441253964681,-25.6575422000117 -70.6442520561811,-25.6574947911969 -70.6443996646425,-25.657485657679 -70.6447054578447,-25.6574578666121 -70.6446952127996,-25.6574038974411 -70.6446330918611,-25.6570788880963 -70.644618183498,-25.6569835476322 -70.644538519324,-25.6569926335663 -70.6442222700665,-25.6569965105341 -70.6439534716014,-25.6569957446768 -70.6436847560631,-25.6569710930494 -70.6434475706349,-25.6569322550985</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-11</SimpleData>
+		<SimpleData name="NOMBRE">ZT-11 Zona de Uso Productivo Especies Autóctonas</SimpleData>
+		<SimpleData name="UPERM">Zona de cultivos de especies autóctonas enunciadas en el punto 2 del Artículo 8 de la presente ordenanza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6425442221491,-25.6575376868308 -70.6432277707887,-25.6575486844733 -70.6433731960662,-25.6571421743793 -70.6434475706349,-25.6569322550985 -70.6433739432943,-25.6569272141045 -70.6430526555435,-25.6568641957836 -70.6427630743289,-25.6567773833378 -70.6425315188168,-25.6566764052117 -70.6424611117366,-25.656648148244 -70.6421201833274,-25.6570257368928 -70.6417692385556,-25.6574059797437 -70.6425442221491,-25.6575376868308</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-10</SimpleData>
+		<SimpleData name="NOMBRE">ZT-10 Zona de Equipamiento Productivo</SimpleData>
+		<SimpleData name="UPERM">Zona de equipamiento vinculado exclusivamente a la actividad productiva de especies autóctonas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6427630743289,-25.6567773833378 -70.6430191318996,-25.6568541458605 -70.6431272066682,-25.6566446689174 -70.6432147843507,-25.6564293576757 -70.6431069554846,-25.6564057636258 -70.6427607039978,-25.6563173437956 -70.6425805012719,-25.6565159193188 -70.6424611117366,-25.656648148244 -70.6425315188168,-25.6566764052117 -70.6427630743289,-25.6567773833378</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-10</SimpleData>
+		<SimpleData name="NOMBRE">ZT-10 Zona de Equipamiento Productivo</SimpleData>
+		<SimpleData name="UPERM">Zona de equipamiento vinculado exclusivamente a la actividad productiva de especies autóctonas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6439666483938,-25.6565338781214 -70.6439699130445,-25.6568142665709 -70.6439589234135,-25.6569957600112 -70.6442222700665,-25.6569965105341 -70.644538519324,-25.6569926335663 -70.644618183498,-25.6569835476322 -70.6445815284876,-25.6567491320212 -70.6445426709954,-25.6565397495182 -70.6444979112949,-25.6565434849099 -70.6439666483938,-25.6565338781214</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-9</SimpleData>
+		<SimpleData name="NOMBRE">ZT-9 Zona de Equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunitario (salud, educación, cultura, seguridad, culto, organización comunitaria, deportes, comercio minorista y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6439534716014,-25.6569957446768 -70.6439589234135,-25.6569957600112 -70.6439699130445,-25.6568142665709 -70.6439666483938,-25.6565338781214 -70.6438707513057,-25.6565321441482 -70.6436012185386,-25.6564985909434 -70.6434387495911,-25.6564783650184 -70.6432147843507,-25.6564293576757 -70.6431272066682,-25.6566446689174 -70.6430191318996,-25.6568541458605 -70.6430526555435,-25.6568641957836 -70.6433739432943,-25.6569272141045 -70.6434475706349,-25.6569322550985 -70.6436847560631,-25.6569710930494 -70.6439534716014,-25.6569957446768</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-1</SimpleData>
+		<SimpleData name="NOMBRE">ZT-1 Zona Viviendas Pescadores</SimpleData>
+		<SimpleData name="UPERM">Vivienda</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6434296810519,-25.6555624298949 -70.6433106913545,-25.6556963702694 -70.6429826079779,-25.6560728122563 -70.6427607039978,-25.6563173437956 -70.6431069554846,-25.6564057636258 -70.6434387495911,-25.6564783650184 -70.6438707513057,-25.6565321441482 -70.6444979112949,-25.6565434849099 -70.6445426709954,-25.6565397495182 -70.6444750416245,-25.656235504988 -70.6443782172218,-25.6556590093725 -70.6440620389472,-25.6556431806597 -70.6438874227388,-25.6556516392868 -70.6435516158966,-25.6555969412994 -70.6434296810519,-25.6555624298949</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6443893471763,-25.6549192106351 -70.6444457652371,-25.6553684052322 -70.6443298315738,-25.6553632978077 -70.6443782172218,-25.6556590093725 -70.6444307933234,-25.6556330846532 -70.6444516428604,-25.6557000222127 -70.6446619781877,-25.6556829739126 -70.6446146530713,-25.6553270873746 -70.6445379061626,-25.6546604842351 -70.6445146362429,-25.6545314399869 -70.6445086470987,-25.6545100299695 -70.6443272782688,-25.6545798703283 -70.6443893471763,-25.6549192106351</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-7</SimpleData>
+		<SimpleData name="NOMBRE">ZT-7 Zona de Equipamiento y Servicios</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, comercio minorista, cultura, áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6439367509172,-25.6547268428706 -70.6439889909097,-25.6548607457111 -70.644157860846,-25.6547991274524 -70.6442203771674,-25.6550094913204 -70.6442666357294,-25.6553487867634 -70.6443298315738,-25.6553632978077 -70.6444457652371,-25.6553684052322 -70.6443893471763,-25.6549192106351 -70.6443272782688,-25.6545798703283 -70.6442482049077,-25.654584421875 -70.6439367509172,-25.6547268428706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6451095186659,-25.6585365163621 -70.6451867744238,-25.658536736147 -70.6451592966825,-25.6579989524887 -70.6451555325021,-25.657652612592 -70.6451354907531,-25.6573516085044 -70.6451208860049,-25.6570028493921 -70.6450857782116,-25.6564868385172 -70.6450607317446,-25.656109387956 -70.6450474951041,-25.6557434873356 -70.6449994933344,-25.6557827888898 -70.6449571308985,-25.6558399924904 -70.6448936370864,-25.6559114654439 -70.6448026152096,-25.6559442144386 -70.6448185178262,-25.6560675980351 -70.6449658078358,-25.6572921101274 -70.6450304082899,-25.6576625082156 -70.6450556655071,-25.6579790529154 -70.6451095186659,-25.6585365163621</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-1</SimpleData>
+		<SimpleData name="NOMBRE">ZT-1 Zona Viviendas Pescadores</SimpleData>
+		<SimpleData name="UPERM">Vivienda</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6450607317446,-25.656109387956 -70.6450850826566,-25.6564763631066 -70.6452965355906,-25.6564169773422 -70.6456757054248,-25.6563165444605 -70.6460088504357,-25.6561891097531 -70.6463124197933,-25.6560406902086 -70.6467118456853,-25.6557970037928 -70.6470223522715,-25.6555470928131 -70.6471644485462,-25.6554161289561 -70.6469015007568,-25.6552481915759 -70.6464938116323,-25.6550231171978 -70.6460828200518,-25.6548010183551 -70.6456172564874,-25.6551191554814 -70.6454159998541,-25.6552111367451 -70.6451489544123,-25.6552760612811 -70.6450318695712,-25.6553115552291 -70.6450607317446,-25.656109387956</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-1a</SimpleData>
+		<SimpleData name="NOMBRE">ZT-1a Zona Vivienda Unifamiliar</SimpleData>
+		<SimpleData name="UPERM">Vivienda</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6451592966825,-25.6579989524887 -70.645185254628,-25.6585069926655 -70.6453025507975,-25.658487404247 -70.6456981972585,-25.658387018272 -70.6462192681322,-25.6582153313829 -70.6466546895849,-25.6580434010425 -70.6470242900358,-25.6578533690841 -70.6473279649,-25.6576750925707 -70.6475788718578,-25.657514579529 -70.6479421055227,-25.6572588441878 -70.6482658708365,-25.6569850843404 -70.6486559672309,-25.6565801435395 -70.6488808034243,-25.6563359585505 -70.6484796446736,-25.6561258369464 -70.6478351358404,-25.6557956030934 -70.6475177974603,-25.6561171501137 -70.6469561805759,-25.6565872848795 -70.6464610171048,-25.6568904130947 -70.6459463147666,-25.6571278019014 -70.6455307009471,-25.6572878435541 -70.645135143659,-25.6573432994858 -70.6451354907531,-25.6573516085044 -70.6451555325021,-25.657652612592 -70.6451592966825,-25.6579989524887</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-9</SimpleData>
+		<SimpleData name="NOMBRE">ZT-9 Zona de Equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunitario (salud, educación, cultura, seguridad, culto, organización comunitaria, deportes, comercio minorista y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6466402361883,-25.6565027945153 -70.6467868739695,-25.6566909309767 -70.6469561805759,-25.6565872848795 -70.6475177974603,-25.6561171501137 -70.6478351358404,-25.6557956030934 -70.6471644485462,-25.6554161289561 -70.6470223522715,-25.6555470928131 -70.6467118456853,-25.6557970037928 -70.6463124197933,-25.6560406902086 -70.6462991039273,-25.656047201482 -70.6463714195595,-25.6561258479809 -70.6466402361883,-25.6565027945153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-10</SimpleData>
+		<SimpleData name="NOMBRE">ZT-10 Zona de Equipamiento Productivo</SimpleData>
+		<SimpleData name="UPERM">Zona de equipamiento vinculado exclusivamente a la actividad productiva de especies autóctonas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6450857782116,-25.6564868385172 -70.645114906909,-25.6569149647412 -70.6452092209878,-25.6568988033824 -70.6454004228922,-25.6568575481134 -70.6456312158977,-25.6567984918266 -70.6459148581053,-25.6566977864905 -70.6461523213563,-25.6566148637514 -70.646436065665,-25.6564843017818 -70.6465790172947,-25.6564169505015 -70.6463714195595,-25.6561258479809 -70.6462991039273,-25.656047201482 -70.6460088504357,-25.6561891097531 -70.6456757054248,-25.6563165444605 -70.6452965355906,-25.6564169773422 -70.6450850826566,-25.6564763631066 -70.6450857782116,-25.6564868385172</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-11</SimpleData>
+		<SimpleData name="NOMBRE">ZT-11 Zona de Uso Productivo Especies Autóctonas</SimpleData>
+		<SimpleData name="UPERM">Zona de cultivos de especies autóctonas enunciadas en el punto 2 del Artículo 8 de la presente ordenanza</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6451208860049,-25.6570028493921 -70.645135143659,-25.6573432994858 -70.6455307009471,-25.6572878435541 -70.6459463147666,-25.6571278019014 -70.6464610171048,-25.6568904130947 -70.6467868739695,-25.6566909309767 -70.6466402361883,-25.6565027945153 -70.6465790172947,-25.6564169505015 -70.646436065665,-25.6564843017818 -70.6461523213563,-25.6566148637514 -70.6459148581053,-25.6566977864905 -70.6456312158977,-25.6567984918266 -70.6454004228922,-25.6568575481134 -70.6452092209878,-25.6568988033824 -70.645114906909,-25.6569149647412 -70.6451208860049,-25.6570028493921</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-7</SimpleData>
+		<SimpleData name="NOMBRE">ZT-7 Zona de Equipamiento y Servicios</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, comercio minorista, cultura, áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6459640272032,-25.6545427259548 -70.6457795412991,-25.6545481735004 -70.6457401159661,-25.6545182055604 -70.6454107140248,-25.6545172695809 -70.6446595994688,-25.6544670399573 -70.6446539802289,-25.6545589527141 -70.6448447636309,-25.6545514873975 -70.6448788935324,-25.6553493358633 -70.6450318695712,-25.6553115552291 -70.6450349317225,-25.6553106269528 -70.6450215430567,-25.6546535008698 -70.6452784981478,-25.6546482603454 -70.6454496641098,-25.6546845733786 -70.6456601306671,-25.6547866820815 -70.6457000515939,-25.6546733429739 -70.645963553617,-25.654680061681 -70.6460888710689,-25.6546386186543 -70.6462343852558,-25.654471838503 -70.6462807897013,-25.6543883736333 -70.6461490699468,-25.6543760571865 -70.6460961390459,-25.6544415902826 -70.6459640272032,-25.6545427259548</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-6</SimpleData>
+		<SimpleData name="NOMBRE">ZT-6 Zona de Uso Turístico destinado a usos nauticos</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes, equipamiento productivo y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6490934101146,-25.6564563790303 -70.6502837016233,-25.6570926700855 -70.6505880832757,-25.6567053978218 -70.6509188775228,-25.6563002858816 -70.6511043637934,-25.6560022469374 -70.6500251776337,-25.6556290062948 -70.6492946954562,-25.6553940764091 -70.6482813399548,-25.655038920793 -70.6481976572325,-25.6552617074141 -70.6480810498388,-25.6554524563448 -70.6479011315474,-25.6556621338182 -70.6478351358404,-25.6557956030934 -70.6484796446736,-25.6561258369464 -70.6488808034243,-25.6563359585505 -70.6490934101146,-25.6564563790303</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-9</SimpleData>
+		<SimpleData name="NOMBRE">ZT-9 Zona de Equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunitario (salud, educación, cultura, seguridad, culto, organización comunitaria, deportes, comercio minorista y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6464053578687,-25.6543095089444 -70.6463464434336,-25.6544542431514 -70.6464255829054,-25.6544305820848 -70.6476167039226,-25.6548161098127 -70.6477674774931,-25.6548666553041 -70.6476048564119,-25.654557723062 -70.6473321417269,-25.6541652426355 -70.6469652862243,-25.6535623081108 -70.646908869129,-25.653492883268 -70.6467239101781,-25.6536356676545 -70.6465911207826,-25.6539338508817 -70.6464914348332,-25.6541843578056 -70.6464053578687,-25.6543095089444</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6467416821712,-25.6534494165996 -70.6467239101781,-25.6536356676545 -70.646908869129,-25.653492883268 -70.6469652862243,-25.6535623081108 -70.6473321417269,-25.6541652426355 -70.6476048564119,-25.654557723062 -70.6477674774931,-25.6548666553041 -70.6482813399548,-25.655038920793 -70.648349179037,-25.6549801962891 -70.6483578727029,-25.6547509275329 -70.6482637920315,-25.6545213685065 -70.6478856025172,-25.6541476990502 -70.6473813929877,-25.653637529069 -70.6472322729882,-25.6533218282236 -70.6471871103958,-25.6526624818718 -70.6471343146557,-25.6519242929492 -70.6470087657978,-25.6516516517589 -70.646953353039,-25.6516729906392 -70.6470079502395,-25.6518881082546 -70.6470233905175,-25.6519956338227 -70.6469116023006,-25.6523177608073 -70.6468388963916,-25.6527689770604 -70.6467659669698,-25.6532846805919 -70.6467416821712,-25.6534494165996</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-6</SimpleData>
+		<SimpleData name="NOMBRE">ZT-6 Zona de Uso Turístico destinado a usos nauticos</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes, equipamiento productivo y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6470087657978,-25.6516516517589 -70.6471343146557,-25.6519242929492 -70.6471871103958,-25.6526624818718 -70.6472322729882,-25.6533218282236 -70.6473813929877,-25.653637529069 -70.6478856025172,-25.6541476990502 -70.6482637920315,-25.6545213685065 -70.6483578727029,-25.6547509275329 -70.648349179037,-25.6549801962891 -70.6482813399548,-25.655038920793 -70.6492946954562,-25.6553940764091 -70.6494345545496,-25.6554390567452 -70.6494705352069,-25.6553487915253 -70.6495270776211,-25.654997845269 -70.6494646908501,-25.6547468803315 -70.649338789049,-25.6545745567381 -70.6490473612114,-25.6542584571639 -70.6488191544472,-25.6539497011892 -70.6486067609656,-25.6536409892013 -70.6484653707328,-25.6533754700066 -70.6483717345011,-25.6530169355222 -70.6483489283688,-25.6527517499464 -70.648247141789,-25.6524648456565 -70.6481689724478,-25.6522066705658 -70.6480829235693,-25.6519413069451 -70.6479809660706,-25.6517045599556 -70.6476327305411,-25.6518182217393 -70.6474589576523,-25.651774738052 -70.647301514616,-25.6515808259346 -70.6470087657978,-25.6516516517589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-14</SimpleData>
+		<SimpleData name="NOMBRE">ZT-14 Zona de Equipamientos Servicios Básicos</SimpleData>
+		<SimpleData name="UPERM">Zona de equipamiento de servicios eléctricos, sanitarios, plantas desalinizadoras, pozos de profundidad y casa de alejamiento temporal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6507191597691,-25.6572929309706 -70.6511832354145,-25.657552238016 -70.6515465090361,-25.657223258998 -70.6546761213991,-25.65443747756 -70.6545608835952,-25.6542269725348 -70.6545085347199,-25.6541217342771 -70.6544884549104,-25.6538255093144 -70.6544309661056,-25.6536820409525 -70.6542895060412,-25.6534332474987 -70.6542161741198,-25.6532992889288 -70.654158782644,-25.6531271601839 -70.6541486623782,-25.6530029314724 -70.6541484920934,-25.6529980240174 -70.6540408868289,-25.6530340179628 -70.6540011362837,-25.6530995903843 -70.653915068124,-25.6532247446437 -70.6537955537612,-25.6534990859472 -70.6537622696371,-25.6536005035477 -70.6536892355245,-25.653767492578 -70.6536096930406,-25.653910578944 -70.6535498339788,-25.6540776046393 -70.6534900152898,-25.654232688621 -70.6533702761546,-25.6545727121124 -70.6532441720864,-25.6548470337654 -70.6531780482348,-25.6549185038039 -70.653124857517,-25.6550616634386 -70.6530257119884,-25.6551569258193 -70.6528800435846,-25.6553714808996 -70.6525762005982,-25.6556035091189 -70.6524339962051,-25.6557034277071 -70.6520329187471,-25.6558551688229 -70.6516214958382,-25.6559495568566 -70.6511043637934,-25.6560022469374 -70.6509188775228,-25.6563002858816 -70.6505880832757,-25.6567053978218 -70.6502837016233,-25.6570926700855 -70.6507191597691,-25.6572929309706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6455524445966,-25.6600066861356 -70.6459771193267,-25.6621956437402 -70.6495797490482,-25.6590043173781 -70.6511832354145,-25.657552238016 -70.6507191597691,-25.6572929309706 -70.6502837016233,-25.6570926700855 -70.6490934101146,-25.6564563790303 -70.6488808034243,-25.6563359585505 -70.6486559672309,-25.6565801435395 -70.6482658708365,-25.6569850843404 -70.6479421055227,-25.6572588441878 -70.6475788718578,-25.657514579529 -70.6473279649,-25.6576750925707 -70.6470242900358,-25.6578533690841 -70.6466546895849,-25.6580434010425 -70.6462192681322,-25.6582153313829 -70.6456981972585,-25.658387018272 -70.6453025507975,-25.658487404247 -70.645185254628,-25.6585069926655 -70.6451867744238,-25.658536736147 -70.6452742246868,-25.6585369845191 -70.6455524445966,-25.6600066861356</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-12</SimpleData>
+		<SimpleData name="NOMBRE">ZT-12 Zona de Protección de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde a terrenos de playa del territorio marítimo. En ellos, además de su uso como paseos, senderos peatonales, pérgolas, miradores y otros,  se permitirán usos relacionados y de apoyo explusivo a la actividad turística recreac</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6526441132119,-25.6475339184908 -70.6524648462066,-25.6476223873442 -70.6522507476808,-25.6476217887568 -70.6520467441069,-25.6475585201609 -70.6519446352853,-25.6475582346645 -70.6517828508058,-25.6476712342122 -70.651753145312,-25.6476890646192 -70.6516971601133,-25.647685921605 -70.6515819879858,-25.6476527576462 -70.6515293074282,-25.6476466385905 -70.6514204582764,-25.6476911172634 -70.6513015845228,-25.6477773659476 -70.6511594403892,-25.6479262472216 -70.6511429095032,-25.6479441144877 -70.6511455712229,-25.6481292284219 -70.651092788485,-25.6481529648578 -70.6510501109609,-25.6481110468807 -70.6510306542779,-25.648021424485 -70.650988119647,-25.6479377091293 -70.6508991454051,-25.6479494016131 -70.6508296684648,-25.6480387738598 -70.6508221116141,-25.6483223844109 -70.6507924262186,-25.6483342433269 -70.6507067864429,-25.6483340027904 -70.6506737555391,-25.6483607802592 -70.65064724156,-25.6484084749001 -70.6506404806029,-25.6484592116156 -70.6505812215158,-25.6484500880794 -70.6505616834177,-25.6483843499458 -70.6505058408802,-25.6483394091274 -70.6504136131853,-25.6483391499076 -70.6502717523909,-25.648404434771 -70.6502122286276,-25.6484729353961 -70.6502185498464,-25.648550579158 -70.650238200696,-25.6485834760358 -70.6502249129441,-25.6486162802871 -70.6502017744473,-25.6486400993295 -70.6500568246708,-25.6486456629811 -70.6499481376432,-25.6486423719415 -70.64987229669,-25.6486660435324 -70.6498687884337,-25.6487287307643 -70.6499113625349,-25.6488005047548 -70.64999352566,-25.6488544769039 -70.6499307990976,-25.6488960986249 -70.6498615556509,-25.6489168031032 -70.6497492275481,-25.6490150108703 -70.6496103934607,-25.6491579282989 -70.6495970031395,-25.6492205881548 -70.6495864467522,-25.6494176077139 -70.649550162255,-25.649432433506 -70.6493656436829,-25.6494498278172 -70.6492233517686,-25.6496405047648 -70.6492063901444,-25.6497837648629 -70.6488363577573,-25.6501081511497 -70.6485818632174,-25.6503430370246 -70.6491096653181,-25.6508829249997 -70.6493275349206,-25.6507462011098 -70.6496249700029,-25.6504604221658 -70.6496912155315,-25.6503531267666 -70.6497507112736,-25.6502935823555 -70.6498167111703,-25.6502579417215 -70.649843288201,-25.6501923332662 -70.6498764307693,-25.6501327146742 -70.6499426564524,-25.6500313904746 -70.6500678858016,-25.6500138295495 -70.6503977251365,-25.649883390433 -70.6504045786698,-25.6498057846397 -70.6503854071034,-25.6496325665627 -70.6503791663968,-25.6495310385051 -70.6503331547392,-25.6495010532366 -70.6503665420433,-25.6493697815478 -70.6503733138689,-25.6493160600852 -70.6505050486458,-25.6493224007678 -70.6505645424871,-25.6492628560732 -70.6507624813446,-25.6491738442712 -70.6511383700148,-25.6490614470392 -70.6514021447032,-25.6489845609329 -70.6518564745853,-25.6490515164002 -70.651864567899,-25.6486096726506 -70.6518722347192,-25.6482932208882 -70.6520828574098,-25.6483475511517 -70.6523068187716,-25.6483541493234 -70.6523591946754,-25.6484498349518 -70.6525956614404,-25.6486535153539 -70.652832393027,-25.6487795719882 -70.6528378843561,-25.6491020308667 -70.6533701126126,-25.649509555795 -70.6535874273285,-25.6495340465129 -70.6535873057216,-25.6495698734195 -70.6535278133123,-25.6496294192775 -70.6535076449651,-25.649748786573 -70.6535336512704,-25.6498503685838 -70.6535393676747,-25.6501071456899 -70.6536244827297,-25.6502626328993 -70.6535384565665,-25.6503758452027 -70.6534787407767,-25.650501073562 -70.6534385649495,-25.6506920395374 -70.6534178084817,-25.6509845691272 -70.6533054902645,-25.6510797939233 -70.6533511392841,-25.6512172588779 -70.6533506526789,-25.6513605655826 -70.6533369909338,-25.6515038355244 -70.6533171060579,-25.6515396072887 -70.6532904293135,-25.6516350709838 -70.6532833352976,-25.6517843305971 -70.6534512612427,-25.651998169068 -70.6534084819922,-25.6521795732387 -70.6533024274242,-25.6523703545243 -70.6532595182878,-25.6525899744361 -70.6532791733913,-25.6530103999154 -70.6534143867681,-25.6535457934912 -70.6535085414598,-25.6537562413403 -70.6536096930406,-25.653910578944 -70.6536892355245,-25.653767492578 -70.6537622696371,-25.6536005035477 -70.6537955537612,-25.6534990859472 -70.653915068124,-25.6532247446437 -70.6540011362837,-25.6530995903843 -70.6540408868289,-25.6530340179628 -70.6541484920934,-25.6529980240174 -70.654134258759,-25.6525872983262 -70.6542721933985,-25.6523201735054 -70.6542882144278,-25.6522581181756 -70.6542887481837,-25.6521004800659 -70.65434709421,-25.6519907732866 -70.6543581043464,-25.6518522730122 -70.6542006258042,-25.651665533736 -70.6541956950442,-25.651565204504 -70.6542381166719,-25.6514888919457 -70.6542438724524,-25.6513455996015 -70.6543335801716,-25.6513124111292 -70.6543866230065,-25.6512122428538 -70.6544032101081,-25.6509829956685 -70.6543086360049,-25.6508967484139 -70.6542932456796,-25.6507725044642 -70.6542935367976,-25.6506865210104 -70.6545107333501,-25.6503575159782 -70.6546219263748,-25.6502049640007 -70.6546326600305,-25.6501476703036 -70.6546328217518,-25.6500999017195 -70.6545644541908,-25.6500567187027 -70.6543803526595,-25.6499511145668 -70.654386027393,-25.6498317064954 -70.6546921683236,-25.6496940269129 -70.6543090778363,-25.6492104911367 -70.6542408728089,-25.6491195393348 -70.6540987880455,-25.6490570437032 -70.653972870474,-25.6488894999664 -70.6538940445869,-25.6488224027292 -70.6537834032759,-25.6488125408921 -70.653730700884,-25.6488123939758 -70.653672907289,-25.6487596863251 -70.6537053229047,-25.6485257070374 -70.6537165758893,-25.648315552918 -70.6536800746037,-25.6482008051891 -70.6535905627753,-25.6481766708379 -70.6534165343068,-25.6482096238563 -70.6531639400399,-25.6480990491998 -70.6526441132119,-25.6475339184908</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6460301126719,-25.6543437740488 -70.6457241465621,-25.654424113991 -70.6454290523907,-25.6544089450855 -70.6446687916748,-25.6543166697957 -70.6446595994688,-25.6544670399573 -70.6454107140248,-25.6545172695809 -70.6457401159661,-25.6545182055604 -70.6457795412991,-25.6545481735004 -70.6459640272032,-25.6545427259548 -70.6460961390459,-25.6544415902826 -70.6461490699468,-25.6543760571865 -70.6462807897013,-25.6543883736333 -70.6462343852558,-25.654471838503 -70.6460888710689,-25.6546386186543 -70.645963553617,-25.654680061681 -70.6457000515939,-25.6546733429739 -70.6456601306671,-25.6547866820815 -70.6454496641098,-25.6546845733786 -70.6452784981478,-25.6546482603454 -70.6450215430567,-25.6546535008698 -70.6450349317225,-25.6553106269528 -70.6451489544123,-25.6552760612811 -70.6454159998541,-25.6552111367451 -70.6456172564874,-25.6551191554814 -70.6460828200518,-25.6548010183551 -70.6461875064235,-25.6546926390856 -70.6463464434336,-25.6544542431514 -70.6464053578687,-25.6543095089444 -70.6464174693199,-25.6542918996587 -70.64639313291,-25.6542246830418 -70.6463460453317,-25.6541242338583 -70.6462946403697,-25.6540531308318 -70.6462151389403,-25.6541818829816 -70.6460301126719,-25.6543437740488</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-6</SimpleData>
+		<SimpleData name="NOMBRE">ZT-6 Zona de Uso Turístico destinado a usos nauticos</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes, equipamiento productivo y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.648060307192,-25.6507017657713 -70.6479495455842,-25.6507265321072 -70.6478547785828,-25.6506976019756 -70.6477919057397,-25.6505899429156 -70.6477447444273,-25.6505109904957 -70.647653856844,-25.6505035679474 -70.6475785090853,-25.6505750087187 -70.647392436184,-25.6506604680919 -70.6472379477714,-25.6507567637063 -70.6470002174804,-25.6509208953877 -70.6468178488069,-25.6510780176356 -70.6467739151336,-25.6511183255692 -70.6468391317471,-25.6511940448561 -70.646964630474,-25.651481017767 -70.6470087657978,-25.6516516517589 -70.647301514616,-25.6515808259346 -70.6474589576523,-25.651774738052 -70.6476327305411,-25.6518182217393 -70.6479809660706,-25.6517045599556 -70.6480754792127,-25.6516156565261 -70.648313062069,-25.6514945158321 -70.6485190218487,-25.6513732849876 -70.6487567757702,-25.6512019851411 -70.6489549036868,-25.6510592355956 -70.6491096653181,-25.6508829249997 -70.6485818632174,-25.6503430370246 -70.6484365899224,-25.6504771173644 -70.6481790612445,-25.6506519432466 -70.648060307192,-25.6507017657713</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6443782172218,-25.6556590093725 -70.6443917166989,-25.6557393865911 -70.6444565163661,-25.6558146827311 -70.6445089231006,-25.6559008165793 -70.6446088974467,-25.6559488708465 -70.6446993422667,-25.6559639495067 -70.6446619781877,-25.6556829739126 -70.6444516428604,-25.6557000222127 -70.6444307933234,-25.6556330846532 -70.6443782172218,-25.6556590093725</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6444750416245,-25.656235504988 -70.6445426709954,-25.6565397495182 -70.6447628727404,-25.6565213746949 -70.6447569507278,-25.6564703784602 -70.6447071145515,-25.6560223973319 -70.6446993422667,-25.6559639495067 -70.6446088974467,-25.6559488708465 -70.6445089231006,-25.6559008165793 -70.6444565163661,-25.6558146827311 -70.6443917166989,-25.6557393865911 -70.6444750416245,-25.656235504988</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6447690990561,-25.6556841746637 -70.6448026152096,-25.6559442144386 -70.6448936370864,-25.6559114654439 -70.6449571308985,-25.6558399924904 -70.6449994933344,-25.6557827888898 -70.6450474951041,-25.6557434873356 -70.6450409451407,-25.6555624298589 -70.6449633113084,-25.6555772773135 -70.6449630631309,-25.6556489304068 -70.64479432472,-25.6556723355487 -70.6447690990561,-25.6556841746637</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6447222812252,-25.6553209246795 -70.6447690990561,-25.6556841746637 -70.64479432472,-25.6556723355487 -70.6449630631309,-25.6556489304068 -70.6449633113084,-25.6555772773135 -70.6450409451407,-25.6555624298589 -70.6450318695712,-25.6553115552291 -70.6448788935324,-25.6553493358633 -70.6448447636309,-25.6545514873975 -70.6446539802289,-25.6545589527141 -70.644645376215,-25.6546997023824 -70.6446710048785,-25.6549087672286 -70.6447222812252,-25.6553209246795</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-12</SimpleData>
+		<SimpleData name="NOMBRE">ZT-12 Zona de Protección de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde a terrenos de playa del territorio marítimo. En ellos, además de su uso como paseos, senderos peatonales, pérgolas, miradores y otros,  se permitirán usos relacionados y de apoyo explusivo a la actividad turística recreac</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6321098405224,-25.6284391087658 -70.6322620104942,-25.628960039296 -70.6325692823314,-25.6288942752289 -70.6328855068123,-25.628877290813 -70.6328908934143,-25.6288770708045 -70.6328869685676,-25.6287388245061 -70.6328673621155,-25.6286957733142 -70.6327848826244,-25.6285522208829 -70.632753523258,-25.6284804745971 -70.6327429871073,-25.6281114206965 -70.6327359420476,-25.6278713561133 -70.6327205178847,-25.6277638279262 -70.6326974347963,-25.6275882057816 -70.6326755940426,-25.6270650607388 -70.6326969823289,-25.626610114042 -70.6327170268325,-25.6262238340715 -70.6327972074308,-25.6259046083365 -70.6328381197872,-25.6257768596715 -70.6321522503858,-25.625793971792 -70.6316307811982,-25.6261089107527 -70.6316681367538,-25.626712117601 -70.6317256173671,-25.6272138711521 -70.6318099802279,-25.6275664234806 -70.6321098405224,-25.6284391087658</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-12</SimpleData>
+		<SimpleData name="NOMBRE">ZT-12 Zona de Protección de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde a terrenos de playa del territorio marítimo. En ellos, además de su uso como paseos, senderos peatonales, pérgolas, miradores y otros,  se permitirán usos relacionados y de apoyo explusivo a la actividad turística recreac</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6326952710846,-25.6305009092871 -70.6328055808591,-25.6309669903956 -70.632871064509,-25.6310746658084 -70.6331076774433,-25.6312186697205 -70.6334693539963,-25.631386925968 -70.6338504953781,-25.6316388355255 -70.6341852959052,-25.6319562921057 -70.6344542082939,-25.6322795263798 -70.634683260541,-25.6326981825815 -70.6348464878539,-25.6331047039125 -70.6349303976116,-25.6335886188546 -70.6349019045763,-25.6341916307988 -70.6348083497114,-25.6345675449008 -70.634681858277,-25.6349433626488 -70.6344962318451,-25.6352772091859 -70.6343241617096,-25.6355036123621 -70.6342576744544,-25.6356765834956 -70.6341827713523,-25.6363630566364 -70.6342205925674,-25.6368408654714 -70.6341609258478,-25.6369481736424 -70.634061225432,-25.6371986732144 -70.6340669415083,-25.6374435108594 -70.6341246941552,-25.6378736084735 -70.6342355707495,-25.6381844367365 -70.6342340610493,-25.6386083893828 -70.6343385851188,-25.6388535160321 -70.6345483781891,-25.6391347770682 -70.6346466557963,-25.6392843452295 -70.6345530111248,-25.6396841436702 -70.634532442412,-25.6399109900851 -70.6345773855163,-25.6402395393405 -70.6344903063361,-25.6406453283418 -70.6343640433625,-25.6409554636959 -70.6343104301893,-25.6412120696294 -70.6343485743114,-25.6416003104452 -70.6344656597464,-25.6420186390714 -70.6344374420131,-25.6425440247001 -70.6344943510282,-25.6432129684825 -70.6345699402228,-25.6441864987934 -70.6346071527147,-25.6448374714369 -70.6346910927584,-25.6453154140802 -70.6349306779183,-25.6464864735458 -70.635243346833,-25.6474845789837 -70.6352975687472,-25.6475970841804 -70.6354625744758,-25.6475193530247 -70.635969879195,-25.6471338956995 -70.6361204938519,-25.647006389517 -70.635957978333,-25.6467430659765 -70.6358029001487,-25.6458887304533 -70.6357975822474,-25.6455304413738 -70.6357200550262,-25.6451002877658 -70.6356879217583,-25.6448732878753 -70.6355641341125,-25.6444847973778 -70.6355674374147,-25.64355329609 -70.6354369379679,-25.643200613308 -70.6354111816856,-25.6430333441342 -70.6353856788113,-25.6427944205811 -70.6353666365239,-25.6425913434123 -70.635367738704,-25.6422808431927 -70.6353947240018,-25.6421017849869 -70.635421285351,-25.6420421501501 -70.6353432536902,-25.6417553038475 -70.6352338412091,-25.6414014880725 -70.6352464232382,-25.6411973091796 -70.6353860287692,-25.6408394426031 -70.6354542113874,-25.6405601880727 -70.6355499839369,-25.6403025101617 -70.6355545847355,-25.6401198043266 -70.6354525605395,-25.6399117079217 -70.6354610499935,-25.639746926937 -70.6355487270828,-25.6395429668595 -70.6357832243424,-25.6391746281747 -70.6357956912249,-25.6390026930791 -70.6356973535557,-25.6388698453425 -70.6355831810711,-25.6387441164995 -70.6354213765226,-25.6386755725353 -70.6353068098236,-25.6386609075328 -70.6351807937474,-25.638531561645 -70.6351572714337,-25.6384777518533 -70.6351616302489,-25.6383631170435 -70.6352410459308,-25.6382594495318 -70.6352332562163,-25.6382271822313 -70.6351821045115,-25.6381625430705 -70.6351783434314,-25.6381087909775 -70.635313142019,-25.6379909540967 -70.6353254693662,-25.6378584286537 -70.6353145409722,-25.6375968574644 -70.6352476192677,-25.6375214249816 -70.6351371081545,-25.6374781091889 -70.6350502345604,-25.6374563592672 -70.6349761624659,-25.6374344470189 -70.6349699572553,-25.6373269470185 -70.6352348209933,-25.6369395903303 -70.6352747257938,-25.6368322249709 -70.6352287853416,-25.6367843204171 -70.6351863083555,-25.6366886568896 -70.6351667596543,-25.6366288874405 -70.6351506632963,-25.6365243438094 -70.6351671305458,-25.6365243923614 -70.6352165979242,-25.6365066230196 -70.6352627393139,-25.6364978006311 -70.6353089443463,-25.6364710650697 -70.6353092837878,-25.6363755261167 -70.6353095060633,-25.6363128296146 -70.6354151965477,-25.6362295401372 -70.635593885071,-25.6359941979283 -70.6356531997772,-25.6359854147753 -70.6357059180934,-25.6359795971433 -70.635758687889,-25.6359588511265 -70.6358082185198,-25.635923168442 -70.6357787675774,-25.635869341167 -70.6357727313716,-25.6357140721889 -70.6357892832694,-25.6356902352631 -70.6358354454969,-25.6356754422596 -70.6358718014886,-25.6356397202405 -70.6358884280186,-25.6355949844658 -70.6358721082401,-25.6355531383331 -70.635859199143,-25.6354784607067 -70.635836271965,-25.6354425667031 -70.635836568641,-25.6353589695608 -70.6358306908669,-25.6351589163335 -70.6358538833838,-25.6351201711252 -70.6359927829536,-25.6349593533533 -70.6360126706841,-25.6349235837529 -70.6360161862169,-25.6348608955027 -70.6360164091628,-25.6347981989941 -70.6359573806121,-25.6347263717059 -70.6358097661736,-25.6345587465335 -70.6358070660767,-25.6343915448778 -70.6358632034428,-25.6343499100689 -70.636005151592,-25.6342577693345 -70.6361835608857,-25.634100051432 -70.6362133816239,-25.6340493835795 -70.6362073773365,-25.6338851566665 -70.6361845451987,-25.6338223925162 -70.6360000960953,-25.6334546240679 -70.63594775671,-25.6333541545214 -70.6359269837102,-25.6332681084245 -70.6359276453529,-25.6330818082847 -70.6359438094479,-25.6329815383441 -70.6360175997231,-25.6329769769587 -70.6360649061949,-25.6330105539447 -70.6362071831683,-25.6330109680167 -70.6362811428477,-25.6329586365664 -70.6363077618888,-25.6328822829017 -70.636303017172,-25.6327341821134 -70.6362767886252,-25.6327006669989 -70.6361662807351,-25.6326573517701 -70.6357552769893,-25.6326513770968 -70.6357131885138,-25.6326321457374 -70.6355977176613,-25.6325028307583 -70.6354878052665,-25.6322923224152 -70.6352786044773,-25.631847451865 -70.6350900757533,-25.6315172886305 -70.6349063925235,-25.6313065646049 -70.6345115399096,-25.630878903318 -70.6344445708308,-25.6308178009246 -70.6343815426355,-25.6307602926885 -70.634330191311,-25.630752976776 -70.634085150411,-25.630755841943 -70.6340457063704,-25.6307342295868 -70.6339825875605,-25.6307018001774 -70.6339036236918,-25.6306800728284 -70.6337654159948,-25.6306474224373 -70.6336864901565,-25.6306149467005 -70.6334385202745,-25.63033118262 -70.6331905525758,-25.6300474180394 -70.6330371780994,-25.6298355851574 -70.633005830208,-25.6297602556103 -70.6330218053564,-25.6297137272166 -70.6330418343099,-25.6296385482529 -70.6330421285065,-25.6295561463188 -70.6330344421417,-25.6294952164437 -70.6329992586944,-25.6293876311588 -70.6329900755581,-25.6293170354704 -70.6328312118346,-25.6293249747558 -70.6326993718625,-25.629354443361 -70.6325939629502,-25.6293601047984 -70.6323923334197,-25.6294167248331 -70.6326952710846,-25.6305009092871</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-16</SimpleData>
+		<SimpleData name="NOMBRE">ZT-16 Zona de Infraestructura Sanitaria</SimpleData>
+		<SimpleData name="UPERM">Zona destinada a la abducción de aguas subterraneas</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6316128187842,-25.6291701974306 -70.6313804188013,-25.6293223755285 -70.6309483140818,-25.6293258780511 -70.6303842853695,-25.6293815359816 -70.6300363185881,-25.6294330538428 -70.6295882666618,-25.629474721116 -70.6293035480912,-25.6295216477974 -70.6288181560291,-25.6295795056788 -70.6288284639797,-25.6303737130628 -70.6286293296859,-25.6307970807068 -70.6286355069863,-25.6309105527353 -70.6288251241832,-25.6312992469695 -70.628731248988,-25.6317587546559 -70.6283085471638,-25.6320739771859 -70.6288015278621,-25.6323620592041 -70.6289004173035,-25.6323384676282 -70.6290984329518,-25.632225601003 -70.6292912819523,-25.6317186158599 -70.6294441338586,-25.6313428800208 -70.6296354312634,-25.6312658196685 -70.629892575082,-25.6311949253617 -70.6300639184858,-25.6311715474216 -70.6302662384634,-25.6311810069319 -70.6302784433013,-25.6310825511068 -70.630325131293,-25.6309214658477 -70.6303719470214,-25.6307245523706 -70.6304581546647,-25.630563583898 -70.6305509919902,-25.630390692104 -70.6307559116853,-25.6301882741654 -70.6309276600087,-25.6300514429036 -70.6311930908007,-25.6298730891339 -70.6314939339628,-25.6297378318502 -70.6318344254078,-25.6295668631205 -70.6321984227917,-25.6294532865786 -70.6323923334197,-25.6294167248331 -70.6325939629502,-25.6293601047984 -70.6326993718625,-25.629354443361 -70.6328312118346,-25.6293249747558 -70.6329900755581,-25.6293170354704 -70.6329684874525,-25.6291510792578 -70.632960737113,-25.629108063467 -70.6329293904815,-25.6290327338736 -70.6328939880505,-25.6289860539579 -70.6328908934143,-25.6288770708045 -70.6328855068123,-25.628877290813 -70.6325692823314,-25.6288942752289 -70.6322620104942,-25.628960039296 -70.632119258898,-25.6290092706397 -70.631934609535,-25.6290708282214 -70.6316128187842,-25.6291701974306</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-4</SimpleData>
+		<SimpleData name="NOMBRE">ZT-4 Zona de Equipamiento Turístico y Residencial de Media y Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6281614044395,-25.6290461146361 -70.6288181560291,-25.6295795056788 -70.6293035480912,-25.6295216477974 -70.6295882666618,-25.629474721116 -70.6300363185881,-25.6294330538428 -70.6303842853695,-25.6293815359816 -70.6309483140818,-25.6293258780511 -70.6313804188013,-25.6293223755285 -70.6316128187842,-25.6291701974306 -70.631934609535,-25.6290708282214 -70.632119258898,-25.6290092706397 -70.6322620104942,-25.628960039296 -70.6321098405224,-25.6284391087658 -70.6318099802279,-25.6275664234806 -70.6317256173671,-25.6272138711521 -70.6316681367538,-25.626712117601 -70.6316307811982,-25.6261089107527 -70.6314825329951,-25.6261961321759 -70.6313240059861,-25.626321060905 -70.6310729023783,-25.6265472269104 -70.6307693847359,-25.6266956117066 -70.6304594728926,-25.6267902358863 -70.630142737263,-25.6269505232404 -70.629832608067,-25.6271048580845 -70.6296412311843,-25.6272058030009 -70.6294828300496,-25.6272949025306 -70.6293574694026,-25.6273542435548 -70.6290274072035,-25.6275562873871 -70.6288293773679,-25.6276751249887 -70.6284266874914,-25.6279247226167 -70.6281558369915,-25.6281448548152 -70.6279378296545,-25.6283233445178 -70.6277460384733,-25.6285377387605 -70.627648960601,-25.6286803446986 -70.6281614044395,-25.6290461146361</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6306907196421,-25.6262248452993 -70.630341010051,-25.6263969775129 -70.6300577886749,-25.6263961394827 -70.629853434205,-25.6264433050643 -70.6293525110543,-25.6265373611634 -70.6287657257691,-25.6266968447356 -70.6272489975942,-25.6271939211362 -70.6260749991426,-25.6276263222997 -70.6259926101973,-25.627714034861 -70.6257157973565,-25.6277609784001 -70.6255510010291,-25.6277963135111 -70.6254713752499,-25.6279572990645 -70.6252992101996,-25.6282075776723 -70.624876206139,-25.6286063869072 -70.6243611172017,-25.6289690912083 -70.6241107344858,-25.6289922253095 -70.6241034075973,-25.6291952263149 -70.6243862441987,-25.6293035568801 -70.6251831937752,-25.6293178855341 -70.6253940563085,-25.6292946313914 -70.6257700851217,-25.6291345309251 -70.6258952758945,-25.62912296206 -70.6260599437233,-25.6291234538636 -70.6264219094222,-25.6292081317853 -70.6267507893504,-25.6293345084611 -70.6272523540735,-25.6290672961139 -70.627648960601,-25.6286803446986 -70.6277460384733,-25.6285377387605 -70.6279378296545,-25.6283233445178 -70.6281558369915,-25.6281448548152 -70.6284266874914,-25.6279247226167 -70.6288293773679,-25.6276751249887 -70.6290274072035,-25.6275562873871 -70.6293574694026,-25.6273542435548 -70.6294828300496,-25.6272949025306 -70.6296412311843,-25.6272058030009 -70.629832608067,-25.6271048580845 -70.630142737263,-25.6269505232404 -70.6304594728926,-25.6267902358863 -70.6307693847359,-25.6266956117066 -70.6310729023783,-25.6265472269104 -70.6313240059861,-25.626321060905 -70.6314825329951,-25.6261961321759 -70.6316307811982,-25.6261089107527 -70.6321522503858,-25.625793971792 -70.6328381197872,-25.6257768596715 -70.6329204362043,-25.6255198247606 -70.6330000534226,-25.6253450047064 -70.6322022451336,-25.6253336163389 -70.6319715691068,-25.6253747357818 -70.6317340909623,-25.6254755464558 -70.6313181984036,-25.6257370553789 -70.6311002431139,-25.6259036066737 -70.6308822013664,-25.6260940431567 -70.6306907196421,-25.6262248452993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6269716908033,-25.6390200219698 -70.6257649234423,-25.6408474341006 -70.6242711004575,-25.6408429715882 -70.6242813732768,-25.6430506326428 -70.6242646260823,-25.6454796888728 -70.6242633258616,-25.6480091066902 -70.624262292853,-25.6494189624565 -70.6252358371722,-25.6494218686468 -70.6252408925982,-25.6504354771837 -70.6255888828471,-25.6504066150322 -70.6259907871679,-25.6503958693542 -70.6262694461907,-25.6504060537952 -70.6269959841359,-25.6501445028756 -70.6281362258115,-25.6496319693034 -70.6289493934226,-25.6492044471209 -70.6295410690077,-25.6488144820704 -70.6299852429419,-25.6484049719805 -70.6302391039674,-25.6481573172399 -70.6307047307241,-25.6476427749066 -70.6309588966605,-25.6473091347766 -70.6312871514235,-25.6468897256797 -70.6314248247834,-25.6467086052422 -70.631668925128,-25.6462411786541 -70.6319344799364,-25.6456687203628 -70.6320725269718,-25.6453825066342 -70.6323919054563,-25.6444949250777 -70.6324561008009,-25.644227602571 -70.6327655476495,-25.6431680198197 -70.6329476242839,-25.6423564660025 -70.6331301769142,-25.6414111586888 -70.6332384373264,-25.6406089425292 -70.6333260601994,-25.6396824637114 -70.6333600649523,-25.6390137849381 -70.6333092415957,-25.638488167304 -70.6332268005986,-25.6379624572134 -70.6329766161347,-25.6371878510445 -70.6327250702041,-25.6367954003799 -70.6323055792521,-25.6362113751783 -70.6318333964358,-25.6356271934083 -70.63157142086,-25.6352060467664 -70.6314992894658,-25.6347472429733 -70.631500590798,-25.6343841950624 -70.6314992516756,-25.6342679509354 -70.6315656556919,-25.6341188654353 -70.631645320497,-25.6339459341484 -70.6316656588981,-25.633784770947 -70.6317124090406,-25.6336057712595 -70.6317063569625,-25.6334564722666 -70.6317074057224,-25.6331638844353 -70.6316688258614,-25.6329010360902 -70.6315966908416,-25.6328112548488 -70.6315444671177,-25.6326797340425 -70.6315516741934,-25.6325065892833 -70.6315124310751,-25.6324288468639 -70.6314014615048,-25.632147871611 -70.6312708803415,-25.6318250393158 -70.6310413483732,-25.6315437139874 -70.6307986015561,-25.6312742920676 -70.6305025167124,-25.6311838487429 -70.6302662384634,-25.6311810069319 -70.6302685643759,-25.632260790272 -70.6302557167264,-25.6341071100813 -70.6297798580003,-25.6348102618274 -70.6290858202417,-25.6358400392328 -70.6282592013574,-25.6370987165825 -70.6269716908033,-25.6390200219698</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-4</SimpleData>
+		<SimpleData name="NOMBRE">ZT-4 Zona de Equipamiento Turístico y Residencial de Media y Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6262694461907,-25.6504060537952 -70.6265243398701,-25.650415369467 -70.6268406873444,-25.6503804822079 -70.6272823766511,-25.6502981968178 -70.6278888696754,-25.6501865416509 -70.6284625297427,-25.6500449315115 -70.6290889561589,-25.6498855609201 -70.629530749034,-25.6497734121004 -70.6299924113215,-25.64963146442 -70.6308630741093,-25.6493354687402 -70.6314502215336,-25.6491043175269 -70.6318684727398,-25.6489419349304 -70.6321376895033,-25.6488209125221 -70.632652405058,-25.6485787965663 -70.633167220234,-25.6483080165963 -70.6335473895379,-25.6481084962099 -70.6341018545442,-25.6478020025175 -70.6343867493141,-25.6477168484883 -70.6347188202373,-25.6477034870888 -70.6352962851613,-25.6475976889874 -70.6352975687472,-25.6475970841804 -70.635243346833,-25.6474845789837 -70.6349306779183,-25.6464864735458 -70.6346910927584,-25.6453154140802 -70.6346071527147,-25.6448374714369 -70.6345699402228,-25.6441864987934 -70.6344943510282,-25.6432129684825 -70.6344374420131,-25.6425440247001 -70.6344656597464,-25.6420186390714 -70.6343485743114,-25.6416003104452 -70.6343104301893,-25.6412120696294 -70.6343640433625,-25.6409554636959 -70.6344903063361,-25.6406453283418 -70.6345773855163,-25.6402395393405 -70.634532442412,-25.6399109900851 -70.6345530111248,-25.6396841436702 -70.6346466557963,-25.6392843452295 -70.6345483781891,-25.6391347770682 -70.6343385851188,-25.6388535160321 -70.6342340610493,-25.6386083893828 -70.6342355707495,-25.6381844367365 -70.6341246941552,-25.6378736084735 -70.6340669415083,-25.6374435108594 -70.634061225432,-25.6371986732144 -70.6341609258478,-25.6369481736424 -70.6342205925674,-25.6368408654714 -70.6341827713523,-25.6363630566364 -70.6342576744544,-25.6356765834956 -70.6343241617096,-25.6355036123621 -70.6344962318451,-25.6352772091859 -70.634681858277,-25.6349433626488 -70.6348083497114,-25.6345675449008 -70.6349019045763,-25.6341916307988 -70.6349303976116,-25.6335886188546 -70.6348464878539,-25.6331047039125 -70.6348298486731,-25.633063262042 -70.634683260541,-25.6326981825815 -70.6344542082939,-25.6322795263798 -70.6341852959052,-25.6319562921057 -70.6338504953781,-25.6316388355255 -70.6334693539963,-25.631386925968 -70.6331076774433,-25.6312186697205 -70.632871064509,-25.6310746658084 -70.6328055808591,-25.6309669903956 -70.6326952710846,-25.6305009092871 -70.6323923334197,-25.6294167248331 -70.6321984227917,-25.6294532865786 -70.6318344254078,-25.6295668631205 -70.6314939339628,-25.6297378318502 -70.6311930908007,-25.6298730891339 -70.6309276600087,-25.6300514429036 -70.6307559116853,-25.6301882741654 -70.6305509919902,-25.630390692104 -70.6304581546647,-25.630563583898 -70.6303719470214,-25.6307245523706 -70.630325131293,-25.6309214658477 -70.6302784433013,-25.6310825511068 -70.6302662384634,-25.6311810069319 -70.6305025167124,-25.6311838487429 -70.6307986015561,-25.6312742920676 -70.6310413483732,-25.6315437139874 -70.6312708803415,-25.6318250393158 -70.6314014615048,-25.632147871611 -70.6315124310751,-25.6324288468639 -70.6315516741934,-25.6325065892833 -70.6315444671177,-25.6326797340425 -70.6315966908416,-25.6328112548488 -70.6316688258614,-25.6329010360902 -70.6317074057224,-25.6331638844353 -70.6317063569625,-25.6334564722666 -70.6317124090406,-25.6336057712595 -70.6316656588981,-25.633784770947 -70.631645320497,-25.6339459341484 -70.6315656556919,-25.6341188654353 -70.6314992516756,-25.6342679509354 -70.631500590798,-25.6343841950624 -70.6314992894658,-25.6347472429733 -70.63157142086,-25.6352060467664 -70.6318333964358,-25.6356271934083 -70.6323055792521,-25.6362113751783 -70.6327250702041,-25.6367954003799 -70.6329766161347,-25.6371878510445 -70.6332268005986,-25.6379624572134 -70.6333092415957,-25.638488167304 -70.6333600649523,-25.6390137849381 -70.6333260601994,-25.6396824637114 -70.6332384373264,-25.6406089425292 -70.6331301769142,-25.6414111586888 -70.6329476242839,-25.6423564660025 -70.6327655476495,-25.6431680198197 -70.6324561008009,-25.644227602571 -70.6323919054563,-25.6444949250777 -70.6320725269718,-25.6453825066342 -70.6319344799364,-25.6456687203628 -70.631668925128,-25.6462411786541 -70.6314248247834,-25.6467086052422 -70.6312871514235,-25.6468897256797 -70.6309588966605,-25.6473091347766 -70.6307047307241,-25.6476427749066 -70.6302391039674,-25.6481573172399 -70.6299852429419,-25.6484049719805 -70.6295410690077,-25.6488144820704 -70.6289493934226,-25.6492044471209 -70.6281362258115,-25.6496319693034 -70.6269959841359,-25.6501445028756 -70.6262694461907,-25.6504060537952</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-17</SimpleData>
+		<SimpleData name="NOMBRE">ZT-17 Zona de Resguardo Natural</SimpleData>
+		<SimpleData name="UPERM">Corresponde a zonas que por su valor de flora y/o fauna y características geomorfológicas deben quedar fuera de todo uso artificial</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6260839848287,-25.6261319240054 -70.6259926101973,-25.627714034861 -70.6260749991426,-25.6276263222997 -70.6272489975942,-25.6271939211362 -70.6287657257691,-25.6266968447356 -70.6293525110543,-25.6265373611634 -70.629853434205,-25.6264433050643 -70.6300577886749,-25.6263961394827 -70.630341010051,-25.6263969775129 -70.6304795227417,-25.6263287994339 -70.6303046648001,-25.6259637501016 -70.6296442039165,-25.6250016176638 -70.6289831332577,-25.6242114525832 -70.6284319972682,-25.6236222442442 -70.6279758131719,-25.623004654049 -70.6276934621853,-25.622401910615 -70.6275216080782,-25.621842489018 -70.6273980605313,-25.6210395828404 -70.6273207395224,-25.6205664288161 -70.627322610529,-25.6200505170839 -70.6273564585538,-25.6194343837398 -70.6274686655307,-25.6190047870355 -70.6276450844534,-25.6183030921887 -70.6273138200531,-25.6181158008385 -70.6270145345114,-25.6178282880567 -70.6266677262673,-25.6175692941721 -70.6264472671579,-25.6173393383889 -70.6262109505718,-25.6171236668338 -70.6258953940308,-25.6169650815455 -70.6252961572954,-25.6165763491754 -70.6249017800828,-25.6163602015326 -70.6245390699636,-25.6161298164859 -70.6240188728266,-25.6157413156756 -70.6233325150105,-25.6153610578558 -70.6235754152688,-25.6159350307309 -70.6237398362071,-25.6163582914518 -70.6239357391404,-25.6168174749597 -70.6239076868466,-25.617861169218 -70.6237142884339,-25.6185174285262 -70.6237006580593,-25.6186427836758 -70.6236629230616,-25.6199563506152 -70.6236591022082,-25.6210013118268 -70.623687864148,-25.6221419114272 -70.6237058990568,-25.6226136962559 -70.624353415785,-25.6238576633856 -70.6248654597368,-25.624324957468 -70.6251411546873,-25.6245825475721 -70.6255474730255,-25.625145061897 -70.6257375036878,-25.6254143373043 -70.6260839848287,-25.6261319240054</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-4a</SimpleData>
+		<SimpleData name="NOMBRE">ZT-4a Zona de Equipamiento Turístico y Residencial de Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6303046648001,-25.6259637501016 -70.6304795227417,-25.6263287994339 -70.6305369661801,-25.6263005253342 -70.6302429300139,-25.6255479691469 -70.6292722687336,-25.6229368501671 -70.6280047452725,-25.6193789902746 -70.6276450844534,-25.6183030921887 -70.6274686655307,-25.6190047870355 -70.6273564585538,-25.6194343837398 -70.627322610529,-25.6200505170839 -70.6273207395224,-25.6205664288161 -70.6273980605313,-25.6210395828404 -70.6275216080782,-25.621842489018 -70.6276934621853,-25.622401910615 -70.6279758131719,-25.623004654049 -70.6284319972682,-25.6236222442442 -70.6289831332577,-25.6242114525832 -70.6296442039165,-25.6250016176638 -70.6303046648001,-25.6259637501016</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-7</SimpleData>
+		<SimpleData name="NOMBRE">ZT-7 Zona de Equipamiento y Servicios</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, comercio minorista, cultura, áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6339268459817,-25.6207921740176 -70.6338274170159,-25.6210213462394 -70.6340082593092,-25.6208640682013 -70.6343411760591,-25.6205927560858 -70.634729544248,-25.6202857779179 -70.6350937920215,-25.6200933760093 -70.6355132341202,-25.6199369631217 -70.6357981901729,-25.6198159829196 -70.6354306911689,-25.6197814694705 -70.6347920241424,-25.6197258582986 -70.6343248103694,-25.6196110348726 -70.6338640344378,-25.6195380279356 -70.6336716231413,-25.6195555035128 -70.6337834090174,-25.6196452741143 -70.6339828270299,-25.619870377814 -70.6340453892296,-25.6200568650948 -70.6340712563929,-25.6201906969418 -70.6340864838193,-25.6203531591541 -70.6340064606238,-25.6206299900282 -70.6339268459817,-25.6207921740176</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-15</SimpleData>
+		<SimpleData name="NOMBRE">ZT-15 Zona de Protección Aluvional</SimpleData>
+		<SimpleData name="UPERM">Corresponde a áreas destinadas a la evacuación de aguas lluvias</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6338216086945,-25.6232417479101 -70.6339868383594,-25.6232953474301 -70.6339899269193,-25.6232901181682 -70.6340563021933,-25.6231470031239 -70.6341095468252,-25.6229919066822 -70.6341496720176,-25.6228218440687 -70.6338523474744,-25.6227493303978 -70.6326845631965,-25.6222013206885 -70.6316489437293,-25.6215342660048 -70.6311495712487,-25.6212031787153 -70.6303878687292,-25.6205608083201 -70.6296106439399,-25.619841955122 -70.6292431284971,-25.6194778127721 -70.6286029092212,-25.6187593597018 -70.628207155698,-25.6182382129429 -70.6280575368271,-25.6180411864996 -70.6280238643977,-25.6180233773941 -70.6278577009199,-25.6179354971453 -70.6274114402602,-25.61749468236 -70.6267968925107,-25.6169673777147 -70.626455529771,-25.6166606292179 -70.6261402179368,-25.616435167358 -70.6253832497293,-25.6159551997175 -70.6246211059485,-25.6154513277 -70.6242953504746,-25.615201945007 -70.6237750537922,-25.6148421046649 -70.6235596991119,-25.614659930596 -70.6231134321211,-25.6142286550002 -70.6228090718825,-25.6138933457959 -70.6226830085922,-25.6137878714804 -70.6225889620845,-25.6136883413465 -70.622522693082,-25.6136881418082 -70.6225196120941,-25.6139756600568 -70.6226527160487,-25.6143164240872 -70.6227898511305,-25.6146357042654 -70.6228603612549,-25.6148043065363 -70.6229547916532,-25.6149156571231 -70.6231082329667,-25.6150988402749 -70.6232302992359,-25.6152174392858 -70.6233325150105,-25.6153610578558 -70.6240188728266,-25.6157413156756 -70.6245390699636,-25.6161298164859 -70.6249017800828,-25.6163602015326 -70.6252961572954,-25.6165763491754 -70.6258953940308,-25.6169650815455 -70.6262109505718,-25.6171236668338 -70.6264472671579,-25.6173393383889 -70.6266677262673,-25.6175692941721 -70.6270145345114,-25.6178282880567 -70.6273138200531,-25.6181158008385 -70.6276450844534,-25.6183030921887 -70.6277389350609,-25.6185838415938 -70.628051649036,-25.6189397240961 -70.6284451591154,-25.6193994883855 -70.6290672245123,-25.6200390669685 -70.629547731755,-25.6204847537581 -70.6300677340728,-25.6209377216657 -70.6306587431267,-25.6214267249158 -70.6314944846466,-25.6219952689403 -70.6320937680325,-25.6223839733082 -70.6324644673284,-25.6226000297505 -70.6326142251634,-25.6227151184495 -70.6331587798149,-25.6229388504498 -70.6334901933615,-25.6230903000348 -70.6338216086945,-25.6232417479101</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-4a</SimpleData>
+		<SimpleData name="NOMBRE">ZT-4a Zona de Equipamiento Turístico y Residencial de Baja Altura</SimpleData>
+		<SimpleData name="UPERM">Vivienda, Equipamiento (esparcimiento y turismo, cultura, deportes y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6330948202418,-25.6191846586861 -70.6335207140275,-25.6194343139357 -70.6336716231413,-25.6195555035128 -70.6338640344378,-25.6195380279356 -70.6343248103694,-25.6196110348726 -70.6347920241424,-25.6197258582986 -70.6354306911689,-25.6197814694705 -70.6357981901729,-25.6198159829196 -70.6360906415863,-25.6198096715121 -70.6365726223144,-25.6198469058901 -70.6370861144292,-25.6199128919113 -70.6376072323377,-25.6200577197991 -70.6380180834486,-25.6200947417202 -70.6383581324621,-25.6200384060326 -70.6384927947624,-25.6199528118789 -70.6386592719613,-25.6198099852804 -70.6389681876447,-25.6196174135926 -70.6392292775298,-25.6195393509651 -70.6395928580842,-25.6195332384897 -70.640114430109,-25.619549080068 -70.6406833227023,-25.619593717698 -70.6409522137354,-25.6195443357647 -70.6418430340914,-25.6201917978658 -70.642245956904,-25.6202359504793 -70.642175479221,-25.620049445121 -70.6421681529658,-25.6198846184972 -70.6422158995101,-25.6197916045052 -70.6423049944388,-25.6191756305449 -70.642473423023,-25.6184738989102 -70.6426007028989,-25.6182378052712 -70.6428224957027,-25.618095133256 -70.6428228717751,-25.6179876525517 -70.6429812130836,-25.6179092877766 -70.6432346684892,-25.6177523750031 -70.64350317423,-25.6176229741693 -70.6432615454822,-25.61734560536 -70.6421196166232,-25.6170638130291 -70.6419546754955,-25.6171838150196 -70.6415665123237,-25.6174406531983 -70.6411942305546,-25.6176760393496 -70.6411307522587,-25.6177475110575 -70.6412808143026,-25.6177766056659 -70.6414489803524,-25.6179012928486 -70.6415642919766,-25.6180735968461 -70.6415525143957,-25.6184270597404 -70.6414777437879,-25.6187134625267 -70.6412133943485,-25.6189706576948 -70.640896757427,-25.6191130527607 -70.6406647585588,-25.6191601524283 -70.6403908094574,-25.6191498062677 -70.6401907926402,-25.619091904381 -70.639980508074,-25.6189575401359 -70.6397755431308,-25.618808860653 -70.6392855360524,-25.618807440656 -70.6392078179107,-25.6184346100278 -70.6391614089577,-25.6181478559098 -70.6391936283991,-25.6179759777185 -70.6388306348026,-25.6178172843045 -70.6373618452513,-25.6174690699052 -70.635671315265,-25.6172491713798 -70.63292129448,-25.6171551167768 -70.6305970189362,-25.6173488909683 -70.6294898382914,-25.6175462451137 -70.6285404084037,-25.6178300458864 -70.6280238643977,-25.6180233773941 -70.6280575368271,-25.6180411864996 -70.628207155698,-25.6182382129429 -70.6284978692446,-25.6183924122796 -70.6287347443155,-25.6184552172642 -70.6295197751484,-25.6184671019549 -70.6303678254352,-25.6185364929168 -70.6308523577529,-25.6185952507296 -70.6314106021882,-25.6186685550624 -70.6324266260537,-25.618915178958 -70.6330948202418,-25.6191846586861</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-12</SimpleData>
+		<SimpleData name="NOMBRE">ZT-12 Zona de Protección de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde a terrenos de playa del territorio marítimo. En ellos, además de su uso como paseos, senderos peatonales, pérgolas, miradores y otros,  se permitirán usos relacionados y de apoyo explusivo a la actividad turística recreac</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6432346684892,-25.6177523750031 -70.6429812130836,-25.6179092877766 -70.6428228717751,-25.6179876525517 -70.6428224957027,-25.618095133256 -70.6426007028989,-25.6182378052712 -70.642473423023,-25.6184738989102 -70.6423049944388,-25.6191756305449 -70.6422158995101,-25.6197916045052 -70.6421681529658,-25.6198846184972 -70.642175479221,-25.620049445121 -70.642245956904,-25.6202359504793 -70.6418430340914,-25.6201917978658 -70.6409522137354,-25.6195443357647 -70.6406833227023,-25.619593717698 -70.640114430109,-25.619549080068 -70.6395928580842,-25.6195332384897 -70.6392292775298,-25.6195393509651 -70.6389681876447,-25.6196174135926 -70.6386592719613,-25.6198099852804 -70.6384927947624,-25.6199528118789 -70.6383581324621,-25.6200384060326 -70.6380180834486,-25.6200947417202 -70.6376072323377,-25.6200577197991 -70.6370861144292,-25.6199128919113 -70.6365726223144,-25.6198469058901 -70.6360906415863,-25.6198096715121 -70.6357981901729,-25.6198159829196 -70.6353958722978,-25.6201482602339 -70.6351528028864,-25.6203434055352 -70.6349520720062,-25.6204861277026 -70.6346400448295,-25.620810050226 -70.6342219713779,-25.6213199626825 -70.6339465504544,-25.621720422886 -70.6338140401512,-25.621939775133 -70.6335652687224,-25.6222543267064 -70.6334141779934,-25.6225437108556 -70.6338523474744,-25.6227493303978 -70.6341496720176,-25.6228218440687 -70.6341872128443,-25.6227305075526 -70.6342772634462,-25.6225970159878 -70.6346583050697,-25.6221299872036 -70.6347964058402,-25.6218198871025 -70.6349076680255,-25.6216482410916 -70.6351190922888,-25.6214625568232 -70.6353149122755,-25.6212195032695 -70.6355105624886,-25.6210242185903 -70.635616197523,-25.6209528730979 -70.6359490599077,-25.6206958882171 -70.6360442921259,-25.6205862952768 -70.6362709090471,-25.6205726260749 -70.6365446071277,-25.6206546334703 -70.6367498765318,-25.6207173331225 -70.6372450926976,-25.6207378838736 -70.6375185544609,-25.6208867670116 -70.6376657651769,-25.6209779574882 -70.6380716967031,-25.6209170370835 -70.6385357384234,-25.6208132913894 -70.6388152637367,-25.6207376714787 -70.6390212754977,-25.6205901822345 -70.6392381287141,-25.6203567382529 -70.6393120969581,-25.6202996287153 -70.6395385936018,-25.6203193937366 -70.6397333771879,-25.620367727712 -70.6399600596205,-25.6203349443146 -70.6400970021989,-25.6203496720526 -70.640354995625,-25.6204029643275 -70.6404497367442,-25.6204319007057 -70.6405499804126,-25.6203939743657 -70.6406079559006,-25.6203893646248 -70.640702947958,-25.6203466464064 -70.6407766973845,-25.6203516367939 -70.6410132122475,-25.6205195140933 -70.6412340559368,-25.6206491294148 -70.6414072446081,-25.6208454856543 -70.6415068862979,-25.6209795279721 -70.641606862344,-25.6210180322101 -70.641764915283,-25.621023264755 -70.6418600748235,-25.6209327758796 -70.6419548993781,-25.6209378258501 -70.6420810701891,-25.621019398644 -70.6421650059227,-25.6211247337311 -70.6422751529283,-25.6212683597894 -70.6423223562547,-25.6213305963298 -70.6424065432804,-25.6213642777707 -70.6424750570352,-25.6213596977737 -70.6426125350386,-25.6212215605307 -70.6427554324592,-25.6210404458705 -70.6427822458235,-25.6209067675518 -70.6428826734097,-25.6208162937421 -70.6428828740816,-25.62075897096 -70.6428516608681,-25.6206442330805 -70.6428836421509,-25.6205392318327 -70.643002146271,-25.6204273136372 -70.6431010753271,-25.6203887846492 -70.6431606847507,-25.6202934160835 -70.6431543179971,-25.620230699807 -70.6430264402833,-25.6200720950153 -70.6430531187978,-25.6199766327552 -70.6431654795826,-25.6198635015531 -70.6433568644964,-25.6197535838216 -70.6435976128923,-25.6196527642156 -70.6436570240307,-25.6196141214677 -70.6436572533432,-25.6195484384482 -70.6435849823049,-25.6194974758823 -70.6434631916417,-25.6194821981841 -70.6433413692152,-25.6194758774112 -70.6431831758349,-25.6195112505705 -70.6430844264534,-25.619499024903 -70.6430715977292,-25.6194004625067 -70.6431014758071,-25.6193318794127 -70.6431973085487,-25.619236614482 -70.6433291036189,-25.6192160940487 -70.6434378683511,-25.6191895355081 -70.6435237487501,-25.619115142181 -70.643553604644,-25.6190525294651 -70.6434716541382,-25.6189448128942 -70.6433204551818,-25.6188637673752 -70.6432350756984,-25.6187948527141 -70.6432418498306,-25.6187411312947 -70.6432750098782,-25.6186755428606 -70.6433376710949,-25.618648852876 -70.6434760110577,-25.6186402930402 -70.6435025429508,-25.6185866283498 -70.6435027932345,-25.6185149739687 -70.6435557000078,-25.618452427893 -70.6436117757439,-25.6184257179791 -70.643710400195,-25.6184737714121 -70.6438024175843,-25.6185277763256 -70.6438551068749,-25.6185279274817 -70.6440099311897,-25.6185134435037 -70.6440529910071,-25.6184419123457 -70.6440961648322,-25.6183375396731 -70.6441361604903,-25.6182003155836 -70.644394119105,-25.6178845803109 -70.6445156277841,-25.6179804677809 -70.6446735581947,-25.6180197333229 -70.6447758501203,-25.6179603134851 -70.6448224509433,-25.6178171376648 -70.644789905937,-25.6177065770933 -70.6432615454822,-25.61734560536 -70.64350317423,-25.6176229741693 -70.6432346684892,-25.6177523750031</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.76">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-13</SimpleData>
+		<SimpleData name="NOMBRE">ZT-13 Zona de Extensión de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde una franja de extensión de la Zona de Protección de Borde Costero. Se permiten los usos de la Zona ZT-12</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6327953422895,-25.6222533064992 -70.6334141779934,-25.6225437108556 -70.6335652687224,-25.6222543267064 -70.6338140401512,-25.621939775133 -70.6339465504544,-25.621720422886 -70.6342219713779,-25.6213199626825 -70.6346400448295,-25.620810050226 -70.6349520720062,-25.6204861277026 -70.6351528028864,-25.6203434055352 -70.6353958722978,-25.6201482602339 -70.6357981901729,-25.6198159829196 -70.6355132341202,-25.6199369631217 -70.6350937920215,-25.6200933760093 -70.634729544248,-25.6202857779179 -70.6343411760591,-25.6205927560858 -70.6340082593092,-25.6208640682013 -70.6338274170159,-25.6210213462394 -70.6336136842058,-25.6212388791694 -70.6332645809617,-25.6216152365236 -70.6329098812485,-25.6220823393945 -70.6327953422895,-25.6222533064992</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.77">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6327743151424,-25.6222434391341 -70.6327953422895,-25.6222533064992 -70.6329098812485,-25.6220823393945 -70.6332645809617,-25.6216152365236 -70.6336136842058,-25.6212388791694 -70.6338274170159,-25.6210213462394 -70.6339268459817,-25.6207921740176 -70.6340064606238,-25.6206299900282 -70.6340864838193,-25.6203531591541 -70.6340712563929,-25.6201906969418 -70.6340453892296,-25.6200568650948 -70.6339828270299,-25.619870377814 -70.6337834090174,-25.6196452741143 -70.6336716231413,-25.6195555035128 -70.6335207140275,-25.6194343139357 -70.6330948202418,-25.6191846586861 -70.6324266260537,-25.618915178958 -70.6314106021882,-25.6186685550624 -70.6308523577529,-25.6185952507296 -70.6303678254352,-25.6185364929168 -70.6295197751484,-25.6184671019549 -70.6287347443155,-25.6184552172642 -70.6284978692446,-25.6183924122796 -70.628207155698,-25.6182382129429 -70.6286029092212,-25.6187593597018 -70.6292431284971,-25.6194778127721 -70.6296106439399,-25.619841955122 -70.6303878687292,-25.6205608083201 -70.6311495712487,-25.6212031787153 -70.6316489437293,-25.6215342660048 -70.6326845631965,-25.6222013206885 -70.6327743151424,-25.6222434391341</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.78">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-12</SimpleData>
+		<SimpleData name="NOMBRE">ZT-12 Zona de Protección de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde a terrenos de playa del territorio marítimo. En ellos, además de su uso como paseos, senderos peatonales, pérgolas, miradores y otros,  se permitirán usos relacionados y de apoyo explusivo a la actividad turística recreac</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6322140148809,-25.625180364256 -70.6321616439062,-25.6253408535997 -70.6322022451336,-25.6253336163389 -70.6330000534226,-25.6253450047064 -70.6330698065739,-25.6251918456516 -70.6331561239064,-25.6249980333236 -70.6333859580652,-25.6245781339692 -70.6335880597947,-25.6242383664772 -70.6337076713578,-25.6239431409405 -70.6337806867158,-25.6237851178255 -70.6338537658541,-25.6236091805789 -70.6339336019232,-25.6233854925948 -70.6339868383594,-25.6232953474301 -70.6338216086945,-25.6232417479101 -70.6334901933615,-25.6230903000348 -70.6332352704264,-25.6229738050282 -70.6331961064872,-25.62314347571 -70.6329303782717,-25.6237780351648 -70.6328666019656,-25.6239307111641 -70.6326651104298,-25.6242836166038 -70.632357497564,-25.6248416197696 -70.6322140148809,-25.625180364256</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.79">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-13</SimpleData>
+		<SimpleData name="NOMBRE">ZT-13 Zona de Extensión de Borde Costero</SimpleData>
+		<SimpleData name="UPERM">Corresponde una franja de extensión de la Zona de Protección de Borde Costero. Se permiten los usos de la Zona ZT-12</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6316601171542,-25.6253554811843 -70.6316563523658,-25.6255244284285 -70.6317340909623,-25.6254755464558 -70.6319715691068,-25.6253747357818 -70.6321616439062,-25.6253408535997 -70.6322140148809,-25.625180364256 -70.632357497564,-25.6248416197696 -70.6326651104298,-25.6242836166038 -70.6328666019656,-25.6239307111641 -70.6329303782717,-25.6237780351648 -70.6331961064872,-25.62314347571 -70.6332352704264,-25.6229738050282 -70.6331587798149,-25.6229388504498 -70.6326142251634,-25.6227151184495 -70.632528616314,-25.6226493291045 -70.6324385204204,-25.6228164116241 -70.6322527163687,-25.6232028013049 -70.6320562184529,-25.6236321517988 -70.631837529889,-25.6243719427305 -70.6317411767338,-25.6247920345749 -70.6317032820859,-25.6250737654698 -70.6316601171542,-25.6253554811843</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.80">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-8</SimpleData>
+		<SimpleData name="NOMBRE">ZT-8 Zona de Equipamiento Turístico Restrictivo</SimpleData>
+		<SimpleData name="UPERM">Áreas destinadas a esparcimiento, áreas verdes y deportes con equipamiento que no altere el paisaje natural y que contribuya a la formación del mismo</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6302429300139,-25.6255479691469 -70.6305369661801,-25.6263005253342 -70.6306907196421,-25.6262248452993 -70.6308822013664,-25.6260940431567 -70.6311002431139,-25.6259036066737 -70.6313181984036,-25.6257370553789 -70.6316563523658,-25.6255244284285 -70.6316601171542,-25.6253554811843 -70.6317032820859,-25.6250737654698 -70.6317411767338,-25.6247920345749 -70.631837529889,-25.6243719427305 -70.6320562184529,-25.6236321517988 -70.6322527163687,-25.6232028013049 -70.6324385204204,-25.6228164116241 -70.632528616314,-25.6226493291045 -70.6324644673284,-25.6226000297505 -70.6320937680325,-25.6223839733082 -70.6314944846466,-25.6219952689403 -70.6306587431267,-25.6214267249158 -70.6300677340728,-25.6209377216657 -70.629547731755,-25.6204847537581 -70.6290672245123,-25.6200390669685 -70.6284451591154,-25.6193994883855 -70.628051649036,-25.6189397240961 -70.6277389350609,-25.6185838415938 -70.6280047452725,-25.6193789902746 -70.6292722687336,-25.6229368501671 -70.6302429300139,-25.6255479691469</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.81">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-7a</SimpleData>
+		<SimpleData name="NOMBRE">ZT-7a Zona de Equipamiento y Servicios de Transporte</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (transporte y turismo, comercio minorista, áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6471644485462,-25.6554161289561 -70.6478351358404,-25.6557956030934 -70.6479011315474,-25.6556621338182 -70.6480810498388,-25.6554524563448 -70.6481976572325,-25.6552617074141 -70.6482813399548,-25.655038920793 -70.6476167039226,-25.6548161098127 -70.6464255829054,-25.6544305820848 -70.6463464434336,-25.6544542431514 -70.6461875064235,-25.6546926390856 -70.6460828200518,-25.6548010183551 -70.6464938116323,-25.6550231171978 -70.6469015007568,-25.6552481915759 -70.6471644485462,-25.6554161289561</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.82">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-5</SimpleData>
+		<SimpleData name="NOMBRE">ZT-5 Zona de Uso Turístico y Comercial vinculado a la pesca artesanal</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, comercio minorista, equipamiento productivo y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.64639313291,-25.6542246830418 -70.6464174693199,-25.6542918996587 -70.6464914348332,-25.6541843578056 -70.6465911207826,-25.6539338508817 -70.6467239101781,-25.6536356676545 -70.6467416821712,-25.6534494165996 -70.6467566601716,-25.6533478132688 -70.646302609463,-25.6526516989352 -70.6462809820819,-25.6526854329069 -70.6462375108665,-25.6528734019854 -70.6461140550453,-25.6533298477878 -70.6460108277874,-25.653651998603 -70.6459250189545,-25.6536995250727 -70.6460215354992,-25.6537752925873 -70.6461580882669,-25.6539142113256 -70.6462946403697,-25.6540531308318 -70.6463460453317,-25.6541242338583 -70.64639313291,-25.6542246830418</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_cifuncho_mono.83">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_cifuncho_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Taltal</SimpleData>
+		<SimpleData name="LOCALIDAD">Cifuncho</SimpleData>
+		<SimpleData name="ZONA">ZT-6</SimpleData>
+		<SimpleData name="NOMBRE">ZT-6 Zona de Uso Turístico destinado a usos nauticos</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (esparcimiento y turismo, cultura, deportes, equipamiento productivo y áreas verdes)</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Cifuncho - Taltal</SimpleData>
+		<SimpleData name="CUT">02104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.646302609463,-25.6526516989352 -70.6467566601716,-25.6533478132688 -70.6467659669698,-25.6532846805919 -70.6468388963916,-25.6527689770604 -70.6469116023006,-25.6523177608073 -70.6470233905175,-25.6519956338227 -70.6470079502395,-25.6518881082546 -70.646953353039,-25.6516729906392 -70.6470087657978,-25.6516516517589 -70.646964630474,-25.651481017767 -70.6468391317471,-25.6511940448561 -70.6467739151336,-25.6511183255692 -70.6467111160111,-25.6511759416119 -70.6467404934772,-25.6512536505096 -70.6467764384515,-25.6513373484836 -70.6467762422293,-25.6513940741849 -70.6467727941673,-25.6514388483586 -70.6467496436546,-25.6514656534715 -70.6467423560408,-25.6516686532069 -70.6466233002399,-25.6518056527693 -70.6466258622055,-25.6520176379577 -70.6465099449073,-25.6521994303038 -70.6464502316137,-25.6523216704994 -70.6464301589518,-25.6524111814669 -70.6464133793342,-25.6525007013344 -70.6463306593275,-25.6526079482471 -70.646302609463,-25.6526516989352</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-5</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7718829896932,-39.4459131799179 -72.7729437496762,-39.4466120651302 -72.7730882403296,-39.4465215897186 -72.7735302937974,-39.4463976062215 -72.7739329902637,-39.4463416264389 -72.7743487664126,-39.4464139058658 -72.7752480807263,-39.4465610240129 -72.7756083732192,-39.446630336848 -72.7758185592127,-39.4466521006042 -72.7760849642391,-39.446576712883 -72.7762143064178,-39.4464676523074 -72.7764290847822,-39.4464606688442 -72.7769995635157,-39.4465517395943 -72.7774836178851,-39.446636085612 -72.7777191229672,-39.4466713208003 -72.778144601889,-39.4466956101795 -72.7786386145083,-39.4467367322021 -72.7791039593162,-39.4467025265415 -72.7793253441149,-39.4465904675666 -72.7800918673047,-39.4460254075188 -72.7799601813632,-39.4459807204565 -72.7791429566141,-39.4457034739607 -72.7787311935244,-39.4455917599428 -72.7784751690334,-39.4455464707539 -72.7780469283491,-39.4454710367752 -72.776970312405,-39.4453416214242 -72.7760425158985,-39.4452359544674 -72.7747348247186,-39.4450961574624 -72.774117123913,-39.4450125678578 -72.7739125013443,-39.4449798965648 -72.7730221357517,-39.4449695039302 -72.7718829896932,-39.4459131799179</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipmaiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el trasnporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.783282127385,-39.4531735521626 -72.7834375400355,-39.453318622602 -72.7838102666021,-39.4535597987519 -72.7842329360266,-39.4538262758577 -72.7845966462846,-39.4540348988174 -72.7843212438048,-39.4538356935863 -72.7844149032244,-39.4537693487236 -72.7845251711276,-39.4537478822754 -72.784656517309,-39.4536899833609 -72.784691004403,-39.453617367662 -72.7847827034683,-39.4535369294393 -72.7848821087116,-39.4535277318169 -72.7849784501917,-39.4534620367623 -72.7850509709741,-39.4533822233722 -72.7851767417426,-39.4533632305134 -72.785323302756,-39.4533733473124 -72.785348700874,-39.4533457097173 -72.7854288929295,-39.4532656469594 -72.7855584986128,-39.4532465277909 -72.7857333604119,-39.4532825313421 -72.7858797612145,-39.4532896749984 -72.7859127783691,-39.4532379009677 -72.7842574158161,-39.4521795142592 -72.7813096336032,-39.4501951108439 -72.7786048546098,-39.4483528570753 -72.7779194159253,-39.4478985414142 -72.77668890528,-39.4488739175859 -72.7783906166129,-39.4497896687843 -72.7804354909481,-39.4510814731163 -72.7815334096528,-39.4517725650605 -72.7825358141385,-39.4525442061028 -72.7826938657458,-39.4526585359375 -72.783282127385,-39.4531735521626</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipmaiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el trasnporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7770083957797,-39.4541253456098 -72.7752645607118,-39.4546205316413 -72.7749837140209,-39.454429482491 -72.7735043079119,-39.4550399658813 -72.7725349772371,-39.4554193865333 -72.768692426794,-39.4563305577592 -72.7687908545057,-39.4562177427921 -72.7700589247144,-39.4559049140126 -72.7716209351116,-39.4555237127858 -72.7717033855833,-39.4555035905832 -72.7701291203848,-39.4544727917806 -72.7684900326789,-39.4555754357971 -72.767028154775,-39.4566118389424 -72.7661736394628,-39.45719782493 -72.7665787982423,-39.4575199039603 -72.7664981004944,-39.4575739955012 -72.7660863311661,-39.4572576959103 -72.7656619989537,-39.457548676575 -72.7643968621408,-39.4584162055057 -72.7649742736275,-39.4588529258349 -72.7657472046722,-39.4594325698085 -72.7659104211897,-39.459537494329 -72.7662132652622,-39.4593102186138 -72.7667810672809,-39.4588658285458 -72.7676264661784,-39.4582962559916 -72.7679575948766,-39.4580948671905 -72.7682329485963,-39.4579280542348 -72.7697833745477,-39.457463677277 -72.7704199424096,-39.4572970494915 -72.7713724579183,-39.4570039825168 -72.7723930474887,-39.4566908242596 -72.7733872574038,-39.4563874508611 -72.7766439145868,-39.4555005408396 -72.782231638455,-39.4554020779131 -72.7821833925402,-39.4553612485318 -72.7820364092894,-39.4552016035853 -72.781799071463,-39.4549912821083 -72.7816181298399,-39.4548005708487 -72.7813781247601,-39.4546260816933 -72.7810493121526,-39.4544294605574 -72.7805116864282,-39.4540830006126 -72.7804247823549,-39.4540904446436 -72.7770380514133,-39.4541053172193 -72.7770083957797,-39.4541253456098</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7781744842793,-39.4531508702802 -72.7779104178637,-39.4532130793641 -72.7776743216272,-39.4531957373687 -72.7774942645388,-39.4532766608644 -72.7768740351653,-39.4538294491076 -72.7766972566447,-39.4539710322508 -72.7765332909966,-39.4540085358373 -72.7759490812831,-39.4539488911261 -72.7752041099346,-39.4543269960095 -72.7749837140209,-39.454429482491 -72.7752645607118,-39.4546205316413 -72.7770083957797,-39.4541253456098 -72.7770380514133,-39.4541053172193 -72.7804247823549,-39.4540904446436 -72.7805116864282,-39.4540830006126 -72.7785891836283,-39.4528049399013 -72.7785189820484,-39.4527857768122 -72.7783491317334,-39.4529700330455 -72.7781744842793,-39.4531508702802</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.778236718642,-39.4513891660168 -72.776398494288,-39.4530227535661 -72.7756507795762,-39.4537476875164 -72.7755520701276,-39.4537413646107 -72.7745220858551,-39.4531123500449 -72.7736853779163,-39.453897357516 -72.7725428865894,-39.4549401318539 -72.7728817939213,-39.4551817279561 -72.7734775540161,-39.4549431296086 -72.7750400481702,-39.4542775177601 -72.7758001696915,-39.4538953474438 -72.7759569052478,-39.4538378235382 -72.7765059440801,-39.4538723992528 -72.776663966148,-39.4538386638129 -72.7770129279775,-39.4535842417936 -72.7773053659994,-39.4533078268453 -72.7774707678604,-39.4531832935495 -72.7777430740189,-39.4531029442304 -72.7781215131207,-39.4530525048402 -72.7782754117533,-39.4529426430269 -72.7784640267992,-39.4526791348314 -72.7785747509566,-39.4526802988403 -72.779186060545,-39.4530702954843 -72.7800726095502,-39.4536610405795 -72.7806940442182,-39.4540673809846 -72.7820003828968,-39.4537817745359 -72.7794093121064,-39.452140782577 -72.778236718642,-39.4513891660168</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZEX-2</SimpleData>
+		<SimpleData name="NOM">Zona de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7598860096646,-39.4548503651291 -72.7601863438603,-39.4551556971681 -72.7606860182752,-39.4549305941612 -72.7587751254522,-39.453448025015 -72.7588717649494,-39.4535695247657 -72.7594365085102,-39.4542810628848 -72.7598860096646,-39.4548503651291</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZEX-2</SimpleData>
+		<SimpleData name="NOM">Zona de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7606234717519,-39.4496254882403 -72.7603741393805,-39.4499036627986 -72.7601777408837,-39.4500381122425 -72.759975904691,-39.4501429488992 -72.7597905237525,-39.4501966121385 -72.7595679062994,-39.4502723314353 -72.7593080532444,-39.4503701083512 -72.7588680943683,-39.450548185672 -72.7584167777861,-39.4506581143249 -72.7579795225218,-39.4507437566999 -72.7577190249097,-39.4508296348322 -72.7574940145808,-39.4510037307285 -72.7571718304109,-39.4511571384981 -72.7569829592843,-39.451243678223 -72.757628816725,-39.4520306088868 -72.7577469951319,-39.4519954069858 -72.7578892180272,-39.4519307517044 -72.7580209317509,-39.451876444772 -72.7581221870249,-39.4518045357589 -72.758225744891,-39.451741131219 -72.7583278462504,-39.4516849224968 -72.7584957696014,-39.4516523207872 -72.7586848651759,-39.4516018763915 -72.7588046913323,-39.4516008580176 -72.758661090625,-39.4516741380629 -72.7584282728817,-39.4517688935897 -72.7582799927687,-39.4518580524488 -72.7580599086782,-39.4519495354965 -72.757875878295,-39.4520255531103 -72.7576786611109,-39.4520913401342 -72.7582411779257,-39.4527767069097 -72.7585253057823,-39.4531339343354 -72.7586022192448,-39.4531121308091 -72.7606733713057,-39.4547537498932 -72.7608837829858,-39.4548415005085 -72.7612267872426,-39.4546869748094 -72.7616057897731,-39.4545108131017 -72.7615539752805,-39.4544380710132 -72.7642636317961,-39.4531539721516 -72.7624948564228,-39.4509834532812 -72.7624112023109,-39.4510032926408 -72.762262587403,-39.4510290777594 -72.7620805286819,-39.4510731050586 -72.7618767855211,-39.4511254596919 -72.7617018855361,-39.4511654410056 -72.7615372079358,-39.4511669621003 -72.7612912139347,-39.4511653962233 -72.7611616210389,-39.4511791260383 -72.7610608774503,-39.4512262368167 -72.7609801820122,-39.4512803244214 -72.7608708501388,-39.4513505915634 -72.7606031776574,-39.451403107387 -72.7603408187691,-39.4514173216713 -72.7601238715269,-39.4514071876146 -72.7598821757356,-39.4514397967654 -72.7597124915299,-39.4514853256239 -72.7595622391637,-39.451526412589 -72.7594836839474,-39.4515289554831 -72.7596289185795,-39.4514403692646 -72.7599173478138,-39.4513166444036 -72.7601081059528,-39.4512971230993 -72.7603961407552,-39.4513030487606 -72.7606740483585,-39.4513035831537 -72.7608177541433,-39.4512779581243 -72.7608645954436,-39.4512344998064 -72.7609418103416,-39.4511614601017 -72.7610125835102,-39.4511057870844 -72.7612343305879,-39.4510681022707 -72.7614963801692,-39.4510481766244 -72.7616589100221,-39.4510524454325 -72.7618073201109,-39.4510228542017 -72.7619377255741,-39.4509785946124 -72.7622147018905,-39.4509162414599 -72.7624151098216,-39.450885591012 -72.7620121364344,-39.4503910633343 -72.7616948984422,-39.4499660871229 -72.7614577871126,-39.4496484458577 -72.7612462686717,-39.4497446616272 -72.7610069284757,-39.4497524124791 -72.7607662436876,-39.4497351843227 -72.7606419599792,-39.4496534180309 -72.7606234717519,-39.4496254882403</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-5</SimpleData>
+		<SimpleData name="NOM">Restricción por tendido de Alta Tensión</SimpleData>
+		<SimpleData name="UPERM">Vegetación, ejecución de vías de carácter peatonal y obras de mejoramiento, tales como muros de contención.</SimpleData>
+		<SimpleData name="UPROH">Todo tipo de construcción de edificio.</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7585253057823,-39.4531339343354 -72.7587751254522,-39.453448025015 -72.7606860182752,-39.4549305941612 -72.7608837829858,-39.4548415005085 -72.7606733713057,-39.4547537498932 -72.7586022192448,-39.4531121308091 -72.7585253057823,-39.4531339343354</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOM">Protección de Cementerios</SimpleData>
+		<SimpleData name="UPERM">Obras específicas y propias del Cementerio</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7686569083293,-39.4457061770895 -72.7699506454886,-39.4465235500501 -72.770321820193,-39.4463992358878 -72.771153436297,-39.4460898418089 -72.7712949310409,-39.4459780088076 -72.7700156331152,-39.4451687846953 -72.7686569083293,-39.4457061770895</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZEX-2</SimpleData>
+		<SimpleData name="NOM">Zona de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7676599354019,-39.4481921942873 -72.7677153302606,-39.4482440341295 -72.7684908941255,-39.4477859892227 -72.768396067991,-39.4477900180737 -72.7682413313324,-39.4478388868476 -72.7681565584171,-39.4479083638763 -72.768050514924,-39.4479937813939 -72.7679312725931,-39.4480624698147 -72.7677921886903,-39.4481279891937 -72.7676599354019,-39.4481921942873</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZEX-2</SimpleData>
+		<SimpleData name="NOM">Zona de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7690948152479,-39.4450684231712 -72.7684189106557,-39.4453584518598 -72.7681224927964,-39.4455896952095 -72.7678659731991,-39.4458768371808 -72.7678284587178,-39.4458977144302 -72.7686510281285,-39.4464442278746 -72.7680359640786,-39.4467536230264 -72.7681265436668,-39.4468136433027 -72.7681378676667,-39.4468525963512 -72.7668166860773,-39.4474030481397 -72.7676094702054,-39.4481449681471 -72.7677655871961,-39.4480907224478 -72.7679418920044,-39.4479858667276 -72.7680411890741,-39.4479121069253 -72.7681356772955,-39.4478404080161 -72.7682312965199,-39.4477896448597 -72.7683614871208,-39.4477415716308 -72.7685204237753,-39.4477249758795 -72.7685955991666,-39.4477241497225 -72.769203294097,-39.4473652384831 -72.7694378810877,-39.4475883038684 -72.7695279298456,-39.4476739287784 -72.7695286621739,-39.44767462556 -72.7700975554259,-39.448215567216 -72.7709935871956,-39.447049751041 -72.7710409382747,-39.4469874451017 -72.7719412855533,-39.4476087871396 -72.7721430735013,-39.4477595159926 -72.7716571136965,-39.4484080052248 -72.7711715071339,-39.4489778384222 -72.7705482461886,-39.4497308694077 -72.7700497555004,-39.4502331991527 -72.7698976358619,-39.450324062665 -72.7699834109773,-39.4504052701796 -72.7701979897102,-39.4502531119401 -72.7704341987704,-39.4500166690973 -72.770920203648,-39.4494539746706 -72.7715405914987,-39.4487332058143 -72.7721364104414,-39.4479846349312 -72.7722983625907,-39.447654085257 -72.7723764785033,-39.4472225947634 -72.7722958241551,-39.4468391573269 -72.7721152658574,-39.4464839856692 -72.7717556331928,-39.4460186801963 -72.7697816317638,-39.4447244166725 -72.7690948152479,-39.4450684231712</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.770321820193,-39.4463992358878 -72.7699506454886,-39.4465235500501 -72.7686569083293,-39.4457061770895 -72.7700156331152,-39.4451687846953 -72.7712949310409,-39.4459780088076 -72.771153436297,-39.4460898418089 -72.770321820193,-39.4463992358878</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-6</SimpleData>
+		<SimpleData name="NOM">Restricción de fuertes pendientes</SimpleData>
+		<SimpleData name="UPERM">Vegetación, ejecución de vías de carácter peatonal y obras de mejoramiento, tales como muros de contención.</SimpleData>
+		<SimpleData name="UPROH">Se prohibe todo tipo de construcción de edificios</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7614577871126,-39.4496484458577 -72.7616948984422,-39.4499660871229 -72.7618503743968,-39.4498776852844 -72.7629415081268,-39.4493061449674 -72.7634421641898,-39.4490426790951 -72.7642898977544,-39.448589230586 -72.7649728678824,-39.448215588935 -72.765456737141,-39.4479973400982 -72.765892826578,-39.4478193645562 -72.7668166860773,-39.4474030481397 -72.7681378676667,-39.4468525963512 -72.7681265436668,-39.4468136433027 -72.7680359640786,-39.4467536230264 -72.767846582795,-39.4466281350247 -72.7675798524822,-39.4467261532722 -72.7674251217643,-39.446849134783 -72.7672648249839,-39.4469544233779 -72.7670293467887,-39.4470335534052 -72.7666529244287,-39.4471494257549 -72.7663800486072,-39.4472190437344 -72.766132669086,-39.447248513853 -72.7659846366136,-39.4473248061563 -72.7658580935094,-39.4474575952208 -72.7657129474627,-39.4475874133919 -72.7655570554642,-39.4476889820281 -72.7654713401648,-39.4477239327617 -72.7653006779166,-39.4478081066649 -72.7651024006901,-39.4478931764532 -72.764927134777,-39.4479774999605 -72.7646615339578,-39.4480111315887 -72.764084306557,-39.4480798856058 -72.7638438340607,-39.4481520214494 -72.7637836301467,-39.4482326143407 -72.7634647205298,-39.4483037173499 -72.7632073751282,-39.4484049964206 -72.7630902363156,-39.4486268433085 -72.762859775713,-39.4489703240054 -72.762703697111,-39.4491541116449 -72.7626016835583,-39.4492289088076 -72.7622777930562,-39.4493788118667 -72.7618440154116,-39.4495429969846 -72.7614577871126,-39.4496484458577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala comunal, vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el trasnporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7616948984422,-39.4499660871229 -72.7620121364344,-39.4503910633343 -72.7624151098216,-39.450885591012 -72.7626040448139,-39.4508713378707 -72.7627557287623,-39.4508568916376 -72.7629727768359,-39.4508689233716 -72.762737747066,-39.4509794878469 -72.7626607246371,-39.4509648242015 -72.7625404391504,-39.4509687211194 -72.7624948564228,-39.4509834532812 -72.7642636317961,-39.4531539721516 -72.7615539752805,-39.4544380710132 -72.7616057897731,-39.4545108131017 -72.7633319931651,-39.4537084411779 -72.765231811676,-39.4527984891224 -72.7675202144569,-39.4516852547549 -72.767970940756,-39.4514478148075 -72.769148345433,-39.4508805671301 -72.7698915829903,-39.4504703857919 -72.7699834109773,-39.4504052701796 -72.7698976358619,-39.450324062665 -72.7686341389386,-39.4491278211173 -72.7678946755602,-39.4484118685583 -72.7677153302606,-39.4482440341295 -72.7676599354019,-39.4481921942873 -72.7675375268735,-39.4481934442158 -72.767356700856,-39.4482145612926 -72.7672623031195,-39.4482424075401 -72.767104000211,-39.4483619297028 -72.7668852542725,-39.4485005701755 -72.7663257593071,-39.4488866627529 -72.7658333394723,-39.4491943192372 -72.765592093758,-39.4493718157288 -72.7652945923383,-39.4495549490832 -72.7648981981744,-39.4498194528843 -72.7645026220013,-39.4500991802144 -72.7642710776072,-39.450228698739 -72.7639454380253,-39.4503917690801 -72.7637052959201,-39.4504986876453 -72.7638186103138,-39.4504111315993 -72.7639694642802,-39.4503357034397 -72.7641203179111,-39.4502602750987 -72.7643534968649,-39.4501154525289 -72.7645409577366,-39.4499892695261 -72.7649561719076,-39.4497089054646 -72.7655233522196,-39.449328289519 -72.7662852423128,-39.4488193442118 -72.7668579343015,-39.4484499819213 -72.7672496095679,-39.4481894381862 -72.7674544681029,-39.4481580088154 -72.7676094702054,-39.4481449681471 -72.7668166860773,-39.4474030481397 -72.765892826578,-39.4478193645562 -72.765456737141,-39.4479973400982 -72.7649728678824,-39.448215588935 -72.7642898977544,-39.448589230586 -72.7634421641898,-39.4490426790951 -72.7629415081268,-39.4493061449674 -72.7618503743968,-39.4498776852844 -72.7616948984422,-39.4499660871229</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte.(Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7667183220927,-39.4522194559944 -72.7677003817468,-39.4528856832166 -72.7679290746677,-39.4528242828859 -72.768351367485,-39.4527319396501 -72.7687771259516,-39.4527038257459 -72.7690443737034,-39.4526918438666 -72.7688846601066,-39.4525894479597 -72.7676554056771,-39.4517748450627 -72.7667183220927,-39.4522194559944</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte.(Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7720283597656,-39.4524015959881 -72.7706041315667,-39.453691808092 -72.7691690235332,-39.4527717578932 -72.7688429930307,-39.4527850955491 -72.7684234989007,-39.4528153896577 -72.7680559273346,-39.4528964257786 -72.7678176943814,-39.4529652666115 -72.7681733132675,-39.4532065113178 -72.7701291203848,-39.4544727917806 -72.7717033855833,-39.4555035905832 -72.7716209351116,-39.4555237127858 -72.7724753896141,-39.4553193680407 -72.7728817939213,-39.4551817279561 -72.7725428865894,-39.4549401318539 -72.7736853779163,-39.453897357516 -72.7745220858551,-39.4531123500449 -72.7755520701276,-39.4537413646107 -72.7756507795762,-39.4537476875164 -72.776398494288,-39.4530227535661 -72.778236718642,-39.4513891660168 -72.7779444981632,-39.4512018516898 -72.7763400795449,-39.4501816506238 -72.7752001584362,-39.4494513614505 -72.7736051142195,-39.4508633365324 -72.7720283597656,-39.4524015959881</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7691690235332,-39.4527717578932 -72.7706041315667,-39.453691808092 -72.7720283597656,-39.4524015959881 -72.7736051142195,-39.4508633365324 -72.7752001584362,-39.4494513614505 -72.7760219918874,-39.4487335538416 -72.7754061324876,-39.4483052595585 -72.7748362725494,-39.4479984933972 -72.7743571721979,-39.4478353337415 -72.7738397377646,-39.4477306122086 -72.7733906232865,-39.4477809502478 -72.7729097009957,-39.4479252599624 -72.7724456701838,-39.4481262135871 -72.7721410147928,-39.4483046310903 -72.7721056154739,-39.4487586445883 -72.7719436079881,-39.4494579768007 -72.7719895346853,-39.449667982775 -72.7720276517891,-39.4499467558385 -72.7720828375351,-39.4501147574202 -72.7721031818733,-39.4502779325478 -72.772111055463,-39.4504236403745 -72.7721465813829,-39.450583343827 -72.772192873815,-39.4509422799142 -72.7721705443962,-39.451097905333 -72.772098835108,-39.4512640702983 -72.7715703075555,-39.45179359569 -72.7709837545896,-39.4523160671421 -72.770907543319,-39.4523989703556 -72.7705688986796,-39.4524606056509 -72.7701193406036,-39.4525317985922 -72.7696017207143,-39.4526945633795 -72.7692942412414,-39.4527641200376 -72.7691690235332,-39.4527717578932</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.772499732536,-39.4473064677625 -72.7724881071775,-39.4474468509141 -72.7726303719467,-39.4470222131963 -72.7728005104178,-39.4468290192613 -72.7728724858124,-39.4467600564209 -72.7727587618512,-39.44669632794 -72.7721173311975,-39.4462733144405 -72.7723549043618,-39.4466171013763 -72.7724312120991,-39.4468916553598 -72.7725092678127,-39.4471274274469 -72.772499732536,-39.4473064677625</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7726459803682,-39.447382145932 -72.7724060628474,-39.4477771885822 -72.7722271662474,-39.4480927987322 -72.7726958288598,-39.4478779933639 -72.7731534852314,-39.4477439723655 -72.7737599384127,-39.4476617122145 -72.7741291015594,-39.4476675896837 -72.7744787890327,-39.447739633796 -72.7736581557618,-39.4472003206934 -72.7729681503973,-39.446813664092 -72.7729093474752,-39.4468522935595 -72.7727397117515,-39.4471258990913 -72.7726459803682,-39.447382145932</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7854288929295,-39.4532656469594 -72.785348700874,-39.4533457097173 -72.785323302756,-39.4533733473124 -72.7851767417426,-39.4533632305134 -72.7850509709741,-39.4533822233722 -72.7849784501917,-39.4534620367623 -72.7848821087116,-39.4535277318169 -72.7847827034683,-39.4535369294393 -72.784691004403,-39.453617367662 -72.784656517309,-39.4536899833609 -72.7845251711276,-39.4537478822754 -72.7844149032244,-39.4537693487236 -72.7843212438048,-39.4538356935863 -72.7845966462846,-39.4540348988174 -72.7846138961689,-39.4540473758859 -72.7847778696419,-39.4539703350302 -72.7857722997951,-39.45360191096 -72.7862508988044,-39.4534540774178 -72.7859127783691,-39.4532379009677 -72.7858797612145,-39.4532896749984 -72.7857333604119,-39.4532825313421 -72.7855584986128,-39.4532465277909 -72.7854288929295,-39.4532656469594</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7784640267992,-39.4526791348314 -72.7782754117533,-39.4529426430269 -72.7781215131207,-39.4530525048402 -72.7777430740189,-39.4531029442304 -72.7774707678604,-39.4531832935495 -72.7773053659994,-39.4533078268453 -72.7770129279775,-39.4535842417936 -72.776663966148,-39.4538386638129 -72.7765059440801,-39.4538723992528 -72.7759569052478,-39.4538378235382 -72.7758001696915,-39.4538953474438 -72.7750400481702,-39.4542775177601 -72.7734775540161,-39.4549431296086 -72.7728817939213,-39.4551817279561 -72.7724753896141,-39.4553193680407 -72.7716209351116,-39.4555237127858 -72.7700589247144,-39.4559049140126 -72.7687908545057,-39.4562177427921 -72.768692426794,-39.4563305577592 -72.7725349772371,-39.4554193865333 -72.7735043079119,-39.4550399658813 -72.7749837140209,-39.454429482491 -72.7752041099346,-39.4543269960095 -72.7759490812831,-39.4539488911261 -72.7765332909966,-39.4540085358373 -72.7766972566447,-39.4539710322508 -72.7768740351653,-39.4538294491076 -72.7774942645388,-39.4532766608644 -72.7776743216272,-39.4531957373687 -72.7779104178637,-39.4532130793641 -72.7781744842793,-39.4531508702802 -72.7783491317334,-39.4529700330455 -72.7785189820484,-39.4527857768122 -72.7785891836283,-39.4528049399013 -72.7805116864282,-39.4540830006126 -72.7810493121526,-39.4544294605574 -72.7813781247601,-39.4546260816933 -72.7816181298399,-39.4548005708487 -72.781799071463,-39.4549912821083 -72.7820364092894,-39.4552016035853 -72.7821833925402,-39.4553612485318 -72.782231638455,-39.4554020779131 -72.7823930462566,-39.4553992295446 -72.7831021297701,-39.45504012108 -72.7835995526398,-39.4548594847247 -72.7837161320915,-39.4547984931137 -72.7837858301125,-39.4545531491953 -72.783882064058,-39.4544570739372 -72.7840419633601,-39.4543446267384 -72.7842014751386,-39.4542250414194 -72.7844181564068,-39.4541393402181 -72.7842059346395,-39.4539917980912 -72.7841503685386,-39.4540496375445 -72.7839390641583,-39.4541494623211 -72.7837853146892,-39.4542903066403 -72.7836290904183,-39.454470551672 -72.7835102687189,-39.4546603024341 -72.7834090842032,-39.454835179235 -72.7832733179674,-39.4548824972174 -72.7830922967905,-39.4549455876015 -72.7829166509246,-39.4550228009814 -72.7826978770823,-39.4551550384146 -72.7824413120671,-39.4552706331061 -72.7822804021663,-39.4552794476691 -72.7822122877411,-39.4552137489798 -72.7820407430264,-39.4550263071954 -72.7817880506513,-39.4547878889753 -72.7815622402305,-39.4546200867113 -72.7813182126723,-39.4544564510497 -72.781017599888,-39.4542696351825 -72.7806940442182,-39.4540673809846 -72.7800726095502,-39.4536610405795 -72.779186060545,-39.4530702954843 -72.7785747509566,-39.4526802988403 -72.7784640267992,-39.4526791348314</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.790158197736,-39.4515548618122 -72.7900537092535,-39.4516118912686 -72.7899910486396,-39.4515901049637 -72.7899012560804,-39.4516347386565 -72.7897053588569,-39.4517066658646 -72.7896203316603,-39.4516975252536 -72.7893998060275,-39.4517404663845 -72.7888659802916,-39.4516744763592 -72.7883861756191,-39.4516126788196 -72.7880748129393,-39.4515394281445 -72.7879261578857,-39.4514906572717 -72.7876369149035,-39.4515417952435 -72.7875506704066,-39.451651845182 -72.7875724664371,-39.4517702876254 -72.787604155856,-39.4518586190877 -72.7875842451421,-39.4519873583002 -72.7874898455887,-39.452088738476 -72.7872920451427,-39.4521964691649 -72.7871807250452,-39.4523401043557 -72.7870550291602,-39.4525020813941 -72.7868364714805,-39.4526521916644 -72.7863021737199,-39.4529317491204 -72.7861051754938,-39.4530543462956 -72.7865571829882,-39.4533594686686 -72.786652079591,-39.4533301565505 -72.7870141072226,-39.4532039641541 -72.7872973493204,-39.4531554074385 -72.7873712918615,-39.4529885645326 -72.7872814280139,-39.4527770197549 -72.7872972782618,-39.4526442428413 -72.7874546506331,-39.4524854026774 -72.787662697063,-39.4524107006734 -72.7878768950902,-39.4523643934723 -72.7880738427712,-39.4523400965259 -72.7883480693253,-39.4522954061777 -72.7884953556067,-39.4522906016238 -72.7887583371618,-39.4523785362194 -72.7889231572599,-39.4525268670612 -72.7892068295276,-39.4525712305266 -72.7893888070199,-39.4525259727021 -72.7903192824347,-39.4524241168271 -72.7907852694756,-39.4523445644976 -72.7909927300165,-39.4522591512559 -72.7911742692695,-39.4521209652648 -72.7912303734234,-39.4519654267898 -72.7911386099544,-39.4518039909203 -72.7907331414017,-39.451384700144 -72.7905527900449,-39.4512188507249 -72.7904418682297,-39.4512596368123 -72.7903540929063,-39.4514829348179 -72.790158197736,-39.4515548618122</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-6</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7792017225191,-39.4468124157232 -72.7779194159253,-39.4478985414142 -72.7786048546098,-39.4483528570753 -72.7813096336032,-39.4501951108439 -72.7842574158161,-39.4521795142592 -72.7859127783691,-39.4532379009677 -72.7862508988044,-39.4534540774178 -72.7865571829882,-39.4533594686686 -72.7861051754938,-39.4530543462956 -72.7863021737199,-39.4529317491204 -72.7868364714805,-39.4526521916644 -72.7870550291602,-39.4525020813941 -72.7871807250452,-39.4523401043557 -72.7872920451427,-39.4521964691649 -72.7874898455887,-39.452088738476 -72.7875842451421,-39.4519873583002 -72.787604155856,-39.4518586190877 -72.7875724664371,-39.4517702876254 -72.7875506704066,-39.451651845182 -72.7876369149035,-39.4515417952435 -72.7879261578857,-39.4514906572717 -72.7880748129393,-39.4515394281445 -72.7883861756191,-39.4516126788196 -72.7888659802916,-39.4516744763592 -72.7893998060275,-39.4517404663845 -72.7896203316603,-39.4516975252536 -72.7897053588569,-39.4517066658646 -72.7899012560804,-39.4516347386565 -72.7899910486396,-39.4515901049637 -72.7900537092535,-39.4516118912686 -72.790158197736,-39.4515548618122 -72.7903540929063,-39.4514829348179 -72.7904418682297,-39.4512596368123 -72.7905527900449,-39.4512188507249 -72.7898547307607,-39.4505769135037 -72.7892137257459,-39.4500652145288 -72.7886226290746,-39.449623375533 -72.7878458900132,-39.4491589915112 -72.7871403283863,-39.4487316022874 -72.786377846238,-39.4483596829909 -72.7855810679352,-39.4480353454416 -72.7845969116776,-39.4476563410127 -72.7835713426387,-39.4472786771659 -72.7825735934659,-39.4469036728055 -72.7815764331641,-39.4465393640496 -72.7807868107462,-39.4462612297426 -72.7802041782878,-39.4460635195626 -72.7795652266378,-39.4465045169558 -72.7792017225191,-39.4468124157232</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZEX-1</SimpleData>
+		<SimpleData name="NOM">Zona de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7636562402878,-39.4578560317227 -72.7643968621408,-39.4584162055057 -72.7656619989537,-39.457548676575 -72.7637107613785,-39.4560908604758 -72.7617521365832,-39.4546137070363 -72.7603271284349,-39.4552881588808 -72.7607426331263,-39.4556298967857 -72.7608989622668,-39.4557499463887 -72.7611790133825,-39.455955353516 -72.7616603183802,-39.4563299937317 -72.7619736258034,-39.4565819843053 -72.7621705639632,-39.4567424194357 -72.7626192674743,-39.4570823659623 -72.7632596396059,-39.4575561047187 -72.7636562402878,-39.4578560317227</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOM">Protección de pozos de captación, plantas de filtros y estanques de agua potable</SimpleData>
+		<SimpleData name="UPERM">Los atinentes a la planta, sus instalaciones y vivienda del cuidador</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.767846582795,-39.4466281350247 -72.7680359640786,-39.4467536230264 -72.7686510281285,-39.4464442278746 -72.7678284587178,-39.4458977144302 -72.7675795081186,-39.446036263262 -72.7672322463172,-39.4461797892214 -72.767846582795,-39.4466281350247</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7688846601066,-39.4525894479597 -72.7690443737034,-39.4526918438666 -72.7692807896982,-39.4526573180585 -72.7695294668811,-39.4526373317061 -72.7697905967968,-39.4525633217889 -72.770106369718,-39.452433917742 -72.770552091863,-39.4523628493982 -72.7708338430086,-39.4523149766174 -72.7709311597988,-39.4522671346426 -72.771253436357,-39.4519736795516 -72.7719901531355,-39.4512437697861 -72.7720444315404,-39.4510394450783 -72.7720414979541,-39.4508429374792 -72.7719657655998,-39.4503658037642 -72.7719468465532,-39.4501578992282 -72.7719178681977,-39.4499771312397 -72.7718912581822,-39.449697984417 -72.7718382820547,-39.4494286304829 -72.77195842213,-39.448736616206 -72.772014507316,-39.4483787187647 -72.7719674681009,-39.4484062664495 -72.7714214771533,-39.4490531286758 -72.7707888198597,-39.4498028921213 -72.7703215851923,-39.4502863349538 -72.7696524025354,-39.4507870554867 -72.7676554056771,-39.4517748450627 -72.7688846601066,-39.4525894479597</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-5</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el transporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7730714105495,-39.4466938714052 -72.7739512252581,-39.4472504144121 -72.7748330245262,-39.4477555657451 -72.7759422299102,-39.4484868577761 -72.7766282762135,-39.4489411654754 -72.77668890528,-39.4488739175859 -72.7779194159253,-39.4478985414142 -72.7792017225191,-39.4468124157232 -72.7786381427908,-39.4468416027271 -72.778022429245,-39.4468235035744 -72.7774545216575,-39.4467800168211 -72.7771977751999,-39.4466930438636 -72.7768213881454,-39.446667155485 -72.7764488207547,-39.4465982455785 -72.776313045014,-39.4465883619652 -72.7761407478929,-39.4466988192629 -72.7759167839202,-39.4467632944434 -72.7756569899544,-39.4467336116233 -72.7752777727616,-39.4466553821441 -72.774639792214,-39.446566496729 -72.7740869535357,-39.4464605435717 -72.7738340695474,-39.4464449295927 -72.773300739851,-39.4465861781357 -72.7730714105495,-39.4466938714052</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7791039593162,-39.4467025265415 -72.7786386145083,-39.4467367322021 -72.778144601889,-39.4466956101795 -72.7777191229672,-39.4466713208003 -72.7774836178851,-39.446636085612 -72.7769995635157,-39.4465517395943 -72.7764290847822,-39.4464606688442 -72.7762143064178,-39.4464676523074 -72.7760849642391,-39.446576712883 -72.7758185592127,-39.4466521006042 -72.7756083732192,-39.446630336848 -72.7752480807263,-39.4465610240129 -72.7743487664126,-39.4464139058658 -72.7739329902637,-39.4463416264389 -72.7735302937974,-39.4463976062215 -72.7730882403296,-39.4465215897186 -72.7729437496762,-39.4466120651302 -72.7729837491839,-39.446638418616 -72.7730714105495,-39.4466938714052 -72.773300739851,-39.4465861781357 -72.7738340695474,-39.4464449295927 -72.7740869535357,-39.4464605435717 -72.774639792214,-39.446566496729 -72.7752777727616,-39.4466553821441 -72.7756569899544,-39.4467336116233 -72.7759167839202,-39.4467632944434 -72.7761407478929,-39.4466988192629 -72.776313045014,-39.4465883619652 -72.7764488207547,-39.4465982455785 -72.7768213881454,-39.446667155485 -72.7771977751999,-39.4466930438636 -72.7774545216575,-39.4467800168211 -72.778022429245,-39.4468235035744 -72.7786381427908,-39.4468416027271 -72.7792017225191,-39.4468124157232 -72.7795652266378,-39.4465045169558 -72.7802041782878,-39.4460635195626 -72.7800918673047,-39.4460254075188 -72.7793253441149,-39.4465904675666 -72.7791039593162,-39.4467025265415</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipmaiento de escala regional, comunal y vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el trasnporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7752001584362,-39.4494513614505 -72.7763400795449,-39.4501816506238 -72.7779444981632,-39.4512018516898 -72.778236718642,-39.4513891660168 -72.7794093121064,-39.452140782577 -72.7820003828968,-39.4537817745359 -72.7806940442182,-39.4540673809846 -72.781017599888,-39.4542696351825 -72.7813182126723,-39.4544564510497 -72.7815622402305,-39.4546200867113 -72.7817880506513,-39.4547878889753 -72.7820407430264,-39.4550263071954 -72.7822122877411,-39.4552137489798 -72.7822804021663,-39.4552794476691 -72.7824413120671,-39.4552706331061 -72.7826978770823,-39.4551550384146 -72.7829166509246,-39.4550228009814 -72.7830922967905,-39.4549455876015 -72.7832733179674,-39.4548824972174 -72.7834090842032,-39.454835179235 -72.7835102687189,-39.4546603024341 -72.7836290904183,-39.454470551672 -72.7837853146892,-39.4542903066403 -72.7839390641583,-39.4541494623211 -72.7841503685386,-39.4540496375445 -72.7842059346395,-39.4539917980912 -72.7840085590325,-39.4538545773426 -72.783094386063,-39.4533219562956 -72.7825283339697,-39.4529734017815 -72.7815486878904,-39.4523666422377 -72.7801800196336,-39.4515008678879 -72.7785407591664,-39.4504055736743 -72.7770496449506,-39.4494341229994 -72.7760219918874,-39.4487335538416 -72.7752001584362,-39.4494513614505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Protección de trazados ferroviarios</SimpleData>
+		<SimpleData name="UPERM">Protección de trazados ferroviarios , destinados a proteger el normal funcionamiento de las vías. (Ver detalle en ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Sin información. (ver detalle en ordenanza)</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7717556331928,-39.4460186801963 -72.7721152658574,-39.4464839856692 -72.7722958241551,-39.4468391573269 -72.7723764785033,-39.4472225947634 -72.7722983625907,-39.447654085257 -72.7721364104414,-39.4479846349312 -72.7715405914987,-39.4487332058143 -72.770920203648,-39.4494539746706 -72.7704341987704,-39.4500166690973 -72.7701979897102,-39.4502531119401 -72.7699834109773,-39.4504052701796 -72.7698915829903,-39.4504703857919 -72.769148345433,-39.4508805671301 -72.767970940756,-39.4514478148075 -72.7675202144569,-39.4516852547549 -72.765231811676,-39.4527984891224 -72.7633319931651,-39.4537084411779 -72.7616057897731,-39.4545108131017 -72.7612267872426,-39.4546869748094 -72.7608837829858,-39.4548415005085 -72.7606860182752,-39.4549305941612 -72.7601863438603,-39.4551556971681 -72.7602722048085,-39.4552429851955 -72.7603271284349,-39.4552881588808 -72.7617521365832,-39.4546137070363 -72.763693226458,-39.4536949481895 -72.7667183220927,-39.4522194559944 -72.7676554056771,-39.4517748450627 -72.7696524025354,-39.4507870554867 -72.7703215851923,-39.4502863349538 -72.7707888198597,-39.4498028921213 -72.7714214771533,-39.4490531286758 -72.7719674681009,-39.4484062664495 -72.772014507316,-39.4483787187647 -72.7721410147928,-39.4483046310903 -72.7724456701838,-39.4481262135871 -72.7729097009957,-39.4479252599624 -72.7733906232865,-39.4477809502478 -72.7738397377646,-39.4477306122086 -72.7743571721979,-39.4478353337415 -72.7748362725494,-39.4479984933972 -72.7754061324876,-39.4483052595585 -72.7760219918874,-39.4487335538416 -72.7770496449506,-39.4494341229994 -72.7785407591664,-39.4504055736743 -72.7801800196336,-39.4515008678879 -72.7815486878904,-39.4523666422377 -72.7825283339697,-39.4529734017815 -72.783094386063,-39.4533219562956 -72.7840085590325,-39.4538545773426 -72.7842059346395,-39.4539917980912 -72.7844181564068,-39.4541393402181 -72.7846138961689,-39.4540473758859 -72.7845966462846,-39.4540348988174 -72.7842329360266,-39.4538262758577 -72.7838102666021,-39.4535597987519 -72.7834375400355,-39.453318622602 -72.783282127385,-39.4531735521626 -72.7826938657458,-39.4526585359375 -72.7825358141385,-39.4525442061028 -72.7815334096528,-39.4517725650605 -72.7804354909481,-39.4510814731163 -72.7783906166129,-39.4497896687843 -72.77668890528,-39.4488739175859 -72.7766282762135,-39.4489411654754 -72.7759422299102,-39.4484868577761 -72.7748330245262,-39.4477555657451 -72.7739512252581,-39.4472504144121 -72.7730714105495,-39.4466938714052 -72.7729837491839,-39.446638418616 -72.7729437496762,-39.4466120651302 -72.7718829896932,-39.4459131799179 -72.7717556331928,-39.4460186801963</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.7728724858124,-39.4467600564209 -72.7728005104178,-39.4468290192613 -72.7726303719467,-39.4470222131963 -72.7724881071775,-39.4474468509141 -72.772499732536,-39.4473064677625 -72.7725092678127,-39.4471274274469 -72.7724312120991,-39.4468916553598 -72.7723549043618,-39.4466171013763 -72.7721173311975,-39.4462733144405 -72.7727587618512,-39.44669632794 -72.7728724858124,-39.4467600564209</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.7726459803682,-39.447382145932 -72.7727397117515,-39.4471258990913 -72.7729093474752,-39.4468522935595 -72.7729681503973,-39.446813664092 -72.7736581557618,-39.4472003206934 -72.7744787890327,-39.447739633796 -72.7741291015594,-39.4476675896837 -72.7737599384127,-39.4476617122145 -72.7731534852314,-39.4477439723655 -72.7726958288598,-39.4478779933639 -72.7722271662474,-39.4480927987322 -72.7724060628474,-39.4477771885822 -72.7726459803682,-39.447382145932</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-6</SimpleData>
+		<SimpleData name="NOM">Restricción de fuertes pendientes</SimpleData>
+		<SimpleData name="UPERM">Vegetación, ejecución de vías de carácter peatonal y obras de mejoramiento, tales como muros de contención.</SimpleData>
+		<SimpleData name="UPROH">Se prohibe todo tipo de construcción de edificios</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7590343401967,-39.4502809754162 -72.7585190355512,-39.4503870183182 -72.7580484025628,-39.4503807997964 -72.7576820966084,-39.4503426079357 -72.7574977952484,-39.4503449959531 -72.7573008449282,-39.4504550317511 -72.7570089706659,-39.450686100427 -72.7567897726412,-39.4508111535213 -72.7566950369549,-39.4508928589595 -72.7569829592843,-39.451243678223 -72.7571718304109,-39.4511571384981 -72.7574940145808,-39.4510037307285 -72.7577190249097,-39.4508296348322 -72.7579795225218,-39.4507437566999 -72.7584167777861,-39.4506581143249 -72.7588680943683,-39.450548185672 -72.7593080532444,-39.4503701083512 -72.7595679062994,-39.4502723314353 -72.7597905237525,-39.4501966121385 -72.759975904691,-39.4501429488992 -72.7601777408837,-39.4500381122425 -72.7603741393805,-39.4499036627986 -72.7606234717519,-39.4496254882403 -72.7605516144476,-39.4495169328653 -72.7605040402077,-39.4494040857036 -72.7604591445294,-39.4492554052245 -72.7604533779292,-39.449148353137 -72.7604050352823,-39.4490212323568 -72.7602780825913,-39.4490610893123 -72.7601630275848,-39.4491506050511 -72.7600491144611,-39.4491757402447 -72.7600195968368,-39.449312531575 -72.7599810751998,-39.4495389799202 -72.7598907721359,-39.4497456564912 -72.7597573132198,-39.4499215592331 -72.7594986199613,-39.4500836415785 -72.7590343401967,-39.4502809754162</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7576751437179,-39.4520870549701 -72.7576786611109,-39.4520913401342 -72.757875878295,-39.4520255531103 -72.7580599086782,-39.4519495354965 -72.7582799927687,-39.4518580524488 -72.7584282728817,-39.4517688935897 -72.758661090625,-39.4516741380629 -72.7588046913323,-39.4516008580176 -72.7586848651759,-39.4516018763915 -72.7584957696014,-39.4516523207872 -72.7583278462504,-39.4516849224968 -72.758225744891,-39.451741131219 -72.7581221870249,-39.4518045357589 -72.7580209317509,-39.451876444772 -72.7578892180272,-39.4519307517044 -72.7577469951319,-39.4519954069858 -72.757628816725,-39.4520306088868 -72.7576751437179,-39.4520870549701</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7619377255741,-39.4509785946124 -72.7618073201109,-39.4510228542017 -72.7616589100221,-39.4510524454325 -72.7614963801692,-39.4510481766244 -72.7612343305879,-39.4510681022707 -72.7610125835102,-39.4511057870844 -72.7609418103416,-39.4511614601017 -72.7608645954436,-39.4512344998064 -72.7608177541433,-39.4512779581243 -72.7606740483585,-39.4513035831537 -72.7603961407552,-39.4513030487606 -72.7601081059528,-39.4512971230993 -72.7599173478138,-39.4513166444036 -72.7596289185795,-39.4514403692646 -72.7594836839474,-39.4515289554831 -72.7595622391637,-39.451526412589 -72.7597124915299,-39.4514853256239 -72.7598821757356,-39.4514397967654 -72.7601238715269,-39.4514071876146 -72.7603408187691,-39.4514173216713 -72.7606031776574,-39.451403107387 -72.7608708501388,-39.4513505915634 -72.7609801820122,-39.4512803244214 -72.7610608774503,-39.4512262368167 -72.7611616210389,-39.4511791260383 -72.7612912139347,-39.4511653962233 -72.7615372079358,-39.4511669621003 -72.7617018855361,-39.4511654410056 -72.7618767855211,-39.4511254596919 -72.7620805286819,-39.4510731050586 -72.762262587403,-39.4510290777594 -72.7624112023109,-39.4510032926408 -72.7624948564228,-39.4509834532812 -72.7625404391504,-39.4509687211194 -72.7626607246371,-39.4509648242015 -72.762737747066,-39.4509794878469 -72.7629727768359,-39.4508689233716 -72.7627557287623,-39.4508568916376 -72.7626040448139,-39.4508713378707 -72.7624151098216,-39.450885591012 -72.7622147018905,-39.4509162414599 -72.7619377255741,-39.4509785946124</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7692750352858,-39.4477195529125 -72.7691607048176,-39.4477880831656 -72.7690571977614,-39.4477838161291 -72.7689348637996,-39.4477496572583 -72.7687958605746,-39.4477255711568 -72.7686611617127,-39.4477356614299 -72.7685955991666,-39.4477241497225 -72.7685204237753,-39.4477249758795 -72.7683614871208,-39.4477415716308 -72.7682312965199,-39.4477896448597 -72.7681356772955,-39.4478404080161 -72.7680411890741,-39.4479121069253 -72.7679418920044,-39.4479858667276 -72.7677655871961,-39.4480907224478 -72.7676094702054,-39.4481449681471 -72.7674544681029,-39.4481580088154 -72.7672496095679,-39.4481894381862 -72.7668579343015,-39.4484499819213 -72.7662852423128,-39.4488193442118 -72.7655233522196,-39.449328289519 -72.7649561719076,-39.4497089054646 -72.7645409577366,-39.4499892695261 -72.7643534968649,-39.4501154525289 -72.7641203179111,-39.4502602750987 -72.7639694642802,-39.4503357034397 -72.7638186103138,-39.4504111315993 -72.7637052959201,-39.4504986876453 -72.7639454380253,-39.4503917690801 -72.7642710776072,-39.450228698739 -72.7645026220013,-39.4500991802144 -72.7648981981744,-39.4498194528843 -72.7652945923383,-39.4495549490832 -72.765592093758,-39.4493718157288 -72.7658333394723,-39.4491943192372 -72.7663257593071,-39.4488866627529 -72.7668852542725,-39.4485005701755 -72.767104000211,-39.4483619297028 -72.7672623031195,-39.4482424075401 -72.767356700856,-39.4482145612926 -72.7675375268735,-39.4481934442158 -72.7676599354019,-39.4481921942873 -72.7677921886903,-39.4481279891937 -72.7679312725931,-39.4480624698147 -72.768050514924,-39.4479937813939 -72.7681565584171,-39.4479083638763 -72.7682413313324,-39.4478388868476 -72.768396067991,-39.4477900180737 -72.7684908941255,-39.4477859892227 -72.7686121732752,-39.4477809407144 -72.7687380805148,-39.4477901997442 -72.7689204567428,-39.4478433820187 -72.7691167392929,-39.4478808613534 -72.769276795263,-39.447839444007 -72.76943878122,-39.4477426768784 -72.7695286621739,-39.44767462556 -72.7695279298456,-39.4476739287784 -72.7694378810877,-39.4475883038684 -72.7693770926004,-39.4476514208757 -72.7692750352858,-39.4477195529125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZE-D</SimpleData>
+		<SimpleData name="NOM">Zona especial y de restricción</SimpleData>
+		<SimpleData name="UPERM">Equipamiento deportivo y de áreas verdes de todo tipo y escala.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7685955991666,-39.4477241497225 -72.7686611617127,-39.4477356614299 -72.7687958605746,-39.4477255711568 -72.7689348637996,-39.4477496572583 -72.7690571977614,-39.4477838161291 -72.7691607048176,-39.4477880831656 -72.7692750352858,-39.4477195529125 -72.7693770926004,-39.4476514208757 -72.7694378810877,-39.4475883038684 -72.769203294097,-39.4473652384831 -72.7685955991666,-39.4477241497225</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZE-D</SimpleData>
+		<SimpleData name="NOM">Zona especial y de restricción</SimpleData>
+		<SimpleData name="UPERM">Equipamiento deportivo y de áreas verdes de todo tipo y escala.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7709935871956,-39.447049751041 -72.7700975554259,-39.448215567216 -72.7695286621739,-39.44767462556 -72.76943878122,-39.4477426768784 -72.769276795263,-39.447839444007 -72.7691167392929,-39.4478808613534 -72.7689204567428,-39.4478433820187 -72.7687380805148,-39.4477901997442 -72.7686121732752,-39.4477809407144 -72.7684908941255,-39.4477859892227 -72.7677153302606,-39.4482440341295 -72.7678946755602,-39.4484118685583 -72.7686341389386,-39.4491278211173 -72.7698976358619,-39.450324062665 -72.7700497555004,-39.4502331991527 -72.7705482461886,-39.4497308694077 -72.7711715071339,-39.4489778384222 -72.7716571136965,-39.4484080052248 -72.7721430735013,-39.4477595159926 -72.7719412855533,-39.4476087871396 -72.7710409382747,-39.4469874451017 -72.7709935871956,-39.447049751041</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7668360083915,-39.4530925073893 -72.7669124381737,-39.4531872576801 -72.7678176943814,-39.4529652666115 -72.7680559273346,-39.4528964257786 -72.7684234989007,-39.4528153896577 -72.7688429930307,-39.4527850955491 -72.7691690235332,-39.4527717578932 -72.7692942412414,-39.4527641200376 -72.7696017207143,-39.4526945633795 -72.7701193406036,-39.4525317985922 -72.7705688986796,-39.4524606056509 -72.770907543319,-39.4523989703556 -72.7709837545896,-39.4523160671421 -72.7715703075555,-39.45179359569 -72.772098835108,-39.4512640702983 -72.7721705443962,-39.451097905333 -72.772192873815,-39.4509422799142 -72.7721465813829,-39.450583343827 -72.772111055463,-39.4504236403745 -72.7721031818733,-39.4502779325478 -72.7720828375351,-39.4501147574202 -72.7720276517891,-39.4499467558385 -72.7719895346853,-39.449667982775 -72.7719436079881,-39.4494579768007 -72.7721056154739,-39.4487586445883 -72.7721410147928,-39.4483046310903 -72.772014507316,-39.4483787187647 -72.77195842213,-39.448736616206 -72.7718382820547,-39.4494286304829 -72.7718912581822,-39.449697984417 -72.7719178681977,-39.4499771312397 -72.7719468465532,-39.4501578992282 -72.7719657655998,-39.4503658037642 -72.7720414979541,-39.4508429374792 -72.7720444315404,-39.4510394450783 -72.7719901531355,-39.4512437697861 -72.771253436357,-39.4519736795516 -72.7709311597988,-39.4522671346426 -72.7708338430086,-39.4523149766174 -72.770552091863,-39.4523628493982 -72.770106369718,-39.452433917742 -72.7697905967968,-39.4525633217889 -72.7695294668811,-39.4526373317061 -72.7692807896982,-39.4526573180585 -72.7690443737034,-39.4526918438666 -72.7687771259516,-39.4527038257459 -72.768351367485,-39.4527319396501 -72.7679290746677,-39.4528242828859 -72.7677003817468,-39.4528856832166 -72.7668360083915,-39.4530925073893</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de escala comunal, vecinal. Actividades productivas inofensivas. Actividades complementarias a la vialidad y el trasnporte (Ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7667183220927,-39.4522194559944 -72.763693226458,-39.4536949481895 -72.7617521365832,-39.4546137070363 -72.7637107613785,-39.4560908604758 -72.7656619989537,-39.457548676575 -72.7660863311661,-39.4572576959103 -72.7653229753145,-39.456670310827 -72.7646816105535,-39.4561782650981 -72.7640977541041,-39.4557491715831 -72.7635226988039,-39.4553007258111 -72.7628744049594,-39.4548165202824 -72.7627331247071,-39.4547048035281 -72.7625947106152,-39.4546006198662 -72.7625626866444,-39.454553995632 -72.7625672813835,-39.4545023724159 -72.7625222720584,-39.4544885792456 -72.7626225060902,-39.4544319507724 -72.7626847072839,-39.4544909427945 -72.7626861436245,-39.4545175863654 -72.7627023176984,-39.4545895074333 -72.7631249264469,-39.4549018197156 -72.7635664697117,-39.4552459262571 -72.76419676605,-39.455715459736 -72.7649495295097,-39.4562668091082 -72.7661736394628,-39.45719782493 -72.767028154775,-39.4566118389424 -72.7684900326789,-39.4555754357971 -72.7701291203848,-39.4544727917806 -72.7681733132675,-39.4532065113178 -72.7678176943814,-39.4529652666115 -72.7669124381737,-39.4531872576801 -72.7668360083915,-39.4530925073893 -72.7677003817468,-39.4528856832166 -72.7667183220927,-39.4522194559944</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lanco</SimpleData>
+		<SimpleData name="LOC">Lanco</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección de vertientes y cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes a escala comunal. Deportes a escala vecinal, en aquellos puntos que no presenten riesgos de inundación y/o sean habilitados mediante obras de mejoramiento (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">30/05/2003</SimpleData>
+		<SimpleData name="N_DOC">16</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7660863311661,-39.4572576959103 -72.7664981004944,-39.4575739955012 -72.7665787982423,-39.4575199039603 -72.7661736394628,-39.45719782493 -72.7649495295097,-39.4562668091082 -72.76419676605,-39.455715459736 -72.7635664697117,-39.4552459262571 -72.7631249264469,-39.4549018197156 -72.7627023176984,-39.4545895074333 -72.7626861436245,-39.4545175863654 -72.7626847072839,-39.4544909427945 -72.7626225060902,-39.4544319507724 -72.7625222720584,-39.4544885792456 -72.7625672813835,-39.4545023724159 -72.7625626866444,-39.454553995632 -72.7625947106152,-39.4546006198662 -72.7627331247071,-39.4547048035281 -72.7628744049594,-39.4548165202824 -72.7635226988039,-39.4553007258111 -72.7640977541041,-39.4557491715831 -72.7646816105535,-39.4561782650981 -72.7653229753145,-39.456670310827 -72.7660863311661,-39.4572576959103</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

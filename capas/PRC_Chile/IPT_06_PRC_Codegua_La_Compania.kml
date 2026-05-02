@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZED</SimpleData>
+		<SimpleData name="NOM">Zona Equipamiento Deportivo</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Comercio, Culto y Cultura, Deporte, Educación, Salud, Seguridad; Espacio Público, Áreas Verdes. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6774663607095,-34.0846823911907 -70.6775674984693,-34.0845349191113 -70.6778658143266,-34.0840977993687 -70.6781073119425,-34.0837433064717 -70.6773904070262,-34.0832597135567 -70.6766376913209,-34.084075584984 -70.6774663607095,-34.0846823911907</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZH3</SimpleData>
+		<SimpleData name="NOM">Zona Habitacional Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: Científico, Comercio, Culto y Cultura, Deporte, Esparcimiento, Educación, Salud, Seguridad, Servicios, Social; Espacio Público, Áreas Verdes. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6739699073858,-34.0905655397254 -70.6739798775689,-34.0908202466377 -70.6753887778946,-34.0908008661749 -70.6754972133457,-34.0907999939489 -70.6754954999672,-34.0907584239285 -70.6754826243144,-34.0905015971895 -70.6754753139539,-34.090359924443 -70.6754689684985,-34.0902369098412 -70.6754631435817,-34.0900459280282 -70.6754625994964,-34.089992302096 -70.6754610071375,-34.0898353183431 -70.6754595878164,-34.0896954200923 -70.6754598115793,-34.0896861499161 -70.6754700345416,-34.0895399709838 -70.6750432754043,-34.0896755347169 -70.6749513900121,-34.0897047234423 -70.6741220434463,-34.0899681691073 -70.6739433604191,-34.0900185901243 -70.6739463407179,-34.0901631958493 -70.6739699073858,-34.0905655397254</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZH3</SimpleData>
+		<SimpleData name="NOM">Zona Habitacional Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: Científico, Comercio, Culto y Cultura, Deporte, Esparcimiento, Educación, Salud, Seguridad, Servicios, Social; Espacio Público, Áreas Verdes. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.673937325959,-34.0897258439692 -70.6739411183571,-34.0899098291062 -70.6754783177492,-34.0894215288049 -70.6754784700622,-34.0894193580561 -70.6755337029056,-34.0891118544421 -70.6755960077389,-34.0888774102383 -70.6756703735219,-34.0885976227679 -70.6757408426545,-34.0883560615343 -70.675886456771,-34.0878767507999 -70.6759631219775,-34.0876426136409 -70.6761709981718,-34.0870484034603 -70.6763676788735,-34.0864894087576 -70.6764409726279,-34.0863005934004 -70.6764680921258,-34.086245891064 -70.6765331067216,-34.0861217357125 -70.6766651746778,-34.0858768146552 -70.6766931400799,-34.0858375997395 -70.6767792678043,-34.0857168306432 -70.6767152561448,-34.0856278726895 -70.6750107198142,-34.0858766087948 -70.6749509857733,-34.0860290599565 -70.674813542271,-34.0863968480966 -70.6746950496273,-34.0867482222356 -70.6745743295082,-34.0870929150111 -70.6744460305701,-34.087464248132 -70.6743306321493,-34.0878312852478 -70.6742278689128,-34.0881837340015 -70.6741292196174,-34.0885248170376 -70.6740383830331,-34.0888954714076 -70.6739678532468,-34.0892894626892 -70.673937325959,-34.0897258439692</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZH3</SimpleData>
+		<SimpleData name="NOM">Zona Habitacional Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: Científico, Comercio, Culto y Cultura, Deporte, Esparcimiento, Educación, Salud, Seguridad, Servicios, Social; Espacio Público, Áreas Verdes. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6753193058545,-34.0852904587152 -70.6751601377998,-34.0855801962813 -70.6756155817273,-34.0855137360243 -70.675786683976,-34.0854887684027 -70.6765364331627,-34.0853793579553 -70.6762944918984,-34.085043122352 -70.675953029005,-34.084546293372 -70.675884664365,-34.0844468205854 -70.6756561524352,-34.0847838981601 -70.6755723577863,-34.0849212464339 -70.6755116745572,-34.0850207095333 -70.6753193058545,-34.0852904587152</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZH3</SimpleData>
+		<SimpleData name="NOM">Zona Habitacional Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: Científico, Comercio, Culto y Cultura, Deporte, Esparcimiento, Educación, Salud, Seguridad, Servicios, Social; Espacio Público, Áreas Verdes. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6767999539903,-34.083089727948 -70.6765412379819,-34.0834730654131 -70.676277999331,-34.0838683327001 -70.6762771164285,-34.083874343991 -70.676073129491,-34.0841740164261 -70.6762180648687,-34.084379436052 -70.6763296093772,-34.0845402253139 -70.6764301418631,-34.0846921473989 -70.6765752578533,-34.0849065823437 -70.6768761480315,-34.0853262879195 -70.6770487928941,-34.0852878616449 -70.6770569778279,-34.0852866119119 -70.6771073543256,-34.0852120134582 -70.6772563677045,-34.084991346132 -70.6774646151337,-34.0846850471912 -70.6766347508899,-34.0840761796842 -70.677388182431,-34.0832633571846 -70.6781088967088,-34.0837409060466 -70.6781849775171,-34.0836296503797 -70.6784216054424,-34.0832839440851 -70.6787237982248,-34.0828424455298 -70.6789735698701,-34.08247753018 -70.6791803185608,-34.0821754663116 -70.6792886517072,-34.0820218366473 -70.679334602475,-34.0819595163116 -70.6796832028924,-34.0814921640364 -70.6799113861923,-34.0812011920989 -70.6801907272096,-34.0807956868818 -70.680322897395,-34.0806144618501 -70.680376363792,-34.0805436639256 -70.6804153709318,-34.0804924330278 -70.6799190741943,-34.0791710482256 -70.6794151346703,-34.0794393901187 -70.6790244200559,-34.0799587152585 -70.6790030014727,-34.0799895560721 -70.678164021983,-34.0811325070692 -70.6778955766014,-34.0815041106753 -70.6776133357407,-34.0818996402828 -70.6773500298139,-34.0822909548085 -70.6770725380774,-34.0826864183638 -70.6767999539903,-34.083089727948</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZH3</SimpleData>
+		<SimpleData name="NOM">Zona Habitacional Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: Científico, Comercio, Culto y Cultura, Deporte, Esparcimiento, Educación, Salud, Seguridad, Servicios, Social; Espacio Público, Áreas Verdes. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6792354795022,-34.0769260226338 -70.6797457957485,-34.0782041182043 -70.6796182559288,-34.0762719003317 -70.6790529960311,-34.0763898695986 -70.6790252045628,-34.0763945389769 -70.6792354795022,-34.0769260226338</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZH3</SimpleData>
+		<SimpleData name="NOM">Zona Habitacional Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: Científico, Comercio, Culto y Cultura, Deporte, Esparcimiento, Educación, Salud, Seguridad, Servicios, Social; Espacio Público, Áreas Verdes. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6802584628928,-34.0770934476482 -70.6803665123577,-34.0787301862331 -70.6807728830766,-34.0798121410354 -70.6807177245822,-34.0778024542404 -70.6811148423812,-34.0775744102876 -70.6811120492533,-34.0775676404093 -70.6810889563724,-34.0774958176077 -70.6810134771739,-34.0775148851258 -70.6809111643373,-34.0772728183804 -70.6809108080617,-34.0772547885533 -70.6806150631406,-34.0765464683702 -70.6804472117267,-34.0760988913841 -70.6801962671296,-34.076151266208 -70.6802584628928,-34.0770934476482</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Codegua</SimpleData>
+		<SimpleData name="LOC">La Compañía</SimpleData>
+		<SimpleData name="ZONA">ZM1</SimpleData>
+		<SimpleData name="NOM">Zona Mixta Centro Histórico</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: Científico, Comercio, Culto y Cultura, Deporte, Educación, Salud, Seguridad, Servicios, Social; Espacio Público, Áreas Verdes; Infraestructura: Transporte. Para mayor detalle revisar ordenanza Municipal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">29/08/2018</SimpleData>
+		<SimpleData name="N_DOC">28</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6809168735441,-34.0801955047149 -70.6812069095274,-34.0801298319441 -70.6814413928647,-34.0801007601096 -70.6817521196006,-34.08006223453 -70.6818268527057,-34.080047586227 -70.6820479082114,-34.0800042530868 -70.6821629860743,-34.079981695821 -70.6819344973087,-34.0797024975236 -70.6816449714095,-34.0793096996575 -70.6815225914266,-34.0791490634653 -70.6814653918849,-34.0789965532734 -70.6814598685896,-34.0787170928926 -70.6815111869871,-34.078572113819 -70.6812600136128,-34.0779263068601 -70.6811148423812,-34.0775744102876 -70.6807177245822,-34.0778024542404 -70.6807728830766,-34.0798121410354 -70.6809168735441,-34.0801955047149</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

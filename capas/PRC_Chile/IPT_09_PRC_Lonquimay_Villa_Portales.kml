@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Industrial y Vivienda</SimpleData>
+		<SimpleData name="NOM">Zona industrial y vivienda.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3676098249616,-38.448772979862 -71.367618861093,-38.4488064295667 -71.3689602996071,-38.4492227277936 -71.3693878733498,-38.4486705203562 -71.3696166947453,-38.4484370249864 -71.3697856351392,-38.4483191736483 -71.3700163253157,-38.4481428551239 -71.3707291374287,-38.4476921516707 -71.3703531648018,-38.4470417728867 -71.3698599797179,-38.4468082616596 -71.3693358056521,-38.4471467854849 -71.3687072696035,-38.4475790876139 -71.3682937356658,-38.4479116781644 -71.3679199797067,-38.4483483598861 -71.3676431640137,-38.4487830804962 -71.3676098249616,-38.448772979862</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Zona Militar</SimpleData>
+		<SimpleData name="NOM">Zona militar.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3639354894324,-38.4568372258225 -71.3639384709877,-38.4568367313272 -71.3640762169356,-38.4568768626532 -71.3643626854898,-38.4564576903939 -71.3661291649017,-38.4540117669526 -71.3674516166292,-38.4521755684657 -71.3685969430247,-38.4506400053204 -71.3672833974554,-38.4502293187914 -71.3680812392525,-38.4490402496189 -71.3668418864459,-38.4486862467749 -71.3664958166215,-38.4486717843044 -71.3662583028222,-38.4487074005363 -71.3662613766037,-38.4488014742044 -71.3661920913446,-38.448907771167 -71.3661955164366,-38.4490125989171 -71.3661914942729,-38.4492606180378 -71.3661594986428,-38.4493947696724 -71.3658276813808,-38.4500022465029 -71.3656990483677,-38.4501478870103 -71.3654520311114,-38.4503817424294 -71.3651667903589,-38.4505591530117 -71.3648650718978,-38.4506033914464 -71.3646466274964,-38.4505982669705 -71.3644390565831,-38.4505547776938 -71.3642445374174,-38.4505396327175 -71.3640534405077,-38.4506293152987 -71.3640093222475,-38.4507637111055 -71.3640139888518,-38.4509066587082 -71.3640087149889,-38.4511165582047 -71.3639409798235,-38.4512705031727 -71.3638493200591,-38.4514344668166 -71.3637439838988,-38.451551025856 -71.3635050314214,-38.4516607459716 -71.3633381684594,-38.4517499382854 -71.3631582537462,-38.4518107864772 -71.3629081140015,-38.4519493384368 -71.3628490746838,-38.4519982103519 -71.3627260292872,-38.4523153840078 -71.3626576696107,-38.4524502684311 -71.3624376711642,-38.4527693979145 -71.3622496750695,-38.4529543753639 -71.3620828075972,-38.4530435669157 -71.3619516748282,-38.4531129641283 -71.3617935070767,-38.4530970819232 -71.3616583332564,-38.4530425918191 -71.3615722577792,-38.4530061838112 -71.3615104194664,-38.4529692860562 -71.3614262077327,-38.4529900567238 -71.3613792862756,-38.453038683542 -71.3612270221572,-38.4532038672941 -71.3611446757353,-38.453281816521 -71.3609551213243,-38.453419143643 -71.3603034855567,-38.4538900120428 -71.3601978295226,-38.4539970386427 -71.3600725950213,-38.4542475006818 -71.3597223678771,-38.4550365174592 -71.3639405834003,-38.4568300434795 -71.3639354894324,-38.4568372258225</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Vivienda y Comercio</SimpleData>
+		<SimpleData name="NOM">Zona vivienda institucional y comercio preferencial.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3710224957245,-38.4513838239506 -71.3703861838378,-38.4519497975973 -71.3700472179682,-38.4523381011773 -71.369650460858,-38.4528133986337 -71.3691331742086,-38.4536821116926 -71.3688715848463,-38.4542118871619 -71.3686690281279,-38.4546927883025 -71.3684534537362,-38.4555172501062 -71.3684261362945,-38.4557943492091 -71.3684464390544,-38.4567856885756 -71.3684747302025,-38.4569090855299 -71.3689964956195,-38.4569176030622 -71.3693821794068,-38.4571875993438 -71.37002629777,-38.4565153219043 -71.3706728987182,-38.4558919246024 -71.3712576424966,-38.4552316325795 -71.3716391609273,-38.4546612783052 -71.3718662470628,-38.4541894111449 -71.3720690932295,-38.4537180354825 -71.3722104042944,-38.4532192979437 -71.3723106750411,-38.4525783500872 -71.372402259315,-38.4520424748983 -71.3724817242219,-38.4515068451555 -71.3724546182064,-38.4510496631807 -71.3720282844383,-38.4509915478798 -71.3717691136979,-38.4508537558113 -71.3713173472476,-38.4511299150244 -71.3710224957245,-38.4513838239506</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.3692641800938,-38.4561814128505 -71.3692237456998,-38.4558723088962 -71.3692990492105,-38.4553939817517 -71.3695716218861,-38.4544586999558 -71.3697941217658,-38.4538462729106 -71.3703005412773,-38.4531088978074 -71.3707358896155,-38.4525160010689 -71.3717809992835,-38.4515650712493 -71.3716894644185,-38.4524728508535 -71.3715194545474,-38.4532987802799 -71.3712406678527,-38.454043471056 -71.3706954352873,-38.4549842769945 -71.3700068256825,-38.4557134205471 -71.3692896821091,-38.4562513062034 -71.3692641800938,-38.4561814128505</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Vivienda Alta Densidad</SimpleData>
+		<SimpleData name="NOM">Zona vivienda densidad alta.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3702420739604,-38.4494828723199 -71.3701288325447,-38.4496353576439 -71.3700321318913,-38.4497374433654 -71.3695888550152,-38.4495318528236 -71.3694674593834,-38.4497131106865 -71.368744419598,-38.4506861138332 -71.3685969430247,-38.4506400053204 -71.3674516166292,-38.4521755684657 -71.3661291649017,-38.4540117669526 -71.3653098570385,-38.4551462298288 -71.3659313817306,-38.4552516383733 -71.364627484659,-38.4571017493765 -71.3651805730828,-38.4573265966767 -71.3658965595552,-38.4572477645404 -71.3660082259739,-38.4576031110013 -71.3662222168392,-38.4580279099731 -71.3665350311098,-38.4584149506385 -71.3669646159244,-38.4587567178269 -71.3674454720851,-38.4589973182925 -71.3678501051607,-38.4591321781001 -71.3681342316925,-38.4591979524948 -71.3686099485403,-38.4592813064217 -71.3691830846097,-38.4592840154344 -71.3694793068295,-38.4592423284712 -71.3693417250167,-38.4585727530815 -71.3695862158396,-38.4585391975335 -71.3703136024402,-38.4582526982409 -71.3708316838037,-38.4579632800351 -71.3715077570215,-38.4574990102601 -71.3716068969622,-38.4575400649974 -71.3719206030855,-38.4572026892361 -71.3722707634927,-38.4567855445277 -71.3726988846197,-38.4561570265356 -71.3731151920063,-38.4555382830713 -71.3733885604855,-38.454998723134 -71.3734932594406,-38.4548630961228 -71.3735391727986,-38.4548530748498 -71.3735344466081,-38.4548402983461 -71.3733625915518,-38.454777029707 -71.3735123299454,-38.454535593048 -71.3736924897409,-38.4541123541525 -71.3738797671715,-38.4535363943247 -71.3739198066676,-38.4532781094914 -71.3739221870324,-38.4532784721103 -71.3740259986886,-38.4528182257138 -71.3740914590641,-38.4522256627334 -71.3740996951111,-38.4513672500371 -71.3747331637577,-38.4513109624146 -71.3746303364259,-38.450538296204 -71.3744223798517,-38.4501133901395 -71.3742436617986,-38.4498404681786 -71.373855810484,-38.4494764245236 -71.3733990018284,-38.4492282097237 -71.3732880641237,-38.449173241839 -71.3732513972369,-38.4491644492054 -71.3728123904328,-38.4494594269701 -71.3727648533906,-38.4494889983389 -71.3725818306828,-38.449454562774 -71.3720467530751,-38.4494081863517 -71.3717919577254,-38.4494038115145 -71.3716026938517,-38.4491787785987 -71.3714986835571,-38.4489926631801 -71.3711289862893,-38.4490715545632 -71.3709493192732,-38.4491395611822 -71.370733998005,-38.4492297450201 -71.3705641213281,-38.4493190085167 -71.3702420739604,-38.4494828723199</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.3722104042944,-38.4532192979437 -71.3720690932295,-38.4537180354825 -71.3718662470628,-38.4541894111449 -71.3716391609273,-38.4546612783052 -71.3712576424966,-38.4552316325795 -71.3706728987182,-38.4558919246024 -71.37002629777,-38.4565153219043 -71.3693821794068,-38.4571875993438 -71.3689964956195,-38.4569176030622 -71.3684747302025,-38.4569090855299 -71.3684464390544,-38.4567856885756 -71.3684261362945,-38.4557943492091 -71.3684534537362,-38.4555172501062 -71.3686690281279,-38.4546927883025 -71.3688715848463,-38.4542118871619 -71.3691331742086,-38.4536821116926 -71.369650460858,-38.4528133986337 -71.3700472179682,-38.4523381011773 -71.3703861838378,-38.4519497975973 -71.3710224957245,-38.4513838239506 -71.3713173472476,-38.4511299150244 -71.3717691136979,-38.4508537558113 -71.3720282844383,-38.4509915478798 -71.3724546182064,-38.4510496631807 -71.3724817242219,-38.4515068451555 -71.372402259315,-38.4520424748983 -71.3723106750411,-38.4525783500872 -71.3722104042944,-38.4532192979437</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Vivienda Baja Densidad</SimpleData>
+		<SimpleData name="NOM">Zona vivienda baja densidad.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3643626854898,-38.4564576903939 -71.3640762169356,-38.4568768626532 -71.3639384709877,-38.4568367313272 -71.3639354894324,-38.4568372258225 -71.3629319009476,-38.4582522050609 -71.368955735276,-38.4607338353711 -71.3690495782173,-38.4606365757434 -71.3694473154042,-38.4601898694823 -71.3696291487315,-38.4599715595438 -71.3694793068295,-38.4592423284712 -71.3691830846097,-38.4592840154344 -71.3686099485403,-38.4592813064217 -71.3681342316925,-38.4591979524948 -71.3678501051607,-38.4591321781001 -71.3674454720851,-38.4589973182925 -71.3669646159244,-38.4587567178269 -71.3665350311098,-38.4584149506385 -71.3662222168392,-38.4580279099731 -71.3660082259739,-38.4576031110013 -71.3658965595552,-38.4572477645404 -71.3651805730828,-38.4573265966767 -71.364627484659,-38.4571017493765 -71.3659313817306,-38.4552516383733 -71.3653098570385,-38.4551462298288 -71.3643626854898,-38.4564576903939</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Vivienda Baja Densidad</SimpleData>
+		<SimpleData name="NOM">Zona vivienda baja densidad.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3746303364259,-38.450538296204 -71.3747331637577,-38.4513109624146 -71.3754902039849,-38.4512436894551 -71.3754704172252,-38.4517495022607 -71.3754288947394,-38.4523320445803 -71.3761242143026,-38.4523707539777 -71.3779499615185,-38.450614955755 -71.3779605148402,-38.4505670609539 -71.3780319734046,-38.4505274659698 -71.3780795076981,-38.4504978925372 -71.3781267301499,-38.4504587896801 -71.3782217996443,-38.4503996418009 -71.3782910670344,-38.4502933382893 -71.3783137392191,-38.4502451982268 -71.378323040347,-38.4501591849702 -71.3783441475242,-38.45006339529 -71.3783907424273,-38.4500052326959 -71.3786249701797,-38.449752537853 -71.3784524973537,-38.4496702158265 -71.3774505816952,-38.4490707175748 -71.3771158843499,-38.4488486472214 -71.3768853349738,-38.4486599288585 -71.3743332208335,-38.4485036027895 -71.3732632027293,-38.4491546733 -71.3732595448037,-38.449166403338 -71.3732880641237,-38.449173241839 -71.3733990018284,-38.4492282097237 -71.373855810484,-38.4494764245236 -71.3742436617986,-38.4498404681786 -71.3744223798517,-38.4501133901395 -71.3746303364259,-38.450538296204</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Zona Especial</SimpleData>
+		<SimpleData name="NOM">Zona especial existente.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3527895975468,-38.4632987301982 -71.3520781893267,-38.4634274565907 -71.3517142554158,-38.4634252299763 -71.351640601934,-38.4633981010682 -71.3515411585696,-38.4633238094416 -71.3513584184795,-38.4632988711044 -71.3512471636118,-38.4632343530791 -71.3510911837077,-38.4634006221227 -71.3510921234675,-38.4634035866143 -71.3507525519846,-38.4638333876444 -71.3510397757375,-38.4639441872825 -71.3511880121684,-38.4640270353212 -71.3517085464771,-38.464369416596 -71.3525370669659,-38.4648581854168 -71.3538594303246,-38.4656135673192 -71.3542681068531,-38.465872361004 -71.3547777881952,-38.4662530912309 -71.3555951589679,-38.4667706692396 -71.3557064219852,-38.4668351837217 -71.355845984837,-38.466651190142 -71.355949182119,-38.4664679281289 -71.3556505166457,-38.4662355362804 -71.355547963654,-38.466065949616 -71.3551517391834,-38.4654445396441 -71.3548664720188,-38.464878113029 -71.3547238395968,-38.4645948989496 -71.3546632639957,-38.4642242100241 -71.3546418428651,-38.4639385581791 -71.3546608145624,-38.4637760633812 -71.3547537509882,-38.4636502259532 -71.3548351856322,-38.4635436912847 -71.3550216770646,-38.4633110742576 -71.3552056855367,-38.4630022190204 -71.3551137096303,-38.4627847393873 -71.3549890919501,-38.4626823488863 -71.3546152119514,-38.4627470843147 -71.3542590318656,-38.4629831126495 -71.3538761271664,-38.4631433874896 -71.3537437298367,-38.463174657189 -71.3532722601643,-38.4632222785446 -71.3527895975468,-38.4632987301982</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Zona Especial</SimpleData>
+		<SimpleData name="NOM">Zona especial existente.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3693417250167,-38.4585727530815 -71.3696291487315,-38.4599715595438 -71.3696573659597,-38.4599376805419 -71.3698919674583,-38.4596945318783 -71.3700777759497,-38.4594428328433 -71.3706060107594,-38.4589076568977 -71.3707333999707,-38.4587238924303 -71.3708732200697,-38.4585494127713 -71.3710385278481,-38.4584125607075 -71.3710848216615,-38.4583448704161 -71.3711270589398,-38.4581532940378 -71.3711826638562,-38.4579995917045 -71.3713566554608,-38.4577576666158 -71.3716043001172,-38.4575428576654 -71.3716068969622,-38.4575400649974 -71.3715077570215,-38.4574990102601 -71.3708316838037,-38.4579632800351 -71.3703136024402,-38.4582526982409 -71.3695862158396,-38.4585391975335 -71.3693417250167,-38.4585727530815</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Zona Especial</SimpleData>
+		<SimpleData name="NOM">Zona especial existente.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3735344466081,-38.4548402983461 -71.3735391727986,-38.4548530748498 -71.3735414243719,-38.4548525831943 -71.3736396264555,-38.4548887373696 -71.3737999881116,-38.4549713109701 -71.3739342366512,-38.4549971975102 -71.3740057017944,-38.4549576047998 -71.3740529292878,-38.4549185025483 -71.3740982807547,-38.4548222229788 -71.3744599111289,-38.4543857678332 -71.3745170690107,-38.4542797120573 -71.3746065208208,-38.4540490322587 -71.3747317027608,-38.4537985563145 -71.3748491423499,-38.4536817421177 -71.3750657202562,-38.453629669031 -71.3754889462309,-38.4535924759774 -71.3755909688743,-38.4535331774211 -71.3739198066676,-38.4532781094914 -71.3738797671715,-38.4535363943247 -71.3736924897409,-38.4541123541525 -71.3735123299454,-38.454535593048 -71.3733625915518,-38.454777029707 -71.3735344466081,-38.4548402983461</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Zona Especial</SimpleData>
+		<SimpleData name="NOM">Zona especial existente.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3725240729772,-38.4476915597594 -71.3734921858845,-38.4488810428268 -71.3748060696192,-38.4481316435409 -71.3737829657296,-38.4468840901832 -71.3725240729772,-38.4476915597594</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3739221870324,-38.4532784721103 -71.3755909688743,-38.4535331774211 -71.3756079464053,-38.4535233098696 -71.3756641639611,-38.4533886645084 -71.3756706544364,-38.453216883228 -71.3756224168798,-38.4528554920544 -71.376045560691,-38.4524463922725 -71.3761242143026,-38.4523707539777 -71.3754288947394,-38.4523320445803 -71.3754704172252,-38.4517495022607 -71.3754902039849,-38.4512436894551 -71.3740996951111,-38.4513672500371 -71.3740914590641,-38.4522256627334 -71.3740259986886,-38.4528182257138 -71.3739221870324,-38.4532784721103</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Vivienda Alta Densidad</SimpleData>
+		<SimpleData name="NOM">Zona vivienda densidad alta.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3481912432103,-38.4628760897159 -71.3485334066198,-38.4629550519386 -71.3487528176539,-38.4629887957973 -71.3490468076917,-38.4630782585823 -71.3492811233835,-38.4631975270293 -71.3499589047902,-38.4635272254578 -71.3507525519846,-38.4638333876444 -71.3510921234675,-38.4634035866143 -71.3510911837077,-38.4634006221227 -71.351083045718,-38.4634092977035 -71.3504015472562,-38.462965247663 -71.3505644291469,-38.4627521839263 -71.3492521072854,-38.4619298097769 -71.3481912432103,-38.4628760897159</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.3500051782902,-38.4633457074034 -71.3497189031389,-38.4631950608156 -71.3500629287104,-38.4628830012505 -71.3502760457708,-38.4630217655904 -71.3500665362611,-38.463292981178 -71.3500103093061,-38.4633459990817 -71.3500051782902,-38.4633457074034</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Educación</SimpleData>
+		<SimpleData name="NOM">Equipamiento Educacional</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3500051782902,-38.4633457074034 -71.3500103093061,-38.4633459990817 -71.3500665362611,-38.463292981178 -71.3502760457708,-38.4630217655904 -71.3500629287104,-38.4628830012505 -71.3497189031389,-38.4631950608156 -71.3500051782902,-38.4633457074034</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3740143470316,-38.4463468618847 -71.3717251664151,-38.4478364805079 -71.371431954828,-38.4474919673077 -71.3708165496938,-38.4478620309791 -71.371486446529,-38.4489712832326 -71.3714903269084,-38.4489777092878 -71.371499280921,-38.4489925357489 -71.3714986835571,-38.4489926631801 -71.3716026938517,-38.4491787785987 -71.3717919577254,-38.4494038115145 -71.3720467530751,-38.4494081863517 -71.3725818306828,-38.449454562774 -71.3727648533906,-38.4494889983389 -71.3728123904328,-38.4494594269701 -71.3732513972369,-38.4491644492054 -71.3732595448037,-38.449166403338 -71.3732632027293,-38.4491546733 -71.3735652918175,-38.4489708647392 -71.3743332208335,-38.4485036027895 -71.3768853349738,-38.4486599288585 -71.3764679154803,-38.4483182434342 -71.374462854049,-38.4467091763223 -71.3740143470316,-38.4463468618847</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.3734921858845,-38.4488810428268 -71.3729683007583,-38.4492444538805 -71.3720044872899,-38.4480481323845 -71.3725240729772,-38.4476915597594 -71.3737829657296,-38.4468840901832 -71.3748060696192,-38.4481316435409 -71.3734921858845,-38.4488810428268</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Vivienda Baja Densidad</SimpleData>
+		<SimpleData name="NOM">Zona vivienda baja densidad.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3680812392525,-38.4490402496189 -71.3685336118646,-38.4492597741675 -71.3677100176057,-38.4503627063615 -71.368744419598,-38.4506861138332 -71.3694674593834,-38.4497131106865 -71.3695888550152,-38.4495318528236 -71.3700321318913,-38.4497374433654 -71.3701288325447,-38.4496353576439 -71.3702420739604,-38.4494828723199 -71.3705641213281,-38.4493190085167 -71.370733998005,-38.4492297450201 -71.3709493192732,-38.4491395611822 -71.3711289862893,-38.4490715545632 -71.371499280921,-38.4489925357489 -71.3708165496938,-38.4478620309791 -71.371431954828,-38.4474919673077 -71.3717251664151,-38.4478364805079 -71.3740143470316,-38.4463468618847 -71.3738525274533,-38.4462161389706 -71.3731054802334,-38.4456209711893 -71.3725063527163,-38.4450990905029 -71.3698599797179,-38.4468082616596 -71.3703531648018,-38.4470417728867 -71.3707291374287,-38.4476921516707 -71.3700163253157,-38.4481428551239 -71.3697856351392,-38.4483191736483 -71.3696166947453,-38.4484370249864 -71.3693878733498,-38.4486705203562 -71.3689602996071,-38.4492227277936 -71.367618861093,-38.4488064295667 -71.3676098249616,-38.448772979862 -71.3669940461984,-38.4485864098693 -71.3667622432416,-38.4485434144495 -71.3663256783409,-38.4485427003435 -71.3662787618601,-38.4485913289845 -71.366257017313,-38.4486680571509 -71.3662583028222,-38.4487074005363 -71.3664958166215,-38.4486717843044 -71.3668418864459,-38.4486862467749 -71.3680812392525,-38.4490402496189</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Educación</SimpleData>
+		<SimpleData name="NOM">Equipamiento Educacional</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3734921858845,-38.4488810428268 -71.3725240729772,-38.4476915597594 -71.3720044872899,-38.4480481323845 -71.3729683007583,-38.4492444538805 -71.3734921858845,-38.4488810428268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Educación</SimpleData>
+		<SimpleData name="NOM">Equipamiento Educacional</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3677100176057,-38.4503627063615 -71.3685336118646,-38.4492597741675 -71.3680812392525,-38.4490402496189 -71.3672833974554,-38.4502293187914 -71.3677100176057,-38.4503627063615</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Institucional</SimpleData>
+		<SimpleData name="NOM">Zona Institucional</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3702571468854,-38.4531720833681 -71.3708384497704,-38.4533289007566 -71.3714087324274,-38.4535945402881 -71.3715194545474,-38.4532987802799 -71.3716894644185,-38.4524728508535 -71.3717809992835,-38.4515650712493 -71.3707358896155,-38.4525160010689 -71.3703005412773,-38.4531088978074 -71.3702571468854,-38.4531720833681</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Institucional</SimpleData>
+		<SimpleData name="NOM">Zona Institucional</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3708298843126,-38.4547522843828 -71.3695957611978,-38.4543922568681 -71.3695716218861,-38.4544586999558 -71.3692990492105,-38.4553939817517 -71.3692237456998,-38.4558723088962 -71.3692641800938,-38.4561814128505 -71.3692896821091,-38.4562513062034 -71.3700068256825,-38.4557134205471 -71.3706954352873,-38.4549842769945 -71.3708298843126,-38.4547522843828</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lonquimay</SimpleData>
+		<SimpleData name="LOC">Villa Portales</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPERM">Sin Información.</SimpleData>
+		<SimpleData name="UPROH">Sin Información.</SimpleData>
+		<SimpleData name="P_DO">13/09/1978</SimpleData>
+		<SimpleData name="N_DOC">556</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3695957611978,-38.4543922568681 -71.3708298843126,-38.4547522843828 -71.3712406678527,-38.454043471056 -71.3714087324274,-38.4535945402881 -71.3708384497704,-38.4533289007566 -71.3702571468854,-38.4531720833681 -71.3697941217658,-38.4538462729106 -71.3695957611978,-38.4543922568681</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

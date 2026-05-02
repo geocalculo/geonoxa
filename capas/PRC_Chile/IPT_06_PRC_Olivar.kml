@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento deportivo comunal.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.815677033104,-34.2136912981005 -70.8176972775617,-34.2136946358309 -70.8176974381749,-34.2116965829114 -70.8177070858356,-34.211605870278 -70.8166852315872,-34.2115912364192 -70.8157422496206,-34.211577723636 -70.815677033104,-34.2136912981005</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">ZE-4</SimpleData>
+		<SimpleData name="NOM">Zona ZE-4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de seguridad, organización comunitaria y cultura comunal.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8176937339978,-34.2099813837377 -70.8177057796125,-34.2115450533388 -70.8186293729734,-34.2114275791913 -70.8185828602891,-34.2100648232354 -70.8176937339978,-34.2099813837377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">Zona ZE-2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento educacional comunal.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8157422496206,-34.211577723636 -70.8166852315872,-34.2115912364192 -70.8166803494283,-34.2098616073575 -70.8158731866636,-34.2097626700431 -70.81516785345,-34.2096762098262 -70.815097172391,-34.2115598383594 -70.8157422496206,-34.211577723636</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOM">Zona ZE-3</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de culto, cultura y servicios públicos comunal.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8158731866636,-34.2097626700431 -70.8166803494283,-34.2098616073575 -70.8168698161324,-34.2098588002228 -70.81686199464,-34.2090930955365 -70.8177419605944,-34.2091516262149 -70.8177386234703,-34.2089344848912 -70.8177247942477,-34.208290542011 -70.8160039204704,-34.2081174447798 -70.8158731866636,-34.2097626700431</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente en especial industria y almacenamiento molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8337888788734,-34.2111647371101 -70.8351131606495,-34.2112873659918 -70.8351798922317,-34.2104222448496 -70.8351982559236,-34.2099448247298 -70.8351856574216,-34.2098162384764 -70.831527797269,-34.2095293868474 -70.8316310277312,-34.2096668729496 -70.8317598929115,-34.2097830414775 -70.8322047620877,-34.2100376318851 -70.8324669968689,-34.2102126428939 -70.8326338804562,-34.2103604497676 -70.8328083690645,-34.2104616209346 -70.8328565112097,-34.2104966876198 -70.8330434085483,-34.2107730237021 -70.8331576140047,-34.2108750954968 -70.8333054934187,-34.2109408774536 -70.8336222399906,-34.2110470780326 -70.8337201365479,-34.2111578464992 -70.8337888788734,-34.2111647371101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente en especial industria y almacenamiento molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8041415705198,-34.2098033856353 -70.8044327754617,-34.2108011115162 -70.8046047823882,-34.2107925271567 -70.8090149678035,-34.2108945447978 -70.8112635047887,-34.2109627464049 -70.8122622425141,-34.2110016684884 -70.8125212498576,-34.2110276619619 -70.812795211798,-34.2110701448892 -70.8127393549696,-34.2100773898332 -70.8109751962913,-34.2100318839817 -70.8085096624035,-34.2099537566651 -70.8041415705198,-34.2098033856353</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente en especial industria y almacenamiento molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8234565127829,-34.2105542859555 -70.8227111510551,-34.2106130816262 -70.8197348156205,-34.2105523151258 -70.8197815142735,-34.2115268952519 -70.8216716573166,-34.2115541039638 -70.8235445722717,-34.2115143366237 -70.8252424091196,-34.2113459318919 -70.8280439279472,-34.2110894821809 -70.8295556631733,-34.2109476491761 -70.830350357086,-34.2108463245494 -70.8311484018826,-34.2109000174511 -70.8328417073971,-34.2110697858909 -70.8326615883024,-34.2108443378739 -70.8325217436851,-34.2106853914595 -70.832441765755,-34.2106388719432 -70.8323160170696,-34.2104677861679 -70.8322424422019,-34.2103853854579 -70.8320171225072,-34.2102575371917 -70.831682862933,-34.2100716726512 -70.8314272901381,-34.2098727025989 -70.8312947545477,-34.2097196102099 -70.8311515229586,-34.2094998729507 -70.8295648605717,-34.2093754061765 -70.8296010245357,-34.209985613273 -70.8268269226774,-34.2102464603085 -70.8234565127829,-34.2105542859555</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, en especial industria y almacenamiento inofensivo, molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8026060004982,-34.2153108415187 -70.8026515004101,-34.2161593509715 -70.8046908344769,-34.2165110696496 -70.8047766978755,-34.2154266381276 -70.8041907372068,-34.2154272815941 -70.8036166540322,-34.2154404993109 -70.8032548156042,-34.2154410495508 -70.8028224490668,-34.2153662919317 -70.8026060004982,-34.2153108415187</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, en especial industria y almacenamiento inofensivo, molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.803492720609,-34.215284862921 -70.8047880585102,-34.2152831600848 -70.8048435463842,-34.2145823379819 -70.8049677054961,-34.2140079333432 -70.8050529967331,-34.2136309235706 -70.8050519793131,-34.2135832244697 -70.8050358278504,-34.2128259899222 -70.8048770821353,-34.2117786013874 -70.8046912301994,-34.2111431513368 -70.8046825558117,-34.2111079695234 -70.8023887795172,-34.2111887302495 -70.8024114353658,-34.2116299737532 -70.8025204761335,-34.2137158938522 -70.8025994620768,-34.2151889157718 -70.8032624373198,-34.2152596210568 -70.803492720609,-34.215284862921</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, en especial industria y almacenamiento inofensivo, molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8197939791661,-34.2090352149917 -70.8193277495895,-34.209054062555 -70.8177386234703,-34.2089344848912 -70.8177419605944,-34.2091516262149 -70.81686199464,-34.2090930955365 -70.8168698161324,-34.2098588002228 -70.8166803494283,-34.2098616073575 -70.8166852315872,-34.2115912364192 -70.8177070858356,-34.211605870278 -70.8176974381749,-34.2116965829114 -70.8185290653641,-34.2116425010819 -70.8191879328565,-34.2115671207368 -70.8196321325604,-34.2115247434134 -70.8197815142735,-34.2115268952519 -70.8197348156205,-34.2105523151258 -70.8227111510551,-34.2106130816262 -70.8234565127829,-34.2105542859555 -70.8268269226774,-34.2102464603085 -70.8296010245357,-34.209985613273 -70.8295648605717,-34.2093754061765 -70.8311515229586,-34.2094998729507 -70.8311102758656,-34.2094551636218 -70.8309087939224,-34.2093007135557 -70.8308032058258,-34.2091985108964 -70.8306987786743,-34.2091499702514 -70.8303614407896,-34.2090870122736 -70.8298598565816,-34.2089978766681 -70.8297513559397,-34.2089601315175 -70.8296591512981,-34.2088791991923 -70.8295749396253,-34.2087695197548 -70.8294330502547,-34.2085819714268 -70.8293968241139,-34.2085002037311 -70.8292136339683,-34.2081796731311 -70.8281846052591,-34.2082960823289 -70.8260286908281,-34.2085250284336 -70.8240588416208,-34.2087273113099 -70.8226907954875,-34.2088729040643 -70.8213786169939,-34.2089460808815 -70.8206974735283,-34.2089860179333 -70.8197939791661,-34.2090352149917</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.8185828602891,-34.2100648232354 -70.8186293729734,-34.2114275791913 -70.8177057796125,-34.2115450533388 -70.8176937339978,-34.2099813837377 -70.8185828602891,-34.2100648232354</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, en especial industria y almacenamiento inofensivo, molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.831527797269,-34.2095293868474 -70.8351856574216,-34.2098162384764 -70.8351521591346,-34.2094743339789 -70.8350336502232,-34.2089751052375 -70.8350109623489,-34.2082597275414 -70.8334797669417,-34.2081633451064 -70.8315243835786,-34.2080374935692 -70.8311722158968,-34.2080188960985 -70.829702823055,-34.2081243300558 -70.829660452998,-34.2081291235609 -70.8298799436136,-34.208532359477 -70.8299814555788,-34.2086453602385 -70.8300643526737,-34.2086942228373 -70.8303375625529,-34.2087796099461 -70.8305929311492,-34.2088366341027 -70.8309091260076,-34.2089177993968 -70.8310140173548,-34.2089878057942 -70.8311803541751,-34.2091105721605 -70.8313393948464,-34.2092942834087 -70.831527797269,-34.2095293868474</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, en especial industria y almacenamiento inofensivo, molestos, insalubres y peligrosos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8041873432588,-34.2080491037651 -70.8039288016628,-34.2090549184346 -70.8022764941614,-34.209001677542 -70.8023822208557,-34.2110609698317 -70.804649007131,-34.2109718970348 -70.8046047823882,-34.2107925271567 -70.8044327754617,-34.2108011115162 -70.8041415705198,-34.2098033856353 -70.8085096624035,-34.2099537566651 -70.8109751962913,-34.2100318839817 -70.8127393549696,-34.2100773898332 -70.812795211798,-34.2110701448892 -70.8128021703228,-34.2110712241363 -70.8134030904715,-34.2113068762563 -70.813944554482,-34.2114479760096 -70.8144488571686,-34.2115299798266 -70.8144377173525,-34.2136892344499 -70.815677033104,-34.2136912981005 -70.8157422496206,-34.211577723636 -70.815097172391,-34.2115598383594 -70.81516785345,-34.2096762098262 -70.8158731866636,-34.2097626700431 -70.8160039204704,-34.2081174447798 -70.8151923467821,-34.2080358029455 -70.8151275017248,-34.2080248334033 -70.8151308094418,-34.2085138603357 -70.8125900343203,-34.2082055119789 -70.8123817838171,-34.2082026253485 -70.8104442117509,-34.2082372116558 -70.8083039058849,-34.2081912556797 -70.8075064036111,-34.2081612631805 -70.8041873432588,-34.2080491037651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">ZR-1 Zona de resguardo de acueductos y canales de regadío</SimpleData>
+		<SimpleData name="UPERM">Zonas que corresponden a las franjas de terreno que colindan con los acueductos y canales de regadío y que constituyen servidumbre de los mismos.</SimpleData>
+		<SimpleData name="UPROH">No se permitirá ningún tipo de edificación.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8032548156042,-34.2154410495508 -70.8036166540322,-34.2154404993109 -70.8041907372068,-34.2154272815941 -70.8047766978755,-34.2154266381276 -70.8047880585102,-34.2152831600848 -70.803492720609,-34.215284862921 -70.8032624373198,-34.2152596210568 -70.8025994620768,-34.2151889157718 -70.8026060004982,-34.2153108415187 -70.8028224490668,-34.2153662919317 -70.8032548156042,-34.2154410495508</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">ZR-1 Zona de resguardo de acueductos y canales de regadío</SimpleData>
+		<SimpleData name="UPERM">Zonas que corresponden a las franjas de terreno que colindan con los acueductos y canales de regadío y que constituyen servidumbre de los mismos.</SimpleData>
+		<SimpleData name="UPROH">No se permitirá ningún tipo de edificación.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8023822208557,-34.2110609698317 -70.8023887795172,-34.2111887302495 -70.8046825558117,-34.2111079695234 -70.804649007131,-34.2109718970348 -70.8023822208557,-34.2110609698317</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Olivar Alto</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">ZR-1 Zona de resguardo de acueductos y canales de regadío</SimpleData>
+		<SimpleData name="UPERM">Zonas que corresponden a las franjas de terreno que colindan con los acueductos y canales de regadío y que constituyen servidumbre de los mismos.</SimpleData>
+		<SimpleData name="UPROH">No se permitirá ningún tipo de edificación.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8328417073971,-34.2110697858909 -70.8337201365479,-34.2111578464992 -70.8336222399906,-34.2110470780326 -70.8333054934187,-34.2109408774536 -70.8331576140047,-34.2108750954968 -70.8330434085483,-34.2107730237021 -70.8328565112097,-34.2104966876198 -70.8328083690645,-34.2104616209346 -70.8326338804562,-34.2103604497676 -70.8324669968689,-34.2102126428939 -70.8322047620877,-34.2100376318851 -70.8317598929115,-34.2097830414775 -70.8316310277312,-34.2096668729496 -70.831527797269,-34.2095293868474 -70.8313393948464,-34.2092942834087 -70.8311803541751,-34.2091105721605 -70.8310140173548,-34.2089878057942 -70.8309091260076,-34.2089177993968 -70.8305929311492,-34.2088366341027 -70.8303375625529,-34.2087796099461 -70.8300643526737,-34.2086942228373 -70.8299814555788,-34.2086453602385 -70.8298799436136,-34.208532359477 -70.829660452998,-34.2081291235609 -70.8292136339683,-34.2081796731311 -70.8293968241139,-34.2085002037311 -70.8294330502547,-34.2085819714268 -70.8295749396253,-34.2087695197548 -70.8296591512981,-34.2088791991923 -70.8297513559397,-34.2089601315175 -70.8298598565816,-34.2089978766681 -70.8303614407896,-34.2090870122736 -70.8306987786743,-34.2091499702514 -70.8308032058258,-34.2091985108964 -70.8309087939224,-34.2093007135557 -70.8311102758656,-34.2094551636218 -70.8311515229586,-34.2094998729507 -70.8312947545477,-34.2097196102099 -70.8314272901381,-34.2098727025989 -70.831682862933,-34.2100716726512 -70.8320171225072,-34.2102575371917 -70.8322424422019,-34.2103853854579 -70.8323160170696,-34.2104677861679 -70.832441765755,-34.2106388719432 -70.8325217436851,-34.2106853914595 -70.8326615883024,-34.2108443378739 -70.8328417073971,-34.2110697858909</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOM">ZR-3 Zona de resguardo de canales de regadío</SimpleData>
+		<SimpleData name="UPERM">Zonas que corresponden a las franjas de terreno que colindan con los acueductos y canales de regadío y que constituyen servidumbre de los mismos.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7639829306316,-34.1985327022505 -70.7640768387357,-34.1986183389417 -70.764740394032,-34.1990395070058 -70.764645970426,-34.1990736885794 -70.7649555514791,-34.1992045714412 -70.7651395213395,-34.1993522261079 -70.7652970606783,-34.1994716327291 -70.7660608717037,-34.2001620507041 -70.7664446983347,-34.2003927133343 -70.7666001524288,-34.2004119455324 -70.7667291735684,-34.2004029301377 -70.7668837318401,-34.2003792312537 -70.7673022555736,-34.200208583207 -70.7676247184488,-34.2000869183305 -70.7675472250181,-34.1999600817058 -70.7668550601761,-34.2002436557205 -70.7665021422841,-34.2002558973219 -70.7663281234039,-34.2001725164743 -70.7661879522094,-34.2000600179379 -70.7654147844706,-34.1993339495149 -70.7642189329831,-34.1985781709634 -70.7641220108439,-34.1984636095878 -70.7639829306316,-34.1985327022505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">ZR-2 Zona de Protección de trazados ferroviarios</SimpleData>
+		<SimpleData name="UPERM">Franjas de terreno ubicadas a ambas lados de los trazados ferroviarios destinados a proteger el normal funcionamiento de las vías y evitar riesgos a la población.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7618545012376,-34.2017894011966 -70.7621113044437,-34.2020930520631 -70.7621231293644,-34.2020894042851 -70.7625402012376,-34.2025559515539 -70.7634552811915,-34.2035795602182 -70.7636204163461,-34.2037642763933 -70.7646813081535,-34.2049030582695 -70.7649134141008,-34.205137225782 -70.7649807597987,-34.2052032458646 -70.7659509796645,-34.2059930886651 -70.7660024769924,-34.2059793508254 -70.7660547622305,-34.2059628559323 -70.7650751298654,-34.2051592577984 -70.7649329859177,-34.205021234852 -70.7646557723324,-34.2047329073299 -70.7638981792259,-34.2039033954388 -70.7635843115828,-34.203553181108 -70.7626750164659,-34.202538565929 -70.7624459455845,-34.2022887669958 -70.7622322558365,-34.2020557382974 -70.7622344685542,-34.2020550554718 -70.7610903627789,-34.2007314331331 -70.7610275809433,-34.200658799751 -70.7607732243131,-34.2003645250795 -70.759961286446,-34.1993579843979 -70.7598379173879,-34.1994138155292 -70.7607983491603,-34.200537132022 -70.7608951832209,-34.2006607008113 -70.7609648225928,-34.2007495647634 -70.7612813527792,-34.2011534779266 -70.7618545012376,-34.2017894011966</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">ZE-2 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.758298090732,-34.2055902440866 -70.7585030491683,-34.2066704656443 -70.7594272936155,-34.2065437869186 -70.7592219233895,-34.2054662844117 -70.7592142338252,-34.2054673162634 -70.758298090732,-34.2055902440866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">ZE-2 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7625894576878,-34.1992361653894 -70.7628223437601,-34.1997338285401 -70.764645970426,-34.1990736885794 -70.764740394032,-34.1990395070058 -70.7640768387357,-34.1986183389417 -70.7625894576878,-34.1992361653894</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Z-1 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7569317875822,-34.2107582804838 -70.7590070414158,-34.2106835277545 -70.7589983133788,-34.2102635673281 -70.7597305701647,-34.2095316101003 -70.7594220682767,-34.2079104887654 -70.759657556358,-34.2076057442339 -70.7596662477175,-34.2069663593083 -70.7596444600397,-34.2069278274456 -70.7594272936155,-34.2065437869186 -70.7585030491683,-34.2066704656443 -70.758298090732,-34.2055902440866 -70.7592142338252,-34.2054673162634 -70.7590184697892,-34.2044865391328 -70.7610022231017,-34.2040810394223 -70.7593281808977,-34.20192598257 -70.7585504240492,-34.2020331474275 -70.7585051770906,-34.2020393813882 -70.7583048486229,-34.2020676980268 -70.7581431630162,-34.2020905514813 -70.7580586367991,-34.2021024989169 -70.7565798105771,-34.202311515488 -70.7564707918611,-34.2014126865284 -70.7579770717401,-34.2013553180462 -70.7579771172185,-34.2013557312768 -70.758239400882,-34.2013481796232 -70.758384738129,-34.2013441923912 -70.7583846835424,-34.2013439677476 -70.7581307310817,-34.2004584527027 -70.7569032493374,-34.1986347537075 -70.7541048035246,-34.1993456449964 -70.754336345211,-34.2017901303812 -70.7527161552445,-34.202171161666 -70.7527398768321,-34.2029008670042 -70.753290583101,-34.202871523624 -70.7534229697218,-34.2042724617923 -70.7527100639993,-34.2043041250932 -70.752852528848,-34.2059840542346 -70.7534104172384,-34.2058562177819 -70.7534359013582,-34.2060289753735 -70.7534751329486,-34.2062949322876 -70.7535063761856,-34.2065067306777 -70.7535385891923,-34.2067250976299 -70.7535743227755,-34.2069673364529 -70.7536068796531,-34.2071880329631 -70.7536471730199,-34.20746117559 -70.7536983041273,-34.2078077855944 -70.7537557502301,-34.2081971957275 -70.7538179989215,-34.2086191562827 -70.7538335932255,-34.2087248691232 -70.7538338077686,-34.208726318701 -70.7538562273397,-34.208725155859 -70.7538784850779,-34.2087238826145 -70.7538919598168,-34.208723110997 -70.7539049825153,-34.2087223656808 -70.7539410933232,-34.2087202991627 -70.7539839653489,-34.208717845577 -70.7540198528445,-34.2087157921486 -70.7540542725175,-34.2087138219229 -70.7541982582153,-34.2087055810918 -70.7543367705184,-34.2086976537406 -70.7544010243081,-34.2086939761798 -70.7544924129288,-34.2086887453545 -70.7545336642573,-34.2086863841964 -70.7545841874637,-34.2086834927087 -70.7546312785587,-34.208680797287 -70.7546618300769,-34.2086800842112 -70.7547669385026,-34.2086835494755 -70.7548128328826,-34.2086850622312 -70.7548886458888,-34.2086873208351 -70.7549484314486,-34.2086889891161 -70.7550022507309,-34.2086904911797 -70.755049251252,-34.2086918031666 -70.7551614345832,-34.2086949341957 -70.7553636284188,-34.2087035259468 -70.7554441987596,-34.2087069496384 -70.7554853942571,-34.2087087007313 -70.7555361349864,-34.2087108561835 -70.7555582573474,-34.2087117964531 -70.7556881160867,-34.2087099373002 -70.7557394006929,-34.2087059244374 -70.7558114000203,-34.2087002903524 -70.7558700680926,-34.2086956992234 -70.7559399620055,-34.2086902295639 -70.7559951957282,-34.2086865117104 -70.756028503067,-34.2086847083457 -70.7560668515615,-34.2086826326026 -70.7561184197759,-34.2086798409364 -70.7561842419673,-34.2086762779418 -70.7562057606138,-34.2086751131458 -70.7562786878886,-34.2094265633771 -70.7563016122844,-34.2096676771421 -70.7563276688433,-34.2099417267583 -70.7563826373426,-34.2105198595663 -70.7564257473372,-34.2107753223939 -70.7567792773068,-34.2107519200801 -70.7569317875822,-34.2107582804838</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.7552994420037,-34.2009820589928 -70.7553202112687,-34.2009717996878 -70.7553286029217,-34.2009702061933 -70.7554726682939,-34.2009428440781 -70.7555844434887,-34.2008943905655 -70.7556794181914,-34.2008127115702 -70.7557492614993,-34.2006845378767 -70.75578786175,-34.2006036658548 -70.7558428470748,-34.2005359450549 -70.755913938851,-34.2004679936282 -70.7562102431667,-34.2003834306317 -70.756443231347,-34.2003533206114 -70.7565245968099,-34.2003923154362 -70.7567189856839,-34.2004430780207 -70.7568082646944,-34.2004752659407 -70.7569147621883,-34.200560753991 -70.7569236485459,-34.2006007859318 -70.7569255924589,-34.2006944650899 -70.7569114297907,-34.2007883749855 -70.7568894914717,-34.2008957820824 -70.7568342290939,-34.2009501205923 -70.7567461980256,-34.2009781550438 -70.7566340080304,-34.2010065354749 -70.7564822443592,-34.2010689493833 -70.7563622784365,-34.201110827653 -70.7562264822185,-34.2011663183148 -70.7561226216142,-34.2012079657216 -70.7560670820459,-34.2012489211476 -70.7559954346451,-34.2012901071871 -70.7559558617994,-34.2013241405883 -70.7558520008615,-34.2013657877749 -70.7557561942622,-34.2014073195661 -70.7556602477076,-34.2014421590272 -70.755548194357,-34.201477229881 -70.7554601633656,-34.2015052634215 -70.7553639391238,-34.2015267208129 -70.755243138538,-34.2015284497974 -70.7551710743327,-34.2015495612522 -70.7550431923605,-34.2015982449003 -70.7549153091516,-34.2016469284347 -70.7547790961114,-34.2016823443064 -70.754666625993,-34.2016973393472 -70.7545038952819,-34.2016193481015 -70.7544297509142,-34.2015400884843 -70.7543951802792,-34.2014267968125 -70.7543935164208,-34.201346500292 -70.7544157353114,-34.2012524753993 -70.7544623914981,-34.2011714876307 -70.7545419531939,-34.2011234967925 -70.7545461249262,-34.2011219817571 -70.7546378998742,-34.2010886573004 -70.7547099638394,-34.2010675461654 -70.7548145184548,-34.2010593568162 -70.754927263985,-34.2010577435299 -70.7550319572624,-34.2010562453711 -70.755208574529,-34.201026944341 -70.7552994420037,-34.2009820589928</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">ZE-1 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7581307310817,-34.2004584527027 -70.7583846835424,-34.2013439677476 -70.7583848923315,-34.2013438836006 -70.7596179504517,-34.2008487273913 -70.7596264377675,-34.2008453189033 -70.7599877713533,-34.2007002156024 -70.7599614619283,-34.2006625141734 -70.7596527455701,-34.2002369129373 -70.759281055562,-34.2003629358461 -70.759276112446,-34.2003646117893 -70.7591846426926,-34.2003956251345 -70.7581307310817,-34.2004584527027</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">ZE-1 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7564707918611,-34.2014126865284 -70.7565798105771,-34.202311515488 -70.7580586367991,-34.2021024989169 -70.7579771172185,-34.2013557312768 -70.7579770717401,-34.2013553180462 -70.7564707918611,-34.2014126865284</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">ZE-1 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7599614619283,-34.2006625141734 -70.7596622265827,-34.2002336984839 -70.7596527455701,-34.2002369129373 -70.7599614619283,-34.2006625141734</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Z-1 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7663281234039,-34.2001725164743 -70.7665021422841,-34.2002558973219 -70.7668550601761,-34.2002436557205 -70.7675472250181,-34.1999600817058 -70.7660909041793,-34.1975763595611 -70.7660891290808,-34.1975732507995 -70.7650543256348,-34.1980004400167 -70.7641220108439,-34.1984636095878 -70.7642189329831,-34.1985781709634 -70.7654147844706,-34.1993339495149 -70.7661879522094,-34.2000600179379 -70.7663281234039,-34.2001725164743</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Z-1 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7623610659489,-34.2020160004139 -70.7633417111882,-34.2017134653943 -70.7673355419537,-34.2004630953243 -70.767770519541,-34.2003256193884 -70.7677705507961,-34.2003256090192 -70.7676247184488,-34.2000869183305 -70.7673022555736,-34.200208583207 -70.7668837318401,-34.2003792312537 -70.7667291735684,-34.2004029301377 -70.7666001524288,-34.2004119455324 -70.7664446983347,-34.2003927133343 -70.7660608717037,-34.2001620507041 -70.7652970606783,-34.1994716327291 -70.7651395213395,-34.1993522261079 -70.7649555514791,-34.1992045714412 -70.764645970426,-34.1990736885794 -70.7628223437601,-34.1997338285401 -70.7625894576878,-34.1992361653894 -70.7640768387357,-34.1986183389417 -70.7639829306316,-34.1985327022505 -70.7639119044567,-34.1985679876535 -70.7603733260504,-34.196163876552 -70.7597344879413,-34.1965094370147 -70.760045541208,-34.1969701976146 -70.761356894054,-34.1987263814555 -70.7600362876584,-34.1993240427491 -70.7599991106703,-34.1993408673674 -70.759961286446,-34.1993579843979 -70.7607732243131,-34.2003645250795 -70.7610275809433,-34.200658799751 -70.7610903627789,-34.2007314331331 -70.7622344685542,-34.2020550554718 -70.7623213254086,-34.2020282602841 -70.7623508358944,-34.2020191564097 -70.7623610659489,-34.2020160004139</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOM">ZR-4 Zona de Riesgo para asentamientos humanos:  zona inundable</SimpleData>
+		<SimpleData name="UPERM">Area Verde</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7552994420037,-34.2009820589928 -70.755208574529,-34.201026944341 -70.7550319572624,-34.2010562453711 -70.754927263985,-34.2010577435299 -70.7548145184548,-34.2010593568162 -70.7547099638394,-34.2010675461654 -70.7546378998742,-34.2010886573004 -70.7545461249262,-34.2011219817571 -70.7545419531939,-34.2011234967925 -70.7544623914981,-34.2011714876307 -70.7544157353114,-34.2012524753993 -70.7543935164208,-34.201346500292 -70.7543951802792,-34.2014267968125 -70.7544297509142,-34.2015400884843 -70.7545038952819,-34.2016193481015 -70.754666625993,-34.2016973393472 -70.7547790961114,-34.2016823443064 -70.7549153091516,-34.2016469284347 -70.7550431923605,-34.2015982449003 -70.7551710743327,-34.2015495612522 -70.755243138538,-34.2015284497974 -70.7553639391238,-34.2015267208129 -70.7554601633656,-34.2015052634215 -70.755548194357,-34.201477229881 -70.7556602477076,-34.2014421590272 -70.7557561942622,-34.2014073195661 -70.7558520008615,-34.2013657877749 -70.7559558617994,-34.2013241405883 -70.7559954346451,-34.2012901071871 -70.7560670820459,-34.2012489211476 -70.7561226216142,-34.2012079657216 -70.7562264822185,-34.2011663183148 -70.7563622784365,-34.201110827653 -70.7564822443592,-34.2010689493833 -70.7566340080304,-34.2010065354749 -70.7567461980256,-34.2009781550438 -70.7568342290939,-34.2009501205923 -70.7568894914717,-34.2008957820824 -70.7569114297907,-34.2007883749855 -70.7569255924589,-34.2006944650899 -70.7569236485459,-34.2006007859318 -70.7569147621883,-34.200560753991 -70.7568082646944,-34.2004752659407 -70.7567189856839,-34.2004430780207 -70.7565245968099,-34.2003923154362 -70.756443231347,-34.2003533206114 -70.7562102431667,-34.2003834306317 -70.755913938851,-34.2004679936282 -70.7558428470748,-34.2005359450549 -70.75578786175,-34.2006036658548 -70.7557492614993,-34.2006845378767 -70.7556794181914,-34.2008127115702 -70.7555844434887,-34.2008943905655 -70.7554726682939,-34.2009428440781 -70.7553286029217,-34.2009702061933 -70.7553202112687,-34.2009717996878 -70.7552994420037,-34.2009820589928</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOM">ZE-3 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestras e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7660547622305,-34.2059628559323 -70.766121944975,-34.2059416622981 -70.7662579277954,-34.2059121910616 -70.7663132416189,-34.2059019192734 -70.7664332515693,-34.2058821016028 -70.7665784522885,-34.2058581238605 -70.7666527539298,-34.2058458543328 -70.7667632513106,-34.205827607088 -70.766791825255,-34.2058228879841 -70.7668406666757,-34.2058189805516 -70.766902817617,-34.2058108353942 -70.7669967876329,-34.2057962615561 -70.7670521337647,-34.20578900156 -70.7671015762229,-34.205783421722 -70.7671312412376,-34.2057800727343 -70.7672398958753,-34.2057654782647 -70.7673117704646,-34.2057551251697 -70.7673594838277,-34.2057481851319 -70.7674022902695,-34.2057419587095 -70.7674385261297,-34.2057375420098 -70.7674836030836,-34.2057320474791 -70.7675700785134,-34.205721507236 -70.7676679963868,-34.2057046361543 -70.7677589177567,-34.2056814971256 -70.7678108208855,-34.2056665831754 -70.7678370362111,-34.2056590502536 -70.7679055418245,-34.2056265048858 -70.7681380969702,-34.205511082169 -70.7682433156368,-34.2054617053937 -70.7683762975322,-34.2054036262083 -70.7684818920449,-34.2053477849174 -70.7686296369967,-34.2052703404027 -70.7687038276126,-34.2052319678606 -70.7687869093349,-34.2051889963936 -70.7688745595008,-34.2051436623393 -70.7689508618842,-34.2051110039363 -70.7689965948322,-34.2050923101919 -70.76906538207,-34.2050732847602 -70.7691490863711,-34.205054044092 -70.7691865942043,-34.2050482451572 -70.769233318601,-34.2050438118729 -70.7693248587097,-34.2050424911834 -70.7694009548189,-34.2050323771375 -70.7695107466636,-34.2050082359784 -70.7695765003092,-34.2049937778758 -70.7696298805656,-34.2049839905715 -70.7697138300017,-34.2049602374719 -70.7698129841892,-34.2049266716742 -70.7698691152744,-34.2049085128382 -70.7699661468189,-34.2048632301754 -70.7700800262764,-34.2048106854064 -70.7701488130169,-34.2047916593808 -70.7702633138403,-34.2047854980555 -70.7703210541066,-34.2047895463527 -70.7703699602575,-34.2047929755454 -70.77050063734,-34.2048027002024 -70.7705701395482,-34.2048078725125 -70.7705576420695,-34.204788495931 -70.7690750491695,-34.2024305047919 -70.7635843115828,-34.203553181108 -70.7638981792259,-34.2039033954388 -70.7646557723324,-34.2047329073299 -70.7649329859177,-34.205021234852 -70.7650751298654,-34.2051592577984 -70.7660547622305,-34.2059628559323</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">ZE-2 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura garages y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7690750491695,-34.2024305047919 -70.7687769124294,-34.2019563156106 -70.7683738526441,-34.2013152329168 -70.767770519541,-34.2003256193884 -70.7673355419537,-34.2004630953243 -70.7633417111882,-34.2017134653943 -70.7623610659489,-34.2020160004139 -70.7623508358944,-34.2020191564097 -70.7624459455845,-34.2022887669958 -70.7626750164659,-34.202538565929 -70.7635843115828,-34.203553181108 -70.7690750491695,-34.2024305047919</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Z-2 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de servicios artesanales comunal, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7624459455845,-34.2022887669958 -70.7623508358944,-34.2020191564097 -70.7623213254086,-34.2020282602841 -70.7622344685542,-34.2020550554718 -70.7622322558365,-34.2020557382974 -70.7624459455845,-34.2022887669958</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOM">ZE-3 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestras e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7596444600397,-34.2069278274456 -70.7597300618459,-34.2069083026259 -70.7598491050597,-34.2068784818908 -70.7600235922142,-34.2068301233832 -70.760123590571,-34.2068024088838 -70.7601772180505,-34.2067881144975 -70.7602378286055,-34.2067656883776 -70.7602903453612,-34.206749025781 -70.760351080677,-34.2067310882997 -70.7604333028834,-34.2067071480745 -70.760482180623,-34.2066935691649 -70.7605205752036,-34.2066853579936 -70.7605728672128,-34.2066741754524 -70.7606000429177,-34.2066683633509 -70.760680544231,-34.206659163473 -70.7607568305476,-34.206658068161 -70.7608049263913,-34.2066580881234 -70.7608625860386,-34.2066581114056 -70.7609299951147,-34.2066581398372 -70.7609687496296,-34.2066581559123 -70.7610304944093,-34.2066581808672 -70.7611239364062,-34.206657305143 -70.7611764369328,-34.2066543239525 -70.761211581027,-34.2066498733655 -70.7612453017721,-34.2066465459945 -70.7613171580253,-34.2066275168572 -70.761405462913,-34.2066027384037 -70.7614718121548,-34.2065849045856 -70.7615203223752,-34.2065723476663 -70.761614068697,-34.2065480824185 -70.7616571209689,-34.2065369383712 -70.7617185896421,-34.2065300112062 -70.7617844041127,-34.2065234607059 -70.7618097482361,-34.2065212210517 -70.7618785751332,-34.2065202322112 -70.7619308719413,-34.2065159163998 -70.7620199603236,-34.2065085624912 -70.7620769744243,-34.206503856929 -70.7621454616983,-34.2065028728189 -70.7622165457911,-34.2065043238248 -70.7623290519858,-34.2065066763465 -70.7624190075642,-34.2065086053465 -70.7624792244289,-34.2065098967843 -70.7625650656123,-34.2065129722643 -70.762664987544,-34.2065183403047 -70.7627254535392,-34.2065215883435 -70.7628017385628,-34.2065204917793 -70.7628329454683,-34.2065226815639 -70.7628930359374,-34.2065236878733 -70.7629152878385,-34.2065224311166 -70.7629604897466,-34.2065198777987 -70.7630352341752,-34.2065145345736 -70.7631221936009,-34.2065023602106 -70.7631829399685,-34.2064879621678 -70.7632820495434,-34.2064643353941 -70.7634043216533,-34.2064351870707 -70.7635159092566,-34.2064086106456 -70.7635494530788,-34.2064015413159 -70.7636312956828,-34.2063882490292 -70.7637114506359,-34.2063752704074 -70.7637630725898,-34.2063669112686 -70.7638352223949,-34.2063601873986 -70.7639027726434,-34.2063548163761 -70.7639388229562,-34.2063527748526 -70.7639563332659,-34.2063524634685 -70.7630590918147,-34.2052955133037 -70.762077826852,-34.2041357238625 -70.7618769697225,-34.2039022217388 -70.7610022231017,-34.2040810394223 -70.7590184697892,-34.2044865391328 -70.7592142338252,-34.2054673162634 -70.7592219233895,-34.2054662844117 -70.7594272936155,-34.2065437869186 -70.7596444600397,-34.2069278274456</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Z-2 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de servicios artesanales comunal, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7585504240492,-34.2020331474275 -70.7593281808977,-34.20192598257 -70.7610022231017,-34.2040810394223 -70.7618769697225,-34.2039022217388 -70.7613538769506,-34.2032941037095 -70.7608145524044,-34.2025634312569 -70.7602745955549,-34.2017955717658 -70.7596179504517,-34.2008487273913 -70.7583848923315,-34.2013438836006 -70.7583848021391,-34.2013441914734 -70.758384738129,-34.2013441923912 -70.758239400882,-34.2013481796232 -70.7579771172185,-34.2013557312768 -70.7580586367991,-34.2021024989169 -70.7581431630162,-34.2020905514813 -70.7583048486229,-34.2020676980268 -70.7585051770906,-34.2020393813882 -70.7585504240492,-34.2020331474275</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">ZE-2 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura garages y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7625402012376,-34.2025559515539 -70.7627797749619,-34.2032350628114 -70.7631365968772,-34.203644712508 -70.7634552811915,-34.2035795602182 -70.7625402012376,-34.2025559515539</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">ZE-2 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestas e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura garages y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7627797749619,-34.2032350628114 -70.7629385730521,-34.2036851955562 -70.7631365968772,-34.203644712508 -70.7627797749619,-34.2032350628114</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOM">ZE-3 Zona de Extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de todo tipo, talleres artesanales, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente, especialmente industrias molestras e insalubres, terminales de distribución, cementerios, plantas y botaderos de basura, garage y talleres molestos.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7652890515881,-34.2061793428154 -70.7653316573554,-34.2061672742593 -70.7654947133779,-34.20612108609 -70.7656058071481,-34.2060889423638 -70.7656945472536,-34.2060632664039 -70.7657728662004,-34.2060406051456 -70.7659509796645,-34.2059930886651 -70.7649807597987,-34.2052032458646 -70.7649134141008,-34.205137225782 -70.7646813081535,-34.2049030582695 -70.7636204163461,-34.2037642763933 -70.7634552811915,-34.2035795602182 -70.7631365968772,-34.203644712508 -70.7634889014687,-34.2040491718149 -70.7652890515881,-34.2061793428154</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conti</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">ZR-1 Zona de Protección de caminos nacionales</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de servicios artesanales comunal, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7581960360079,-34.1988237080309 -70.759276112446,-34.2003646117893 -70.759281055562,-34.2003629358461 -70.7596527455701,-34.2002369129373 -70.7596622265827,-34.2002336984839 -70.7599614619283,-34.2006625141734 -70.7599877713533,-34.2007002156024 -70.7596264377675,-34.2008453189033 -70.7602775119417,-34.2017951701259 -70.7602745955549,-34.2017955717658 -70.7608145524044,-34.2025634312569 -70.7613538769506,-34.2032941037095 -70.7618769697225,-34.2039022217388 -70.762077826852,-34.2041357238625 -70.7630590918147,-34.2052955133037 -70.7639563332659,-34.2063524634685 -70.7640424701122,-34.2063509322711 -70.7641225776455,-34.2063519313642 -70.7641825277264,-34.2063473530117 -70.764267405126,-34.2063411121454 -70.7643419598378,-34.2063384471112 -70.7644235735254,-34.2063355298823 -70.7644895997539,-34.2063331696106 -70.7645454403955,-34.2063311731753 -70.7650064098899,-34.2062543481214 -70.7651800356439,-34.206206736836 -70.7652608775514,-34.206187323587 -70.7652890515881,-34.2061793428154 -70.7634889014687,-34.2040491718149 -70.7631365968772,-34.203644712508 -70.7629385730521,-34.2036851955562 -70.7627797749619,-34.2032350628114 -70.7624383175902,-34.2028430467275 -70.7619475595292,-34.2021435665204 -70.7620977035137,-34.2020972474448 -70.7621113044437,-34.2020930520631 -70.7618545012376,-34.2017894011966 -70.7612813527792,-34.2011534779266 -70.7609648225928,-34.2007495647634 -70.7608951832209,-34.2006607008113 -70.7607983491603,-34.200537132022 -70.7598379173879,-34.1994138155292 -70.7588379337087,-34.1981326898273 -70.7582426486779,-34.1982928695809 -70.7581355268175,-34.1983216935465 -70.7578849341232,-34.1983853580948 -70.7578777899269,-34.1983871728319 -70.7581960360079,-34.1988237080309</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Z-2 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de servicios artesanales comunal, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7627797749619,-34.2032350628114 -70.7625402012376,-34.2025559515539 -70.7621231293644,-34.2020894042851 -70.7621113044437,-34.2020930520631 -70.7620977035137,-34.2020972474448 -70.7619475595292,-34.2021435665204 -70.7624383175902,-34.2028430467275 -70.7627797749619,-34.2032350628114</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Z-2 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de servicios artesanales comunal, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7569032493374,-34.1986347537075 -70.7581307310817,-34.2004584527027 -70.7591846426926,-34.2003956251345 -70.759276112446,-34.2003646117893 -70.7581960360079,-34.1988237080309 -70.7578777899269,-34.1983871728319 -70.7569032493374,-34.1986347537075</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Z-2 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de servicios artesanales comunal, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7583846835424,-34.2013439677476 -70.758384738129,-34.2013441923912 -70.7583848021391,-34.2013441914734 -70.7583848923315,-34.2013438836006 -70.7583846835424,-34.2013439677476</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Olivar</SimpleData>
+		<SimpleData name="LOC">Gultro - Lo Conty</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Z-2 Zona urbana</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de servicios artesanales comunal, industria y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">24/09/1990</SimpleData>
+		<SimpleData name="N_DOC">10</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7596264377675,-34.2008453189033 -70.7596179504517,-34.2008487273913 -70.7602745955549,-34.2017955717658 -70.7602775119417,-34.2017951701259 -70.7596264377675,-34.2008453189033</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

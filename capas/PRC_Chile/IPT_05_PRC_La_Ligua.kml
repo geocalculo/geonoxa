@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">C</SimpleData>
+		<SimpleData name="NOM">Zona C</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio y artesanía, equipamiento en general, compatible con vivienda y comercio.</SimpleData>
+		<SimpleData name="UPROH">Industrias.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.221738686354,-32.4499120204507 -71.222285421679,-32.4497870352661 -71.2226924076282,-32.4497440575796 -71.2231149219248,-32.449760456575 -71.2234697508159,-32.4498854239897 -71.2237126539055,-32.4500362291801 -71.2238732222864,-32.450272001324 -71.2239637626518,-32.4505209408074 -71.2239734340949,-32.4509144740415 -71.2239268474814,-32.4513090021585 -71.2239019426753,-32.451440676881 -71.2239189377625,-32.4515596810363 -71.2239790062895,-32.4517137149169 -71.2241231693368,-32.451854333465 -71.2244791815091,-32.4520269978735 -71.2241805212797,-32.4540714608876 -71.2292193500831,-32.4553806464026 -71.2292056676626,-32.4558533330104 -71.2291764949087,-32.4560399637542 -71.229026023262,-32.4564434906787 -71.2289727670586,-32.4566806559805 -71.2290141039233,-32.4569877283228 -71.2291538909418,-32.4571785252449 -71.229308617596,-32.4572903172767 -71.2292406694336,-32.4586444286407 -71.2290132052895,-32.4593499658059 -71.2347291162702,-32.4592577041847 -71.2352471637587,-32.4587916527214 -71.2354226486554,-32.4584902760836 -71.2355814160566,-32.4580818233685 -71.2357627119765,-32.4574462917286 -71.2358529180897,-32.4571106387971 -71.2360509281248,-32.4565821835527 -71.2362952595581,-32.4562199315618 -71.2367901068061,-32.4557458525924 -71.2371888532602,-32.4553689235025 -71.2373834035016,-32.455270022624 -71.2380962932858,-32.4550783920247 -71.2385267010894,-32.454844060152 -71.2396186419663,-32.4540491596636 -71.2414389057351,-32.4542553642322 -71.242152644455,-32.4542353558102 -71.2421088160439,-32.4546013435659 -71.2420306326154,-32.4548532739967 -71.2419081851742,-32.4550224805804 -71.2416430207001,-32.4551107158187 -71.2412922835111,-32.4551527536037 -71.2408682676332,-32.4550767904287 -71.2405594300411,-32.4551061499761 -71.2403786523199,-32.4551928803182 -71.2401501777077,-32.4556264405691 -71.2399211105433,-32.4560361505827 -71.239460312504,-32.4567482423421 -71.2392139278418,-32.4570270252911 -71.2388145931106,-32.4573801098533 -71.2385802043693,-32.4575751650234 -71.2384496827061,-32.4568497333023 -71.2383174908189,-32.4566254077483 -71.23815834759,-32.456449282134 -71.2380156319671,-32.4563683076368 -71.2375837410249,-32.4565430114651 -71.2373930211501,-32.456796940015 -71.2369659328926,-32.457735101458 -71.2367400883757,-32.4582759828826 -71.2364559162515,-32.458734387186 -71.2362092221516,-32.4590012398451 -71.2360603591796,-32.4592361789216 -71.2380015114618,-32.4592047674042 -71.2470248678973,-32.459113180275 -71.2470174481059,-32.4565482878188 -71.2465303575316,-32.4516655381425 -71.2452546434428,-32.4518553263546 -71.2434731960143,-32.4520779774015 -71.2423843233097,-32.4518587733163 -71.2411315914938,-32.4512726356211 -71.2408288579761,-32.4509797667815 -71.2406919443058,-32.4505646406362 -71.2406891778202,-32.4498846581872 -71.2408575428735,-32.4492970717879 -71.2408651104888,-32.4490344688885 -71.2408741545031,-32.44883149164 -71.2408550710378,-32.4486290142214 -71.2406768562409,-32.4482504146121 -71.2405915632977,-32.4480675561483 -71.2388202777813,-32.4487610233097 -71.2390287985087,-32.449056767339 -71.2392634223621,-32.4496682013018 -71.239335179172,-32.4498387219505 -71.2385169329477,-32.4515712523236 -71.2382024740469,-32.451400636391 -71.23583197812,-32.4501360258275 -71.2360518508021,-32.4501512089823 -71.2363908267799,-32.4501659918404 -71.2363764014065,-32.4500750539527 -71.2355519892516,-32.449965622159 -71.2349638554119,-32.4498519907165 -71.2348171163754,-32.4498355071942 -71.2346845705465,-32.4508495588497 -71.2345109071722,-32.4511103380723 -71.2341907379986,-32.4513641736467 -71.2312250334598,-32.4516076667058 -71.2303859551347,-32.4516469124082 -71.2304426558071,-32.4523819779073 -71.2307137869592,-32.4542478618386 -71.2307053578312,-32.4543625429259 -71.2306732484825,-32.4544299218583 -71.2305846439339,-32.4544887589155 -71.2304500911391,-32.454510231445 -71.2303715620953,-32.4545211679625 -71.2302803704768,-32.4544750620562 -71.2302337170344,-32.454409077976 -71.2301863582437,-32.4543144743477 -71.2301727541622,-32.4542192717025 -71.2301556240596,-32.453980966883 -71.2301049388685,-32.4532946736917 -71.2300355128605,-32.4527614211265 -71.2298287436941,-32.4516729717651 -71.2282679769157,-32.4517459501892 -71.227914925422,-32.4511222729118 -71.2281980692006,-32.4507354875458 -71.2275055736168,-32.4507262700945 -71.2267404631625,-32.4505107430546 -71.2234743629535,-32.4495233735798 -71.2229660296185,-32.4493927653362 -71.2224693296509,-32.4493347261427 -71.2220087255657,-32.4493714908716 -71.221467125279,-32.449461818939 -71.221738686354,-32.4499120204507</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.2315673185743,-32.4540759656788 -71.2325320004,-32.4539995506206 -71.2325946133985,-32.4552209614213 -71.2317367930106,-32.4552421405114 -71.2317238506478,-32.4547174326625 -71.2316750373073,-32.4544498639304 -71.2315673185743,-32.4540759656788</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.2329393308136,-32.4574434451521 -71.2329141631387,-32.4588182731378 -71.2316980134894,-32.45880405271 -71.2318626729572,-32.4579493027067 -71.2318671284967,-32.456760955533 -71.2329429853698,-32.45675428529 -71.2329393308136,-32.4574434451521</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">D</SimpleData>
+		<SimpleData name="NOM">Zona D</SimpleData>
+		<SimpleData name="UPERM">Vivienda, uso horticola,equipamiento e industria no molesta.</SimpleData>
+		<SimpleData name="UPROH">IIndustria molesta, industria peligrosa e insalubre.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2211977121824,-32.4460520779767 -71.2212491903248,-32.4472436655148 -71.223312280585,-32.4471640079503 -71.223303349315,-32.4462276262264 -71.2250044718536,-32.4461737080217 -71.2249920896442,-32.4447229071615 -71.2212365319354,-32.4448392072877 -71.2212357180813,-32.4448488180001 -71.2211977121824,-32.4460520779767</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">D</SimpleData>
+		<SimpleData name="NOM">Zona D</SimpleData>
+		<SimpleData name="UPERM">Vivienda, uso horticola,equipamiento e industria no molesta.</SimpleData>
+		<SimpleData name="UPROH">IIndustria molesta, industria peligrosa e insalubre.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2279143084528,-32.4446323352978 -71.2279113195936,-32.4461747887461 -71.2290060404007,-32.4458356737655 -71.2344964462869,-32.4456238013301 -71.236249981189,-32.4455282387583 -71.2362831696763,-32.4465298028052 -71.2382587647456,-32.446537639534 -71.2383456247353,-32.4466363101585 -71.238522641409,-32.4476496316422 -71.2388202777813,-32.4487610233097 -71.2405915632977,-32.4480675561483 -71.240483692708,-32.4478362901332 -71.2402356477555,-32.4469101338438 -71.2399438403505,-32.4453524459522 -71.2398802437462,-32.4442607537278 -71.2279143084528,-32.4446323352978</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">A</SimpleData>
+		<SimpleData name="NOM">Zona A</SimpleData>
+		<SimpleData name="UPERM">Comercio, vivienda, artesanía, equipamiento en general e industria no molesta, ambos compatible con vivienda y comercio. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Industria insalubre, industria molesta e industria peligrosa.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2285481486686,-32.4484959144738 -71.2286924307106,-32.4506981023114 -71.2281980692006,-32.4507354875458 -71.227914925422,-32.4511222729118 -71.2282679769157,-32.4517459501892 -71.2298287436941,-32.4516729717651 -71.2303859551347,-32.4516469124082 -71.2312250334598,-32.4516076667058 -71.2341907379986,-32.4513641736467 -71.2345109071722,-32.4511103380723 -71.2346845705465,-32.4508495588497 -71.2348171163754,-32.4498355071942 -71.2349638554119,-32.4498519907165 -71.2355519892516,-32.449965622159 -71.2363764014065,-32.4500750539527 -71.2363317548622,-32.4491026840595 -71.2363101358597,-32.448631826557 -71.2323611291884,-32.4483806283696 -71.2310658317609,-32.4483463274931 -71.2285481486686,-32.4484959144738</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">B</SimpleData>
+		<SimpleData name="NOM">Zona B</SimpleData>
+		<SimpleData name="UPERM">Comercio, artesanía y vivienda, equipamiento en general e industria no molesta, ambos compatible con vivienda y comercio. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Industria insalubre, industria molesta e industria peligrosa.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.223312280585,-32.4471640079503 -71.2234743629535,-32.4495233735798 -71.2267404631625,-32.4505107430546 -71.2275055736168,-32.4507262700945 -71.2281980692006,-32.4507354875458 -71.2286924307106,-32.4506981023114 -71.2285481486686,-32.4484959144738 -71.2310658317609,-32.4483463274931 -71.2323611291884,-32.4483806283696 -71.2363101358597,-32.448631826557 -71.2363317548622,-32.4491026840595 -71.2366452491517,-32.4491683390996 -71.2369628695244,-32.4492104166981 -71.2376928732333,-32.4491437539756 -71.2384265149683,-32.448939823503 -71.2388202777813,-32.4487610233097 -71.238522641409,-32.4476496316422 -71.2383456247353,-32.4466363101585 -71.2382587647456,-32.446537639534 -71.2362831696763,-32.4465298028052 -71.236249981189,-32.4455282387583 -71.2344964462869,-32.4456238013301 -71.2290060404007,-32.4458356737655 -71.2279113195936,-32.4461747887461 -71.2279143084528,-32.4446323352978 -71.2249920896442,-32.4447229071615 -71.2250044718536,-32.4461737080217 -71.223303349315,-32.4462276262264 -71.223312280585,-32.4471640079503</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">E</SimpleData>
+		<SimpleData name="NOM">Zona E</SimpleData>
+		<SimpleData name="UPERM">Área verde, Equipamiento deportivo y turístico, esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2396186419663,-32.4540491596636 -71.2385267010894,-32.454844060152 -71.2380962932858,-32.4550783920247 -71.2373834035016,-32.455270022624 -71.2371888532602,-32.4553689235025 -71.2367901068061,-32.4557458525924 -71.2362952595581,-32.4562199315618 -71.2360509281248,-32.4565821835527 -71.2358529180897,-32.4571106387971 -71.2357627119765,-32.4574462917286 -71.2355814160566,-32.4580818233685 -71.2354226486554,-32.4584902760836 -71.2352471637587,-32.4587916527214 -71.2347291162702,-32.4592577041847 -71.2360603591796,-32.4592361789216 -71.2362092221516,-32.4590012398451 -71.2364559162515,-32.458734387186 -71.2367400883757,-32.4582759828826 -71.2369659328926,-32.457735101458 -71.2373930211501,-32.456796940015 -71.2375837410249,-32.4565430114651 -71.2380156319671,-32.4563683076368 -71.23815834759,-32.456449282134 -71.2383174908189,-32.4566254077483 -71.2384496827061,-32.4568497333023 -71.2385802043693,-32.4575751650234 -71.2388145931106,-32.4573801098533 -71.2392139278418,-32.4570270252911 -71.239460312504,-32.4567482423421 -71.2399211105433,-32.4560361505827 -71.2401501777077,-32.4556264405691 -71.2403786523199,-32.4551928803182 -71.2405594300411,-32.4551061499761 -71.2408682676332,-32.4550767904287 -71.2412922835111,-32.4551527536037 -71.2416430207001,-32.4551107158187 -71.2419081851742,-32.4550224805804 -71.2420306326154,-32.4548532739967 -71.2421088160439,-32.4546013435659 -71.242152644455,-32.4542353558102 -71.2414389057351,-32.4542553642322 -71.2396186419663,-32.4540491596636</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">E</SimpleData>
+		<SimpleData name="NOM">Zona E</SimpleData>
+		<SimpleData name="UPERM">Área verde, Equipamiento deportivo y turístico, esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2302803704768,-32.4544750620562 -71.2303715620953,-32.4545211679625 -71.2304500911391,-32.454510231445 -71.2305846439339,-32.4544887589155 -71.2306732484825,-32.4544299218583 -71.2307053578312,-32.4543625429259 -71.2307137869592,-32.4542478618386 -71.2304426558071,-32.4523819779073 -71.2303859551347,-32.4516469124082 -71.2298287436941,-32.4516729717651 -71.2300355128605,-32.4527614211265 -71.2301049388685,-32.4532946736917 -71.2301556240596,-32.453980966883 -71.2301727541622,-32.4542192717025 -71.2301863582437,-32.4543144743477 -71.2302337170344,-32.454409077976 -71.2302803704768,-32.4544750620562</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">E</SimpleData>
+		<SimpleData name="NOM">Zona E</SimpleData>
+		<SimpleData name="UPERM">Área verde, Equipamiento deportivo y turístico, esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.23583197812,-32.4501360258275 -71.2382024740469,-32.451400636391 -71.2378511522611,-32.4509925369742 -71.23735857763,-32.4504190909926 -71.2373413467559,-32.4504050799266 -71.2368362964969,-32.4502374863342 -71.2364406126685,-32.4501681635523 -71.2363908267799,-32.4501659918404 -71.2360518508021,-32.4501512089823 -71.23583197812,-32.4501360258275</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">E</SimpleData>
+		<SimpleData name="NOM">Zona E</SimpleData>
+		<SimpleData name="UPERM">Área verde, Equipamiento deportivo y turístico, esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2241636281521,-32.4540670717171 -71.2241805212797,-32.4540714608876 -71.2244791815091,-32.4520269978735 -71.2241231693368,-32.451854333465 -71.2239790062895,-32.4517137149169 -71.2239189377625,-32.4515596810363 -71.2239019426753,-32.451440676881 -71.2239268474814,-32.4513090021585 -71.2239734340949,-32.4509144740415 -71.2239637626518,-32.4505209408074 -71.2238732222864,-32.450272001324 -71.2237126539055,-32.4500362291801 -71.2234697508159,-32.4498854239897 -71.2231149219248,-32.449760456575 -71.2226924076282,-32.4497440575796 -71.222285421679,-32.4497870352661 -71.221738686354,-32.4499120204507 -71.2224967838012,-32.4511687857139 -71.2241636281521,-32.4540670717171</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">E</SimpleData>
+		<SimpleData name="NOM">Zona E</SimpleData>
+		<SimpleData name="UPERM">Área verde, Equipamiento deportivo y turístico, esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2212758930047,-32.4478617416782 -71.221467125279,-32.449461818939 -71.2220087255657,-32.4493714908716 -71.2224693296509,-32.4493347261427 -71.2229660296185,-32.4493927653362 -71.2234743629535,-32.4495233735798 -71.223312280585,-32.4471640079503 -71.2212491903248,-32.4472436655148 -71.2212758930047,-32.4478617416782</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">F</SimpleData>
+		<SimpleData name="NOM">Zona F</SimpleData>
+		<SimpleData name="UPERM">Equipamientos urbanos junto con usos circundantes.</SimpleData>
+		<SimpleData name="UPROH">IIndustria molesta, industria peligrosa e insalubre.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2316980134894,-32.45880405271 -71.2329141631387,-32.4588182731378 -71.2329393308136,-32.4574434451521 -71.2329429853698,-32.45675428529 -71.2318671284967,-32.456760955533 -71.2318626729572,-32.4579493027067 -71.2316980134894,-32.45880405271</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">F</SimpleData>
+		<SimpleData name="NOM">Zona F</SimpleData>
+		<SimpleData name="UPERM">Equipamientos urbanos junto con usos circundantes.</SimpleData>
+		<SimpleData name="UPROH">IIndustria molesta, industria peligrosa e insalubre.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2317238506478,-32.4547174326625 -71.2317367930106,-32.4552421405114 -71.2325946133985,-32.4552209614213 -71.2325320004,-32.4539995506206 -71.2315673185743,-32.4540759656788 -71.2316750373073,-32.4544498639304 -71.2317238506478,-32.4547174326625</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">La Ligua</SimpleData>
+		<SimpleData name="LOC">La Ligua</SimpleData>
+		<SimpleData name="ZONA">F</SimpleData>
+		<SimpleData name="NOM">Zona F</SimpleData>
+		<SimpleData name="UPERM">Equipamientos urbanos junto con usos circundantes.</SimpleData>
+		<SimpleData name="UPROH">IIndustria molesta, industria peligrosa e insalubre.</SimpleData>
+		<SimpleData name="P_DO">17/12/1980</SimpleData>
+		<SimpleData name="N_DOC">325</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.2376928732333,-32.4491437539756 -71.2369628695244,-32.4492104166981 -71.2366452491517,-32.4491683390996 -71.2363317548622,-32.4491026840595 -71.2363764014065,-32.4500750539527 -71.2363908267799,-32.4501659918404 -71.2364406126685,-32.4501681635523 -71.2368362964969,-32.4502374863342 -71.2373413467559,-32.4504050799266 -71.23735857763,-32.4504190909926 -71.2378511522611,-32.4509925369742 -71.2382024740469,-32.451400636391 -71.2385169329477,-32.4515712523236 -71.239335179172,-32.4498387219505 -71.2392634223621,-32.4496682013018 -71.2390287985087,-32.449056767339 -71.2388202777813,-32.4487610233097 -71.2384265149683,-32.448939823503 -71.2376928732333,-32.4491437539756</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

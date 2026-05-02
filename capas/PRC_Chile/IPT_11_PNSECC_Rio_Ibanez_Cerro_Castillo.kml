@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Preservación ambiental natural y riesgo de asentamientos</SimpleData>
+		<SimpleData name="UPERM">Edificaciones menores tales como miradores techados, kioskos, juegos infantiles, fuentes de agua y otros similares.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1532541884965,-46.1249253881892 -72.1530722393138,-46.1247696071371 -72.1531107955557,-46.124803313027 -72.1532541884965,-46.1249253881892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Preservación ambiental natural y riesgo de asentamientos</SimpleData>
+		<SimpleData name="UPERM">Edificaciones menores tales como miradores techados, kioskos, juegos infantiles, fuentes de agua y otros similares.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1532541884965,-46.1249253881892 -72.1532926485316,-46.1249581309019 -72.153798941271,-46.1246323110907 -72.1538862435236,-46.12467371792 -72.1536930613505,-46.125265538761 -72.1549514254515,-46.1254883374013 -72.1556537376796,-46.125252221662 -72.1602697482533,-46.1238028724909 -72.1608149795769,-46.1236353709029 -72.1603977984259,-46.1229339974026 -72.160205464377,-46.1226324665077 -72.1595085652564,-46.1227827292717 -72.1589118127381,-46.1228278158768 -72.1587274405897,-46.1228376791508 -72.1577685474404,-46.1227784678824 -72.1569683788784,-46.1229196637484 -72.1570218240454,-46.1230158246218 -72.156382160616,-46.1233288048781 -72.1560649296451,-46.1234709332007 -72.1557286976968,-46.1235802454306 -72.1552851277124,-46.1239687694432 -72.1548980976206,-46.1242080799138 -72.1546009447224,-46.1244020414321 -72.1545677905894,-46.1245410798294 -72.1537555869608,-46.124592090947 -72.1534555628808,-46.1243341330066 -72.1543817113668,-46.1237291803889 -72.153178220735,-46.123660930185 -72.1530814881665,-46.1230013343409 -72.1529095284909,-46.1225988567304 -72.1528966223142,-46.1225527749948 -72.1528728317116,-46.1224626717566 -72.1516929377809,-46.1226120783553 -72.1517205877727,-46.1226378492102 -72.1517355689318,-46.1226602974431 -72.1518037041572,-46.1232299614448 -72.1518276507887,-46.1232654976095 -72.1519305811246,-46.1233407680525 -72.1525323818624,-46.1236118326038 -72.1525753696773,-46.1236449383995 -72.1526121059284,-46.1237125093325 -72.1526215951389,-46.1237827379257 -72.1526560379206,-46.1240980418621 -72.1526756009773,-46.1241527505909 -72.1528095831137,-46.124291937189 -72.1534153396771,-46.1248238938415 -72.1532541884965,-46.1249253881892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Preservación ambiental natural y riesgo de asentamientos</SimpleData>
+		<SimpleData name="UPERM">Edificaciones menores tales como miradores techados, kioskos, juegos infantiles, fuentes de agua y otros similares.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1534899985049,-46.1210087443882 -72.1527654895868,-46.1219955679952 -72.1527535494726,-46.1220113770091 -72.1527655319683,-46.1220562934762 -72.1527805112786,-46.1220487360763 -72.153104489203,-46.1219647756487 -72.1532971496039,-46.1219201615081 -72.1536533248239,-46.1218603161017 -72.1537551112925,-46.1218493666311 -72.1538956511134,-46.1218342469182 -72.1540107215073,-46.1218218682512 -72.1543476019123,-46.1217839859993 -72.1545238199669,-46.1218112677258 -72.1546263986077,-46.1218084340039 -72.1547751379326,-46.121804324935 -72.1549565560856,-46.1218021174292 -72.1549598246755,-46.1218020775276 -72.155006143836,-46.1218015142547 -72.1552638137181,-46.1218158282 -72.1554600411638,-46.1217887351601 -72.155623514532,-46.1217727869841 -72.1557752859631,-46.1217438256603 -72.1561081551974,-46.1216717564753 -72.1563712079208,-46.1216244778278 -72.1565204601127,-46.1215993951292 -72.1567633519311,-46.1216307843298 -72.1569970589246,-46.1216452797498 -72.1572529920435,-46.1216172476266 -72.1574491817103,-46.121598486829 -72.1576069658714,-46.1215788831259 -72.1582030545519,-46.1212733357844 -72.1574078739185,-46.1203933573198 -72.1563476621324,-46.1205559085473 -72.1541719696603,-46.1208970341745 -72.1534899985049,-46.1210087443882</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Mixta</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todo el equipamiento no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1582030545519,-46.1212733357844 -72.1576069658714,-46.1215788831259 -72.1574380876752,-46.1216597389608 -72.1563587767716,-46.1218300809504 -72.1555334340281,-46.1219823133813 -72.1556919131603,-46.1224003095664 -72.1564608373783,-46.1222637962717 -72.1589283305699,-46.1218145353409 -72.158825556276,-46.1215744725775 -72.1600610196255,-46.1210211374731 -72.1609498117027,-46.1207536317113 -72.1619978565186,-46.1224325083008 -72.1623554372905,-46.1223272261563 -72.1624550607599,-46.1222978936274 -72.1620702912189,-46.1217106679664 -72.1620694742639,-46.1216964020119 -72.1621100968299,-46.1216881324016 -72.1621303400229,-46.1216828086868 -72.1621575570829,-46.1216796743318 -72.1621991327825,-46.121688048452 -72.1625542450085,-46.1222686910842 -72.1626608272874,-46.1222373097115 -72.162299109271,-46.121699568458 -72.1622803791895,-46.121671509989 -72.1622954326883,-46.1216353712275 -72.1624418507074,-46.1215667248664 -72.1624157665014,-46.1215248884296 -72.1623222563971,-46.1215655671012 -72.1622578351281,-46.1215768765102 -72.1622230984318,-46.121568313026 -72.1614202136131,-46.1202259813804 -72.1613733140205,-46.1201844140501 -72.1613715444275,-46.1201535043033 -72.1615252998225,-46.1200966124719 -72.1614962696737,-46.1200500474179 -72.1613615761819,-46.1200990075342 -72.1613204088427,-46.1200977656439 -72.1610665532187,-46.1196713726024 -72.1610791417453,-46.1196519723878 -72.1612194391798,-46.1196060032033 -72.1611622879015,-46.1195143301765 -72.1608378612647,-46.1195899904799 -72.1606606325081,-46.1200086707656 -72.1600509224286,-46.1202755954672 -72.1601185818049,-46.1204106549386 -72.1587136957674,-46.1210433685265 -72.1582030545519,-46.1212733357844</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.1614842181589,-46.1207457438522 -72.1612710830318,-46.1204325325407 -72.1612772399452,-46.120420455096 -72.1613848845117,-46.1203865163045 -72.1621277671323,-46.1215780976382 -72.1621222910876,-46.1216020632705 -72.1620994454168,-46.1216217476256 -72.162068943789,-46.1216273544981 -72.1620213474512,-46.1216334356199 -72.1614842181589,-46.1207457438522</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.1613550817543,-46.1203444756455 -72.1611765866302,-46.120397045035 -72.161155118753,-46.1203809691673 -72.1604377182329,-46.1205913420399 -72.1604492011909,-46.120612456649 -72.1603782139421,-46.1206287098805 -72.1602907276288,-46.1204763383317 -72.1603061904174,-46.1204473332414 -72.160506187449,-46.1202917675862 -72.1606721282452,-46.1201395257831 -72.1608302441622,-46.1200899019558 -72.1609261163437,-46.1200896297694 -72.1610363465495,-46.1201008670485 -72.1611795263964,-46.1201492946608 -72.1612606183361,-46.1201899155084 -72.1613088777879,-46.1202552601361 -72.1613550817543,-46.1203444756455</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.1610976358345,-46.1200348713896 -72.1609696296744,-46.1200122192296 -72.1608670549945,-46.1200150585591 -72.1608227418524,-46.120018666725 -72.1608023629662,-46.1200216114858 -72.160804829704,-46.120004873949 -72.1608918383213,-46.1199095893385 -72.1609315239339,-46.1198251409245 -72.1609557471236,-46.1197696967695 -72.160964370671,-46.1197408809028 -72.160995007455,-46.1197376512612 -72.1611140674732,-46.1199629736304 -72.1611954135157,-46.1200678865454 -72.1611717513821,-46.1200733038422 -72.1610976358345,-46.1200348713896</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.1583633345411,-46.1215576481737 -72.1579432887588,-46.1216383263707 -72.1579259194232,-46.1216340444505 -72.1579178579049,-46.1216128340742 -72.1585096036119,-46.12136070634 -72.1586086447826,-46.1212960494168 -72.1586593900461,-46.12128512036 -72.1587086199736,-46.1213075726057 -72.1587764040569,-46.1214747798221 -72.158763543569,-46.12148942414 -72.1587368691679,-46.1215020689903 -72.1583633345411,-46.1215576481737</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">El equipamiento no citado como permitido, vivienda, industria y almacenamiento de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1527655319683,-46.1220562934762 -72.1528728317116,-46.1224626717566 -72.1528966223142,-46.1225527749948 -72.1529095284909,-46.1225988567304 -72.1530814881665,-46.1230013343409 -72.153178220735,-46.123660930185 -72.1543817113668,-46.1237291803889 -72.1545005299611,-46.1236515679291 -72.1543971670459,-46.1235508308441 -72.1550316487977,-46.1232368141402 -72.154903320927,-46.1229688758835 -72.1548455088943,-46.1228561645193 -72.1553461952557,-46.122778032737 -72.1552301865693,-46.1224859404472 -72.1556919131603,-46.1224003095664 -72.1555334340281,-46.1219823133813 -72.1546575051774,-46.1221438128958 -72.1538830363168,-46.1223152358631 -72.1537551112925,-46.1218493666311 -72.1536533248239,-46.1218603161017 -72.1532971496039,-46.1219201615081 -72.153104489203,-46.1219647756487 -72.1527805112786,-46.1220487360763 -72.1527655319683,-46.1220562934762</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.1541081214116,-46.1224185644761 -72.1545838625385,-46.1222934961648 -72.1546362397063,-46.1223111009657 -72.1547844673059,-46.1227475710485 -72.1547683217532,-46.1227646872444 -72.1547421891656,-46.1227868415999 -72.1542835646776,-46.1228519027983 -72.1542283121076,-46.1228439026729 -72.1540959385914,-46.1224450974374 -72.1541081214116,-46.1224185644761</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Residencial</SimpleData>
+		<SimpleData name="UPERM">Viviendas, equipamiento vecinal de áreas verdes y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">El equipamiento no citado como permitido, industrias de todo tipo; almacenamiento insalubre, molesto y peligroso, actividades complementarias al transporte.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1556919131603,-46.1224003095664 -72.1552301865693,-46.1224859404472 -72.1553461952557,-46.122778032737 -72.1548455088943,-46.1228561645193 -72.154903320927,-46.1229688758835 -72.1550316487977,-46.1232368141402 -72.1543971670459,-46.1235508308441 -72.1545005299611,-46.1236515679291 -72.1543817113668,-46.1237291803889 -72.1534555628808,-46.1243341330066 -72.1537555869608,-46.124592090947 -72.1545677905894,-46.1245410798294 -72.1546009447224,-46.1244020414321 -72.1548980976206,-46.1242080799138 -72.1552851277124,-46.1239687694432 -72.1557286976968,-46.1235802454306 -72.1560649296451,-46.1234709332007 -72.156382160616,-46.1233288048781 -72.1570218240454,-46.1230158246218 -72.1569683788784,-46.1229196637484 -72.1577685474404,-46.1227784678824 -72.1587274405897,-46.1228376791508 -72.1589118127381,-46.1228278158768 -72.1595085652564,-46.1227827292717 -72.160205464377,-46.1226324665077 -72.1603977984259,-46.1229339974026 -72.1603829792798,-46.1229090832328 -72.1617536830988,-46.1225043989962 -72.1619978565186,-46.1224325083008 -72.1609498117027,-46.1207536317113 -72.1600610196255,-46.1210211374731 -72.158825556276,-46.1215744725775 -72.1589283305699,-46.1218145353409 -72.1564608373783,-46.1222637962717 -72.1556919131603,-46.1224003095664</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Protección quebrada e Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Construcciones de infraestructura de agua potable.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1516929377809,-46.1226120783553 -72.1528728317116,-46.1224626717566 -72.1527655319683,-46.1220562934762 -72.1527535494726,-46.1220113770091 -72.1527654895868,-46.1219955679952 -72.1534899985049,-46.1210087443882 -72.154202125384,-46.1200460288043 -72.1524719166457,-46.1193722325535 -72.1513635745395,-46.120893602119 -72.1511093006079,-46.1212387824262 -72.1508629493048,-46.1216027952691 -72.1507649282192,-46.1218055407396 -72.1506872865963,-46.1220053413581 -72.1506256290308,-46.1222451859453 -72.1505782984238,-46.1225560780583 -72.1505637796084,-46.1226017259124 -72.1515109136478,-46.1226351267425 -72.1516910255847,-46.1226123210452 -72.1516929377809,-46.1226120783553</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1532926485316,-46.1249581309019 -72.1536366586954,-46.1252555521576 -72.1536930613505,-46.125265538761 -72.1538862435236,-46.12467371792 -72.153798941271,-46.1246323110907 -72.1532926485316,-46.1249581309019</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1532541884965,-46.1249253881892 -72.1534153396771,-46.1248238938415 -72.1528095831137,-46.124291937189 -72.1526756009773,-46.1241527505909 -72.1526560379206,-46.1240980418621 -72.1526215951389,-46.1237827379257 -72.1526121059284,-46.1237125093325 -72.1525753696773,-46.1236449383995 -72.1525323818624,-46.1236118326038 -72.1519305811246,-46.1233407680525 -72.1518276507887,-46.1232654976095 -72.1518037041572,-46.1232299614448 -72.1517355689318,-46.1226602974431 -72.1517205877727,-46.1226378492102 -72.1516929377809,-46.1226120783553 -72.1516910255847,-46.1226123210452 -72.1515109136478,-46.1226351267425 -72.1515114326152,-46.1230042345303 -72.1516071794582,-46.1233016529078 -72.1519513477624,-46.1235112454427 -72.152168620021,-46.1237456497988 -72.1521688489723,-46.1237458963978 -72.1522871097249,-46.12387348098 -72.1523214146494,-46.1239344505223 -72.1524294862097,-46.124207713985 -72.1530722393138,-46.1247696071371 -72.1532541884965,-46.1249253881892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1537551112925,-46.1218493666311 -72.1538830363168,-46.1223152358631 -72.1546575051774,-46.1221438128958 -72.1555334340281,-46.1219823133813 -72.1563587767716,-46.1218300809504 -72.1574380876752,-46.1216597389608 -72.1576069658714,-46.1215788831259 -72.1574491817103,-46.121598486829 -72.1572529920435,-46.1216172476266 -72.1569970589246,-46.1216452797498 -72.1567633519311,-46.1216307843298 -72.1565204601127,-46.1215993951292 -72.1563712079208,-46.1216244778278 -72.1561081551974,-46.1216717564753 -72.1557752859631,-46.1217438256603 -72.155623514532,-46.1217727869841 -72.1554600411638,-46.1217887351601 -72.1552638137181,-46.1218158282 -72.155006143836,-46.1218015142547 -72.1549598246755,-46.1218020775276 -72.1549565560856,-46.1218021174292 -72.1547751379326,-46.121804324935 -72.1546263986077,-46.1218084340039 -72.1545238199669,-46.1218112677258 -72.1543476019123,-46.1217839859993 -72.1540107215073,-46.1218218682512 -72.1538956511134,-46.1218342469182 -72.1537551112925,-46.1218493666311</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1542835646776,-46.1228519027983 -72.1547421891656,-46.1227868415999 -72.1547683217532,-46.1227646872444 -72.1547844673059,-46.1227475710485 -72.1546362397063,-46.1223111009657 -72.1545838625385,-46.1222934961648 -72.1541081214116,-46.1224185644761 -72.1540959385914,-46.1224450974374 -72.1542283121076,-46.1228439026729 -72.1542835646776,-46.1228519027983</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1587086199736,-46.1213075726057 -72.1586593900461,-46.12128512036 -72.1586086447826,-46.1212960494168 -72.1585096036119,-46.12136070634 -72.1579178579049,-46.1216128340742 -72.1579259194232,-46.1216340444505 -72.1579432887588,-46.1216383263707 -72.1583633345411,-46.1215576481737 -72.1587368691679,-46.1215020689903 -72.158763543569,-46.12148942414 -72.1587764040569,-46.1214747798221 -72.1587086199736,-46.1213075726057</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1624550607599,-46.1222978936274 -72.1625542450085,-46.1222686910842 -72.1621991327825,-46.121688048452 -72.1621575570829,-46.1216796743318 -72.1621303400229,-46.1216828086868 -72.1621100968299,-46.1216881324016 -72.1620694742639,-46.1216964020119 -72.1620702912189,-46.1217106679664 -72.1624550607599,-46.1222978936274</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1626608272874,-46.1222373097115 -72.1628290653971,-46.1221877745179 -72.1624418507074,-46.1215667248664 -72.1622954326883,-46.1216353712275 -72.1622803791895,-46.121671509989 -72.162299109271,-46.121699568458 -72.1626608272874,-46.1222373097115</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1621277671323,-46.1215780976382 -72.1613848845117,-46.1203865163045 -72.1612772399452,-46.120420455096 -72.1612710830318,-46.1204325325407 -72.1614842181589,-46.1207457438522 -72.1620213474512,-46.1216334356199 -72.162068943789,-46.1216273544981 -72.1620994454168,-46.1216217476256 -72.1621222910876,-46.1216020632705 -72.1621277671323,-46.1215780976382</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1615252998225,-46.1200966124719 -72.1613715444275,-46.1201535043033 -72.1613733140205,-46.1201844140501 -72.1614202136131,-46.1202259813804 -72.1622230984318,-46.121568313026 -72.1622578351281,-46.1215768765102 -72.1623222563971,-46.1215655671012 -72.1624157665014,-46.1215248884296 -72.1615252998225,-46.1200966124719</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1613550817543,-46.1203444756455 -72.1613088777879,-46.1202552601361 -72.1612606183361,-46.1201899155084 -72.1611795263964,-46.1201492946608 -72.1610363465495,-46.1201008670485 -72.1609261163437,-46.1200896297694 -72.1608302441622,-46.1200899019558 -72.1606721282452,-46.1201395257831 -72.160506187449,-46.1202917675862 -72.1603061904174,-46.1204473332414 -72.1602907276288,-46.1204763383317 -72.1603782139421,-46.1206287098805 -72.1604492011909,-46.120612456649 -72.1604377182329,-46.1205913420399 -72.161155118753,-46.1203809691673 -72.1611765866302,-46.120397045035 -72.1613550817543,-46.1203444756455</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1611717513821,-46.1200733038422 -72.1611954135157,-46.1200678865454 -72.1611140674732,-46.1199629736304 -72.160995007455,-46.1197376512612 -72.160964370671,-46.1197408809028 -72.1609557471236,-46.1197696967695 -72.1609315239339,-46.1198251409245 -72.1608918383213,-46.1199095893385 -72.160804829704,-46.120004873949 -72.1608023629662,-46.1200216114858 -72.1608227418524,-46.120018666725 -72.1608670549945,-46.1200150585591 -72.1609696296744,-46.1200122192296 -72.1610976358345,-46.1200348713896 -72.1611717513821,-46.1200733038422</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Río Ibáñez</SimpleData>
+		<SimpleData name="LOC">Cerro Castillo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Zona AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">05/02/1990</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.1614962696737,-46.1200500474179 -72.1612194391798,-46.1196060032033 -72.1610791417453,-46.1196519723878 -72.1610665532187,-46.1196713726024 -72.1613204088427,-46.1200977656439 -72.1613615761819,-46.1200990075342 -72.1614962696737,-46.1200500474179</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

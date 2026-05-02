@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8909129305585,-34.1864015228943 -70.8899081855204,-34.1865315225408 -70.8893131791518,-34.1864977453584 -70.8890122160152,-34.1864790091206 -70.8890345260109,-34.1885478534489 -70.8866145276006,-34.1888117419547 -70.8865337504067,-34.1884074147336 -70.8855870910912,-34.1882799491353 -70.8859339871353,-34.1890631644846 -70.8859552407974,-34.1893729795799 -70.8857288622663,-34.1905859413033 -70.8889758648305,-34.1904229662963 -70.8886208483325,-34.1932038905198 -70.8884052216725,-34.195025117193 -70.8882325034791,-34.196163609297 -70.8882274181778,-34.1962146921008 -70.8903589663964,-34.1964374868517 -70.8909484798684,-34.19197906329 -70.8937810131698,-34.1921858585824 -70.8935136714136,-34.1938916995142 -70.8938953824979,-34.1939313081454 -70.8953623880508,-34.1940553664104 -70.896896676633,-34.1941067955628 -70.8967822390873,-34.1938043882092 -70.8965877277521,-34.1931954647424 -70.8961886939244,-34.1923957452822 -70.8958509257428,-34.1917353562429 -70.8958966591149,-34.1914698356648 -70.8957273031906,-34.1910222722503 -70.8955185483632,-34.1905459722384 -70.8952994054889,-34.1896053368351 -70.8952763866658,-34.1889615524115 -70.8954402482886,-34.188009272462 -70.8918927112414,-34.1886230859751 -70.8911592962,-34.1885628244597 -70.891221045535,-34.1863593852434 -70.8909129305585,-34.1864015228943</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Zona ZR-1 de protección camino H-30</SimpleData>
+		<SimpleData name="UPERM">Corresponde a las franjas no edificables de 20 m y 35 m de ancho, adyacentes al camino H-30, en las cuales se podrán habilitar vías de servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8992852129687,-34.2108331591229 -70.9000666295271,-34.2111179516875 -70.900066927533,-34.211117351061 -70.9003701461967,-34.2104632064365 -70.8962877888191,-34.2091833947899 -70.8953655227708,-34.2088712959611 -70.8942652526681,-34.2084989469333 -70.8935956584727,-34.2082187113527 -70.8922352942971,-34.2074810592704 -70.8914246692238,-34.2070569832874 -70.8901844300953,-34.2064892255802 -70.8893767054066,-34.20622440242 -70.8885790206757,-34.2059628645248 -70.8873160141631,-34.2057246537191 -70.885688146472,-34.2055421410144 -70.8830872102733,-34.2051813119466 -70.882113886266,-34.2049529124364 -70.8791215354779,-34.2040325921121 -70.8765615321089,-34.2032055463248 -70.875005517611,-34.202702819465 -70.873229003056,-34.2021228312268 -70.8687523037605,-34.200661148754 -70.8675610726388,-34.2002726777722 -70.8672767731732,-34.2008782259702 -70.8694303245867,-34.2015647090843 -70.8702280725623,-34.2018030452204 -70.8727354848261,-34.2026157621434 -70.8738370949357,-34.2029603695761 -70.8764067836445,-34.2037620388568 -70.8777512034156,-34.2041780447377 -70.8796612099743,-34.2047514113696 -70.8811662429664,-34.2052221739016 -70.8823510793365,-34.2056262612761 -70.8835229301361,-34.2060269585498 -70.8855210408763,-34.2066847648595 -70.8885041386418,-34.2075692821843 -70.8916777019982,-34.2085896352219 -70.8937175963462,-34.2091843944115 -70.8961351594451,-34.2099085474547 -70.8974038516306,-34.2103004552413 -70.8992852129687,-34.2108331591229</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">Zona ZE-2</SimpleData>
+		<SimpleData name="UPERM">Industria, talleres y almacenamiento inofensivos y molestos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.875005517611,-34.202702819465 -70.8765615321089,-34.2032055463248 -70.8767145633906,-34.2010522482285 -70.8767547511852,-34.2006469092061 -70.8763131839111,-34.200510558925 -70.8746278891314,-34.1999659091962 -70.8732835499106,-34.1995498669768 -70.8732611323065,-34.1995426208322 -70.873229003056,-34.2021228312268 -70.875005517611,-34.202702819465</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOM">Zona ZU-3</SimpleData>
+		<SimpleData name="UPERM">Industria, talleres y almacenamiento inofensivos y molestos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8942652526681,-34.2084989469333 -70.8953655227708,-34.2088712959611 -70.8962249905539,-34.2068616002713 -70.8950267047637,-34.2064766826786 -70.8944496430003,-34.2062887797981 -70.8929357528865,-34.2058111623264 -70.8921174152278,-34.2055231937318 -70.8895756867931,-34.2047285836819 -70.8893767054066,-34.20622440242 -70.8901844300953,-34.2064892255802 -70.8914246692238,-34.2070569832874 -70.8922352942971,-34.2074810592704 -70.8935956584727,-34.2082187113527 -70.8942652526681,-34.2084989469333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOM">Zona ZU-3</SimpleData>
+		<SimpleData name="UPERM">Industria, talleres y almacenamiento inofensivos y molestos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8687523037605,-34.200661148754 -70.873229003056,-34.2021228312268 -70.8732611323065,-34.1995426208322 -70.8705875819823,-34.1986784829395 -70.8685878838046,-34.1980326183181 -70.8679678612229,-34.1994062146461 -70.8675610726388,-34.2002726777722 -70.8687523037605,-34.200661148754</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8800099820756,-34.2025667959803 -70.8838472935064,-34.203653046003 -70.8838534934389,-34.2028813414967 -70.882721168525,-34.2025129627278 -70.8803836371536,-34.2017901730725 -70.8782280056531,-34.2011110736535 -70.8776271748793,-34.200916296519 -70.8767547511852,-34.2006469092061 -70.8767145633906,-34.2010522482285 -70.8801952090636,-34.2021154442021 -70.8800099820756,-34.2025667959803</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8909484798684,-34.19197906329 -70.8903589663964,-34.1964374868517 -70.8921478175202,-34.196550308961 -70.8922170720729,-34.1961072077789 -70.8923108718253,-34.1954866711029 -70.8924399951051,-34.1947124270775 -70.8925745120781,-34.1937942418702 -70.8935136714136,-34.1938916995142 -70.8937810131698,-34.1921858585824 -70.8909484798684,-34.19197906329</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8855868379761,-34.1917504404934 -70.8853699710725,-34.1934220987074 -70.8857913107716,-34.193390571384 -70.8886208483325,-34.1932038905198 -70.8889758648305,-34.1904229662963 -70.8857288622663,-34.1905859413033 -70.8855868379761,-34.1917504404934</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8865337504067,-34.1884074147336 -70.8866145276006,-34.1888117419547 -70.8890345260109,-34.1885478534489 -70.8890122160152,-34.1864790091206 -70.8869630474013,-34.1863514159393 -70.8870241083207,-34.1867727463897 -70.8866470750653,-34.1869553274897 -70.8853628148231,-34.1874903872447 -70.8855870910912,-34.1882799491353 -70.8865337504067,-34.1884074147336</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8911592962,-34.1885628244597 -70.8918927112414,-34.1886230859751 -70.8954402482886,-34.188009272462 -70.8951219798203,-34.1874494944931 -70.8945616439967,-34.1864633121595 -70.8936418526968,-34.1861554457946 -70.8930075335023,-34.185904002594 -70.8925321931565,-34.1860222724441 -70.8915912354403,-34.1863087577957 -70.891221045535,-34.1863593852434 -70.8911592962,-34.1885628244597</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8962877888191,-34.2091833947899 -70.9003701461967,-34.2104632064365 -70.9003873829678,-34.2104260210241 -70.9012786879854,-34.2084941076508 -70.8988225861666,-34.2076840511847 -70.8968314904274,-34.2070564158935 -70.8962249905539,-34.2068616002713 -70.8953655227708,-34.2088712959611 -70.8962877888191,-34.2091833947899</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8882274181778,-34.1962146921008 -70.888021380316,-34.1982839333525 -70.8843775019578,-34.1979785419423 -70.8842474635434,-34.199489259201 -70.8839695384753,-34.2019026131275 -70.8838534934389,-34.2028813414967 -70.8838472935064,-34.203653046003 -70.8800099820756,-34.2025667959803 -70.8801952090636,-34.2021154442021 -70.8767145633906,-34.2010522482285 -70.8765615321089,-34.2032055463248 -70.8791215354779,-34.2040325921121 -70.882113886266,-34.2049529124364 -70.8830872102733,-34.2051813119466 -70.885688146472,-34.2055421410144 -70.8873160141631,-34.2057246537191 -70.8885790206757,-34.2059628645248 -70.8893767054066,-34.20622440242 -70.8895756867931,-34.2047285836819 -70.8896041205853,-34.2042657973837 -70.8897394826476,-34.2026118524048 -70.8898633922656,-34.2014096973129 -70.8899641015165,-34.2003259907915 -70.8900220330093,-34.1994483534002 -70.8910495858021,-34.1995613405065 -70.8916886977432,-34.1996373688102 -70.891757726598,-34.1990644520548 -70.8919796874728,-34.197626028888 -70.8921478175202,-34.196550308961 -70.8903589663964,-34.1964374868517 -70.8882274181778,-34.1962146921008</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Lo Miranda</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8763568831153,-34.1896546722239 -70.8743208119109,-34.1902762669251 -70.8723017954065,-34.1903071039004 -70.8722964219768,-34.1908432557981 -70.8722472442457,-34.1921251341613 -70.8737817502494,-34.1920909649158 -70.8743162070319,-34.1921114270833 -70.8746811836688,-34.1920629062978 -70.8766966410634,-34.191480984388 -70.8789467854001,-34.1908997294588 -70.8810801630642,-34.1903946585503 -70.8826927762158,-34.1900013239467 -70.8833653044047,-34.1898406992041 -70.8835751300821,-34.1897873768899 -70.884404771584,-34.1899141976512 -70.8847377613499,-34.189977073544 -70.8850713078299,-34.1900649905177 -70.8855279414593,-34.1902655281253 -70.8857288622663,-34.1905859413033 -70.8859552407974,-34.1893729795799 -70.8859339871353,-34.1890631644846 -70.8855870910912,-34.1882799491353 -70.8838928434815,-34.1880018047529 -70.8833883070093,-34.1879701890596 -70.8815636013444,-34.1884097285878 -70.8790732012454,-34.1890276344206 -70.8763568831153,-34.1896546722239</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal. Almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9703967992445,-34.2215097135017 -70.9698978233452,-34.2216863979776 -70.9685918566162,-34.2216935279109 -70.9685135122627,-34.2232891284398 -70.9662107435273,-34.2225722165241 -70.9653717764666,-34.2225570415152 -70.9653587832915,-34.2229866676184 -70.9631755592917,-34.2229643929085 -70.9614142759802,-34.2230555660597 -70.9613129494594,-34.2241355036681 -70.961957370485,-34.2241824476803 -70.9617646621129,-34.2262753659858 -70.9600616702495,-34.2262564913475 -70.9598270519026,-34.2277604659584 -70.9616480857844,-34.2282597610785 -70.9613566089838,-34.2294249606426 -70.9627624664587,-34.2298691265338 -70.9642786907158,-34.2303505981333 -70.9691955787594,-34.231918970426 -70.9692961877721,-34.2307685065123 -70.9693227896899,-34.2300607342001 -70.9695160474297,-34.227875952832 -70.9697358906266,-34.2251372720626 -70.9704031143886,-34.2251146205119 -70.9720706498031,-34.2250569030942 -70.9722098766397,-34.2235188601483 -70.9710349295211,-34.2237524646825 -70.9703636323683,-34.2237847272306 -70.9703967992445,-34.2215097135017</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">Zona ZE-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9635449626626,-34.2205761174595 -70.9638539170413,-34.2219992654883 -70.9632108393519,-34.2220095652601 -70.9631755592917,-34.2229643929085 -70.9653587832915,-34.2229866676184 -70.9653717764666,-34.2225570415152 -70.9662107435273,-34.2225722165241 -70.9685135122627,-34.2232891284398 -70.9685918566162,-34.2216935279109 -70.9679853570109,-34.221696834686 -70.9657577873269,-34.2217421160511 -70.9656655756982,-34.2203670320704 -70.9645553868253,-34.2204223210377 -70.9639081295111,-34.2204994900531 -70.9635449626626,-34.2205761174595</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9600616702495,-34.2262564913475 -70.9617646621129,-34.2262753659858 -70.961957370485,-34.2241824476803 -70.9613129494594,-34.2241355036681 -70.9614142759802,-34.2230555660597 -70.9602644493947,-34.2230871295054 -70.9601942715699,-34.2240866485229 -70.9601637934216,-34.2252501430094 -70.9600708661882,-34.2261975414337 -70.9600616702495,-34.2262564913475</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9703967992445,-34.2215097135017 -70.9703636323683,-34.2237847272306 -70.9710349295211,-34.2237524646825 -70.9722098766397,-34.2235188601483 -70.9720706498031,-34.2250569030942 -70.9726558544815,-34.2250366424793 -70.9726980326912,-34.224690045107 -70.9727845652034,-34.2228588584037 -70.9726616581093,-34.2206672309055 -70.9703967992445,-34.2215097135017</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9759390656836,-34.2349841062742 -70.9781656891295,-34.2366368124129 -70.9784504993968,-34.2356381064392 -70.978191976732,-34.2348705232845 -70.9770700785365,-34.2341848597151 -70.9761923222996,-34.2338053824751 -70.9742149780364,-34.2329247365953 -70.9711319344472,-34.2315859062505 -70.9692961877721,-34.2307685065123 -70.9691955787594,-34.231918970426 -70.9693658626894,-34.2319732819103 -70.9730814252916,-34.2331540669179 -70.9739751216487,-34.2335404666595 -70.9742668353711,-34.2337323456269 -70.9759390656836,-34.2349841062742</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9629513970395,-34.2205136194205 -70.9623208301501,-34.2207223198463 -70.9618213372272,-34.2208555612192 -70.9613742180939,-34.2209253385301 -70.9612143761279,-34.2209368419693 -70.9607867838741,-34.2209198243829 -70.9602554004226,-34.2209163939163 -70.960150506291,-34.2210373540056 -70.9599803963395,-34.221132517711 -70.9590935381952,-34.2215134880709 -70.9581551198183,-34.221916150121 -70.9578276587749,-34.2220376803208 -70.9577095792202,-34.2220544767962 -70.95755464765,-34.2220301118336 -70.9573919188052,-34.2219790331236 -70.9572624539401,-34.2218916378713 -70.957132576006,-34.2217088223034 -70.9568773087519,-34.2213818870355 -70.9567747562239,-34.2214491299501 -70.9565966364495,-34.2215086325139 -70.9563815273482,-34.221521010806 -70.9562334989811,-34.2214846067622 -70.9561250138724,-34.2214505525034 -70.9560270190395,-34.2214044026511 -70.9557357964527,-34.2212301241753 -70.9556417349114,-34.2211988220914 -70.9555217245664,-34.2212096827312 -70.9553109621586,-34.2212547932725 -70.9551173162958,-34.2212638461098 -70.9549983415526,-34.2212418862482 -70.9548210548335,-34.2211820898842 -70.9546967700432,-34.2210856629187 -70.9546205136219,-34.2210481116377 -70.9544262482734,-34.2210303342857 -70.9542473011785,-34.2210540613497 -70.9539566950503,-34.2210616760825 -70.9537240571494,-34.2210922217124 -70.9535283364552,-34.221166911171 -70.953468363057,-34.2212125975208 -70.9533267466208,-34.2212983517824 -70.9531986592525,-34.2213481059474 -70.9531097007978,-34.2213823257774 -70.9511155735074,-34.2216677033607 -70.951196939615,-34.2221880553757 -70.951313812984,-34.2225857935688 -70.9515123885303,-34.2231015141947 -70.9521465416539,-34.2241351440789 -70.9524100424509,-34.2240414864205 -70.9527496043249,-34.2238213681657 -70.9530717803402,-34.223470314764 -70.9532560522203,-34.2233659884964 -70.9535499105712,-34.2233434144237 -70.954275099029,-34.2233437843989 -70.9551174680261,-34.2234436717407 -70.955529609864,-34.2235683093542 -70.9559562452761,-34.223698678824 -70.9564034490768,-34.2237869687713 -70.9570568677379,-34.2237884684235 -70.9581797132719,-34.2235975774712 -70.9592365777762,-34.2233480902517 -70.9602644493947,-34.2230871295054 -70.9614142759802,-34.2230555660597 -70.9631755592917,-34.2229643929085 -70.9632108393519,-34.2220095652601 -70.9638539170413,-34.2219992654883 -70.9635449626626,-34.2205761174595 -70.9635165968225,-34.2205821025717 -70.9634555916838,-34.2205830796107 -70.9633908599475,-34.2205781517966 -70.9633183972541,-34.220549491542 -70.9631444863366,-34.2204807069393 -70.9631227484379,-34.2204721087181 -70.9629513970395,-34.2205136194205</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9742886706118,-34.2197029520377 -70.974214252576,-34.2197136927016 -70.9740936798136,-34.2197156342337 -70.9736206449816,-34.2196278237208 -70.9731099793771,-34.2196503573343 -70.972964236439,-34.2196813305983 -70.9725585864935,-34.2197737421759 -70.9717329491699,-34.220082844377 -70.96991107134,-34.220775343207 -70.9690665389821,-34.2211372153155 -70.9683426428293,-34.2211297544457 -70.9683356800773,-34.2210773822702 -70.9682168510622,-34.2209075233616 -70.9681117257653,-34.2208328699797 -70.9680198588902,-34.22083434473 -70.9677909688227,-34.2208714182151 -70.9676416859999,-34.220873814246 -70.9676010502727,-34.2208553809374 -70.9675371147791,-34.2208230076567 -70.9674322120202,-34.2207578933032 -70.9668093038268,-34.2202764431186 -70.9663043719701,-34.2202988564697 -70.9656856048932,-34.2203660346849 -70.9656655756982,-34.2203670320704 -70.9657577873269,-34.2217421160511 -70.9679853570109,-34.221696834686 -70.9685918566162,-34.2216935279109 -70.9698978233452,-34.2216863979776 -70.9703967992445,-34.2215097135017 -70.9726616581093,-34.2206672309055 -70.9730380098463,-34.2204882151803 -70.9732949919139,-34.2204244378333 -70.9734882163101,-34.2203974705344 -70.9737550180224,-34.2204468531659 -70.9740648815559,-34.2204955409335 -70.9745527808852,-34.2204817193078 -70.9750583129096,-34.2203006168184 -70.9752973195802,-34.2200820581101 -70.975350559537,-34.2199022764623 -70.9753978747609,-34.2197762670459 -70.9754889481248,-34.2196793740655 -70.9758307967952,-34.2195605462582 -70.9759296026871,-34.2194873844907 -70.9759997011024,-34.2194146853444 -70.9765645403266,-34.2186994281421 -70.9768532202394,-34.2184562086145 -70.9773723917132,-34.2182450562792 -70.9778700309278,-34.2180342482555 -70.9784073829281,-34.2176796596619 -70.9784911339677,-34.2175769181994 -70.9785740482737,-34.2174384050704 -70.9787954115464,-34.2173871192916 -70.9789075905642,-34.217271990655 -70.9786269641424,-34.2168387806606 -70.9783648909712,-34.2168002278278 -70.9781926494402,-34.2168030070491 -70.9781019036609,-34.2168521843851 -70.9777014688101,-34.2171668700358 -70.9772422122403,-34.2174223857164 -70.9767587610146,-34.2176258041233 -70.9763675048092,-34.2178420492626 -70.97617530385,-34.2179739722873 -70.9758708356634,-34.2182174446883 -70.9756443205322,-34.2184787456742 -70.9753933031259,-34.2187976965446 -70.9751774650769,-34.2189013711584 -70.9750861574121,-34.2189266983152 -70.9748006401186,-34.2189980963522 -70.9746418812719,-34.2190865367382 -70.9745629475409,-34.2191498351449 -70.974530612339,-34.2192410107665 -70.9745001705007,-34.2194132675424 -70.9744235738989,-34.219576725346 -70.974344972395,-34.2196543321435 -70.9742886706118,-34.2197029520377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Zona ZR-1 de protección camino H-30</SimpleData>
+		<SimpleData name="UPERM">Corresponde a las franjas no edificables de 20 m y 35 m de ancho, adyacentes al camino H-30, en las cuales se podrán habilitar vías de servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9749189848548,-34.2352429780876 -70.9779154400306,-34.2375143099884 -70.9781656891295,-34.2366368124129 -70.9759390656836,-34.2349841062742 -70.9742668353711,-34.2337323456269 -70.9739751216487,-34.2335404666595 -70.9730814252916,-34.2331540669179 -70.9693658626894,-34.2319732819103 -70.9691955787594,-34.231918970426 -70.9642786907158,-34.2303505981333 -70.9627624664587,-34.2298691265338 -70.9613566089838,-34.2294249606426 -70.9611486699802,-34.2302561951385 -70.9616041979852,-34.230392045358 -70.9634197258323,-34.2309605853268 -70.9658645854834,-34.2317265573425 -70.9685772144862,-34.2325800272608 -70.9712144688186,-34.2334322632201 -70.9733554762743,-34.234095615398 -70.9749189848548,-34.2352429780876</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'higgins</SimpleData>
+		<SimpleData name="COM">Doñihue</SimpleData>
+		<SimpleData name="LOC">Doñihue</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">Zona ZR-2 de protección del estero Maule</SimpleData>
+		<SimpleData name="UPERM">Zona de protección no edificable.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">03/05/1988</SimpleData>
+		<SimpleData name="N_DOC">56</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9780236294745,-34.2167733400776 -70.9778551519715,-34.2169370902513 -70.9775018897883,-34.2171813528273 -70.976869846698,-34.2174778239679 -70.9764712908914,-34.217627388456 -70.9760535702031,-34.2178786514745 -70.9757786862957,-34.2180977897583 -70.9753749592828,-34.2186410669746 -70.9752424954567,-34.2188101969944 -70.9750784021852,-34.2188545893583 -70.9748236228442,-34.2188586935716 -70.9745883157547,-34.2189280885245 -70.9744606618737,-34.2189957502342 -70.9743847775009,-34.219128183 -70.9743645563219,-34.2194923200182 -70.9743445557379,-34.2195582478966 -70.9742380144371,-34.2196076768193 -70.9741731440004,-34.2195967933472 -70.9740208972051,-34.2195336390481 -70.9739632042347,-34.2195226398952 -70.9738912955948,-34.2195178331826 -70.9737908176023,-34.2195194508762 -70.9737044162045,-34.2195089137905 -70.9736180148252,-34.2194983766431 -70.9734298849374,-34.219435799243 -70.9731709581655,-34.2194161106471 -70.9729846362469,-34.2194310373436 -70.9726739933757,-34.2196567088103 -70.9724742901128,-34.2197135996974 -70.9723636022019,-34.2197392366576 -70.9722707193222,-34.2197586234958 -70.972084534323,-34.2197795111294 -70.9719002957779,-34.2198838646691 -70.9718089400482,-34.2199688315158 -70.9706628868536,-34.2203928199748 -70.9695671998782,-34.2208219523492 -70.9690992026457,-34.2210739990133 -70.9689413054497,-34.2210765349951 -70.9688979659504,-34.2210653029433 -70.9688111471391,-34.2210368765419 -70.9684264599384,-34.2208581660466 -70.9685041597851,-34.220803240701 -70.9685739883695,-34.2207186219195 -70.9685652847902,-34.2206531558156 -70.9685407012905,-34.2205223397353 -70.9684316581484,-34.2204644492195 -70.9682657544554,-34.2204313285818 -70.9681098001621,-34.2205173298342 -70.9678326687376,-34.2206410611717 -70.9677240419139,-34.2206010559306 -70.9675782818735,-34.2205079687709 -70.9672479661389,-34.220197170981 -70.9669999272445,-34.2200281902727 -70.966668121527,-34.2199619439044 -70.9662601399859,-34.2200162011696 -70.9660315836989,-34.2200675798902 -70.9659454584288,-34.2200689609948 -70.9656293922764,-34.2200620999098 -70.9655215982514,-34.2200578645312 -70.9642298708538,-34.2200845305368 -70.9639147733896,-34.220119399226 -70.9637240379008,-34.2202536663532 -70.9636312894365,-34.2202790081333 -70.9635520645726,-34.2202683489306 -70.9632768466508,-34.2201654017884 -70.9630979736732,-34.2201921223238 -70.9629273836683,-34.2202664242155 -70.96279902732,-34.2203042635927 -70.9624840654922,-34.2203450909592 -70.9622691681568,-34.2203664224425 -70.9620556545262,-34.2204473737581 -70.9615144809919,-34.2206409223678 -70.9614214549081,-34.2206543388238 -70.9609040126485,-34.2206327954779 -70.9603726310221,-34.2206293654571 -70.9601989994891,-34.220572500277 -70.9600273019967,-34.2205991016314 -70.9599011525786,-34.220732329443 -70.9598285555355,-34.2208527729439 -70.9596005449026,-34.2209279872778 -70.959410076642,-34.2210741716761 -70.9588468085949,-34.221244204656 -70.9585685559757,-34.2213202198549 -70.9584441974778,-34.2215309517193 -70.9584163172714,-34.2215671814472 -70.9582509655826,-34.2215578946305 -70.958186785299,-34.2215768124035 -70.958057595565,-34.2215788758366 -70.9578519409983,-34.2216895151661 -70.9577388989454,-34.2217688545132 -70.957616610581,-34.2217588782575 -70.9575728581351,-34.2217297561408 -70.9575130949286,-34.2216293200361 -70.9574830059009,-34.2215701589678 -70.9574523661945,-34.2214871504433 -70.9574509866576,-34.2214275309675 -70.9573125514055,-34.2213402789728 -70.9572827385063,-34.2212930415607 -70.9572598284574,-34.2212337658155 -70.9571864015557,-34.2211633684247 -70.9571481709176,-34.2210625883619 -70.9569897209425,-34.2210412615188 -70.9568536312437,-34.2210553619318 -70.9565971847073,-34.2211429527345 -70.9564695122341,-34.2212105962958 -70.956389873525,-34.2211820464284 -70.9563459839055,-34.2211469615338 -70.9562185906931,-34.2210714601891 -70.9558119838751,-34.220875166687 -70.9555963938496,-34.2208666777009 -70.9554466390895,-34.2209108152917 -70.9552258005027,-34.2209859071591 -70.955110689973,-34.2209758147999 -70.9550521713209,-34.2209290345953 -70.9549064239104,-34.2208359328055 -70.954724102312,-34.2207135923124 -70.9544934699489,-34.2206755204376 -70.9543289465395,-34.2207019994672 -70.9541143209733,-34.2207352413927 -70.9539065974024,-34.2207564448137 -70.9537126770473,-34.2207535716555 -70.9535055028923,-34.2207986219066 -70.9532299993795,-34.2209938643608 -70.9530665760201,-34.2210680376171 -70.952937938279,-34.2210939431083 -70.9525514708908,-34.2211478122399 -70.9521155893753,-34.2212382513954 -70.9513276107143,-34.221316401955 -70.9510706070897,-34.2213801338943 -70.9511155735074,-34.2216677033607 -70.9531097007978,-34.2213823257774 -70.9531986592525,-34.2213481059474 -70.9533267466208,-34.2212983517824 -70.953468363057,-34.2212125975208 -70.9535283364552,-34.221166911171 -70.9537240571494,-34.2210922217124 -70.9539566950503,-34.2210616760825 -70.9542473011785,-34.2210540613497 -70.9544262482734,-34.2210303342857 -70.9546205136219,-34.2210481116377 -70.9546967700432,-34.2210856629187 -70.9548210548335,-34.2211820898842 -70.9549983415526,-34.2212418862482 -70.9551173162958,-34.2212638461098 -70.9553109621586,-34.2212547932725 -70.9555217245664,-34.2212096827312 -70.9556417349114,-34.2211988220914 -70.9557357964527,-34.2212301241753 -70.9560270190395,-34.2214044026511 -70.9561250138724,-34.2214505525034 -70.9562334989811,-34.2214846067622 -70.9563815273482,-34.221521010806 -70.9565966364495,-34.2215086325139 -70.9567747562239,-34.2214491299501 -70.9568773087519,-34.2213818870355 -70.957132576006,-34.2217088223034 -70.9572624539401,-34.2218916378713 -70.9573919188052,-34.2219790331236 -70.95755464765,-34.2220301118336 -70.9577095792202,-34.2220544767962 -70.9578276587749,-34.2220376803208 -70.9581551198183,-34.221916150121 -70.9590935381952,-34.2215134880709 -70.9599803963395,-34.221132517711 -70.960150506291,-34.2210373540056 -70.9602554004226,-34.2209163939163 -70.9607867838741,-34.2209198243829 -70.9612143761279,-34.2209368419693 -70.9613742180939,-34.2209253385301 -70.9618213372272,-34.2208555612192 -70.9623208301501,-34.2207223198463 -70.9629513970395,-34.2205136194205 -70.9631227484379,-34.2204721087181 -70.9631444863366,-34.2204807069393 -70.9633183972541,-34.220549491542 -70.9633908599475,-34.2205781517966 -70.9634555916838,-34.2205830796107 -70.9635165968225,-34.2205821025717 -70.9635449626626,-34.2205761174595 -70.9639081295111,-34.2204994900531 -70.9645553868253,-34.2204223210377 -70.9656655756982,-34.2203670320704 -70.9656856048932,-34.2203660346849 -70.9663043719701,-34.2202988564697 -70.9668093038268,-34.2202764431186 -70.9674322120202,-34.2207578933032 -70.9675371147791,-34.2208230076567 -70.9676010502727,-34.2208553809374 -70.9676416859999,-34.220873814246 -70.9677909688227,-34.2208714182151 -70.9680198588902,-34.22083434473 -70.9681117257653,-34.2208328699797 -70.9682168510622,-34.2209075233616 -70.9683356800773,-34.2210773822702 -70.9683426428293,-34.2211297544457 -70.9690665389821,-34.2211372153155 -70.96991107134,-34.220775343207 -70.9717329491699,-34.220082844377 -70.9725585864935,-34.2197737421759 -70.972964236439,-34.2196813305983 -70.9731099793771,-34.2196503573343 -70.9736206449816,-34.2196278237208 -70.9740936798136,-34.2197156342337 -70.974214252576,-34.2197136927016 -70.9742886706118,-34.2197029520377 -70.974344972395,-34.2196543321435 -70.9744235738989,-34.219576725346 -70.9745001705007,-34.2194132675424 -70.974530612339,-34.2192410107665 -70.9745629475409,-34.2191498351449 -70.9746418812719,-34.2190865367382 -70.9748006401186,-34.2189980963522 -70.9750861574121,-34.2189266983152 -70.9751774650769,-34.2189013711584 -70.9753933031259,-34.2187976965446 -70.9756443205322,-34.2184787456742 -70.9758708356634,-34.2182174446883 -70.97617530385,-34.2179739722873 -70.9763675048092,-34.2178420492626 -70.9767587610146,-34.2176258041233 -70.9772422122403,-34.2174223857164 -70.9777014688101,-34.2171668700358 -70.9781019036609,-34.2168521843851 -70.9781926494402,-34.2168030070491 -70.9783648909712,-34.2168002278278 -70.9786269641424,-34.2168387806606 -70.9786208294552,-34.2168293094361 -70.9783097217379,-34.2167269753632 -70.9781373420616,-34.2167237931472 -70.9780236294745,-34.2167733400776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

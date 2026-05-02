@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Zona Vivienda Exclusiva</SimpleData>
+		<SimpleData name="NOM">Zona Vivienda Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6111709355557,-38.8690922010783 -72.611423653204,-38.8713437676106 -72.6115240059724,-38.8722377928442 -72.615797974261,-38.8718948526328 -72.6177411659185,-38.8717388802208 -72.6177081558557,-38.8708302070082 -72.6156952173475,-38.8709470493282 -72.6156985238468,-38.8709775451425 -72.6148491783874,-38.8710503200006 -72.6145816479864,-38.8688300146024 -72.6111709355557,-38.8690922010783</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Zona Vivienda Exclusiva</SimpleData>
+		<SimpleData name="NOM">Zona Vivienda Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6107956033699,-38.8657478610428 -72.6111210134569,-38.8686474029004 -72.6144525175494,-38.8683888790321 -72.6141390750234,-38.8654592009992 -72.610797995791,-38.8657457097957 -72.6107956033699,-38.8657478610428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Zona Vivienda Exclusiva</SimpleData>
+		<SimpleData name="NOM">Zona Vivienda Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5978907937778,-38.8656952593217 -72.5989911265914,-38.8732425031768 -72.6091909865827,-38.8724249248483 -72.6082272533602,-38.8653679696509 -72.6035034392345,-38.865806454572 -72.603440500437,-38.8651704648224 -72.5978907937778,-38.8656952593217</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Lecho de Cauce Natural</SimpleData>
+		<SimpleData name="NOM">Lecho de Cauce Natural</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6041763537776,-38.8584687027861 -72.6039373112723,-38.8581978779024 -72.6035637949659,-38.857847742885 -72.6033010720481,-38.857577647271 -72.6029630887634,-38.8572264125298 -72.6030229141488,-38.8570019955138 -72.603158001219,-38.8568587168519 -72.6032192292475,-38.8566620768755 -72.6032449297003,-38.8564665352419 -72.6032337016117,-38.8562443129823 -72.603084581264,-38.8561098133569 -72.602826078118,-38.8559230493382 -72.6023773200257,-38.8554917708746 -72.6021800498138,-38.8551083664655 -72.6016915671057,-38.8545948477628 -72.6015396477253,-38.854404790593 -72.6014475566043,-38.8539903159017 -72.6015059821821,-38.8537381213933 -72.6015182485665,-38.8534369923213 -72.6014410011783,-38.8531558831254 -72.6015606552998,-38.8527070493903 -72.6018252091053,-38.85230938517 -72.6024122791479,-38.851957401725 -72.6030830198239,-38.8518532225001 -72.6036200847219,-38.8519200955587 -72.6045236163911,-38.8521982127128 -72.6051004196941,-38.8523473141028 -72.6055080322595,-38.8526685703989 -72.6058913591374,-38.8532131440646 -72.6062209084678,-38.8533977049464 -72.6067351049774,-38.8537156606725 -72.607861654028,-38.8541816029069 -72.6088035651587,-38.854514140659 -72.609380394941,-38.8546632203929 -72.6097578463272,-38.8546515403425 -72.6098763357875,-38.8546200521668 -72.6101960583651,-38.8546101572259 -72.6106620983842,-38.8546791954611 -72.6109121785661,-38.8546992755491 -72.6114450486565,-38.8546827787658 -72.612189660971,-38.8546319013966 -72.6130777762214,-38.8546043957128 -72.6143098741988,-38.8543436568077 -72.6149464976885,-38.8542682874813 -72.6158346068613,-38.8542407610148 -72.6175822188734,-38.854186574939 -72.6176744070973,-38.8531512272631 -72.6169121120422,-38.8531450751893 -72.6152444074364,-38.8533159393766 -72.6142964336754,-38.8534048986401 -72.6125496209612,-38.8535185928914 -72.6116807317198,-38.8536646642736 -72.6106886820472,-38.8536357936909 -72.6098077425118,-38.8535438935862 -72.6088842483985,-38.8533639293547 -72.6080673552201,-38.8530317037726 -72.6073250428988,-38.852667374596 -72.6066207773258,-38.8523018641912 -72.6058359291653,-38.8518494672002 -72.6051286732348,-38.851424457175 -72.6041977008063,-38.8510957292898 -72.6033167974836,-38.8510037781839 -72.6025224886178,-38.8511176857602 -72.6015895382559,-38.8515039910862 -72.6010079435303,-38.8520581914924 -72.6005434612346,-38.8526683561997 -72.6003147199047,-38.8534202011696 -72.6002000962197,-38.8541685227543 -72.6002756759742,-38.8549109746938 -72.6005734994073,-38.8555274011011 -72.6011771635969,-38.8561641753585 -72.6021837947685,-38.857235374095 -72.6027099005834,-38.857844743553 -72.6031203842954,-38.8584278916076 -72.6034212551026,-38.8591037984026 -72.6033857531737,-38.8599092606644 -72.6032606349133,-38.8604493700796 -72.6028752179056,-38.8611166843649 -72.6021018343651,-38.8616470234134 -72.6011642421156,-38.8619440965249 -72.6003377712003,-38.8621781495512 -72.5993501057026,-38.8622384229059 -72.5984004817855,-38.8622975143087 -72.5974173141295,-38.8624470066789 -72.5975508844065,-38.8633633913843 -72.6003458585013,-38.8631774917995 -72.6019647708848,-38.8628214761758 -72.6027992211369,-38.8624340296795 -72.6031745978147,-38.8621164013881 -72.6036495367755,-38.861656591046 -72.604087537096,-38.8611700988699 -72.6043721864431,-38.8604657741098 -72.6044249872731,-38.8601024677235 -72.6042987471112,-38.8597168725365 -72.6042748778237,-38.859244650808 -72.6042566252142,-38.8588835399875 -72.6041763537776,-38.8584687027861</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Balneario</SimpleData>
+		<SimpleData name="NOM">Balneario</SimpleData>
+		<SimpleData name="UPERM">Balneario</SimpleData>
+		<SimpleData name="UPROH">Balneario</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.604381786552,-38.8603997190617 -72.6063055474955,-38.8592931697034 -72.6097889826644,-38.8585177122577 -72.6098945779171,-38.8546194876235 -72.6098763357875,-38.8546200521668 -72.6097578463272,-38.8546515403425 -72.609380394941,-38.8546632203929 -72.6088035651587,-38.854514140659 -72.607861654028,-38.8541816029069 -72.6067351049774,-38.8537156606725 -72.6062209084678,-38.8533977049464 -72.6058913591374,-38.8532131440646 -72.6055080322595,-38.8526685703989 -72.6051004196941,-38.8523473141028 -72.6045236163911,-38.8521982127128 -72.6036200847219,-38.8519200955587 -72.6030830198239,-38.8518532225001 -72.6024122791479,-38.851957401725 -72.6018252091053,-38.85230938517 -72.6015606552998,-38.8527070493903 -72.6014410011783,-38.8531558831254 -72.6015182485665,-38.8534369923213 -72.6015059821821,-38.8537381213933 -72.6014475566043,-38.8539903159017 -72.6015396477253,-38.854404790593 -72.6016915671057,-38.8545948477628 -72.6021800498138,-38.8551083664655 -72.6023773200257,-38.8554917708746 -72.602826078118,-38.8559230493382 -72.603084581264,-38.8561098133569 -72.6032337016117,-38.8562443129823 -72.6032449297003,-38.8564665352419 -72.6032192292475,-38.8566620768755 -72.603158001219,-38.8568587168519 -72.6030229141488,-38.8570019955138 -72.6029630887634,-38.8572264125298 -72.6033010720481,-38.857577647271 -72.6035637949659,-38.857847742885 -72.6039373112723,-38.8581978779024 -72.6041763537776,-38.8584687027861 -72.6042566252142,-38.8588835399875 -72.6042748778237,-38.859244650808 -72.6042987471112,-38.8597168725365 -72.6044249872731,-38.8601024677235 -72.604381786552,-38.8603997190617</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Reserva Agrícola</SimpleData>
+		<SimpleData name="NOM">Reserva Agrícola</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5975508844065,-38.8633633913843 -72.5978907937778,-38.8656952593217 -72.6074023398374,-38.8647956573181 -72.603159299698,-38.8621293461006 -72.6027992211369,-38.8624340296795 -72.6019647708848,-38.8628214761758 -72.6003458585013,-38.8631774917995 -72.5975508844065,-38.8633633913843</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Reserva Agrícola</SimpleData>
+		<SimpleData name="NOM">Reserva Agrícola</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6143098741988,-38.8543436568077 -72.6130777762214,-38.8546043957128 -72.612189660971,-38.8546319013966 -72.6114450486565,-38.8546827787658 -72.6109121785661,-38.8546992755491 -72.6106620983842,-38.8546791954611 -72.6101960583651,-38.8546101572259 -72.6098945779171,-38.8546194876235 -72.6098038106798,-38.8579702879122 -72.6172993355328,-38.858194061435 -72.6172860404202,-38.8575127932549 -72.6175822188734,-38.854186574939 -72.6158346068613,-38.8542407610148 -72.6149464976885,-38.8542682874813 -72.6143098741988,-38.8543436568077</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6102082910726,-38.8617338189436 -72.6106266132857,-38.8645747681667 -72.6117981811757,-38.864464870626 -72.6116054053235,-38.8634692808562 -72.6116025911052,-38.8634137263211 -72.6115955555251,-38.8632748386311 -72.6116951063303,-38.8631326505658 -72.6117250068873,-38.8630204404473 -72.6117492787687,-38.8627971203612 -72.611635657435,-38.8626615330594 -72.6116300290757,-38.8625504230774 -72.6115150001945,-38.8623870579358 -72.611327508653,-38.8621981158433 -72.6110647414769,-38.86192804003 -72.6105219695546,-38.8617500942765 -72.6102349306712,-38.8617033373222 -72.6102323302871,-38.8617021756418 -72.6102363371842,-38.8617311150896 -72.6102082910726,-38.8617338189436</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.603159299698,-38.8621293461006 -72.6046901534396,-38.8630913717552 -72.6048127126279,-38.8628447783821 -72.6078910794183,-38.8624992091169 -72.607463502064,-38.8590354074549 -72.6063055474955,-38.8592931697034 -72.604381786552,-38.8603997190617 -72.6043721864431,-38.8604657741098 -72.604087537096,-38.8611700988699 -72.6036495367755,-38.861656591046 -72.6031745978147,-38.8621164013881 -72.603159299698,-38.8621293461006</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Estacionamiento</SimpleData>
+		<SimpleData name="NOM">Estacionamiento</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6072763409001,-38.8648075791723 -72.6074037454034,-38.8648234351576 -72.6081115321181,-38.8647458997844 -72.6080862275231,-38.8642459026273 -72.6078581211041,-38.8625029092801 -72.6048127126279,-38.8628447783821 -72.6046901534396,-38.8630913717552 -72.6074023398374,-38.8647956573181 -72.6072763409001,-38.8648075791723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Estacionamiento</SimpleData>
+		<SimpleData name="NOM">Estacionamiento</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6101386969426,-38.8610259415375 -72.6116251042999,-38.8610482365914 -72.6118015701139,-38.8580299770225 -72.6098038106798,-38.8579702879122 -72.6097893817309,-38.85850297405 -72.6101386969426,-38.8610259415375</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Industria</SimpleData>
+		<SimpleData name="NOM">Industria</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6116542280309,-38.8637214304868 -72.6151510009488,-38.8638879421553 -72.6154378057495,-38.858138532523 -72.6118015701139,-38.8580299770225 -72.6116341427567,-38.8608936424925 -72.6117302816054,-38.8610171585746 -72.6115628040831,-38.8624549499445 -72.6116300290757,-38.8625504230774 -72.611635657435,-38.8626615330594 -72.6117492787687,-38.8627971203612 -72.6117250068873,-38.8630204404473 -72.6116951063303,-38.8631326505658 -72.6115955555251,-38.8632748386311 -72.6116025911052,-38.8634137263211 -72.6116054053235,-38.8634692808562 -72.6116542280309,-38.8637214304868</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Zona Ferroviaria</SimpleData>
+		<SimpleData name="NOM">Zona Ferroviaria</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6154378057495,-38.858138532523 -72.6151510009488,-38.8638879421553 -72.6116542280309,-38.8637214304868 -72.6117981811757,-38.864464870626 -72.6100273267318,-38.8646309776252 -72.6099397003339,-38.8646256547952 -72.6099576744886,-38.8646609546896 -72.6082195271485,-38.8647703802873 -72.6081105279679,-38.8647260588711 -72.6081115321181,-38.8647458997844 -72.6074037454034,-38.8648234351576 -72.6072763409001,-38.8648075791723 -72.603440500437,-38.8651704648224 -72.6035034392345,-38.865806454572 -72.6106935911483,-38.8651389552242 -72.6107600728726,-38.8657489609773 -72.6150766294629,-38.8653787856318 -72.6150623361139,-38.8656653094831 -72.6150620350655,-38.8656713467834 -72.6151398240082,-38.8665035671499 -72.6153295312145,-38.8681391291644 -72.6156100407418,-38.8701613703117 -72.6156952173475,-38.8709470493282 -72.6177081558557,-38.8708302070082 -72.6175256038919,-38.8658041513314 -72.6174622546431,-38.8640596650663 -72.6173575119526,-38.8611748989323 -72.6172993355328,-38.858194061435 -72.6154378057495,-38.858138532523</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Centro Comuntario</SimpleData>
+		<SimpleData name="NOM">Centro Comuntario</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6082272533602,-38.8653679696509 -72.6091909865827,-38.8724249248483 -72.6115240059724,-38.8722377928442 -72.6107956033699,-38.8657478610428 -72.610797995791,-38.8657457097957 -72.6107600728726,-38.8657489609773 -72.6106935911483,-38.8651389552242 -72.6082272533602,-38.8653679696509</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Centro Comuntario</SimpleData>
+		<SimpleData name="NOM">Centro Comuntario</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.607463502064,-38.8590354074549 -72.6078910794183,-38.8624992091169 -72.6078581211041,-38.8625029092801 -72.6080862275231,-38.8642459026273 -72.6081105279679,-38.8647260588711 -72.6082195271485,-38.8647703802873 -72.6099576744886,-38.8646609546896 -72.6097205861489,-38.8641953339242 -72.6097434580273,-38.8639442362012 -72.60966396039,-38.8637797695857 -72.6096214001922,-38.8636419820093 -72.6093614447493,-38.863427457056 -72.6092094850068,-38.8632374119906 -72.6090888369224,-38.8629629339415 -72.6090476833432,-38.862852922998 -72.6090378407276,-38.8626584802033 -72.6092070477939,-38.8624863175742 -72.6094089705023,-38.8622575006211 -72.6095753620546,-38.8620297819952 -72.6098114045692,-38.8617720871852 -72.6102363371842,-38.8617311150896 -72.6102323302871,-38.8617021756418 -72.6102349306712,-38.8617033373222 -72.6105219695546,-38.8617500942765 -72.6110647414769,-38.86192804003 -72.611327508653,-38.8621981158433 -72.6115150001945,-38.8623870579358 -72.6115628040831,-38.8624549499445 -72.6117302816054,-38.8610171585746 -72.6116341427567,-38.8608936424925 -72.6116251042999,-38.8610482365914 -72.6101386969426,-38.8610259415375 -72.6097893817309,-38.85850297405 -72.6097889826644,-38.8585177122577 -72.607463502064,-38.8590354074549</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Vivienda Artesanal</SimpleData>
+		<SimpleData name="NOM">Vivienda Artesanal</SimpleData>
+		<SimpleData name="UPERM">Habitación unifamiliar y multifamiliar; industria artesanal; edificios de equipamiento comunitario, como escuelas, iglesias, clubes sociales, cuarteles de bombas, carabineros, postas y otros que sirvan exclusivamente al barrio.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6111709355557,-38.8690922010783 -72.6145816479864,-38.8688300146024 -72.6148491783874,-38.8710503200006 -72.6156985238468,-38.8709775451425 -72.6156100407418,-38.8701613703117 -72.6153295312145,-38.8681391291644 -72.6151398240082,-38.8665035671499 -72.6150620350655,-38.8656713467834 -72.6150766294629,-38.8653787856318 -72.6141390750234,-38.8654592009992 -72.6144525175494,-38.8683888790321 -72.6111210134569,-38.8686474029004 -72.6111709355557,-38.8690922010783</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Freire</SimpleData>
+		<SimpleData name="LOC">Quepe</SimpleData>
+		<SimpleData name="ZONA">Parque Nacional</SimpleData>
+		<SimpleData name="NOM">Parque Nacional</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">18/10/1966</SimpleData>
+		<SimpleData name="N_DOC">540</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6106266132857,-38.8645747681667 -72.6102082910726,-38.8617338189436 -72.6098114045692,-38.8617720871852 -72.6095753620546,-38.8620297819952 -72.6094089705023,-38.8622575006211 -72.6092070477939,-38.8624863175742 -72.6090378407276,-38.8626584802033 -72.6090476833432,-38.862852922998 -72.6090888369224,-38.8629629339415 -72.6092094850068,-38.8632374119906 -72.6093614447493,-38.863427457056 -72.6096214001922,-38.8636419820093 -72.60966396039,-38.8637797695857 -72.6097434580273,-38.8639442362012 -72.6097205861489,-38.8641953339242 -72.6099397003339,-38.8646256547952 -72.6100273267318,-38.8646309776252 -72.6106266132857,-38.8645747681667</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona de Equipamiento</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamiento Urbano</SimpleData>
+		<SimpleData name="UPERM">Equipamiento</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5470603439909,-36.5599293841789 -71.5480025151258,-36.5608253822297 -71.5489572541823,-36.5601728828926 -71.5481133575077,-36.5592339606422 -71.5481125214712,-36.559233030407 -71.5470603439909,-36.5599293841789</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona Comercial</SimpleData>
+		<SimpleData name="NOM">Zona Comercial</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5502865082426,-36.5579205667074 -71.5502502923594,-36.5579428023611 -71.5501680741219,-36.5578694483559 -71.5501520393832,-36.557853296877 -71.5491836072752,-36.558509161622 -71.5481133575077,-36.5592339606422 -71.5489572541823,-36.5601728828926 -71.5515178096518,-36.5584228295408 -71.5537733960444,-36.5569173013036 -71.552848609429,-36.5560269615813 -71.5512717120261,-36.5570949814208 -71.550228403086,-36.5578015792427 -71.5501960781219,-36.5578234720447 -71.5502618597348,-36.5578900949086 -71.5502865082426,-36.5579205667074</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5503797746216,-36.5579997135089 -71.5503807839328,-36.5580010545937 -71.550563961078,-36.5581783604301 -71.550563071894,-36.5581962629377 -71.550548773844,-36.5582108763119 -71.5505039193284,-36.5581951444008 -71.5503372617326,-36.5580258313602 -71.5503397454265,-36.5580114708794 -71.5503556771542,-36.5580015919709 -71.5503704453879,-36.5580012758771 -71.5503797746216,-36.5579997135089</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona de Equipamiento</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamiento Urbano</SimpleData>
+		<SimpleData name="UPERM">Equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5508325210708,-36.5566955994096 -71.5498137220958,-36.55736822537 -71.5498071070564,-36.5573725928797 -71.550228403086,-36.5578015792427 -71.5512717120261,-36.5570949814208 -71.5508485587128,-36.5566850106917 -71.5508325210708,-36.5566955994096</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.549968954299,-36.5558225161343 -71.5489298062265,-36.5565318957449 -71.548928255834,-36.5565329545312 -71.5497891500413,-36.5573658230244 -71.5498137220958,-36.55736822537 -71.5508325210708,-36.5566955994096 -71.550830601779,-36.55667824099 -71.550023340959,-36.5558585395896 -71.5499776261326,-36.5558165959114 -71.549968954299,-36.5558225161343</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona de Equipamiento</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamiento Urbano</SimpleData>
+		<SimpleData name="UPERM">Equipamiento</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5489298062265,-36.5565318957449 -71.549968954299,-36.5558225161343 -71.5499685308353,-36.5558096364354 -71.5495193111914,-36.555361413389 -71.5484700760391,-36.5560411770705 -71.5484687667265,-36.5560420252099 -71.5489298062265,-36.5565318957449</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona Residencial</SimpleData>
+		<SimpleData name="NOM">Zona Residencial Exclusiva</SimpleData>
+		<SimpleData name="UPERM">Viviendas, comercio, equipamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5501520393832,-36.557853296877 -71.5500642096572,-36.5577669893784 -71.5500696069621,-36.5577513741956 -71.5500840236813,-36.5577403353943 -71.5501017457291,-36.5577399561195 -71.5501197028277,-36.5577467250223 -71.5501960398493,-36.5578234971975 -71.550228403086,-36.5578015792427 -71.5498071070564,-36.5573725928797 -71.5498137220958,-36.55736822537 -71.5497891500413,-36.5573658230244 -71.548928255834,-36.5565329545312 -71.5489298062265,-36.5565318957449 -71.5484687667265,-36.5560420252099 -71.5484700760391,-36.5560411770705 -71.5495193111914,-36.555361413389 -71.5499685308353,-36.5558096364354 -71.549968954299,-36.5558225161343 -71.5499776261326,-36.5558165959114 -71.550023340959,-36.5558585395896 -71.550830601779,-36.55667824099 -71.5508325210708,-36.5566955994096 -71.5508485587128,-36.5566850106917 -71.5512717120261,-36.5570949814208 -71.552848609429,-36.5560269615813 -71.5537733960444,-36.5569173013036 -71.556168391523,-36.5553186144556 -71.5557448885122,-36.5548790331037 -71.5552162999199,-36.5552250773434 -71.5543259685364,-36.554307035634 -71.5529637921871,-36.5552161290584 -71.5501968854653,-36.5525069042286 -71.547707000597,-36.5541768962023 -71.5477055597873,-36.5541899284341 -71.5475979812544,-36.5551632833972 -71.5475976325972,-36.5551664425209 -71.5480552782004,-36.5556252925461 -71.5469618694435,-36.5563274843832 -71.5491836072752,-36.558509161622 -71.5501520393832,-36.557853296877</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5498027297307,-36.5575005070567 -71.5498240994177,-36.5574855252441 -71.5498333131629,-36.557486737632 -71.549861529194,-36.5574909023393 -71.5500052101853,-36.5576356702213 -71.5500175729646,-36.5576520976776 -71.5500138473595,-36.5576736388431 -71.549999431758,-36.557684677612 -71.5499786775067,-36.5576827370574 -71.5498027297307,-36.5575005070567</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.549452902203,-36.5571538854515 -71.5494669260997,-36.5571309316068 -71.549492150123,-36.5571339689702 -71.5496647115989,-36.557303156953 -71.5496579928877,-36.5573235698029 -71.5496361535072,-36.5573335750263 -71.5494558952119,-36.557155013766 -71.5494526626611,-36.557154822468 -71.549452902203,-36.5571538854515</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5491882125237,-36.5569020156151 -71.5492129273492,-36.5568895642534 -71.5492425417504,-36.5568913153925 -71.5494346926078,-36.5570720072584 -71.5494176365364,-36.5570926412698 -71.5493971566298,-36.5570990412068 -71.5491878971657,-36.5569042826941 -71.5491882125237,-36.5569020156151</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5489381719477,-36.5566562540882 -71.5489429924513,-36.5566354222432 -71.5489754833687,-36.556634727213 -71.5491553868726,-36.5568025665746 -71.5491680234534,-36.5568273338346 -71.5491464202399,-36.5568444880293 -71.5491300175564,-36.5568400704248 -71.5489392676642,-36.5566569624636 -71.5489381719477,-36.5566562540882</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5485927029281,-36.5562745004832 -71.5486177689112,-36.5562727720077 -71.5488165292015,-36.5564747850178 -71.5488038254903,-36.55649294114 -71.548780156919,-36.5564922550602 -71.5485971836502,-36.5563209027953 -71.5485780874356,-36.5563045434909 -71.5485783656709,-36.5562879221105 -71.5485927029281,-36.5562745004832</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5483424875593,-36.5560356728607 -71.5483613729363,-36.5560257301508 -71.5483792120693,-36.5560289256935 -71.5485624190428,-36.5562074265373 -71.548564757276,-36.5562336064827 -71.5485341360427,-36.5562461840345 -71.5483319476249,-36.5560498505088 -71.5483424875593,-36.5560356728607</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5480522248527,-36.5557473869982 -71.5480727045338,-36.5557409873008 -71.5480921770704,-36.5557489173709 -71.548116354262,-36.5557650914998 -71.5483058982044,-36.5559565722342 -71.5482977806266,-36.5559793996367 -71.5482685580446,-36.5559895625027 -71.5480516873916,-36.5557760131573 -71.5480428521132,-36.5557697203027 -71.5480522248527,-36.5557473869982</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5475979812544,-36.5551632833972 -71.5477055597873,-36.5541899284341 -71.54703065813,-36.5546420373164 -71.5475796763074,-36.5551596732032 -71.5475979812544,-36.5551632833972</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Áreas Deportivas</SimpleData>
+		<SimpleData name="NOM">Area Verde de Uso Público</SimpleData>
+		<SimpleData name="UPERM">Equipamiento deportivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5475010274102,-36.5516234024151 -71.5483882720503,-36.5525126892926 -71.5502710338231,-36.5512562840006 -71.5493831252194,-36.5503814408383 -71.5475010274102,-36.5516234024151</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5398817679854,-36.5548027315435 -71.5400438284224,-36.5550052833092 -71.5401809668289,-36.5552217397738 -71.5403044188266,-36.5553812583997 -71.5404648746474,-36.5555876794672 -71.54094531273,-36.5561783454526 -71.5419848808568,-36.5554312657124 -71.5422056065164,-36.5553120980232 -71.5422086548907,-36.555310149374 -71.5413110872609,-36.5543592554582 -71.5414579718601,-36.5542416639391 -71.541411794011,-36.5541854193786 -71.5411116622519,-36.5539557482036 -71.5398817679854,-36.5548027315435</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona Residencial Mixta</SimpleData>
+		<SimpleData name="NOM">Zona Residencial Mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda,comercio, industria y bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5472866882965,-36.5543641995794 -71.5473026850089,-36.5543652888017 -71.5475478600627,-36.5542169731427 -71.5475437522908,-36.5541998921579 -71.5475273329919,-36.5541859358485 -71.5474969939975,-36.5541908644946 -71.5472822049312,-36.5543356807434 -71.5472754920471,-36.5543472701147 -71.5472866882965,-36.5543641995794</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5476425136563,-36.5553709849698 -71.5478790596627,-36.5556077217383 -71.5479217441935,-36.5555811288412 -71.547689517015,-36.5553442268175 -71.5476613504155,-36.555350551966 -71.5476425136563,-36.5553709849698</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.547323545271,-36.5550544574359 -71.5475745013614,-36.5552980409207 -71.5476160202944,-36.5552715036958 -71.5473667225218,-36.5550191968016 -71.5473384620934,-36.5550226624108 -71.547326432166,-36.5550343654499 -71.547323545271,-36.5550544574359</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5470100373637,-36.5547421049232 -71.5472363892829,-36.5549652700324 -71.5472653693166,-36.5549569808983 -71.5472703095465,-36.5549454294216 -71.5472752508914,-36.5549338779208 -71.5472713778961,-36.5549239451271 -71.5470697278356,-36.5547236602353 -71.5470393661542,-36.5547171560004 -71.54702192646,-36.5547261131749 -71.5470100373637,-36.5547421049232</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5469221463026,-36.5546037716166 -71.5469454182641,-36.5546104274195 -71.5469716722529,-36.5545998515735 -71.547179727237,-36.5544551915323 -71.5471774861279,-36.5544409320999 -71.5471665246699,-36.5544311517258 -71.5471400204645,-36.5544298878377 -71.5469108092323,-36.5545825524749 -71.5469200919138,-36.5545952311236 -71.5469221463026,-36.5546037716166</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5476823290505,-36.5540996395392 -71.5477003320745,-36.5541078390316 -71.5477457028937,-36.5540854084225 -71.5479573943209,-36.5539435307781 -71.5479636843817,-36.5539190742586 -71.5479580856613,-36.5539106095712 -71.5479198619145,-36.553910285001 -71.5476778925383,-36.554072550902 -71.547672952418,-36.5540841023926 -71.5476823290505,-36.5540996395392</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5481441802939,-36.5537993247836 -71.548179622643,-36.5537985668778 -71.5483566206923,-36.5536803230728 -71.5483629575685,-36.5536572958157 -71.5483467742186,-36.5536504877905 -71.5483255088527,-36.5536509425634 -71.5482921353511,-36.5536588392275 -71.5481291578985,-36.5537738928161 -71.5481368569893,-36.5537923281675 -71.5481441802939,-36.5537993247836</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5484339236919,-36.5536042717147 -71.5484552829941,-36.5536066763808 -71.5484883899797,-36.5535887995271 -71.5486412352121,-36.5534911012308 -71.5486354015754,-36.5534754883828 -71.5486157210171,-36.5534701863765 -71.5485833246048,-36.5534720175423 -71.5484242650995,-36.5535801553552 -71.5484248287976,-36.553597312103 -71.5484339236919,-36.5536042717147</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5487335528583,-36.5534132982653 -71.5487585032953,-36.5534170563501 -71.5489805417575,-36.553266372123 -71.5489782052814,-36.5532492533005 -71.5489651433341,-36.5532295024379 -71.5489573771243,-36.5532295261658 -71.5487203969817,-36.5533906879176 -71.5487279552121,-36.5534048335914 -71.5487335528583,-36.5534132982653</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5491590280808,-36.553139510922 -71.5491733458377,-36.5531434963794 -71.5493800911411,-36.5530131688545 -71.549377707582,-36.552994619864 -71.5493685187294,-36.5529848017687 -71.5493495754249,-36.5529694027334 -71.549147408725,-36.5531097136342 -71.5491478785985,-36.5531240109172 -71.5491517517268,-36.5531339436467 -71.5491590280808,-36.553139510922</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5494415840111,-36.5529417468581 -71.5494629901576,-36.5529455815279 -71.5494877524956,-36.5529436205529 -71.5496871733547,-36.552806295099 -71.549686421407,-36.5527834194547 -71.5496772784088,-36.5527750306848 -71.5496559190918,-36.5527690852261 -71.5496541007973,-36.5527712348572 -71.5494405971847,-36.5529117230201 -71.5494394824246,-36.5529317771378 -71.5494415840111,-36.5529417468581</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.549805936125,-36.552712604245 -71.5498361092333,-36.5527133897883 -71.5500338972208,-36.5525803904595 -71.550031467654,-36.5525604121854 -71.550018780475,-36.5525520992858 -71.549992676739,-36.552553688018 -71.5499922467532,-36.5525540982754 -71.549802801645,-36.5526711804999 -71.5497962302564,-36.5526870587285 -71.549798612785,-36.5527056077318 -71.549805936125,-36.552712604245</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5501408993407,-36.5524908263265 -71.550160392832,-36.552490409154 -71.5501971841053,-36.5524767447401 -71.5503862509355,-36.5523482241337 -71.5503927751529,-36.5523309157001 -71.5503817665978,-36.5523197054456 -71.5503460842716,-36.5523198698007 -71.5501395832138,-36.5524507939609 -71.5501298437774,-36.5524781858708 -71.5501408993407,-36.5524908263265</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5505560260556,-36.5522185624022 -71.5505693163619,-36.5522182779364 -71.5507038704363,-36.5521307462212 -71.5506945796545,-36.5521178301128 -71.5506708799478,-36.5520954006118 -71.5505329345741,-36.5521904419851 -71.5505454140606,-36.5522104439722 -71.5505560260556,-36.5522185624022</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5507362679567,-36.5520823613372 -71.5507439263378,-36.5520905438751 -71.5507688744686,-36.5520852404344 -71.5509207961793,-36.5519866064399 -71.5509157779874,-36.5519688294749 -71.5509081990858,-36.551963029952 -71.5508857612811,-36.5519549240714 -71.5507238668369,-36.5520647432995 -71.5507362679567,-36.5520823613372</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5510774883931,-36.5518532928026 -71.5510926092448,-36.5518637002647 -71.5511276979438,-36.5518522178935 -71.5513258948873,-36.5517227856824 -71.551334245215,-36.5517071072161 -71.5513322981491,-36.5516928415733 -71.5513104282945,-36.551686753225 -71.5510755032989,-36.5518378356165 -71.5510774883931,-36.5518532928026</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5514224442181,-36.5516479894899 -71.5514549318686,-36.551647293889 -71.5516846365846,-36.5514873785547 -71.5516810950975,-36.5514695709035 -71.5516704046784,-36.5514590686463 -71.5516570054715,-36.5514522690429 -71.5516525665023,-36.5514558735586 -71.5514181581758,-36.5516075439736 -71.5514069717939,-36.5516268593247 -71.5514073245144,-36.5516375829461 -71.5514224442181,-36.5516479894899</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5520609217137,-36.5517475835424 -71.5520833094553,-36.5517471040734 -71.55209337277,-36.5517385429846 -71.552095777601,-36.5517217994484 -71.5519558166724,-36.5515101860511 -71.5519230547293,-36.5515025420954 -71.5519010604964,-36.551507782516 -71.5518897555685,-36.5515235242928 -71.5520609217137,-36.5517475835424</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5522928667613,-36.5520752623407 -71.5523269097708,-36.5520769169886 -71.5523399256214,-36.5520682926392 -71.5523469961004,-36.55205860328 -71.5521643927342,-36.551808558583 -71.5521408040114,-36.5518102561415 -71.5521148888343,-36.5518310793567 -71.5522928667613,-36.5520752623407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5525401213549,-36.5524038041489 -71.5525534508822,-36.5524047109731 -71.5525739684888,-36.5523995020596 -71.552580960545,-36.5523874296624 -71.5525757851342,-36.5523648876359 -71.5524082921263,-36.5521518908568 -71.5523830906881,-36.5521675193651 -71.5523733421245,-36.5521856125547 -71.5525401213549,-36.5524038041489</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.552822035601,-36.5527077576406 -71.5528457422171,-36.5527096344732 -71.5528631101723,-36.5526985321258 -71.5528700237763,-36.552684076689 -71.5528620122114,-36.5526651715929 -71.5526572818484,-36.5524678949188 -71.5526415724807,-36.5524779369867 -71.5526285946945,-36.552487752906 -71.5526231590039,-36.5525021766707 -71.5526355998603,-36.5525209869026 -71.552822035601,-36.5527077576406</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5531201177401,-36.5530089793019 -71.5531558744669,-36.5530177519999 -71.5531717655749,-36.5530066803491 -71.55317700512,-36.5529862999059 -71.5529463570148,-36.5527721831782 -71.5529221282128,-36.5527854963839 -71.5529243108763,-36.5528069101564 -71.5531201177401,-36.5530089793019</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5534504746541,-36.553336573961 -71.5534718810363,-36.5533404069973 -71.5534947295021,-36.5533341944541 -71.5534941176357,-36.5533156085003 -71.5533106818744,-36.5531242701637 -71.553305144167,-36.5531236470941 -71.5532733394682,-36.5531271900415 -71.5532596803873,-36.5531432203163 -71.5532728386278,-36.5531658300894 -71.5534504746541,-36.553336573961</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5535702262963,-36.5534727892515 -71.5537661966658,-36.5536617378837 -71.5537926846745,-36.553658308746 -71.5537993023608,-36.5536438596006 -71.5537949108192,-36.5536182005446 -71.5536044796196,-36.5534321226957 -71.5536008072689,-36.553432072515 -71.5535690966013,-36.5534384749921 -71.5535661172295,-36.5534557076222 -71.5535702262963,-36.5534727892515</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5540599980304,-36.5539673414094 -71.5540977297425,-36.5539822711691 -71.5541098055181,-36.5539719967627 -71.5541090522349,-36.5539491212017 -71.5540995790883,-36.5539307251893 -71.553902024744,-36.5537382277244 -71.553877308578,-36.5537509243019 -71.5538761019343,-36.5537681189445 -71.5540599980304,-36.5539673414094</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5543416705632,-36.554254604192 -71.5543647546561,-36.5542555405363 -71.5543820991633,-36.5542437228787 -71.5543869452205,-36.5542293116804 -71.5542134951164,-36.5540437423633 -71.5541823461138,-36.5540477013997 -71.5541686400097,-36.5540623025034 -71.5541727492186,-36.5540793832033 -71.5543416705632,-36.554254604192</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5545710017523,-36.5544871903007 -71.5546050022886,-36.554496476055 -71.5546152112363,-36.554483381058 -71.5546216404657,-36.5544632129845 -71.5546158537489,-36.5544490297293 -71.5544546790557,-36.5542936733282 -71.5544546405432,-36.5542934875954 -71.5544440463353,-36.5542939012632 -71.5544230163121,-36.5543015052907 -71.5544179830283,-36.5543101975778 -71.5544222806544,-36.5543329971543 -71.5545710017523,-36.5544871903007</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5548466643142,-36.5547803035687 -71.55488416219,-36.5547880839743 -71.5548962368594,-36.5547778095124 -71.5549011770396,-36.5547662577398 -71.5549006589968,-36.5547505312538 -71.5547290023927,-36.5545739394741 -71.5547263723901,-36.5545739958602 -71.5546927956199,-36.5545775771881 -71.5546859896664,-36.5545863074906 -71.5546830575928,-36.5546049694091 -71.5548466643142,-36.5547803035687</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5551547915537,-36.5550898887797 -71.555181562578,-36.5550950376437 -71.5551954099764,-36.5550847260395 -71.5551950802467,-36.5550747175417 -71.5551964761247,-36.5550632417601 -71.5550032971575,-36.5548647384399 -71.5549913548229,-36.5548659065688 -71.5549582500341,-36.5548837851657 -71.5549569954294,-36.5548995505605 -71.5551547915537,-36.5550898887797</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5480516873916,-36.5557760131573 -71.5482685580446,-36.5559895625027 -71.5482977806266,-36.5559793996367 -71.5483058982044,-36.5559565722342 -71.548116354262,-36.5557650914998 -71.5480921770704,-36.5557489173709 -71.5480727045338,-36.5557409873008 -71.5480522248527,-36.5557473869982 -71.5480428521132,-36.5557697203027 -71.5480516873916,-36.5557760131573</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5483319476249,-36.5560498505088 -71.5485341360427,-36.5562461840345 -71.548564757276,-36.5562336064827 -71.5485624190428,-36.5562074265373 -71.5483792120693,-36.5560289256935 -71.5483613729363,-36.5560257301508 -71.5483424875593,-36.5560356728607 -71.5483319476249,-36.5560498505088</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.548780156919,-36.5564922550602 -71.5488038254903,-36.55649294114 -71.5488165292015,-36.5564747850178 -71.5486177689112,-36.5562727720077 -71.5485927029281,-36.5562745004832 -71.5485783656709,-36.5562879221105 -71.5485780874356,-36.5563045434909 -71.5485971836502,-36.5563209027953 -71.548780156919,-36.5564922550602</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5491300175564,-36.5568400704248 -71.5491464202399,-36.5568444880293 -71.5491680234534,-36.5568273338346 -71.5491553868726,-36.5568025665746 -71.5489754833687,-36.556634727213 -71.5489429924513,-36.5566354222432 -71.5489381719477,-36.5566562540882 -71.5489392676642,-36.5566569624636 -71.5491300175564,-36.5568400704248</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5491878971657,-36.5569042826941 -71.5493971566298,-36.5570990412068 -71.5494176365364,-36.5570926412698 -71.5494346926078,-36.5570720072584 -71.5492425417504,-36.5568913153925 -71.5492129273492,-36.5568895642534 -71.5491882125237,-36.5569020156151 -71.5491878971657,-36.5569042826941</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5494558952119,-36.557155013766 -71.5496361535072,-36.5573335750263 -71.5496579928877,-36.5573235698029 -71.5496647115989,-36.557303156953 -71.549492150123,-36.5571339689702 -71.5494669260997,-36.5571309316068 -71.549452902203,-36.5571538854515 -71.5494526626611,-36.557154822468 -71.5494558952119,-36.557155013766</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5499786775067,-36.5576827370574 -71.549999431758,-36.557684677612 -71.5500138473595,-36.5576736388431 -71.5500175729646,-36.5576520976776 -71.5500052101853,-36.5576356702213 -71.549861529194,-36.5574909023393 -71.5498333131629,-36.557486737632 -71.5498240994177,-36.5574855252441 -71.5498027297307,-36.5575005070567 -71.5499786775067,-36.5576827370574</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5500642096572,-36.5577669893784 -71.5501520393832,-36.557853296877 -71.5501680741219,-36.5578694483559 -71.5502502923594,-36.5579428023611 -71.5502865082426,-36.5579205667074 -71.5502618597348,-36.5578900949086 -71.5501960781219,-36.5578234720447 -71.5501960398493,-36.5578234971975 -71.5501197028277,-36.5577467250223 -71.5501017457291,-36.5577399561195 -71.5500840236813,-36.5577403353943 -71.5500696069621,-36.5577513741956 -71.5500642096572,-36.5577669893784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5503797746216,-36.5579997135089 -71.5503704453879,-36.5580012758771 -71.5503556771542,-36.5580015919709 -71.5503397454265,-36.5580114708794 -71.5503372617326,-36.5580258313602 -71.5505039193284,-36.5581951444008 -71.550548773844,-36.5582108763119 -71.550563071894,-36.5581962629377 -71.550563961078,-36.5581783604301 -71.5503807839328,-36.5580010545937 -71.5503797746216,-36.5579997135089</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona Residencial Mixta</SimpleData>
+		<SimpleData name="NOM">Zona Residencial Mixta</SimpleData>
+		<SimpleData name="UPERM">Vivienda,comercio, industria y bodegas inofensivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5452885167758,-36.5566674847921 -71.5457591721156,-36.5571204581703 -71.5457820288501,-36.5571414312973 -71.5447781697805,-36.5577589304194 -71.5470603439909,-36.5599293841789 -71.5481125214712,-36.559233030407 -71.5481133575077,-36.5592339606422 -71.5491836072752,-36.558509161622 -71.5469618694435,-36.5563274843832 -71.5480552782004,-36.5556252925461 -71.5475976325972,-36.5551664425209 -71.5475979812544,-36.5551632833972 -71.5475796763074,-36.5551596732032 -71.54703065813,-36.5546420373164 -71.5477055597873,-36.5541899284341 -71.547707000597,-36.5541768962023 -71.5501968854653,-36.5525069042286 -71.5529637921871,-36.5552161290584 -71.5543259685364,-36.554307035634 -71.5552162999199,-36.5552250773434 -71.5557448885122,-36.5548790331037 -71.5533774557294,-36.5524216003572 -71.5532054727791,-36.5522249820102 -71.5530705007535,-36.5520752627206 -71.5529109601886,-36.5518974540658 -71.5527507930064,-36.5517005818689 -71.5526133146567,-36.5514746096679 -71.5524783450984,-36.5513248886938 -71.5523775626209,-36.5511362827315 -71.5521813303334,-36.55092110633 -71.5520323543362,-36.5507049175471 -71.5518833791949,-36.5504887285385 -71.5517717256668,-36.5503289694593 -71.5516236925451,-36.5501413736801 -71.5514622795919,-36.5499063745676 -71.5513129930539,-36.5496806526098 -71.5512128426624,-36.5495111087451 -71.5510284320256,-36.5492956771766 -71.5493831252194,-36.5503814408383 -71.5502710338231,-36.5512562840006 -71.5483882720503,-36.5525126892926 -71.5475010274102,-36.5516234024151 -71.5462032722916,-36.5524797276037 -71.5464896240117,-36.5525594527252 -71.5466926520043,-36.5526218820777 -71.5468506144536,-36.5527520415676 -71.5473145717144,-36.5531999603456 -71.5457646471987,-36.5542441367284 -71.547120162088,-36.5555600620582 -71.5469115709115,-36.5556885182062 -71.5467029801508,-36.5558169739893 -71.5452885167758,-36.5566674847921</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5476613504155,-36.555350551966 -71.547689517015,-36.5553442268175 -71.5479217441935,-36.5555811288412 -71.5478790596627,-36.5556077217383 -71.5476425136563,-36.5553709849698 -71.5476613504155,-36.555350551966</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5473384620934,-36.5550226624108 -71.5473667225218,-36.5550191968016 -71.5476160202944,-36.5552715036958 -71.5475745013614,-36.5552980409207 -71.547323545271,-36.5550544574359 -71.547326432166,-36.5550343654499 -71.5473384620934,-36.5550226624108</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.54702192646,-36.5547261131749 -71.5470393661542,-36.5547171560004 -71.5470697278356,-36.5547236602353 -71.5472713778961,-36.5549239451271 -71.5472752508914,-36.5549338779208 -71.5472703095465,-36.5549454294216 -71.5472653693166,-36.5549569808983 -71.5472363892829,-36.5549652700324 -71.5470100373637,-36.5547421049232 -71.54702192646,-36.5547261131749</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5469108092323,-36.5545825524749 -71.5471400204645,-36.5544298878377 -71.5471665246699,-36.5544311517258 -71.5471774861279,-36.5544409320999 -71.547179727237,-36.5544551915323 -71.5469716722529,-36.5545998515735 -71.5469454182641,-36.5546104274195 -71.5469221463026,-36.5546037716166 -71.5469200919138,-36.5545952311236 -71.5469108092323,-36.5545825524749</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5474969939975,-36.5541908644946 -71.5475273329919,-36.5541859358485 -71.5475437522908,-36.5541998921579 -71.5475478600627,-36.5542169731427 -71.5473026850089,-36.5543652888017 -71.5472866882965,-36.5543641995794 -71.5472754920471,-36.5543472701147 -71.5472822049312,-36.5543356807434 -71.5474969939975,-36.5541908644946</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5476778925383,-36.554072550902 -71.5479198619145,-36.553910285001 -71.5479580856613,-36.5539106095712 -71.5479636843817,-36.5539190742586 -71.5479573943209,-36.5539435307781 -71.5477457028937,-36.5540854084225 -71.5477003320745,-36.5541078390316 -71.5476823290505,-36.5540996395392 -71.547672952418,-36.5540841023926 -71.5476778925383,-36.554072550902</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5482921353511,-36.5536588392275 -71.5483255088527,-36.5536509425634 -71.5483467742186,-36.5536504877905 -71.5483629575685,-36.5536572958157 -71.5483566206923,-36.5536803230728 -71.548179622643,-36.5537985668778 -71.5481441802939,-36.5537993247836 -71.5481368569893,-36.5537923281675 -71.5481291578985,-36.5537738928161 -71.5482921353511,-36.5536588392275</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5485833246048,-36.5534720175423 -71.5486157210171,-36.5534701863765 -71.5486354015754,-36.5534754883828 -71.5486412352121,-36.5534911012308 -71.5484883899797,-36.5535887995271 -71.5484552829941,-36.5536066763808 -71.5484339236919,-36.5536042717147 -71.5484248287976,-36.553597312103 -71.5484242650995,-36.5535801553552 -71.5485833246048,-36.5534720175423</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5487203969817,-36.5533906879176 -71.5489573771243,-36.5532295261658 -71.5489651433341,-36.5532295024379 -71.5489782052814,-36.5532492533005 -71.5489805417575,-36.553266372123 -71.5487585032953,-36.5534170563501 -71.5487335528583,-36.5534132982653 -71.5487279552121,-36.5534048335914 -71.5487203969817,-36.5533906879176</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.549147408725,-36.5531097136342 -71.5493495754249,-36.5529694027334 -71.5493685187294,-36.5529848017687 -71.549377707582,-36.552994619864 -71.5493800911411,-36.5530131688545 -71.5491733458377,-36.5531434963794 -71.5491590280808,-36.553139510922 -71.5491517517268,-36.5531339436467 -71.5491478785985,-36.5531240109172 -71.549147408725,-36.5531097136342</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5496541007973,-36.5527712348572 -71.5496559190918,-36.5527690852261 -71.5496772784088,-36.5527750306848 -71.549686421407,-36.5527834194547 -71.5496871733547,-36.552806295099 -71.5494877524956,-36.5529436205529 -71.5494629901576,-36.5529455815279 -71.5494415840111,-36.5529417468581 -71.5494394824246,-36.5529317771378 -71.5494405971847,-36.5529117230201 -71.5496541007973,-36.5527712348572</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.549992676739,-36.552553688018 -71.550018780475,-36.5525520992858 -71.550031467654,-36.5525604121854 -71.5500338972208,-36.5525803904595 -71.5498361092333,-36.5527133897883 -71.549805936125,-36.552712604245 -71.549798612785,-36.5527056077318 -71.5497962302564,-36.5526870587285 -71.549802801645,-36.5526711804999 -71.5499922467532,-36.5525540982754 -71.549992676739,-36.552553688018</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5501298437774,-36.5524781858708 -71.5501395832138,-36.5524507939609 -71.5503460842716,-36.5523198698007 -71.5503817665978,-36.5523197054456 -71.5503927751529,-36.5523309157001 -71.5503862509355,-36.5523482241337 -71.5501971841053,-36.5524767447401 -71.550160392832,-36.552490409154 -71.5501408993407,-36.5524908263265 -71.5501298437774,-36.5524781858708</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5525401213549,-36.5524038041489 -71.5523733421245,-36.5521856125547 -71.5523830906881,-36.5521675193651 -71.5524082921263,-36.5521518908568 -71.5525757851342,-36.5523648876359 -71.552580960545,-36.5523874296624 -71.5525739684888,-36.5523995020596 -71.5525534508822,-36.5524047109731 -71.5525401213549,-36.5524038041489</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5507038704363,-36.5521307462212 -71.5505693163619,-36.5522182779364 -71.5505560260556,-36.5522185624022 -71.5505454140606,-36.5522104439722 -71.5505329345741,-36.5521904419851 -71.5506708799478,-36.5520954006118 -71.5506945796545,-36.5521178301128 -71.5507038704363,-36.5521307462212</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5522928667613,-36.5520752623407 -71.5521148888343,-36.5518310793567 -71.5521408040114,-36.5518102561415 -71.5521643927342,-36.551808558583 -71.5523469961004,-36.55205860328 -71.5523399256214,-36.5520682926392 -71.5523269097708,-36.5520769169886 -71.5522928667613,-36.5520752623407</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5511276979438,-36.5518522178935 -71.5510926092448,-36.5518637002647 -71.5510774883931,-36.5518532928026 -71.5510755032989,-36.5518378356165 -71.5513104282945,-36.551686753225 -71.5513322981491,-36.5516928415733 -71.551334245215,-36.5517071072161 -71.5513258948873,-36.5517227856824 -71.5511276979438,-36.5518522178935</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5520609217137,-36.5517475835424 -71.5518897555685,-36.5515235242928 -71.5519010604964,-36.551507782516 -71.5519230547293,-36.5515025420954 -71.5519558166724,-36.5515101860511 -71.552095777601,-36.5517217994484 -71.55209337277,-36.5517385429846 -71.5520833094553,-36.5517471040734 -71.5520609217137,-36.5517475835424</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5516846365846,-36.5514873785547 -71.5514549318686,-36.551647293889 -71.5514224442181,-36.5516479894899 -71.5514073245144,-36.5516375829461 -71.5514069717939,-36.5516268593247 -71.5514181581758,-36.5516075439736 -71.5516525665023,-36.5514558735586 -71.5516570054715,-36.5514522690429 -71.5516704046784,-36.5514590686463 -71.5516810950975,-36.5514695709035 -71.5516846365846,-36.5514873785547</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5507688744686,-36.5520852404344 -71.5507439263378,-36.5520905438751 -71.5507362679567,-36.5520823613372 -71.5507238668369,-36.5520647432995 -71.5508857612811,-36.5519549240714 -71.5509081990858,-36.551963029952 -71.5509157779874,-36.5519688294749 -71.5509207961793,-36.5519866064399 -71.5507688744686,-36.5520852404344</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5528631101723,-36.5526985321258 -71.5528457422171,-36.5527096344732 -71.552822035601,-36.5527077576406 -71.5526355998603,-36.5525209869026 -71.5526231590039,-36.5525021766707 -71.5526285946945,-36.552487752906 -71.5526415724807,-36.5524779369867 -71.5526572818484,-36.5524678949188 -71.5528620122114,-36.5526651715929 -71.5528700237763,-36.552684076689 -71.5528631101723,-36.5526985321258</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5531717655749,-36.5530066803491 -71.5531558744669,-36.5530177519999 -71.5531201177401,-36.5530089793019 -71.5529243108763,-36.5528069101564 -71.5529221282128,-36.5527854963839 -71.5529463570148,-36.5527721831782 -71.55317700512,-36.5529862999059 -71.5531717655749,-36.5530066803491</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5534947295021,-36.5533341944541 -71.5534718810363,-36.5533404069973 -71.5534504746541,-36.553336573961 -71.5532728386278,-36.5531658300894 -71.5532596803873,-36.5531432203163 -71.5532733394682,-36.5531271900415 -71.553305144167,-36.5531236470941 -71.5533106818744,-36.5531242701637 -71.5534941176357,-36.5533156085003 -71.5534947295021,-36.5533341944541</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5537926846745,-36.553658308746 -71.5537661966658,-36.5536617378837 -71.5535702262963,-36.5534727892515 -71.5535661172295,-36.5534557076222 -71.5535690966013,-36.5534384749921 -71.5536008072689,-36.553432072515 -71.5536044796196,-36.5534321226957 -71.5537949108192,-36.5536182005446 -71.5537993023608,-36.5536438596006 -71.5537926846745,-36.553658308746</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5541098055181,-36.5539719967627 -71.5540977297425,-36.5539822711691 -71.5540599980304,-36.5539673414094 -71.5538761019343,-36.5537681189445 -71.553877308578,-36.5537509243019 -71.553902024744,-36.5537382277244 -71.5540995790883,-36.5539307251893 -71.5541090522349,-36.5539491212017 -71.5541098055181,-36.5539719967627</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5543820991633,-36.5542437228787 -71.5543647546561,-36.5542555405363 -71.5543416705632,-36.554254604192 -71.5541727492186,-36.5540793832033 -71.5541686400097,-36.5540623025034 -71.5541823461138,-36.5540477013997 -71.5542134951164,-36.5540437423633 -71.5543869452205,-36.5542293116804 -71.5543820991633,-36.5542437228787</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5546152112363,-36.554483381058 -71.5546050022886,-36.554496476055 -71.5545710017523,-36.5544871903007 -71.5544222806544,-36.5543329971543 -71.5544179830283,-36.5543101975778 -71.5544230163121,-36.5543015052907 -71.5544440463353,-36.5542939012632 -71.5544546405432,-36.5542934875954 -71.5544546790557,-36.5542936733282 -71.5546158537489,-36.5544490297293 -71.5546216404657,-36.5544632129845 -71.5546152112363,-36.554483381058</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5548962368594,-36.5547778095124 -71.55488416219,-36.5547880839743 -71.5548466643142,-36.5547803035687 -71.5546830575928,-36.5546049694091 -71.5546859896664,-36.5545863074906 -71.5546927956199,-36.5545775771881 -71.5547263723901,-36.5545739958602 -71.5547290023927,-36.5545739394741 -71.5549006589968,-36.5547505312538 -71.5549011770396,-36.5547662577398 -71.5548962368594,-36.5547778095124</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.5551954099764,-36.5550847260395 -71.555181562578,-36.5550950376437 -71.5551547915537,-36.5550898887797 -71.5549569954294,-36.5548995505605 -71.5549582500341,-36.5548837851657 -71.5549913548229,-36.5548659065688 -71.5550032971575,-36.5548647384399 -71.5551964761247,-36.5550632417601 -71.5551950802467,-36.5550747175417 -71.5551954099764,-36.5550847260395</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">San Fabián</SimpleData>
+		<SimpleData name="LOC">San Fabián</SimpleData>
+		<SimpleData name="ZONA">Zona de Balneario</SimpleData>
+		<SimpleData name="NOM">Zona de Balneario</SimpleData>
+		<SimpleData name="UPERM">Balneario y construcciones complementarias y viviendas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">12/01/1967</SimpleData>
+		<SimpleData name="N_DOC">643</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5447781697805,-36.5577589304194 -71.5457820288501,-36.5571414312973 -71.5457591721156,-36.5571204581703 -71.5452885167758,-36.5566674847921 -71.543129819928,-36.5546533136693 -71.5425191067766,-36.5540558983051 -71.5419821003025,-36.5535427505318 -71.5417498223487,-36.5533092487365 -71.5413661493659,-36.5531457436217 -71.5411121718622,-36.5533323870791 -71.5408700068691,-36.5535187772338 -71.540674473756,-36.5536850976913 -71.54057158045,-36.5537922115083 -71.5403514806515,-36.5539304395976 -71.5394841380041,-36.5545212233104 -71.5397005407514,-36.5546310701622 -71.5398712477792,-36.5547895821141 -71.5398817679854,-36.5548027315435 -71.5411116622519,-36.5539557482036 -71.541411794011,-36.5541854193786 -71.5414579718601,-36.5542416639391 -71.5413110872609,-36.5543592554582 -71.5422086548907,-36.555310149374 -71.5422113039065,-36.5553129552304 -71.5422113383326,-36.5553175499726 -71.5447781697805,-36.5577589304194</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

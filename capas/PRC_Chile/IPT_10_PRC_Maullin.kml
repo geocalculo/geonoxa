@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6102214614817,-41.6172709805028 -73.6113917332663,-41.6185459440558 -73.6118464739131,-41.6183356070283 -73.6113633046576,-41.6177574067511 -73.6111584031779,-41.6174803721206 -73.6107783055359,-41.6169871568833 -73.6104214906841,-41.6164456635606 -73.6092002702099,-41.6161876178611 -73.6091356095417,-41.6162047052293 -73.6091326914305,-41.6162296876322 -73.6092234634338,-41.6163272811095 -73.6093041566159,-41.6164004346942 -73.6102214614817,-41.6172709805028</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6108313009884,-41.6165322536114 -73.6121416529219,-41.6181990720836 -73.6142044176695,-41.6172449050454 -73.6108313009884,-41.6165322536114</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6143113357276,-41.618074432123 -73.6145037451417,-41.6183185180582 -73.6145405312491,-41.618217822403 -73.6145864226601,-41.6181034963774 -73.6146589267035,-41.617905660672 -73.61470255083,-41.6178006213566 -73.6147171612752,-41.617794588053 -73.6147365723537,-41.6177575638342 -73.6148163474191,-41.6176428696715 -73.6149315811522,-41.6175448062586 -73.6149618666695,-41.61732396581 -73.6147769963986,-41.6173147926842 -73.61467036773,-41.6174324759296 -73.6144925977598,-41.6175792460593 -73.6143079103402,-41.6176782812232 -73.6143052967403,-41.6178003587871 -73.6143142680702,-41.617937467211 -73.6143113357276,-41.618074432123</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.613581186085,-41.6201761009453 -73.6137459004657,-41.6202814775383 -73.6137516770741,-41.6202642989004 -73.6138474629433,-41.6200180368042 -73.6139397060334,-41.6197862862244 -73.6140186054071,-41.6195737801312 -73.6143161200013,-41.6188132841955 -73.6143759037959,-41.6186571074178 -73.6139599319835,-41.6181744343841 -73.6139389801919,-41.6178555067167 -73.6137465458838,-41.6179455126501 -73.6134260567668,-41.6180846034172 -73.6127885298058,-41.618386650891 -73.6124318783122,-41.6185461507979 -73.6128176224189,-41.6190546918353 -73.6131320392362,-41.6194307694729 -73.6133835644813,-41.61984796985 -73.613581186085,-41.6201761009453</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6114871784806,-41.6186531647752 -73.613487392583,-41.6209533888192 -73.6137328839399,-41.620831882032 -73.6135049139121,-41.620552118135 -73.6134332041936,-41.6204256079383 -73.6133105003377,-41.6203636315459 -73.6131962888941,-41.6201947261071 -73.6129861699044,-41.6198710956354 -73.6127282485251,-41.6194631249813 -73.6124930347669,-41.6191531523702 -73.6120701174991,-41.618631503014 -73.6119146249564,-41.6184550894723 -73.6114871784806,-41.6186531647752</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona 2</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, socia; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6086152331531,-41.6159950914023 -73.6077344354428,-41.6150508085752 -73.6074682091935,-41.6149952311183 -73.6073521568849,-41.6149850996619 -73.6060234640863,-41.6148642884581 -73.6055760353294,-41.6148544985519 -73.604544117914,-41.6149903066659 -73.6039222349158,-41.614982754883 -73.6032955753891,-41.6149271520339 -73.6024368146648,-41.6148512730913 -73.6015652072463,-41.6148319464819 -73.6010115619439,-41.6148950122838 -73.6001173308685,-41.6151153475747 -73.600553692847,-41.6159059464379 -73.601179542595,-41.615730331563 -73.6013489402513,-41.6156931287554 -73.602388005305,-41.6154963585894 -73.6025452126621,-41.6154851819576 -73.6026319223452,-41.6155080496308 -73.6028514616332,-41.6155717961823 -73.6032267030802,-41.6156941495889 -73.6039452137458,-41.616073707966 -73.6046995458554,-41.6164100697563 -73.6049197483697,-41.6164432815457 -73.6053045702875,-41.6163912366384 -73.6065107781151,-41.6162618976581 -73.6074726855222,-41.6161383118806 -73.6086152331531,-41.6159950914023</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6112948059222,-41.618728006219 -73.6111765000101,-41.6188225560646 -73.6107768678643,-41.6192932602923 -73.6104808170135,-41.619542717928 -73.6099677364994,-41.6198811668661 -73.6097344891978,-41.6199132473495 -73.609009340082,-41.6201095204328 -73.6091401209575,-41.6202463465869 -73.6092309648012,-41.6203477878035 -73.6093034342026,-41.6204926335622 -73.6093414991777,-41.6208857365332 -73.6094993793544,-41.6213849936726 -73.6095739146574,-41.6217043719473 -73.6099699298496,-41.6222152343099 -73.6102092790352,-41.6221701390924 -73.6105900979372,-41.6220351370624 -73.611030352136,-41.6218397743271 -73.6112707288046,-41.6217466996814 -73.6115236657929,-41.6216101493296 -73.6117896303062,-41.6214083153596 -73.6121161508126,-41.6210937819615 -73.6123707668244,-41.6208787214995 -73.6128601256466,-41.6205617890559 -73.6112948059222,-41.618728006219</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6088046850712,-41.6201637585144 -73.6076989980065,-41.6204819347862 -73.6078912750362,-41.6207329372866 -73.6079918663259,-41.6209217513898 -73.6080407081102,-41.6210837625394 -73.6080636731829,-41.6213676156865 -73.6080938581678,-41.6215861158635 -73.6081131685837,-41.6217695827962 -73.6081588218345,-41.6220798867984 -73.6082574460791,-41.622360293349 -73.6083044302529,-41.6224465455291 -73.6083668917429,-41.6224835994142 -73.6087625438407,-41.6224269625062 -73.6094423029471,-41.6223095430042 -73.6097933119316,-41.6222523624178 -73.6094207584596,-41.6217536498336 -73.6092477124042,-41.6211484574289 -73.6091554902298,-41.6207648205582 -73.6091347893652,-41.6205160710414 -73.6090741890904,-41.6203924842503 -73.6089465093138,-41.6202736698533 -73.6088046850712,-41.6201637585144</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.606911202382,-41.6179158504507 -73.6061909518983,-41.6178853051047 -73.6057563610702,-41.6175484694082 -73.6054096951377,-41.6174482844432 -73.6052004554271,-41.6174457454856 -73.6048116952675,-41.6174104883152 -73.6042916061396,-41.6172645678068 -73.6044309678925,-41.6178115968187 -73.6043641176956,-41.6179460286399 -73.6057397309259,-41.618320464623 -73.6060827502235,-41.6183202624 -73.6070350280994,-41.6183754341297 -73.606911202382,-41.6179158504507</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6065294854741,-41.6184713932983 -73.606540379677,-41.6191751406858 -73.6078284926857,-41.6191432838393 -73.6078217733851,-41.6191096969612 -73.6076411222194,-41.6188590096377 -73.6071318655096,-41.6184898632306 -73.6065294854741,-41.6184713932983</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6065297905359,-41.6184911290322 -73.6057312878045,-41.6184425176434 -73.6034247910783,-41.6178299144436 -73.6032410582617,-41.6177229771748 -73.6016925891737,-41.6183541908123 -73.602154124782,-41.6190578357053 -73.6025190253304,-41.6196599618625 -73.6037288530987,-41.6196354010231 -73.6050812962174,-41.6191981024723 -73.6065403795111,-41.6191751403661 -73.6065297905359,-41.6184911290322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6079313639149,-41.6192577417169 -73.6050957732007,-41.6193187975757 -73.6037418098343,-41.6197590771638 -73.6025692147234,-41.6197925435339 -73.6028527342285,-41.6205458280007 -73.6029520088182,-41.6209969373173 -73.6060756579835,-41.6210621292008 -73.6063566159166,-41.6210928030517 -73.6064578397461,-41.6210326800059 -73.607223826805,-41.6204761778091 -73.6086681628196,-41.6200574013359 -73.6082222717983,-41.619670267228 -73.6079313639149,-41.6192577417169</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6004279615142,-41.6160745606267 -73.5987901941965,-41.6165345029039 -73.600174124521,-41.6173279254218 -73.6012587732112,-41.6179824460732 -73.6014826237653,-41.6181160508003 -73.6016071953581,-41.6182702607309 -73.6021291982838,-41.618058475776 -73.6015798910574,-41.6176504260322 -73.6008636734969,-41.6168956891671 -73.6004279615142,-41.6160745606267</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona 5</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6062881265024,-41.6212021305649 -73.6029874466621,-41.6211227954417 -73.6029284738728,-41.6211613428635 -73.6029277206222,-41.6211962352409 -73.6030125746098,-41.6221134317959 -73.6026983729292,-41.6234707718572 -73.6032253561174,-41.623568793773 -73.6033061699092,-41.6235959519827 -73.6034322621866,-41.6236803752848 -73.6035952794314,-41.6239397546657 -73.6040338840292,-41.6249005116295 -73.6049131061332,-41.6267304281902 -73.6050480286301,-41.6266753508635 -73.6051654177638,-41.6266244232841 -73.6053525631209,-41.6265743420434 -73.6054883309412,-41.6264800102575 -73.6056073172637,-41.6263549358967 -73.6056627360356,-41.6262116395006 -73.6056784034996,-41.6260242339546 -73.6055508292308,-41.6254686247345 -73.6053138774385,-41.6243227250286 -73.6053493644668,-41.6234855191138 -73.6055065696657,-41.6221262669422 -73.6062881265024,-41.6212021305649</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona 5</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6025591495343,-41.6234559911381 -73.6028834726973,-41.6221685775512 -73.6028811440819,-41.622007129679 -73.6028055630184,-41.6211991130321 -73.6027247524124,-41.6211719545087 -73.6011924721299,-41.6213190988633 -73.6011510300562,-41.6213534960271 -73.6011640367499,-41.621558700805 -73.6012063568615,-41.6220216610802 -73.6012118542145,-41.6223053028702 -73.6012208691445,-41.622964178807 -73.6012453131267,-41.6231782480945 -73.601278963876,-41.623235372581 -73.6013423382209,-41.6232623199384 -73.6014410603118,-41.623267883933 -73.6019507900395,-41.6233569763636 -73.6025591495343,-41.6234559911381</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona 2</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, socia; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5999933923596,-41.6152010919365 -73.5994409303462,-41.6154779366198 -73.5986839089452,-41.615804637198 -73.5982691754703,-41.6158955593989 -73.5973292757793,-41.6160760516742 -73.5967638975292,-41.616143316454 -73.5961660105799,-41.6161011140566 -73.5961437499302,-41.6163233395486 -73.596433408705,-41.6163705039799 -73.5967410715671,-41.6163917113276 -73.5985777900657,-41.616409757884 -73.5990037730284,-41.6163364224838 -73.6003547623087,-41.6159646019174 -73.5999933923596,-41.6152010919365</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona 2</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, socia; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5959269995776,-41.6163992204635 -73.5944033439923,-41.6161537376728 -73.5943352435853,-41.6163448633547 -73.5942825898823,-41.616627794458 -73.5942238730353,-41.6171898636976 -73.595843858932,-41.6172838315218 -73.5959269995776,-41.6163992204635</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona 2</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, socia; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5958301529013,-41.6173796433229 -73.5942387518516,-41.6173078383725 -73.594146363821,-41.6183493917931 -73.595720164215,-41.6184297084417 -73.5958301529013,-41.6173796433229</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona 2</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, socia; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5956999829828,-41.6185559799393 -73.594143521652,-41.6184802377797 -73.5941205898329,-41.618732993398 -73.5941255825237,-41.61903844286 -73.594190281124,-41.6198070678182 -73.5955864877617,-41.6197674214415 -73.5956999829828,-41.6185559799393</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.609566203564,-41.6147131345068 -73.6093899205477,-41.6147031612938 -73.6093768425621,-41.6147923511175 -73.6094145207268,-41.6149435817952 -73.6098599346901,-41.6156860910414 -73.6101614829508,-41.6161979046609 -73.6104408186341,-41.6162316857392 -73.6102950308436,-41.6160965121469 -73.6101952147534,-41.6159279344266 -73.6101048341965,-41.6157715994799 -73.6100268056088,-41.615642096036 -73.6099890171573,-41.6155955513657 -73.609942159529,-41.6155197892263 -73.6098831043921,-41.615409920625 -73.6098331186004,-41.6153292694606 -73.6097336173709,-41.6151461407946 -73.6096271330715,-41.6149871851015 -73.6095746458186,-41.614872544637 -73.6095598434269,-41.614809297967 -73.6095650021173,-41.6147196114597 -73.609566203564,-41.6147131345068</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6093927764172,-41.6146989561863 -73.6082377399709,-41.6146249969322 -73.6077612524664,-41.6146148636777 -73.6077665953888,-41.6146367418818 -73.6078229327738,-41.6147203155132 -73.6079025182352,-41.614804170687 -73.607964949317,-41.6148747299591 -73.60798669656,-41.6149447964926 -73.6080248481366,-41.6150630513548 -73.608035346645,-41.6151155308614 -73.6080398455689,-41.6151766631043 -73.6086824474652,-41.6158432106489 -73.608872558779,-41.6159240402797 -73.6091095422173,-41.6159879860196 -73.6101614835524,-41.616197904519 -73.6098599343558,-41.6156860908665 -73.6094145202624,-41.6149435818546 -73.6093768428565,-41.6147923513776 -73.6093899209624,-41.6147031615021 -73.6093927764172,-41.6146989561863</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6077622969204,-41.6146191410525 -73.607279630274,-41.6145900494499 -73.6073048941706,-41.6146332426266 -73.6073821081471,-41.6146967218048 -73.607541756792,-41.6149130912907 -73.6077645334194,-41.6149622509076 -73.6078564160388,-41.6150080378346 -73.6080398454885,-41.6151766629074 -73.608035346207,-41.6151155304584 -73.608024848167,-41.6150630512992 -73.6079866964589,-41.6149447963036 -73.6079649489643,-41.6148747299224 -73.6079025186965,-41.6148041708155 -73.607822932961,-41.6147203158793 -73.6077665955696,-41.6146367415879 -73.6077622969204,-41.6146191410525</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6072902225367,-41.6145906880913 -73.6070577356123,-41.6145732793135 -73.606220407298,-41.6145053056489 -73.6061889997853,-41.6145144400028 -73.6057945910239,-41.6145769949777 -73.6054526854713,-41.6145113643377 -73.6051176062152,-41.6144458155238 -73.6050096900872,-41.6143844868308 -73.6049091936154,-41.6143861948551 -73.6045120831063,-41.6143930852649 -73.6044892460736,-41.6144118384151 -73.6044658441135,-41.6144115542858 -73.6043464297156,-41.6143859503811 -73.6040606139596,-41.6143734327698 -73.604019525412,-41.6143972926786 -73.6039758546234,-41.6143834481135 -73.603793592325,-41.6143812342795 -73.6038002488968,-41.6144176127747 -73.6037881868445,-41.6144593481425 -73.6037570448674,-41.6145231887429 -73.6037335227621,-41.6145787455211 -73.6037328604365,-41.614609450859 -73.6039911764708,-41.6148806326001 -73.6042291750201,-41.6148863150944 -73.6045828444186,-41.6148766486859 -73.6050414464781,-41.6148319571019 -73.6054594323307,-41.6147728102767 -73.6056757139903,-41.6147503050264 -73.605891334205,-41.6147585047321 -73.606065737622,-41.614780164816 -73.6062401411628,-41.6148018246371 -73.6065929687284,-41.6148312315952 -73.6073358216431,-41.6148904929729 -73.6075374419333,-41.6149072434998 -73.6073821087223,-41.6146967222059 -73.6073048939214,-41.6146332423499 -73.6072796297357,-41.6145900496125 -73.6072902225367,-41.6145906880913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6037943351026,-41.6143852969574 -73.6036813237321,-41.6143837794506 -73.6036546750309,-41.6144048992408 -73.6036258769704,-41.6144152711495 -73.603603257144,-41.6144703921232 -73.6035515397488,-41.6144393854745 -73.6033613546893,-41.6145353575256 -73.6034664581493,-41.6148511396273 -73.60375155042,-41.6148814075742 -73.6039911768957,-41.6148806327002 -73.6037328604448,-41.6146094507941 -73.6037335227775,-41.6145787451283 -73.6037570451145,-41.6145231886574 -73.6037881874047,-41.6144593482758 -73.6038002483859,-41.6144176124478 -73.6037943351026,-41.6143852969574</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Áreas verdes públicas</SimpleData>
+		<SimpleData name="NOM">Áreas verdes públicas</SimpleData>
+		<SimpleData name="UPERM">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.603361614015,-41.6145361378939 -73.6027399196418,-41.6144223741336 -73.6028726228744,-41.6147831662938 -73.60346470954,-41.6148458869596 -73.603361614015,-41.6145361378939</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6027414492153,-41.614422653877 -73.6027399198085,-41.6144223740034 -73.6027399306843,-41.6144224035724 -73.6027414492153,-41.614422653877</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6027399306843,-41.6144224035724 -73.6025524717755,-41.6143915039253 -73.6024104368487,-41.6144630423528 -73.6023722320069,-41.6144679386853 -73.6023317237366,-41.6144692330748 -73.6022844209299,-41.6144543621826 -73.6017940860493,-41.6142250284421 -73.6007831702467,-41.6143949965556 -73.6007811372289,-41.6143788891642 -73.6005097000359,-41.6144881630183 -73.6002786157884,-41.6146032885245 -73.5998137937608,-41.6148460145234 -73.5993003900132,-41.6151328205955 -73.5990093997906,-41.6152650830692 -73.5986824673244,-41.6154076283649 -73.5980832624979,-41.6155392039597 -73.5978325025361,-41.615577316726 -73.5974107039383,-41.615631640383 -73.5970423294592,-41.615682039981 -73.5967105701999,-41.6157305981258 -73.5965137294687,-41.6157419185925 -73.5961887582274,-41.6157585357996 -73.5960136692252,-41.615750678952 -73.5957003055972,-41.6157239777097 -73.5952527671328,-41.6157002104751 -73.5949524463147,-41.6157045452562 -73.594711545459,-41.615709605755 -73.5947291974601,-41.6155803738918 -73.5946164264599,-41.6155339747512 -73.5943835544689,-41.6155819345047 -73.5943651016185,-41.6155921477545 -73.5940683090304,-41.6156445568403 -73.5939026936102,-41.6156917080464 -73.5936397922808,-41.6158106481126 -73.5933958565961,-41.6159684894669 -73.5932426551513,-41.6161149321253 -73.5931877576292,-41.6162304125547 -73.5931855832266,-41.6163304556475 -73.5931801351124,-41.6164715587265 -73.5931787104889,-41.6166466632682 -73.5932147282207,-41.6169616088751 -73.5932460358939,-41.6173837143334 -73.5932725970379,-41.61758596575 -73.5932672344776,-41.6178389496903 -73.593269070031,-41.6178476758404 -73.5932702535972,-41.6179576502501 -73.5933044488666,-41.6179830603914 -73.593300592719,-41.6180509176221 -73.5933107101122,-41.6181332415379 -73.5933158719919,-41.6182244395959 -73.5933385141723,-41.6182783254566 -73.5933310736789,-41.6184015345303 -73.5933246815026,-41.6184765085536 -73.5932934338187,-41.618599426253 -73.5933092834138,-41.6186371463579 -73.59329657659,-41.618783521427 -73.5932855514937,-41.6189620823224 -73.5932733881532,-41.6190834466171 -73.5932494496268,-41.619308310364 -73.5932397565652,-41.6195351354108 -73.5932559678679,-41.619665781765 -73.5933147610477,-41.6198094579744 -73.5934224633436,-41.6200037675228 -73.5936374427962,-41.6204120376394 -73.5937446035547,-41.6206313576566 -73.5937778310095,-41.6207461294889 -73.5939886496203,-41.6215653482629 -73.5942012911104,-41.6216020131678 -73.5942376213299,-41.6214712278199 -73.594130202153,-41.6207635072321 -73.5940799603097,-41.6203356980635 -73.5940050343639,-41.6200164796508 -73.5939910642213,-41.6199744269287 -73.5939847159091,-41.6199240910759 -73.5939477784567,-41.6195690397209 -73.5939300266671,-41.6190159823555 -73.5939621699787,-41.6185640517285 -73.5939815974449,-41.6183548801856 -73.5940223923335,-41.617847212865 -73.5940535640391,-41.6174399442064 -73.5941270046881,-41.6166283346378 -73.5941581721838,-41.6160635900363 -73.5939919556095,-41.616041900344 -73.5939167071746,-41.6159980928145 -73.5937095546031,-41.6159973454367 -73.5936395462942,-41.6160411628388 -73.5934468326011,-41.6160334438186 -73.5934566268224,-41.6160210549594 -73.5935511789437,-41.6159435857761 -73.5937249120777,-41.6158384939661 -73.5938570876464,-41.6157829283512 -73.5940825335471,-41.6157088469326 -73.5941556727651,-41.6157401198415 -73.5942322620637,-41.6157221818345 -73.5942705502595,-41.6156723918809 -73.5945575124811,-41.6156507720004 -73.5945715427467,-41.6156900332927 -73.5945709972676,-41.6157151557386 -73.594573565402,-41.6157682374958 -73.5945562622022,-41.6158797108759 -73.595942382499,-41.6159580782842 -73.5967749940986,-41.6159961673781 -73.5970054352517,-41.6160073568321 -73.5972334271624,-41.615959881324 -73.5979989927712,-41.6158296158127 -73.5984847917639,-41.6157322318174 -73.5987546653084,-41.6156405899631 -73.5991975168993,-41.615464499865 -73.5995242707854,-41.6153232911462 -73.5999534469734,-41.6150911889832 -73.6000700849957,-41.6150311829019 -73.6009346382778,-41.6147960025847 -73.6011136041368,-41.6147786359609 -73.6015203132637,-41.6147249504838 -73.6020188073521,-41.6147282224611 -73.6024424865478,-41.6147501275055 -73.6028725516334,-41.6147829714569 -73.6027399306843,-41.6144224035724</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z7</SimpleData>
+		<SimpleData name="NOM">Zona 7</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, seguridad, servicios, social; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6087520984525,-41.6161189036242 -73.608217496795,-41.6161722205082 -73.6073863794254,-41.6162779626827 -73.606270287864,-41.616411473054 -73.605213216315,-41.6165417851115 -73.6055947223611,-41.6167819356935 -73.6055962036765,-41.6167936646856 -73.6055254004469,-41.6169411453048 -73.6056231757088,-41.6169904768066 -73.6055995145323,-41.6171229146625 -73.6056873371844,-41.6171513057754 -73.6057721730001,-41.6170768638532 -73.6060148105873,-41.6171630851911 -73.6060460390864,-41.6172428386226 -73.6060479932974,-41.6173131284463 -73.6062489178885,-41.6173233723774 -73.6065291129915,-41.6172760219202 -73.6066108982189,-41.6172626999478 -73.6066420742303,-41.6172643791096 -73.6068395621691,-41.6171926031985 -73.6074929900939,-41.6169585702107 -73.6075647922724,-41.6170523620092 -73.6074278592516,-41.6173294688225 -73.6073222225807,-41.6174800805099 -73.6071950851253,-41.6175232139588 -73.6070712863341,-41.6176325052441 -73.6070765739234,-41.6177956992169 -73.6072209279104,-41.6183820496294 -73.6077592157837,-41.6187637628471 -73.6083574111619,-41.619604281784 -73.6088662785903,-41.6200030843491 -73.609638394906,-41.6197855668455 -73.6097023316907,-41.6197863402456 -73.60978942453,-41.6197917563858 -73.609841736453,-41.6197923891017 -73.6098769858034,-41.6197753646546 -73.6102309768404,-41.6195353345789 -73.6105197179919,-41.6193555923383 -73.6110622185789,-41.6187295585268 -73.6111694613662,-41.6186086989479 -73.6103635886594,-41.6176915179266 -73.6097654815346,-41.617117134678 -73.6087520984525,-41.6161189036242</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6014628499373,-41.6157796252018 -73.6006064080734,-41.6160360537138 -73.6010690449524,-41.6169597853821 -73.60187439783,-41.6176970757931 -73.6026441034062,-41.6173411024235 -73.6029236743153,-41.6177257182358 -73.6032949029798,-41.6175904501609 -73.6034824805933,-41.6177261556353 -73.6042236057265,-41.6179098828795 -73.6042642301963,-41.6177928346163 -73.6040712990351,-41.6171201827475 -73.6041442067685,-41.6170765927649 -73.604741358833,-41.6172617448792 -73.6048507144657,-41.6172948407201 -73.6049776848596,-41.6172963818359 -73.6052778367953,-41.6173159081589 -73.6054719754797,-41.6173436786699 -73.6059346574663,-41.6174827176031 -73.6062251070075,-41.6177562692876 -73.6070761071989,-41.6177812938953 -73.6070712866687,-41.6176325055042 -73.6071950855624,-41.6175232139378 -73.6073222231559,-41.6174800809144 -73.6074278597354,-41.6173294685048 -73.6075647917409,-41.6170523623055 -73.6074929899763,-41.6169585704205 -73.606839562102,-41.6171926032246 -73.606642074036,-41.6172643788736 -73.6066108984998,-41.6172627003384 -73.6065291125595,-41.6172760217778 -73.6062489174242,-41.6173233723408 -73.6060479927791,-41.6173131285313 -73.6060460390181,-41.6172428389125 -73.6060148106338,-41.6171630855242 -73.6057721732715,-41.617076864292 -73.6056873375776,-41.6171513053342 -73.6055995151006,-41.6171229146513 -73.6056231759454,-41.6169904770681 -73.6055254010403,-41.6169411451234 -73.6055962032002,-41.6167936650124 -73.6055947227274,-41.6167819353132 -73.6052197068655,-41.6165458704663 -73.6049724034866,-41.616559296075 -73.6047947168606,-41.6165539625932 -73.6044377821579,-41.6164193798303 -73.6038719079057,-41.6161583622225 -73.6031811280227,-41.6158005196144 -73.602798601366,-41.6156751510106 -73.6025296598439,-41.615582930609 -73.6014628499373,-41.6157796252018</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-73.6022658421659,-41.6165228972943 -73.6020268033006,-41.616591557609 -73.6019938662502,-41.6165911570009 -73.6019475380159,-41.6165684724333 -73.6018955129545,-41.6164884649744 -73.6017796165204,-41.6162346173819 -73.601771567661,-41.6162058926786 -73.6017720735003,-41.6161824762579 -73.6018090108462,-41.6161582024128 -73.6024042357024,-41.6160561385764 -73.602555585702,-41.6160332556202 -73.602607310856,-41.6160468968284 -73.6026258733598,-41.6160705450785 -73.6026287232992,-41.6160992065183 -73.6024791189127,-41.6162821616048 -73.6023278078633,-41.6164637942308 -73.6022658421659,-41.6165228972943</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Áreas verdes públicas</SimpleData>
+		<SimpleData name="NOM">Áreas verdes públicas</SimpleData>
+		<SimpleData name="UPERM">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6026258738947,-41.6160705448037 -73.6026073106808,-41.6160468970789 -73.6025555859104,-41.6160332559719 -73.6024042359475,-41.6160561390154 -73.6018090114103,-41.6161582027657 -73.6017720734925,-41.6161824766906 -73.6017715676648,-41.6162058925775 -73.6017796170567,-41.6162346174353 -73.6018955125963,-41.616488464766 -73.6019475380982,-41.6165684722721 -73.6019938658709,-41.61659115658 -73.602026803037,-41.6165915571894 -73.6022658424191,-41.6165228969615 -73.6023278082608,-41.6164637941635 -73.602479118821,-41.6162821613611 -73.6026287230852,-41.6160992063824 -73.6026258738947,-41.6160705448037</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Áreas verdes públicas</SimpleData>
+		<SimpleData name="NOM">Áreas verdes públicas</SimpleData>
+		<SimpleData name="UPERM">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6029202250966,-41.6177209730524 -73.6026441034062,-41.6173411024235 -73.60187439783,-41.6176970757931 -73.6022945434096,-41.6179941986855 -73.6029202250966,-41.6177209730524</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, social; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5973539527651,-41.6198054111601 -73.5957570049229,-41.6198462711474 -73.595703102692,-41.6203793174239 -73.5956437952894,-41.6209663034217 -73.5956478495245,-41.6211696690537 -73.5956931267237,-41.6214243673719 -73.5959356715578,-41.6221484672448 -73.5978845325079,-41.6216957358876 -73.5978588955,-41.6215111679228 -73.5978173605671,-41.6212787537871 -73.5977516693198,-41.6209888622626 -73.5976585531941,-41.620596978018 -73.5975251432979,-41.6203062600878 -73.5973775916576,-41.6200820825281 -73.5973539527651,-41.6198054111601</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5955784143712,-41.6198822108668 -73.5950492182114,-41.6198820970382 -73.5942145258203,-41.6199131896562 -73.5942879106475,-41.6208226560346 -73.5943313197013,-41.6211631060089 -73.5945852859764,-41.6223352790648 -73.5949202840445,-41.6223107835294 -73.5951743104767,-41.6223107118655 -73.5957529110076,-41.6221811794471 -73.5955226522664,-41.6214762902123 -73.5954694341111,-41.6210022946311 -73.5955784143712,-41.6198822108668</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona 2</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, socia; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5979806912005,-41.6165143793277 -73.5967701055503,-41.6164914736866 -73.5961236669458,-41.616440883445 -73.5960042871575,-41.6174478738044 -73.5959053823787,-41.6185100093568 -73.5958119678656,-41.6191940436572 -73.5957509939475,-41.6197564844623 -73.5966944848719,-41.6197293775968 -73.5967542101088,-41.6197240072977 -73.5967480939459,-41.61925630546 -73.5968448627897,-41.6190419717058 -73.5968690472907,-41.6186762978184 -73.5968741355965,-41.6185665691922 -73.5973181022812,-41.6185841870921 -73.5973456973915,-41.6181860240963 -73.5974249111964,-41.6179064143797 -73.5976263893689,-41.6174859750486 -73.5978447999691,-41.6171592673636 -73.5979286578101,-41.6170403337368 -73.597963451295,-41.616935033703 -73.5979741520834,-41.6166911847176 -73.5979806912005,-41.6165143793277</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5979806909354,-41.6165143793144 -73.5979741522195,-41.6166911843041 -73.5979634510012,-41.6169350339677 -73.5979286574253,-41.6170403339964 -73.5978448005623,-41.6171592673708 -73.5976263893697,-41.6174859750707 -73.5974249114587,-41.6179064143888 -73.5973456974514,-41.6181860239882 -73.5973181026898,-41.6185841869038 -73.5968741355612,-41.6185665689643 -73.5968690476412,-41.6186762979028 -73.596844863092,-41.6190419719142 -73.596748094403,-41.6192563050732 -73.5967542105961,-41.619724007621 -73.5972979390334,-41.6197245447724 -73.5977474246626,-41.6197079086214 -73.5977633090565,-41.619695090177 -73.5982922026004,-41.6196950353208 -73.5983024070699,-41.6197042683318 -73.5987696947391,-41.6197464003368 -73.5992328682404,-41.6198184084438 -73.5993414105723,-41.619850960581 -73.599607250586,-41.6199869246598 -73.5996799220678,-41.619994316178 -73.6003690539111,-41.6198816962128 -73.6005065445329,-41.619858647145 -73.6008339278439,-41.6197949692985 -73.6012346567143,-41.6197074598866 -73.6013534142534,-41.6196685671398 -73.6014028270131,-41.6196288304841 -73.6014066878167,-41.6196106603315 -73.6017795349933,-41.6192885894565 -73.6020199982029,-41.6190742100545 -73.6019127852068,-41.6188998432111 -73.6017398279055,-41.618798846247 -73.601711574269,-41.6186618740186 -73.6015319084357,-41.6185503853361 -73.6016045314074,-41.6184797016068 -73.6014233294529,-41.6183590854964 -73.6014111100464,-41.6183628404815 -73.6014038851009,-41.6182157142566 -73.6010118727796,-41.6179806268561 -73.6006937597445,-41.6177763659715 -73.6002022753617,-41.6174906182438 -73.599880278096,-41.6173058261635 -73.5994072224606,-41.6170502276774 -73.5989565376325,-41.6168027072795 -73.5987198440523,-41.6166827117035 -73.5986748129529,-41.6166001855768 -73.5985136354211,-41.6165162432856 -73.5979806909354,-41.6165143793144</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Zona 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6020633936484,-41.6191624891434 -73.6018811468715,-41.6193208922364 -73.6014938384391,-41.6196902821493 -73.6018905221737,-41.6198902916633 -73.6024228051107,-41.6198337371196 -73.6023238220131,-41.619649548913 -73.6023137770508,-41.6196128298449 -73.6020633936484,-41.6191624891434</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Áreas verdes públicas</SimpleData>
+		<SimpleData name="NOM">Áreas verdes públicas</SimpleData>
+		<SimpleData name="UPERM">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6014943994356,-41.61969056479 -73.6014199547187,-41.6197239469004 -73.6013734222849,-41.6197457454602 -73.6009483481124,-41.6198564623727 -73.6009942941421,-41.6199871439908 -73.601890522509,-41.6198902926143 -73.6014943994356,-41.61969056479</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de equipamiento 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, culto y cultura, deporte, educación, seguridad; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6009909844904,-41.6199777309489 -73.600959815492,-41.6199877815609 -73.600945749637,-41.6199967189135 -73.6009658683175,-41.6201088690297 -73.5999940656501,-41.6202728231988 -73.6000877451649,-41.6206392979588 -73.6010336580291,-41.6205555106148 -73.601666019315,-41.6204837853006 -73.6026375975938,-41.6203875897151 -73.6024228050924,-41.6198337369501 -73.6018905222705,-41.6198902913715 -73.6009942941216,-41.6199871442998 -73.6009909844904,-41.6199777309489</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de equipamiento 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, culto y cultura, deporte, educación, seguridad; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6001133039089,-41.6206370345425 -73.6000833065379,-41.6206487743421 -73.6002294950004,-41.6209364681358 -73.6005343674398,-41.6215215377262 -73.6009248194753,-41.6212816764488 -73.601061772053,-41.6212134534997 -73.6013082217619,-41.6211719774464 -73.6022753039164,-41.6210884375175 -73.6027206139917,-41.6210525533639 -73.6027930474321,-41.6210311961993 -73.6027530035325,-41.6207289119611 -73.6026375975063,-41.6203875897381 -73.6016660190218,-41.6204837848731 -73.6010336576659,-41.6205555103339 -73.6001133039089,-41.6206370345425</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, social; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6009546557321,-41.619854819671 -73.599634362242,-41.6200945106167 -73.5993728388839,-41.6199523383368 -73.5990898657143,-41.6198843606307 -73.5987204913589,-41.6198351839845 -73.5980470166601,-41.6197773335196 -73.5978215219104,-41.6198043654687 -73.597681461345,-41.6198572582279 -73.5976275877095,-41.6199012748804 -73.5975865103482,-41.6199653027347 -73.5975782840852,-41.6200396589599 -73.597576778595,-41.6201091334148 -73.597641513285,-41.6201744523139 -73.5978318475285,-41.6205490574064 -73.5979104021778,-41.6208925160168 -73.5980210569365,-41.6212810400625 -73.5980393401068,-41.621658509758 -73.5986106732249,-41.6215463467272 -73.5998770124009,-41.6217206205265 -73.6000814919797,-41.6217479301072 -73.6002545146019,-41.6217003996469 -73.6005343674265,-41.6215215379213 -73.6002294944086,-41.620936467821 -73.6000833067073,-41.6206487745865 -73.600113303548,-41.6206370346071 -73.6000877452419,-41.6206392984007 -73.5999940654533,-41.6202728231391 -73.600965867999,-41.6201088694128 -73.6009457492854,-41.6199967186464 -73.6009598157267,-41.6199877811433 -73.600990984279,-41.6199777313866 -73.6009483479566,-41.6198564626157 -73.6009546557321,-41.619854819671</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, social; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5978507642041,-41.6218513477016 -73.5975200820408,-41.6219073127244 -73.5959755170952,-41.6222633192745 -73.5960458475572,-41.6225342075206 -73.5962085003034,-41.6230381306995 -73.5962307571643,-41.6233783215227 -73.5961913148061,-41.6236351616251 -73.5960975652244,-41.6240533558106 -73.596569772432,-41.6241448966342 -73.597044812014,-41.6242225715382 -73.5971216878678,-41.6240141008561 -73.5972302369711,-41.623774993121 -73.5973939834393,-41.623373685163 -73.5975253824201,-41.6230340293674 -73.5976256110561,-41.6227017489756 -73.5977558312567,-41.6224163697366 -73.597836398631,-41.6220373138895 -73.5978507642041,-41.6218513477016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5957893621003,-41.6223061161604 -73.5953439971464,-41.6224049133406 -73.5950320859202,-41.6224507387101 -73.594608175966,-41.622475338733 -73.5946476809584,-41.6227885393067 -73.5946086858158,-41.6230610698523 -73.5945399337517,-41.6237899033004 -73.5949035754546,-41.623799313183 -73.5950551501872,-41.623825984939 -73.595911476764,-41.6239952898815 -73.5960261239815,-41.623589661269 -73.5960404895253,-41.6232324453033 -73.5959872121456,-41.6229438958236 -73.5957893621003,-41.6223061161604</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5958630416067,-41.6241299112541 -73.5953487839711,-41.6240251463809 -73.5949189757664,-41.6239309420652 -73.5945172113387,-41.6239101457625 -73.5944847539162,-41.6240399981587 -73.5944245788443,-41.6244713087295 -73.5943452639518,-41.625004043134 -73.5953595504632,-41.6250895100217 -73.5954341968284,-41.6249665265976 -73.5956595127389,-41.6245340565931 -73.5958630416067,-41.6241299112541</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, social; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5960613604797,-41.6241609251999 -73.5959998969033,-41.6242618324036 -73.5955668890843,-41.6250952205615 -73.5961497763699,-41.6251595241958 -73.5965584993916,-41.6252502896453 -73.5968068323811,-41.6247323245107 -73.5969589419073,-41.6243561407691 -73.5965162929726,-41.6242681392947 -73.5960613604797,-41.6241609251999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5953026519597,-41.6252238291444 -73.5948272146269,-41.625183271156 -73.5943717270342,-41.6251379914155 -73.5942437683547,-41.62585120902 -73.5942032598792,-41.6261932135127 -73.5941600185864,-41.626356488928 -73.5941129762811,-41.6265597456449 -73.5940443813651,-41.6267235924401 -73.5942291869775,-41.6268234445851 -73.59468065914,-41.626326521263 -73.5948244827545,-41.6261376710508 -73.5950982301722,-41.6256200204518 -73.5953026519597,-41.6252238291444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, social; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5965048122755,-41.6253830601751 -73.5959991470826,-41.6252720494983 -73.5955176397077,-41.6252185144178 -73.5953371997753,-41.6255339905104 -73.5951288095165,-41.62596666668 -73.5949138817309,-41.6263103117986 -73.5943635411159,-41.6268912925375 -73.5948069889144,-41.627138152622 -73.5953303836489,-41.6274082257705 -73.5958823054373,-41.6267541930976 -73.5959527888352,-41.6266279817045 -73.5962020279883,-41.6260687305485 -73.5965048122755,-41.6253830601751</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5940008302605,-41.6268572481712 -73.5939789368604,-41.6268671461401 -73.5939607831144,-41.6269543498891 -73.5938273163841,-41.6272353261252 -73.5941212809057,-41.6269258158298 -73.5940008302605,-41.6268572481712</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6009854262919,-41.6214000833872 -73.6005268069082,-41.6216832090639 -73.6002415243207,-41.6218444211657 -73.6000701182491,-41.6218768973099 -73.599934718857,-41.6218732149063 -73.5994189089997,-41.6217937367847 -73.598608583114,-41.6216761020447 -73.5983095081855,-41.621723284151 -73.5980534663735,-41.6217852225096 -73.5980337344621,-41.6219456015412 -73.5979970005767,-41.6221403369097 -73.5979209768647,-41.6223976209644 -73.5978373983771,-41.6226283817034 -73.5977416182377,-41.6229220214853 -73.5976803263999,-41.6231245897412 -73.5975514208732,-41.6234462894177 -73.5974377328859,-41.6236909145394 -73.5973436235048,-41.6239073142288 -73.5972554601452,-41.624099388479 -73.5971731107687,-41.6242732351751 -73.5976424883538,-41.6243704553226 -73.5979422590689,-41.6244168088671 -73.5982265689819,-41.6244263761874 -73.5986282892524,-41.6243946780458 -73.5989155282432,-41.6243941135734 -73.5993452428215,-41.6244461137437 -73.5996258324485,-41.6245023949503 -73.6002159916675,-41.6239016689695 -73.6005922887595,-41.6237923942159 -73.6011553719005,-41.623315356429 -73.6010919834229,-41.6232393579862 -73.6010770920495,-41.623176148755 -73.6010732275839,-41.6229788851173 -73.6010504162411,-41.6226553348831 -73.6010348683887,-41.6222464802701 -73.6010086609595,-41.6218293632373 -73.6009854262919,-41.6214000833872</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona 5</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6025476490009,-41.6235884711251 -73.6021372071319,-41.6235224852085 -73.601632304793,-41.62343908333 -73.6012865717011,-41.6233881137629 -73.6011553717323,-41.623315356748 -73.6008302116088,-41.6235908294172 -73.6008262539566,-41.6235941823037 -73.6005922882593,-41.6237923937849 -73.6002159913066,-41.6239016691595 -73.5996259484725,-41.6245022776774 -73.5997471646046,-41.6245303042779 -73.6000841598489,-41.6246096363011 -73.6007038851949,-41.6247717030631 -73.6013935204377,-41.6249590151391 -73.6017664809231,-41.6242519468048 -73.6023131966845,-41.624407017206 -73.6024586545843,-41.6239452253453 -73.6025400363184,-41.6236900366065 -73.6025476490009,-41.6235884711251</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de equipamiento 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, culto y cultura, deporte, educación, seguridad; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6023176665139,-41.6243928278302 -73.6023131970313,-41.6244070172477 -73.6017664805319,-41.6242519467219 -73.601393520234,-41.624959015551 -73.6020778734976,-41.6251401593564 -73.6021079799511,-41.6251262934055 -73.6021328879365,-41.6251021984205 -73.6023176665139,-41.6243928278302</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5942767731387,-41.6270029445846 -73.5941746824693,-41.6270870885726 -73.5939557622818,-41.6273100912492 -73.5932211485921,-41.6280696359359 -73.5939084393851,-41.6286148000562 -73.5939218525737,-41.6286210636264 -73.5943209934281,-41.6283352043118 -73.5945881944603,-41.6281351561161 -73.5952275065085,-41.6275208253016 -73.5952141816786,-41.6275104966455 -73.5942767731387,-41.6270029445846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5931666699204,-41.6282072238763 -73.5925447038531,-41.6288949491721 -73.5921080435779,-41.6294100894941 -73.5920661231916,-41.629468537552 -73.592538218559,-41.6298158902676 -73.5932236521973,-41.6303224056336 -73.5932697972145,-41.6303189041238 -73.5937843143724,-41.6298372425899 -73.5943904346087,-41.6292550411072 -73.5943882112067,-41.6292326491764 -73.5938482783176,-41.6287645177417 -73.5931666699204,-41.6282072238763</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5920124812995,-41.629567505155 -73.591640513186,-41.6299736456009 -73.5910484478932,-41.6306556294087 -73.5904576177679,-41.631404719376 -73.5902451145368,-41.6317050533914 -73.5913947674614,-41.6321745764078 -73.5921506377066,-41.631437669247 -73.592652554569,-41.6309131622767 -73.5931296824752,-41.6304066480254 -73.5920124812995,-41.629567505155</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de equipamiento 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, culto y cultura, deporte, educación, seguridad; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5945008991856,-41.6293391161317 -73.5940942243645,-41.6297375970405 -73.593580266256,-41.6302014766918 -73.5948068297622,-41.631239411897 -73.5953990266242,-41.6304873934082 -73.5952013256996,-41.6300370470355 -73.5950493898742,-41.6298191668286 -73.5945008991856,-41.6293391161317</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona 6</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.594110984216,-41.6306505829479 -73.5937109596848,-41.6310068084999 -73.5942751488824,-41.6315442374222 -73.5944843261839,-41.6316611607574 -73.5948068294041,-41.6312394118134 -73.594110984216,-41.6306505829479</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Áreas verdes públicas</SimpleData>
+		<SimpleData name="NOM">Áreas verdes públicas</SimpleData>
+		<SimpleData name="UPERM">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5935804404151,-41.630201623302 -73.5932213191312,-41.6305465326997 -73.5937109594424,-41.6310068084791 -73.5941109846136,-41.6306505832514 -73.5935804404151,-41.630201623302</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona 6</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5967725778132,-41.6329546181244 -73.5954431701969,-41.6306360516012 -73.5944972322379,-41.631826868613 -73.594791505877,-41.6320010202111 -73.595525992877,-41.6333062059328 -73.5967725778132,-41.6329546181244</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona 5</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.602685497807,-41.6236043792035 -73.6026097474685,-41.6238340949357 -73.6023967883318,-41.6247521257787 -73.6023156055193,-41.6250582271187 -73.6031339475247,-41.6251733307862 -73.6031364810151,-41.6251814942183 -73.6030755108276,-41.6253698371133 -73.6029913000505,-41.625505035322 -73.6029496114457,-41.6255533244458 -73.602833199026,-41.6256738989928 -73.6026238449619,-41.6258319735176 -73.6030249663801,-41.626204851604 -73.6033646174542,-41.6265383513008 -73.6040930007304,-41.6271917116552 -73.6041702928161,-41.6272516119931 -73.6042781743894,-41.6272752868743 -73.6043837415383,-41.6272806351129 -73.6044816198168,-41.6272655582998 -73.6045716776234,-41.6272361543358 -73.6046348197341,-41.6271982908942 -73.6046931572564,-41.6271319048517 -73.6047442440286,-41.6270247675598 -73.6047680644641,-41.6269254318903 -73.6047621726042,-41.6268216692089 -73.6047001353332,-41.6266826612181 -73.6043834825775,-41.6260363380529 -73.6039890736737,-41.6252264167313 -73.6039025607089,-41.6252172332672 -73.6039249006163,-41.6250609512683 -73.6037567539167,-41.6246909066816 -73.6034083471969,-41.6246378778429 -73.6035224200614,-41.6242488970495 -73.6035738466415,-41.6242515550344 -73.6033054837271,-41.6237542361506 -73.6032281087985,-41.6236984005278 -73.602685497807,-41.6236043792035</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6035738461199,-41.6242515545873 -73.6035224197892,-41.6242488968999 -73.6034083466246,-41.6246378778826 -73.6037567543205,-41.6246909068699 -73.6035738461199,-41.6242515545873</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6023192394831,-41.62505873862 -73.6022955599526,-41.625098077272 -73.6021903955478,-41.6254505682233 -73.6026238450568,-41.6258319739353 -73.6028331993009,-41.6256738992629 -73.6029496120468,-41.625553324378 -73.6029912995682,-41.6255050351044 -73.6030755105747,-41.625369836817 -73.6031364809137,-41.6251814942949 -73.6031339478097,-41.6251733311449 -73.6023192394831,-41.62505873862</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de equipamiento 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, culto y cultura, deporte, educación, seguridad; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6015985112259,-41.6251282285505 -73.6012923906966,-41.6258767728449 -73.6014844395387,-41.6257672860325 -73.601981317981,-41.6254703900548 -73.6020394370103,-41.625414168488 -73.6020679324217,-41.625349453949 -73.6020805250036,-41.6252682807007 -73.6020675508185,-41.6252416918165 -73.6015985112259,-41.6251282285505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6033814346845,-41.6267336251479 -73.6032531747634,-41.6268136792009 -73.6032530130097,-41.6268211722756 -73.6033659085898,-41.6268358687026 -73.603514793386,-41.6268801496816 -73.6035273767728,-41.6268628141446 -73.6033814346845,-41.6267336251479</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de equipamiento 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, culto y cultura, deporte, educación, seguridad; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6022327383656,-41.6256831074109 -73.6010921883728,-41.6263783972849 -73.6014118716341,-41.6266724603609 -73.601733685183,-41.6269483313489 -73.601744144282,-41.6269458561469 -73.6022457023773,-41.6268491602849 -73.6026353963091,-41.6267927413604 -73.6028696571376,-41.6267864806849 -73.6030359061812,-41.6267976100205 -73.6032819250328,-41.6266483569615 -73.6030524112653,-41.6264347696026 -73.6022327383656,-41.6256831074109</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6009457184045,-41.626244621729 -73.6011017372141,-41.6263725762612 -73.6022327448049,-41.6256831035444 -73.6020853449811,-41.625546882268 -73.6009457184045,-41.626244621729</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona 5</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6009457178372,-41.6262446215506 -73.6007016340744,-41.6263944626192 -73.5997297255991,-41.6269889952949 -73.5989897349098,-41.627444513684 -73.5987749403955,-41.6275928369443 -73.5986844866132,-41.6276854221081 -73.5985410181776,-41.6279035792825 -73.5983825078167,-41.628095528398 -73.5981859646464,-41.6282818085305 -73.5981346966012,-41.6283267259752 -73.5980487095084,-41.6284531968633 -73.5980569559329,-41.628472815776 -73.5986657800779,-41.6287092554993 -73.5988306937279,-41.6287021575466 -73.5990858805877,-41.628690954836 -73.5992045433347,-41.6286572681576 -73.599323881873,-41.6285923602723 -73.5994489286192,-41.6285040998302 -73.5996805118755,-41.6283013285744 -73.600084357669,-41.6279119779913 -73.6001947263238,-41.6277805976156 -73.6003371195742,-41.6276118716921 -73.6004892959768,-41.6274718915943 -73.6005441700571,-41.6274205108826 -73.600834386364,-41.6272327645911 -73.60095363626,-41.6271717575707 -73.601312246658,-41.6270290841187 -73.6017336849343,-41.6269483316779 -73.6014118717142,-41.6266724607486 -73.6010921879614,-41.6263783974062 -73.6011017372141,-41.6263725762612 -73.6009457178372,-41.6262446215506</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona 5</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6015985108225,-41.6251282282264 -73.6012428570972,-41.6250243572892 -73.600658319559,-41.6248689026533 -73.5997082002953,-41.6246179060717 -73.5995957037331,-41.624607426883 -73.5994886055432,-41.624587904807 -73.5992432019345,-41.6245484800277 -73.5990182655962,-41.6245249188778 -73.598711505388,-41.6245159743952 -73.5983364529662,-41.6245374256154 -73.5979879138563,-41.6245357770254 -73.5978096200406,-41.6245205897923 -73.5975072580464,-41.6244687554125 -73.5971258213421,-41.6243847257627 -73.5969795911231,-41.6247303671908 -73.5970453889835,-41.6247350740351 -73.5971472571626,-41.624755835774 -73.597323310101,-41.6247944186903 -73.5974026678922,-41.6248136042609 -73.5974282230126,-41.6248347356733 -73.5974347914583,-41.6248517317189 -73.5974515368519,-41.6248792617316 -73.5974510011096,-41.6249039784179 -73.5974071069774,-41.6250088417786 -73.5973346683405,-41.6252304667701 -73.5973074346351,-41.6253667627407 -73.5972985672639,-41.6255358134051 -73.597318822065,-41.6256414595935 -73.5974111051099,-41.6259444693211 -73.5974994984414,-41.6262669498283 -73.5975431803818,-41.6265719687987 -73.5975313808632,-41.626876310749 -73.597751983244,-41.6267801095339 -73.5980925996879,-41.6270679310658 -73.5983653317401,-41.6272872602114 -73.5986465093592,-41.6275171014565 -73.5986800437105,-41.6274901846657 -73.5987422206285,-41.6274466961065 -73.5995534567355,-41.6269387634214 -73.6003815430666,-41.6264342069302 -73.601292390281,-41.6258767725267 -73.6015985108225,-41.6251282282264</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.596980134584,-41.6247304056605 -73.5969289023859,-41.624828641316 -73.5968448902195,-41.6250241002714 -73.5967791461095,-41.6251768418571 -73.5966788025628,-41.6253928167459 -73.5971337059567,-41.6255024678423 -73.5971480492136,-41.6255576065352 -73.5971605247681,-41.6256476992806 -73.5971724768985,-41.6257619363173 -73.5971772573872,-41.625848604008 -73.5971717985982,-41.6259468056729 -73.5971728265183,-41.6260017818391 -73.5971798357577,-41.6260368442384 -73.5971836244376,-41.6260668706364 -73.5971882519907,-41.6261093990045 -73.5971930961512,-41.6261419366307 -73.597203741139,-41.6261628861072 -73.5972011789389,-41.626178677695 -73.5971927617602,-41.6262085551169 -73.5971886567233,-41.6262443146436 -73.5971851197967,-41.6263050645663 -73.5971895754156,-41.626406718361 -73.5971928948076,-41.6264583913627 -73.597185298407,-41.6265016033132 -73.597168500036,-41.6265596930256 -73.5971592258687,-41.6265779010345 -73.5971522251123,-41.6265936384449 -73.5971450979948,-41.6266152037867 -73.5971344614629,-41.6266450541132 -73.5971293189318,-41.6266774698435 -73.5971276497068,-41.6267032657119 -73.5971158578524,-41.6267863999833 -73.5971207200692,-41.6268181050473 -73.597128153037,-41.6268848183331 -73.5971174261915,-41.6269188314641 -73.5970868606819,-41.6269975726679 -73.5970761157422,-41.6270324183554 -73.5970522260202,-41.6271104082527 -73.5970177356574,-41.6272165833304 -73.5970048435686,-41.6272480716721 -73.596994315181,-41.6272729266105 -73.5969755137763,-41.6273209984519 -73.596958552499,-41.6273865811731 -73.5969147430218,-41.6274618295216 -73.5968946874133,-41.6275165482921 -73.5968600980108,-41.6275760863192 -73.5967387473906,-41.6276953581539 -73.5967251426724,-41.6277085165593 -73.5967115740634,-41.6277200098402 -73.5966987539497,-41.6277481678955 -73.5966808550688,-41.6277546116105 -73.5966585356371,-41.6277601685661 -73.5966417464005,-41.6277666258236 -73.5966170451307,-41.6277796487253 -73.5964807906416,-41.6278695909344 -73.5963742977693,-41.6279690570456 -73.5963078520238,-41.6280606127741 -73.5962364446369,-41.6281044701418 -73.5959230157263,-41.6282671979536 -73.5958953424127,-41.6283436319496 -73.5958306653439,-41.6284469395116 -73.5957821009361,-41.6285270219089 -73.5957287583782,-41.6285875275832 -73.595589920386,-41.6286717117745 -73.5954410177922,-41.6287401581442 -73.5953691106778,-41.6287770147918 -73.5953199413351,-41.6288050407403 -73.5952410704026,-41.6288431134185 -73.5951938325378,-41.6288620543704 -73.5951710381545,-41.6288734867494 -73.595151400763,-41.6288992711467 -73.595072416623,-41.6289425472092 -73.5949999723212,-41.6290041202608 -73.5949670677397,-41.6290817912909 -73.5949484295295,-41.6291414196192 -73.5949278879042,-41.6292088320017 -73.5949030591715,-41.6293139273833 -73.5949712168978,-41.6292900374105 -73.5951376576706,-41.6292126974884 -73.5953633884151,-41.6291204672841 -73.5955876105692,-41.6290178084282 -73.5957699370188,-41.62892764948 -73.5960751291815,-41.6287700263885 -73.596301478002,-41.628649175003 -73.5964900887825,-41.6285890197444 -73.5965838014651,-41.6285862604119 -73.5966825181862,-41.6285926706516 -73.5968432868646,-41.6286167542578 -73.5970801760018,-41.6286495741457 -73.5972391547192,-41.6286762377927 -73.597339774731,-41.6286748633688 -73.5973782015689,-41.6286623201117 -73.5974585229094,-41.6286372758748 -73.5975251143551,-41.6286055579361 -73.5976949899003,-41.6285295574185 -73.5978174872464,-41.6284790030787 -73.5978810053434,-41.6284290303349 -73.5979756901457,-41.6283013644509 -73.5980982851709,-41.6281662315921 -73.5983410634678,-41.6279271653773 -73.5984468259223,-41.6277684048617 -73.5985308520455,-41.6276523195189 -73.598611325683,-41.6275400944616 -73.5986465092392,-41.6275171016005 -73.5983653312998,-41.6272872602936 -73.5982556968105,-41.6271990929611 -73.5982540960074,-41.6271978056033 -73.5980925996019,-41.6270679306312 -73.5978923018114,-41.626898679278 -73.5978864253572,-41.626893713664 -73.5977519829814,-41.6267801093352 -73.5975313804086,-41.6268763111013 -73.5975407443511,-41.6266347877684 -73.5975407618029,-41.6266343376324 -73.5975431798596,-41.6265719685133 -73.5975008076493,-41.626276095448 -73.5974998216127,-41.6262692102056 -73.5974994979006,-41.6262669498064 -73.5974111056571,-41.6259444695409 -73.5973822527338,-41.6258497326298 -73.5973806406383,-41.6258444393992 -73.597318821761,-41.6256414597258 -73.597298566916,-41.6255358133857 -73.5973074342135,-41.6253667623666 -73.5973331902577,-41.6252378639912 -73.5973344984327,-41.6252313170239 -73.5973346683315,-41.6252304667388 -73.5974071071124,-41.62500884163 -73.5974510005965,-41.6249039781103 -73.5974515363369,-41.6248792615108 -73.5974347920055,-41.6248517319389 -73.5974282232691,-41.6248347358544 -73.5974026673553,-41.624813604458 -73.5973233104196,-41.6247944185826 -73.5971472566439,-41.6247558359263 -73.597045389279,-41.6247350736022 -73.596980134584,-41.6247304056605</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Zona 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, servicios, social; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5966928571892,-41.6253962046784 -73.5965890741929,-41.6255896923444 -73.5964722727649,-41.6258525768184 -73.5962617064132,-41.6263155987853 -73.5962071916491,-41.6264552209518 -73.5960510928621,-41.6267806529036 -73.5959535408015,-41.6269055171052 -73.595767400956,-41.6271167247517 -73.5955731326132,-41.6273278327603 -73.5953951175866,-41.627539139061 -73.595172740587,-41.6277966655006 -73.5949532033439,-41.628048126733 -73.5943945969851,-41.6284397955621 -73.5940171731392,-41.6287238876346 -73.5947916286514,-41.6293738037771 -73.5949030594296,-41.629313927506 -73.5949278882127,-41.6292088319738 -73.5949484291424,-41.6291414194413 -73.5949670674869,-41.6290817908509 -73.5949999727729,-41.629004120151 -73.5950724167602,-41.6289425471728 -73.5951514008703,-41.6288992715024 -73.5951710375672,-41.6288734869037 -73.5951938319937,-41.6288620547085 -73.5952410703386,-41.6288431131674 -73.5953199412364,-41.6288050410999 -73.5953691102354,-41.6287770143945 -73.5954410182373,-41.6287401577481 -73.5955899201195,-41.6286717115692 -73.5957287587578,-41.6285875278297 -73.5957821005132,-41.6285270216019 -73.5958306653737,-41.6284469398728 -73.5958953426822,-41.6283436315418 -73.5959230155756,-41.6282671981422 -73.5962364445816,-41.6281044705374 -73.5963078525816,-41.6280606124514 -73.596374297735,-41.6279690569579 -73.5964807912034,-41.6278695906184 -73.5966170448041,-41.6277796485116 -73.5966417469917,-41.627766626178 -73.5966585362114,-41.6277601687484 -73.5966808556117,-41.6277546119797 -73.5966987537542,-41.6277481680838 -73.5967115743439,-41.6277200095289 -73.5967251426883,-41.6277085166195 -73.5967387471574,-41.6276953578672 -73.5968600985877,-41.6275760861917 -73.5968946879436,-41.6275165484183 -73.596914743295,-41.6274618293524 -73.596958552966,-41.6273865807396 -73.5969755137344,-41.6273209984538 -73.5969943155999,-41.6272729264976 -73.5970048434944,-41.6272480715841 -73.5970177360512,-41.6272165831071 -73.5970522258952,-41.6271104079746 -73.5970761155799,-41.6270324185339 -73.5970868612224,-41.6269975730784 -73.5971174259937,-41.6269188310627 -73.5971281535343,-41.6268848185228 -73.5971207203357,-41.6268181053165 -73.5971158581288,-41.6267864001116 -73.5971276494886,-41.6267032659372 -73.5971293191994,-41.6266774697464 -73.5971344612363,-41.6266450544104 -73.5971450984829,-41.6266152037694 -73.5971522248793,-41.6265936380853 -73.5971592260993,-41.6265779010604 -73.5971685004913,-41.626559693257 -73.5971852983615,-41.6265016036105 -73.5971928952483,-41.626458390999 -73.5971895751365,-41.6264067182324 -73.5971851202392,-41.6263050647523 -73.597185231818,-41.626303148155 -73.5971886569254,-41.6262443147217 -73.5971927622011,-41.6262085550621 -73.5972011791372,-41.6261786773139 -73.5972037410862,-41.6261628861029 -73.5971930961116,-41.6261419366523 -73.5971882519493,-41.6261093994265 -73.5971836244098,-41.6260668707509 -73.5971798362224,-41.6260368440356 -73.5971728260277,-41.626001781848 -73.5971717983566,-41.6259468053925 -73.5971772573828,-41.6258486036719 -73.5971724764122,-41.6257619364426 -73.5971605252722,-41.6256476988385 -73.5971480494776,-41.6255576069219 -73.5971337055261,-41.6255024679282 -73.5966928571892,-41.6253962046784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5931051481077,-41.6306426006074 -73.5927890914769,-41.6309510497042 -73.5919834704437,-41.631779860333 -73.5914544298404,-41.632351556893 -73.5912822487992,-41.6322859104523 -73.5908904755963,-41.6329704749866 -73.5908367008896,-41.6331064183727 -73.5904627509339,-41.6337499013676 -73.5914848199998,-41.6340674051081 -73.5912242048154,-41.6347567546698 -73.5904996451016,-41.6367206672347 -73.5906944580302,-41.6367198794535 -73.5918044057664,-41.634279600665 -73.5927147619725,-41.6322754641994 -73.5927634382919,-41.6321668574421 -73.5936281125613,-41.6311169830662 -73.5931051481077,-41.6306426006074</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona 6</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5913292678167,-41.6323038368321 -73.590157751741,-41.6318122791356 -73.588653207747,-41.6340572881729 -73.5875724426396,-41.6356770879121 -73.586984488443,-41.6365434820819 -73.586893399045,-41.6367756587139 -73.5868768081919,-41.6369293311816 -73.5868939425758,-41.637053635774 -73.5871648360564,-41.6376774357578 -73.5896203761995,-41.6367346992897 -73.5904996455154,-41.636720667203 -73.5912242042457,-41.634756754278 -73.5914848203178,-41.6340674047384 -73.5904627510694,-41.633749901042 -73.5908367007332,-41.6331064180293 -73.5908904755792,-41.6329704747876 -73.5912822493387,-41.6322859102052 -73.5913292678167,-41.6323038368321</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona 6</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5985548874387,-41.6297159920482 -73.5984118633801,-41.6297966845584 -73.5983474032615,-41.6298403737997 -73.5981706108239,-41.6299875276746 -73.5980237248718,-41.6301223388418 -73.5979119424517,-41.6302003954834 -73.5978346444788,-41.6302502814388 -73.5973962890861,-41.6303529442529 -73.5970718833293,-41.6304728804176 -73.5966234437755,-41.6304546984266 -73.596085487916,-41.6304640125537 -73.5960436387777,-41.630441263691 -73.5957957436999,-41.6303524614261 -73.5957195469656,-41.6303515304592 -73.5955390382872,-41.6302794350126 -73.5955309856787,-41.6302602757557 -73.5954715243234,-41.630244260734 -73.5960744669827,-41.6314230756723 -73.5968657682286,-41.6328177482794 -73.5968804599329,-41.6328148789981 -73.5985843185514,-41.6324161529307 -73.5985666045465,-41.6307894139907 -73.5985548874387,-41.6297159920482</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5906305152072,-41.6368364385825 -73.5896774219225,-41.6368495657452 -73.5872218781693,-41.6377923033589 -73.5873484343961,-41.6380569380639 -73.589711052289,-41.6371279488384 -73.5905182957735,-41.6371279240923 -73.5906305152072,-41.6368364385825</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">Zona Actividades Productivas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, seguridad, actividades productivas (solo inofensivas), transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5905182962201,-41.6371279238035 -73.5897110519894,-41.6371279484463 -73.5873484346825,-41.6380569385005 -73.5887106926528,-41.6411263835325 -73.5898189098129,-41.6406783577351 -73.5901134466749,-41.6405231312193 -73.5904171933018,-41.6402488867804 -73.5906679070478,-41.6399789549579 -73.5907762383978,-41.6398661169717 -73.590838154511,-41.6397576735375 -73.5901993297701,-41.6384046611661 -73.5901482313546,-41.6380168613377 -73.5903030646359,-41.6375918775035 -73.5905182962201,-41.6371279238035</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">Zona Actividades Productivas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, seguridad, actividades productivas (solo inofensivas), transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5909635938454,-41.6366119911894 -73.590916263682,-41.6366463557694 -73.590685600271,-41.6371264018664 -73.5903561177834,-41.6378657334116 -73.5903216368237,-41.6380876867883 -73.5903417778917,-41.6383293709483 -73.5909783715758,-41.6396269596871 -73.5910336179012,-41.6396181065826 -73.5920955491053,-41.6390815333601 -73.5922799492876,-41.63897578082 -73.5923143719786,-41.6389507880127 -73.5923707754806,-41.6386941577069 -73.5923953309029,-41.6385387950433 -73.5919158934733,-41.6378022570542 -73.5914593092239,-41.6371835388775 -73.5911173989424,-41.6367441257426 -73.5909635938454,-41.6366119911894</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona 6</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5945014703408,-41.6318293767407 -73.5941923305042,-41.6316375121181 -73.5931350167814,-41.6330274528754 -73.5934562244277,-41.6331590097449 -73.5938117105771,-41.632686412044 -73.5944972322379,-41.631826868613 -73.5945014703408,-41.6318293767407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.76">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5924163461027,-41.6350564841155 -73.5920848987933,-41.6349562579339 -73.591718543816,-41.6348541779685 -73.5916783109638,-41.6349594090838 -73.5915218137743,-41.6353010946484 -73.5913167312873,-41.6357580743531 -73.5912289314671,-41.6359318495484 -73.590998042715,-41.6364535732676 -73.5911717673508,-41.6365654933303 -73.59134962778,-41.6367364253246 -73.5916541656527,-41.6371133342579 -73.5920304907303,-41.6360718846412 -73.5923842102626,-41.6351400681348 -73.5924163461027,-41.6350564841155</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.77">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona 6</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, culto y cultura, deporte, esparcimiento, servicios, social; Infraestructura: transporte (sólo terrestre); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5917187745214,-41.6348542420619 -73.5920848987329,-41.6349562581529 -73.5924163465695,-41.6350564839191 -73.5926626756138,-41.634415783235 -73.5927613610724,-41.6341906947796 -73.592127851274,-41.634010556421 -73.5917187745214,-41.6348542420619</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.78">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5941923309446,-41.6316375122803 -73.5937433573578,-41.6312208452738 -73.5929342273945,-41.632223549855 -73.5928083660428,-41.6325347259169 -73.5924829074658,-41.6332008484295 -73.5921278515056,-41.63401055616 -73.5927613606848,-41.6341906945507 -73.5928593590529,-41.6339671726738 -73.5932862821427,-41.6333849368642 -73.5934562251347,-41.6331590101642 -73.593135017158,-41.6330274524637 -73.5941923309446,-41.6316375122803</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.79">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6048454358716,-41.6272113523426 -73.6048008700047,-41.627223728711 -73.6047408260037,-41.6272737474864 -73.6046318420541,-41.6273413891941 -73.6045183578321,-41.6273764456007 -73.6043809085785,-41.6273968974513 -73.6042613587604,-41.6273915420608 -73.6041422580043,-41.627365372444 -73.6040627961714,-41.6273356991523 -73.6039850655266,-41.6272961250136 -73.6039292270441,-41.6272466509422 -73.6038224860468,-41.6271701274354 -73.6036834994147,-41.6270810131297 -73.6034793634993,-41.6269972065533 -73.6032367744225,-41.62693733023 -73.6030477091351,-41.6269086013493 -73.6026275381657,-41.6269156926492 -73.6020511489545,-41.6270042419831 -73.6014306219924,-41.627128848213 -73.6011577795565,-41.6272149868505 -73.6008206931645,-41.6273898017799 -73.6005508490065,-41.6275877992279 -73.600368795541,-41.6278064343076 -73.600204574886,-41.6279600981119 -73.5998881535063,-41.6282832013327 -73.5997800777848,-41.6283937084587 -73.5995508634556,-41.6285921984804 -73.5992953482612,-41.6287537706485 -73.5991290775964,-41.6287985068278 -73.5988414228545,-41.6288173651293 -73.5986003079396,-41.6288144254396 -73.5979419387108,-41.6285583506238 -73.5974850613085,-41.6287581253626 -73.5973107501267,-41.6287986944716 -73.5969917311603,-41.6287643032342 -73.5967757484442,-41.6287271028102 -73.5964807597395,-41.6287092688063 -73.5963220856182,-41.6287784915841 -73.5960725976277,-41.6289116659427 -73.5958422492144,-41.6290369409525 -73.5951908925671,-41.6293319219652 -73.5951489308508,-41.6293924038111 -73.5951301158077,-41.6295100969998 -73.5952028833934,-41.6296533075057 -73.5954715248311,-41.6302442605572 -73.5955309850921,-41.6302602755286 -73.5955390387135,-41.6302794353016 -73.5957195472138,-41.6303515301913 -73.5957957435615,-41.6303524611535 -73.5960436382385,-41.6304412634286 -73.5960854876859,-41.6304640127327 -73.5966234443638,-41.6304546980456 -73.5970718829606,-41.6304728806611 -73.5973962892213,-41.6303529443806 -73.5978346439451,-41.6302502811056 -73.5979119427282,-41.6302003953179 -73.5980237252598,-41.6301223385302 -73.5981706106118,-41.6299875274984 -73.5983474030268,-41.6298403740306 -73.5984118630227,-41.6297966848132 -73.5985548877986,-41.6297159920675 -73.5985546880452,-41.6296977253815 -73.5990586424786,-41.6294176425721 -73.5991100428714,-41.6294328224848 -73.5991710869633,-41.6294505463809 -73.5993067335627,-41.6294570507185 -73.5994915973295,-41.6294301958101 -73.5996730936156,-41.6292601857636 -73.6000078656118,-41.6290289760308 -73.6000703788189,-41.6289787987837 -73.6003170400588,-41.6287853248439 -73.6003799724768,-41.6287157470969 -73.600384201253,-41.6286697110271 -73.6005176831322,-41.6284833005308 -73.6005802565815,-41.6283645260397 -73.6006446626849,-41.628256640688 -73.6006873434245,-41.6281966157338 -73.6007384992977,-41.628127379875 -73.600771003588,-41.628059469721 -73.6008534010539,-41.6278850492938 -73.6008997819413,-41.6278452511332 -73.600935853502,-41.6278037746659 -73.6010033562115,-41.6277440517366 -73.6010833701137,-41.6276798244624 -73.6012637810938,-41.6275655884597 -73.6014028873804,-41.627447745765 -73.6014990131062,-41.6274038951892 -73.6015446552748,-41.627398240265 -73.6018485278209,-41.6274112521793 -73.6019727741035,-41.6274065541603 -73.6021490348544,-41.6273885161704 -73.602255536289,-41.627343239255 -73.602390101176,-41.6272439682654 -73.6024471921798,-41.6271872225588 -73.6025930955699,-41.6271377669448 -73.6026492465776,-41.6271244780741 -73.602736058297,-41.6271286381706 -73.6031700129458,-41.6271540947929 -73.6034219712684,-41.6271757856755 -73.6035342329335,-41.627247008407 -73.6035907446126,-41.627312896216 -73.6036962314011,-41.6274104276958 -73.6037769716398,-41.6274083038655 -73.6038624180731,-41.6273798459266 -73.6038994502088,-41.6273896098303 -73.6040218140769,-41.6275680724677 -73.6040909392959,-41.6276247991605 -73.604183320384,-41.6276585217159 -73.604261924923,-41.6276594762992 -73.6043263510479,-41.6276462871012 -73.6044284790426,-41.6276118210278 -73.6044781575735,-41.6276108723354 -73.6045917265981,-41.6276215652939 -73.604650048307,-41.6276036443147 -73.6046860169418,-41.6275668228963 -73.6047400726119,-41.6274588104544 -73.6048358744419,-41.6272379767776 -73.6048454358716,-41.6272113523426</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.80">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZPL</SimpleData>
+		<SimpleData name="NOM">Zona de playa</SimpleData>
+		<SimpleData name="UPERM">Infraestructura: transporte (sólo recintos marítimos o portuarios</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6095714482014,-41.6146848604321 -73.6095905918422,-41.6145816579338 -73.6095351340966,-41.6144548527439 -73.6094840554976,-41.6144251270413 -73.6094325092895,-41.6144172267199 -73.6092973617317,-41.6143889093996 -73.6090492172949,-41.6143543725008 -73.6088468352254,-41.6142961332147 -73.6086907368565,-41.6141899405584 -73.6086526883693,-41.6141555210633 -73.6085826395465,-41.6141061598385 -73.6085068580064,-41.6140227702414 -73.6084760033603,-41.6139544779478 -73.6084234146886,-41.6138446868665 -73.6083680131687,-41.6137154562147 -73.6083470612264,-41.6136375805843 -73.6083390877879,-41.6135574374157 -73.6083150610249,-41.6134722487289 -73.6082627724966,-41.6134567703502 -73.6081712435169,-41.6133842503952 -73.608107733405,-41.6133555381453 -73.6080017943789,-41.613375989004 -73.6079167021022,-41.6133889300516 -73.6078240700746,-41.6134638772796 -73.6077393438474,-41.6135559964828 -73.6076845720544,-41.6136019053003 -73.6076631230557,-41.6136373517589 -73.6076566514071,-41.6136496921564 -73.607669725956,-41.6137150527952 -73.6076342008959,-41.613731698748 -73.6075340639003,-41.613770848544 -73.6075127495184,-41.6138000863074 -73.6075140156596,-41.6138373598225 -73.6075465052271,-41.6138656975048 -73.6075996749314,-41.6138942847996 -73.6076487754258,-41.613919718079 -73.6076500416458,-41.613956991593 -73.6076204873772,-41.6139845776617 -73.6075871976913,-41.6139934884829 -73.6075350269934,-41.6140145902515 -73.6074746175845,-41.6140340402846 -73.607330849567,-41.6140819762886 -73.6072510258942,-41.6141384482436 -73.6072335455613,-41.614181704 -73.6071876472395,-41.6141997769154 -73.6071482194983,-41.6142055094326 -73.6071089587525,-41.6142034808648 -73.6069673932814,-41.6141489826767 -73.6069284999741,-41.6141298822132 -73.6067496771563,-41.6140764849946 -73.6065664501374,-41.614035453797 -73.606521385802,-41.6140147255849 -73.6063605749027,-41.6139894893062 -73.6062553682707,-41.613975794853 -73.6061646395738,-41.6139622749713 -73.6060364838103,-41.6139576161146 -73.6058894802113,-41.6139635954038 -73.6058456490954,-41.613981692856 -73.6058242324024,-41.6140155865581 -73.6058606568021,-41.6140532856336 -73.6059039531516,-41.6140600210714 -73.6060112272502,-41.6140737409204 -73.6060476517728,-41.6141114408389 -73.6060180967602,-41.6141390264832 -73.6058793994429,-41.6141435536959 -73.6058192568618,-41.614150586402 -73.6057305954365,-41.6141370912525 -73.6056827272045,-41.6141504830741 -73.6056262203686,-41.6141808454643 -73.6055625434846,-41.614159891983 -73.6054812223487,-41.6140937031339 -73.6053769197749,-41.6140381031781 -73.605265675886,-41.6140165714719 -73.6052093695989,-41.6140376228995 -73.6051648682095,-41.6140867598318 -73.605149053803,-41.6141486645681 -73.6050324709066,-41.6141829559995 -73.6049127206933,-41.6141721876058 -73.6048325322009,-41.6141494805115 -73.6047156201246,-41.6141030409925 -73.6046440061305,-41.6140664662657 -73.604586500879,-41.6140471390649 -73.6045386325097,-41.6140605295071 -73.6045274219492,-41.6141007562684 -73.6044503671075,-41.6141246601138 -73.6043195140966,-41.6140532115487 -73.6042719133701,-41.6140541863404 -73.6042509643366,-41.6140663516434 -73.6042235441509,-41.6140908571495 -73.604185648202,-41.614121445729 -73.604145919091,-41.6141411442425 -73.6040818746002,-41.6141372617627 -73.6040160639319,-41.6141193862089 -73.6039916147672,-41.6141020120793 -73.6039360097377,-41.6140904698259 -73.6038654928804,-41.6140989283018 -73.6037662569843,-41.6140961700841 -73.6037521485343,-41.6140789224171 -73.6037570879905,-41.6140417242519 -73.6038221700794,-41.6139974944578 -73.6038209395476,-41.6139586685436 -73.6037718405731,-41.6139332336517 -73.6037243750537,-41.6139279995641 -73.6036722701511,-41.6139459956768 -73.6035844058335,-41.6139915014059 -73.6034740258849,-41.6140258657138 -73.6034500791439,-41.6139852118947 -73.6034881750389,-41.6139453118957 -73.6034536533068,-41.6139153964824 -73.603379201495,-41.6139144918579 -73.6033321043677,-41.6138921857998 -73.6033008480835,-41.6139026728845 -73.6032693920717,-41.6139224716252 -73.6032543461274,-41.6139486800665 -73.6032332964711,-41.6139655014569 -73.6032246213734,-41.6139840251196 -73.6032035059412,-41.6140039495015 -73.6031759502189,-41.6140346634044 -73.603118043554,-41.614033959675 -73.6030668427176,-41.614010050837 -73.6029499991945,-41.6139605056613 -73.6028309197538,-41.6139186953812 -73.6027909893633,-41.613947705971 -73.6028834509131,-41.613976773063 -73.602909331901,-41.6140236608045 -73.6028711351093,-41.6140682168791 -73.6028693344868,-41.6140557753033 -73.6028472892348,-41.614022906666 -73.6028151031693,-41.6139805997641 -73.6027740768225,-41.6139645766666 -73.6026756787476,-41.613923017628 -73.6025220782996,-41.613851291381 -73.6024370179077,-41.6138626768528 -73.6023407558485,-41.613818037902 -73.6022905517121,-41.6138438186933 -73.6022960190711,-41.6138780386466 -73.6023411489503,-41.613895663711 -73.6023282035444,-41.6139203456739 -73.6022246309265,-41.613926848383 -73.6021949068472,-41.6139621922756 -73.6022088472837,-41.6139872002823 -73.6023740180021,-41.6140978785998 -73.6024247160314,-41.6141450673092 -73.6024508301014,-41.6141810910963 -73.6023988598847,-41.6141928788728 -73.6023643385556,-41.6141629622389 -73.6022194121031,-41.6140727119794 -73.6020635768332,-41.6140087201368 -73.6019876273706,-41.6139814051205 -73.6017537636021,-41.6139863226112 -73.6016819838281,-41.6139575062191 -73.6015882924803,-41.6138896122367 -73.6015108783123,-41.613834335012 -73.6014081440695,-41.6138020371233 -73.6013523721406,-41.6137982528824 -73.6012983669698,-41.6138084635019 -73.6012565686011,-41.6138281358342 -73.6012084997111,-41.6138508374388 -73.601142085282,-41.6138608960663 -73.6010922160526,-41.6138711560231 -73.6010226608416,-41.613930854207 -73.6009989059336,-41.6139771373295 -73.6009960323083,-41.6140143605156 -73.6009829534035,-41.6140452500933 -73.6009494939054,-41.6140619191132 -73.6008977248095,-41.6140643936675 -73.60086409873,-41.6140888237275 -73.6008553223183,-41.6141120025701 -73.6008236641827,-41.6141411131679 -73.6007879694237,-41.6141655180229 -73.6007409946345,-41.6142332522 -73.6007339512587,-41.6142719774145 -73.6007252766073,-41.6142905008905 -73.6006935835861,-41.6143211629244 -73.600659755999,-41.6143549045592 -73.6006405057658,-41.6143841661639 -73.6006070795454,-41.6143992835896 -73.6003820784062,-41.6144726122079 -73.6001671501527,-41.6145584836457 -73.6001063017967,-41.6145981054243 -73.5999782659159,-41.6146834810622 -73.5998003607563,-41.6147791168467 -73.5995560058025,-41.6148863615241 -73.5994268078748,-41.6149298076331 -73.5993761987486,-41.6149742112814 -73.5993403014976,-41.6150079273004 -73.5991987945215,-41.6150465656579 -73.5991277734664,-41.6150783007439 -73.599016247293,-41.6151654293106 -73.5989592650062,-41.6152175172803 -73.5988280309885,-41.6152593850933 -73.5987037083157,-41.6152687363595 -73.5985873205707,-41.6152937086177 -73.598362482133,-41.615359273947 -73.5981404513802,-41.6153907196251 -73.5978994027793,-41.6154405610576 -73.5978251186928,-41.6154318926853 -73.5976968936352,-41.6154303283694 -73.5976221712575,-41.6154418363904 -73.597487842333,-41.6154355398742 -73.5972681138227,-41.6154561450717 -73.5971330112561,-41.615485544948 -73.596982422406,-41.6155613278633 -73.5968425453768,-41.615620164172 -73.596766292314,-41.6156068144857 -73.5966979089486,-41.6156121890021 -73.5965921972418,-41.6156217651998 -73.5965523976403,-41.615644565807 -73.5965290090573,-41.6156737761786 -73.5963216217101,-41.6156976349476 -73.5960943940074,-41.6156824400668 -73.5958726966371,-41.6156983610491 -73.5955717238252,-41.6156496635761 -73.5954193192926,-41.6156183053155 -73.5953882642076,-41.6156194786111 -73.5951495846007,-41.6156553716346 -73.5950541798102,-41.6156666251898 -73.5949819970284,-41.6156564287676 -73.5949264934727,-41.6156402259051 -73.5948608849196,-41.6156130325998 -73.5947291974601,-41.6155803738918 -73.5947115448841,-41.6157096059217 -73.5949524458098,-41.6157045456265 -73.595252766584,-41.615700210147 -73.5957003057023,-41.6157239774408 -73.5960136696082,-41.6157506787505 -73.5961887587962,-41.6157585358416 -73.5965137300381,-41.6157419190272 -73.5967105704209,-41.6157305985177 -73.5970423297194,-41.6156820397758 -73.5974107043307,-41.6156316400255 -73.5978325028908,-41.6155773171022 -73.5980832623552,-41.6155392042145 -73.5986824675991,-41.6154076284749 -73.5990093999173,-41.6152650834143 -73.5993003896276,-41.6151328203849 -73.5998137939794,-41.6148460147939 -73.600278616112,-41.6146032888463 -73.6005097004075,-41.6144881629821 -73.6007811368796,-41.6143788888179 -73.600783169919,-41.6143949963813 -73.6010526133505,-41.6143496950208 -73.6010559504502,-41.6143491339518 -73.6017940856774,-41.6142250281225 -73.6022844210328,-41.6144543624523 -73.6023317231447,-41.6144692334888 -73.6023722318474,-41.6144679390855 -73.6024104370972,-41.6144630427006 -73.6025524723407,-41.6143915034947 -73.6027399311661,-41.6144224038644 -73.6027414488394,-41.6144226537925 -73.6033616135213,-41.6145361380636 -73.6033613543112,-41.6145353576139 -73.6035515401821,-41.6144393854239 -73.6036032569296,-41.614470392389 -73.6036258769975,-41.6144152708269 -73.6036546753655,-41.6144048988074 -73.6036813231319,-41.6143837796776 -73.6037943346517,-41.6143852966185 -73.6037935917236,-41.6143812344647 -73.6039758547682,-41.6143834483077 -73.6040195259179,-41.6143972927922 -73.6040606135985,-41.6143734324977 -73.604346429482,-41.6143859499284 -73.6044658445334,-41.6144115547012 -73.604489246127,-41.6144118388261 -73.6045120835667,-41.6143930853032 -73.6049091934079,-41.6143861950687 -73.6050096902658,-41.6143844866446 -73.60511760587,-41.6144458159677 -73.6054526851197,-41.6145113642693 -73.6057945912896,-41.6145769953052 -73.6061890000545,-41.6145144400336 -73.606220407073,-41.6145053059353 -73.6063380712421,-41.614514858143 -73.606377114439,-41.6145180277191 -73.6070577360641,-41.6145732792657 -73.6072902223029,-41.6145906877545 -73.6077622968796,-41.6146191412682 -73.6077612522757,-41.6146148638219 -73.6082377394634,-41.6146249973444 -73.6093927765987,-41.6146989564768 -73.6093899209624,-41.6147031615021 -73.6095662034329,-41.6147131346788 -73.6095696122968,-41.6146947576919 -73.6095714482014,-41.6146848604321</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.81">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Áreas verdes públicas</SimpleData>
+		<SimpleData name="NOM">Áreas verdes públicas</SimpleData>
+		<SimpleData name="UPERM">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5959232150527,-41.6160643330197 -73.5947704026665,-41.6160014488163 -73.5946858618886,-41.6160268463175 -73.5946907936834,-41.6160492714041 -73.5947816510943,-41.616107310789 -73.5958992722151,-41.6162937879116 -73.5959402102939,-41.6162800558663 -73.5959578980135,-41.6160891546462 -73.5959232150527,-41.6160643330197</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.82">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Áreas verdes públicas</SimpleData>
+		<SimpleData name="NOM">Áreas verdes públicas</SimpleData>
+		<SimpleData name="UPERM">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5945581682961,-41.6158674285089 -73.5945735650996,-41.6157682374812 -73.5945709969183,-41.6157151560577 -73.5945715424032,-41.6156900333436 -73.5945575119878,-41.615650771632 -73.594270550302,-41.6156723917874 -73.5942322616974,-41.6157221822727 -73.5941556728005,-41.6157401195854 -73.5940825339819,-41.6157088472577 -73.5938570880935,-41.6157829285962 -73.593724912333,-41.6158384939186 -73.5935511785635,-41.6159435859649 -73.5934566266521,-41.6160210550897 -73.5934468323263,-41.6160334440811 -73.5936395468771,-41.616041163169 -73.5937095547336,-41.6159973452844 -73.593916707117,-41.6159980926409 -73.5939919551555,-41.6160419006233 -73.594158172324,-41.6160635896321 -73.5941817061394,-41.6160369464196 -73.5942874304637,-41.616034173155 -73.5944139689496,-41.615946261504 -73.5945581682961,-41.6158674285089</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.83">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZPL</SimpleData>
+		<SimpleData name="NOM">Zona de playa</SimpleData>
+		<SimpleData name="UPERM">Infraestructura: transporte (sólo recintos marítimos o portuarios</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5942882562073,-41.6155639617285 -73.5942806789987,-41.615562470577 -73.5940605109778,-41.615603245226 -73.5938335659564,-41.6156703277991 -73.5936288638624,-41.615760968644 -73.5934317251956,-41.6158843023227 -73.5932700157109,-41.6159956495986 -73.5932001800172,-41.61606775924 -73.5931210164511,-41.6160931815445 -73.5930256793952,-41.616101328645 -73.5929877770525,-41.6161319134211 -73.5930199564688,-41.6161742220614 -73.5930545756594,-41.6161994851886 -73.5930996033149,-41.6162217701142 -73.5931258153484,-41.6162531397015 -73.5931458226091,-41.616284432436 -73.5931508118286,-41.616340380704 -73.5931635010953,-41.6164228144713 -73.5931135046533,-41.6165339769094 -73.5931107950186,-41.6165634396887 -73.5931110083001,-41.6166488254425 -73.5931240349131,-41.6167157389679 -73.5931200096204,-41.61680573033 -73.5930949323128,-41.6169125402738 -73.5931045312189,-41.6169468103032 -73.593120436189,-41.6169765018296 -73.5931195253629,-41.6170184054007 -73.5931039010892,-41.6170709966541 -73.5930838020285,-41.6171390575012 -73.5931676200549,-41.617185102863 -73.5931856035786,-41.6173095170364 -73.593190088078,-41.6173887456706 -73.5932149501156,-41.6174821943865 -73.5932419820988,-41.6175710139648 -73.5932440621664,-41.6176285065479 -73.593244226837,-41.6176330580027 -73.5932484440506,-41.6177496205955 -73.5932672348217,-41.6178389499694 -73.5932725964745,-41.6175859654951 -73.5932482925008,-41.6174008960147 -73.593247037044,-41.6173913359579 -73.5932460361881,-41.6173837146351 -73.5932147280827,-41.6169616091722 -73.5931951660501,-41.6167905543962 -73.5931948428261,-41.6167877280471 -73.5931787099077,-41.6166466629039 -73.5931801357071,-41.6164715583081 -73.5931855826405,-41.6163304555088 -73.5931877570467,-41.6162304122482 -73.5932426551159,-41.6161149323868 -73.5933958569769,-41.6159684890505 -73.5936397928272,-41.6158106477824 -73.593713017133,-41.615777520345 -73.5937145499579,-41.6157768268782 -73.5939026934641,-41.6156917084212 -73.594068309363,-41.6156445564076 -73.5943651021679,-41.615592147843 -73.5943835542894,-41.6155819344461 -73.5943816144379,-41.6155823340499 -73.594311224168,-41.6155684816888 -73.5942882562073,-41.6155639617285</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.84">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZPL</SimpleData>
+		<SimpleData name="NOM">Zona de playa</SimpleData>
+		<SimpleData name="UPERM">Infraestructura: transporte (sólo recintos marítimos o portuarios</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5932702695614,-41.6179590836042 -73.5932703737875,-41.6179687986125 -73.5932704402254,-41.6179749913503 -73.5932477675226,-41.6180663063682 -73.5932460134072,-41.6181470105314 -73.5932513848924,-41.6182805843944 -73.5932429209438,-41.6183844929826 -73.5932655134301,-41.6184872297774 -73.5932817660397,-41.6185960974589 -73.5932614317149,-41.6186750223161 -73.5932461205135,-41.6188083430287 -73.5932407470176,-41.6189604144257 -73.5932357609267,-41.6190146283578 -73.5932353275967,-41.6190193399646 -73.5931886798648,-41.6190715515002 -73.5931418621712,-41.6191315231184 -73.5931133548637,-41.6192056895121 -73.593130585728,-41.6192695497793 -73.5931541229497,-41.6193288297442 -73.5931774915299,-41.6193958698219 -73.5931683079508,-41.6194376730199 -73.5931473888606,-41.6194482838445 -73.5930532277216,-41.6194021109658 -73.5930174259365,-41.6194311686447 -73.5930227526167,-41.6194715966566 -73.5930638148344,-41.6194860717686 -73.5930869134766,-41.6195655273293 -73.5931465224969,-41.619583334128 -73.593189956033,-41.6195838657521 -73.5932140331805,-41.6196183138688 -73.5932116607846,-41.6196322563991 -73.593209357056,-41.619643095077 -73.5932177756275,-41.6197316859096 -73.5932058822528,-41.619802951872 -73.5932096584119,-41.6199147724264 -73.593165177601,-41.6199623529757 -73.593148169357,-41.6200785757143 -73.5931742479825,-41.6201161530278 -73.5931779795266,-41.6201348277567 -73.5931749672945,-41.620178258382 -73.5931347913424,-41.6202181303273 -73.5931688054525,-41.6202713282353 -73.5932056306107,-41.6202904080231 -73.5932107660413,-41.6203085800411 -73.5932145820928,-41.6203220833539 -73.5932267620787,-41.6203651828811 -73.5932695888965,-41.6203936510828 -73.5933060768064,-41.6204282510728 -73.5933176426935,-41.6204672026289 -73.5933884486935,-41.6205410325998 -73.5933502402633,-41.6205855852844 -73.5933519717348,-41.6206011308365 -73.5933608291135,-41.6206695460668 -73.5933983391498,-41.6207522826146 -73.5935045194902,-41.6209119294036 -73.5936002911837,-41.6210745525208 -73.5937545262309,-41.621307750486 -73.5937815499566,-41.6213018717324 -73.5938107087739,-41.6212929135015 -73.5938332575913,-41.6213025043478 -73.5938515025539,-41.6213198038155 -73.5938592696514,-41.6213431853788 -73.5938597535474,-41.6214161547101 -73.5938271095281,-41.6214285763009 -73.5938269240319,-41.6214286468853 -73.5937846526572,-41.6214447318234 -73.5937338658807,-41.6214968929153 -73.5937290874173,-41.6215263303731 -73.5937308980373,-41.6216334693453 -73.5937439028238,-41.6217966324292 -73.5937650469875,-41.621966104475 -73.593766002894,-41.6220173467333 -73.5938282670285,-41.6221034915794 -73.5938819767217,-41.6221072533603 -73.5939734002965,-41.622184439881 -73.5940696698772,-41.6222290858957 -73.5941500317033,-41.6222440404339 -73.5941931973339,-41.6222569871735 -73.5942682776312,-41.6223246594869 -73.5943234607991,-41.6224510802491 -73.5943248738856,-41.6224958509429 -73.5943250301157,-41.6225008007657 -73.5943259117034,-41.6225287320116 -73.5943213155982,-41.6226451066797 -73.5943216976412,-41.6227227322368 -73.5943226877043,-41.6227724221073 -73.5943261286939,-41.6228997628349 -73.5943053883979,-41.6229973110026 -73.594301983317,-41.6231540639128 -73.5942897544748,-41.6232408493014 -73.5942618533742,-41.623287081124 -73.5942237124922,-41.623328530211 -73.5941165042443,-41.6234063916732 -73.5939748409208,-41.6234512318417 -73.5938953313079,-41.6234921738408 -73.5936837578796,-41.6236122264354 -73.593661624433,-41.6236787096181 -73.593662545327,-41.6237315033292 -73.5937290824428,-41.6238114911122 -73.5937971953676,-41.6239231421412 -73.593800517578,-41.6239285879136 -73.5938569425244,-41.6240210796202 -73.593845116401,-41.62408924083 -73.5938153492486,-41.6241261347336 -73.5937867391432,-41.6242049583579 -73.5937762735384,-41.6243057377044 -73.5937810951101,-41.6243694450996 -73.5937886613425,-41.6244021391712 -73.5938207777824,-41.6244475523657 -73.5937661555084,-41.6244856940557 -73.5937204810889,-41.6244928973969 -73.5936645655794,-41.624495317926 -73.5936208251581,-41.624508754272 -73.593570777907,-41.6245267709125 -73.5935535565434,-41.6245576088823 -73.5935529830736,-41.6245839930825 -73.5935543761367,-41.6246150588324 -73.5936132140962,-41.6246685603419 -73.5935913825755,-41.6247210756367 -73.593568292873,-41.6247363174481 -73.5935555442765,-41.6247516857976 -73.5935768136111,-41.6248202519489 -73.5934451082104,-41.6247875924396 -73.593418015521,-41.6247965749518 -73.5933699357171,-41.6248192730661 -73.5933212136344,-41.6248714592055 -73.5932974827775,-41.6249161881199 -73.5932823953303,-41.6249343764488 -73.5932739553501,-41.6249445510695 -73.5932209941262,-41.6250083971452 -73.5932280528282,-41.6250643706621 -73.5932978743283,-41.6250885117601 -73.593298762385,-41.6251428569537 -73.5932711633885,-41.625175120659 -73.5932580784371,-41.6252060083064 -73.5932374031616,-41.6253004532433 -73.5932861689631,-41.6253414128765 -73.5933490331658,-41.6253049241883 -73.5934150544261,-41.6253134943555 -73.5934560639726,-41.6254257704623 -73.5934765114689,-41.6254368875558 -73.593499029138,-41.6254480299792 -73.5935151037708,-41.6254699604179 -73.5935228049357,-41.6254964458722 -73.5935162618768,-41.6255118901528 -73.5934871011229,-41.625520847372 -73.5934744535619,-41.6255315594615 -73.5934093864893,-41.6255742306368 -73.5933854192329,-41.6256298244353 -73.5934806028412,-41.625629437392 -73.593501692586,-41.6256110664377 -73.5935332922472,-41.625585061916 -73.5935587885837,-41.6255543252152 -73.5935861514515,-41.6255329263184 -73.593615514606,-41.6255146565809 -73.5936613921422,-41.6254981417012 -73.5937361942731,-41.6254835326021 -73.5937966183965,-41.6254640900585 -73.5938784006624,-41.6254138609828 -73.5939331248511,-41.6253710630093 -73.5939918626229,-41.6254292205809 -73.5939907497174,-41.625480437501 -73.5939840499502,-41.6255983391574 -73.5939685252906,-41.6256462741835 -73.593935170846,-41.6257529828922 -73.5939488406679,-41.6257904081993 -73.5939482336205,-41.6258183438803 -73.5939496280838,-41.625849409637 -73.5939284709357,-41.6258708845379 -73.5938001357371,-41.6259686690288 -73.5937916118719,-41.6259843523074 -73.5937882182888,-41.6259905962458 -73.5937699617059,-41.6260241869659 -73.5937672193148,-41.6260552021089 -73.5937723457059,-41.6261049425638 -73.5937714687287,-41.6261452945981 -73.5937892415925,-41.6261843220168 -73.5937979988423,-41.6262573934141 -73.5937767065936,-41.6262850760108 -73.5937072322952,-41.6263401130832 -73.5936912349898,-41.6264097760073 -73.593665637183,-41.6264451680742 -73.5936175212795,-41.6264694186355 -73.5935583217784,-41.6265276860301 -73.5935123085196,-41.6265504094815 -73.5934517820913,-41.6265745071999 -73.5934567733236,-41.6266304553883 -73.5935200534237,-41.626670039744 -73.5935005262728,-41.6267117163387 -73.5934649229681,-41.6267314624713 -73.5934294208831,-41.6267465514467 -73.5933541448524,-41.626782888262 -73.5932515401468,-41.6268390723689 -73.5931675503876,-41.6268954833365 -73.5931646675708,-41.6268970917193 -73.5931398118352,-41.6269109592387 -73.5930586382542,-41.6269562475475 -73.5930650569707,-41.6270417091178 -73.5930537355865,-41.6270865907698 -73.593015151704,-41.6271482149243 -73.5929369296231,-41.6272248781521 -73.5928523652756,-41.6273076730539 -73.5927559314358,-41.6273654841532 -73.5928086327648,-41.6274158071322 -73.5929206026967,-41.6274047583219 -73.5929583430454,-41.6273819347361 -73.5930383643419,-41.6273177122761 -73.5930915954091,-41.6272485052405 -73.5931943708166,-41.6271845621007 -73.593257550049,-41.6272288028476 -73.5932530082791,-41.6272473762917 -73.5932337832862,-41.6272750840838 -73.5932332096314,-41.6273014682679 -73.5932325347377,-41.6273325086963 -73.5932402022543,-41.6273605456439 -73.5932604490426,-41.6273809752845 -73.5933053482821,-41.6274094679203 -73.5933601528598,-41.6274582635947 -73.5933506981695,-41.6275124830858 -73.5933230306929,-41.6275478497377 -73.5932644035655,-41.6275797327675 -73.5931461937232,-41.6275922583268 -73.5930803039917,-41.6275774793328 -73.5929852525,-41.6275716591757 -73.5929327298501,-41.6276082733484 -73.5929323248271,-41.6276268974219 -73.5929378219287,-41.6276595662008 -73.592971939657,-41.6277081088006 -73.5929735024434,-41.6277314135463 -73.592960349281,-41.6277654058987 -73.5929390561444,-41.6277930892203 -73.5929179317731,-41.6278130115318 -73.5929108982986,-41.6278243814829 -73.5929058312592,-41.6278325725941 -73.5929007754854,-41.6278407454914 -73.5928938282086,-41.6278748129112 -73.5928517143615,-41.6279084506882 -73.5928265880297,-41.6279221155097 -73.5927726035574,-41.6279307686124 -73.5927047132235,-41.6279128611203 -73.5926112227407,-41.6279303453791 -73.5925399141693,-41.6279744915004 -73.5925259492358,-41.6280457319206 -73.5925242273567,-41.6281248844378 -73.5924903881602,-41.6281586234106 -73.5925208090167,-41.628186939043 -73.5926036857453,-41.6281817445455 -73.5926268444383,-41.6281633990979 -73.5926457661331,-41.6281496592467 -73.5926856761684,-41.6281222039392 -73.5927064956971,-41.6281162494869 -73.5927453929671,-41.6281353547838 -73.5927622118333,-41.6281231410598 -73.5927834376288,-41.6280985625375 -73.5928130384744,-41.6280694290682 -73.5928590868286,-41.6280451535421 -73.5929107323084,-41.6280488914179 -73.5929017497038,-41.6280813820254 -73.5928951049737,-41.6281014816001 -73.5928509568687,-41.6281335425764 -73.5927089545329,-41.6282885974454 -73.5926452345227,-41.6282691881866 -73.5926148135732,-41.6282408725861 -73.5925616728354,-41.6282107259667 -73.5925388855012,-41.6282119988124 -73.5925117237028,-41.6282240858433 -73.5924741189493,-41.6282407015614 -73.5924161322932,-41.628243097007 -73.5923353908592,-41.628245212833 -73.59228520528,-41.6282694365737 -73.5922467887836,-41.628323300333 -73.5922353664717,-41.6283728381385 -73.5922201087662,-41.628408356517 -73.5920723723352,-41.6285416075346 -73.5918444411175,-41.6287468391616 -73.5918601793787,-41.6287842900393 -73.5918910043808,-41.6287939817598 -73.5919260688531,-41.6287990688294 -73.5919575368087,-41.6287792734247 -73.5919701840855,-41.6287685606066 -73.5919991112874,-41.6287704677793 -73.5920258331269,-41.628778557304 -73.5920296660987,-41.6287925758046 -73.5920083384543,-41.6288218104174 -73.5919892825096,-41.6288417587927 -73.5919619188945,-41.628863157282 -73.59190966362,-41.6288873554984 -73.5918231967525,-41.6289623650311 -73.5917475456423,-41.6290157724059 -73.5917055667773,-41.6290432020306 -73.5916699954293,-41.6290613951907 -73.5916219118408,-41.6290840915979 -73.5916049573736,-41.6291025128649 -73.5915224241151,-41.6291868844315 -73.5915303951669,-41.6292009536586 -73.5915588821098,-41.6292230373673 -73.5915877069559,-41.6292295999707 -73.5916351825467,-41.6292348392169 -73.5916952054042,-41.6292340219131 -73.5917132818467,-41.6292590818075 -73.5917129049372,-41.6292763971263 -73.5917126399689,-41.6292885698249 -73.5916872426022,-41.6293146498205 -73.5916639143032,-41.6293407551636 -73.5916490626408,-41.6293576503096 -73.5916213934282,-41.629393016514 -73.5916026074868,-41.6294005484805 -73.5915486216275,-41.6294092009843 -73.5915215267143,-41.6294181839086 -73.5915004363463,-41.6294365544743 -73.5914725642738,-41.6294812331188 -73.5913854474449,-41.6294910323083 -73.5913458727546,-41.6295029660254 -73.5913059612955,-41.629530420839 -73.5912866345863,-41.6295627845245 -73.5912923675652,-41.6295845885041 -73.5913066110853,-41.6295956299385 -73.5913435410717,-41.629610055014 -73.5913827103508,-41.6296167444532 -73.5913968187355,-41.6296339935948 -73.5913737255425,-41.6296492349026 -73.5913178742975,-41.6296485503728 -73.5912888115404,-41.6296528516412 -73.5912615825188,-41.6296680422342 -73.5912259093301,-41.6296908905856 -73.5911969153374,-41.6296920879864 -73.5911326874654,-41.6296959581698 -73.5910063672183,-41.6297006190208 -73.5909165386819,-41.6297398804886 -73.5908303061495,-41.6298040252736 -73.5906380007777,-41.6298932596161 -73.5905651267428,-41.6299140996866 -73.590488046826,-41.6299379928176 -73.5904587145706,-41.6299547102187 -73.5904165642942,-41.6299898985292 -73.5903850626557,-41.6300112458851 -73.5903600702676,-41.6300187015262 -73.5902411102663,-41.6300653673303 -73.5901888883955,-41.6300880132705 -73.5901055017299,-41.6301164862623 -73.5900574155963,-41.6301391828759 -73.5900193693771,-41.6301759741788 -73.5899982094895,-41.630197448298 -73.5900077746912,-41.6302332708928 -73.5900533182446,-41.6302322777182 -73.5900845833579,-41.6302217935066 -73.5901180202096,-41.6302066802481 -73.5901453850228,-41.6301852813206 -73.5901809573937,-41.6301670895527 -73.5902183959671,-41.6301582338245 -73.5902555627709,-41.6301617943986 -73.5902531904898,-41.6301757368417 -73.5902321997594,-41.6301894518125 -73.5902174490121,-41.6302016896257 -73.5901983909049,-41.6302216376697 -73.5901813016537,-41.630246266441 -73.5901620079733,-41.630277078443 -73.5901363390274,-41.6303155735037 -73.5900588864014,-41.630356538899 -73.5900348704313,-41.6303787366799 -73.5900029592039,-41.630408231956 -73.5899047319063,-41.6304990223826 -73.5897834659567,-41.6305565262669 -73.5896899044466,-41.6305771119403 -73.5896439884599,-41.6305951775267 -73.5896454147368,-41.6306246909016 -73.5896845155525,-41.6306344856672 -73.589775365229,-41.6306433625972 -73.5898606188816,-41.6306242268164 -73.5899086704109,-41.6306030826575 -73.5899857175156,-41.6305807414116 -73.5900251904479,-41.6305734634994 -73.5900622221671,-41.6305832327533 -73.5900555098157,-41.6306064369095 -73.5900095262581,-41.6306276064997 -73.5899282405795,-41.6306545523391 -73.5898526463921,-41.6306755531281 -73.5897618792812,-41.630686567261 -73.5896901359771,-41.6307147946121 -73.5895890379989,-41.6307547904143 -73.5894722539546,-41.6307727626378 -73.5893486895555,-41.6308052049084 -73.5892671955008,-41.6308357378795 -73.5890808959357,-41.6309280516131 -73.589037713529,-41.6309808857093 -73.588909275447,-41.6310884637656 -73.5888860674602,-41.631114860932 -73.5887706115387,-41.6312201717559 -73.5887276044014,-41.6312598825162 -73.588718157359,-41.6312686054603 -73.5886617253356,-41.6313207120073 -73.5885840973437,-41.6313221842928 -73.5885348203384,-41.631357963501 -73.5885206219062,-41.6314160053699 -73.5884710261154,-41.6314663349195 -73.588421748937,-41.6315021140757 -73.5883660590865,-41.6315353897847 -73.5883301337684,-41.6315519274799 -73.5883035344509,-41.6315855604631 -73.588293255874,-41.6316121163159 -73.5882497548494,-41.6316794995761 -73.5881940118369,-41.6317152001107 -73.5881643919206,-41.6317390927997 -73.5881212611385,-41.6317895016106 -73.5881460082698,-41.6318407442548 -73.5881118329668,-41.6319252218655 -73.588079457094,-41.6319272497012 -73.588023819647,-41.6319580994195 -73.5879426423086,-41.6319740819469 -73.5879094194598,-41.6320149101492 -73.5878830844131,-41.632036417559 -73.5878758260364,-41.6320727127342 -73.5879208131053,-41.6320853941837 -73.5875200127744,-41.6323763978198 -73.5873491259289,-41.6325028569048 -73.5872198358384,-41.6326492324684 -73.5872177757193,-41.632652110332 -73.5872115167063,-41.6326608537978 -73.5871131177123,-41.6327983109305 -73.5870700371572,-41.632846294387 -73.5869672921633,-41.6329614627655 -73.5868091738817,-41.6330953546993 -73.5864930930917,-41.6333558640263 -73.5864890118268,-41.6333946237403 -73.5864942057807,-41.6334529029318 -73.5865031606669,-41.6334869727477 -73.5865148709322,-41.6335429065163 -73.5864913443266,-41.6335838535416 -73.5864617759274,-41.6336053199494 -73.5864256369735,-41.6336315584634 -73.5863988768379,-41.6336724647979 -73.5863788991451,-41.6336989011713 -73.5863685664301,-41.6337278817358 -73.5863616249485,-41.6337496273226 -73.586338679921,-41.6337638993766 -73.5863024348568,-41.6337949867704 -73.5862630634844,-41.633821184571 -73.5862170155295,-41.6338570033801 -73.5862132131193,-41.6338602230521 -73.5862126040303,-41.6338607387951 -73.5861379533977,-41.6339239483554 -73.5861011780953,-41.633979285689 -73.5860929113453,-41.6340616567234 -73.586063024545,-41.6340976733852 -73.5860102466815,-41.634145537127 -73.5859840691521,-41.6341597693391 -73.5859311309488,-41.6342149077587 -73.5859302827675,-41.6342537072248 -73.5859516907094,-41.6343097612598 -73.5859476102447,-41.634348520957 -73.5856581217628,-41.6345753954027 -73.5854214631577,-41.6347519807431 -73.5853002717078,-41.6348232586101 -73.5851069587333,-41.6349397359749 -73.5850592649284,-41.6350507282748 -73.5850361928406,-41.6350752407026 -73.585031973708,-41.6350797232239 -73.585009611774,-41.6351034811377 -73.5851680505025,-41.6352509708126 -73.5852243052501,-41.6353022476732 -73.5855168662124,-41.6350199649591 -73.5855535107325,-41.6349553549802 -73.5859744482055,-41.6345437378259 -73.586196663145,-41.6342963934593 -73.586371484631,-41.6341094603955 -73.5865855684747,-41.6338620152377 -73.5866167481348,-41.6337993708508 -73.5866971845059,-41.6337149674595 -73.5867444424227,-41.6336606533717 -73.5868222579204,-41.6335721513504 -73.5868504170377,-41.6335237018468 -73.5869227691487,-41.6334371657344 -73.5869588341295,-41.6333989791846 -73.5869787762691,-41.6333544949341 -73.5869849053287,-41.6333220397923 -73.5869881918533,-41.6332956491706 -73.5870105768753,-41.6332633938835 -73.587105357802,-41.6331425697406 -73.5874901204057,-41.632773198402 -73.5876473912084,-41.6326450091562 -73.5877632675518,-41.6325508747153 -73.5880153596086,-41.6322998275062 -73.5880711868672,-41.6322252865662 -73.5882347609093,-41.632056510801 -73.5883152373255,-41.6319700735738 -73.5883849651408,-41.6318794379592 -73.5884764556101,-41.6317850032647 -73.5885210013315,-41.6317306551097 -73.5885902407824,-41.6316623780912 -73.5886080484747,-41.6315914362907 -73.5886166197134,-41.63157120998 -73.5886438896922,-41.6315634122294 -73.5886631205747,-41.6315514494411 -73.5887185916875,-41.6314931690534 -73.588820873788,-41.6314008997447 -73.588862754037,-41.6313444855674 -73.5888930434978,-41.6313224927323 -73.5889201359966,-41.6313228253637 -73.589266687512,-41.631089200269 -73.5893267783528,-41.6310675731101 -73.589726403907,-41.6308854269514 -73.5897836522543,-41.6308698641441 -73.589802971336,-41.6308538359302 -73.5898466734842,-41.6308381068815 -73.5899042761939,-41.6308062831048 -73.5899398062968,-41.630792486915 -73.5899834640699,-41.6307787904266 -73.5900242796966,-41.6307711585258 -73.5900929849559,-41.6307272719146 -73.5901511190001,-41.6306710566447 -73.5902645003951,-41.6305667232355 -73.5904294008067,-41.6304609884114 -73.5911411358135,-41.6300081884174 -73.5913045822565,-41.6300935513023 -73.5916607847691,-41.6296648540432 -73.5919196401182,-41.6293508530429 -73.5920505541249,-41.629187771049 -73.5921252496673,-41.6291175255299 -73.5922394212407,-41.6289766029614 -73.5924229572625,-41.6287613029467 -73.5926368673586,-41.6285199435061 -73.5927207057578,-41.628403046903 -73.5928681799869,-41.6282259345976 -73.5931331047943,-41.6278815076822 -73.5931952244043,-41.6277663780191 -73.5934074797019,-41.627476201023 -73.5935729275604,-41.6272200145488 -73.5936633735584,-41.6270483027912 -73.5937310862461,-41.6269251086183 -73.5938258307391,-41.6266802555958 -73.5939125356807,-41.6264312378108 -73.5939653180268,-41.6262468660567 -73.5940167012164,-41.6258774596735 -73.5940831745801,-41.6254370772548 -73.5941491170176,-41.6250210861825 -73.5941784287376,-41.6246697081096 -73.5942216381673,-41.624302234714 -73.5942748880276,-41.6239714809558 -73.594301946541,-41.6237237663863 -73.5943353057447,-41.6234354656568 -73.5943801910185,-41.6229907525305 -73.5944038774662,-41.6227734940596 -73.59435150692,-41.6223153925163 -73.5942657476451,-41.6218975457719 -73.5942193570451,-41.6216631649166 -73.5942012905825,-41.6216020133396 -73.593988649222,-41.6215653480725 -73.5939189249632,-41.6212944071287 -73.5939183711198,-41.6212922572051 -73.5937778305647,-41.6207461295855 -73.5937446039355,-41.6206313574428 -73.5936374431742,-41.6204120378 -73.5934224637284,-41.6200037678559 -73.5933147614434,-41.6198094580484 -73.5932559675966,-41.6196657821058 -73.5932397561012,-41.6195351352572 -73.5932494492076,-41.6193083104898 -73.5932600365637,-41.6192088605693 -73.5932619195724,-41.6191911729191 -73.5932733879309,-41.6190834470434 -73.5932855513817,-41.6189620823533 -73.5932965765566,-41.6187835213523 -73.5933092834769,-41.6186371465213 -73.5932934337126,-41.6185994260136 -73.593324681691,-41.6184765088027 -73.5933310739159,-41.6184015348793 -73.5933385144692,-41.6182783253906 -73.5933158720275,-41.6182244398549 -73.5933107100731,-41.6181332417237 -73.5933005925523,-41.6180509178293 -73.5933044487215,-41.6179830607746 -73.5932702541887,-41.6179576507067 -73.5932702695614,-41.6179590836042</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.85">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Zona 1</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda y hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, servicios; Infraestructura: transporte (recintos maritimos y portuarios); Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5913108940998,-41.6300859546107 -73.5913045821229,-41.6300935511341 -73.5911411356089,-41.6300081886153 -73.5904294002411,-41.6304609883968 -73.5902645005808,-41.6305667229315 -73.5901511184746,-41.630671056328 -73.5900929854546,-41.6307272723704 -73.5900242792093,-41.6307711587945 -73.5899834634748,-41.6307787904165 -73.589939805986,-41.6307924866481 -73.5899042761705,-41.6308062834817 -73.589846673306,-41.6308381070475 -73.5898029714484,-41.6308538355449 -73.5897836527061,-41.6308698641087 -73.5897264041919,-41.6308854272597 -73.5893267783314,-41.6310675733383 -73.5892666877354,-41.6310891999624 -73.5889201364493,-41.6313228257263 -73.5888930430744,-41.6313224930842 -73.588862754342,-41.6313444853904 -73.5888208739822,-41.6314008994256 -73.5887185920018,-41.6314931686975 -73.588663120327,-41.6315514495438 -73.5886438897906,-41.6315634123706 -73.588616620142,-41.6315712098478 -73.5886080488858,-41.631591435915 -73.5885902411371,-41.6316623782144 -73.5885210018989,-41.6317306551289 -73.5884764552525,-41.6317850034263 -73.5883849657402,-41.6318794377999 -73.5883152369295,-41.6319700736585 -73.5882347610944,-41.6320565108375 -73.5880711874139,-41.632225286185 -73.5880153595858,-41.6322998279293 -73.5877632672555,-41.6325508743458 -73.5876473917812,-41.6326450093653 -73.5876114694345,-41.6326742891684 -73.5876076533384,-41.6326773996129 -73.5874901205444,-41.6327731986701 -73.587105357289,-41.6331425698479 -73.5870105765165,-41.6332633934337 -73.5869881922189,-41.6332956494214 -73.5869849048914,-41.633322039807 -73.5869787766214,-41.6333544947494 -73.5869588336323,-41.6333989788146 -73.5869227689374,-41.6334371660765 -73.5868504174305,-41.6335237021411 -73.5868222574341,-41.6335721517706 -73.5867444421316,-41.6336606534445 -73.5866971848825,-41.6337149676943 -73.5866167479057,-41.6337993704166 -73.5865855689452,-41.6338620155893 -73.5863714841214,-41.6341094605349 -73.5861966633656,-41.6342963932367 -73.5859744486234,-41.6345437374057 -73.5855535107778,-41.6349553554229 -73.5855168665683,-41.6350199649874 -73.5852243054711,-41.6353022479505 -73.5856023602473,-41.6356468463983 -73.5857381751134,-41.635794055957 -73.5858740435888,-41.6359388413519 -73.5862719024727,-41.6363755013353 -73.5864142381498,-41.6365203656372 -73.5864849302966,-41.6366886051602 -73.5865584675533,-41.6367895147955 -73.5868651027585,-41.6363869464481 -73.587430024697,-41.6355329770083 -73.5881075653601,-41.6345628463573 -73.5885190894043,-41.633945247115 -73.5889614857982,-41.6332708428237 -73.5894255932772,-41.6325712887335 -73.5898628372938,-41.631938116017 -73.5901911279715,-41.6314465614725 -73.5913108940998,-41.6300859546107</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.86">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6108313008191,-41.6165322532541 -73.6104214906285,-41.6164456633457 -73.6107783057738,-41.6169871567928 -73.6111584028414,-41.6174803722102 -73.6113633040688,-41.6177574069085 -73.6118464743532,-41.6183356069901 -73.6121416526546,-41.618199072627 -73.6108313008191,-41.6165322532541</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.87">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6147769961936,-41.6173147928788 -73.614726210674,-41.6173122729428 -73.6144536894608,-41.6172784491596 -73.6119146246569,-41.6184550896819 -73.6120701175702,-41.6186315029445 -73.6124930346065,-41.6191531521869 -73.6127282481761,-41.6194631251192 -73.6129861699049,-41.6198710959582 -73.6131962893933,-41.6201947257096 -73.6133105003789,-41.6203636311556 -73.6134332045118,-41.6204256075058 -73.613504913426,-41.6205521181526 -73.6137328839996,-41.6208318820676 -73.6138768146204,-41.6207606426905 -73.6136318011817,-41.6204277982038 -73.6137102471253,-41.6203875078654 -73.6137459005744,-41.6202814777248 -73.6135811864618,-41.6201761013953 -73.6133835646581,-41.6198479695724 -73.6131320397821,-41.6194307697188 -73.6128176220056,-41.6190546921416 -73.6124318785464,-41.6185461504875 -73.6127885302641,-41.6183866508311 -73.6134260564821,-41.6180846036531 -73.6137465462157,-41.6179455126185 -73.613938979682,-41.6178555070603 -73.6139599319856,-41.6181744343336 -73.6143759040162,-41.618657107515 -73.6144667752665,-41.6184197185758 -73.6145037456323,-41.6183185177983 -73.6143113352034,-41.6180744319782 -73.6143142675468,-41.6179374670278 -73.6143052963448,-41.6178003585671 -73.6143079099425,-41.617678281106 -73.614492597403,-41.6175792464234 -73.6146703683199,-41.6174324757934 -73.6147769961936,-41.6173147928788</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.88">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6063907628037,-41.6213679358233 -73.6062256345303,-41.6215160380659 -73.6060154184493,-41.6217672368388 -73.6060000943677,-41.621815298866 -73.6063052747659,-41.6215777603827 -73.6063907628037,-41.6213679358233</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.89">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.605651011397,-41.6222113432335 -73.6056047184187,-41.6225914037603 -73.6055633405932,-41.622964376042 -73.6055341036532,-41.623215982432 -73.6054919549446,-41.6236246844547 -73.6054876490778,-41.6237139801122 -73.6054714386114,-41.6238031313295 -73.6054752379528,-41.623847851376 -73.6056544400169,-41.6234890599818 -73.6056383241303,-41.623242264253 -73.6056189747881,-41.6231455337728 -73.605607197411,-41.6229184472006 -73.6056571247065,-41.6228118354046 -73.6056946141941,-41.622619298702 -73.6056905565694,-41.6223655013906 -73.6056761615568,-41.6222598962159 -73.605651011397,-41.6222113432335</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.90">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6055605955186,-41.624749513734 -73.6056587977724,-41.6246131093704 -73.6054881578234,-41.6242429258266 -73.6055244168004,-41.6241075569519 -73.6054862955577,-41.6238872986125 -73.6054693596181,-41.623899601834 -73.605472794215,-41.6242927742389 -73.6055203948637,-41.6246257259173 -73.6055250412599,-41.6246311431636 -73.6055434497039,-41.624688660837 -73.6055605955186,-41.624749513734</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.91">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6057451594753,-41.6254683227766 -73.6057188917225,-41.6254715780407 -73.6057337878102,-41.6255539587883 -73.6058086592994,-41.6258372062951 -73.6058517700378,-41.6261575945963 -73.6059131865992,-41.6259599872902 -73.6057927734441,-41.6255796917248 -73.6057451594753,-41.6254683227766</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.92">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Lagos</SimpleData>
+		<SimpleData name="COM">Maullín</SimpleData>
+		<SimpleData name="LOC">Maullín</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de área verde</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: Deporte; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">19/07/2022</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6057581656389,-41.6264297921308 -73.6056821912113,-41.626489484071 -73.6055821761364,-41.6266037796194 -73.6055820775751,-41.626608353034 -73.6056683249766,-41.6265670842302 -73.6057581656389,-41.6264297921308</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

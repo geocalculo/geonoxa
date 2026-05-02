@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9606626615966,-39.6612854107054 -72.9605870350798,-39.6612326175072 -72.9605341094064,-39.6611300815999 -72.9605165113788,-39.6609676350317 -72.9605329035104,-39.6608857733721 -72.9605929442139,-39.6607463088769 -72.9606261732396,-39.6605674613508 -72.9606724903447,-39.660419107983 -72.9606614347762,-39.6603194695634 -72.9606355763057,-39.660247675402 -72.9605611767769,-39.6602096169173 -72.960500246481,-39.6601890902759 -72.9604305487631,-39.6601813800134 -72.9603942070304,-39.6601807415719 -72.9603130730165,-39.660181477968 -72.960273427464,-39.6601980769291 -72.96019686798,-39.6602334826372 -72.9601478186602,-39.660284505119 -72.9601078559921,-39.6603119062219 -72.9600682090981,-39.6603285042595 -72.9597326180756,-39.6603269311591 -72.9596562421521,-39.6608314575632 -72.959473183763,-39.6616346024048 -72.9592644496365,-39.6625497120271 -72.9590881873358,-39.6630265397706 -72.9601070032089,-39.6633622876204 -72.9601092900254,-39.6633548774837 -72.9601673226219,-39.6631669134275 -72.9603011814732,-39.6628239134438 -72.9603996813645,-39.6624705622436 -72.960473067547,-39.6621151497508 -72.9605961464787,-39.6615765078138 -72.9606626615966,-39.6612854107054</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9596030107077,-39.6602995879175 -72.9584111963406,-39.6598664468446 -72.9581071464132,-39.6603136426819 -72.9577020236398,-39.6609002999295 -72.9573031618688,-39.6615274192127 -72.956912418441,-39.6622584488923 -72.9589685291682,-39.6629777526115 -72.9591295842752,-39.6625741594416 -72.9592823397156,-39.6619455906707 -72.9594552579111,-39.6611386638476 -72.9596030107077,-39.6602995879175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9600606920721,-39.6635010695583 -72.9594434127414,-39.6632746845765 -72.9592211114515,-39.6632010577416 -72.9591330485131,-39.6631995099726 -72.959063284173,-39.6632177402956 -72.9590094826916,-39.6632638143903 -72.9588352507595,-39.6636952787907 -72.9586817917358,-39.6642049345119 -72.9584010342341,-39.6650479750712 -72.95823846886,-39.6655104498963 -72.9580235665575,-39.666182782064 -72.9579919680456,-39.6662584302184 -72.9580524831686,-39.6664119036806 -72.9581706193674,-39.6664610012246 -72.95834236888,-39.6664705077171 -72.958478137997,-39.6664907303946 -72.9585737839488,-39.6664486354117 -72.9587363375651,-39.6664142018284 -72.958870438834,-39.6664198024953 -72.9589559801472,-39.6664358988311 -72.9590742105163,-39.6664654710419 -72.9591306014499,-39.6663168562682 -72.9592419795696,-39.6659540041418 -72.9593530239929,-39.6656024968526 -72.9593546667368,-39.6655979240952 -72.9594764098254,-39.6652593149857 -72.9595915017465,-39.6649127416309 -72.9596492338415,-39.6647351957761 -72.9597068286599,-39.6645580661703 -72.9598156289597,-39.6642113832231 -72.9598349085116,-39.6641533240144 -72.9599307179488,-39.6638648114522 -72.9600606920721,-39.6635010695583</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9599302909035,-39.6597422862478 -72.9598561966053,-39.6598230363057 -72.9598141352544,-39.6599217417319 -72.9597671172447,-39.6600938620721 -72.9597326169127,-39.6603269311988 -72.9600682090981,-39.6603285042595 -72.9601078548291,-39.6603119062616 -72.9601478185574,-39.6602845033212 -72.9601968668171,-39.6602334826769 -72.9602734285242,-39.6601980750917 -72.9603130741794,-39.6601814779283 -72.9603942058161,-39.6601807407128 -72.9604305498747,-39.6601813790748 -72.960500246481,-39.6601890902759 -72.9605611756139,-39.6602096169571 -72.9606355750914,-39.6602476745429 -72.9606614336133,-39.6603194696031 -72.9606724891817,-39.6604191080227 -72.9606261720252,-39.6605674604916 -72.960592941888,-39.6607463089564 -72.9605329023475,-39.6608857734118 -72.9605165101645,-39.6609676341725 -72.960534109355,-39.6611300807011 -72.9605870350284,-39.6612326166083 -72.9606626615452,-39.6612854098065 -72.9607162377135,-39.6610509368881 -72.9607919543507,-39.6606874568974 -72.9608254526717,-39.6603329652872 -72.9609304902744,-39.660084082446 -72.9599302909035,-39.6597422862478</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.957539448816,-39.6608303898792 -72.9538735068111,-39.6595244679607 -72.9533334073057,-39.6592920386401 -72.9529688619833,-39.6608613452553 -72.9567825955529,-39.6622160161899 -72.957130527007,-39.661545726591 -72.957539448816,-39.6608303898792</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZI</SimpleData>
+		<SimpleData name="NOM">Zona de Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Infraestructura: transporte, sanitaria, energética</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9533334060915,-39.6592920377809 -72.9522594693616,-39.6587523413806 -72.9520430938698,-39.6596391985266 -72.9532067626794,-39.6598372258368 -72.9533334060915,-39.6592920377809</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9520430927068,-39.6596391985662 -72.9518811660809,-39.6604816169212 -72.9529688619833,-39.6608613452553 -72.9532067626794,-39.6598372258368 -72.9520430927068,-39.6596391985662</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9582657356418,-39.659809889962 -72.9574692260792,-39.65950379206 -72.9569336317854,-39.6592868321661 -72.956578195397,-39.6590307652313 -72.9563447508298,-39.6586846067305 -72.9559042920596,-39.6581080508903 -72.9557064226432,-39.6579047173592 -72.9555661645649,-39.6576024742278 -72.9555126555258,-39.657224892579 -72.9539467969769,-39.6594033358551 -72.9552601332045,-39.6598876640681 -72.9576467299418,-39.6607367562763 -72.9582657356418,-39.659809889962</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9543244474044,-39.6586425406192 -72.9534268260705,-39.6582570480668 -72.9533745315308,-39.6583231432924 -72.9524490302533,-39.6579349900164 -72.9522887824095,-39.6586261110701 -72.9538113476671,-39.6593490644814 -72.9543244474044,-39.6586425406192</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: salud, culto y cultura</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9543244473531,-39.6586425397203 -72.9551082753956,-39.6575754336458 -72.9540939577713,-39.6571641106674 -72.9527118637095,-39.6568003397573 -72.952674886205,-39.6568213060084 -72.9524490290391,-39.6579349891572 -72.9533745303679,-39.658323143332 -72.9534268248563,-39.6582570472075 -72.9543244473531,-39.6586425397203</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.952959035406,-39.6610524604106 -72.9527150233258,-39.662117542185 -72.9553065631152,-39.6618778517029 -72.952959035406,-39.6610524604106</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.952959034243,-39.6610524604502 -72.951844336466,-39.6606609650533 -72.951630058258,-39.6616026246522 -72.9518946257632,-39.6622414286001 -72.9527150232745,-39.6621175412861 -72.952959034243,-39.6610524604502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9589038148265,-39.6630963686433 -72.9587922224193,-39.6630547730691 -72.9570341142928,-39.6624423166341 -72.9568218385341,-39.6624320951224 -72.9561106829867,-39.663215131045 -72.9560228089711,-39.6632546585955 -72.9556841898358,-39.6636399870835 -72.9549468917942,-39.6644549824557 -72.9547800824516,-39.6647049780518 -72.9550538611521,-39.6648114068182 -72.9551878566679,-39.6649153725636 -72.9553017168564,-39.6649433199192 -72.9555770899406,-39.6649957298578 -72.9557220213699,-39.6650134151251 -72.9558250792742,-39.6650599070172 -72.9560517000701,-39.6650898393117 -72.9561449747867,-39.66508859885 -72.956267477127,-39.6651080501433 -72.9563710020368,-39.6651386970003 -72.9564776602809,-39.6651895758241 -72.9565533935567,-39.6652773818995 -72.9565582172532,-39.6653668229792 -72.9565639738393,-39.6654245732152 -72.9566251365149,-39.6655005926778 -72.9567168005405,-39.6655540903681 -72.9567466209123,-39.6655546147111 -72.9568770892615,-39.6655569111787 -72.9569821424627,-39.6655357000806 -72.957288743343,-39.6655093886773 -72.9573716006242,-39.6654820223592 -72.9574206538233,-39.6654627075985 -72.9575487513014,-39.6654188430911 -72.9576687153487,-39.6653978934176 -72.9578254462032,-39.6653948856762 -72.9581103534208,-39.6654719584252 -72.9589241450027,-39.6631659049094 -72.9589038148265,-39.6630963686433</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9547800824003,-39.664704977153 -72.9546443444359,-39.66487905591 -72.9544143142843,-39.6650911856745 -72.9541145254263,-39.6652026416031 -72.9543953557881,-39.6653545943818 -72.9546353965539,-39.6654669155588 -72.9548045347143,-39.6655174555555 -72.9548889081368,-39.6655967678132 -72.9550516825934,-39.6657682578253 -72.9552975094953,-39.6658741928882 -72.9555459418145,-39.6659866599857 -72.9557943748613,-39.6660991256096 -72.956067276672,-39.6661406822293 -72.9563796373106,-39.6661721233439 -72.9566501262357,-39.6662006639147 -72.9566892031795,-39.6662035139708 -72.9569687154998,-39.6662105954588 -72.9572397145677,-39.6662218494229 -72.9574045366886,-39.6662290728632 -72.9575163047531,-39.6662332010323 -72.9576778863987,-39.6662555004714 -72.9577916213761,-39.6662877672204 -72.9579209949645,-39.6661689802214 -72.9579734856367,-39.6660012805239 -72.9581103534208,-39.6654719584252 -72.9578254462032,-39.6653948856762 -72.9576687152974,-39.6653978925187 -72.9575487512501,-39.6654188421922 -72.9574206537719,-39.6654627066996 -72.9573716005215,-39.6654820205614 -72.9572887432403,-39.6655093868795 -72.9569821424114,-39.6655356991818 -72.9568770892101,-39.6655569102798 -72.9567466209123,-39.6655546147111 -72.956716798163,-39.6655540895486 -72.9566251376266,-39.6655005917393 -72.9565639726248,-39.6654245723561 -72.9565582159874,-39.6653668212211 -72.9565533936081,-39.6652773827984 -72.9564776602296,-39.6651895749253 -72.9563710008224,-39.6651386961411 -72.9562674759126,-39.6651080492841 -72.9561449747867,-39.66508859885 -72.9560516989584,-39.6650898402503 -72.9558250792228,-39.6650599061183 -72.9557220213699,-39.6650134151251 -72.9555770898893,-39.6649957289589 -72.9553017168564,-39.6649433199192 -72.9551878577796,-39.664915371625 -72.9550538611521,-39.6648114068182 -72.9547800824003,-39.664704977153</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: salud, culto y cultura</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9554968184823,-39.6569946204129 -72.9553037207777,-39.6564608504692 -72.9551246572746,-39.6563366344302 -72.9547683046543,-39.6561545284323 -72.9539244765695,-39.6558110619027 -72.9533791916881,-39.6552076679807 -72.9530662676815,-39.6545651321292 -72.9529714051518,-39.6544942814675 -72.952927333307,-39.6547240997429 -72.9525253604017,-39.6565934807257 -72.9529959890882,-39.6566940168819 -72.9541059830964,-39.6569902972474 -72.9552119939758,-39.6574219704858 -72.9554968184823,-39.6569946204129</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9565968263532,-39.6622669676648 -72.9560871892866,-39.6620965800343 -72.9557428289519,-39.66201269045 -72.9553218808197,-39.6619966305999 -72.9530364133764,-39.6622273056189 -72.9530508842053,-39.6623688006832 -72.9531787095575,-39.6624604100102 -72.9532556260171,-39.6625078846351 -72.9534478398722,-39.6625660393725 -72.9534729978346,-39.6625981898439 -72.9535494758996,-39.6627868966201 -72.9535666683609,-39.6628362010049 -72.9535996932287,-39.6629809054841 -72.9536262826051,-39.6630909064353 -72.9537506380701,-39.6631738071965 -72.9537499574231,-39.6631968541762 -72.9538135678921,-39.6633161554201 -72.9538324481354,-39.6634346680617 -72.9539578235438,-39.6634829972504 -72.9540595606157,-39.6635741450455 -72.9541399394201,-39.6637571551552 -72.9543016448654,-39.6639646576641 -72.9543920292105,-39.6640613709186 -72.9544520845894,-39.6641748443297 -72.9545019759204,-39.6642535495712 -72.9545020487427,-39.6643774957187 -72.9545587160847,-39.6644793790866 -72.954696625806,-39.664608635889 -72.9559386921094,-39.6632123516537 -72.9560827154105,-39.6631341790039 -72.9565092117081,-39.662582493538 -72.9566639989392,-39.6623920944201 -72.9565968263532,-39.6622669676648</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.954114526538,-39.6652026406645 -72.9538296791113,-39.6652102811273 -72.9541899633912,-39.6657030417249 -72.9541812668255,-39.6662822584242 -72.955872513806,-39.6663185350542 -72.9575574718732,-39.6663784566756 -72.9577205176905,-39.6663510596632 -72.9577916213247,-39.6662877663215 -72.9576778840725,-39.6662555005508 -72.95751630359,-39.666233201072 -72.9574045378517,-39.6662290728235 -72.957239714465,-39.6662218476252 -72.9569687166115,-39.6662105945202 -72.956689201965,-39.6662035131116 -72.9566501238582,-39.6662006630952 -72.9563796360961,-39.6661721224848 -72.9560672766206,-39.6661406813304 -72.9557943736982,-39.6660991256493 -72.9555459417632,-39.6659866590868 -72.9552975083322,-39.6658741929279 -72.955051682542,-39.6657682569264 -72.9548889080855,-39.6655967669143 -72.9548045334999,-39.6655174546963 -72.9546353953909,-39.6654669155985 -72.9543953557368,-39.6653545934829 -72.954114526538,-39.6652026406645</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9536549392828,-39.6652092024727 -72.9529311849031,-39.6652166200081 -72.9529002277663,-39.6662652812304 -72.9540370855317,-39.6662882052923 -72.9540545961541,-39.6656947309344 -72.9536549392828,-39.6652092024727</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9530364133764,-39.6622273056189 -72.9520553214155,-39.6623237799631 -72.9518504008357,-39.6624433887666 -72.9512417211713,-39.6638270280733 -72.9514423713225,-39.6638521876573 -72.9516239605707,-39.6638597153953 -72.9517428471988,-39.6638120904267 -72.9518141426143,-39.6637657882142 -72.9520310667614,-39.6637134078659 -72.9522338220674,-39.6636672623737 -72.9525125691799,-39.6636051618573 -72.9526571884347,-39.6635385336192 -72.9527697801217,-39.6635145773642 -72.9528762067324,-39.6635099687045 -72.9529868199837,-39.663552993993 -72.9530968604747,-39.6636154653468 -72.9532628038628,-39.6637740421242 -72.9534585447995,-39.6639655719081 -72.9535785469321,-39.6641644137777 -72.9537898961805,-39.6645853720017 -72.9538846119561,-39.6647880919062 -72.9539916504859,-39.6650472358508 -72.9540130597256,-39.6650800399744 -72.9542271267182,-39.6650297667084 -72.9544030752521,-39.6649442327023 -72.9546966246429,-39.6646086359287 -72.954558714819,-39.6644793773285 -72.9545020487427,-39.6643774957187 -72.954501974706,-39.664253548712 -72.9544520834264,-39.6641748443694 -72.9544362142916,-39.6641448595065 -72.9543920291592,-39.6640613700198 -72.9543016437024,-39.6639646577038 -72.9541399382058,-39.663757154296 -72.9540595594527,-39.6635741450852 -72.9539578223808,-39.6634829972901 -72.9538324469211,-39.6634346672025 -72.9538135678408,-39.6633161545212 -72.9537499573718,-39.6631968532773 -72.9537506368044,-39.6631738054383 -72.9536262826564,-39.6630909073342 -72.953599691963,-39.662980903726 -72.9535666671979,-39.6628362010445 -72.9535494770627,-39.6627868965805 -72.9534729967229,-39.6625981907825 -72.9534478398722,-39.6625660393725 -72.9532556260683,-39.662507885534 -72.9531787095062,-39.6624604091113 -72.9531115887106,-39.6624123059901 -72.953050882991,-39.662368799824 -72.9530364133764,-39.6622273056189</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9512417223343,-39.6638270280337 -72.9511176133509,-39.6641145231243 -72.9516685271164,-39.6641501863754 -72.9529740258143,-39.6641443884079 -72.9529311354743,-39.6650919543233 -72.9529603609753,-39.6651126461774 -72.9540130585626,-39.6650800400141 -72.9539916492715,-39.6650472349916 -72.9538846119048,-39.6647880910073 -72.9537898961292,-39.6645853711029 -72.9535785457691,-39.6641644138174 -72.9534585436365,-39.6639655719478 -72.9532628050259,-39.6637740420846 -72.9530968604234,-39.6636154644479 -72.9529868210441,-39.6635529921556 -72.9528762044063,-39.6635099687838 -72.9527697789074,-39.6635145765049 -72.9526571883834,-39.6635385327203 -72.9525125679656,-39.663605160998 -72.9522338219648,-39.663667260576 -72.9520310679244,-39.6637134078262 -72.9518141414513,-39.6637657882539 -72.9517428471476,-39.6638120895278 -72.9516239605195,-39.6638597144964 -72.9514423701594,-39.663852187697 -72.9512417223343,-39.6638270280337</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9527730618055,-39.6642561419851 -72.9510840470199,-39.6642407575676 -72.9506516899989,-39.6651151518369 -72.9506773580933,-39.6651300176975 -72.9527251812994,-39.6651200290608 -72.9527730618055,-39.6642561419851</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9514777628681,-39.6605410683095 -72.9511534989603,-39.6604085194931 -72.9504693913442,-39.6624833294306 -72.9508692352285,-39.6625826257884 -72.9511863446335,-39.6618214937085 -72.9514777628681,-39.6605410683095</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">PC1</SimpleData>
+		<SimpleData name="NOM">Parque Estero Nonoco I</SimpleData>
+		<SimpleData name="UPERM">Todos aquellos terrenos consultados en el presente Plan Regulador Comunal, destinados a Parques y Áreas Verdes Públicas y que se grafican en el Plano PRCM como PC 1 y PC 2 cuyas áreas se describen a continuación, seregirán por el artículo 59 de la</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9510481655288,-39.6627852591866 -72.9504820047737,-39.663959947308 -72.950595030703,-39.6640159879093 -72.9506872873603,-39.6640176163499 -72.9507458697311,-39.6640229741247 -72.9508081400408,-39.6639981313764 -72.9508848364434,-39.6639584103659 -72.9509666766054,-39.6639339130728 -72.951442015352,-39.6628981384575 -72.9510481655288,-39.6627852591866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9504820047737,-39.663959947308 -72.9504357912041,-39.6641039739518 -72.9503852637151,-39.6642046874851 -72.950369546607,-39.6643579000638 -72.9503249294424,-39.6644479090411 -72.9507109756901,-39.6645411966402 -72.9509666765542,-39.6639339121739 -72.9508848353316,-39.6639584113044 -72.9508081400921,-39.6639981322752 -72.950745867405,-39.664022974204 -72.950687287309,-39.664017615451 -72.9505950294887,-39.66401598705 -72.9504820047737,-39.663959947308</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9503249282793,-39.6644479090807 -72.9501327839178,-39.6648920146722 -72.950484964576,-39.6649955142843 -72.9507109745783,-39.6645411975787 -72.9503249282793,-39.6644479090807</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">PC2</SimpleData>
+		<SimpleData name="NOM">Parque Estero Nonoco II</SimpleData>
+		<SimpleData name="UPERM">Todos aquellos terrenos consultados en el presente Plan Regulador Comunal, destinados a Parques y Áreas Verdes Públicas y que se grafican en el Plano PRCM como PC 1 y PC 2 cuyas áreas se describen a continuación, seregirán por el artículo 59 de la</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9508031563629,-39.6627293711336 -72.9503928106347,-39.6626068294263 -72.9496431536381,-39.664248111678 -72.9500308868176,-39.6643789032351 -72.9508031563629,-39.6627293711336</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9496431547499,-39.6642481107395 -72.9494129359058,-39.6646573146837 -72.9498339375041,-39.664786352345 -72.9500308856546,-39.6643789032747 -72.9496431547499,-39.6642481107395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">MH2</SimpleData>
+		<SimpleData name="NOM">Estación Ferroviaria de Máfil</SimpleData>
+		<SimpleData name="UPERM">Declarado mediante decreto del Ministerio de Educación N 344 del 31 de octubre de 2017</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9505615998342,-39.665019241556 -72.9504849657903,-39.6649955151435 -72.9501327850296,-39.6648920137337 -72.9498339386159,-39.6647863514065 -72.9494129347427,-39.6646573147233 -72.9493476877155,-39.6646389421536 -72.9486830874305,-39.6660194171732 -72.9494821273415,-39.6662410687951 -72.9498173558668,-39.6654989974348 -72.9502748819371,-39.6656346238764 -72.9505615998342,-39.665019241556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9502141187205,-39.665616612429 -72.9498173546525,-39.6654989965756 -72.9494821261272,-39.6662410679358 -72.9499329472655,-39.6662252501997 -72.9502141187205,-39.665616612429</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9494821261272,-39.6662410679358 -72.9487446800348,-39.6660365032514 -72.9486394560601,-39.6662650943713 -72.9494821261272,-39.6662410679358</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9526890516795,-39.6652736287592 -72.9519053566286,-39.6652900710842 -72.951901667993,-39.6653202716264 -72.9517208405012,-39.6657602554937 -72.9518651342758,-39.6657995527873 -72.9518149778682,-39.6659824235036 -72.9520006981741,-39.6660397453575 -72.9519060003792,-39.6662153448596 -72.9526946597281,-39.6662206077138 -72.952727745625,-39.6652894434189 -72.9526890516795,-39.6652736287592</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9519053554143,-39.6652900702249 -72.9515574883691,-39.665229888047 -72.9505860330718,-39.6652581414634 -72.9501413043754,-39.6662036551283 -72.9501850778704,-39.6662368554448 -72.9513394705744,-39.6662658797286 -72.9515538629324,-39.6662048079663 -72.9519059991135,-39.6662153431015 -72.9520006969598,-39.6660397444983 -72.9518149777656,-39.6659824217058 -72.9518651330615,-39.665799551928 -72.9517208417156,-39.665760256353 -72.9519016679418,-39.6653202707275 -72.9519053554143,-39.6652900702249</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9590742081388,-39.6664654702224 -72.9589559801472,-39.6664358988311 -72.9588704399971,-39.6664198024556 -72.9587363363507,-39.6664142009693 -72.9585737839488,-39.6664486354117 -72.9584781379456,-39.6664907294957 -72.95834236888,-39.6664705077171 -72.9581706193674,-39.6664610012246 -72.9580524819541,-39.6664119028214 -72.9579919668826,-39.6662584302581 -72.9578350468472,-39.6663735652346 -72.9577523144494,-39.6664283176411 -72.9575865365017,-39.666453505033 -72.9567064410385,-39.6664185613426 -72.9566336236598,-39.6664216035028 -72.9558022594911,-39.6664415569988 -72.9556291768147,-39.6664298613348 -72.9553426546354,-39.6666604547521 -72.9552764397697,-39.6667241436646 -72.9552209632789,-39.6668031543703 -72.9550859845266,-39.6670169589602 -72.9550335572209,-39.6670873762203 -72.9550066668323,-39.6672403921325 -72.9549441234085,-39.6674641204397 -72.9548958128681,-39.6676794521251 -72.9548862622479,-39.6679084375288 -72.9548826205846,-39.6681267182218 -72.9549094792155,-39.6683541835125 -72.9549733208345,-39.6685606815631 -72.9549993677296,-39.6686259950108 -72.9550014553617,-39.6687449324078 -72.954994269899,-39.6687988515493 -72.955010327398,-39.6690131550045 -72.9550120873206,-39.6692380160823 -72.9550525442022,-39.6694786917835 -72.9551331628752,-39.6696854856673 -72.9551586358854,-39.6697702452665 -72.9553394067337,-39.6699009769354 -72.9554507896153,-39.6700131923566 -72.9556089311479,-39.6702472927748 -72.9556530217305,-39.6703648071525 -72.9556279147977,-39.6704573236333 -72.9555431935626,-39.6706741768296 -72.9554500197946,-39.6708930421126 -72.9553420454497,-39.6710446297563 -72.9553154797024,-39.6710917221427 -72.9551427512305,-39.6712573022989 -72.9548643484224,-39.6714015642517 -72.9550389411077,-39.671741884987 -72.9550728953137,-39.6718256356893 -72.9554833976382,-39.671830195932 -72.9564384366601,-39.6718447861562 -72.9568758979161,-39.6718514684095 -72.9580649054013,-39.6718695123105 -72.9587778072874,-39.6718803266934 -72.9587929374777,-39.6718425411197 -72.958763198712,-39.6718074294338 -72.9586973673334,-39.6717630351043 -72.9586204800752,-39.6717141232544 -72.9585708510927,-39.6716894705175 -72.9584884340387,-39.6716858590664 -72.9583568484874,-39.6716657099025 -72.9583090944965,-39.6716486565124 -72.9582338408877,-39.671639225432 -72.9581542517577,-39.671634583251 -72.9581025423204,-39.671609352873 -72.9580355822484,-39.6716033113318 -72.9579755334147,-39.6715763130215 -72.957876595648,-39.6715162037684 -72.9578208365097,-39.6714860382363 -72.957745110125,-39.6714214719217 -72.9577062224639,-39.6713883609074 -72.9576756742667,-39.6713570177778 -72.9576186300897,-39.6712992655407 -72.9575906565239,-39.6712517537419 -72.9575562970895,-39.6712073725308 -72.9575550119199,-39.6711797868303 -72.9575542993871,-39.6711327540695 -72.957562260438,-39.67107614607 -72.9575601671545,-39.67100476954 -72.9575593632257,-39.6708896377669 -72.9575669459337,-39.6707746538558 -72.9576111766071,-39.6706976064832 -72.9576637960617,-39.6706207059772 -72.9576962561016,-39.6705158885772 -72.9577288075353,-39.6704791692797 -72.9577528767757,-39.6704455440552 -72.9577695606369,-39.6703777397744 -72.9577654181067,-39.6703047057813 -72.9577627036381,-39.6702543955056 -72.9577660892478,-39.6702106776868 -72.9577821047882,-39.6701655606004 -72.9577843953363,-39.6700877759545 -72.9577775826639,-39.670034150738 -72.9577671971806,-39.6699593844651 -72.9577794958964,-39.6698979892438 -72.957785073492,-39.6698510678129 -72.9577907950893,-39.6697992843621 -72.9577627748392,-39.6697533926189 -72.9577300826697,-39.6697236330252 -72.9576887171256,-39.6697034486614 -72.9576262385164,-39.6696877576372 -72.9575719574034,-39.6696786955376 -72.9575112421476,-39.6696743849862 -72.9574695897437,-39.669663923642 -72.9574323697459,-39.6696454340861 -72.9573426319528,-39.669629261949 -72.9573238549074,-39.6696256896253 -72.9572826808471,-39.6695990230384 -72.9571388512059,-39.6695673073797 -72.9570826641043,-39.6695517264769 -72.9570348173799,-39.669537913464 -72.956984873158,-39.6695240630323 -72.9569117195605,-39.6695146692634 -72.9568823629038,-39.669514152582 -72.9568340850744,-39.6695149237116 -72.9567776121895,-39.6695090657214 -72.9567357213734,-39.6695067071205 -72.9566623291522,-39.6695054153109 -72.9566159102169,-39.6695143267717 -72.9565825027213,-39.6695088749799 -72.9565414235283,-39.6694789671154 -72.9565192170816,-39.6694493915595 -72.9564336735642,-39.6694332935472 -72.9563475130261,-39.6693669216526 -72.9562875140897,-39.6693383022815 -72.9562213738172,-39.6692333702462 -72.9561890169187,-39.6691922661139 -72.9561495097263,-39.6691802207351 -72.9560853657016,-39.6691499071895 -72.9560570124457,-39.6691153590178 -72.9560625911976,-39.6690684376103 -72.955960516716,-39.6689726011039 -72.955930304854,-39.6689299133536 -72.9559449885595,-39.6688588316957 -72.9559619599645,-39.6687813045219 -72.9560015674831,-39.6687187688365 -72.9560577585063,-39.6686630102084 -72.9560844986048,-39.6686099756511 -72.9560825016326,-39.6685353570961 -72.9561148676734,-39.6684337810769 -72.956113779386,-39.6683283722442 -72.9561195543015,-39.6682036286569 -72.9561368598065,-39.6681147574104 -72.9561470623718,-39.6680533257752 -72.9561356854626,-39.6678699102988 -72.9561106710142,-39.6677932652663 -72.9560849878088,-39.6677393083426 -72.9560897594842,-39.667648595126 -72.9560345302254,-39.6676006032906 -72.9559825436007,-39.6675137547193 -72.9559132565069,-39.6674444372241 -72.9558579791171,-39.6673980662771 -72.9557979821376,-39.6673694465502 -72.9557424176249,-39.6673327977547 -72.9556447733868,-39.6673002719009 -72.9555688624359,-39.6672421876736 -72.9555410351208,-39.6671898132167 -72.9555103050504,-39.6670936112491 -72.9554859551695,-39.6670656189461 -72.9554508333318,-39.6670471652212 -72.9554047515652,-39.6670447329212 -72.9553716798777,-39.6670279366509 -72.9553348436716,-39.6669964813038 -72.9553342287341,-39.666946208287 -72.9553694507569,-39.6668900808985 -72.9554236933832,-39.6667580839011 -72.9554629173425,-39.6667085116705 -72.9555248723385,-39.6666706900164 -72.9556221392407,-39.6666448399893 -72.9557195005889,-39.6666157479869 -72.9558034754239,-39.6665426438763 -72.9558751972866,-39.6665293138655 -72.9559507310544,-39.6665290228046 -72.9560666307313,-39.666511607 -72.9561175746587,-39.6664914258092 -72.9562078350572,-39.6664897720456 -72.9563204898414,-39.6665112118789 -72.956405696465,-39.6665386541804 -72.9564506802233,-39.6665783583707 -72.9564666430104,-39.6666062025332 -72.9565070043698,-39.6666604186867 -72.9565565163057,-39.6666888536324 -72.9565771028458,-39.6667021866426 -72.956614606916,-39.6667109535006 -72.9566730792258,-39.6667200901307 -72.9567001954987,-39.6667254314612 -72.9567455139078,-39.666753792364 -72.9567791586788,-39.6667511411559 -72.9568553612707,-39.6667281622804 -72.9569241268741,-39.6667439643596 -72.9569866983202,-39.6667564148725 -72.9570348300973,-39.6667605048987 -72.9571022637754,-39.6667503420804 -72.9571714109645,-39.6667531799061 -72.9572776820376,-39.6667777492891 -72.9573836177601,-39.6668136617647 -72.9574854083686,-39.6668478801232 -72.9575772882875,-39.6668624678385 -72.9576296138066,-39.6668666315353 -72.9577046707259,-39.6668825435478 -72.9577694343186,-39.6668917900183 -72.9578358686763,-39.6668443179958 -72.9579311802053,-39.6668135666928 -72.9580070010569,-39.6668035511729 -72.9581017882664,-39.6667906258137 -72.9581445368445,-39.6667638138337 -72.9582965595856,-39.6667308174792 -72.958402736726,-39.6666872868838 -72.9585700571048,-39.6666334812358 -72.9587311817468,-39.6665763230723 -72.9588300677177,-39.6665667129135 -72.9589102717191,-39.6665502877753 -72.9589904768412,-39.6665338625436 -72.9590436741382,-39.6665459412073 -72.9590742081388,-39.6664654702224</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9556291768147,-39.6664298613348 -72.954176185233,-39.6664189036172 -72.9541498352605,-39.6673119945771 -72.9549811816078,-39.6673315506354 -72.9550066656179,-39.6672403912732 -72.9550335560579,-39.6670873762599 -72.9550859833635,-39.6670169589998 -72.9552209609528,-39.6668031544497 -72.9552764386066,-39.6667241437043 -72.955342653421,-39.6666604538929 -72.9556291768147,-39.6664298613348</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9541498352605,-39.6673119945771 -72.9540990769349,-39.6687513568237 -72.9540577865424,-39.6698978392384 -72.9544385410322,-39.6707721619037 -72.9546920901195,-39.6711542276835 -72.9548643495855,-39.6714015642121 -72.9551427500673,-39.6712573023386 -72.9553154785392,-39.6710917221824 -72.9553420442352,-39.6710446288971 -72.9554500186315,-39.6708930421523 -72.9555431923481,-39.6706741759703 -72.9556279135833,-39.6704573227741 -72.9556530228423,-39.670364806214 -72.9556089299334,-39.6702472919157 -72.9554507883495,-39.6700131905985 -72.955395691046,-39.6699576818195 -72.9553394066823,-39.6699009760365 -72.9551586346709,-39.6697702444073 -72.9551331628752,-39.6696854856673 -72.9550525429878,-39.6694786909243 -72.955012087372,-39.6692380169811 -72.9550103273467,-39.6690131541056 -72.9549942687359,-39.6687988515889 -72.9550014541473,-39.6687449315486 -72.9549993665151,-39.6686259941516 -72.9549733220489,-39.6685606824223 -72.9549094791642,-39.6683541826136 -72.9548826216964,-39.6681267172833 -72.9548862622479,-39.6679084375288 -72.9548958140312,-39.6676794520855 -72.9549382031787,-39.6674905037355 -72.9549441210823,-39.6674641205191 -72.9549811827196,-39.6673315496968 -72.9541498352605,-39.6673119945771</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9540416560514,-39.6664371365111 -72.9528757569155,-39.666401210303 -72.9526952437119,-39.6695956097517 -72.9539411781482,-39.6696175751609 -72.9540416560514,-39.6664371365111</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9539450032779,-39.6696704874527 -72.9526996424199,-39.669657179239 -72.9526353326194,-39.6696877512572 -72.9526293928788,-39.6697625900301 -72.9526342960871,-39.6698491501797 -72.9526472361029,-39.6700425008356 -72.9526937417059,-39.6701096175782 -72.952750000338,-39.67009907985 -72.9528400646138,-39.6700804908357 -72.9529601223268,-39.6700566661031 -72.9530393446383,-39.6700263564571 -72.9531077214922,-39.6699843255131 -72.9532051573289,-39.6699687487981 -72.9532985238236,-39.6699646298849 -72.9533807075126,-39.6699603139604 -72.953563799327,-39.6699491296694 -72.95361488325,-39.6699875011625 -72.9536730843877,-39.6700375291091 -72.9537167989556,-39.670072888836 -72.9537746593492,-39.6701344393254 -72.9538325198993,-39.6701959906792 -72.9538941089413,-39.6702576076005 -72.9539179081573,-39.6703358526517 -72.9539601784767,-39.6704201883613 -72.9539702431184,-39.6705846644185 -72.9539694656771,-39.6707374191979 -72.9540063912678,-39.6708764271695 -72.9540401003126,-39.6709980833582 -72.954162162564,-39.6712621822643 -72.9542144262254,-39.6714104614743 -72.9543457857689,-39.6714437218819 -72.9547059217002,-39.6714392994465 -72.954424418284,-39.6709933262648 -72.9542504204408,-39.6706962523746 -72.9539296418403,-39.6699382828292 -72.9539450032779,-39.6696704874527</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9498536412143,-39.6663846176596 -72.9493896836462,-39.6663927579033 -72.949094918731,-39.6670274509269 -72.948975758436,-39.6672732354157 -72.9488023633716,-39.667587239787 -72.9486058568538,-39.6677999504404 -72.9482659026355,-39.6680706564434 -72.9480145839275,-39.6682449255042 -72.9470034282714,-39.6686363531864 -72.9472800272381,-39.6687421296859 -72.9475985708944,-39.6688169403793 -72.9482927798821,-39.6684227886377 -72.9487890681443,-39.6680366645203 -72.9491368170237,-39.6677545651254 -72.9493546235067,-39.6673260470377 -72.9494454734419,-39.6671547063791 -72.9495407961793,-39.6670843282932 -72.9498536412143,-39.6663846176596</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9490796887202,-39.6664074584979 -72.9485529790331,-39.6664356244527 -72.9481283712399,-39.6672986159026 -72.9479044903161,-39.6675540774488 -72.9477895880894,-39.6676558134968 -72.9475351143397,-39.667936676232 -72.9471628353253,-39.6684172247346 -72.9469307481521,-39.6685716551541 -72.9469488761214,-39.6685892696353 -72.9474586946791,-39.6683763371956 -72.9481218842218,-39.6680219922494 -72.9480668197391,-39.6679921945158 -72.9483189900701,-39.6677891157168 -72.9484612643221,-39.6676446261968 -72.9487563556133,-39.6671252370683 -72.9490796887202,-39.6664074584979</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9491584574292,-39.6679666963665 -72.9489460066312,-39.6681510222717 -72.9482801279765,-39.6686278280054 -72.9476717760866,-39.6689564816474 -72.9474343197501,-39.6689457981188 -72.947292754249,-39.6689087054085 -72.9468632998666,-39.6687692398268 -72.9468443042327,-39.668749447413 -72.9468187581114,-39.6687619666297 -72.9468393973677,-39.6688207014366 -72.9468647321314,-39.6689097844757 -72.9468790765477,-39.6689921869327 -72.9469355501621,-39.6690688494597 -72.9470008594514,-39.6691305362784 -72.9470527010385,-39.6691746895353 -72.9470976076989,-39.6692641177094 -72.9471895974274,-39.6693695126967 -72.9472359112482,-39.6694114061123 -72.9472819695772,-39.6694619425781 -72.9472832301016,-39.6695138482032 -72.9473357767129,-39.6695342339261 -72.9474081493118,-39.6695463226401 -72.9474892940765,-39.6695455956736 -72.9476045649778,-39.6695260157181 -72.9476836178389,-39.6695014714343 -72.9478719643462,-39.6694702114791 -72.9480014706297,-39.6694422353027 -72.9481877247589,-39.6693871576815 -72.9483465326721,-39.6693143009696 -72.9484745836737,-39.6692408999525 -72.9486268400448,-39.6692003537128 -72.9488112561374,-39.6691128158306 -72.9489731775186,-39.6690292031615 -72.9492101551782,-39.6688669296375 -72.9495337555372,-39.6686132261566 -72.9494621495621,-39.6685752104467 -72.9497139978958,-39.668382932796 -72.9491584574292,-39.6679666963665</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9489731775699,-39.6690292040603 -72.9488112560861,-39.6691128149318 -72.9486268388817,-39.6692003537525 -72.9484745835712,-39.6692408981547 -72.9483465314578,-39.6693143001103 -72.9481877247077,-39.6693871567826 -72.9480014694666,-39.6694422353423 -72.9478719631318,-39.6694702106198 -72.9476836177877,-39.6695014705354 -72.9476045649266,-39.6695260148192 -72.9474892940253,-39.6695455947748 -72.9474081493118,-39.6695463226401 -72.947361497143,-39.669538529789 -72.9473357766616,-39.6695342330272 -72.9472832301016,-39.6695138482032 -72.947281969526,-39.6694619416792 -72.9472359111969,-39.6694114052134 -72.9471895950499,-39.669369511877 -72.9470976076989,-39.6692641177094 -72.9470526998754,-39.6691746895749 -72.9470008594002,-39.6691305353795 -72.9469355501621,-39.6690688494597 -72.9468790765989,-39.6689921878316 -72.9468647320802,-39.6689097835768 -72.9468393962046,-39.6688207014762 -72.9468187581114,-39.6687619666297 -72.9467649285231,-39.6687017956084 -72.9467508206949,-39.6687058702206 -72.9467692834625,-39.6688380681488 -72.9468479775358,-39.6690145670684 -72.9468793517427,-39.6690886255095 -72.9469392617951,-39.6691437287814 -72.9469825246555,-39.6691942164257 -72.9470060882583,-39.6692486790204 -72.9470517617015,-39.6693121788928 -72.9471336566961,-39.669380644827 -72.9472187278624,-39.6694361937721 -72.9472423562537,-39.6694884961901 -72.9472432334472,-39.6695533668741 -72.9472220615383,-39.6696070367254 -72.9472090229953,-39.6696694999863 -72.9471839059544,-39.6697620151516 -72.9471514866916,-39.6698176484684 -72.9471385125199,-39.6698779507123 -72.9471256015753,-39.6699360910835 -72.9470858825238,-39.669954845157 -72.9470568995381,-39.6699889209996 -72.9470613409014,-39.6700279140476 -72.9470598695017,-39.6700776097488 -72.9470528055667,-39.6701272076145 -72.9470156270285,-39.6701546527607 -72.9469642137496,-39.6701904944941 -72.9469474370837,-39.6701901973396 -72.9468820722928,-39.6701245694273 -72.9467590868273,-39.6702415346714 -72.9467994895136,-39.6702740530156 -72.9468320181144,-39.6703092188344 -72.946819554805,-39.6703522349114 -72.9467819281517,-39.670394805165 -72.9467506609944,-39.6704115467353 -72.9467110061428,-39.6704281414825 -72.9466736361121,-39.6704620676941 -72.9466079220212,-39.6705084678045 -72.9465794498391,-39.6705252574012 -72.9465342689579,-39.6705395904473 -72.9464851367097,-39.6705927680875 -72.946385296357,-39.6706580179897 -72.9462372826057,-39.6707440340388 -72.9461993997614,-39.670795248103 -72.946170224864,-39.6708358067196 -72.9461686884167,-39.6708876643488 -72.9461419250059,-39.6709412352016 -72.9461157364053,-39.6709753616231 -72.9461153028601,-39.6710362258798 -72.9461590110759,-39.6710869085064 -72.9462406381313,-39.6711029564862 -72.9463203128589,-39.6711519250604 -72.9463560836493,-39.6711720148387 -72.9464033587746,-39.6711814980813 -72.9464451702973,-39.6711865623167 -72.9464782080908,-39.6712044412522 -72.9464999373562,-39.6712264435935 -72.9465412997506,-39.6712466321059 -72.9465602960469,-39.6712664245332 -72.946595683453,-39.6712994774914 -72.9466259894948,-39.6713151464409 -72.9467235286788,-39.671327680395 -72.946780088892,-39.6713070634991 -72.9468133190635,-39.6713184593338 -72.9468094346852,-39.6713551428532 -72.9468556242238,-39.6714013573627 -72.9469163033108,-39.6714305340147 -72.9469964244429,-39.6714643778884 -72.9470577449515,-39.6714719480531 -72.9471051482131,-39.6714771108071 -72.9472054184375,-39.6714918552036 -72.9472983433068,-39.6715421390752 -72.9473684395493,-39.6715839126878 -72.9474202890147,-39.6716042860511 -72.9474702806492,-39.6716165196705 -72.9474927249287,-39.6716379931212 -72.9475105897514,-39.6716723583235 -72.9475391796826,-39.6716988047861 -72.9476038022338,-39.6717129188212 -72.9476384430085,-39.6717475810799 -72.9476624558467,-39.6717869182902 -72.9477433749483,-39.6718175327148 -72.9478933018548,-39.671855853149 -72.9479624554577,-39.6718586970967 -72.9480044889696,-39.6718561986907 -72.9480313659127,-39.671869643271 -72.9481027131554,-39.6718692827446 -72.948164532266,-39.6718363275648 -72.9481982262978,-39.6718320577992 -72.9482618432684,-39.6718802036976 -72.9483513901885,-39.6719028622244 -72.9484961776961,-39.6719021793359 -72.9486157063805,-39.6719042909783 -72.9487122151068,-39.6719043746514 -72.9487535796665,-39.6719245622802 -72.948823019153,-39.6719176826494 -72.9489048021568,-39.6719191277529 -72.9489760047309,-39.6719236278255 -72.949024283384,-39.6719228590252 -72.9490950673424,-39.6718706045913 -72.9491307629209,-39.6718696140387 -72.9491675020517,-39.6719043124355 -72.9492259283512,-39.6719150727836 -72.9492914144068,-39.6719000155807 -72.9493591415571,-39.6718801356747 -72.9494596532455,-39.6718867740848 -72.9496230732911,-39.6718945236156 -72.9497199198341,-39.6718832649803 -72.9499154672134,-39.671868882761 -72.9499748997498,-39.6718456113695 -72.9500669286846,-39.6718553427873 -72.9501588119914,-39.671869937105 -72.9502617091718,-39.671866888303 -72.9503477323535,-39.6718667874483 -72.9504652119269,-39.6718672404738 -72.9505848364094,-39.6718661090403 -72.9506857308946,-39.6718597840451 -72.9507864818714,-39.6718583182609 -72.9508703599453,-39.671859798665 -72.950950142427,-39.671857965535 -72.9510574716593,-39.6718468889778 -72.9511749037302,-39.6718489613369 -72.9512375253426,-39.6718597947579 -72.9513193093502,-39.6718612381175 -72.9513740203228,-39.6718557171604 -72.9514696783358,-39.6718136292907 -72.9515297840738,-39.6717676706533 -72.9515607676692,-39.6717130892884 -72.9515626838231,-39.6716482694211 -72.9515529841878,-39.6714794756222 -72.9514598185493,-39.6714372983093 -72.9513976850752,-39.671338917704 -72.9513610131312,-39.6712486919465 -72.9513375372533,-39.6711911228442 -72.9513120934112,-39.6711468979217 -72.951320289348,-39.6710825926696 -72.9513078938622,-39.671022787971 -72.951294529608,-39.6709958002056 -72.9512570074516,-39.670934336258 -72.9512426438862,-39.6708878730372 -72.9512172369415,-39.6708424327799 -72.9511563041962,-39.6707744759062 -72.9511088434987,-39.6707298609582 -72.9510569938956,-39.6706207193135 -72.951024155522,-39.6705605547099 -72.9509813748662,-39.6705172383616 -72.9509626197029,-39.6704597541914 -72.9509270664407,-39.6703849495143 -72.9508700962863,-39.6703425993399 -72.9508086596971,-39.6702916579753 -72.950766483936,-39.6702811850169 -72.9506525107787,-39.6701976987452 -72.9505026904044,-39.6701026356634 -72.9504120549877,-39.670028075469 -72.9503425073078,-39.6699855014631 -72.9502475502448,-39.6698974861065 -72.9501711367846,-39.6698742492127 -72.9500836493537,-39.6697997427215 -72.9500677499569,-39.6697520374438 -72.9500564981858,-39.669706845117 -72.9500364830946,-39.6696919000576 -72.9499994935005,-39.6696657088224 -72.9499027147878,-39.6695861752373 -72.9498709087998,-39.6695442678644 -72.9498559471557,-39.6694649625262 -72.9498419440738,-39.6694063453942 -72.9499051945369,-39.6692895087545 -72.949995563825,-39.6692132782722 -72.9500174811259,-39.6691638083233 -72.9501540340379,-39.6690689365746 -72.9501834462889,-39.6690852645867 -72.9501873378363,-39.6691133020102 -72.9502011338654,-39.6691257065745 -72.9502454549113,-39.6691167601753 -72.9502777350509,-39.669089362907 -72.9503296342515,-39.6690902787202 -72.9503577631032,-39.6690968551269 -72.950424785534,-39.6690652048596 -72.950451735337,-39.6690583848709 -72.9505160346131,-39.669065599568 -72.9505518850951,-39.6690771770554 -72.9505687160803,-39.6690932833487 -72.9505774354897,-39.6691177572845 -72.9505946965491,-39.6691192775835 -72.9506030651418,-39.6691024019092 -72.9505917954227,-39.669066765961 -72.9505893487461,-39.6690636718866 -72.9505587630495,-39.6690250176434 -72.9503550385424,-39.6688827855647 -72.9500196036889,-39.6686081364769 -72.9500095989116,-39.6686005562212 -72.9497446943076,-39.6683998386223 -72.9497139978445,-39.6683829318971 -72.9494621495109,-39.6685752095478 -72.9495337543228,-39.6686132252973 -72.9492101562389,-39.6688669278001 -72.9489731775699,-39.6690292040603</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9526513016764,-39.666404888871 -72.9500905535739,-39.6663539361895 -72.9497012183884,-39.6671599076096 -72.94963563296,-39.6672336923472 -72.9493824893079,-39.6677221177642 -72.9502439674871,-39.66810340071 -72.9509934687839,-39.6683616384194 -72.9511865293639,-39.668517815197 -72.9517446789874,-39.6685622535042 -72.951708558696,-39.6687749160761 -72.9517593007637,-39.6688248128597 -72.9515931493095,-39.6688939418553 -72.9518764298078,-39.6691525942557 -72.9521872388718,-39.6694895569967 -72.9523488814772,-39.6695731164274 -72.9525051966537,-39.6695845211307 -72.9525720256841,-39.6683318402506 -72.9522292395329,-39.6683200294572 -72.9522552803476,-39.6680697171093 -72.9525792574377,-39.6680869612542 -72.9526513016764,-39.666404888871</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9525792550088,-39.6680869595358 -72.9522552791845,-39.668069717149 -72.9522292395329,-39.6683200294572 -72.952572024521,-39.6683318402903 -72.9525792550088,-39.6680869595358</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9515931493095,-39.6688939418553 -72.9517592996006,-39.6688248128994 -72.9517085563697,-39.6687749161554 -72.951744677773,-39.668562252645 -72.9511865304757,-39.6685178142585 -72.9515931493095,-39.6688939418553</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9485257580964,-39.6643053039694 -72.9483869629664,-39.6644585030516 -72.9483084058657,-39.6645925893312 -72.9482248418057,-39.664769823375 -72.9482726177362,-39.664793726927 -72.9481937194784,-39.664939337549 -72.9480021768587,-39.6653625525399 -72.9477249083031,-39.6652798250416 -72.9474602587153,-39.6656527454999 -72.9473209223935,-39.6659500550696 -72.9484005329073,-39.6662689123983 -72.9489203867114,-39.6652115971983 -72.9485250262692,-39.6650864312569 -72.9485875881683,-39.6648627072625 -72.9490521745204,-39.6649170340301 -72.9492808994926,-39.6644973568439 -72.9485257580964,-39.6643053039694</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">MH1</SimpleData>
+		<SimpleData name="NOM">Casa de Cultura de Máfil</SimpleData>
+		<SimpleData name="UPERM">Casa de Cultura de Máfil, ex Casa Fehlandt, ubicada en calle Pedro de Valdivia Nº659 de la localidad de Máfil, declarado mediante Decreto del Ministerio de Educación Nº490 del 5 de diciembre de 2014</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9490521745204,-39.6649170340301 -72.9485875881683,-39.6648627072625 -72.9485250273811,-39.6650864303184 -72.9489203854971,-39.665211596339 -72.9490521745204,-39.6649170340301</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9485257569846,-39.6643053049079 -72.9475966029662,-39.6640091253155 -72.9473711628115,-39.6638975287918 -72.9467849920367,-39.6635412709758 -72.9461945400871,-39.6631618752789 -72.9456545543276,-39.6629255695915 -72.9450692729482,-39.6627076757025 -72.9448516196367,-39.6626692343296 -72.9448063204037,-39.6626876487355 -72.9445156717848,-39.6627632109606 -72.9443339071245,-39.6628560734898 -72.9440936405174,-39.6629094675324 -72.9438037874771,-39.6629581404037 -72.9429302791374,-39.6646900617792 -72.9473365278639,-39.6659546637601 -72.9473209223423,-39.6659500541707 -72.9474602586641,-39.665652744601 -72.9477249070888,-39.6652798241823 -72.9480021756957,-39.6653625525795 -72.948193719376,-39.6649393357513 -72.9482726188992,-39.6647937268873 -72.9482248417545,-39.6647698224761 -72.9483084034371,-39.6645925876126 -72.9483869629664,-39.6644585030516 -72.9485257569846,-39.6643053049079</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9435618801587,-39.6629922876497 -72.9430828260028,-39.6630491365067 -72.9426596936525,-39.6630646981995 -72.9424415850129,-39.6630416163838 -72.9421252159248,-39.6629783604148 -72.9416908229557,-39.6628707351317 -72.9409468586344,-39.6626384773941 -72.9407356610184,-39.662550180221 -72.9406067851194,-39.6625363642321 -72.9405061312828,-39.6625768547679 -72.9397160723813,-39.663896442542 -72.9400673468873,-39.663956481835 -72.9413557466926,-39.6642752654841 -72.9427218569377,-39.6646569036418 -72.9435618801587,-39.6629922876497</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9496163250364,-39.6598886946131 -72.9490940464055,-39.66056741208 -72.9495204018891,-39.66077863465 -72.9497269177634,-39.6605209409247 -72.9499605858665,-39.6606903273857 -72.9501785521269,-39.6608863386836 -72.9500723177704,-39.6612841611564 -72.9498945987779,-39.661576953093 -72.9495546337959,-39.6621435930365 -72.9502176282312,-39.6624243288494 -72.9507327926002,-39.6609768312284 -72.9507201520627,-39.6608997425632 -72.9505469376666,-39.660535419414 -72.9502854925816,-39.6602963662133 -72.9496163250364,-39.6598886946131</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9490940464055,-39.66056741208 -72.9482789294512,-39.6615637845394 -72.9495546337447,-39.6621435921376 -72.9498945987267,-39.6615769521941 -72.9500723177191,-39.6612841602575 -72.9501785521269,-39.6608863386836 -72.949960585764,-39.660690325588 -72.9497269177634,-39.6605209409247 -72.9495204018891,-39.66077863465 -72.9490940464055,-39.66056741208</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9490945282372,-39.6603829440711 -72.9482865554876,-39.6599612836288 -72.948075521673,-39.6602035224814 -72.9479058664771,-39.6602235825281 -72.947793349263,-39.6603292054561 -72.9477322026267,-39.6605471898019 -72.9475765146409,-39.6607673459964 -72.9474068268101,-39.6609565085997 -72.9474035295914,-39.6610679040864 -72.9474495908879,-39.6611917025839 -72.9482310487403,-39.6615014463632 -72.9490945282372,-39.6603829440711</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9486277480046,-39.6593110780164 -72.9482353764541,-39.6597163325982 -72.9486624413375,-39.6600294176306 -72.9486048264076,-39.6600860488555 -72.9491304244961,-39.660346106954 -72.9495101852233,-39.6598628003646 -72.9492270145138,-39.6597280890101 -72.9488479560232,-39.6595570935891 -72.9489175189027,-39.6594747313592 -72.9486277480046,-39.6593110780164</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9486277479534,-39.6593110771175 -72.9489175188514,-39.6594747304603 -72.948847955972,-39.6595570926902 -72.9492270132483,-39.659728087252 -72.9495101851721,-39.6598627994657 -72.9496286279545,-39.6597668890683 -72.9495249851379,-39.6594883441559 -72.9488439736299,-39.6590612437913 -72.9486277479534,-39.6593110771175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9477366616016,-39.6584219503275 -72.9476065248942,-39.6585349474376 -72.9475060360851,-39.6586542339081 -72.9474912125059,-39.6586510891456 -72.9485553324265,-39.6592377374379 -72.9487676600247,-39.6589935992977 -72.9477366616016,-39.6584219503275</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.94749121018,-39.6586510892248 -72.9468915108348,-39.6592573267375 -72.9480119700335,-39.6598305639733 -72.9485553311611,-39.6592377356798 -72.94749121018,-39.6586510892248</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9468227990815,-39.6593108781436 -72.945817467604,-39.6603913034532 -72.9472225561427,-39.6610502921485 -72.9476337724389,-39.6605127815658 -72.9476842124392,-39.6603205497259 -72.9478086877099,-39.6601469218131 -72.9479652815188,-39.6598960354749 -72.9468227990815,-39.6593108781436</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9600872178504,-39.6592344306753 -72.9596078823057,-39.6590260489876 -72.9592108425845,-39.6588317117544 -72.9591756689733,-39.6588025667638 -72.9589123258902,-39.658584337969 -72.9585235947251,-39.6583613213189 -72.9581603597518,-39.6581589275454 -72.9578286017771,-39.6579742265596 -72.9577861178675,-39.6579505732089 -72.9576493848486,-39.6578496577651 -72.9575780745758,-39.6577970267981 -72.9574699066833,-39.6576711803417 -72.9572555198524,-39.6573532205111 -72.9570964448471,-39.6570303178752 -72.9570936571703,-39.6570246570586 -72.9570644995879,-39.6569540688454 -72.9569509410091,-39.6566791367759 -72.9566833599019,-39.6563948300236 -72.9565675698353,-39.6562746122855 -72.956408838384,-39.6560931069986 -72.9562753352342,-39.6559169560532 -72.956171928927,-39.6557805156026 -72.9561400792966,-39.6557135026128 -72.9560876562035,-39.6556032018619 -72.9559571291531,-39.6554769602248 -72.9557915848307,-39.6552737145934 -72.9556979174249,-39.655178025639 -72.9555789502368,-39.6550154143456 -72.955552340939,-39.6549681318187 -72.9554932432581,-39.6548631190919 -72.9553528415638,-39.6546450031319 -72.9552866689973,-39.6545416915228 -72.9552046294235,-39.6544575812586 -72.9550871378297,-39.6543371272527 -72.9549358167332,-39.6542760924124 -72.9546628579023,-39.6541431956701 -72.9545703809139,-39.6540783325499 -72.9542486435298,-39.6538213508713 -72.9540678900431,-39.6536203576242 -72.9540405233296,-39.653590420624 -72.9539805172668,-39.6535247794955 -72.9538468851732,-39.6533619079642 -72.9536799890336,-39.6532600624713 -72.9533340992112,-39.6530399439984 -72.9532703550527,-39.6530034177034 -72.9532022488629,-39.6533413830023 -72.9530170686166,-39.6543095009378 -72.9532181448667,-39.6544456383176 -72.9534150454621,-39.6548497687565 -72.953571132617,-39.6551205879341 -72.9539780179694,-39.6556120084908 -72.9551884422219,-39.6561694674977 -72.9554483994699,-39.6563325803285 -72.95557917193,-39.6565770077941 -72.9556975656833,-39.6569883996529 -72.9557537027336,-39.6573612226847 -72.9558087446525,-39.6576446718172 -72.9558933589285,-39.6578104603622 -72.9560274464143,-39.6579425309955 -72.9563724443794,-39.658383853052 -72.9565583693458,-39.6586551925868 -72.9567707248507,-39.6589154672203 -72.9570998593447,-39.6591677081778 -72.9582252806721,-39.6596069012422 -72.9589497549805,-39.6598898689294 -72.95945358013,-39.6600673476934 -72.9596174981916,-39.6601048179666 -72.9598346643986,-39.6596632970336 -72.9600872178504,-39.6592344306753</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9530526906799,-39.6528786957177 -72.9529545732832,-39.6528224741601 -72.9526110241916,-39.6525942895375 -72.9524538029128,-39.6525201762009 -72.9523063148336,-39.6523294951289 -72.9521653531676,-39.652130823467 -72.9521417428944,-39.6519358411047 -72.9521223119446,-39.6518836144776 -72.952034859685,-39.6517888012326 -72.9519353276883,-39.6516808873566 -72.9517563166981,-39.6513502116384 -72.9516725904218,-39.6511280691825 -72.9516240503577,-39.6509992825609 -72.9515147510318,-39.650652002748 -72.9514837502484,-39.6503753161074 -72.9514732509404,-39.6502815963156 -72.9514603729975,-39.6500073579057 -72.9514357533944,-39.6499177478841 -72.9513556607265,-39.6495758455732 -72.9513575122696,-39.649228904113 -72.9513481977855,-39.6490471456537 -72.951312380991,-39.6489816596219 -72.951199713588,-39.6488904958316 -72.9509840731992,-39.6485932210971 -72.9509734584607,-39.6485265575176 -72.9508192972261,-39.6483572449217 -72.950743899675,-39.6482744360466 -72.9506144786809,-39.6481116358189 -72.9505434617512,-39.6479595935043 -72.9504522046749,-39.6477828733292 -72.9504164819538,-39.6477141451023 -72.9503538442891,-39.6476335923962 -72.9502829453021,-39.6475751101078 -72.9495697007939,-39.6483929853748 -72.9493793445283,-39.6486519259052 -72.9500035252747,-39.6489800167252 -72.950229731794,-39.6491483093064 -72.9504827585475,-39.6495447884852 -72.9506708819077,-39.6501188333964 -72.9507306301977,-39.6504946050462 -72.9508768266666,-39.6510996159226 -72.950946582092,-39.6513890917462 -72.9510753559994,-39.6518266131984 -72.9512059356793,-39.6520768068057 -72.951367095498,-39.6523015988462 -72.9515182682736,-39.6524858601744 -72.9516248022529,-39.652666451122 -72.9517063536944,-39.6528091299848 -72.9517654438265,-39.6530811216587 -72.9518165856983,-39.6532434401689 -72.9518568855418,-39.653394038011 -72.9519785008827,-39.6535691305394 -72.9521647503041,-39.653702125735 -72.9523758142941,-39.6538787941127 -72.9526597204877,-39.6541143962239 -72.9527884652415,-39.6541743158873 -72.9530526906799,-39.6528786957177</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9494039404198,-39.6488570139074 -72.9475152764559,-39.6513038227777 -72.9487813267718,-39.6524279300343 -72.9490953415793,-39.6521208924564 -72.94955696883,-39.6515294987319 -72.9500087844664,-39.6510455399846 -72.9505050366346,-39.6504035094578 -72.9503942829147,-39.6498891202673 -72.9501963414365,-39.6494090617503 -72.9500427805536,-39.6492218744053 -72.9494039404198,-39.6488570139074</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.950555628908,-39.6506384619051 -72.9498111220626,-39.6514794810954 -72.9488920155222,-39.6525499282639 -72.9497975264137,-39.6534537139343 -72.9505614521748,-39.6542281651166 -72.950742782331,-39.6544014300196 -72.9512758690699,-39.6547855555055 -72.9523520668535,-39.6554675024677 -72.9526179231733,-39.6542932726932 -72.9523149571888,-39.654071746727 -72.951786447574,-39.6536588821246 -72.9516378248754,-39.6533881932576 -72.951579971316,-39.6531584981849 -72.9515182274998,-39.6528922239911 -72.9513963990031,-39.6526402636817 -72.9512566018484,-39.6524917525463 -72.951089144064,-39.652269731832 -72.9508524815896,-39.6518658564681 -72.9506998684632,-39.6513097344935 -72.950555628908,-39.6506384619051</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9474317062082,-39.6514425651232 -72.9456955485943,-39.6541072607317 -72.9459361060133,-39.6544907176882 -72.9467647020703,-39.6549409431191 -72.9487116140085,-39.652546420781 -72.9474317062082,-39.6514425651232</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9458219320955,-39.6545825369552 -72.9457838936444,-39.6546078061269 -72.9459522142322,-39.654968206765 -72.9457460953534,-39.6555064578084 -72.945231049428,-39.6560248305056 -72.9451343161211,-39.6563949527059 -72.945194093021,-39.6565170734068 -72.9451547737155,-39.6565855560946 -72.9453067050762,-39.6567438966265 -72.9457069561889,-39.6563243780077 -72.9458742192523,-39.656090977492 -72.9461652680348,-39.6557069978858 -72.9466811824437,-39.6550329853343 -72.9458219320955,-39.6545825369552</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.952177971811,-39.6554699828419 -72.950738078038,-39.6570010951491 -72.9510787493134,-39.657208878334 -72.9510013966945,-39.6573026336393 -72.9515695839647,-39.657635493368 -72.951904012369,-39.6576759824407 -72.9520915703118,-39.6568808554053 -72.9522062372092,-39.6564072752272 -72.9523387324113,-39.6555823518025 -72.952177971811,-39.6554699828419</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.950738078038,-39.6570010951491 -72.9506377670185,-39.6571146222359 -72.9510013966433,-39.6573026327404 -72.9510787504763,-39.6572088782944 -72.950738078038,-39.6570010951491</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9510332777776,-39.6558288284698 -72.9508069616038,-39.6557502511023 -72.9506488418532,-39.6559193254527 -72.9511255725834,-39.6561839163465 -72.9512225961304,-39.6560948314919 -72.9509110388732,-39.655990429376 -72.9510332777776,-39.6558288284698</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9510040558536,-39.6551927346411 -72.9502555857773,-39.655787716379 -72.9498084451119,-39.6561545400607 -72.9495089555246,-39.6564461416837 -72.9505649264704,-39.6570556868037 -72.952064218155,-39.6554074459624 -72.951240511114,-39.6548884850287 -72.951059041966,-39.6550985831865 -72.9510040558536,-39.6551927346411</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.9512225960791,-39.656094830593 -72.9511255713692,-39.6561839154872 -72.9506488418532,-39.6559193254527 -72.9508069615525,-39.6557502502034 -72.951033277675,-39.655828826672 -72.9509110388219,-39.6559904284772 -72.9512225960791,-39.656094830593</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9488119337219,-39.652637961445 -72.9481945866346,-39.6533947436329 -72.9468847508698,-39.6549819116014 -72.9493995165529,-39.6563638069915 -72.9497313920427,-39.6560698939508 -72.9509225605911,-39.6551743075686 -72.951133495794,-39.654836300958 -72.9504917573731,-39.6543432861149 -72.9488119337219,-39.652637961445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9494569675399,-39.6565264493564 -72.9481937298107,-39.6578819367289 -72.9492536053872,-39.658485798344 -72.9505016711878,-39.6571386780916 -72.9494569675399,-39.6565264493564</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9481937298619,-39.6578819376278 -72.9478513526361,-39.6582361906988 -72.9489065667953,-39.658871679583 -72.9492536064989,-39.6584857974055 -72.9481937298619,-39.6578819376278</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9493250339986,-39.658550473781 -72.9490012672904,-39.6589060201402 -72.9498512356528,-39.6594206551558 -72.950028330003,-39.6594852740498 -72.9507421096766,-39.6598975738356 -72.9511990573155,-39.6602515313695 -72.9513863211481,-39.6603086415812 -72.9514753911048,-39.6598182765026 -72.9511347689954,-39.659566298095 -72.9493250339986,-39.658550473781</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9510094957425,-39.6584011361081 -72.950971661493,-39.6584037112645 -72.9508526153383,-39.6585280774462 -72.9511347350679,-39.6586352027389 -72.9511611003082,-39.6585237930752 -72.9511336157023,-39.6584600748617 -72.9510094957425,-39.6584011361081</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9505775977391,-39.6571866702047 -72.9493250351615,-39.6585504737414 -72.9511347689441,-39.6595662971961 -72.9514753899418,-39.6598182765422 -72.9518520468172,-39.6578490628395 -72.9516747573271,-39.6577911693676 -72.9505775977391,-39.6571866702047</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.951161099094,-39.658523792216 -72.9511347339049,-39.6586352027786 -72.9508526141241,-39.6585280765869 -72.9509716603301,-39.6584037113041 -72.9510094968542,-39.6584011351696 -72.9511336157536,-39.6584600757606 -72.951161099094,-39.658523792216</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.944611635266,-39.6561459929105 -72.9444034856201,-39.6561230908631 -72.9442494311054,-39.6561203636814 -72.9424476795483,-39.6590323753553 -72.943010080867,-39.6593498014126 -72.9443661444007,-39.657886482197 -72.9452744405892,-39.6569340618798 -72.9448878015639,-39.6565582660739 -72.944611635266,-39.6561459929105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9475764774125,-39.658322800082 -72.9453563434474,-39.6569806689287 -72.9451255444459,-39.6572187087945 -72.9473564361472,-39.6585754475603 -72.9475764774125,-39.658322800082</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9451255444459,-39.6572187087945 -72.9448709296079,-39.6575053289596 -72.9453726804488,-39.657813982937 -72.9452655018947,-39.6579072064816 -72.9451078780678,-39.6578150608284 -72.9450697523225,-39.657843210287 -72.9447440064971,-39.6576356741881 -72.9445240428397,-39.657885434442 -72.9467230178037,-39.6591868533245 -72.9473564372589,-39.6585754466218 -72.9451255444459,-39.6572187087945</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.76">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9448709296079,-39.6575053289596 -72.9447440053342,-39.6576356742276 -72.9450697511083,-39.6578432094277 -72.9451078768537,-39.6578150599691 -72.9452655030065,-39.6579072055431 -72.9453726804488,-39.657813982937 -72.9448709296079,-39.6575053289596</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.77">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9444376399285,-39.6579766761536 -72.9431221320892,-39.6594138118939 -72.9449798971173,-39.6604843882996 -72.9451280810368,-39.6605177573277 -72.9452818041674,-39.6605320072704 -72.9453970200019,-39.6605033000643 -72.9454930387599,-39.6604511944615 -72.9466364459633,-39.6592838583542 -72.9444376399285,-39.6579766761536</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.78">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9479985857802,-39.6565995892106 -72.9479466160871,-39.6566546084985 -72.947852030317,-39.6566079433308 -72.9477273238012,-39.6567285578727 -72.9480430225239,-39.656905597946 -72.9481980097597,-39.6567186372222 -72.9479985857802,-39.6565995892106</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.79">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9457767488307,-39.6564636461345 -72.9480638786115,-39.6578098361781 -72.9493085658269,-39.6564511398516 -72.9468246044217,-39.6550784352336 -72.9464573128789,-39.6555187177303 -72.9457767488307,-39.6564636461345</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.9481980097084,-39.6567186363233 -72.948043021361,-39.6569055979856 -72.9477273249129,-39.6567285569342 -72.9478520291029,-39.6566079424715 -72.9479466137101,-39.6566546076788 -72.9479985858315,-39.6565995901095 -72.9481980097084,-39.6567186363233</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.80">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9457767488307,-39.6564636461345 -72.9454285252892,-39.6568354300971 -72.9462491917466,-39.6573303559383 -72.9477204881368,-39.6581865158342 -72.9480638786115,-39.6578098361781 -72.9457767488307,-39.6564636461345</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.81">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9476706349114,-39.6662084256422 -72.9472098979261,-39.6672206611991 -72.9473126391646,-39.6672462578827 -72.9474098526239,-39.667269595629 -72.9474568051004,-39.6672898817581 -72.9475060415245,-39.6673275029646 -72.9475346849126,-39.6673993503842 -72.9475437573172,-39.6674708508433 -72.9475638855995,-39.6675468707656 -72.9475736614033,-39.6675946038734 -72.9476063155268,-39.6676254466851 -72.9476340184371,-39.6676345834601 -72.9476424691599,-39.6676325710501 -72.9476528398582,-39.6675657377276 -72.9479503996886,-39.6672467241206 -72.9479687085476,-39.667195163637 -72.9483418366665,-39.6664018829292 -72.9476706349114,-39.6662084256422</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.82">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9476706360745,-39.6662084256026 -72.9451879148335,-39.6655201055491 -72.943581931165,-39.6650620061917 -72.9436470567381,-39.6651296364631 -72.9437793769617,-39.6651952128789 -72.9438453207942,-39.6652352936162 -72.943993117558,-39.6653449221125 -72.944004929097,-39.6653710728812 -72.944042077231,-39.6654625278979 -72.9441145247037,-39.6655972690999 -72.9441426768304,-39.6656825860215 -72.9441844998799,-39.6657814761232 -72.9442270112863,-39.665857172174 -72.9442878188553,-39.6659447214567 -72.9443532079711,-39.6660035278289 -72.9443854759981,-39.6660473358435 -72.9444389993847,-39.6661289913898 -72.9444826203811,-39.666167235445 -72.9445262425892,-39.6662054794416 -72.9445808765071,-39.6662496838938 -72.9446247547243,-39.6662792847624 -72.9446825186183,-39.6663437208111 -72.9447185140534,-39.6663875946615 -72.9448015178934,-39.6664813018336 -72.9448513151447,-39.6665628920981 -72.9449160218078,-39.6666447451595 -72.94495531932,-39.66670308966 -72.9450068238855,-39.6667270613413 -72.9450692549029,-39.6667598729491 -72.9451171177583,-39.6667808973146 -72.9451465977251,-39.6667929490325 -72.9452090288646,-39.6668257605584 -72.9452715465314,-39.66685569158 -72.945304327187,-39.6668822131213 -72.9453588768392,-39.6669292975795 -72.9454287646964,-39.6669622416459 -72.9454691712938,-39.6669831331866 -72.9455205909391,-39.6670099850472 -72.9455716696026,-39.6670483612903 -72.9456639235629,-39.6670817005921 -72.9457156843496,-39.6670970279519 -72.9457715144779,-39.6671008985511 -72.9459099520646,-39.6670860538111 -72.9459467170794,-39.6671039988396 -72.9460167758179,-39.667131179876 -72.9460800612789,-39.6671351820921 -72.946161729873,-39.66714815673 -72.9462170474418,-39.6671693124079 -72.9462690653023,-39.6671759972924 -72.9463104963169,-39.6671623188666 -72.9463710786661,-39.6671316835767 -72.9464837628738,-39.6671048526604 -72.946555101338,-39.6670888197352 -72.9466931977704,-39.6670854975705 -72.9468713603748,-39.6671145897701 -72.9469488736274,-39.6671419028752 -72.9470301163328,-39.6671692817172 -72.9472098979261,-39.6672206611991 -72.9476706360745,-39.6662084256026</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.83">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamientos 2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9427517142231,-39.6648249096795 -72.9413794743018,-39.6644402803212 -72.9401022824692,-39.664120735197 -72.9393859498148,-39.6640042555399 -72.9382950515566,-39.6658238788178 -72.9385011432769,-39.665916893845 -72.9387761773603,-39.6660745470031 -72.9388970480073,-39.666148753368 -72.9390537409083,-39.6662725971179 -72.939312838439,-39.6664645551235 -72.9396781105187,-39.6665978647763 -72.9397273411714,-39.6665727972574 -72.9402187833669,-39.666350922899 -72.9406179367001,-39.6662225299836 -72.9407728230073,-39.6661560988514 -72.9412042401072,-39.6660715122304 -72.9414895932577,-39.6660073942219 -72.941821046101,-39.6658979736163 -72.9420294014257,-39.6657892522997 -72.942281750452,-39.6655804253623 -72.9424780997017,-39.6653734883287 -72.9425881145084,-39.6651851970353 -72.9426757623439,-39.6649965097194 -72.9427517142231,-39.6648249096795</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.84">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9476340172227,-39.6676345826009 -72.9476063143124,-39.6676254458258 -72.9475736613521,-39.6675946029745 -72.9475638855482,-39.6675468698667 -72.9475437584803,-39.6674708508037 -72.9475346837495,-39.6673993504238 -72.9475060415245,-39.6673275029646 -72.9474568050492,-39.6672898808593 -72.9474098525214,-39.6672695938313 -72.9473126380015,-39.6672462579223 -72.9472098979261,-39.6672206611991 -72.9471585361466,-39.6672059828993 -72.9470301150672,-39.667169279959 -72.9469488747905,-39.6671419028356 -72.9468713591605,-39.6671145889108 -72.9466931977192,-39.6670854966716 -72.9465551001749,-39.6670888197748 -72.9464837628226,-39.6671048517615 -72.9463710786148,-39.6671316826778 -72.9463104951026,-39.6671623180073 -72.9462690652511,-39.6671759963935 -72.9462170486049,-39.6671693123683 -72.9461617287099,-39.6671481567695 -72.9460800601158,-39.6671351821316 -72.9460463975185,-39.6671330529759 -72.9460167746035,-39.6671311790167 -72.9459467170794,-39.6671039988396 -72.9459099520646,-39.6670860538111 -72.9457715133148,-39.6671008985907 -72.9457156843496,-39.6670970279519 -72.9456639235629,-39.6670817005921 -72.9455716683882,-39.6670483604309 -72.9455205909903,-39.6670099859461 -72.9454691700794,-39.6669831323273 -72.945428762319,-39.6669622408261 -72.945358876788,-39.6669292966807 -72.945348460308,-39.6669203061139 -72.9453043259727,-39.666882212262 -72.9452715465314,-39.66685569158 -72.9452090300277,-39.6668257605189 -72.9451465976739,-39.6667929481336 -72.9451171177071,-39.6667808964157 -72.9450692548517,-39.6667598720502 -72.9450292138661,-39.6667388274278 -72.9450068238343,-39.6667270604424 -72.94495531932,-39.66670308966 -72.9449160217566,-39.6666447442606 -72.9448513138792,-39.6665628903399 -72.9448015167815,-39.666481302772 -72.9447185140534,-39.6663875946615 -72.9446825186183,-39.6663437208111 -72.9446247535612,-39.666279284802 -72.9445808764047,-39.6662496820961 -72.9445262414261,-39.6662054794812 -72.944482621493,-39.6661672345066 -72.9444389981704,-39.6661289905305 -72.944430234472,-39.6661156224123 -72.9443854736208,-39.6660473350238 -72.944353206808,-39.6660035278685 -72.9442878165291,-39.6659447215358 -72.9442270100209,-39.6658571704158 -72.9441844998287,-39.6657814752243 -72.9441426757186,-39.66568258696 -72.9441145235918,-39.6655972700383 -72.9440420760168,-39.6654625270385 -72.9440049279339,-39.6653710729208 -72.9439931152318,-39.6653449221916 -72.9439723835615,-39.6653295437863 -72.9438453195799,-39.6652352927569 -72.9437793757474,-39.6651952120195 -72.9436470567381,-39.6651296364631 -72.9435819299507,-39.6650620053323 -72.9430403298405,-39.6649020847504 -72.9428958932868,-39.664867818426 -72.9427517142231,-39.6648249096795 -72.9426757611808,-39.6649965097589 -72.9425881133453,-39.6651851970748 -72.9424780997017,-39.6653734883287 -72.9423549000366,-39.6655033316744 -72.9423489942084,-39.6655095568056 -72.9422817505032,-39.6655804262612 -72.9420294002626,-39.6657892523392 -72.941821046101,-39.6658979736163 -72.9417903978187,-39.6659080902462 -72.9414895932577,-39.6660073942219 -72.9412042389441,-39.6660715122699 -72.9407728218442,-39.6661560988909 -72.9406179354859,-39.6662225291243 -72.9402187821527,-39.6663509220397 -72.9402031746251,-39.6663579675701 -72.9397273411203,-39.6665727963585 -72.9396781105698,-39.6665978656752 -72.9393128371737,-39.6664645533652 -72.9390537396941,-39.6662725962585 -72.9388970467931,-39.6661487525086 -72.9388811113425,-39.6661389680201 -72.938776176095,-39.6660745452448 -72.9385011444911,-39.6659168947044 -72.9382950515566,-39.6658238788178 -72.9382518201569,-39.665898054475 -72.9384504166425,-39.6661177634581 -72.9385769443929,-39.6662526024359 -72.9386095512133,-39.6662848877882 -72.9386642660169,-39.6663262139182 -72.9387148260432,-39.6663818778604 -72.9387278532133,-39.6664455227835 -72.9387494478437,-39.666471847972 -72.9388529660011,-39.6665025099456 -72.9389413171131,-39.6665415504759 -72.9389706248885,-39.6665593646974 -72.9390299903494,-39.6666324800044 -72.9391806098859,-39.6667410830691 -72.9392581212085,-39.6667684005552 -72.9393485189232,-39.6668326980013 -72.9394283758882,-39.6668751906427 -72.9394807241956,-39.6669020614144 -72.9395825624052,-39.6669579147175 -72.9397150905111,-39.6670164736748 -72.9397869452823,-39.6670458526991 -72.9398591225113,-39.6670644284112 -72.9398898758516,-39.6670649740339 -72.9399467537914,-39.6670335555921 -72.9400295644823,-39.6669766560344 -72.9400318105787,-39.6669010326451 -72.9400667083351,-39.6668562534414 -72.9401193431108,-39.666779361027 -72.9401515717058,-39.6667302116484 -72.9401915475086,-39.6667028168413 -72.9404761286866,-39.6665392433737 -72.9405315577959,-39.6664624008255 -72.9406909433607,-39.6663701082741 -72.9408039916655,-39.6663310389861 -72.9409169762869,-39.6662941296749 -72.9410129945929,-39.6662634060351 -72.9411120641049,-39.6662240883292 -72.9411660176336,-39.6661969413381 -72.9413062531027,-39.6661842953111 -72.9414595697873,-39.6662021466921 -72.9415992926215,-39.6662067865066 -72.941657361612,-39.6662294341945 -72.9417348731857,-39.6662567500048 -72.9418416876494,-39.6662391871264 -72.9419591095199,-39.6662412693554 -72.9421019482124,-39.6662351535327 -72.9422097897697,-39.6661830196608 -72.9423318657383,-39.6661224905774 -72.9425049308842,-39.6659461263785 -72.9425832363003,-39.6658523936506 -72.9427103518438,-39.6657162899013 -72.9428633957382,-39.665554703563 -72.9429696578598,-39.6654614655077 -72.9430374838039,-39.6653437671831 -72.9431122880268,-39.6652737524947 -72.943164212183,-39.6652206263459 -72.9432474021386,-39.6651507605236 -72.9434360602061,-39.6651087041431 -72.9435311135838,-39.6651103881739 -72.9435616099085,-39.6651195750549 -72.94358548984,-39.6651632344688 -72.943604418938,-39.6651851885383 -72.943659628079,-39.6652099463029 -72.9437389734001,-39.6652697212232 -72.94382956668,-39.6653275329239 -72.9439089122816,-39.6653873077129 -72.9439611975848,-39.6654163374114 -72.9439963891696,-39.6654558734706 -72.944008765624,-39.6655101381409 -72.9440409686211,-39.6655561072931 -72.9440533462976,-39.6656103719158 -72.9441256002157,-39.6657678435948 -72.9441742240353,-39.6658967925161 -72.944230340829,-39.6659853398704 -72.9442771261933,-39.6660348099553 -72.9443321538185,-39.666089289084 -72.9443801714152,-39.6661679653077 -72.9444022278439,-39.6662024046259 -72.9444436657286,-39.6662906919444 -72.9444864027724,-39.6663352254724 -72.9445250889016,-39.6663748235106 -72.944530370923,-39.6664089661021 -72.944525071947,-39.6664461633235 -72.9445360199061,-39.666501484326 -72.9445435906969,-39.6665291815754 -72.9445761784013,-39.6665621854543 -72.9446112486166,-39.6665822627316 -72.9446317355743,-39.6665988390748 -72.9446712703124,-39.6666806074054 -72.944679882126,-39.6667439937852 -72.944675335396,-39.6668266033151 -72.9446635053252,-39.6668717915871 -72.944676694715,-39.6669222881788 -72.9446790629675,-39.666983941582 -72.9447072659832,-39.6670233539852 -72.9447267928911,-39.6670723407647 -72.944748527739,-39.6672591827407 -72.9447613333934,-39.6673226425907 -72.944780091601,-39.6673975577448 -72.944782363798,-39.6674624530895 -72.9447696710095,-39.6675368116356 -72.9447507820961,-39.6676078171578 -72.9447642117526,-39.6676502106603 -72.9448050437679,-39.6676882243208 -72.9448460683728,-39.6677197567561 -72.9448808981066,-39.6677479370189 -72.9449096291488,-39.6677695231631 -72.9449556163503,-39.6677752015462 -72.9450492708204,-39.6677298395115 -72.9451051341618,-39.6676854299096 -72.9452389643714,-39.6676294297263 -72.9453141786047,-39.6675691490353 -72.9455064961449,-39.6674509493849 -72.9457423676084,-39.6673497348944 -72.9459707940242,-39.6672873005988 -72.9461056168256,-39.6672686077343 -72.9462125554111,-39.6672705001812 -72.9463050089595,-39.6672656497992 -72.9464045195512,-39.6672349829714 -72.9465078888688,-39.6672157335572 -72.9465966283248,-39.6671946043057 -72.9466638234446,-39.6671925496674 -72.9467516510286,-39.6672022097763 -72.9468140755683,-39.6672195279399 -72.9468769333785,-39.6672222608702 -72.94696509698,-39.6672205776059 -72.9470390473527,-39.6672737691431 -72.9471163902665,-39.6672832436757 -72.9471831534185,-39.6672957738886 -72.9472974728324,-39.6673318435066 -72.9473490305987,-39.667361940222 -72.9474025896902,-39.6673953146383 -72.9474763969444,-39.6674533669746 -72.9474873474668,-39.6675086875661 -72.9474852362498,-39.6675799905434 -72.9474444365194,-39.6676116965959 -72.9474197398632,-39.667666386205 -72.9474163001732,-39.667711724109 -72.9474101874174,-39.6677764706982 -72.947391925473,-39.6678264101631 -72.947360938717,-39.667880988759 -72.9473337611362,-39.6679486058399 -72.9473454783076,-39.6679779972243 -72.9476340172227,-39.6676345826009</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.85">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">Zona Actividades Productivas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Act. Prod; Infraestructura: transporte, sanitaria, energética</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9358090452093,-39.6634554050803 -72.9354655482519,-39.664029389785 -72.9352671938179,-39.6643501353936 -72.9350561089971,-39.6646755186524 -72.9349016176951,-39.66493218907 -72.9350176249559,-39.6649027852146 -72.9351070016494,-39.6649072572488 -72.9351552878359,-39.6649138810815 -72.9352783833579,-39.6649131882738 -72.9353757293505,-39.6649005072239 -72.9355449276164,-39.6648545146265 -72.9357517450057,-39.6647976613061 -72.9360174305084,-39.6647677964533 -72.9361140896088,-39.6647781619609 -72.9363251896274,-39.6648280335238 -72.9364392868684,-39.6648790631405 -72.9365194931119,-39.6649410195566 -72.9365745493226,-39.6649708222984 -72.9366780632123,-39.6650014864199 -72.9367961460576,-39.6650439396094 -72.9369370225079,-39.6650723848711 -72.9370296982786,-39.6650913265006 -72.9370924667797,-39.6651126182207 -72.9372069931419,-39.6651492430341 -72.9372512101745,-39.6651673233361 -72.9374176669031,-39.6652135173996 -72.9374839057985,-39.6652435181962 -72.9375647137968,-39.6652853080111 -72.9376233264811,-39.6653209381745 -72.9376592314072,-39.6653676949108 -72.9377684895582,-39.6654561089751 -72.9387106421595,-39.6638730908768 -72.9358090452093,-39.6634554050803</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.86">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9377684895582,-39.6654561089751 -72.9376592302953,-39.6653676958492 -72.937623325267,-39.6653209373151 -72.9375647137968,-39.6652853080111 -72.9374839046354,-39.6652435182357 -72.9374176669031,-39.6652135173996 -72.9372512112864,-39.6651673223977 -72.9372069931419,-39.6651492430341 -72.9370924667286,-39.6651126173218 -72.9370296982275,-39.6650913256017 -72.9369370224568,-39.6650723839722 -72.9367961448945,-39.6650439396489 -72.9366780620493,-39.6650014864594 -72.9365745492715,-39.6649708213995 -72.9365194918978,-39.6649410186972 -72.9364392856032,-39.6648790613822 -72.9363251884643,-39.6648280335633 -72.9361140895577,-39.664778161062 -72.9360174292942,-39.6647677955939 -72.9357517449547,-39.6647976604073 -72.9355449276674,-39.6648545155254 -72.9353757292994,-39.664900506325 -72.9352783821438,-39.6649131874143 -72.9351552878359,-39.6649138810815 -72.9351070015984,-39.6649072563499 -72.935017625007,-39.6649027861135 -72.934901616583,-39.6649321900083 -72.9348508376271,-39.6650092981507 -72.9350614216818,-39.6649662573847 -72.93513417476,-39.6649653898418 -72.9352259167883,-39.6649843159812 -72.9353604307371,-39.6649758990046 -72.9354894184877,-39.6649652223936 -72.9355656739653,-39.6649406363447 -72.9356444672593,-39.6649247426137 -72.9356784014005,-39.6649123752727 -72.9357462047693,-39.6648898006886 -72.9358195354593,-39.6648694863905 -72.9358786309264,-39.6648575664023 -72.9359097688685,-39.6648451488998 -72.9359574240379,-39.6648416724665 -72.9359769932311,-39.6648420205546 -72.9360099628588,-39.6648620628211 -72.9360630168887,-39.6648651677687 -72.9361165201118,-39.6648531483744 -72.9361866053928,-39.6648479089748 -72.9362645626225,-39.6648601034194 -72.9363059183201,-39.6648802950406 -72.9363859644863,-39.6649163069609 -72.9364298594371,-39.6649451917381 -72.9364766141354,-39.6649719646958 -72.9365343588177,-39.6650054183335 -72.9365564672064,-39.665014458622 -72.9366286415186,-39.6650330356009 -72.9367010068106,-39.6650451304784 -72.9367670104048,-39.6650830553708 -72.9368391848358,-39.665101632212 -72.9368809910176,-39.665106699261 -72.9369336586944,-39.6651227671647 -72.9370433008741,-39.6651982177561 -72.9371542287748,-39.6652304544102 -72.9372458443536,-39.6652537008719 -72.937356836034,-39.6652837763389 -72.9374758945384,-39.6653248042082 -72.9375506711661,-39.6653499128113 -72.9375916422982,-39.6653830681605 -72.9376328066511,-39.6654097413628 -72.9376821014176,-39.665445206062 -72.9377424500193,-39.6654851912295 -72.9377684895582,-39.6654561089751</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.87">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">Zona Actividades Productivas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Act. Prod; Infraestructura: transporte, sanitaria, energética</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9366972917224,-39.6619975205135 -72.9366481721685,-39.6620739660404 -72.9364561655906,-39.6623932056685 -72.9360593258995,-39.6630395622488 -72.9359049392019,-39.6632957368341 -72.9375528189545,-39.6635151493375 -72.9388070624482,-39.6637276658108 -72.9397670333379,-39.6621708967035 -72.9395136535829,-39.6621635168594 -72.9393371812048,-39.6622036217163 -72.9392391544624,-39.6622393530128 -72.9391250204029,-39.6623151530749 -72.9389549743655,-39.6623899603058 -72.938845936617,-39.6624197311234 -72.9387971374372,-39.6624303941236 -72.9386482109575,-39.6624219853218 -72.9384622670633,-39.6624042709191 -72.9383583262994,-39.6623880131981 -72.9381951761415,-39.6623562920842 -72.9381145425451,-39.6623087407661 -72.9377377712575,-39.662186750823 -72.9375381183348,-39.6621284386432 -72.9373515760463,-39.6621308890808 -72.9372355111956,-39.6621461211455 -72.9371017530226,-39.6621293327761 -72.9370458414603,-39.6621283391123 -72.9369634949966,-39.66213840568 -72.936846017858,-39.6620757865837 -72.9366972917224,-39.6619975205135</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.88">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9374590250111,-39.6607669587769 -72.9372542533659,-39.6610924584023 -72.9370535790021,-39.6614212743183 -72.9368593341657,-39.661745336923 -72.9366972916713,-39.6619975196146 -72.9368460166949,-39.6620757866232 -72.9369634949455,-39.6621384047811 -72.9370458414092,-39.6621283382134 -72.9371017518085,-39.6621293319166 -72.9372355111956,-39.6621461211455 -72.9373515749344,-39.6621308900192 -72.9375381171207,-39.6621284377838 -72.9377377712064,-39.6621867499241 -72.938114541382,-39.6623087408056 -72.9381951760904,-39.6623562911853 -72.9383583262483,-39.6623880122992 -72.9384622670633,-39.6624042709191 -72.9386482096923,-39.6624219835636 -72.9387971374372,-39.6624303941236 -72.9388459354028,-39.662419730264 -72.9389549742633,-39.662389958508 -72.9391250203518,-39.662315152176 -72.9392391544624,-39.6622393530128 -72.9393371788788,-39.6622036217953 -72.9395136535829,-39.6621635168594 -72.9397651237752,-39.6621708408952 -72.9402602018148,-39.6613503601565 -72.9400199757046,-39.6612769195293 -72.939841660521,-39.6612535785152 -72.939659922072,-39.6613454736693 -72.9395095892653,-39.6615099862273 -72.9393535985403,-39.6616138681769 -72.9392471769318,-39.6616811574237 -72.9390299207616,-39.6618387175474 -72.9389341667079,-39.6619234902515 -72.9388592767978,-39.6619336903545 -72.9386674208139,-39.6618639879363 -72.9385896136626,-39.6617213670982 -72.9385576081592,-39.6616689149481 -72.9384944542219,-39.6615352016915 -72.9384721297549,-39.661407978656 -72.9384832676564,-39.6612842312768 -72.938467371083,-39.6611917111773 -72.9384210556188,-39.661118827726 -72.9384076878672,-39.6610667071132 -72.9383317250699,-39.6609875326711 -72.9382579486389,-39.6609602803373 -72.9374590250111,-39.6607669587769</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.89">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">Zona Actividades Productivas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Act. Prod; Infraestructura: transporte, sanitaria, energética</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9422936648019,-39.6529585863786 -72.9421698642038,-39.6531539079749 -72.9419850652896,-39.6534440990252 -72.9417887738182,-39.6537681363514 -72.9415927664167,-39.6540824503504 -72.9411914960874,-39.6547400979257 -72.9408810808484,-39.6552339751583 -72.9406825826018,-39.6555612145116 -72.9405416590508,-39.6557848847226 -72.9404734588974,-39.6558931304384 -72.9402752963622,-39.6562090232208 -72.9400682636007,-39.6565409736837 -72.9400428489248,-39.6565822640179 -72.9394621665527,-39.6575257398957 -72.9391758620754,-39.6579912000437 -72.9388692572346,-39.6584896584651 -72.9384700305085,-39.6591473330754 -72.9380648434825,-39.6597935491579 -72.9376596492185,-39.6604397632426 -72.9374590250111,-39.6607669587769 -72.9382579486389,-39.6609602803373 -72.9383317238047,-39.6609875309128 -72.9384076866531,-39.6610667062538 -72.9384210555677,-39.6611188268271 -72.93846736992,-39.6611917112168 -72.9384832664934,-39.6612842313163 -72.9384721285408,-39.6614079777966 -72.9384944519469,-39.6615352026694 -72.938557606945,-39.6616689140887 -72.9385896113366,-39.6617213671772 -72.9386674196509,-39.6618639879758 -72.9388592755837,-39.6619336894951 -72.9389341666568,-39.6619234893526 -72.9390299207105,-39.6618387166484 -72.9392471780438,-39.6616811564853 -72.9393535973261,-39.6616138673176 -72.9395095893164,-39.6615099871262 -72.939659920909,-39.6613454737088 -72.9398416593069,-39.6612535776559 -72.9400199768165,-39.6612769185909 -72.9402602029267,-39.6613503592181 -72.9420824779159,-39.6584222012401 -72.9439126328847,-39.6554278540417 -72.9439641749974,-39.6552545391214 -72.9439206786246,-39.6551564072453 -72.9431829015957,-39.6541030985908 -72.9429382599857,-39.6538579211824 -72.9428134336804,-39.6538198389847 -72.942457617486,-39.653746917725 -72.9422465637627,-39.6534869603958 -72.9424242079512,-39.6530852856103 -72.9422936648019,-39.6529585863786</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.90">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9473178494275,-39.6612712522692 -72.9472814898674,-39.6613657298829 -72.9472276858352,-39.6614195450362 -72.9480329927038,-39.6618056158125 -72.9479091968311,-39.661956197043 -72.9483018966718,-39.6621706727963 -72.9482670710522,-39.6622132940141 -72.9482653666146,-39.6622709124545 -72.9482627242126,-39.6623602210092 -72.9482898158734,-39.6624529383766 -72.9482823384177,-39.6625796329492 -72.9482988447022,-39.6626519862434 -72.948337290803,-39.6627391383462 -72.9483233805663,-39.6628311307745 -72.9483249772524,-39.6629032198737 -72.9483294491685,-39.6630041835601 -72.9483569681816,-39.6630824960246 -72.9483855102877,-39.6631262370444 -72.948428960997,-39.6631702413631 -72.9484801232857,-39.6632057350794 -72.9485460262278,-39.663247253732 -72.9486297132067,-39.663317910197 -72.9487529771827,-39.6633114413875 -72.9488549832292,-39.6632671249232 -72.9489247197377,-39.6631790007972 -72.9489562442282,-39.6631219096433 -72.9490118369524,-39.6630075939613 -72.9490629353503,-39.6629191407964 -72.9491021698162,-39.6628535381359 -72.9491720759302,-39.662759653044 -72.9491841962712,-39.6627281603057 -72.9492924631124,-39.6627243073651 -72.9493556594168,-39.6627311884077 -72.9494440971043,-39.6627673404268 -72.9494849289519,-39.6627738257838 -72.9495486371453,-39.6627634214393 -72.9496419092794,-39.6627621863642 -72.9497199313548,-39.6627722116018 -72.9497604228634,-39.6627902212508 -72.9498199775517,-39.6627941558166 -72.9498986804042,-39.6627811330502 -72.9499586605337,-39.662770662732 -72.9500255849066,-39.6627776091524 -72.9500881006386,-39.6628075376678 -72.9501956399623,-39.6625759591942 -72.9494663743248,-39.6622661896979 -72.949043424758,-39.6620655947666 -72.9473178494275,-39.6612712522692</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.91">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9473178483158,-39.6612712532076 -72.9456964570627,-39.6605142777112 -72.9451892528766,-39.6610183761768 -72.9443116580463,-39.6619396312188 -72.9439105899119,-39.6627626701412 -72.9440119147805,-39.6627414058083 -72.944275143831,-39.6626682410238 -72.9444223930272,-39.6626074345028 -72.9447124813297,-39.6625088029145 -72.9448251588816,-39.6624819730372 -72.9450215200367,-39.662525803223 -72.9455309594935,-39.6627020009267 -72.9462944413422,-39.6629893409509 -72.946535678566,-39.6631550245858 -72.9472234017037,-39.6636081990434 -72.9476594738563,-39.6638695635858 -72.9483652977879,-39.6640895738751 -72.9493648373833,-39.6643407113357 -72.9498381429691,-39.6633430999785 -72.9500880994243,-39.6628075368085 -72.9500255860697,-39.6627776091128 -72.9499586605337,-39.662770662732 -72.94989867919,-39.6627811321909 -72.9498199751744,-39.6627941549969 -72.9497604228121,-39.662790220352 -72.9497199301918,-39.6627722116414 -72.9496419081164,-39.6627621864038 -72.9495486371965,-39.6627634223381 -72.9494849300637,-39.6627738248453 -72.949444098216,-39.6627673394883 -72.949355659468,-39.6627311893066 -72.9492924619494,-39.6627243074047 -72.9491841951082,-39.6627281603453 -72.9491720758277,-39.6627596512462 -72.9491021698162,-39.6628535381359 -72.9490629353503,-39.6629191407964 -72.9490118369012,-39.6630075930624 -72.9489562429626,-39.6631219078852 -72.9489247185746,-39.6631790008368 -72.9488549819636,-39.663267123165 -72.9487529760197,-39.6633114414271 -72.9486297132067,-39.663317910197 -72.9485460238505,-39.6632472529124 -72.9484801243975,-39.6632057341409 -72.9484289621601,-39.6631702413235 -72.9483855090734,-39.6631262361851 -72.9483569692934,-39.6630824950861 -72.9483294491172,-39.6630041826612 -72.9483249759869,-39.6629032181155 -72.9483233817293,-39.6628311307349 -72.948337290803,-39.6627391383462 -72.9482988445997,-39.6626519844456 -72.9482823372546,-39.6625796329888 -72.9482898158734,-39.6624529383766 -72.9482627242126,-39.6623602210092 -72.9482653666146,-39.6622709124545 -72.9482670710522,-39.6622132940141 -72.9483018966718,-39.6621706727963 -72.9479091968311,-39.661956197043 -72.9480329903265,-39.6618056149928 -72.9472276857328,-39.6614195432384 -72.9472814887044,-39.6613657299225 -72.9473178483158,-39.6612712532076</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.92">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9441715554474,-39.6617889011126 -72.9440876175201,-39.6617268833279 -72.944013070235,-39.6617255631918 -72.9439048895734,-39.6617265298045 -72.943740883165,-39.6617236245424 -72.9435582394098,-39.661720390079 -72.9434918297709,-39.6616961545087 -72.9433667202186,-39.6616391712612 -72.9432897268298,-39.6615945709718 -72.9431858718761,-39.6615754362459 -72.9430181390499,-39.6615724648301 -72.9428383684668,-39.6615981040514 -72.9427318651626,-39.6616682776637 -72.9426404407403,-39.6617329534922 -72.9424216876753,-39.6618155496775 -72.9420618893699,-39.6618754682397 -72.9417625839811,-39.6619076343123 -72.9416295933629,-39.6618649219375 -72.9415483600985,-39.6618375397339 -72.941367256323,-39.6617824449264 -72.9412410372614,-39.6617629121531 -72.941140396516,-39.6617611278574 -72.9408558306345,-39.6617993166369 -72.940774341297,-39.6617805769763 -72.9404496519594,-39.6622907733196 -72.9410177756667,-39.6624997380968 -72.9413614358605,-39.6626067176549 -72.9417571955519,-39.6627175028467 -72.9422493581659,-39.6628472892595 -72.9427395046915,-39.6629193897837 -72.9430387283981,-39.6628901023281 -72.9433794662988,-39.6628442554952 -72.9436525113633,-39.6628173850672 -72.9438011911741,-39.6624568318766 -72.9441016431695,-39.6618827834852 -72.9441715554474,-39.6617889011126</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.93">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona Urbana 4</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento: científico, comercio, educación, deporte, esparcimiento, salud, servicios, social, culto y cultura, seguridad; Infraestructura: transporte, sanitaria</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9441715565593,-39.6617889001741 -72.945246937331,-39.6606953185341 -72.9451875270672,-39.6606865798844 -72.9449446895052,-39.6606592229879 -72.944787248716,-39.6606026296406 -72.9443530186361,-39.6603220714588 -72.9438050576671,-39.6600202815459 -72.9430424199778,-39.659580171328 -72.942955585028,-39.6594902378031 -72.9423777040246,-39.6591917539466 -72.9422273150949,-39.6594004668832 -72.940774338971,-39.6617805770554 -72.9408558294715,-39.6617993166764 -72.9411403964137,-39.6617611260596 -72.9412410360472,-39.6617629112937 -72.9413672550577,-39.6617824431681 -72.9415483588843,-39.6618375388746 -72.941629593414,-39.6618649228364 -72.9417625828181,-39.6619076343519 -72.9420618881558,-39.6618754673804 -72.9424216876241,-39.6618155487786 -72.9426404395773,-39.6617329535317 -72.9427318652138,-39.6616682785625 -72.9428383696298,-39.6615981040118 -72.9430181390499,-39.6615724648301 -72.9431858696012,-39.6615754372239 -72.9432897245037,-39.6615945710509 -72.9433667191068,-39.6616391721996 -72.9434918297197,-39.6616961536098 -72.9435582382468,-39.6617203901185 -72.9437408820531,-39.6617236254809 -72.9439048884104,-39.661726529844 -72.9440130690208,-39.6617255623325 -72.9440876174689,-39.661726882429 -72.9441715565593,-39.6617889001741</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.94">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">AVE</SimpleData>
+		<SimpleData name="NOM">Área Verde Existente</SimpleData>
+		<SimpleData name="UPERM">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9526293905012,-39.6697625892105 -72.952368620621,-39.6697516208207 -72.9522456019639,-39.6697494509331 -72.9520213511233,-39.6696388456304 -72.9516415853554,-39.6692372524024 -72.9512816700413,-39.6688807281589 -72.9512031167158,-39.6688029144607 -72.9509055244869,-39.6685238298807 -72.9504740725666,-39.6683685469862 -72.9499201686011,-39.6681691895025 -72.9492611622474,-39.6678779535474 -72.9491584574292,-39.6679666963665 -72.9496759884286,-39.6683544552492 -72.9497139978445,-39.6683829318971 -72.949744695522,-39.6683998394816 -72.9500196049033,-39.6686081373361 -72.9503550385424,-39.6688827855647 -72.9505587642639,-39.6690250185027 -72.9505893487461,-39.6690636718866 -72.9505917954227,-39.669066765961 -72.9506361199092,-39.6690578201965 -72.9506690008,-39.6690632655428 -72.9506793982638,-39.6690841211961 -72.9506774311171,-39.6690974617438 -72.9506910816051,-39.66911472922 -72.9507236069472,-39.6691323271935 -72.9507642070984,-39.6691427719053 -72.9508017012307,-39.6691519453627 -72.9508436239135,-39.6691709253131 -72.9508840831479,-39.6691862327962 -72.9509277162438,-39.6692538840702 -72.9509889351225,-39.6693121171244 -72.9510571674815,-39.6692839251241 -72.9511159613866,-39.6693137870499 -72.9511711131659,-39.669340701893 -72.9512407498156,-39.6693822852795 -72.9513249586783,-39.6694356548832 -72.9513984089073,-39.6694744234327 -72.9514645736605,-39.6695072978915 -72.9515302283912,-39.6695574575199 -72.9516109643342,-39.6696021181587 -72.9516808576625,-39.6696350581595 -72.9517174554718,-39.6696587638439 -72.9518020038738,-39.6697006096317 -72.9518711312561,-39.6697594778077 -72.9519327182163,-39.6698210958814 -72.9519952413065,-39.6698510229835 -72.9520576783204,-39.6698838314057 -72.9521416323068,-39.669945843442 -72.9521509443239,-39.6700094214204 -72.9521683929606,-39.6700500828746 -72.9521926162255,-39.6701139235569 -72.9522480240187,-39.6701321956797 -72.9523933263766,-39.6701376408325 -72.9524615338627,-39.6701013728787 -72.9525957382765,-39.6701037394385 -72.9526937416546,-39.6701096166794 -72.9526472361029,-39.6700425008356 -72.9526376783848,-39.6698996909486 -72.9526293905012,-39.6697625892105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.95">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Máfil</SimpleData>
+		<SimpleData name="LOC">Máfil</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor nivel de detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">09/07/2024</SimpleData>
+		<SimpleData name="N_DOC">25</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9548944649422,-39.6718236529272 -72.9547848129572,-39.6715919812356 -72.954705922812,-39.671439298508 -72.954345784503,-39.6714437201238 -72.9542144262254,-39.6714104614743 -72.9541621624614,-39.6712621804665 -72.9541357787974,-39.6712051002014 -72.9540400990982,-39.6709980824989 -72.9540063913191,-39.6708764280683 -72.9540034238012,-39.6708652569508 -72.953990322962,-39.6708159374667 -72.9539694644626,-39.6707374183387 -72.9539702442815,-39.6705846643789 -72.953965220265,-39.67050257197 -72.9539613982062,-39.6704401426007 -72.9539601784253,-39.6704201874624 -72.9539179081573,-39.6703358526517 -72.9538941077781,-39.6702576076402 -72.9538325187362,-39.6701959907189 -72.9537746594006,-39.6701344402243 -72.9537436279319,-39.6701014292121 -72.9537167977925,-39.6700728888757 -72.953673084285,-39.6700375273113 -72.9536148844131,-39.6699875011228 -72.9535637992757,-39.6699491287706 -72.9533807075639,-39.6699603148592 -72.9533183809768,-39.6699635863253 -72.9532985226605,-39.6699646299245 -72.9532051584407,-39.6699687478596 -72.9531077214922,-39.6699843255131 -72.9530393433725,-39.670026354699 -72.9529601211124,-39.6700566652438 -72.952840063502,-39.6700804917742 -72.9528177051081,-39.6700851041636 -72.9527499990722,-39.6700990780919 -72.9526937416546,-39.6701096166794 -72.9525957370621,-39.6701037385793 -72.952461532597,-39.6701013711206 -72.9523933263766,-39.6701376408325 -72.9522480228556,-39.6701321957193 -72.9521926151137,-39.6701139244954 -72.9521773968431,-39.6700738111643 -72.9521683917461,-39.6700500820154 -72.9521509442726,-39.6700094205215 -72.9521416310411,-39.6699458416839 -72.9520576771573,-39.6698838314454 -72.9519952401434,-39.6698510230231 -72.9519327170532,-39.669821095921 -72.9518711312561,-39.6697594778077 -72.9518332932931,-39.6697272548281 -72.9518020049857,-39.6697006086932 -72.9517550165057,-39.6696773535198 -72.9517174543087,-39.6696587638836 -72.9516808564993,-39.6696350581991 -72.9516109619566,-39.6696021173391 -72.9515302271255,-39.6695574557618 -72.9514645723948,-39.6695072961334 -72.9513984099679,-39.6694744215953 -72.9513545631624,-39.6694512798502 -72.9513249575151,-39.6694356549228 -72.9512942096186,-39.66941616647 -72.9512407498156,-39.6693822852795 -72.951171112054,-39.6693407028315 -72.9511159613354,-39.669313786151 -72.9510571662671,-39.6692839242649 -72.9509889351225,-39.6693121171244 -72.951038918365,-39.6693484288183 -72.951088190945,-39.6693849682479 -72.9511499005641,-39.6694265921355 -72.9512114668464,-39.6694730761836 -72.9512732251435,-39.6695130790064 -72.951373063084,-39.6695424040809 -72.9514226238264,-39.6695692211211 -72.9514672232759,-39.6696218914478 -72.9515851680151,-39.6696774777741 -72.9516714667999,-39.6697389914621 -72.9517582453221,-39.6697842998643 -72.9518111855085,-39.6698387392389 -72.9519645399325,-39.6699030568551 -72.952059897136,-39.6699420303021 -72.9520843427005,-39.6699667822913 -72.9520892452423,-39.6700138884919 -72.9520835678549,-39.6700640508815 -72.9520906626324,-39.6701079526659 -72.952123065006,-39.6701474370872 -72.9521499905862,-39.6701592615154 -72.9522148988699,-39.6701636490203 -72.9522521179536,-39.670182141206 -72.9523316106185,-39.6701900285485 -72.9523710692946,-39.6702036953237 -72.9524575611911,-39.6702587262717 -72.9524870141058,-39.6702560030192 -72.9525898601739,-39.6702545741607 -72.9526490050588,-39.6702410245493 -72.9527315990593,-39.6702149178065 -72.9528169118934,-39.6701677813244 -72.9528706269142,-39.6701249516177 -72.9529176694054,-39.6700949753186 -72.9529746692713,-39.6700830099284 -72.953031908098,-39.6700629405809 -72.9530953424769,-39.6700462246905 -72.9531457644862,-39.6700438707568 -72.9532069592277,-39.6700319783921 -72.9532448943923,-39.6700261620967 -72.9533140934292,-39.6700273819794 -72.9534037836999,-39.6700451773092 -72.9534352381126,-39.6700457314251 -72.9534776072583,-39.6700318860488 -72.9535476664589,-39.6700039365121 -72.9535897492254,-39.6699998141768 -72.9536077123385,-39.6700309372772 -72.9536150481993,-39.6700667358519 -72.9536385845831,-39.6701222777897 -72.9536797103171,-39.6701505657751 -72.9537106868663,-39.6701673258709 -72.9537457602552,-39.6701874001903 -72.9537903145343,-39.67024169046 -72.9538079915114,-39.6702825365992 -72.953821378822,-39.6703265497249 -72.9538579287767,-39.6703677277049 -72.9538921897031,-39.6704153520945 -72.9539260200224,-39.6704775597794 -72.9539181033025,-39.6705325467282 -72.953906566409,-39.6705680134361 -72.9538900229622,-39.6706309553205 -72.9538735268416,-39.6706922771532 -72.9538610814249,-39.6707585341205 -72.9538675078849,-39.6708251229669 -72.9538644949622,-39.6709272159701 -72.9538670623914,-39.6709823884999 -72.9538803552603,-39.6710296426054 -72.9538789676729,-39.6710766371625 -72.9538928816418,-39.6711028250203 -72.9538953532472,-39.6711612376868 -72.9538924430366,-39.6711887494564 -72.9538808102345,-39.6712274572038 -72.9538716097342,-39.6712548583362 -72.9538516848685,-39.6712901769534 -72.9538675521211,-39.6713212633927 -72.9539062463865,-39.6713608578671 -72.9539053852399,-39.6713900271774 -72.9538857004985,-39.6714172436331 -72.9538643476096,-39.6714298384683 -72.9538741623151,-39.6714527103815 -72.9538712532565,-39.6714802221109 -72.9538469901145,-39.6715203287132 -72.9538441283959,-39.6715462203922 -72.9538495587542,-39.671575501199 -72.9538594207792,-39.6715967521632 -72.9538730958849,-39.6716310421445 -72.9538594612996,-39.6716664723005 -72.9538564079567,-39.671698846057 -72.9538594059612,-39.671739432577 -72.9538726856949,-39.6718122938921 -72.9548944649422,-39.6718236529272</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

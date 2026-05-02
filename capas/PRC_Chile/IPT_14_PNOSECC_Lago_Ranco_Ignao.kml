@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Zona Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5574664875003,-40.3331274836712 -72.5583921865626,-40.3337361503288 -72.5585351029064,-40.3336003135948 -72.5576220543529,-40.3329882584543 -72.5574664875003,-40.3331274836712</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Zona Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.550786693182,-40.3336545979804 -72.5510014368177,-40.333789464531 -72.551394697685,-40.3330310527739 -72.5514114816579,-40.3329893133884 -72.5514122685173,-40.3329877797182 -72.5514202827548,-40.3329751728978 -72.5514359458312,-40.3329505315901 -72.5514372470816,-40.33294848405 -72.5514501525674,-40.3329337499485 -72.5514677924896,-40.3329136096336 -72.5503523741941,-40.3330480293728 -72.550786693182,-40.3336545979804</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Zona Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5563128791062,-40.3329723703054 -72.5570808220641,-40.3334349018461 -72.5575404643676,-40.3330427291437 -72.5578327751457,-40.3327993968003 -72.5571145486398,-40.332353532457 -72.5563128791062,-40.3329723703054</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Zona Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5561149989459,-40.3322206728272 -72.5565985146455,-40.3325609773368 -72.5567891153985,-40.3324136298352 -72.5556440601688,-40.3316603299179 -72.5547030503499,-40.3310425448515 -72.5546374867879,-40.3310999329172 -72.5553818758907,-40.3316706235842 -72.5561149989459,-40.3322206728272</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Zona Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5541220020945,-40.3308854390776 -72.5543888800177,-40.3310223503144 -72.5544421033736,-40.3309837368305 -72.5545924957849,-40.3308541370357 -72.5546910231965,-40.3307692305569 -72.5545850721255,-40.3307143457887 -72.5543882379792,-40.3306123802863 -72.5542396811813,-40.3305471453597 -72.5541698604998,-40.330524134762 -72.5539413037456,-40.3304484327157 -72.5538947467017,-40.3304330129479 -72.5536691103211,-40.3303392058136 -72.5534452164554,-40.330285089201 -72.5533645415499,-40.3302617490885 -72.5532241141645,-40.3302236847316 -72.5529650589184,-40.3301763676992 -72.5526870533005,-40.330123913737 -72.5522225127922,-40.3300368575306 -72.5519306423865,-40.33027976598 -72.5518831297559,-40.3303193078345 -72.5523155762023,-40.3304032524969 -72.5527129659864,-40.3304748746852 -72.5530348748342,-40.3305267420927 -72.5532776375535,-40.3305922000916 -72.5534694212428,-40.3306555077563 -72.5536942004958,-40.3307297075731 -72.5537256831096,-40.3307400998875 -72.5537818603277,-40.330758643543 -72.5538740242,-40.3307923557119 -72.5539785723042,-40.3308305980489 -72.5541220020945,-40.3308854390776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1 especial de equipamiento educacional y deportivo</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de seguridad, cultura, áreas verdes, deporte, esparcimeinto (sólo restaurantes), turismo  y comercio. Para mayor detalle ver ordenanza.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5535290676115,-40.3321273724166 -72.5536268603452,-40.3321855847856 -72.55346186786,-40.3323206769501 -72.5533656655669,-40.332260256678 -72.5531841305703,-40.3323983124208 -72.5527916065018,-40.3325639190831 -72.5539614374491,-40.3333466776245 -72.5553170859062,-40.3323166973112 -72.5550035698166,-40.3319172490267 -72.5546789304061,-40.3314945478901 -72.5539007949288,-40.3322063769348 -72.5536294842348,-40.3320276021063 -72.5535290676115,-40.3321273724166</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZEX-1</SimpleData>
+		<SimpleData name="NOM">Zona ZEX-1 de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de seguridad, cultura, áreas verdes, deporte, esparcimeinto (sólo restaurantes), turismo  y comercio. Para mayor detalle ver ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos usos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5514333165581,-40.3349323693635 -72.5529548224836,-40.3357745799193 -72.5538500553698,-40.3350418876223 -72.5533317527381,-40.334746365288 -72.552824976123,-40.3344625772494 -72.5527274799231,-40.3344079802209 -72.5521910420125,-40.3341075767306 -72.5512542111514,-40.3335460002555 -72.5510232672239,-40.3339929130332 -72.5505779290868,-40.3344158729746 -72.5514333165581,-40.3349323693635</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZEX-1</SimpleData>
+		<SimpleData name="NOM">Zona ZEX-1 de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de seguridad, cultura, áreas verdes, deporte, esparcimeinto (sólo restaurantes), turismo  y comercio. Para mayor detalle ver ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos usos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5499552412861,-40.332791924721 -72.5505816495542,-40.3336880688167 -72.5498612280372,-40.3337566154822 -72.5499775142532,-40.3339141316448 -72.5501629260814,-40.3341652827564 -72.5504924838028,-40.3343642792761 -72.5508107904219,-40.3340487154998 -72.5509214374653,-40.3339437425444 -72.5509340206015,-40.3339194751704 -72.5506502833756,-40.3337472672333 -72.5499552412861,-40.332791924721</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZEX-1</SimpleData>
+		<SimpleData name="NOM">Zona ZEX-1 de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de seguridad, cultura, áreas verdes, deporte, esparcimeinto (sólo restaurantes), turismo  y comercio. Para mayor detalle ver ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos usos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5499552412861,-40.332791924721 -72.5498464043191,-40.3326382180924 -72.5497608780076,-40.3325186266623 -72.5522582623452,-40.3304502911308 -72.5523155762023,-40.3304032524969 -72.5518831297559,-40.3303193078345 -72.5490588281475,-40.3326696891353 -72.5491852102971,-40.3328408884372 -72.5493020089303,-40.332999104705 -72.5499552412861,-40.332791924721</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZEX-1</SimpleData>
+		<SimpleData name="NOM">Zona ZEX-1 de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de seguridad, cultura, áreas verdes, deporte, esparcimeinto (sólo restaurantes), turismo  y comercio. Para mayor detalle ver ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos usos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5572059186998,-40.3310671135115 -72.5582941755512,-40.3318253310687 -72.558297842009,-40.3318220965071 -72.5589762760234,-40.3312237116653 -72.5596200092036,-40.3305302411679 -72.5603567571199,-40.3296253799616 -72.5591889462566,-40.3289461674355 -72.5585722538894,-40.3297036778057 -72.5582824430246,-40.33007531547 -72.5578485129631,-40.3305166110361 -72.5572059186998,-40.3310671135115</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZEX-1</SimpleData>
+		<SimpleData name="NOM">Zona ZEX-1 de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de seguridad, cultura, áreas verdes, deporte, esparcimeinto (sólo restaurantes), turismo  y comercio. Para mayor detalle ver ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos usos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5523271925568,-40.3299497383246 -72.5529653303326,-40.3300693392835 -72.5533860865851,-40.3297231166496 -72.5536006984485,-40.3295465196403 -72.5547286122202,-40.3285415778022 -72.5548440235043,-40.3284292539476 -72.5549516644749,-40.328316670123 -72.5550577985882,-40.3281623282277 -72.5559616988872,-40.3270690263242 -72.5555223488738,-40.3268134617941 -72.5545568094486,-40.3280157011957 -72.5540747442316,-40.3284952929428 -72.5523271925568,-40.3299497383246</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOM">Zona ZR-3 de restricción de cementerios</SimpleData>
+		<SimpleData name="UPERM">Cementerio.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos usos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5493020089303,-40.332999104705 -72.5498612280372,-40.3337566154822 -72.5505816495542,-40.3336880688167 -72.5499552412861,-40.332791924721 -72.5493020089303,-40.332999104705</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOM">Zona ZR-4 de faja de protección de instalaciones de agua potable</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5533656655669,-40.332260256678 -72.55346186786,-40.3323206769501 -72.5536268603452,-40.3321855847856 -72.5535290676115,-40.3321273724166 -72.5533656655669,-40.332260256678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOM">Zona ZR-4 de faja de protección de instalaciones de agua potable</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5559160358952,-40.3318069246785 -72.5560165067478,-40.3318798789799 -72.5561461869434,-40.3317341221981 -72.5560445741046,-40.3316720406155 -72.5559160358952,-40.3318069246785</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOM">Zona ZR-4 de faja de protección de instalaciones de agua potable</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5543650744091,-40.331383102913 -72.5544669498859,-40.331453245899 -72.5545150105867,-40.3314024217638 -72.5544391791921,-40.3313077986709 -72.5543650744091,-40.331383102913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZR-5</SimpleData>
+		<SimpleData name="NOM">Zona ZR-5 de faja de restricción de líneas eléctricas de alta tensión</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5562468241197,-40.329424747196 -72.5561607723103,-40.3294919380446 -72.5557328343645,-40.3291953231574 -72.5553088522059,-40.3289014453384 -72.5552412869139,-40.3289721140977 -72.5556552729925,-40.3292592657764 -72.5556556027406,-40.3292594942986 -72.5557373268485,-40.3293161802209 -72.5560916683721,-40.3295568346902 -72.5557710541294,-40.3298378241803 -72.5550328439588,-40.3304897313632 -72.5549066330552,-40.3305929318646 -72.5547668666517,-40.3307072156679 -72.5547653444365,-40.330708459463 -72.5543722673549,-40.3304916304229 -72.5540872089267,-40.3303791292976 -72.5536606741769,-40.3302247114169 -72.5535392195086,-40.3301920459274 -72.5531890432698,-40.3301073912953 -72.5529780737138,-40.3300717276651 -72.5529653303326,-40.3300693392835 -72.5523271925568,-40.3299497383246 -72.5522225127922,-40.3300368575306 -72.5526870533005,-40.330123913737 -72.5529650589184,-40.3301763676992 -72.5532241141645,-40.3302236847316 -72.5533645415499,-40.3302617490885 -72.5534452164554,-40.330285089201 -72.5536691103211,-40.3303392058136 -72.5538947467017,-40.3304330129479 -72.5539413037456,-40.3304484327157 -72.5541698604998,-40.330524134762 -72.5542396811813,-40.3305471453597 -72.5543882379792,-40.3306123802863 -72.5545850721255,-40.3307143457887 -72.5546910231965,-40.3307692305569 -72.5545924957849,-40.3308541370357 -72.5544421033736,-40.3309837368305 -72.5543888800177,-40.3310223503144 -72.5541220020945,-40.3308854390776 -72.5539785723042,-40.3308305980489 -72.5538740242,-40.3307923557119 -72.5537818603277,-40.330758643543 -72.5537507455412,-40.3308092343128 -72.5537657649742,-40.3308146003744 -72.5538525705855,-40.3308432455382 -72.5540549257752,-40.3309334363974 -72.5543498993189,-40.3310631914924 -72.5531026145811,-40.3321806811694 -72.5526908393533,-40.332367091834 -72.5518631787435,-40.3327245197681 -72.551774988461,-40.3327601911419 -72.551610686026,-40.3328266483426 -72.5515638700644,-40.3328467867765 -72.5515504285606,-40.3328540214848 -72.551520217174,-40.3328720976278 -72.551507017032,-40.332881150519 -72.5514785462466,-40.3329042716945 -72.5514702350155,-40.3329114891816 -72.5514677924896,-40.3329136096336 -72.5514501525674,-40.3329337499485 -72.5514372470816,-40.33294848405 -72.5514359458312,-40.3329505315901 -72.5514202827548,-40.3329751728978 -72.5514122685173,-40.3329877797182 -72.5514114816579,-40.3329893133884 -72.551394697685,-40.3330310527739 -72.5510014368177,-40.333789464531 -72.5509340206015,-40.3339194751704 -72.5509214374653,-40.3339437425444 -72.5508107904219,-40.3340487154998 -72.5504924838028,-40.3343642792761 -72.5505779290868,-40.3344158729746 -72.5510232672239,-40.3339929130332 -72.5512542111514,-40.3335460002555 -72.5515191398929,-40.3330333147092 -72.5515372651555,-40.3330014573809 -72.5515619953157,-40.3329723177927 -72.5515926553947,-40.3329466912458 -72.5516284099859,-40.3329252762002 -72.5516682823811,-40.3329086574759 -72.5518710747635,-40.3328244224405 -72.5522003839888,-40.332687635156 -72.552256998484,-40.3327853850316 -72.5525489430171,-40.3332894512887 -72.5531310169811,-40.3340029624029 -72.5527274799231,-40.3344079802209 -72.552824976123,-40.3344625772494 -72.5530027766969,-40.3342875402219 -72.5532771899199,-40.3340173891509 -72.5529362387636,-40.3335985713165 -72.5529361758114,-40.3335984930952 -72.552935804681,-40.3335980370743 -72.5526532921174,-40.3332509992742 -72.5526163598368,-40.3331875164275 -72.5525150133387,-40.3330133094456 -72.552359126664,-40.3327453497953 -72.5523011916052,-40.3326457618308 -72.553170593444,-40.3322554100375 -72.5533652670237,-40.3320750756183 -72.5544543215328,-40.3311105391785 -72.554787903497,-40.3308177565798 -72.5550661157608,-40.3309629159337 -72.5554983473546,-40.3312466947066 -72.5559210036784,-40.3314801007684 -72.5563766305185,-40.3317360583495 -72.5572638442202,-40.3322328640569 -72.5583538814935,-40.3328865908155 -72.5589737291166,-40.333272150127 -72.5590535220368,-40.3332020589893 -72.5575377680892,-40.3322896907523 -72.5566877158257,-40.3317965147387 -72.5559330635559,-40.3313780224714 -72.5555801309237,-40.3311779316745 -72.5551987015353,-40.3309316039865 -72.5548634721153,-40.3307487862986 -72.5550166274436,-40.330629979835 -72.5555414000074,-40.3301618967684 -72.5558800245634,-40.3298600602276 -72.5562565971878,-40.3295480526454 -72.5563274844564,-40.3294846456122 -72.556586064257,-40.3292101594608 -72.5572232907452,-40.3284235344226 -72.5575668401808,-40.328002688744 -72.5574738727288,-40.3279486136453 -72.5570646036234,-40.3284539761835 -72.5566849944094,-40.3289174619825 -72.5565899256472,-40.3290444102184 -72.5564454616498,-40.3292183255064 -72.5562468241197,-40.329424747196</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamientos de escala comunal y vecinal (definidos en el artículo 20 de la Ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5518710747635,-40.3328244224405 -72.5519770732695,-40.3329041507158 -72.552256998484,-40.3327853850316 -72.5522003839888,-40.332687635156 -72.5518710747635,-40.3328244224405</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamientos de escala comunal y vecinal (definidos en el artículo 20 de la Ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.554787903497,-40.3308177565798 -72.5544543215328,-40.3311105391785 -72.5533652670237,-40.3320750756183 -72.553170593444,-40.3322554100375 -72.5523011916052,-40.3326457618308 -72.552359126664,-40.3327453497953 -72.5527916065018,-40.3325639190831 -72.5531841305703,-40.3323983124208 -72.5533656655669,-40.332260256678 -72.5535290676115,-40.3321273724166 -72.5536294842348,-40.3320276021063 -72.5539007949288,-40.3322063769348 -72.5546789304061,-40.3314945478901 -72.5550035698166,-40.3319172490267 -72.5553170859062,-40.3323166973112 -72.5539614374491,-40.3333466776245 -72.555396930779,-40.334324591235 -72.5554177710687,-40.3343126260542 -72.5558203368233,-40.3340257979471 -72.5564705828238,-40.3334374240184 -72.5578172270581,-40.3342880189113 -72.5589737291166,-40.333272150127 -72.5583538814935,-40.3328865908155 -72.5572638442202,-40.3322328640569 -72.5563766305185,-40.3317360583495 -72.5559210036784,-40.3314801007684 -72.5554983473546,-40.3312466947066 -72.5550661157608,-40.3309629159337 -72.554787903497,-40.3308177565798</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5556440601688,-40.3316603299179 -72.5567891153985,-40.3324136298352 -72.5565985146455,-40.3325609773368 -72.5561149989459,-40.3322206728272 -72.5553818758907,-40.3316706235842 -72.5546374867879,-40.3310999329172 -72.5547030503499,-40.3310425448515 -72.5556440601688,-40.3316603299179</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5545150105867,-40.3314024217638 -72.5544669498859,-40.331453245899 -72.5543650744091,-40.331383102913 -72.5544391791921,-40.3313077986709 -72.5545150105867,-40.3314024217638</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5563128791062,-40.3329723703054 -72.5571145486398,-40.332353532457 -72.5578327751457,-40.3327993968003 -72.5575404643676,-40.3330427291437 -72.5570808220641,-40.3334349018461 -72.5563128791062,-40.3329723703054</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5574664875003,-40.3331274836712 -72.5576220543529,-40.3329882584543 -72.5585351029064,-40.3336003135948 -72.5583921865626,-40.3337361503288 -72.5574664875003,-40.3331274836712</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.5559160358952,-40.3318069246785 -72.5560445741046,-40.3316720406155 -72.5561461869434,-40.3317341221981 -72.5560165067478,-40.3318798789799 -72.5559160358952,-40.3318069246785</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamientos de escala comunal y vecinal (definidos en el artículo 20 de la Ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5513253722424,-40.3324462477922 -72.551774988461,-40.3327601911419 -72.5518631787435,-40.3327245197681 -72.5526908393533,-40.332367091834 -72.5531026145811,-40.3321806811694 -72.5543498993189,-40.3310631914924 -72.5540549257752,-40.3309334363974 -72.5538525705855,-40.3308432455382 -72.5538349650526,-40.3308588639121 -72.5527262422997,-40.3318568171265 -72.5523041132371,-40.3320500303522 -72.5513253722424,-40.3324462477922</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamientos de escala comunal y vecinal (definidos en el artículo 20 de la Ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5551116740312,-40.3297400963643 -72.5546684478457,-40.330139362957 -72.554592611517,-40.3301040538653 -72.554356143205,-40.3300186817506 -72.5540242426897,-40.3299003218457 -72.5538180071289,-40.3298308561102 -72.5535688647359,-40.3297629322445 -72.5533860865851,-40.3297231166496 -72.5529653303326,-40.3300693392835 -72.5529780737138,-40.3300717276651 -72.5531890432698,-40.3301073912953 -72.5535392195086,-40.3301920459274 -72.5536606741769,-40.3302247114169 -72.5540872089267,-40.3303791292976 -72.5543722673549,-40.3304916304229 -72.5547653444365,-40.330708459463 -72.5547668666517,-40.3307072156679 -72.5549066330552,-40.3305929318646 -72.5550328439588,-40.3304897313632 -72.5557710541294,-40.3298378241803 -72.5560916683721,-40.3295568346902 -72.5557373268485,-40.3293161802209 -72.5556556027406,-40.3292594942986 -72.5551116740312,-40.3297400963643</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamientos de escala comunal y vecinal (definidos en el artículo 20 de la Ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5575377680892,-40.3322896907523 -72.5590535220368,-40.3332020589893 -72.5596729759421,-40.3326579144271 -72.5582941755512,-40.3318253310687 -72.5572059186998,-40.3310671135115 -72.5569387215395,-40.3309062399434 -72.5564602533066,-40.3305595506389 -72.5562126556527,-40.3303963517413 -72.5564502305736,-40.3301898023125 -72.5568848263472,-40.3298051365634 -72.557253877671,-40.3294093398096 -72.5573468241356,-40.3292813675095 -72.557564646678,-40.3290115935714 -72.5581284887865,-40.3283293709133 -72.5575668401808,-40.328002688744 -72.5572232907452,-40.3284235344226 -72.556586064257,-40.3292101594608 -72.5563274844564,-40.3294846456122 -72.5562565971878,-40.3295480526454 -72.5558800245634,-40.3298600602276 -72.5555414000074,-40.3301618967684 -72.5550166274436,-40.330629979835 -72.5548634721153,-40.3307487862986 -72.5551987015353,-40.3309316039865 -72.5555801309237,-40.3311779316745 -72.5559330635559,-40.3313780224714 -72.5566877158257,-40.3317965147387 -72.5575377680892,-40.3322896907523</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOM">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamientos de escala comunal y vecinal (definidos en el artículo 20 de la Ordenanza)</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5557328343645,-40.3291953231574 -72.5561607723103,-40.3294919380446 -72.5562468241197,-40.329424747196 -72.5564454616498,-40.3292183255064 -72.5565899256472,-40.3290444102184 -72.5566849944094,-40.3289174619825 -72.5570646036234,-40.3284539761835 -72.5574738727288,-40.3279486136453 -72.5570126684449,-40.3276803488322 -72.5566025860267,-40.3281723124958 -72.5561801215505,-40.3286854850981 -72.5560611445772,-40.328860252751 -72.5559286647913,-40.3289988183778 -72.5557328343645,-40.3291953231574</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, comercio, educación, seguridad, deporte, servicios, áreas verdes, actividades productivas (talleres, almacenamientos, terminales rodoviarios). Para mayor detalle  revisar ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.552256998484,-40.3327853850316 -72.5519770732695,-40.3329041507158 -72.5518710747635,-40.3328244224405 -72.5516682823811,-40.3329086574759 -72.5516284099859,-40.3329252762002 -72.5515926553947,-40.3329466912458 -72.5515619953157,-40.3329723177927 -72.5515372651555,-40.3330014573809 -72.5515191398929,-40.3330333147092 -72.5512542111514,-40.3335460002555 -72.5521910420125,-40.3341075767306 -72.5527274799231,-40.3344079802209 -72.5531310169811,-40.3340029624029 -72.5525489430171,-40.3332894512887 -72.552256998484,-40.3327853850316</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, comercio, educación, seguridad, deporte, servicios, áreas verdes, actividades productivas (talleres, almacenamientos, terminales rodoviarios). Para mayor detalle  revisar ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5533317527381,-40.334746365288 -72.5538500553698,-40.3350418876223 -72.5542836795001,-40.3348657361299 -72.554403207887,-40.3348137849835 -72.5549862925944,-40.3345603520841 -72.5553031939554,-40.3343784092668 -72.555396930779,-40.334324591235 -72.5539614374491,-40.3333466776245 -72.5527916065018,-40.3325639190831 -72.552359126664,-40.3327453497953 -72.5525150133387,-40.3330133094456 -72.5526163598368,-40.3331875164275 -72.5526532921174,-40.3332509992742 -72.552935804681,-40.3335980370743 -72.5529361758114,-40.3335984930952 -72.5529362387636,-40.3335985713165 -72.5532771899199,-40.3340173891509 -72.5530027766969,-40.3342875402219 -72.552824976123,-40.3344625772494 -72.5533317527381,-40.334746365288</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, comercio, educación, seguridad, deporte, servicios, áreas verdes, actividades productivas (talleres, almacenamientos, terminales rodoviarios). Para mayor detalle  revisar ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5506502833756,-40.3337472672333 -72.5509340206015,-40.3339194751704 -72.5510014368177,-40.333789464531 -72.550786693182,-40.3336545979804 -72.5503523741941,-40.3330480293728 -72.5514677924896,-40.3329136096336 -72.5514702350155,-40.3329114891816 -72.5514785462466,-40.3329042716945 -72.551507017032,-40.332881150519 -72.551520217174,-40.3328720976278 -72.5515504285606,-40.3328540214848 -72.5515638700644,-40.3328467867765 -72.551610686026,-40.3328266483426 -72.551774988461,-40.3327601911419 -72.5513253722424,-40.3324462477922 -72.5523041132371,-40.3320500303522 -72.5527262422997,-40.3318568171265 -72.5538349650526,-40.3308588639121 -72.5538525705855,-40.3308432455382 -72.5537657649742,-40.3308146003744 -72.5537507455412,-40.3308092343128 -72.5537818603277,-40.330758643543 -72.5537256831096,-40.3307400998875 -72.5536942004958,-40.3307297075731 -72.5534694212428,-40.3306555077563 -72.5532776375535,-40.3305922000916 -72.5530348748342,-40.3305267420927 -72.5527129659864,-40.3304748746852 -72.5523155762023,-40.3304032524969 -72.5522582623452,-40.3304502911308 -72.5497608780076,-40.3325186266623 -72.5498464043191,-40.3326382180924 -72.5499552412861,-40.332791924721 -72.5506502833756,-40.3337472672333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, comercio, educación, seguridad, deporte, servicios, áreas verdes, actividades productivas (talleres, almacenamientos, terminales rodoviarios). Para mayor detalle  revisar ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5569387215395,-40.3309062399434 -72.5572059186998,-40.3310671135115 -72.5578485129631,-40.3305166110361 -72.5582824430246,-40.33007531547 -72.5585722538894,-40.3297036778057 -72.5591889462566,-40.3289461674355 -72.5581284887865,-40.3283293709133 -72.557564646678,-40.3290115935714 -72.5573468241356,-40.3292813675095 -72.557253877671,-40.3294093398096 -72.5568848263472,-40.3298051365634 -72.5564502305736,-40.3301898023125 -72.5562126556527,-40.3303963517413 -72.5564602533066,-40.3305595506389 -72.5569387215395,-40.3309062399434</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Lago Ranco</SimpleData>
+		<SimpleData name="LOC">Ignao</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOM">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, comercio, educación, seguridad, deporte, servicios, áreas verdes, actividades productivas (talleres, almacenamientos, terminales rodoviarios). Para mayor detalle  revisar ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos</SimpleData>
+		<SimpleData name="P_DO">21/07/2007</SimpleData>
+		<SimpleData name="N_DOC">74</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.5547286122202,-40.3285415778022 -72.5536006984485,-40.3295465196403 -72.5533860865851,-40.3297231166496 -72.5535688647359,-40.3297629322445 -72.5538180071289,-40.3298308561102 -72.5540242426897,-40.3299003218457 -72.554356143205,-40.3300186817506 -72.554592611517,-40.3301040538653 -72.5546684478457,-40.330139362957 -72.5551116740312,-40.3297400963643 -72.5556556027406,-40.3292594942986 -72.5556552729925,-40.3292592657764 -72.5552412869139,-40.3289721140977 -72.5553088522059,-40.3289014453384 -72.5557328343645,-40.3291953231574 -72.5559286647913,-40.3289988183778 -72.5560611445772,-40.328860252751 -72.5561801215505,-40.3286854850981 -72.5566025860267,-40.3281723124958 -72.5570126684449,-40.3276803488322 -72.5559616988872,-40.3270690263242 -72.5550577985882,-40.3281623282277 -72.5549516644749,-40.328316670123 -72.5548440235043,-40.3284292539476 -72.5547286122202,-40.3285415778022</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

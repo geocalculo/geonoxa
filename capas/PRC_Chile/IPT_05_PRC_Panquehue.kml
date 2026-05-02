@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Panquehue</SimpleData>
+		<SimpleData name="LOC">Panquehue</SimpleData>
+		<SimpleData name="ZONA">ZRS</SimpleData>
+		<SimpleData name="NOM">ZRS</SimpleData>
+		<SimpleData name="UPERM">Instalaciones sanitarias y construcciones anexas.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">16/05/1986</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8562050091025,-32.7858482386709 -70.8567479831851,-32.7860745407083 -70.8569859821605,-32.7845515898494 -70.8559831320978,-32.784008065791 -70.8546526656366,-32.7833187996153 -70.8536599912446,-32.7846818863628 -70.8538480915027,-32.7847824571793 -70.8548023352208,-32.785254684068 -70.8554372287604,-32.7855233476997 -70.8559229760746,-32.7857288952293 -70.8562050091025,-32.7858482386709</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Panquehue</SimpleData>
+		<SimpleData name="LOC">Panquehue</SimpleData>
+		<SimpleData name="ZONA">ZHM</SimpleData>
+		<SimpleData name="NOM">ZHM</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, oficinas, equipamiento, talleres artesanales, industrias y bodegas inofensivas, áreas verdes y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">16/05/1986</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8531420405381,-32.7844049560035 -70.8536599912446,-32.7846818863628 -70.8546526656366,-32.7833187996153 -70.8525395937937,-32.7822279717944 -70.8519782526731,-32.7819377197547 -70.8504002970702,-32.7809922694754 -70.8493704930971,-32.7803691709847 -70.8488556575622,-32.7800605994908 -70.8485294135759,-32.7798517337727 -70.8480002540927,-32.7793966180021 -70.8475241258273,-32.7787736831752 -70.8473733419493,-32.7785850105458 -70.8472747688248,-32.7784623811371 -70.8471180422482,-32.7782594785722 -70.8456581163134,-32.7794835005803 -70.8458184329103,-32.7796052816479 -70.846229921453,-32.7799107855297 -70.846674210073,-32.7802365528268 -70.8471577562304,-32.7805910990174 -70.8476230789581,-32.7809322802875 -70.8480012055147,-32.7812095239249 -70.8482501127177,-32.7813920225027 -70.848349784348,-32.781467086195 -70.8484009216497,-32.7815055980753 -70.8485096243535,-32.7815874628371 -70.8487949017642,-32.7818113136215 -70.8489681893956,-32.781934198533 -70.849146725326,-32.782059373111 -70.8495692973732,-32.7823556433422 -70.8498533964252,-32.7825511540896 -70.8500677023934,-32.7826816664648 -70.8504445867084,-32.7829111881497 -70.8506622074396,-32.7830437175735 -70.8510299600456,-32.7832676743421 -70.8514240912772,-32.7834809892897 -70.8519988778157,-32.7837901319658 -70.8526052299472,-32.7841162471187 -70.8531420405381,-32.7844049560035</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Panquehue</SimpleData>
+		<SimpleData name="LOC">Panquehue</SimpleData>
+		<SimpleData name="ZONA">ZHM</SimpleData>
+		<SimpleData name="NOM">ZHM</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, oficinas, equipamiento, talleres artesanales, industrias y bodegas inofensivas, áreas verdes y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">16/05/1986</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8303678805534,-32.7681019739959 -70.8362298354774,-32.7724266650308 -70.8362879219788,-32.7724695138763 -70.8366982241744,-32.7727721776686 -70.8375673737186,-32.7734112260304 -70.8389149970666,-32.7744106419461 -70.8389182315746,-32.7743999450944 -70.8397015098439,-32.772143892704 -70.8397016922442,-32.7721433669362 -70.840207740271,-32.7722960004579 -70.8419888726174,-32.7728333813777 -70.8420265587338,-32.7728446930991 -70.8425321548357,-32.7730216382622 -70.8425329631379,-32.772952091727 -70.842533974675,-32.7728650593337 -70.8397513380947,-32.7696792655308 -70.8394797629482,-32.7693684919579 -70.839419968704,-32.769304196851 -70.8393588172671,-32.7692475560345 -70.8392728887275,-32.769177638139 -70.8391914996275,-32.7691215415317 -70.839105453453,-32.7690706458339 -70.8390152159641,-32.7690252273871 -70.8389212735928,-32.7689855297627 -70.8388241356705,-32.7689517682389 -70.8387243236642,-32.7689241254497 -70.8376405811887,-32.7685919560833 -70.8375910489666,-32.7685767745649 -70.8375572028348,-32.7685664007884 -70.8374720058113,-32.7685402867983 -70.837470336561,-32.7685397809823 -70.8374630866433,-32.7685376173131 -70.8369309876373,-32.7683792321789 -70.8368741375849,-32.7683623097449 -70.836838486966,-32.7683516979833 -70.8352505683037,-32.7678790184243 -70.8351730749475,-32.7678559501438 -70.8281741716496,-32.7657722583706 -70.8279954086032,-32.7657190310316 -70.8267263781759,-32.7653411636202 -70.8271224228374,-32.7656340891008 -70.8278305625635,-32.7661682749262 -70.8280980140163,-32.7663700239198 -70.8287381718708,-32.7668529154102 -70.828999934327,-32.7670503677063 -70.8296374266217,-32.7675404433695 -70.8297280767228,-32.7676101304649 -70.8303678805534,-32.7681019739959</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

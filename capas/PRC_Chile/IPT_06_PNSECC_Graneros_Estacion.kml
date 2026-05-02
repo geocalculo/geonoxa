@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'Higgins</SimpleData>
+		<SimpleData name="COM">Graneros</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">H-2</SimpleData>
+		<SimpleData name="NOM">Zona H-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, oficinas, equipamiento, talleres artesanales y bodegas inofensivas, áreas verdes y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no señalado precedentemente como permitido.</SimpleData>
+		<SimpleData name="P_DO">02/07/2016</SimpleData>
+		<SimpleData name="N_DOC">481</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7248347863408,-34.0681616780605 -70.7248531842173,-34.0682269114313 -70.7254896908081,-34.0681049533925 -70.7255547193059,-34.0680721270698 -70.7254611346494,-34.0677569003687 -70.7253661934771,-34.0674576189492 -70.7253572321141,-34.0674398508859 -70.7253283963464,-34.0675022875193 -70.7252869526895,-34.067579216126 -70.7252511930502,-34.0676536789329 -70.7252069082897,-34.0677318403937 -70.7251581790288,-34.0678029063219 -70.7251025017125,-34.0678848066672 -70.7250509060448,-34.0679559127995 -70.7250045834373,-34.0680042799312 -70.7249203181196,-34.0680901596166 -70.7248347863408,-34.0681616780605</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'Higgins</SimpleData>
+		<SimpleData name="COM">Graneros</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">H-2</SimpleData>
+		<SimpleData name="NOM">Zona H-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, oficinas, equipamiento, talleres artesanales y bodegas inofensivas, áreas verdes y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no señalado precedentemente como permitido.</SimpleData>
+		<SimpleData name="P_DO">02/07/2016</SimpleData>
+		<SimpleData name="N_DOC">481</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7247694307383,-34.0640757347718 -70.7247826052846,-34.0641251521583 -70.725359054105,-34.0640108977063 -70.7253572962989,-34.0640041981952 -70.7252330175306,-34.0635306850815 -70.7250563821527,-34.0628576724421 -70.7249434157076,-34.0624220341274 -70.7245804433047,-34.0624894736741 -70.7243775321907,-34.0625298197982 -70.7244464610248,-34.0628503722051 -70.7247234032357,-34.0638556907457 -70.7247694307383,-34.0640757347718</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'Higgins</SimpleData>
+		<SimpleData name="COM">Graneros</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">H-3</SimpleData>
+		<SimpleData name="NOM">Zona H-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, oficinas, equipamiento, áreas verdes y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no señalado precedentemente como permitido.</SimpleData>
+		<SimpleData name="P_DO">02/07/2016</SimpleData>
+		<SimpleData name="N_DOC">481</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7245323529317,-34.0670893250503 -70.7247987588125,-34.068033932761 -70.7248522947228,-34.0679873310206 -70.7249310461959,-34.067912264771 -70.7249885908959,-34.0678518111472 -70.725064089067,-34.0677577035997 -70.7251408509529,-34.067655228257 -70.7252281576776,-34.0675072740052 -70.7252905397027,-34.0674026145094 -70.7253108086119,-34.0672711094437 -70.7251272528927,-34.0667016841996 -70.7249980997807,-34.0661994915021 -70.7249098320804,-34.0658756610264 -70.7247342353821,-34.0652035326387 -70.7246508117817,-34.0649064747667 -70.7245557320703,-34.0646000374132 -70.7244427640696,-34.0641888744038 -70.7243612059678,-34.0638422842375 -70.7241802772383,-34.0631541255531 -70.7241023319619,-34.0627734865267 -70.7240889525499,-34.062591975768 -70.7239856045363,-34.0626318890818 -70.7235083565371,-34.0627581416864 -70.7235637817192,-34.0629737008966 -70.7237093969649,-34.0635400246709 -70.723756252833,-34.0637222552143 -70.7239316238762,-34.0644042867776 -70.7240958538084,-34.0650429821025 -70.7241835930705,-34.0653841970047 -70.7243605241548,-34.066072267203 -70.7242410616654,-34.0661090443821 -70.7243558044824,-34.0665258841577 -70.7245323529317,-34.0670893250503</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'Higgins</SimpleData>
+		<SimpleData name="COM">Graneros</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">R-1</SimpleData>
+		<SimpleData name="NOM">Protección de línea férrea</SimpleData>
+		<SimpleData name="UPERM">Fajas de restricción de los trazados ferroviarios (ver detalle en ordenanza).</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">02/07/2016</SimpleData>
+		<SimpleData name="N_DOC">481</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7252905397027,-34.0674026145094 -70.7252281576776,-34.0675072740052 -70.7251408509529,-34.067655228257 -70.725064089067,-34.0677577035997 -70.7249885908959,-34.0678518111472 -70.7249310461959,-34.067912264771 -70.7248522947228,-34.0679873310206 -70.7247987588125,-34.068033932761 -70.7248347863408,-34.0681616780605 -70.7249203181196,-34.0680901596166 -70.7250045834373,-34.0680042799312 -70.7250509060448,-34.0679559127995 -70.7251025017125,-34.0678848066672 -70.7251581790288,-34.0678029063219 -70.7252069082897,-34.0677318403937 -70.7252511930502,-34.0676536789329 -70.7252869526895,-34.067579216126 -70.7253283963464,-34.0675022875193 -70.7253572321141,-34.0674398508859 -70.7253661934771,-34.0674576189492 -70.7254611346494,-34.0677569003687 -70.7255547193059,-34.0680721270698 -70.7255888761936,-34.0680548860333 -70.7258221505918,-34.0680093979069 -70.7257541730952,-34.0676460192432 -70.725701659642,-34.0673890869865 -70.7256833993109,-34.0673368556386 -70.7256697032474,-34.067297681235 -70.7254472862287,-34.0665790918966 -70.725268237192,-34.0658783830287 -70.7249788586893,-34.0648613109534 -70.7247694307383,-34.0640757347718 -70.7247234032357,-34.0638556907457 -70.7244464610248,-34.0628503722051 -70.7243775321907,-34.0625298197982 -70.7242092683636,-34.0625632753389 -70.7240910736574,-34.0625911569932 -70.7240889525499,-34.062591975768 -70.7241023319619,-34.0627734865267 -70.7241802772383,-34.0631541255531 -70.7243612059678,-34.0638422842375 -70.7244427640696,-34.0641888744038 -70.7245557320703,-34.0646000374132 -70.7246508117817,-34.0649064747667 -70.7247342353821,-34.0652035326387 -70.7249098320804,-34.0658756610264 -70.7249980997807,-34.0661994915021 -70.7251272528927,-34.0667016841996 -70.7253108086119,-34.0672711094437 -70.7252905397027,-34.0674026145094</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'Higgins</SimpleData>
+		<SimpleData name="COM">Graneros</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">H-2</SimpleData>
+		<SimpleData name="NOM">Zona H-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, comercio, oficinas, equipamiento, talleres artesanales y bodegas inofensivas, áreas verdes y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no señalado precedentemente como permitido.</SimpleData>
+		<SimpleData name="P_DO">02/07/2016</SimpleData>
+		<SimpleData name="N_DOC">481</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7257541730952,-34.0676460192432 -70.7258221505918,-34.0680093979069 -70.7261280079833,-34.06794975689 -70.7263644269184,-34.0679053714654 -70.7263000002226,-34.0676450802362 -70.7261431872247,-34.0670357545622 -70.7260059725925,-34.0665025756919 -70.725879772635,-34.0660121885151 -70.7257018417588,-34.0653207749047 -70.7251472686092,-34.0654532184072 -70.725268237192,-34.0658783830287 -70.7254472862287,-34.0665790918966 -70.7256697032474,-34.067297681235 -70.7256833993109,-34.0673368556386 -70.725701659642,-34.0673890869865 -70.7257541730952,-34.0676460192432</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">O'Higgins</SimpleData>
+		<SimpleData name="COM">Graneros</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Z-3 Zona de Equipamiento Urbano Exclusivo</SimpleData>
+		<SimpleData name="UPERM">Equipamiento para movilización colectiva de pasajeros, turismo, áreas verdes y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no señalado precedentemente como permitido.</SimpleData>
+		<SimpleData name="P_DO">02/07/2016</SimpleData>
+		<SimpleData name="N_DOC">481</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7249788586893,-34.0648613109534 -70.7251472686092,-34.0654532184072 -70.7257018417588,-34.0653207749047 -70.7256796941919,-34.0652347147649 -70.7254974706141,-34.0645382698508 -70.725359054105,-34.0640108977063 -70.7247826052846,-34.0641251521583 -70.7249788586893,-34.0648613109534</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

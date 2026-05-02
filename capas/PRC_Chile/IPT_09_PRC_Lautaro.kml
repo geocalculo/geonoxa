@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala regional, comunal y vecinal; almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Industria de todo tipo y almacenamientos molestos y todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4543528446982,-38.6327225773923 -72.4541768351237,-38.6327803678544 -72.4539103305221,-38.6323500108538 -72.4526386752497,-38.6328608834327 -72.4529316945786,-38.6333781070009 -72.4524692587274,-38.633547935328 -72.4557101151351,-38.6386424375339 -72.4562530647325,-38.6394533067491 -72.4568116975637,-38.6392409114903 -72.4574374444304,-38.6401689841027 -72.4597817305445,-38.6391880704394 -72.4599779714098,-38.6395503764635 -72.4609843926028,-38.6390998667851 -72.4612265223218,-38.6390225773066 -72.4614901265785,-38.6389271220086 -72.4617571021735,-38.6389016838814 -72.4612479859237,-38.6381998462339 -72.4607919251519,-38.638351805012 -72.4603076685046,-38.6385063815354 -72.4557967235968,-38.6316105935324 -72.4548708275007,-38.6314100892378 -72.4543528446982,-38.6327225773923</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala regional, comunal y vecinal; almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Industria de todo tipo y almacenamientos molestos y todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4500189843959,-38.6313606074757 -72.4456139532156,-38.6331733990814 -72.4453340616543,-38.6328206616833 -72.4453070568065,-38.6328318588559 -72.4450637598693,-38.6324183248665 -72.4439793572816,-38.6328762952547 -72.4443048061326,-38.6333697569588 -72.4427869387013,-38.6329411904451 -72.4425459573184,-38.6335092319318 -72.4449013123523,-38.6341585279347 -72.4464744461172,-38.6366714370067 -72.4476809410883,-38.6361976110763 -72.4502920547275,-38.6403100704042 -72.4540636072594,-38.6387962949829 -72.4543131326308,-38.6391981831194 -72.4553963960753,-38.638767243331 -72.4529909186616,-38.6350231153263 -72.4525066750219,-38.6352312520021 -72.4500189843959,-38.6313606074757</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">Área de Protección ZR1</SimpleData>
+		<SimpleData name="UPERM">Correponde a la faja de protección de la línea de ferrocarril a cada costado de la misma.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4557101151351,-38.6386424375339 -72.4506140037589,-38.6306311532209 -72.4502630931874,-38.6307766820342 -72.4553963960753,-38.638767243331 -72.4557101151351,-38.6386424375339</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4503152137191,-38.6403269158059 -72.4505370780349,-38.640700245758 -72.4543131326308,-38.6391981831194 -72.4540636072594,-38.6387962949829 -72.4503167682445,-38.6403001513231 -72.4503152137191,-38.6403269158059</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4609843926028,-38.6390998667851 -72.4599779714098,-38.6395503764635 -72.4597817305445,-38.6391880704394 -72.4574374444304,-38.6401689841027 -72.4568116975637,-38.6392409114903 -72.4562530647325,-38.6394533067491 -72.4575401822759,-38.6413754704782 -72.4615486925037,-38.6396791491759 -72.4617263978464,-38.6396563555597 -72.4619744301542,-38.6397015957146 -72.4622654129106,-38.6397105034658 -72.4626481996254,-38.6397692785149 -72.4630309879795,-38.6398280513457 -72.4634550384806,-38.6398154832009 -72.4638550833787,-38.6397685667831 -72.4640980565086,-38.6397087755249 -72.4642972342238,-38.6396678122635 -72.4645170435631,-38.6395911777139 -72.4642588867812,-38.6393358921908 -72.4631791113318,-38.6382635502235 -72.4622093206137,-38.6380819362881 -72.4620307762867,-38.6380872262507 -72.4617183241753,-38.638096483014 -72.4615191489481,-38.6381374417501 -72.4612538618219,-38.6381978885479 -72.4612479859237,-38.6381998462339 -72.4617571021735,-38.6389016838814 -72.4614901265785,-38.6389271220086 -72.4612265223218,-38.6390225773066 -72.4609843926028,-38.6390998667851</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4418211395809,-38.632373639301 -72.4414613332388,-38.6332607080518 -72.442381483434,-38.6338221541312 -72.4425236405215,-38.6335098893673 -72.4425470946528,-38.6335065526859 -72.4427869387013,-38.6329411904451 -72.4443048061326,-38.6333697569588 -72.4439793572816,-38.6328762952547 -72.4438589830239,-38.6329271310141 -72.4418211395809,-38.632373639301</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4502630931874,-38.6307766820342 -72.4453340616543,-38.6328206616833 -72.4456139532156,-38.6331733990814 -72.4500189843959,-38.6313606074757 -72.4525066750219,-38.6352312520021 -72.4529909186616,-38.6350231153263 -72.4502630931874,-38.6307766820342</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4506140037589,-38.6306311532209 -72.4524692587274,-38.633547935328 -72.4529316945786,-38.6333781070009 -72.4526386752497,-38.6328608834327 -72.4539103305221,-38.6323500108538 -72.4541768351237,-38.6327803678544 -72.4543528446982,-38.6327225773923 -72.4548708275007,-38.6314100892378 -72.4557967235968,-38.6316105935324 -72.4603076685046,-38.6385063815354 -72.4607919251519,-38.638351805012 -72.456302420405,-38.6314378738142 -72.4568212021262,-38.6301428831449 -72.4559560224691,-38.6284155340826 -72.4506140037589,-38.6306311532209</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Pillanlelbun</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento cultural, deportivo, recreacional, turístico y de áreas verdes a escala comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4505370780349,-38.640700245758 -72.4503152137191,-38.6403269158059 -72.4503167682445,-38.6403001513231 -72.4502920547275,-38.6403100704042 -72.4476809410883,-38.6361976110763 -72.4464744461172,-38.6366714370067 -72.4449013123523,-38.6341585279347 -72.4425459573184,-38.6335092319318 -72.4425470946528,-38.6335065526859 -72.4425236405215,-38.6335098893673 -72.442381483434,-38.6338221541312 -72.4426123853512,-38.6339630405419 -72.4428645801175,-38.6340958465712 -72.4430738172408,-38.6342649753852 -72.4431946254853,-38.6344542395709 -72.4433154343946,-38.6346435035972 -72.4435082274542,-38.6349358236792 -72.4438631142293,-38.6353460712948 -72.4440028895148,-38.6354646576249 -72.4441178320046,-38.6355313879 -72.4442765708536,-38.635579297923 -72.4444344711599,-38.6356097022818 -72.4446651963295,-38.6357606663314 -72.4448752825999,-38.6359472968541 -72.4450845299524,-38.6361164224522 -72.4452360536108,-38.6364800722484 -72.4452659228409,-38.6366369567037 -72.4455214878331,-38.6368397743508 -72.4459341192605,-38.6370554899041 -72.446047387747,-38.6370872081539 -72.4462292882174,-38.6371519616357 -72.4465492947567,-38.637300288681 -72.4467130748054,-38.6374532220783 -72.4469256895396,-38.6376923627561 -72.4470688321262,-38.6378809637689 -72.4474385168068,-38.6381329991623 -72.447556824832,-38.6382697435779 -72.4476784916444,-38.6384765066313 -72.4476868874892,-38.6386515531295 -72.4477613987739,-38.6388071196471 -72.4479003488197,-38.6389081961447 -72.4480178182586,-38.6390274355493 -72.4480898127205,-38.639130487481 -72.4481428466872,-38.6393042167165 -72.4481297651056,-38.6394974261531 -72.448097723798,-38.6397613129073 -72.4480202041022,-38.6400090123868 -72.4480707195133,-38.6401302273369 -72.4481220759891,-38.640268946678 -72.4483081853156,-38.6404212196038 -72.4484686183828,-38.6405041321327 -72.4486282107979,-38.6405695400106 -72.448832442313,-38.6406336292544 -72.4490846719271,-38.6407664201079 -72.4493120622073,-38.6408473550426 -72.4494733374018,-38.6409477705192 -72.4495693352073,-38.6410851713127 -72.4505370780349,-38.640700245758</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala regional, comunal y vecinal; almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Industria de todo tipo y almacenamiento molestos y todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.431693697494,-38.5334855235372 -72.4323094101807,-38.5339522850732 -72.4345400789325,-38.5332570509981 -72.4324381743983,-38.5288759420353 -72.434174894328,-38.5284228468615 -72.434110532469,-38.5283120151068 -72.4336021593768,-38.5273101781902 -72.4333865138156,-38.5273798778789 -72.4327608066828,-38.5274935836378 -72.4301472590035,-38.5282702591797 -72.4303289281367,-38.5287776552965 -72.4303873647995,-38.5289856884169 -72.430242119124,-38.5295047817566 -72.4302531788929,-38.5302481058244 -72.4302758074786,-38.5307241389581 -72.4303469185611,-38.5311987509213 -72.4304431777426,-38.5316916933155 -72.4306409312408,-38.5322769973823 -72.4308556873378,-38.5327092588042 -72.4312904332186,-38.5331732018467 -72.431693697494,-38.5334855235372</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala regional, comunal y vecinal; almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Industria de todo tipo y almacenamiento molestos y todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4350905702512,-38.5295226466116 -72.4365958690529,-38.5327731319732 -72.439596985038,-38.5318880893056 -72.4406171151856,-38.5339364783083 -72.4375303166055,-38.5347907699052 -72.4379046005124,-38.5355988797666 -72.4393131678079,-38.5386655228394 -72.4399612934505,-38.5400384121997 -72.4404800493919,-38.5412434924698 -72.4407312796444,-38.5419564265234 -72.4412191067479,-38.5419768330665 -72.4412636794799,-38.5413844187737 -72.4412518703943,-38.541136884715 -72.4411403594831,-38.5408350802328 -72.441051277419,-38.540494481267 -72.4410440109317,-38.5403421521447 -72.441100393048,-38.5399972719229 -72.441094943218,-38.5398830255276 -72.4408828283602,-38.5395079103842 -72.4408782871707,-38.5394127044255 -72.4407237422901,-38.5392265732861 -72.4407201095497,-38.5391504086828 -72.4409104257901,-38.5390685375791 -72.4408537652296,-38.5388985945529 -72.4418601810993,-38.538621096854 -72.4420758962095,-38.5385350630731 -72.4424439730017,-38.5340657690853 -72.4427616421376,-38.5305479358171 -72.4410678905346,-38.5269549828328 -72.4347599567442,-38.5287978228389 -72.4350905702512,-38.5295226466116</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento cultural, deportivo, esparcimiento, turismo y áreas verdes a escala regional, comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4282914505525,-38.5479352208745 -72.4301032410382,-38.5486057795494 -72.4301884351112,-38.5482882200028 -72.430244872989,-38.547943343613 -72.4308986308125,-38.547905096233 -72.4316987751833,-38.5478816174624 -72.4318685014076,-38.5478766364523 -72.432194584732,-38.548095880782 -72.4324946090107,-38.5482777528595 -72.4326652434935,-38.5482918112269 -72.4329598322588,-38.5483594347578 -72.4334511156837,-38.5484784858308 -72.4337941992042,-38.5485446833244 -72.4341103157735,-38.5485544683315 -72.4339260801027,-38.5482547925922 -72.4338927661909,-38.5480650924945 -72.4337588400931,-38.5478020752875 -72.4336743143618,-38.5475566754584 -72.4335152355697,-38.5472753283811 -72.4331782762045,-38.5468275932757 -72.4331977635271,-38.5462168504745 -72.4332344717395,-38.5459678908494 -72.4332029739552,-38.5458162724701 -72.4331175465266,-38.5455518304678 -72.4329108911118,-38.5452909472632 -72.4327321072801,-38.5451055170777 -72.4326897360742,-38.5447254038616 -72.4327046960056,-38.5440194541284 -72.4326983524414,-38.5438861652829 -72.4326435186914,-38.5437542998129 -72.4326380814658,-38.5436400515761 -72.432653265134,-38.5434489273449 -72.4326890683401,-38.5431809262488 -72.4325812135534,-38.5429552782717 -72.4297804721351,-38.5361348810635 -72.4286433925809,-38.5351957606005 -72.4276320775842,-38.5343482815605 -72.4272988367182,-38.5339766899689 -72.4269701224162,-38.5337003046589 -72.4263872354778,-38.5331834817782 -72.4259300856994,-38.5327583116632 -72.425544762397,-38.5323119685732 -72.4250642863763,-38.5319065471542 -72.4249019832227,-38.5318306395098 -72.4246291818241,-38.5321466386557 -72.4246451082409,-38.5322811125465 -72.4247324537075,-38.5330984758285 -72.4248205440477,-38.5334200507658 -72.4249014045832,-38.5335892937065 -72.425054088109,-38.5337373658915 -72.4252561613002,-38.5339030586192 -72.4255776381846,-38.5340271181441 -72.4258973079197,-38.5341130942538 -72.4261891200518,-38.5341236129094 -72.4266030473407,-38.5341496220267 -72.426895762835,-38.53417918061 -72.4271427077809,-38.5342672842439 -72.4274453748274,-38.5345062969352 -72.4276016837344,-38.5347305311565 -72.4277158413693,-38.5350894750277 -72.4279772655212,-38.5354822385206 -72.4282602214279,-38.5358171665973 -72.4285413702578,-38.5361140105929 -72.4289374008429,-38.536274010268 -72.4291358698859,-38.5363635308117 -72.4292813273538,-38.536359265623 -72.4301809306272,-38.5384303503184 -72.4307473019569,-38.5401298457631 -72.42976505897,-38.5404065396057 -72.4302008677298,-38.5434446170122 -72.4296092206877,-38.5437670567254 -72.4296830641732,-38.544298791639 -72.4282914505525,-38.5479352208745</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU6</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento cultural, deportivo, esparcimiento, turismo y áreas verdes a escala regional, comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4266218895863,-38.5232994231821 -72.4266956854977,-38.5233883546095 -72.4292837528481,-38.5227714046039 -72.428794279588,-38.5221755811557 -72.4285620534984,-38.5207272654211 -72.4270173615196,-38.5186922946343 -72.4266706296955,-38.5188551664366 -72.4255416541406,-38.5220626900407 -72.4257695987446,-38.5222184497922 -72.4259474005778,-38.5223848538539 -72.4260749181703,-38.5225145941963 -72.4262311952628,-38.5227388310947 -72.4263596178982,-38.5228876127843 -72.4264683228275,-38.5231323111423 -72.4266218895863,-38.5232994231821</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4264980054479,-38.5472714116124 -72.4282914505525,-38.5479352208745 -72.4296830641732,-38.544298791639 -72.4296198134852,-38.5438433303004 -72.4276383671021,-38.5444587577023 -72.4264980054479,-38.5472714116124</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4173214751117,-38.5329529681819 -72.4191958612514,-38.5374331492166 -72.419640685828,-38.5368131731944 -72.4194780773044,-38.5364556375256 -72.4231003985505,-38.5370742485165 -72.4231952644183,-38.5360036680135 -72.4234044157555,-38.5358068666582 -72.4221337054821,-38.5351194756499 -72.4222896242256,-38.5348137335666 -72.4209904172712,-38.5340469845853 -72.4201175631465,-38.5335576795118 -72.4197179554395,-38.5333214819291 -72.419446779231,-38.5332340708307 -72.4192501345791,-38.5331826164835 -72.4189538158625,-38.5330768719881 -72.4187338316561,-38.5330451663673 -72.4184384162987,-38.5329584623404 -72.4181690469114,-38.5329091318262 -72.4178763385151,-38.5328795500709 -72.4175629942957,-38.5329268434514 -72.4173214751117,-38.5329529681819</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal y vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4247874516211,-38.5151539362814 -72.4273304875574,-38.5185452065511 -72.4274066128074,-38.5185094473034 -72.4281062216723,-38.5194423417358 -72.4286061616815,-38.5192370085949 -72.4276694314222,-38.5179106395687 -72.4294276766406,-38.5171154520508 -72.4293234947389,-38.516965962866 -72.4286323935946,-38.5172341062222 -72.4278268161056,-38.5161136416236 -72.4289451167773,-38.5156423001435 -72.4298539831136,-38.5168932045605 -72.4296897554797,-38.5170124275446 -72.4312201579259,-38.5190840822683 -72.4311277342789,-38.5191821326614 -72.4333785467125,-38.5221097451879 -72.4362769012718,-38.5213000480568 -72.4360116318241,-38.5203163106753 -72.4365672785574,-38.5202618497166 -72.4358387685392,-38.5171942526738 -72.4366853875343,-38.516932238477 -72.4352566440062,-38.5161816844385 -72.4347619587876,-38.5159864649785 -72.4342169921975,-38.5157545842298 -72.4335975104919,-38.5154867528549 -72.4332428159459,-38.5151730090419 -72.4330586795332,-38.5148733273122 -72.4329409139122,-38.5144382218434 -72.4330476062642,-38.5141300031017 -72.4330304048177,-38.5137682178783 -72.4329953053729,-38.5135404334316 -72.4328614560507,-38.5132774107993 -72.432534632197,-38.513039118403 -72.4319618395618,-38.5127317712429 -72.4312884938202,-38.5123510990501 -72.4311679584801,-38.5121408390205 -72.4247874516211,-38.5151539362814</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal vecinal; industria inofensiva y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4278671669495,-38.5438944058888 -72.4276383671021,-38.5444587577023 -72.4296198134852,-38.5438433303004 -72.4296092206877,-38.5437670567254 -72.4302008677298,-38.5434446170122 -72.42976505897,-38.5404065396057 -72.4307473019569,-38.5401298457631 -72.4301809306272,-38.5384303503184 -72.4292813273538,-38.536359265623 -72.4291358698859,-38.5363635308117 -72.4289374008429,-38.536274010268 -72.4285413702578,-38.5361140105929 -72.4282602214279,-38.5358171665973 -72.4279772655212,-38.5354822385206 -72.4277158413693,-38.5350894750277 -72.4276016837344,-38.5347305311565 -72.4274453748274,-38.5345062969352 -72.4271427077809,-38.5342672842439 -72.426895762835,-38.53417918061 -72.4266030473407,-38.5341496220267 -72.4261891200518,-38.5341236129094 -72.4258973079197,-38.5341130942538 -72.4255776381846,-38.5340271181441 -72.4252561613002,-38.5339030586192 -72.425054088109,-38.5337373658915 -72.4249014045832,-38.5335892937065 -72.4248205440477,-38.5334200507658 -72.4247324537075,-38.5330984758285 -72.4246451082409,-38.5322811125465 -72.4246291818241,-38.5321466386557 -72.4235605598707,-38.5333844435085 -72.4236057276936,-38.5333984158261 -72.4251242667301,-38.5341929405463 -72.4256478193652,-38.5344826923335 -72.4263770730703,-38.5350142987577 -72.4266339680986,-38.5353118581509 -72.4267669389208,-38.5355558445617 -72.4268756664275,-38.5358005420911 -72.4268883283988,-38.5360671208751 -72.4268282616945,-38.5363358316801 -72.4267439511778,-38.5366052528367 -72.4266326845414,-38.5368182601762 -72.4263508089702,-38.5370171979168 -72.4262601670255,-38.5371533288899 -72.426195574753,-38.5373268329539 -72.4261803751138,-38.5375179572085 -72.4260672958497,-38.5376928808126 -72.4258869121193,-38.5379841840737 -72.4256624495341,-38.5385135317887 -72.4279075140338,-38.5437216116975 -72.4278671669495,-38.5438944058888</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala comunal vecinal; industria inofensiva y almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4367955330368,-38.5168991940923 -72.4367004006742,-38.516940124758 -72.4366853875343,-38.516932238477 -72.4358387685392,-38.5171942526738 -72.4365672785574,-38.5202618497166 -72.4360116318241,-38.5203163106753 -72.4362769012718,-38.5213000480568 -72.4334097704955,-38.5221010227957 -72.4334031462235,-38.5221166496117 -72.4314149177669,-38.5226707637928 -72.427811595713,-38.5178463455001 -72.4276694314222,-38.5179106395687 -72.4286061616815,-38.5192370085949 -72.4281062216723,-38.5194423417358 -72.4274066128074,-38.5185094473034 -72.4273406966857,-38.5185404112786 -72.4290200110334,-38.5207960729649 -72.4295346188025,-38.521410226878 -72.4297914736617,-38.5217077815372 -72.4302440457691,-38.5220377320875 -72.4308483863156,-38.5224967044446 -72.4311806809229,-38.5228492465346 -72.4316989446386,-38.5235395538201 -72.4319172973191,-38.5240479802784 -72.4320629378734,-38.5245585408577 -72.432202241208,-38.5249358109105 -72.4323567315245,-38.5251219561337 -72.4327232466179,-38.525683236188 -72.4332379238539,-38.5262973702584 -72.4340176560549,-38.5273804163175 -72.4345756265424,-38.5283936975815 -72.4347599567442,-38.5287978228389 -72.4410678905346,-38.5269549828328 -72.4410062247907,-38.5268241616883 -72.4389462784124,-38.5223084608495 -72.4389372067843,-38.5221180488819 -72.4388787528294,-38.521910020723 -72.4388642387656,-38.5216053617085 -72.4389027353617,-38.5213944829718 -72.438869426183,-38.5212047836095 -72.4386582918757,-38.520848700933 -72.4387436452461,-38.520823526305 -72.4386770863009,-38.5207337413122 -72.4385135217542,-38.5203571925085 -72.438422670592,-38.5199785058433 -72.438404531692,-38.5195976815386 -72.438547233081,-38.5195362828448 -72.4386230698147,-38.5185806585239 -72.438445250264,-38.5184142754831 -72.4382117028286,-38.518096986906 -72.4380069293457,-38.5178741910118 -72.4378470015882,-38.5175738058049 -72.4376440441438,-38.5173890921507 -72.4374662298415,-38.5172227064514 -72.4373162793027,-38.5171317742507 -72.437214801165,-38.5170394165143 -72.4369167135919,-38.5168956333702 -72.4367955330368,-38.5168991940923</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4378142290438,-38.5514592154211 -72.4379627016314,-38.5515141498593 -72.4399621334152,-38.5466739922741 -72.4404392307202,-38.5454777514955 -72.4405771588812,-38.5448063194752 -72.440616287016,-38.5440996589661 -72.4405814935012,-38.5428612731404 -72.4404275740178,-38.5421793602281 -72.4401936587528,-38.5413472573976 -72.4396533860827,-38.5402000111677 -72.4381081280727,-38.5368132396178 -72.4372246055801,-38.5348980598134 -72.433657539859,-38.5359387887528 -72.4336808441624,-38.5359632245172 -72.4344828976203,-38.5364926413982 -72.4350604283733,-38.5368951716427 -72.4353649441153,-38.5371722450194 -72.435727924107,-38.5376573457059 -72.4359148572796,-38.5380141434854 -72.4361863131137,-38.5386163384679 -72.436490181542,-38.539389191477 -72.4365371029596,-38.5398645092043 -72.4365507096015,-38.5401501274564 -72.436616432769,-38.5405104848057 -72.4366030751494,-38.5407396919881 -72.4367721273973,-38.5412304875984 -72.436927573273,-38.541435665665 -72.43706422013,-38.5417558028756 -72.4373445212831,-38.5420335821486 -72.437428143996,-38.5422599378019 -72.4376205438916,-38.5427309784468 -72.4377302276354,-38.5429947039433 -72.4378911268713,-38.5433141270638 -72.4380323190854,-38.5437294689085 -72.4381259305121,-38.5441652766567 -72.4380443799688,-38.5444918274411 -72.4379816265675,-38.5447034187578 -72.4379655505621,-38.5448755015594 -72.4379997795284,-38.5450842415969 -72.4383952366868,-38.5457399887848 -72.4385697623015,-38.546345026923 -72.4386579342378,-38.5466665872169 -72.4386463992156,-38.5469338760712 -72.4385675713934,-38.5473175513391 -72.4385408669672,-38.5477759644165 -72.4385123477524,-38.5481962946593 -72.4384604891225,-38.5486363792598 -72.4384013669604,-38.548924135417 -72.4383358892604,-38.5490786036166 -72.4382955653792,-38.5492513993606 -72.4382849372053,-38.5495377295545 -72.4382733999914,-38.5498050183835 -72.4382852025255,-38.5500525528506 -72.4382288025795,-38.5503974322164 -72.4380241924083,-38.5506894649915 -72.4379847761587,-38.5508813020241 -72.4378726157449,-38.5510752786636 -72.4379256509093,-38.5511690580232 -72.4378142290438,-38.5514592154211</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4235605598707,-38.5333844435085 -72.4223140996576,-38.5348281776636 -72.4222896242256,-38.5348137335666 -72.4221337054821,-38.5351194756499 -72.4234044157555,-38.5358068666582 -72.4231952644183,-38.5360036680135 -72.4231003985505,-38.5370742485165 -72.4194780773044,-38.5364556375256 -72.419640685828,-38.5368131731944 -72.4191958612514,-38.5374331492166 -72.4194021097805,-38.5379260891204 -72.4231735823466,-38.5386166071735 -72.4233478074034,-38.5387068472132 -72.4235705213513,-38.5387956665899 -72.4238632552259,-38.5388252328375 -72.4256428366776,-38.5384680308306 -72.4256624495341,-38.5385135317887 -72.4258869121193,-38.5379841840737 -72.4260672958497,-38.5376928808126 -72.4261803751138,-38.5375179572085 -72.426195574753,-38.5373268329539 -72.4262601670255,-38.5371533288899 -72.4263508089702,-38.5370171979168 -72.4266326845414,-38.5368182601762 -72.4267439511778,-38.5366052528367 -72.4268282616945,-38.5363358316801 -72.4268883283988,-38.5360671208751 -72.4268756664275,-38.5358005420911 -72.4267669389208,-38.5355558445617 -72.4266339680986,-38.5353118581509 -72.4263770730703,-38.5350142987577 -72.4256478193652,-38.5344826923335 -72.4251242667301,-38.5341929405463 -72.4236057276936,-38.5333984158261 -72.4235605598707,-38.5333844435085</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4424439730017,-38.5340657690853 -72.4420758962095,-38.5385350630731 -72.4421698948122,-38.5384975743413 -72.4423350553157,-38.5383973733072 -72.4424165813703,-38.5380708204705 -72.4425726542771,-38.5377802084136 -72.4428302415988,-38.5375819472118 -72.4430941887632,-38.5375169730406 -72.4432611633547,-38.5374548535111 -72.4435314716705,-38.5375231658815 -72.4437020814707,-38.5375372092309 -72.4439148140574,-38.5374165379686 -72.444054817379,-38.5372980082322 -72.4440726975788,-38.5371640068602 -72.4440160315121,-38.536994065599 -72.4439845166041,-38.5368424508062 -72.4439772448797,-38.536690122059 -72.4440642170356,-38.5364778145073 -72.4441520977266,-38.5362845482247 -72.4442336137834,-38.5359579945166 -72.4442021002274,-38.5358063806265 -72.4443248287993,-38.535326070193 -72.4442242237666,-38.5352527617051 -72.444172103969,-38.5351780252187 -72.4441772571746,-38.5347774489718 -72.4442075628397,-38.5343952000446 -72.4442154429227,-38.534051746832 -72.4442108982698,-38.5339565420181 -72.4441075698041,-38.533826110214 -72.4440033316957,-38.5336766370047 -72.443972727659,-38.5335440633983 -72.44396545686,-38.5333917354629 -72.4441590904522,-38.5328712008798 -72.4443942340019,-38.5327117336392 -72.4446302843246,-38.5325713064232 -72.444883301654,-38.5322778360278 -72.4449935991472,-38.5320457735526 -72.4450320809385,-38.5318348936793 -72.4450257173939,-38.5317016062837 -72.444926027234,-38.5316473394424 -72.444722100103,-38.5314435998469 -72.4444912073528,-38.5311834506874 -72.444356369462,-38.5309014040499 -72.4442015387272,-38.5302004541378 -72.444053073884,-38.5296327913613 -72.4439721745183,-38.5294635634622 -72.4438821885883,-38.5291039238363 -72.4438012903018,-38.5289346957601 -72.4438388659579,-38.5287047747554 -72.4438315966991,-38.5285524466725 -72.4437058531951,-38.528460809635 -72.4436052600038,-38.5283875000354 -72.4436922239549,-38.5281751929615 -72.4439237182662,-38.5279395627605 -72.4440421914999,-38.5278788706333 -72.4440349219842,-38.5277265416619 -72.444003412556,-38.5275749264908 -72.4439997779146,-38.5274987628982 -72.443996143244,-38.5274225984048 -72.4439888739441,-38.5272702694141 -72.4439797874178,-38.5270798586184 -72.4438970742692,-38.5268725477626 -72.443721946966,-38.5267632976265 -72.4435225816604,-38.5266547608595 -72.4433250326971,-38.5265843055862 -72.4431768717982,-38.5265314641079 -72.4429550838548,-38.5264617217886 -72.4428051067914,-38.5263707970646 -72.4427214896681,-38.5261444446834 -72.4426100006244,-38.525842640178 -72.4425173027053,-38.5254258764407 -72.442241312445,-38.5247284891413 -72.4421522508283,-38.5243878886633 -72.4421198392299,-38.5242172312653 -72.4421116666904,-38.5240458613927 -72.4418574779155,-38.5238054599718 -72.4417244819736,-38.5235614916968 -72.4415878565386,-38.5232413584456 -72.4415805934019,-38.5230890289598 -72.4415203140676,-38.5228429206501 -72.4414179155331,-38.5227315258133 -72.4412652239096,-38.5225834761948 -72.4411116262688,-38.5224163839887 -72.4409831753704,-38.5222676207766 -72.4409525832493,-38.5221350456842 -72.4408223167387,-38.521948199427 -72.4406974977365,-38.5218755997524 -72.4405511624344,-38.5218608363739 -72.4404272513947,-38.5218072778273 -72.4398876675282,-38.5216896734779 -72.4397664793136,-38.521693237646 -72.4395447094156,-38.5216234879615 -72.4393947468885,-38.5215325590309 -72.4391926798039,-38.5213668894677 -72.4390921013483,-38.5212935752371 -72.4387436452461,-38.520823526305 -72.4386582918757,-38.520848700933 -72.438869426183,-38.5212047836095 -72.4389027353617,-38.5213944829718 -72.4388642387656,-38.5216053617085 -72.4388787528294,-38.521910020723 -72.4389372067843,-38.5221180488819 -72.4389462784124,-38.5223084608495 -72.4410062247907,-38.5268241616883 -72.4427616421376,-38.5305479358171 -72.4424439730017,-38.5340657690853</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4278268161056,-38.5161136416236 -72.4286323935946,-38.5172341062222 -72.4293234947389,-38.516965962866 -72.4294276766406,-38.5171154520508 -72.427811595713,-38.5178463455001 -72.4314149177669,-38.5226707637928 -72.4334031462235,-38.5221166496117 -72.4334097704955,-38.5221010227957 -72.4333785467125,-38.5221097451879 -72.4311277342789,-38.5191821326614 -72.4312201579259,-38.5190840822683 -72.4296897554797,-38.5170124275446 -72.4298539831136,-38.5168932045605 -72.4289451167773,-38.5156423001435 -72.4278268161056,-38.5161136416236</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZR3</SimpleData>
+		<SimpleData name="NOM">Área Especial ZR3</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4378142290438,-38.5514592154211 -72.4379256509093,-38.5511690580232 -72.4378726157449,-38.5510752786636 -72.4379847761587,-38.5508813020241 -72.4380241924083,-38.5506894649915 -72.4382288025795,-38.5503974322164 -72.4382852025255,-38.5500525528506 -72.4382733999914,-38.5498050183835 -72.4382849372053,-38.5495377295545 -72.4382955653792,-38.5492513993606 -72.4383358892604,-38.5490786036166 -72.4384013669604,-38.548924135417 -72.4384604891225,-38.5486363792598 -72.4385123477524,-38.5481962946593 -72.4385408669672,-38.5477759644165 -72.4385675713934,-38.5473175513391 -72.4386463992156,-38.5469338760712 -72.4386579342378,-38.5466665872169 -72.4385697623015,-38.546345026923 -72.4383952366868,-38.5457399887848 -72.4379997795284,-38.5450842415969 -72.4379655505621,-38.5448755015594 -72.4379816265675,-38.5447034187578 -72.4380443799688,-38.5444918274411 -72.4381259305121,-38.5441652766567 -72.4380323190854,-38.5437294689085 -72.4378911268713,-38.5433141270638 -72.4377302276354,-38.5429947039433 -72.4376205438916,-38.5427309784468 -72.437428143996,-38.5422599378019 -72.4373445212831,-38.5420335821486 -72.43706422013,-38.5417558028756 -72.436927573273,-38.541435665665 -72.4367721273973,-38.5412304875984 -72.4366030751494,-38.5407396919881 -72.436616432769,-38.5405104848057 -72.4365507096015,-38.5401501274564 -72.4365371029596,-38.5398645092043 -72.436490181542,-38.539389191477 -72.4361863131137,-38.5386163384679 -72.4359148572796,-38.5380141434854 -72.435727924107,-38.5376573457059 -72.4353649441153,-38.5371722450194 -72.4350604283733,-38.5368951716427 -72.4344828976203,-38.5364926413982 -72.4336808441624,-38.5359632245172 -72.4332209164295,-38.5354809631009 -72.4329270678474,-38.5349175521863 -72.4327347227832,-38.5344465018087 -72.4323232963177,-38.5339628119669 -72.431693697494,-38.5334855235372 -72.4312904332186,-38.5331732018467 -72.4308556873378,-38.5327092588042 -72.4306409312408,-38.5322769973823 -72.4304431777426,-38.5316916933155 -72.4303469185611,-38.5311987509213 -72.4302758074786,-38.5307241389581 -72.4302531788929,-38.5302481058244 -72.430242119124,-38.5295047817566 -72.4303873647995,-38.5289856884169 -72.4303289281367,-38.5287776552965 -72.4301329989592,-38.5282304330989 -72.429928928342,-38.5275118375291 -72.4295640419269,-38.5264738028194 -72.4295441325375,-38.526452922208 -72.4249019832227,-38.5318306395098 -72.4250642863763,-38.5319065471542 -72.425544762397,-38.5323119685732 -72.4259300856994,-38.5327583116632 -72.4263872354778,-38.5331834817782 -72.4269701224162,-38.5337003046589 -72.4272988367182,-38.5339766899689 -72.4276320775842,-38.5343482815605 -72.4286433925809,-38.5351957606005 -72.4297804721351,-38.5361348810635 -72.4325812135534,-38.5429552782717 -72.4326890683401,-38.5431809262488 -72.432653265134,-38.5434489273449 -72.4326380814658,-38.5436400515761 -72.4326435186914,-38.5437542998129 -72.4326983524414,-38.5438861652829 -72.4327046960056,-38.5440194541284 -72.4326897360742,-38.5447254038616 -72.4327321072801,-38.5451055170777 -72.4329108911118,-38.5452909472632 -72.4331175465266,-38.5455518304678 -72.4332029739552,-38.5458162724701 -72.4332344717395,-38.5459678908494 -72.4331977635271,-38.5462168504745 -72.4331782762045,-38.5468275932757 -72.4335152355697,-38.5472753283811 -72.4336743143618,-38.5475566754584 -72.4337588400931,-38.5478020752875 -72.4338927661909,-38.5480650924945 -72.4339260801027,-38.5482547925922 -72.4341103157735,-38.5485544683315 -72.4337941992042,-38.5485446833244 -72.4334511156837,-38.5484784858308 -72.4329598322588,-38.5483594347578 -72.4326652434935,-38.5482918112269 -72.4324946090107,-38.5482777528595 -72.432194584732,-38.548095880782 -72.4318685014076,-38.5478766364523 -72.4316987751833,-38.5478816174624 -72.4308986308125,-38.547905096233 -72.430244872989,-38.547943343613 -72.4301884351112,-38.5482882200028 -72.4301032410382,-38.5486057795494 -72.4378142290438,-38.5514592154211</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE3</SimpleData>
+		<SimpleData name="UPERM">Industria inofensiva, molesta y almacenamiento inofensivo y molesto.</SimpleData>
+		<SimpleData name="UPROH">Vivienda, a excepción de la habitación de ciudades de las instalaciones mencionadas en los usos permitidos y todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4469374624074,-38.5394087956866 -72.4472362111709,-38.5403695287347 -72.4505833264357,-38.5397941193981 -72.4589205873406,-38.5433521588926 -72.460364264125,-38.5405919685378 -72.4605623599195,-38.5401666167913 -72.4606483722305,-38.5399352581054 -72.4607101404734,-38.539704617727 -72.4607504063591,-38.5395318158682 -72.4607618601109,-38.5392645284294 -72.4606695294241,-38.5383520090514 -72.4606242781113,-38.5379147902474 -72.4604107397731,-38.5370058571872 -72.4497468542252,-38.5389035437921 -72.4469546432931,-38.5394053705546 -72.4469374624074,-38.5394087956866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZR2</SimpleData>
+		<SimpleData name="NOM">Área Especial ZR2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4481669555072,-38.5402095327364 -72.4481665786045,-38.5405327775209 -72.4482549994947,-38.5406917474953 -72.4482538649179,-38.540682745535 -72.4485169071614,-38.5405987185224 -72.4487817693967,-38.5405527715653 -72.4490708743272,-38.540506109906 -72.4493627114384,-38.5405165693101 -72.4497030358156,-38.5405255985563 -72.4584294394407,-38.5442911455596 -72.4589205873406,-38.5433521588926 -72.4505833264357,-38.5397941193981 -72.4481669555072,-38.5402095327364</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento cultural, deportivo recreacional turístico y de áreas verdes a escala comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4426940941745,-38.541342317083 -72.4424487245127,-38.5436827530745 -72.4455172398372,-38.5431044933112 -72.4450914957213,-38.5408312400084 -72.4426940941745,-38.541342317083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Área de Extensión Urbana ZE2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento cultural, deportivo recreacional turístico y de áreas verdes a escala comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4253682324542,-38.5219441865378 -72.4255416541406,-38.5220626900407 -72.4266706296955,-38.5188551664366 -72.4270575330139,-38.5186734250049 -72.424495471523,-38.5152918051582 -72.4211710287816,-38.5168614773617 -72.4211585218133,-38.5171097265776 -72.4212169215327,-38.5173177662511 -72.4213004600383,-38.5175441387961 -72.4213821943065,-38.5177324275862 -72.4215357373442,-38.5178995475133 -72.421736853333,-38.5180462081938 -72.4219137327106,-38.5181935766756 -72.4221642266223,-38.5183578602055 -72.4223383996373,-38.5184481034266 -72.4226131328819,-38.5186116767207 -72.4227657778729,-38.5187597529903 -72.4229678015945,-38.518925453106 -72.4231455885512,-38.5190918612826 -72.4232758038786,-38.519278729713 -72.4235595726129,-38.519632715668 -72.4238191062327,-38.5199874093976 -72.423971756748,-38.5201354847136 -72.4241028805842,-38.5203413937456 -72.4244702107492,-38.520921745889 -72.4246255746755,-38.5211269436515 -72.4248590740812,-38.5214442624947 -72.425212863366,-38.5217389890994 -72.4253682324542,-38.5219441865378</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU7</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU7</SimpleData>
+		<SimpleData name="UPERM">Cementerio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4450914957213,-38.5408312400084 -72.4455172398372,-38.5431044933112 -72.4484885373868,-38.5425444698762 -72.4482549994947,-38.5406917474953 -72.4481665786045,-38.5405327775209 -72.4481669555072,-38.5402095327364 -72.4472634622712,-38.540364843706 -72.4472604553495,-38.5403688140613 -72.4450914957213,-38.5408312400084</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZR4</SimpleData>
+		<SimpleData name="NOM">Área Especial ZR4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4311679584801,-38.5121408390205 -72.4312884938202,-38.5123510990501 -72.4319618395618,-38.5127317712429 -72.432534632197,-38.513039118403 -72.4328614560507,-38.5132774107993 -72.4329953053729,-38.5135404334316 -72.4330304048177,-38.5137682178783 -72.4330476062642,-38.5141300031017 -72.4329409139122,-38.5144382218434 -72.4330586795332,-38.5148733273122 -72.4332428159459,-38.5151730090419 -72.4335975104919,-38.5154867528549 -72.4342169921975,-38.5157545842298 -72.4347619587876,-38.5159864649785 -72.4352566440062,-38.5161816844385 -72.4367004006742,-38.516940124758 -72.4367955330368,-38.5168991940923 -72.4369167135919,-38.5168956333702 -72.437214801165,-38.5170394165143 -72.4373162793027,-38.5171317742507 -72.4374662298415,-38.5172227064514 -72.4376440441438,-38.5173890921507 -72.4378470015882,-38.5175738058049 -72.4380069293457,-38.5178741910118 -72.4382117028286,-38.518096986906 -72.438445250264,-38.5184142754831 -72.4386230698147,-38.5185806585239 -72.438547233081,-38.5195362828448 -72.438404531692,-38.5195976815386 -72.438422670592,-38.5199785058433 -72.4385135217542,-38.5203571925085 -72.4386770863009,-38.5207337413122 -72.4390921013483,-38.5212935752371 -72.4391926798039,-38.5213668894677 -72.4393947468885,-38.5215325590309 -72.4395447094156,-38.5216234879615 -72.4397664793136,-38.521693237646 -72.4398876675282,-38.5216896734779 -72.4404272513947,-38.5218072778273 -72.4405511624344,-38.5218608363739 -72.4406974977365,-38.5218755997524 -72.4408223167387,-38.521948199427 -72.4409525832493,-38.5221350456842 -72.4409831753704,-38.5222676207766 -72.4411116262688,-38.5224163839887 -72.4412652239096,-38.5225834761948 -72.4414179155331,-38.5227315258133 -72.4415203140676,-38.5228429206501 -72.4415805934019,-38.5230890289598 -72.4415878565386,-38.5232413584456 -72.4417244819736,-38.5235614916968 -72.4418574779155,-38.5238054599718 -72.4421116666904,-38.5240458613927 -72.4421198392299,-38.5242172312653 -72.4421522508283,-38.5243878886633 -72.442241312445,-38.5247284891413 -72.4425173027053,-38.5254258764407 -72.4426100006244,-38.525842640178 -72.4427214896681,-38.5261444446834 -72.4428051067914,-38.5263707970646 -72.4429550838548,-38.5264617217886 -72.4431768717982,-38.5265314641079 -72.4433250326971,-38.5265843055862 -72.4435225816604,-38.5266547608595 -72.443721946966,-38.5267632976265 -72.4438970742692,-38.5268725477626 -72.4439797874178,-38.5270798586184 -72.4439888739441,-38.5272702694141 -72.443996143244,-38.5274225984048 -72.4439997779146,-38.5274987628982 -72.444003412556,-38.5275749264908 -72.4440349219842,-38.5277265416619 -72.4440421914999,-38.5278788706333 -72.4439237182662,-38.5279395627605 -72.4436922239549,-38.5281751929615 -72.4436052600038,-38.5283875000354 -72.4437058531951,-38.528460809635 -72.4438315966991,-38.5285524466725 -72.4438388659579,-38.5287047747554 -72.4438012903018,-38.5289346957601 -72.4438821885883,-38.5291039238363 -72.4439721745183,-38.5294635634622 -72.444053073884,-38.5296327913613 -72.4442015387272,-38.5302004541378 -72.444356369462,-38.5309014040499 -72.4444912073528,-38.5311834506874 -72.444722100103,-38.5314435998469 -72.444926027234,-38.5316473394424 -72.4450257173939,-38.5317016062837 -72.4450320809385,-38.5318348936793 -72.4449935991472,-38.5320457735526 -72.444883301654,-38.5322778360278 -72.4446302843246,-38.5325713064232 -72.4443942340019,-38.5327117336392 -72.4441590904522,-38.5328712008798 -72.44396545686,-38.5333917354629 -72.443972727659,-38.5335440633983 -72.4440033316957,-38.5336766370047 -72.4441075698041,-38.533826110214 -72.4442108982698,-38.5339565420181 -72.4442154429227,-38.534051746832 -72.4442075628397,-38.5343952000446 -72.4441772571746,-38.5347774489718 -72.444172103969,-38.5351780252187 -72.4442242237666,-38.5352527617051 -72.4443248287993,-38.535326070193 -72.4442021002274,-38.5358063806265 -72.4442336137834,-38.5359579945166 -72.4441520977266,-38.5362845482247 -72.4440642170356,-38.5364778145073 -72.4439772448797,-38.536690122059 -72.4439845166041,-38.5368424508062 -72.4440160315121,-38.536994065599 -72.4440726975788,-38.5371640068602 -72.444054817379,-38.5372980082322 -72.4439148140574,-38.5374165379686 -72.4437020814707,-38.5375372092309 -72.4435314716705,-38.5375231658815 -72.4432611633547,-38.5374548535111 -72.4430941887632,-38.5375169730406 -72.4428302415988,-38.5375819472118 -72.4425726542771,-38.5377802084136 -72.4424165813703,-38.5380708204705 -72.4423350553157,-38.5383973733072 -72.4421698948122,-38.5384975743413 -72.4418601810993,-38.538621096854 -72.4408537652296,-38.5388985945529 -72.4409104257901,-38.5390685375791 -72.4407201095497,-38.5391504086828 -72.4407237422901,-38.5392265732861 -72.4408782871707,-38.5394127044255 -72.4408828283602,-38.5395079103842 -72.441094943218,-38.5398830255276 -72.441100393048,-38.5399972719229 -72.4410440109317,-38.5403421521447 -72.441051277419,-38.540494481267 -72.4411403594831,-38.5408350802328 -72.4412518703943,-38.541136884715 -72.4412636794799,-38.5413844187737 -72.4412191067479,-38.5419768330665 -72.4406839096709,-38.5419544448145 -72.440822390689,-38.5423126595158 -72.4409035797304,-38.5429967118985 -72.4408923332189,-38.5437788244791 -72.4406919449473,-38.5451766710572 -72.4404588504429,-38.5458890383953 -72.439028415192,-38.5494967982963 -72.4381987202563,-38.5514470468995 -72.4381194166047,-38.5515721343283 -72.438337220389,-38.5516527197709 -72.4402745300004,-38.5469622594438 -72.4404242699399,-38.5465383625135 -72.4406600915106,-38.5458831174628 -72.440809827379,-38.5454592201833 -72.4408950008525,-38.5452088325211 -72.4410532531311,-38.5439456994533 -72.4424487245127,-38.5436827530745 -72.4426940941745,-38.541342317083 -72.4472604553495,-38.5403688140613 -72.4472634622712,-38.540364843706 -72.4472362111709,-38.5403695287347 -72.4469374624074,-38.5394087956866 -72.4466179629461,-38.539472497166 -72.4429908012385,-38.540284851696 -72.4432329681342,-38.5382374644702 -72.4450060511084,-38.5377466861857 -72.4456229426975,-38.5303301966565 -72.4422268586344,-38.5227458568656 -72.4416803609801,-38.5214653248758 -72.4397365493664,-38.5209123350078 -72.4393717271694,-38.5147832048415 -72.4353402491633,-38.5142152343641 -72.433182041914,-38.5111895971907 -72.4311679584801,-38.5121408390205</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">Área Especial ZR1</SimpleData>
+		<SimpleData name="UPERM">Corresponde a la faja de protección de la línea de ferrocarril a cada costado de la misma.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.424495471523,-38.5152918051582 -72.4270575330139,-38.5186734250049 -72.4270173615196,-38.5186922946343 -72.4314551535563,-38.5245382379502 -72.4321100211818,-38.5255486893787 -72.4326319362605,-38.5263151573214 -72.4328367208767,-38.5265379610973 -72.4330899856275,-38.5267593423297 -72.4331438991181,-38.5268721668982 -72.4334653556881,-38.5269962056654 -72.4335480395639,-38.5272035252866 -72.434110532469,-38.5283120151068 -72.4344807048548,-38.5289494532272 -72.4381081280727,-38.5368132396178 -72.4396533860827,-38.5402000111677 -72.4401936587528,-38.5413472573976 -72.4404275740178,-38.5421793602281 -72.4405814935012,-38.5428612731404 -72.440616287016,-38.5440996589661 -72.4405771588812,-38.5448063194752 -72.4404392307202,-38.5454777514955 -72.4399621334152,-38.5466739922741 -72.4379627016314,-38.5515141498593 -72.4381194166047,-38.5515721343283 -72.4381987202563,-38.5514470468995 -72.439028415192,-38.5494967982963 -72.4404588504429,-38.5458890383953 -72.4406919449473,-38.5451766710572 -72.4408923332189,-38.5437788244791 -72.4409035797304,-38.5429967118985 -72.440822390689,-38.5423126595158 -72.4406839096709,-38.5419544448145 -72.4407312796444,-38.5419564265234 -72.4404800493919,-38.5412434924698 -72.4399612934505,-38.5400384121997 -72.4393131678079,-38.5386655228394 -72.4379046005124,-38.5355988797666 -72.4350905702512,-38.5295226466116 -72.4345756265424,-38.5283936975815 -72.4340176560549,-38.5273804163175 -72.4332379238539,-38.5262973702584 -72.4327232466179,-38.525683236188 -72.4323567315245,-38.5251219561337 -72.432202241208,-38.5249358109105 -72.4320629378734,-38.5245585408577 -72.4319172973191,-38.5240479802784 -72.4316989446386,-38.5235395538201 -72.4311806809229,-38.5228492465346 -72.4308483863156,-38.5224967044446 -72.4302440457691,-38.5220377320875 -72.4297914736617,-38.5217077815372 -72.4295346188025,-38.521410226878 -72.4290200110334,-38.5207960729649 -72.4273406966857,-38.5185404112786 -72.4273304875574,-38.5185452065511 -72.4247874516211,-38.5151539362814 -72.424495471523,-38.5152918051582</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala regional, comunal, vecinal; almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Industria de todo tipo y almacenamientos molestos y todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4365958690529,-38.5327731319732 -72.4375303166055,-38.5347907699052 -72.4406171151856,-38.5339364783083 -72.439596985038,-38.5318880893056 -72.4365958690529,-38.5327731319732</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala regional, comunal, vecinal; almacenamiento inofensivo.</SimpleData>
+		<SimpleData name="UPROH">Industria de todo tipo y almacenamientos molestos y todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4332209164295,-38.5354809631009 -72.433657539859,-38.5359387887528 -72.4372246055801,-38.5348980598134 -72.4344807048548,-38.5289494532272 -72.434174894328,-38.5284228468615 -72.4324381743983,-38.5288759420353 -72.4345400789325,-38.5332570509981 -72.4323094101807,-38.5339522850732 -72.4323232963177,-38.5339628119669 -72.4327347227832,-38.5344465018087 -72.4329270678474,-38.5349175521863 -72.4332209164295,-38.5354809631009</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Lautaro</SimpleData>
+		<SimpleData name="LOC">Lautaro</SimpleData>
+		<SimpleData name="ZONA">ZU5</SimpleData>
+		<SimpleData name="NOM">Área Consolidada ZU5</SimpleData>
+		<SimpleData name="UPERM">Industria y almacenamiento inofensivo y molesto; equipamiento vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente.</SimpleData>
+		<SimpleData name="P_DO">19/02/1988</SimpleData>
+		<SimpleData name="N_DOC">1</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4266956854977,-38.5233883546095 -72.4267763622696,-38.523485577555 -72.4268805483059,-38.5236350678165 -72.4270368305552,-38.5238593042734 -72.4271894961124,-38.5240073737207 -72.4278504522002,-38.5246363135394 -72.4284557059657,-38.5251143394734 -72.4290349198718,-38.525554989204 -72.4292360715185,-38.5257016351586 -72.4295368973735,-38.5259025607721 -72.4296410940047,-38.5260520489607 -72.4296770957071,-38.5262988758956 -72.4295441325375,-38.526452922208 -72.4295640419269,-38.5264738028194 -72.429928928342,-38.5275118375291 -72.4301329989592,-38.5282304330989 -72.4301472590035,-38.5282702591797 -72.4327608066828,-38.5274935836378 -72.4333865138156,-38.5273798778789 -72.4336021593768,-38.5273101781902 -72.4335480395639,-38.5272035252866 -72.4334653556881,-38.5269962056654 -72.4331438991181,-38.5268721668982 -72.4330899856275,-38.5267593423297 -72.4328367208767,-38.5265379610973 -72.4326319362605,-38.5263151573214 -72.4321100211818,-38.5255486893787 -72.4314551535563,-38.5245382379502 -72.4285620534984,-38.5207272654211 -72.428794279588,-38.5221755811557 -72.4292837528481,-38.5227714046039 -72.4266956854977,-38.5233883546095</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

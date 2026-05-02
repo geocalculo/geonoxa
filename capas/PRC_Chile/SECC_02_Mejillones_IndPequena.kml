@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ipt_02_prc_mejillones_secc_indpequena" id="ipt_02_prc_mejillones_secc_indpequena">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>ipt_02_prc_mejillones_secc_indpequena</name>
+  <Placemark id="ipt_02_prc_mejillones_secc_indpequena.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_02_prc_mejillones_secc_indpequena">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Industria Pequeña</SimpleData>
+		<SimpleData name="ZONA">U-8</SimpleData>
+		<SimpleData name="NOMBRE">U-8 Talleres Artesanales</SimpleData>
+		<SimpleData name="UPERM">Talleres y servicios artesanales de carácter inofensivo, talleres manufacturadores, y toda aquella actividad de desarrollo para la pequeña industria manufacturera que no sea molesta y que no acopie material peligroso</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Industrial Pequeña</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">71520.66259769999</SimpleData>
+		<SimpleData name="Shape_STLe">1492.45954815000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.4386695114807,-23.1076474468167 -70.4387952406313,-23.1074459780873 -70.4391435929489,-23.1072424447052 -70.4395032823305,-23.1070507122796 -70.4399812490047,-23.1067469696576 -70.4401802750585,-23.1065157573522 -70.4404081560457,-23.1060835590602 -70.4410515669401,-23.1022281258517 -70.440687193464,-23.1021663554955 -70.4403214902539,-23.1021127959736 -70.4398984336695,-23.1022395819353 -70.439706540928,-23.1034781541682 -70.4393325120727,-23.1058922757429 -70.4390867913487,-23.1060725760125 -70.4386956351794,-23.1063675434863 -70.438073413432,-23.1068367506961 -70.4385636181943,-23.1075034312446 -70.4386695114807,-23.1076474468167</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_02_prc_mejillones_secc_indpequena.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_02_prc_mejillones_secc_indpequena">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Industria Pequeña</SimpleData>
+		<SimpleData name="ZONA">U-7</SimpleData>
+		<SimpleData name="NOMBRE">U-7 Semi Industrial</SimpleData>
+		<SimpleData name="UPERM">Equipamiento y servicios portuario e Industrial a escala regional. Industria y bodegaje inofensivo. Equipamiento de transporte terrestre: carretero, ferroviario y ductos, oficinas, áreas verdes y vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Industrial Pequeña</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">1267754.27612000005</SimpleData>
+		<SimpleData name="Shape_STLe">6769.63608024000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.439858515541,-23.1084398884484 -70.4387999870843,-23.108497335368 -70.4385657960676,-23.1083381754646 -70.4384807207755,-23.1081415350094 -70.4385314605182,-23.1079291032675 -70.4385958877549,-23.1077773520275 -70.4386695114807,-23.1076474468167 -70.4385636181943,-23.1075034312446 -70.438073413432,-23.1068367506961 -70.4386956351794,-23.1063675434863 -70.4390867913487,-23.1060725760125 -70.4393325120727,-23.1058922757429 -70.439706540928,-23.1034781541682 -70.4398984336695,-23.1022395819353 -70.4403214902539,-23.1021127959736 -70.440687193464,-23.1021663554955 -70.4410515669401,-23.1022281258517 -70.4413336828653,-23.1008276644415 -70.4416137546238,-23.0992360575189 -70.4406485002878,-23.0990369051237 -70.439617475663,-23.0989654718304 -70.4392365632919,-23.0989209006435 -70.439275821255,-23.0987403708868 -70.4396776102338,-23.096892692296 -70.4393487564008,-23.096853797569 -70.4376356501366,-23.0966511719397 -70.436779349483,-23.0965496275962 -70.4364913857438,-23.0965154790424 -70.436015767455,-23.0985439941187 -70.4360125944965,-23.0985436228967 -70.4359578138334,-23.098791162315 -70.4351948988571,-23.1022384830093 -70.4276104798072,-23.1044246381224 -70.429552328714,-23.1069636400163 -70.4343466064065,-23.1123261191797 -70.4358351335887,-23.1137178443769 -70.4367897420918,-23.1140416221422 -70.4378643902274,-23.1139193241711 -70.4387468660504,-23.1133816631115 -70.4391984898724,-23.1125482614921 -70.4395314615053,-23.1113884074112 -70.439858515541,-23.1084398884484</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.4362564050383,-23.0983871399495 -70.4367359658512,-23.0967020707944 -70.4393072198291,-23.0970359304272 -70.4389277928581,-23.0986996598058 -70.4362564050383,-23.0983871399495</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_02_prc_mejillones_secc_indpequena.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_02_prc_mejillones_secc_indpequena">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Industria Pequeña</SimpleData>
+		<SimpleData name="ZONA">C-2</SimpleData>
+		<SimpleData name="NOMBRE">C-2 Borde Marítimo Industrial</SimpleData>
+		<SimpleData name="UPERM">Industria Pesquera, Astilleros y Reparaciones Navales; Bodegas y Talleres no molestos, vialidad y equipamiento regional</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Industrial Pequeña</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">51359.18408200000</SimpleData>
+		<SimpleData name="Shape_STLe">923.01987936700</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.4362564050383,-23.0983871399495 -70.4389277928581,-23.0986996598058 -70.4393072198291,-23.0970359304272 -70.4367359658512,-23.0967020707944 -70.4362564050383,-23.0983871399495</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_02_prc_mejillones_secc_indpequena.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_02_prc_mejillones_secc_indpequena">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Industria Pequeña</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOMBRE">AV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Industrial Pequeña</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">22864.42529300000</SimpleData>
+		<SimpleData name="Shape_STLe">742.98926132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.4386695114807,-23.1076474468167 -70.4385958877549,-23.1077773520275 -70.4385314605182,-23.1079291032675 -70.4384807207755,-23.1081415350094 -70.4385657960676,-23.1083381754646 -70.4387999870843,-23.108497335368 -70.439858515541,-23.1084398884484 -70.4404081560457,-23.1060835590602 -70.4401802750585,-23.1065157573522 -70.4399812490047,-23.1067469696576 -70.4395032823305,-23.1070507122796 -70.4391435929489,-23.1072424447052 -70.4387952406313,-23.1074459780873 -70.4386695114807,-23.1076474468167</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

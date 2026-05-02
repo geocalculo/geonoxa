@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Santa María</SimpleData>
+		<SimpleData name="LOC">Santa María</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">Zona ZR</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">16/05/1984</SimpleData>
+		<SimpleData name="N_DOC">45</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6515367959658,-32.7403378017776 -70.6522405391736,-32.7402211401203 -70.65308829015,-32.7402576868962 -70.6535117250787,-32.7402521005359 -70.6538445375811,-32.7400407455823 -70.6538969748575,-32.7400074446904 -70.6539722126195,-32.7399596637964 -70.6541263362018,-32.7398777682917 -70.6543636684264,-32.7397516588674 -70.6547310838948,-32.7397706717995 -70.6552131798269,-32.7398836207702 -70.6556213951489,-32.7398185709737 -70.6559420537111,-32.739599564124 -70.6562792538408,-32.7395115867389 -70.6567053328448,-32.7396491341401 -70.6571322975296,-32.7398343951262 -70.6575877132656,-32.7400312097614 -70.6578403545654,-32.739798780748 -70.6561543783116,-32.7390192666112 -70.6554980679013,-32.7395624762872 -70.6541732598119,-32.739379519159 -70.6533018658286,-32.7398969196516 -70.6523329554613,-32.7398739042034 -70.6514463857607,-32.7400287702186 -70.6515367959658,-32.7403378017776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Santa María</SimpleData>
+		<SimpleData name="LOC">Santa María</SimpleData>
+		<SimpleData name="ZONA">H-1</SimpleData>
+		<SimpleData name="NOM">Zona H-1</SimpleData>
+		<SimpleData name="UPERM">Viviendas, comercio, oficinas, equipamiento, talleres artesanales inofensivos, industrias y/o bodegas inofensivas, vialidad y áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">16/05/1984</SimpleData>
+		<SimpleData name="N_DOC">45</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6515367959658,-32.7403378017776 -70.6517986987404,-32.7411266113591 -70.6525100560369,-32.7410396777742 -70.6527904762529,-32.7409345607037 -70.653061833852,-32.7418676153703 -70.6535455965737,-32.743293030343 -70.6545372300361,-32.7448797788283 -70.6556755836787,-32.7467012176313 -70.6547228436322,-32.7471391036491 -70.6504473207318,-32.7491040205753 -70.6478804954424,-32.7503793055876 -70.6470725996955,-32.7507806770599 -70.6475717509835,-32.7512036538324 -70.6476932270459,-32.7513595538345 -70.6501440795317,-32.7501143291172 -70.6504984446555,-32.75095442193 -70.6564704779361,-32.7483307546071 -70.655882896163,-32.7474794435042 -70.6568814136521,-32.7470228644926 -70.6574560315125,-32.7478600244028 -70.6590105290761,-32.7471736676351 -70.6584100955378,-32.7463153793037 -70.6591070717418,-32.7459839991511 -70.6588711059318,-32.7455933798724 -70.657173850616,-32.7463460537715 -70.6563342492904,-32.7450209918687 -70.6552453929292,-32.7433024862699 -70.6549899194005,-32.7427718009146 -70.6541263362018,-32.7398777682917 -70.6539722126195,-32.7399596637964 -70.6538969748575,-32.7400074446904 -70.6538445375811,-32.7400407455823 -70.6535117250787,-32.7402521005359 -70.65308829015,-32.7402576868962 -70.6522405391736,-32.7402211401203 -70.6515367959658,-32.7403378017776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Santa María</SimpleData>
+		<SimpleData name="LOC">Santa María</SimpleData>
+		<SimpleData name="ZONA">H-2</SimpleData>
+		<SimpleData name="NOM">Zona H-2</SimpleData>
+		<SimpleData name="UPERM">Viviendas, comercio, oficinas, equipamientos, talleres artesanales inofensivos, industrias y/o bodegas inofensivas, vialidad y áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">16/05/1984</SimpleData>
+		<SimpleData name="N_DOC">45</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6541263362018,-32.7398777682917 -70.6549899194005,-32.7427718009146 -70.6552453929292,-32.7433024862699 -70.6563342492904,-32.7450209918687 -70.657173850616,-32.7463460537715 -70.6588711059318,-32.7455933798724 -70.6591070717418,-32.7459839991511 -70.6584100955378,-32.7463153793037 -70.6590105290761,-32.7471736676351 -70.6574560315125,-32.7478600244028 -70.6564704779361,-32.7483307546071 -70.6504984446555,-32.75095442193 -70.6501440795317,-32.7501143291172 -70.6476932270459,-32.7513595538345 -70.6481460075275,-32.7515771976701 -70.6483789011448,-32.7519559463563 -70.6484143873215,-32.7523492242608 -70.6483473215156,-32.7525410127859 -70.6555891509831,-32.750238179103 -70.6564456280697,-32.7515035434062 -70.6572844263047,-32.7510509814515 -70.6588917107364,-32.7532847865556 -70.6580824599287,-32.7538085578975 -70.6589387381693,-32.7558208250711 -70.6593695027506,-32.7554452405844 -70.65972096942,-32.7568843091876 -70.6632972647496,-32.756025531895 -70.6629126328068,-32.7543244184512 -70.6587632795243,-32.7484899767916 -70.6587747414855,-32.748346644962 -70.6637207641153,-32.7453888473669 -70.6639791946462,-32.7448604243133 -70.6642162679855,-32.7447021654031 -70.6637262212233,-32.7426445021913 -70.6625183319627,-32.7429826877015 -70.6626893294345,-32.7438275634536 -70.6609569483901,-32.7440533761582 -70.6608045084805,-32.7434468835737 -70.6586084203717,-32.7408963505333 -70.6569488641963,-32.7412404586616 -70.6575877132656,-32.7400312097614 -70.6571322975296,-32.7398343951262 -70.6567053328448,-32.7396491341401 -70.6562792538408,-32.7395115867389 -70.6559420537111,-32.739599564124 -70.6556213951489,-32.7398185709737 -70.6552131798269,-32.7398836207702 -70.6547310838948,-32.7397706717995 -70.6543636684264,-32.7397516588674 -70.6541263362018,-32.7398777682917</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Santa María</SimpleData>
+		<SimpleData name="LOC">Santa María</SimpleData>
+		<SimpleData name="ZONA">EC</SimpleData>
+		<SimpleData name="NOM">Zona EC</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de cementerio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">16/05/1984</SimpleData>
+		<SimpleData name="N_DOC">45</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6637262212233,-32.7426445021913 -70.6634176992355,-32.7414649809834 -70.6622492877987,-32.7416475280599 -70.6625183319627,-32.7429826877015 -70.6637262212233,-32.7426445021913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

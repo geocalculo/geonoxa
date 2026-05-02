@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6899849994352,-32.8620429682825 -70.6898912974602,-32.8626122975077 -70.6905466864709,-32.8625888580285 -70.6905486044445,-32.8625887897154 -70.6939647370497,-32.862560293452 -70.6939609586896,-32.8625369873647 -70.693922278742,-32.8622984244351 -70.6939142388724,-32.8622432598203 -70.693896005921,-32.8621757041328 -70.6938428292297,-32.8619966009732 -70.6938070611837,-32.8618780596403 -70.6937894437018,-32.8618190356347 -70.6937636658811,-32.8617270550722 -70.6937439488105,-32.861654550914 -70.692744388484,-32.8617578482556 -70.6927440738517,-32.8617578804724 -70.6899849994352,-32.8620429682825</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.682844938042,-32.8594085256359 -70.68284485213,-32.8594095215841 -70.6828430208364,-32.8594094235644 -70.682772092144,-32.859405611296 -70.681961480737,-32.8593606290496 -70.6819617117467,-32.859375753463 -70.6819622406858,-32.8594103963344 -70.6819626807375,-32.8594393115507 -70.6819627751326,-32.8594461800314 -70.6819628599645,-32.8594634105362 -70.6819919074471,-32.8610727941737 -70.6805004929434,-32.8610017712208 -70.6805649965105,-32.8624062991584 -70.6811461851522,-32.8624891672136 -70.6811657717057,-32.8635534226104 -70.6801386147399,-32.8651830739929 -70.6795789415069,-32.8670912175064 -70.6795639389298,-32.8674277470122 -70.6795580313883,-32.8675602671388 -70.6795435844371,-32.8678843267555 -70.6792657334458,-32.8696892476693 -70.6787636654355,-32.8713652628448 -70.6781821389376,-32.8751636446391 -70.6769066106704,-32.8776923326634 -70.6769043910296,-32.8776957535572 -70.6770439782025,-32.8777291357625 -70.677097446332,-32.8777419227469 -70.677244827769,-32.8777769651982 -70.6773689449145,-32.8778076729792 -70.6775484512531,-32.8778520850353 -70.6778709252337,-32.8779318683205 -70.6781148908664,-32.8779581442169 -70.678138208612,-32.8779606551227 -70.6781383157052,-32.877960666312 -70.6781402356233,-32.8779601724624 -70.6781417151827,-32.8779597918481 -70.6781421289465,-32.877959685283 -70.6789181448077,-32.8777599940567 -70.6800985301201,-32.8770791015791 -70.6801620192839,-32.8750439111125 -70.6804543231839,-32.8738681678772 -70.6812238952385,-32.872436444981 -70.6815694901024,-32.8702014836603 -70.6823800802346,-32.8684185713552 -70.6823949495538,-32.8683250665992 -70.6824257705352,-32.868131258459 -70.6826877485001,-32.8664838608871 -70.6832116059918,-32.8663492700538 -70.6835139389123,-32.8641166193103 -70.6840271900895,-32.8628743554862 -70.684283560689,-32.8628159914403 -70.6843088099666,-32.8603536674088 -70.6843096256022,-32.8602741488365 -70.6843224103464,-32.8594439820077 -70.6843266228861,-32.8593825990171 -70.6842632184173,-32.8592232281526 -70.6831275461014,-32.859276147775 -70.682844938042,-32.8594085256359</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6864660094053,-32.854261713584 -70.6870055991221,-32.8542788177838 -70.6870971065886,-32.8534430071145 -70.6871182199902,-32.8532501592569 -70.6861242292546,-32.8531832364333 -70.6853330966813,-32.85311167251 -70.685051738544,-32.8542072833995 -70.6864660094053,-32.854261713584</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6910918396811,-32.8508097727084 -70.6913320425841,-32.850823119359 -70.6913315768691,-32.8507908070993 -70.6913092180009,-32.8492400313561 -70.6893027185974,-32.8491854963125 -70.6892735020609,-32.8494527188697 -70.6892247091807,-32.8498989707497 -70.6891992258416,-32.8501320421384 -70.6891390684171,-32.8506822304855 -70.6904641765268,-32.8507687806686 -70.6910918396811,-32.8508097727084</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6939255998123,-32.8495347642935 -70.6924629849806,-32.8495733577412 -70.6923056148867,-32.8495624858508 -70.6922605501337,-32.8502251198573 -70.6921736901346,-32.8508697121405 -70.6921716868325,-32.850884576334 -70.6921555895238,-32.8512262231289 -70.6921128450448,-32.8520930265759 -70.6920955112922,-32.8524445252126 -70.6920261904853,-32.8538502370955 -70.6910609197433,-32.8539483513535 -70.6910727389563,-32.8542198895576 -70.6916630928066,-32.8541679281569 -70.6917366952533,-32.8545521306963 -70.691831455884,-32.8550467781512 -70.6919163302147,-32.8554898075227 -70.6919590192291,-32.855712636884 -70.6919899683668,-32.8558741860857 -70.6920458095375,-32.8561656674592 -70.6921415975718,-32.8566656542508 -70.6921788647555,-32.8568601741731 -70.6922632306148,-32.8573005331791 -70.6923459978108,-32.8575916310987 -70.6923952083739,-32.8577611727724 -70.6924450685111,-32.8579329477415 -70.6924695841994,-32.8580174086128 -70.6924989330831,-32.8581185189039 -70.6925243100809,-32.8582042695406 -70.6927152880858,-32.8581890731267 -70.6929870003929,-32.8581674535157 -70.6932433054976,-32.8581470583199 -70.6932850302425,-32.858143619147 -70.6934057956975,-32.8580151805116 -70.6934936511594,-32.8580485210266 -70.6941389543039,-32.8583576960815 -70.6947819208479,-32.8586405910953 -70.6951545538498,-32.8589504949241 -70.6953541611673,-32.8591457004415 -70.695385231624,-32.8591760844165 -70.6955410954918,-32.8592328482662 -70.6957492044062,-32.8593276886976 -70.6958736491978,-32.8594009777917 -70.695982214855,-32.8594787588491 -70.6962853251427,-32.8596011482584 -70.6964191982672,-32.8596554845897 -70.696626518661,-32.8597375480577 -70.6966882748685,-32.8597497634736 -70.6971678068775,-32.8598446144329 -70.697204853814,-32.8598519419925 -70.697261733945,-32.8598631933222 -70.6973170072448,-32.8598741255144 -70.6973614629658,-32.8598829190803 -70.6974394978046,-32.85989835394 -70.6974550640141,-32.859901432801 -70.6974691899798,-32.859904299419 -70.6974924075087,-32.8599090114858 -70.6974131033533,-32.8594292068213 -70.697141123983,-32.8590435010245 -70.6959155533675,-32.8575168949166 -70.6953879109691,-32.8576775790326 -70.6948741476214,-32.8579045064649 -70.6937423307083,-32.8545075330107 -70.6937423222423,-32.8545074248978 -70.6937422952446,-32.8545070726223 -70.6936640774465,-32.8533353698326 -70.6957679689631,-32.8532006606171 -70.6957673613884,-32.8530839906646 -70.6957290145199,-32.8527385768285 -70.6947547125913,-32.8526777392662 -70.6949148701886,-32.8503247522411 -70.6952479949046,-32.8503840294831 -70.6958607842986,-32.8504996939152 -70.6979049882098,-32.8502048934967 -70.6978670738842,-32.8500643201032 -70.6975183252542,-32.8487713156169 -70.6965971191736,-32.8487993113026 -70.6948046787215,-32.8488522423885 -70.6945916349266,-32.8488563757363 -70.6940485527969,-32.8488768337749 -70.6940115564993,-32.8490760522349 -70.6939787425681,-32.8492527523255 -70.6939255998123,-32.8495347642935</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6922053043731,-32.8479062201031 -70.6922048292821,-32.8483114125974 -70.694304020901,-32.8483049414424 -70.6941258829653,-32.8479633923256 -70.694058697352,-32.8479646953528 -70.6938266413897,-32.8479647286467 -70.6922053043731,-32.8479062201031</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6922622786199,-32.8370808578053 -70.6918524212218,-32.838947936727 -70.6938568433363,-32.8386393405279 -70.6955660376481,-32.8377699643828 -70.6958853887651,-32.8386506491578 -70.6958870912742,-32.8386553448078 -70.6960140903608,-32.8386448596667 -70.6978383782927,-32.8384994705306 -70.6983091358171,-32.838475115897 -70.6990168025711,-32.838439374262 -70.697287410005,-32.8375470134921 -70.6964319011322,-32.837615195108 -70.6964425005292,-32.8368897177006 -70.6933613074476,-32.8368895750693 -70.6927864610763,-32.8370386618455 -70.6922934348488,-32.8370782403025 -70.6922622786199,-32.8370808578053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6814673908985,-32.8396514411712 -70.6846989949472,-32.8396151007336 -70.6847072828526,-32.8395651474853 -70.6847447092372,-32.8393636562123 -70.6848175522525,-32.8389714874018 -70.6848866448874,-32.8385995084517 -70.6849836875452,-32.8380770499616 -70.6859945219015,-32.8380385896031 -70.6865285930786,-32.8380207649198 -70.6866705685804,-32.8377004708764 -70.6867375474817,-32.8375489607599 -70.6867402669087,-32.8375339074812 -70.6865127719302,-32.8375064393454 -70.686245130112,-32.8374741130745 -70.68563162548,-32.8374000117831 -70.6821461892287,-32.8369789644612 -70.6818629768867,-32.8369447474661 -70.6818116266215,-32.8372944901339 -70.6816649273632,-32.8382936475747 -70.6815040969208,-32.8393890370804 -70.6814673908985,-32.8396514411712</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6922622786199,-32.8370808578053 -70.6922867722536,-32.8366075206799 -70.6923100642753,-32.8363560685213 -70.6923512259379,-32.8361419396232 -70.6924168746225,-32.836026510632 -70.6924398437513,-32.8357897042201 -70.6899178419308,-32.8356072964246 -70.6897863117159,-32.8355977322746 -70.6897531336076,-32.8356292182679 -70.6896507226296,-32.8357263503898 -70.6893681187751,-32.8359943612155 -70.6894491967966,-32.8360555029557 -70.6899548268867,-32.8364368024997 -70.6899558734534,-32.8364375712127 -70.6901225415115,-32.8364835779558 -70.6921218414652,-32.8370353145459 -70.6922622786199,-32.8370808578053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6930613999397,-32.8329188960584 -70.6929581406566,-32.8332854772182 -70.6952631258969,-32.8331656639203 -70.695938520126,-32.8331311605319 -70.6961506287977,-32.8331065200983 -70.6961846829909,-32.8331025636383 -70.696309264124,-32.8330880913581 -70.6963107734698,-32.8330879157707 -70.6975861902564,-32.832939740627 -70.6969977694157,-32.8314157890677 -70.6969976628916,-32.8314158049427 -70.6936068576444,-32.832024977479 -70.6930772216575,-32.8328252227609 -70.6930613999397,-32.8329188960584</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOM">Zona H2</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento regional de todo tipo, áreas verdes, servicios públicos comunal, vialidad, talleres inofensivos, industrias y almacenamiento inofensivos. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Bases militares, cárceles, cementerios, plantas y botaderos de basuras y camping, y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6928865714449,-32.8287843131789 -70.6930614740014,-32.8299775591997 -70.6944628733384,-32.829708649718 -70.6941267393763,-32.8287878734112 -70.6928865714449,-32.8287843131789</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOM">Zona H3</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, talleres inofensivos y actividades complementarias a la vialidad.</SimpleData>
+		<SimpleData name="UPROH">Cementerios parques, vertederos de basura o plantas de procesamiento y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6967194717621,-32.8622242682969 -70.6957139232309,-32.862594668286 -70.6946139225988,-32.8623760593365 -70.6946943951625,-32.8625573572688 -70.6943184031904,-32.862557337468 -70.6941263284888,-32.8625589435685 -70.6939647370497,-32.862560293452 -70.6905486044445,-32.8625887897154 -70.690491147376,-32.8632912929152 -70.6912864618797,-32.8635234617333 -70.6915012694553,-32.8638298543929 -70.691621215445,-32.8640345685138 -70.6917455453313,-32.8642574991968 -70.6919276586059,-32.8645840360437 -70.6920635020899,-32.8649656423328 -70.6921460144516,-32.8652004489413 -70.6922669110577,-32.8655459252564 -70.6923061374107,-32.8656228626988 -70.6923371030356,-32.8656453518121 -70.6924170358706,-32.8656557242483 -70.6925168060309,-32.8656386252475 -70.6925893561924,-32.8656175988252 -70.6926968475392,-32.8655563584 -70.6927490485184,-32.8654283982276 -70.6928952180596,-32.8652172524999 -70.6930853701575,-32.8650323759398 -70.6932438565959,-32.8648876760872 -70.6935108637415,-32.864711203019 -70.6938546170061,-32.8645535786001 -70.6940818267275,-32.8644899138044 -70.6945313707762,-32.8643302115249 -70.6946531609673,-32.8642675067658 -70.6948236029601,-32.8641584274229 -70.6949114072529,-32.8640716748857 -70.6949975444314,-32.8639517930633 -70.6951054356028,-32.8637836536308 -70.6952381351612,-32.8636214180609 -70.6954105317728,-32.8634711724603 -70.6956567046084,-32.8632804361123 -70.6959797524852,-32.8630903849285 -70.6962364938201,-32.8629555947469 -70.6965445503008,-32.8627810731364 -70.6967248478682,-32.8626807692029 -70.6968657260057,-32.8626073233947 -70.696899781309,-32.8625949834245 -70.6967194717621,-32.8622242682969</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOM">Zona H3</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, talleres inofensivos y actividades complementarias a la vialidad.</SimpleData>
+		<SimpleData name="UPROH">Cementerios parques, vertederos de basura o plantas de procesamiento y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6860225596817,-32.8503050110118 -70.6856372672696,-32.8518738454126 -70.6853330966813,-32.85311167251 -70.6861242292546,-32.8531832364333 -70.6871182199902,-32.8532501592569 -70.6870971065886,-32.8534430071145 -70.6870055991221,-32.8542788177838 -70.6864660094053,-32.854261713584 -70.685051738544,-32.8542072833995 -70.6849657674915,-32.8545845821749 -70.6846910984364,-32.855790000947 -70.6843085134194,-32.8575045617044 -70.6842385881557,-32.8578085550341 -70.6842338042375,-32.8579171618328 -70.684226029518,-32.8581897241378 -70.684220017155,-32.8584005098302 -70.684224968344,-32.8585472349797 -70.6842464371116,-32.8589266624651 -70.6842632184173,-32.8592232281526 -70.6843266228861,-32.8593825990171 -70.6843224103464,-32.8594439820077 -70.6843096256022,-32.8602741488365 -70.6843103041955,-32.8602740937019 -70.6852167784376,-32.8602004016035 -70.6860787037152,-32.860128615747 -70.6862194847888,-32.8601346329701 -70.6862951808737,-32.8601445813345 -70.6865328897987,-32.8601925310088 -70.6869430520924,-32.860246915483 -70.6871138667679,-32.8602535042819 -70.6872478536794,-32.8602592295794 -70.6874952618039,-32.8602495597244 -70.6882864858859,-32.8601480922415 -70.6892772175443,-32.8599565471122 -70.6904015495725,-32.8597583374279 -70.690631385251,-32.8597204215323 -70.6913905561196,-32.8595575230227 -70.6921003311872,-32.8592810640722 -70.6924635891654,-32.8592387351534 -70.6924640753776,-32.8592386789703 -70.6924648797952,-32.8592386103644 -70.692373092903,-32.8583816088611 -70.6923705156215,-32.8583575369745 -70.6925243100809,-32.8582042695406 -70.6924989330831,-32.8581185189039 -70.6924695841994,-32.8580174086128 -70.6924450685111,-32.8579329477415 -70.6923952083739,-32.8577611727724 -70.6923459978108,-32.8575916310987 -70.6922632306148,-32.8573005331791 -70.6921788647555,-32.8568601741731 -70.6921415975718,-32.8566656542508 -70.6920458095375,-32.8561656674592 -70.6919899683668,-32.8558741860857 -70.6919590192291,-32.855712636884 -70.6919163302147,-32.8554898075227 -70.691831455884,-32.8550467781512 -70.6917366952533,-32.8545521306963 -70.6916630928066,-32.8541679281569 -70.6910727389563,-32.8542198895576 -70.6910609197433,-32.8539483513535 -70.6920261904853,-32.8538502370955 -70.6920955112922,-32.8524445252126 -70.6921128450448,-32.8520930265759 -70.6921555895238,-32.8512262231289 -70.6921716868325,-32.850884576334 -70.6921736901346,-32.8508697121405 -70.692172383071,-32.8508698091878 -70.6921714824481,-32.8508697591396 -70.6913320425841,-32.850823119359 -70.6910918396811,-32.8508097727084 -70.6904641765268,-32.8507687806686 -70.6891390684171,-32.8506822304855 -70.6891992258416,-32.8501320421384 -70.6892247091807,-32.8498989707497 -70.6892735020609,-32.8494527188697 -70.6893027185974,-32.8491854963125 -70.6889987992449,-32.8491769201613 -70.687606374437,-32.8491376159786 -70.6863256665574,-32.8491014523054 -70.6862584366604,-32.8493424833522 -70.6860225596817,-32.8503050110118</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOM">Zona H3</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, talleres inofensivos y actividades complementarias a la vialidad.</SimpleData>
+		<SimpleData name="UPROH">Cementerios parques, vertederos de basura o plantas de procesamiento y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6897435262349,-32.8457254627217 -70.689732170844,-32.8459316518418 -70.6898924471695,-32.8459271546935 -70.6902422304795,-32.8459173391723 -70.6906519146219,-32.8459058419767 -70.6908424509531,-32.8459004945596 -70.6910721298981,-32.8458940477689 -70.6913595216389,-32.8458859806673 -70.6917291208419,-32.8458756053874 -70.6921102400418,-32.8458649054525 -70.6923981535031,-32.8422702691461 -70.6923130193154,-32.841806097582 -70.6921997947292,-32.8410253682287 -70.6921602179794,-32.8407539272685 -70.692155299458,-32.8407209527715 -70.692107111877,-32.8407265991873 -70.6919402930002,-32.8407447907946 -70.6903217981363,-32.8409201303379 -70.6884445206189,-32.8411234777161 -70.6884072795799,-32.841377898002 -70.6883576368036,-32.8417096836017 -70.688292763647,-32.8419866183185 -70.6881947282608,-32.8424051204693 -70.6880510429147,-32.8430184892714 -70.6878981353925,-32.8436735607096 -70.6879253984005,-32.8439736268432 -70.6879687202523,-32.8444504448967 -70.6880076861304,-32.8448302341668 -70.6881037748037,-32.8448289376758 -70.6888986963811,-32.8448182101458 -70.6893274986628,-32.8448124217426 -70.6897941592327,-32.8448061205403 -70.6897902707555,-32.8448767230901 -70.6897698914826,-32.8452467681891 -70.6897435262349,-32.8457254627217</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOM">Zona H3</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, talleres inofensivos y actividades complementarias a la vialidad.</SimpleData>
+		<SimpleData name="UPROH">Cementerios parques, vertederos de basura o plantas de procesamiento y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6801064115493,-32.8353378974263 -70.6800992061952,-32.8381999442852 -70.680098912443,-32.8383169246892 -70.680098714625,-32.8383955622215 -70.6800985636655,-32.8384553097258 -70.6800982631864,-32.8385746540962 -70.6800979065567,-32.8387164772764 -70.6800978980008,-32.8387201057357 -70.6800843869847,-32.8396161337149 -70.6814673908985,-32.8396514411712 -70.6815040969208,-32.8393890370804 -70.6816649273632,-32.8382936475747 -70.6818116266215,-32.8372944901339 -70.6818629768867,-32.8369447474661 -70.6821461892287,-32.8369789644612 -70.68563162548,-32.8374000117831 -70.686245130112,-32.8374741130745 -70.6865127719302,-32.8375064393454 -70.6867402669087,-32.8375339074812 -70.6867464602424,-32.8374996339002 -70.6871240296956,-32.835409611539 -70.6871208950402,-32.8354090910191 -70.6835760553112,-32.8348204757482 -70.6827373258019,-32.8348305817254 -70.6808815112059,-32.8348434286846 -70.6807139690136,-32.8348430943487 -70.6802306616556,-32.8348530926108 -70.6801076253679,-32.8348557250441 -70.6801064115493,-32.8353378974263</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H3</SimpleData>
+		<SimpleData name="NOM">Zona H3</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal, talleres inofensivos y actividades complementarias a la vialidad.</SimpleData>
+		<SimpleData name="UPROH">Cementerios parques, vertederos de basura o plantas de procesamiento y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6899178419308,-32.8356072964246 -70.6924398437513,-32.8357897042201 -70.6924464254159,-32.8357218600966 -70.6923634791257,-32.8353850253893 -70.6926941834784,-32.8341933798491 -70.6929581406566,-32.8332854772182 -70.6929494748654,-32.8332859903944 -70.6903522007062,-32.8334398107813 -70.6901137457085,-32.8343491316733 -70.6898726858487,-32.8352683675622 -70.6898384004968,-32.8353991062525 -70.6898224324658,-32.8354599971357 -70.6898050147224,-32.8355264136863 -70.6897938878062,-32.8355688449633 -70.6897917476612,-32.8355770035801 -70.6897899622985,-32.8355838144785 -70.6897894910293,-32.8355856111118 -70.6897886461199,-32.8355888314776 -70.6897877693396,-32.8355921740301 -70.6897872094217,-32.8355943100725 -70.6897867122627,-32.8355962062642 -70.6897865050427,-32.8355969973221 -70.6897863974509,-32.8355974082371 -70.6897863117159,-32.8355977322746 -70.6899178419308,-32.8356072964246</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H1</SimpleData>
+		<SimpleData name="NOM">Zona H1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, educación, culto, cultura, organizaciones comunitarias y servicios profesionales; equipamientos de seguridad, áreas verdes, servicios públicos comunal y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.692713362079,-32.8615952497828 -70.6927443506649,-32.8617576575657 -70.692744388484,-32.8617578482556 -70.6937439488105,-32.861654550914 -70.6937636658811,-32.8617270550722 -70.6937894437018,-32.8618190356347 -70.6938070611837,-32.8618780596403 -70.6938428292297,-32.8619966009732 -70.693896005921,-32.8621757041328 -70.6939142388724,-32.8622432598203 -70.693922278742,-32.8622984244351 -70.6939609586896,-32.8625369873647 -70.6939647370497,-32.862560293452 -70.6941263284888,-32.8625589435685 -70.6943184031904,-32.862557337468 -70.6946943951625,-32.8625573572688 -70.6946139225988,-32.8623760593365 -70.6957139232309,-32.862594668286 -70.6967194717621,-32.8622242682969 -70.696899781309,-32.8625949834245 -70.6970242853292,-32.8625663492189 -70.6974162515517,-32.8626626394962 -70.6974165811699,-32.8626627207028 -70.6975272220109,-32.8601196453324 -70.6974924075087,-32.8599090114858 -70.6974691899798,-32.859904299419 -70.6974550640141,-32.859901432801 -70.6974394978046,-32.85989835394 -70.6973614629658,-32.8598829190803 -70.6973170072448,-32.8598741255144 -70.697261733945,-32.8598631933222 -70.697204853814,-32.8598519419925 -70.6971678068775,-32.8598446144329 -70.6966882748685,-32.8597497634736 -70.696626518661,-32.8597375480577 -70.6964191982672,-32.8596554845897 -70.6962853251427,-32.8596011482584 -70.695982214855,-32.8594787588491 -70.6958736491978,-32.8594009777917 -70.6957492044062,-32.8593276886976 -70.6955410954918,-32.8592328482662 -70.695385231624,-32.8591760844165 -70.6953541611673,-32.8591457004415 -70.6951545538498,-32.8589504949241 -70.6947819208479,-32.8586405910953 -70.6941389543039,-32.8583576960815 -70.6934936511594,-32.8580485210266 -70.6934057956975,-32.8580151805116 -70.6932850302425,-32.858143619147 -70.6932433054976,-32.8581470583199 -70.6929870003929,-32.8581674535157 -70.6927152880858,-32.8581890731267 -70.6925243100809,-32.8582042695406 -70.6923705156215,-32.8583575369745 -70.692373092903,-32.8583816088611 -70.6924648797952,-32.8592386103644 -70.6924738436819,-32.8592984371382 -70.6925209516344,-32.8596674612346 -70.692599284437,-32.8600033410975 -70.6925908594588,-32.8601279310397 -70.6925979723469,-32.8602887635072 -70.692606621875,-32.8604314804584 -70.6926215693965,-32.8606718784842 -70.6926311488877,-32.8609211381072 -70.6926368503949,-32.8611180284657 -70.6926604032273,-32.8613349978288 -70.692713362079,-32.8615952497828</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H1</SimpleData>
+		<SimpleData name="NOM">Zona H1</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, educación, culto, cultura, organizaciones comunitarias y servicios profesionales; equipamientos de seguridad, áreas verdes, servicios públicos comunal y vialidad.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6877008050265,-32.8283069616541 -70.6880050368393,-32.8341493848357 -70.6873115122143,-32.8341770462087 -70.6871240296956,-32.835409611539 -70.6867464602424,-32.8374996339002 -70.6867402669087,-32.8375339074812 -70.6867375474817,-32.8375489607599 -70.6866705685804,-32.8377004708764 -70.6865285930786,-32.8380207649198 -70.6859945219015,-32.8380385896031 -70.6849836875452,-32.8380770499616 -70.6848866448874,-32.8385995084517 -70.6848175522525,-32.8389714874018 -70.6847447092372,-32.8393636562123 -70.6847072828526,-32.8395651474853 -70.6846989949472,-32.8396151007336 -70.6854679363744,-32.839602159957 -70.6854695779794,-32.8397662690326 -70.6853610196934,-32.8406611488667 -70.6854316733066,-32.8406602963358 -70.6854715883376,-32.8409754719462 -70.6855078055502,-32.840975034559 -70.6860449457205,-32.8409711073109 -70.6835338942732,-32.851080330286 -70.6830202249889,-32.8515011501182 -70.6828708931516,-32.851970508179 -70.6828000061444,-32.8522067786631 -70.6827510000861,-32.8523769622225 -70.6825689431226,-32.8530817604269 -70.6825113188866,-32.853307824147 -70.682352340875,-32.8540328261576 -70.6827183135582,-32.8541887598133 -70.6815968477219,-32.8562553350664 -70.6816561208475,-32.8592571763915 -70.6816576263011,-32.8593295234772 -70.6819611691728,-32.8593605971633 -70.681961480737,-32.8593606290496 -70.682772092144,-32.859405611296 -70.6828430208364,-32.8594094235644 -70.68284485213,-32.8594095215841 -70.682844938042,-32.8594085256359 -70.6831275461014,-32.859276147775 -70.6842632184173,-32.8592232281526 -70.6842464371116,-32.8589266624651 -70.684224968344,-32.8585472349797 -70.684220017155,-32.8584005098302 -70.684226029518,-32.8581897241378 -70.6842338042375,-32.8579171618328 -70.6842385881557,-32.8578085550341 -70.6843085134194,-32.8575045617044 -70.6846910984364,-32.855790000947 -70.6849657674915,-32.8545845821749 -70.685051738544,-32.8542072833995 -70.6853330966813,-32.85311167251 -70.6856372672696,-32.8518738454126 -70.6860225596817,-32.8503050110118 -70.6862584366604,-32.8493424833522 -70.6863256665574,-32.8491014523054 -70.687606374437,-32.8491376159786 -70.6889987992449,-32.8491769201613 -70.6893027185974,-32.8491854963125 -70.6913092180009,-32.8492400313561 -70.6913315768691,-32.8507908070993 -70.6913320425841,-32.850823119359 -70.6921714824481,-32.8508697591396 -70.692172383071,-32.8508698091878 -70.6921736901346,-32.8508697121405 -70.6922605501337,-32.8502251198573 -70.6923056148867,-32.8495624858508 -70.6924629849806,-32.8495733577412 -70.6939255998123,-32.8495347642935 -70.6939787425681,-32.8492527523255 -70.6940115564993,-32.8490760522349 -70.6940485527969,-32.8488768337749 -70.6945916349266,-32.8488563757363 -70.694526703112,-32.8487318944241 -70.694304020901,-32.8483049414424 -70.6922048292821,-32.8483114125974 -70.6922053043731,-32.8479062201031 -70.6922014683566,-32.8477890272316 -70.6921730751816,-32.8473670133884 -70.6921298037887,-32.8466879166498 -70.6920999259853,-32.8459936698826 -70.6921102400418,-32.8458649054525 -70.6917291208419,-32.8458756053874 -70.6913595216389,-32.8458859806673 -70.6910721298981,-32.8458940477689 -70.6908424509531,-32.8459004945596 -70.6906519146219,-32.8459058419767 -70.6902422304795,-32.8459173391723 -70.6898924471695,-32.8459271546935 -70.689732170844,-32.8459316518418 -70.6897435262349,-32.8457254627217 -70.6897698914826,-32.8452467681891 -70.6897902707555,-32.8448767230901 -70.6897941592327,-32.8448061205403 -70.6893274986628,-32.8448124217426 -70.6888986963811,-32.8448182101458 -70.6881037748037,-32.8448289376758 -70.6880076861304,-32.8448302341668 -70.6879687202523,-32.8444504448967 -70.6879253984005,-32.8439736268432 -70.6878981353925,-32.8436735607096 -70.6880510429147,-32.8430184892714 -70.6881947282608,-32.8424051204693 -70.688292763647,-32.8419866183185 -70.6883576368036,-32.8417096836017 -70.6884072795799,-32.841377898002 -70.6884445206189,-32.8411234777161 -70.6903217981363,-32.8409201303379 -70.6919402930002,-32.8407447907946 -70.692107111877,-32.8407265991873 -70.6921030799014,-32.84069935508 -70.6920912462568,-32.8406193950455 -70.691999631838,-32.8400003457686 -70.6918940157836,-32.839350320599 -70.6918331869457,-32.8390084291549 -70.6918331191782,-32.8390080106887 -70.6918524212218,-32.838947936727 -70.6922622786199,-32.8370808578053 -70.6921218414652,-32.8370353145459 -70.6901225415115,-32.8364835779558 -70.6899558734534,-32.8364375712127 -70.6899548268867,-32.8364368024997 -70.6894491967966,-32.8360555029557 -70.6893681187751,-32.8359943612155 -70.6896507226296,-32.8357263503898 -70.6897531336076,-32.8356292182679 -70.6897863117159,-32.8355977322746 -70.6897863974509,-32.8355974082371 -70.6897865050427,-32.8355969973221 -70.6897867122627,-32.8355962062642 -70.6897872094217,-32.8355943100725 -70.6897877693396,-32.8355921740301 -70.6897886461199,-32.8355888314776 -70.6897894910293,-32.8355856111118 -70.6897899622985,-32.8355838144785 -70.6897917476612,-32.8355770035801 -70.6897938878062,-32.8355688449633 -70.6898050147224,-32.8355264136863 -70.6898224324658,-32.8354599971357 -70.6898384004968,-32.8353991062525 -70.6898726858487,-32.8352683675622 -70.6901137457085,-32.8343491316733 -70.6903522007062,-32.8334398107813 -70.6929494748654,-32.8332859903944 -70.6929581406566,-32.8332854772182 -70.6930613999397,-32.8329188960584 -70.6930772216575,-32.8328252227609 -70.6936068576444,-32.832024977479 -70.6930614740014,-32.8299775591997 -70.6928865714449,-32.8287843131789 -70.6919361378369,-32.8287815766964 -70.6918090921333,-32.8282469375412 -70.6887156499832,-32.8283131741402 -70.6885493980915,-32.8281783097768 -70.6878364525343,-32.8281809468694 -70.6877008050265,-32.8283069616541</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.6887345570488,-32.8375379028159 -70.6884009056698,-32.837737167832 -70.687827431413,-32.8377449049295 -70.6877314367081,-32.8376449814942 -70.6876581668123,-32.8375687113162 -70.687676551653,-32.8374602075178 -70.6877405329095,-32.8370826168418 -70.6877818270371,-32.8369666167781 -70.6878774424729,-32.8369623263864 -70.6888152738672,-32.8369202411753 -70.6887345570488,-32.8375379028159</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.6863161560571,-32.8451871038698 -70.6862315183378,-32.8455490039031 -70.6859911994051,-32.8455522427424 -70.6860019028555,-32.8455064777857 -70.6860758381102,-32.8451903428402 -70.6863161560571,-32.8451871038698</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.6919787082238,-32.846001527001 -70.6920084585177,-32.8468128318252 -70.6919941108317,-32.8468130258723 -70.6914208986599,-32.8468207770073 -70.691391424439,-32.8460168709808 -70.6913911526347,-32.8460094718846 -70.6919787082238,-32.846001527001</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">E-1</SimpleData>
+		<SimpleData name="NOM">Zona E-1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de cementerio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6919941108317,-32.8468130258723 -70.6920084585177,-32.8468128318252 -70.6919787082238,-32.846001527001 -70.6913911526347,-32.8460094718846 -70.691391424439,-32.8460168709808 -70.6914208986599,-32.8468207770073 -70.6919941108317,-32.8468130258723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOM">Zona H5</SimpleData>
+		<SimpleData name="UPERM">Equipamiento deportivo regional y áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6984905603751,-32.8427854729933 -70.6984741045389,-32.8471513446857 -70.7016796444079,-32.847233575485 -70.7030397750907,-32.846411225831 -70.7042710015857,-32.8470433110254 -70.7044055187497,-32.8471123682513 -70.7044059288951,-32.8471085611788 -70.704409531314,-32.8470751248718 -70.7044493970002,-32.8470429288534 -70.704490072741,-32.8470119167961 -70.7045192759603,-32.8469724362213 -70.7045767947399,-32.8468871765916 -70.7046275312248,-32.8467795269267 -70.7046784949291,-32.8467010296852 -70.7047354567436,-32.8466266652435 -70.7047807299446,-32.8465738214239 -70.7048216745426,-32.8465231406944 -70.7048549654044,-32.8464819331311 -70.7048932489474,-32.8464190445243 -70.7049111095741,-32.8463849431081 -70.7049386272516,-32.8463520980989 -70.7049937100391,-32.8462933601203 -70.7050478660606,-32.8462356087949 -70.7051096376825,-32.8461949428563 -70.7051654619566,-32.8461601219558 -70.7052298726884,-32.8461150530165 -70.7053161568446,-32.846033818455 -70.7054141218138,-32.8459361535314 -70.7054784790158,-32.8458829961074 -70.7056299293805,-32.8457586435621 -70.705775084128,-32.8456388130951 -70.7058870496605,-32.8455473324122 -70.7059754051485,-32.8454757979012 -70.7060444244254,-32.8454175665997 -70.7061293257112,-32.8453286842523 -70.7061844115154,-32.8452710144709 -70.706230979508,-32.8452222624194 -70.7062743212174,-32.8451781089186 -70.7063311709451,-32.8451250796149 -70.7063847833885,-32.8450750697897 -70.7064719036384,-32.844993805016 -70.7065523215195,-32.8449187906441 -70.7066254914871,-32.8448429587678 -70.7066760117629,-32.8447841398127 -70.7067401054528,-32.8447206487455 -70.7067916139921,-32.8446780196952 -70.7068429741879,-32.8446355135021 -70.7069019726539,-32.8445632758521 -70.7069843681777,-32.8444569412065 -70.7070229618469,-32.8444071342281 -70.7070517271609,-32.8443407564567 -70.7070909799278,-32.8442670114075 -70.7071557304894,-32.8441902650519 -70.7072083011528,-32.8441130769909 -70.7072516752183,-32.8440397572669 -70.7072734672645,-32.8440029196461 -70.7072921948881,-32.8439682468988 -70.7072936889609,-32.8439654802423 -70.706801344338,-32.8437085165333 -70.7066988517324,-32.8436705416289 -70.7065923252986,-32.8436433587155 -70.706354386371,-32.843617968982 -70.705466216226,-32.8435155387337 -70.7047567766447,-32.8434464603911 -70.7039527250481,-32.8433022733939 -70.7032076395691,-32.8434059886547 -70.6984907498905,-32.8427353015484 -70.6984905603751,-32.8427854729933</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H4</SimpleData>
+		<SimpleData name="NOM">Zona H4</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, parques, vertederos de basura o plantas de procesamiento y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6976420654126,-32.8465314274128 -70.6976322711392,-32.847442161118 -70.6976212204783,-32.8480493779066 -70.6976110520286,-32.8487684970781 -70.6975183252542,-32.8487713156169 -70.6978670738842,-32.8500643201032 -70.6979049882098,-32.8502048934967 -70.6979109500178,-32.8502040342439 -70.6980556122665,-32.8501831705996 -70.6980563293847,-32.8501830670685 -70.6984551461813,-32.8514919395273 -70.6984556362921,-32.8514935481668 -70.6990228720107,-32.8513694324028 -70.7005325081013,-32.8510306646326 -70.7011824590248,-32.8508848073471 -70.7014508203001,-32.8508247883288 -70.7014544824131,-32.8508239692041 -70.7015621352624,-32.8504675147927 -70.7016836857956,-32.8499856242469 -70.7017227697485,-32.8498537704357 -70.701734656087,-32.8497525054654 -70.7017448060732,-32.8496942177428 -70.7017573411189,-32.8496654346212 -70.7018088045794,-32.8495952138022 -70.7018492902858,-32.8495275034643 -70.7018793770191,-32.8494745957818 -70.7019242080541,-32.8494200327478 -70.7019659974591,-32.8493748898807 -70.7020179652698,-32.8493163263196 -70.7020805491304,-32.849234250211 -70.7021320105737,-32.8491808469192 -70.7022243530004,-32.8490977480402 -70.7022826844364,-32.8490472482047 -70.7023614293411,-32.8489947001401 -70.7024826640997,-32.848914691926 -70.7025802135996,-32.8488556999177 -70.7026892076095,-32.8487897869593 -70.7027795579681,-32.8487519610383 -70.7029124383025,-32.8486969522528 -70.7031161975482,-32.8486034848543 -70.7033088902412,-32.8485102390565 -70.7035240823771,-32.8484137590431 -70.703579540423,-32.8483955071008 -70.7036631250868,-32.8483679983641 -70.7037205675283,-32.8483365147011 -70.7037999916277,-32.8482895040552 -70.7038409397435,-32.8482652662259 -70.7039015313432,-32.8482017268523 -70.7039570119952,-32.8481327437842 -70.7040141774426,-32.8480343576344 -70.7040691612026,-32.8479397278044 -70.7041182012552,-32.847830019875 -70.7041495041874,-32.8477549833595 -70.7041801133413,-32.8476816076557 -70.7042206941298,-32.847609283901 -70.7042820603295,-32.8475144849633 -70.7043312458569,-32.8474196192503 -70.7043701767816,-32.8473257842961 -70.7043833831649,-32.84729395059 -70.7043906703273,-32.8472502140547 -70.7043965329427,-32.8471957887349 -70.7044055187497,-32.8471123682513 -70.7042710015857,-32.8470433110254 -70.7030397750907,-32.846411225831 -70.7016796444079,-32.847233575485 -70.6984741045389,-32.8471513446857 -70.6984905603751,-32.8427854729933 -70.6984907498905,-32.8427353015484 -70.6976289172988,-32.8426127377404 -70.697655283369,-32.8435551501321 -70.6976686908391,-32.8442407231013 -70.6976547390534,-32.845653107437 -70.6976420654126,-32.8465314274128</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H4</SimpleData>
+		<SimpleData name="NOM">Zona H4</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, parques, vertederos de basura o plantas de procesamiento y todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6609006703343,-32.8398587428914 -70.6609084532275,-32.8399526251548 -70.6609118187703,-32.8400016738005 -70.6609119057283,-32.84000244197 -70.6609180788012,-32.8400569883289 -70.6609221391729,-32.8400928653681 -70.6609291658989,-32.8401443149812 -70.6609389909683,-32.8402184337715 -70.6609524117546,-32.8403607221097 -70.6609657333487,-32.8405886447978 -70.6609765501035,-32.8408104533535 -70.6609794030721,-32.8408634104291 -70.6649955611696,-32.8408554149728 -70.6716492672848,-32.8407950358497 -70.6798482892081,-32.8407029907614 -70.6806975590359,-32.8407046873575 -70.6809017524787,-32.8407050937072 -70.6828153620012,-32.8406918429168 -70.6853610196934,-32.8406611488667 -70.6854695779794,-32.8397662690326 -70.6854679363744,-32.839602159957 -70.6846989949472,-32.8396151007336 -70.6814673908985,-32.8396514411712 -70.6800843869847,-32.8396161337149 -70.6800978980008,-32.8387201057357 -70.6798354039755,-32.8387190295644 -70.6716210209615,-32.8388112422431 -70.6649801751467,-32.8388715000817 -70.661003681205,-32.8388794141775 -70.6607365096373,-32.8388799419397 -70.66076795347,-32.8390382578521 -70.660806363518,-32.8392342223501 -70.6608384548354,-32.8394218369997 -70.6608651760469,-32.8395898578082 -70.6608845559243,-32.8397308837712 -70.6608888834404,-32.8397652168161 -70.6609006703343,-32.8398587428914</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">E-2</SimpleData>
+		<SimpleData name="NOM">Zona E-2</SimpleData>
+		<SimpleData name="UPERM">Zona de uso exclusivo destinado a áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6859911994051,-32.8455522427424 -70.6862315183378,-32.8455490039031 -70.6863161560571,-32.8451871038698 -70.6860758381102,-32.8451903428402 -70.6860019028555,-32.8455064777857 -70.6859911994051,-32.8455522427424</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">E-2</SimpleData>
+		<SimpleData name="NOM">Zona E-2</SimpleData>
+		<SimpleData name="UPERM">Zona de uso exclusivo destinado a áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.687827431413,-32.8377449049295 -70.6884009056698,-32.837737167832 -70.6887345570488,-32.8375379028159 -70.6888152738672,-32.8369202411753 -70.6878774424729,-32.8369623263864 -70.6877818270371,-32.8369666167781 -70.6877405329095,-32.8370826168418 -70.687676551653,-32.8374602075178 -70.6876581668123,-32.8375687113162 -70.6877314367081,-32.8376449814942 -70.687827431413,-32.8377449049295</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H6</SimpleData>
+		<SimpleData name="NOM">Zona H6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de Infraestructura y obras complementarias para la operación de Plantas de Tratamiento de Aguas Servidas y Procesos Biológicos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7087104201572,-32.8331771902975 -70.7102732257283,-32.8340087773229 -70.7103109948885,-32.8333321473892 -70.7099502356007,-32.8333558308977 -70.7099171746709,-32.8333583498246 -70.7089995589678,-32.8330415802868 -70.7087104201572,-32.8331771902975</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Rinconada</SimpleData>
+		<SimpleData name="LOC">Rinconada</SimpleData>
+		<SimpleData name="ZONA">H6</SimpleData>
+		<SimpleData name="NOM">Zona H6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de Infraestructura y obras complementarias para la operación de Plantas de Tratamiento de Aguas Servidas y Procesos Biológicos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/05/1984</SimpleData>
+		<SimpleData name="N_DOC">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7065503698727,-32.8327219611216 -70.7068586404073,-32.8335382210266 -70.7082937015182,-32.8331364676006 -70.7079743125066,-32.8323233213901 -70.7066130356389,-32.8327044177908 -70.7065503698727,-32.8327219611216</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

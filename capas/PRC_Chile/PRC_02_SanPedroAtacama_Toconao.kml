@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="prc_sanpedroatacama_toconao_mono" id="prc_sanpedroatacama_toconao_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>prc_sanpedroatacama_toconao_mono</name>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOMBRE">H2 Casco Antiguo</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento Vecinal y Comunal; Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no permitidos, especialmente Quintas de Recreo, Discotecas, Playas de Estacionamientos y Ferias Libres</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">98529.13671880000</SimpleData>
+		<SimpleData name="Shape_STLe">2046.44582290000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0042773857938,-23.1878081991856 -68.0041841713894,-23.1878286393077 -68.0040703193777,-23.1878432132838 -68.0040351500223,-23.1878449028699 -68.0039813396311,-23.1878502978478 -68.0039357731385,-23.1878595683461 -68.0038858218279,-23.1878649931331 -68.0039392149433,-23.1878807202534 -68.0042351440772,-23.1879672813107 -68.0040341712461,-23.1883668678527 -68.0044037498079,-23.1886410454031 -68.0045832419619,-23.1885421680607 -68.0045830876328,-23.1885417660512 -68.0046179887923,-23.1884754739451 -68.0050695043138,-23.1886814613719 -68.0049019962785,-23.1889600084798 -68.0048319889644,-23.1889882433291 -68.0049716862496,-23.1892833108213 -68.00509848813,-23.1895626428245 -68.00519936999,-23.1899038265551 -68.0053014443464,-23.1900837065831 -68.0053381875294,-23.1903587659279 -68.0053784100028,-23.1906876164334 -68.0054009275274,-23.1907889275474 -68.0054099948639,-23.1909610498538 -68.0054098942182,-23.1909673925904 -68.0059923657633,-23.190952182578 -68.0060414410909,-23.1915053893765 -68.0066666513663,-23.1915366831339 -68.0066050490825,-23.1921767600449 -68.0065766568552,-23.1925207108386 -68.0066010948544,-23.1927120496563 -68.0066874342292,-23.1929228960438 -68.0068201982209,-23.1931483750523 -68.0068731569382,-23.1931903101814 -68.0070307501895,-23.192099029604 -68.0070550208698,-23.1919629650449 -68.0078848223785,-23.1919681986499 -68.0080400848388,-23.1919476688273 -68.0080262138691,-23.1917253302176 -68.008016626214,-23.1909222975729 -68.0079974850868,-23.19036296444 -68.0080224956704,-23.190126532112 -68.0079538632248,-23.1899683731439 -68.0078620721466,-23.1897957284919 -68.0077002212868,-23.1896584894203 -68.0075532988519,-23.1896002079545 -68.0074372907388,-23.1895564600853 -68.0073294085725,-23.1894625781839 -68.0072298631554,-23.1892898842748 -68.007184814974,-23.189088857485 -68.0071663734896,-23.1887109177884 -68.0070112063195,-23.1886193811402 -68.0069078073593,-23.1886187287341 -68.0068187283643,-23.1886391974079 -68.0066841815639,-23.1886555548024 -68.0064276097559,-23.1886730530175 -68.006287056664,-23.1886626067742 -68.0060434578323,-23.1886037135073 -68.00581450501,-23.1885219703775 -68.0055737089738,-23.1883636784312 -68.0054605209903,-23.1882884017039 -68.0054251995582,-23.1882522399372 -68.0053989482576,-23.1882249013153 -68.0053332256601,-23.1881633075865 -68.0052653075825,-23.1881189055578 -68.0051870772877,-23.1880706158567 -68.0050824968401,-23.1880025621991 -68.0049091254015,-23.1879555821416 -68.0047834878706,-23.1878859617327 -68.0046412645819,-23.1878219718376 -68.0045897064356,-23.1878025271285 -68.0044655432414,-23.1878132128129 -68.0044242831845,-23.1877995686892 -68.0044119461041,-23.1877899317828 -68.0043394390949,-23.1878066796173 -68.0042773857938,-23.1878081991856</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.0071616984756,-23.1903338730981 -68.0071369722475,-23.1907758918221 -68.0067427557479,-23.1907734042465 -68.0067752559786,-23.1903105863596 -68.0071616984756,-23.1903338730981</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E5</SimpleData>
+		<SimpleData name="NOMBRE">E5 Área campamento</SimpleData>
+		<SimpleData name="UPERM">Área para campamentos provisorios ligados a algún tipo de actividad económica particular</SimpleData>
+		<SimpleData name="UPROH">Área para campamentos provisorios ligados a algún tipo de actividad económica particular</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">20946.56298830000</SimpleData>
+		<SimpleData name="Shape_STLe">875.25314625600</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-67.999501148323,-23.1924036179513 -67.999502518319,-23.1927405872504 -67.9997602256487,-23.1925020520056 -68.0002485481708,-23.1920176373163 -68.000416563018,-23.191846638918 -68.0003911643469,-23.1910901077936 -68.0004379878445,-23.1910509739084 -68.0006131431224,-23.1909624689978 -68.0004442633475,-23.1907283917767 -68.0004530302648,-23.1905922290202 -68.000263138012,-23.1905766840955 -68.0002596599379,-23.1905228910666 -67.9995231697177,-23.1904859492587 -67.9995192866271,-23.1904866408321 -67.9995099802641,-23.1914597060287 -67.999501148323,-23.1924036179513</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E5</SimpleData>
+		<SimpleData name="NOMBRE">E5 Área campamento</SimpleData>
+		<SimpleData name="UPERM">Área para campamentos provisorios ligados a algún tipo de actividad económica particular</SimpleData>
+		<SimpleData name="UPROH">Área para campamentos provisorios ligados a algún tipo de actividad económica particular</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">20946.56298830000</SimpleData>
+		<SimpleData name="Shape_STLe">875.25314625600</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.000003472122,-23.1901426015819 -68.0003342466542,-23.1901590417539 -68.0003635421285,-23.189695608388 -68.0002653118944,-23.189694984424 -68.0002880526616,-23.1894179120946 -68.0001123794622,-23.1894024573545 -68.0000896738725,-23.1896747499925 -68.0000379390476,-23.1896792011675 -68.000003472122,-23.1901426015819</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E1</SimpleData>
+		<SimpleData name="NOMBRE">E1 Cementerio</SimpleData>
+		<SimpleData name="UPERM">Uso exclusivo cementerios</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">10259.25146480000</SimpleData>
+		<SimpleData name="Shape_STLe">404.98551181400</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-67.9985503125933,-23.1934345410848 -67.9990329407515,-23.1942369973506 -67.9998920093675,-23.1937848144522 -67.99941963739,-23.1929931797119 -67.9994145025079,-23.1929883671848 -67.9985503125933,-23.1934345410848</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E-3</SimpleData>
+		<SimpleData name="NOMBRE">E-3 Áreas Arqueológicas</SimpleData>
+		<SimpleData name="UPERM">Área regida por la Ley de Monumentos Nacionales N 17.288</SimpleData>
+		<SimpleData name="UPROH">Área regida por la Ley de Monumentos Nacionales N 17.288</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">49395.47705080000</SimpleData>
+		<SimpleData name="Shape_STLe">1160.18638552000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-67.9922594976598,-23.1900541710418 -67.9927672297311,-23.1904665538731 -67.9927653958728,-23.191263775412 -67.9943856715282,-23.1918644156032 -67.9945746007621,-23.1909716022434 -67.9955724391963,-23.1908023245276 -67.9955776326843,-23.1901069283489 -67.9955763472384,-23.1901059645312 -67.9954543059524,-23.190109008943 -67.9953342187409,-23.1901273609722 -67.995199627576,-23.1901494436643 -67.9950485059909,-23.1901695085534 -67.9949325829319,-23.1901840635059 -67.9947459911985,-23.1902459621158 -67.9945948408739,-23.1902698497374 -67.9941400075681,-23.1902497369039 -67.9938009546125,-23.1902341873109 -67.9937246813737,-23.190201197943 -67.9936340901631,-23.1901470880699 -67.993560099933,-23.1900854357923 -67.9935027964987,-23.1900047725161 -67.9934560474027,-23.1898954992918 -67.9933120170889,-23.1897970738864 -67.993227730478,-23.1897296210149 -67.9931027990539,-23.1895663160293 -67.9930168880905,-23.1894395856681 -67.9929185407342,-23.1893165990391 -67.9927851373663,-23.1891800049028 -67.9926102317407,-23.1890622636003 -67.9924226607512,-23.1889788539403 -67.9920926525744,-23.1894126386294 -67.9918586587908,-23.1897285045809 -67.9922594976598,-23.1900541710418</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">H2</SimpleData>
+		<SimpleData name="NOMBRE">H2 Casco Antiguo</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento Vecinal y Comunal; Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no permitidos, especialmente Quintas de Recreo, Discotecas, Playas de Estacionamientos y Ferias Libres</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">20998.79541020000</SimpleData>
+		<SimpleData name="Shape_STLe">982.68998687600</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0038154820015,-23.1874687929921 -68.0036907510429,-23.1878459666218 -68.0038327070188,-23.187852718089 -68.003869327817,-23.1877211372319 -68.0039370944808,-23.1877335149247 -68.0040080709308,-23.1877489007805 -68.0040630235533,-23.1877462615442 -68.0041020417751,-23.1877136480854 -68.0041312546826,-23.187695910167 -68.0041670409794,-23.1876632762413 -68.004193112391,-23.1876335687212 -68.0042352508937,-23.1876159116586 -68.0042350739819,-23.187639809062 -68.0041762924106,-23.1877230797268 -68.0041858534536,-23.187741063886 -68.0042409387541,-23.1877205017608 -68.0042636898164,-23.1877027220319 -68.0043028627551,-23.1876491997604 -68.0043355065265,-23.1876045971042 -68.0043874050502,-23.1875780408119 -68.0044326638849,-23.1875753392204 -68.004506274333,-23.1876713971114 -68.0045741250462,-23.187672423286 -68.0046421558433,-23.1877015310431 -68.004691772979,-23.1877037569556 -68.0047415315737,-23.1876868651077 -68.0047786135824,-23.1877062182309 -68.0049065313906,-23.1877471755492 -68.0050180886978,-23.1877631751971 -68.0050657233924,-23.1877539174562 -68.0051134843724,-23.1877274530901 -68.0051403258998,-23.1877333582589 -68.0051917285726,-23.1877738325827 -68.005190738837,-23.1879076541031 -68.0051329934646,-23.1879582862935 -68.0052205187063,-23.1880230310784 -68.0053214398479,-23.1880791118051 -68.00540168097,-23.1881350626884 -68.0054659617307,-23.1881742896592 -68.0054778623244,-23.1882156216343 -68.0055511107593,-23.1882734403931 -68.0056245967886,-23.1882989972918 -68.0056943651018,-23.1883030229884 -68.0057369109588,-23.1883176305249 -68.0060538303848,-23.1884594349327 -68.0063325058891,-23.1885293043853 -68.0064527336939,-23.1885264784903 -68.0065342402346,-23.1885162391614 -68.006647879925,-23.1884779423789 -68.0066995621861,-23.1884806585092 -68.0069111782655,-23.1885297900871 -68.0070399865702,-23.1885903477807 -68.0071620725114,-23.1886227662224 -68.0071578698947,-23.1885366439282 -68.0071644250329,-23.1881452222317 -68.0056666621907,-23.1876693856662 -68.0057504764873,-23.1875217476944 -68.005819369549,-23.187326220163 -68.0052969722966,-23.1873229195348 -68.0038554431765,-23.1873052860814 -68.0038154820015,-23.1874687929921</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">H1</SimpleData>
+		<SimpleData name="NOMBRE">H1 Área de extensión</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento Vecinal y Comunal; Industria inofensivas y Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">71318.77197269999</SimpleData>
+		<SimpleData name="Shape_STLe">1716.97662470000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0056666621907,-23.1876693856662 -68.0071644250329,-23.1881452222317 -68.0071856032813,-23.186880688812 -68.0072146047289,-23.1861386702606 -68.0062916000419,-23.1861222607982 -68.0063194336881,-23.1848523491404 -68.0060831524944,-23.1849451635038 -68.0060233833839,-23.1849976493776 -68.0058723967979,-23.1851302364708 -68.0052557948105,-23.1856640457721 -68.0048111204982,-23.1860197047214 -68.0043815289788,-23.1864328127584 -68.0041782575885,-23.1866537779684 -68.0039035998208,-23.1870893724142 -68.0038714655158,-23.1872397263905 -68.0038554431765,-23.1873052860814 -68.0052969722966,-23.1873229195348 -68.005819369549,-23.187326220163 -68.0057504764873,-23.1875217476944 -68.0056666621907,-23.1876693856662</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">H1</SimpleData>
+		<SimpleData name="NOMBRE">H1 Área de extensión</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento Vecinal y Comunal; Industria inofensivas y Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">71318.77197269999</SimpleData>
+		<SimpleData name="Shape_STLe">1716.97662470000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0032829427036,-23.1892147523597 -68.003264266744,-23.1893113445239 -68.0039032925719,-23.1890225167546 -68.0038397685946,-23.1888734695121 -68.0044037498079,-23.1886410454031 -68.0040341712461,-23.1883668678527 -68.0042351440772,-23.1879672813107 -68.0039392149433,-23.1878807202534 -68.0038463534206,-23.187853367172 -68.0036907510429,-23.1878459666218 -68.0036806228521,-23.1878765942076 -68.0035579728581,-23.1883299085579 -68.0035450714191,-23.1883775932007 -68.0032829427036,-23.1892147523597</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">H5</SimpleData>
+		<SimpleData name="NOMBRE">H5 Extensión Urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento Vecinal y Comunal; Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no permitidos, especialmente Quintas de Recreo, Discotecas, Playas de Estacionamientos y Ferias Libres</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">86998.49218750000</SimpleData>
+		<SimpleData name="Shape_STLe">1575.68954064000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0024349907766,-23.1895678485132 -68.0024322789107,-23.1899334706281 -68.0015780549804,-23.1900857798261 -68.0015536185624,-23.1902433509338 -68.0015315619462,-23.1911250456888 -68.0021131943282,-23.1911287348521 -68.0024313126367,-23.1911092431328 -68.0024421431747,-23.1917402181607 -68.0026673610254,-23.1916986294266 -68.003248743339,-23.1916821031542 -68.0032894188678,-23.1915857090764 -68.003560821617,-23.1915910126961 -68.0040570434785,-23.1916084926478 -68.0042935746469,-23.1916099893985 -68.0042917934741,-23.1913267872237 -68.0051173953355,-23.191375024987 -68.0051143926164,-23.1912567111036 -68.0054051563792,-23.1912657179315 -68.0054099948639,-23.1909610498538 -68.0054009275274,-23.1907889275474 -68.0053784100028,-23.1906876164334 -68.0053381875294,-23.1903587659279 -68.0053014443464,-23.1900837065831 -68.00519936999,-23.1899038265551 -68.00509848813,-23.1895626428245 -68.0049716862496,-23.1892833108213 -68.0048319889644,-23.1889882433291 -68.0045832419619,-23.1885421680607 -68.0044037498079,-23.1886410454031 -68.0038397685946,-23.1888734695121 -68.0039032925719,-23.1890225167546 -68.003264266744,-23.1893113445239 -68.0032350660899,-23.1894623671975 -68.0031025055191,-23.1894932155268 -68.0024277138551,-23.1895032784939 -68.0024349907766,-23.1895678485132</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.0042415159659,-23.1901421057757 -68.0034171222363,-23.190193645466 -68.0034180297404,-23.1900711743913 -68.0042061232412,-23.1898691809768 -68.0042264437987,-23.189995635955 -68.0042415159659,-23.1901421057757</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">H4</SimpleData>
+		<SimpleData name="NOMBRE">H4 Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento a nivel Comunal, Regional y Vecinal; Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no permitidos, especialmente Servicentros y Estacionamientos de Camiones de cualquier tipo</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">9888.39160156000</SimpleData>
+		<SimpleData name="Shape_STLe">420.11968062000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0054098942182,-23.1909673925904 -68.0054051563792,-23.1912657179315 -68.0051143926164,-23.1912567111036 -68.0051173953355,-23.191375024987 -68.0051444961984,-23.191992361313 -68.0060878199787,-23.1920281945012 -68.0059923657633,-23.190952182578 -68.0054098942182,-23.1909673925904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">H1</SimpleData>
+		<SimpleData name="NOMBRE">H1 Área de extensión</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento Vecinal y Comunal; Industria inofensivas y Vialidad</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">50734.52636720000</SimpleData>
+		<SimpleData name="Shape_STLe">1384.00592803000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0042917934741,-23.1913267872237 -68.0042935746469,-23.1916099893985 -68.0040570434785,-23.1916084926478 -68.003560821617,-23.1915910126961 -68.0032894188678,-23.1915857090764 -68.003248743339,-23.1916821031542 -68.0032708794578,-23.1918888567287 -68.0034305500085,-23.1923200311201 -68.0035841125845,-23.1925289157357 -68.0038305262974,-23.1927670655013 -68.0043322257647,-23.1930928628123 -68.004548840627,-23.1931659269543 -68.0048508165593,-23.1932323617274 -68.0054320344612,-23.1932933912419 -68.0060828904757,-23.1933763670575 -68.0067338533149,-23.1934450012234 -68.0068389087077,-23.1934274642516 -68.0068731569382,-23.1931903101814 -68.0068201982209,-23.1931483750523 -68.0066874342292,-23.1929228960438 -68.0066010948544,-23.1927120496563 -68.0065766568552,-23.1925207108386 -68.0066050490825,-23.1921767600449 -68.0066666513663,-23.1915366831339 -68.0060414410909,-23.1915053893765 -68.0060878199787,-23.1920281945012 -68.0059812563109,-23.1920241469635 -68.0057311416138,-23.192892003572 -68.0054110173142,-23.1928326256178 -68.0051477299526,-23.1927783853322 -68.0053765781288,-23.1920011778953 -68.0051444961984,-23.191992361313 -68.0051173953355,-23.191375024987 -68.0042917934741,-23.1913267872237</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E1</SimpleData>
+		<SimpleData name="NOMBRE">E1 Cementerio</SimpleData>
+		<SimpleData name="UPERM">Uso exclusivo cementerios</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">5732.04394531000</SimpleData>
+		<SimpleData name="Shape_STLe">311.58404055500</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0054110173142,-23.1928326256178 -68.0057311416138,-23.192892003572 -68.0059812563109,-23.1920241469635 -68.0053765781288,-23.1920011778953 -68.0051477299526,-23.1927783853322 -68.0054110173142,-23.1928326256178</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">Represa</SimpleData>
+		<SimpleData name="NOMBRE">Represa</SimpleData>
+		<SimpleData name="UPERM">Sin información</SimpleData>
+		<SimpleData name="UPROH">Sin información</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">2523.62451172000</SimpleData>
+		<SimpleData name="Shape_STLe">360.10327751900</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0043028627551,-23.1876491997604 -68.0042636898164,-23.1877027220319 -68.0042409387541,-23.1877205017608 -68.0041858534536,-23.187741063886 -68.0041762924106,-23.1877230797268 -68.0042350739819,-23.187639809062 -68.0042352508937,-23.1876159116586 -68.004193112391,-23.1876335687212 -68.0041670409794,-23.1876632762413 -68.0041312546826,-23.187695910167 -68.0041020417751,-23.1877136480854 -68.0040630235533,-23.1877462615442 -68.0040080709308,-23.1877489007805 -68.0039370944808,-23.1877335149247 -68.003869327817,-23.1877211372319 -68.0038327070188,-23.187852718089 -68.0038463534206,-23.187853367172 -68.0038858218279,-23.1878649931331 -68.0039357731385,-23.1878595683461 -68.0039813396311,-23.1878502978478 -68.0040351500223,-23.1878449028699 -68.0040703193777,-23.1878432132838 -68.0041841713894,-23.1878286393077 -68.0042773857938,-23.1878081991856 -68.0043394390949,-23.1878066796173 -68.0044119461041,-23.1877899317828 -68.0044242831845,-23.1877995686892 -68.0044655432414,-23.1878132128129 -68.0045897064356,-23.1878025271285 -68.0046412645819,-23.1878219718376 -68.0047834878706,-23.1878859617327 -68.0049091254015,-23.1879555821416 -68.0050824968401,-23.1880025621991 -68.005190738837,-23.1879076541031 -68.0051917285726,-23.1877738325827 -68.0051403258998,-23.1877333582589 -68.0051134843724,-23.1877274530901 -68.0050657233924,-23.1877539174562 -68.0050180886978,-23.1877631751971 -68.0049065313906,-23.1877471755492 -68.0047786135824,-23.1877062182309 -68.0047415315737,-23.1876868651077 -68.004691772979,-23.1877037569556 -68.0046421558433,-23.1877015310431 -68.0045741250462,-23.187672423286 -68.004506274333,-23.1876713971114 -68.0044326638849,-23.1875753392204 -68.0043874050502,-23.1875780408119 -68.0043355065265,-23.1876045971042 -68.0043028627551,-23.1876491997604</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">Río</SimpleData>
+		<SimpleData name="NOMBRE">Río Toconao</SimpleData>
+		<SimpleData name="UPERM">Sin información</SimpleData>
+		<SimpleData name="UPROH">Sin información</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">2824.29345703000</SimpleData>
+		<SimpleData name="Shape_STLe">486.26935985600</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.00581450501,-23.1885219703775 -68.0060434578323,-23.1886037135073 -68.006287056664,-23.1886626067742 -68.0064276097559,-23.1886730530175 -68.0066841815639,-23.1886555548024 -68.0068187283643,-23.1886391974079 -68.0069078073593,-23.1886187287341 -68.0070112063195,-23.1886193811402 -68.0071663734896,-23.1887109177884 -68.0071620725114,-23.1886227662224 -68.0070399865702,-23.1885903477807 -68.0069111782655,-23.1885297900871 -68.0066995621861,-23.1884806585092 -68.006647879925,-23.1884779423789 -68.0065342402346,-23.1885162391614 -68.0064527336939,-23.1885264784903 -68.0063325058891,-23.1885293043853 -68.0060538303848,-23.1884594349327 -68.0057369109588,-23.1883176305249 -68.0056943651018,-23.1883030229884 -68.0056245967886,-23.1882989972918 -68.0055511107593,-23.1882734403931 -68.0054778623244,-23.1882156216343 -68.0054659617307,-23.1881742896592 -68.00540168097,-23.1881350626884 -68.0053214398479,-23.1880791118051 -68.0052205187063,-23.1880230310784 -68.0051329934646,-23.1879582862935 -68.0050824968401,-23.1880025621991 -68.0051870772877,-23.1880706158567 -68.0052653075825,-23.1881189055578 -68.0053332256601,-23.1881633075865 -68.0053989482576,-23.1882249013153 -68.0054251995582,-23.1882522399372 -68.0054605209903,-23.1882884017039 -68.0055737089738,-23.1883636784312 -68.00581450501,-23.1885219703775</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Uso exclusivo plazas</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">1837.05810547000</SimpleData>
+		<SimpleData name="Shape_STLe">212.27873844500</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0034180297404,-23.1900711743913 -68.0034171222363,-23.190193645466 -68.0042415159659,-23.1901421057757 -68.0042264437987,-23.189995635955 -68.0042061232412,-23.1898691809768 -68.0034180297404,-23.1900711743913</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Uso exclusivo plazas</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">2005.29638672000</SimpleData>
+		<SimpleData name="Shape_STLe">180.33906537000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0067427557479,-23.1907734042465 -68.0071369722475,-23.1907758918221 -68.0071616984756,-23.1903338730981 -68.0067752559786,-23.1903105863596 -68.0067427557479,-23.1907734042465</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_sanpedroatacama_toconao_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_sanpedroatacama_toconao_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Toconao</SimpleData>
+		<SimpleData name="ZONA">E2</SimpleData>
+		<SimpleData name="NOMBRE">E2 Plazas</SimpleData>
+		<SimpleData name="UPERM">Uso exclusivo plazas</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos</SimpleData>
+		<SimpleData name="Capa">PRC San Pedro de Atacama - Toconao</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">1327.69824219000</SimpleData>
+		<SimpleData name="Shape_STLe">158.41107869000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.0045832419619,-23.1885421680607 -68.0048319889644,-23.1889882433291 -68.0049019962785,-23.1889600084798 -68.0050695043138,-23.1886814613719 -68.0046179887923,-23.1884754739451 -68.0045830876328,-23.1885417660512 -68.0045832419619,-23.1885421680607</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

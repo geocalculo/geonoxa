@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento, actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3437518042959,-38.2423547620101 -72.3432048362549,-38.2417961099071 -72.3426184320681,-38.2413659033953 -72.3418385683498,-38.241000799024 -72.3417417645557,-38.2409721785697 -72.3411196240285,-38.2429218094922 -72.3433179494209,-38.2425114855488 -72.3437518042959,-38.2423547620101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento, actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3381784081643,-38.2402708115352 -72.3376615020147,-38.2413581560311 -72.3362478067656,-38.241011057314 -72.3335714653948,-38.2439333136065 -72.3409701136107,-38.242710659993 -72.3415384661261,-38.2409120713239 -72.3413790003865,-38.2408649223898 -72.3402698582868,-38.2405687831246 -72.3390166219212,-38.2404257124285 -72.3381784081643,-38.2402708115352</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento, actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3437518042959,-38.2423547620101 -72.3445652886137,-38.2416403093265 -72.3457135976581,-38.2400056269338 -72.3450523758369,-38.2377919983756 -72.3428452746442,-38.2379755896973 -72.3427041837226,-38.2381941374904 -72.3429362250257,-38.2388780746122 -72.3437267774291,-38.2414870382457 -72.3438395979213,-38.2419700773158 -72.3437518042959,-38.2423547620101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento, actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3220105129893,-38.2350160436009 -72.3219427851532,-38.235990749006 -72.3218773532182,-38.237208252917 -72.3218247553953,-38.2380440120543 -72.3217322146004,-38.2386663768876 -72.3215037606532,-38.2389588849877 -72.3204603550035,-38.2392744769037 -72.3180792585598,-38.2400808158496 -72.3164501447378,-38.2407561897695 -72.3166843101322,-38.2411715915443 -72.3199667247305,-38.2463027758532 -72.3310975144933,-38.2443190341585 -72.3306460160173,-38.2440884850298 -72.3306016942644,-38.2437798736615 -72.3297834401922,-38.2437316090753 -72.3298154812803,-38.2434404930802 -72.3281684247969,-38.2434437628661 -72.3260636475121,-38.243417686845 -72.3260558291626,-38.243246287273 -72.3252421401904,-38.2432979731877 -72.3245024439024,-38.2441770562923 -72.3241435978201,-38.2446591893425 -72.3235718492982,-38.2448470214352 -72.3228807846728,-38.2440085065232 -72.322629832527,-38.2440728261687 -72.3225301637568,-38.2438754259914 -72.3224033861392,-38.2438790189517 -72.3223069734545,-38.2437530357847 -72.3224654171591,-38.2436484334683 -72.3221975455758,-38.2433413860554 -72.3206789241881,-38.2438420673432 -72.320246657837,-38.2431106190488 -72.3213539231253,-38.2427360130321 -72.3211423435668,-38.2424702733944 -72.3232811357381,-38.241651671114 -72.3232874135308,-38.2409936131369 -72.3223236572023,-38.2409351184188 -72.3222351675358,-38.2413809804102 -72.3220579669686,-38.2414718121449 -72.3206938209372,-38.2413817438895 -72.3206632511391,-38.2407104266912 -72.3201186391145,-38.2406972478189 -72.3201297264205,-38.2397458663642 -72.3213101372411,-38.239783941076 -72.3213405027196,-38.2396543643604 -72.3233720847282,-38.2396683014603 -72.3237081751527,-38.2355041141281 -72.3229320900149,-38.2355833199477 -72.3229286136915,-38.23471101107 -72.3236231426569,-38.2344338923207 -72.323798372008,-38.234300209166 -72.3238553750734,-38.2323678558381 -72.3231939398685,-38.2329729775471 -72.3230620869271,-38.2332627503353 -72.3229166792751,-38.2336530192892 -72.322670424963,-38.2342177669233 -72.3222469833907,-38.2348733454985 -72.3220105129893,-38.2350160436009</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3280933214245,-38.2444470157311 -72.3281637774402,-38.2435058457111 -72.3297408928063,-38.2438329861627 -72.3294290812451,-38.2445759410694 -72.3280933214245,-38.2444470157311</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento, actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3461835418038,-38.2326953019351 -72.3482682255719,-38.2326854429088 -72.3477927745155,-38.2307539919136 -72.3475241217909,-38.2301581374098 -72.3470407449332,-38.2302201803659 -72.3459130487622,-38.2304149986862 -72.3461835418038,-38.2326953019351</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento, actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.340776812035,-38.2238203429017 -72.3423886394278,-38.2255204075389 -72.3423818833882,-38.2249771353607 -72.3427110636874,-38.2250392595361 -72.3427610175103,-38.2253381715497 -72.3429446962795,-38.2253901414794 -72.3428967021113,-38.2263211207217 -72.3419294247445,-38.2265775218205 -72.3419333173208,-38.2290373049223 -72.3444362471475,-38.2294521933055 -72.3447466872924,-38.2295005442301 -72.3457910057108,-38.2293420325704 -72.3458534228235,-38.2299123187529 -72.3458908590895,-38.230227925677 -72.3474481600821,-38.2299896557084 -72.3455859565396,-38.2258590646831 -72.3428818172159,-38.2208025211557 -72.3397149047474,-38.2225030992551 -72.340776812035,-38.2238203429017</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-6</SimpleData>
+		<SimpleData name="NOM">ZR-6; Zona de protección de plantas e instalaciones anexas agua potable</SimpleData>
+		<SimpleData name="UPERM">Construcción de obras afines al destino de las instalaciones, incluye bodegas, oficinas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3280933214245,-38.2444470157311 -72.3294290812451,-38.2445759410694 -72.3297408928063,-38.2438329861627 -72.3281637774402,-38.2435058457111 -72.3280933214245,-38.2444470157311</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-6</SimpleData>
+		<SimpleData name="NOM">ZR-6; Zona de protección de plantas e instalaciones anexas agua potable</SimpleData>
+		<SimpleData name="UPERM">Construcción de obras afines al destino de las instalaciones, incluye bodegas, oficinas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.326573770925,-38.2403052890617 -72.3266127312205,-38.2407618391787 -72.3277373828795,-38.2403723787228 -72.3277334721378,-38.240286678589 -72.3270258734397,-38.2402781581049 -72.326573770925,-38.2403052890617</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">ZR-1; Zona de protección de vertientes y cursos naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Áreas Verdes, forestación, esparcimiento, turismo y deportes a escala vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3251232797368,-38.2322264280668 -72.3238593860423,-38.2301887019583 -72.323612158941,-38.2295378286984 -72.3231214658529,-38.2286268116266 -72.323035979974,-38.2288088868862 -72.3225878107813,-38.2295843497074 -72.3220922819899,-38.2306471876493 -72.3221139640456,-38.2311232982977 -72.3221388990807,-38.2316708263373 -72.3221314853557,-38.2321715981766 -72.3221305780564,-38.2328152039075 -72.3222169609478,-38.2333848265802 -72.3222353932052,-38.233789521339 -72.3220080382441,-38.2341058350717 -72.3220340593637,-38.2346771680954 -72.3220105129893,-38.2350160436009 -72.3222469833907,-38.2348733454985 -72.322670424963,-38.2342177669233 -72.3229166792751,-38.2336530192892 -72.3230620869271,-38.2332627503353 -72.3231939398685,-38.2329729775471 -72.3238553750734,-38.2323678558381 -72.3238867154938,-38.2321470774109 -72.3251232797368,-38.2322264280668</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Zona Z-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento a escala regional; actividades productivas inofensivas, terminales de buses, playas de estacionamiento y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Equipamiento a escala no regional; actividades productivas molestas, insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3192987403954,-38.2224878997119 -72.3228966511555,-38.2277402031705 -72.3232287973404,-38.2283982056114 -72.323845605371,-38.2294883057301 -72.3238967883811,-38.2298157955767 -72.3251135754336,-38.2317692380514 -72.3256041780174,-38.2325341760019 -72.3256502293091,-38.2265922739397 -72.3282353273033,-38.2266261846842 -72.3282119799587,-38.2261143681003 -72.3296017821283,-38.2261106642527 -72.3296500669838,-38.2255133864306 -72.3309035145551,-38.2255016205379 -72.3321747671553,-38.2255489267373 -72.3361599962641,-38.2256739636502 -72.336336009934,-38.2252279845548 -72.3363609874059,-38.2244525972435 -72.3363084316859,-38.2243321385852 -72.3322000389597,-38.2243536228916 -72.3322468215502,-38.2227314289531 -72.3240247591981,-38.2226549335801 -72.3192987403954,-38.2224878997119</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-5</SimpleData>
+		<SimpleData name="NOM">ZR-5; Zona cementerio</SimpleData>
+		<SimpleData name="UPERM">Construcciones asociadas al cementerio existente. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3371667399736,-38.2238713041872 -72.3383282606708,-38.225117647321 -72.340776812035,-38.2238203429017 -72.3397149047474,-38.2225030992551 -72.3371667399736,-38.2238713041872</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">Zona ZE-2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento del tipo comercio, turismo, esparcimiento, seguridad y deporte. Actividades productivas inofensivas y molestas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza</SimpleData>
+		<SimpleData name="UPROH">Vivienda, equipamientos a cierta escala; actividades productivas insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3455859565396,-38.2258590646831 -72.3474481600821,-38.2299896557084 -72.350051110455,-38.2295913496131 -72.3477915899518,-38.2256733599095 -72.3444182225618,-38.2199774394513 -72.3428818172159,-38.2208025211557 -72.3455859565396,-38.2258590646831</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">Zona ZE-2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento del tipo comercio, turismo, esparcimiento, seguridad y deporte. Actividades productivas inofensivas y molestas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza</SimpleData>
+		<SimpleData name="UPROH">Vivienda, equipamientos a cierta escala; actividades productivas insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3477927745155,-38.2307539919136 -72.3482682255719,-38.2326854429088 -72.3516964658028,-38.2324440661163 -72.3501265313077,-38.2297221192691 -72.3498686949348,-38.2297818731682 -72.3492013206308,-38.2298903247481 -72.3482348886412,-38.2300669036962 -72.3475241217909,-38.2301581374098 -72.3477927745155,-38.2307539919136</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">ZR-2; Zona de propiedad de las fuerzas armadas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de seguridad escala regional, comunal, vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3392410105166,-38.2329757739264 -72.3431154560894,-38.232865359826 -72.3431379844835,-38.2326585347083 -72.3431938960085,-38.2319422795808 -72.3423634650997,-38.2298929779707 -72.3444362471475,-38.2294521933055 -72.3419333173208,-38.2290373049223 -72.3419294247445,-38.2265775218205 -72.3395804436942,-38.2271882144001 -72.3392761830692,-38.2274066389606 -72.3392764468666,-38.2279405623152 -72.3392199732398,-38.228819342014 -72.3392254676352,-38.2294675307005 -72.3391820694284,-38.2306319724289 -72.3390947428983,-38.2318930102407 -72.3391441681578,-38.2324446015202 -72.3392410105166,-38.2329757739264</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOM">ZR-2; Zona de propiedad de las fuerzas armadas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de seguridad escala regional, comunal, vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3432968130046,-38.232860188368 -72.343562799945,-38.2328526031461 -72.3433298374838,-38.2322777395536 -72.3433077359871,-38.2324391682786 -72.3432968130046,-38.232860188368</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-3-2</SimpleData>
+		<SimpleData name="NOM">ZR-3-2; Zona de restricción del aeródromo &quot;Victoria&quot;</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, salvo terminales de buses, playas de estacionamiento, servicios automotrices y similares.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, junto con equipamientos concentradores de personas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3457910057108,-38.2293420325704 -72.3447466872924,-38.2295005442301 -72.3444362471475,-38.2294521933055 -72.3423634650997,-38.2298929779707 -72.3431938960085,-38.2319422795808 -72.3432272057211,-38.2314403461653 -72.3433245011122,-38.2307939957626 -72.3434246356522,-38.2306052177047 -72.3458908590895,-38.230227925677 -72.3458534228235,-38.2299123187529 -72.3457910057108,-38.2293420325704</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-3-2</SimpleData>
+		<SimpleData name="NOM">ZR-3-2; Zona de restricción del aeródromo &quot;Victoria&quot;</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, salvo terminales de buses, playas de estacionamiento, servicios automotrices y similares.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas, junto con equipamientos concentradores de personas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.343562799945,-38.2328526031461 -72.3447883133421,-38.2369079290547 -72.3473552501498,-38.2364723579567 -72.3463270053326,-38.2330311704631 -72.3461835418038,-38.2326953019351 -72.3459130487622,-38.2304149986862 -72.3435284742427,-38.2308269129823 -72.3433298374838,-38.2322777395536 -72.343562799945,-38.2328526031461</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento del tipo comercio, esparcimiento y turismo. Actividades productivas inofensivas y molestas, terminales de buses, playas de estacionamientos, y similares. Mayor detalle en Ordenanza</SimpleData>
+		<SimpleData name="UPROH">Vivienda; equipamientos a cierta escala; actividades productivas insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3434988878862,-38.2415971259496 -72.3438128681786,-38.2418556382515 -72.3437267774291,-38.2414870382457 -72.3429362250257,-38.2388780746122 -72.3424173302809,-38.2389984702174 -72.3421777963364,-38.2397652482519 -72.3418131554173,-38.2407361981808 -72.3421951699285,-38.2408477077706 -72.3429683045843,-38.2412308789391 -72.3434988878862,-38.2415971259496</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento del tipo comercio, esparcimiento y turismo. Actividades productivas inofensivas y molestas, terminales de buses, playas de estacionamientos, y similares. Mayor detalle en Ordenanza</SimpleData>
+		<SimpleData name="UPROH">Vivienda; equipamientos a cierta escala; actividades productivas insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.333075037225,-38.2379501597126 -72.3360570468994,-38.2397150303632 -72.336272934094,-38.239413318284 -72.3357765820332,-38.2390799226563 -72.3353525953173,-38.2387964170053 -72.3346167715853,-38.2383024870082 -72.333199973728,-38.2374560700298 -72.3314017746915,-38.2364631547857 -72.3299461758962,-38.2356654720996 -72.3294756788045,-38.2354214028758 -72.3283138550176,-38.2348627643113 -72.3283218805239,-38.2364690984633 -72.330485949176,-38.2364743846684 -72.333075037225,-38.2379501597126</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento del tipo comercio, esparcimiento y turismo. Actividades productivas inofensivas y molestas, terminales de buses, playas de estacionamientos, y similares. Mayor detalle en Ordenanza</SimpleData>
+		<SimpleData name="UPROH">Vivienda; equipamientos a cierta escala; actividades productivas insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3359367129177,-38.2388807048784 -72.3366197933283,-38.2392783985119 -72.3378538011632,-38.2398272580841 -72.3388640106865,-38.2401083618969 -72.3394122126379,-38.2402000108009 -72.3403887243583,-38.2403390435638 -72.3411536657106,-38.240543689268 -72.3416550804907,-38.2406900559087 -72.3418182360967,-38.2402617554175 -72.3421217393545,-38.2393663989815 -72.3421988762375,-38.2390491562682 -72.340406333003,-38.2394650466583 -72.3392198430055,-38.2388981753835 -72.3390983080181,-38.2390160512258 -72.3369904003391,-38.238918749685 -72.3362147676237,-38.2386118858145 -72.3336593223036,-38.2370541818094 -72.3296019542161,-38.2347667903783 -72.3294947533913,-38.2351988869542 -72.3302696361361,-38.2355617338057 -72.3311542721776,-38.2360729171984 -72.3320652953295,-38.2364999163839 -72.3330443084705,-38.2370918290581 -72.3359367129177,-38.2388807048784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento del tipo comercio, esparcimiento y turismo. Actividades productivas inofensivas y molestas, terminales de buses, playas de estacionamientos, y similares. Mayor detalle en Ordenanza</SimpleData>
+		<SimpleData name="UPROH">Vivienda; equipamientos a cierta escala; actividades productivas insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3482682255719,-38.2326854429088 -72.3484238266448,-38.2339438178253 -72.3511012079024,-38.2338101140542 -72.3518802280824,-38.2349796495561 -72.3535081811726,-38.2381711080129 -72.3548263310666,-38.238033908315 -72.352782151286,-38.2343262829379 -72.3516964658028,-38.2324440661163 -72.3482682255719,-38.2326854429088</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-3-1</SimpleData>
+		<SimpleData name="NOM">ZR-3-1; Zona de restricción del aeródromo &quot;Victoria&quot;</SimpleData>
+		<SimpleData name="UPERM">Sólo aquellos usos que permitan el normal funcionamiento del aeródromo.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3447883133421,-38.2369079290547 -72.3457135976581,-38.2400056269338 -72.3460688950531,-38.2394998246202 -72.3469339505694,-38.2385931953752 -72.3475568519621,-38.238337049468 -72.3478991985208,-38.2383242682835 -72.3473552501498,-38.2364723579567 -72.3447883133421,-38.2369079290547</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Zona Z-1</SimpleData>
+		<SimpleData name="UPERM">Equipamientos de salud, educación, culto, cultura, áreas verdes, esparcimiento y turismo, servicios públicos y profesionales. Actividades productivas inofensivas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Ciertos equipamientos a escala regional e interurbana; servicios automotrices, actividades productivas molestas, insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3275778701283,-38.2318188031472 -72.3275437244736,-38.2340830996927 -72.3280457664607,-38.2344391295244 -72.3294947533913,-38.2351988869542 -72.3296019542161,-38.2347667903783 -72.3336593223036,-38.2370541818094 -72.334612059299,-38.2376349489315 -72.3353012284961,-38.2376203709369 -72.3354682934189,-38.2351938609658 -72.3354717450874,-38.2318328590571 -72.3275778701283,-38.2318188031472</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3308916817144,-38.2344573187526 -72.3308945558165,-38.2335276244104 -72.332156244426,-38.2335235076133 -72.3321448740113,-38.2344366054634 -72.332146233408,-38.2344663621131 -72.3308916817144,-38.2344573187526</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOM">ZR-4; Zona de protección de los trazados ferroviarios</SimpleData>
+		<SimpleData name="UPERM">Construcciones necesarias para el funcionamiento de la línea férrea.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3432048362549,-38.2417961099071 -72.3437518042959,-38.2423547620101 -72.3438395979213,-38.2419700773158 -72.3438128681786,-38.2418556382515 -72.3434988878862,-38.2415971259496 -72.3429683045843,-38.2412308789391 -72.3421951699285,-38.2408477077706 -72.3418131554173,-38.2407361981808 -72.3416550804907,-38.2406900559087 -72.3411536657106,-38.240543689268 -72.3403887243583,-38.2403390435638 -72.3394122126379,-38.2402000108009 -72.3388640106865,-38.2401083618969 -72.3378538011632,-38.2398272580841 -72.3366197933283,-38.2392783985119 -72.3359367129177,-38.2388807048784 -72.3330443084705,-38.2370918290581 -72.3320652953295,-38.2364999163839 -72.3311542721776,-38.2360729171984 -72.3302696361361,-38.2355617338057 -72.3294947533913,-38.2351988869542 -72.3280457664607,-38.2344391295244 -72.3260970029635,-38.233057104879 -72.3256991449884,-38.2326822436054 -72.3251135754336,-38.2317692380514 -72.3238967883811,-38.2298157955767 -72.323845605371,-38.2294883057301 -72.3232287973404,-38.2283982056114 -72.3231214658529,-38.2286268116266 -72.323612158941,-38.2295378286984 -72.3238593860423,-38.2301887019583 -72.3251232797368,-38.2322264280668 -72.3252039596286,-38.2324052957294 -72.3255011538723,-38.2328259192177 -72.3259302785312,-38.2332237301084 -72.3269196012809,-38.233977489928 -72.3275906238739,-38.2343779650342 -72.3283138550176,-38.2348627643113 -72.3294756788045,-38.2354214028758 -72.3299461758962,-38.2356654720996 -72.3314017746915,-38.2364631547857 -72.333199973728,-38.2374560700298 -72.3346167715853,-38.2383024870082 -72.3353525953173,-38.2387964170053 -72.3357765820332,-38.2390799226563 -72.336272934094,-38.239413318284 -72.3381784081643,-38.2402708115352 -72.3390166219212,-38.2404257124285 -72.3402698582868,-38.2405687831246 -72.3413790003865,-38.2408649223898 -72.3418385683498,-38.241000799024 -72.3426184320681,-38.2413659033953 -72.3432048362549,-38.2417961099071</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3427041837226,-38.2381941374904 -72.3424173302809,-38.2389984702174 -72.3429362250257,-38.2388780746122 -72.3427041837226,-38.2381941374904</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3427041837226,-38.2381941374904 -72.3428452746442,-38.2379755896973 -72.3450523758369,-38.2377919983756 -72.3447883133421,-38.2369079290547 -72.343562799945,-38.2328526031461 -72.3432968130046,-38.232860188368 -72.3432327487427,-38.233275572528 -72.343121671394,-38.2341487595023 -72.3430720410294,-38.2345494303036 -72.3430377775523,-38.2354502219857 -72.3429565603074,-38.23648047189 -72.3429012000479,-38.2367561666374 -72.3428212054277,-38.2373185969613 -72.3428449373204,-38.2378363556632 -72.3427041837226,-38.2381941374904</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3463270053326,-38.2330311704631 -72.3473552501498,-38.2364723579567 -72.3478991985208,-38.2383242682835 -72.3502721453258,-38.2382356501418 -72.352299809002,-38.2382968684694 -72.3535081811726,-38.2381711080129 -72.3518802280824,-38.2349796495561 -72.3511012079024,-38.2338101140542 -72.3484238266448,-38.2339438178253 -72.3482682255719,-38.2326854429088 -72.3461835418038,-38.2326953019351 -72.3463270053326,-38.2330311704631</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3229286136915,-38.23471101107 -72.3229320900149,-38.2355833199477 -72.3237081751527,-38.2355041141281 -72.3233720847282,-38.2396683014603 -72.3213405027196,-38.2396543643604 -72.3213101372411,-38.239783941076 -72.3201297264205,-38.2397458663642 -72.3201186391145,-38.2406972478189 -72.3206632511391,-38.2407104266912 -72.3206938209372,-38.2413817438895 -72.3220579669686,-38.2414718121449 -72.3222351675358,-38.2413809804102 -72.3223236572023,-38.2409351184188 -72.3232874135308,-38.2409936131369 -72.3232811357381,-38.241651671114 -72.3211423435668,-38.2424702733944 -72.3213539231253,-38.2427360130321 -72.320246657837,-38.2431106190488 -72.3206789241881,-38.2438420673432 -72.3221975455758,-38.2433413860554 -72.3224654171591,-38.2436484334683 -72.3223069734545,-38.2437530357847 -72.3224033861392,-38.2438790189517 -72.3225301637568,-38.2438754259914 -72.322629832527,-38.2440728261687 -72.3228807846728,-38.2440085065232 -72.3235718492982,-38.2448470214352 -72.3241435978201,-38.2446591893425 -72.3245024439024,-38.2441770562923 -72.3252421401904,-38.2432979731877 -72.3260558291626,-38.243246287273 -72.3260636475121,-38.243417686845 -72.3281684247969,-38.2434437628661 -72.3298154812803,-38.2434404930802 -72.3297834401922,-38.2437316090753 -72.3306016942644,-38.2437798736615 -72.3306460160173,-38.2440884850298 -72.3310975144933,-38.2443190341585 -72.3335714653948,-38.2439333136065 -72.3362478067656,-38.241011057314 -72.3376615020147,-38.2413581560311 -72.3381784081643,-38.2402708115352 -72.336272934094,-38.239413318284 -72.3360570468994,-38.2397150303632 -72.333075037225,-38.2379501597126 -72.3312629985459,-38.2369173137926 -72.3310981018167,-38.2368233214079 -72.330485949176,-38.2364743846684 -72.3283218805239,-38.2364690984633 -72.3283138550176,-38.2348627643113 -72.3275906238739,-38.2343779650342 -72.3269196012809,-38.233977489928 -72.3259302785312,-38.2332237301084 -72.3255011538723,-38.2328259192177 -72.3252039596286,-38.2324052957294 -72.3251232797368,-38.2322264280668 -72.3238867154938,-38.2321470774109 -72.3238553750734,-38.2323678558381 -72.323798372008,-38.234300209166 -72.3236231426569,-38.2344338923207 -72.3229286136915,-38.23471101107</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3277373828795,-38.2403723787228 -72.3266127312205,-38.2407618391787 -72.326573770925,-38.2403052890617 -72.3270258734397,-38.2402781581049 -72.3277334721378,-38.240286678589 -72.3277373828795,-38.2403723787228</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3363609874059,-38.2244525972435 -72.336336009934,-38.2252279845548 -72.3361599962641,-38.2256739636502 -72.3321747671553,-38.2255489267373 -72.3309035145551,-38.2255016205379 -72.3296500669838,-38.2255133864306 -72.3296017821283,-38.2261106642527 -72.3282119799587,-38.2261143681003 -72.3282353273033,-38.2266261846842 -72.3256502293091,-38.2265922739397 -72.3256041780174,-38.2325341760019 -72.3256991449884,-38.2326822436054 -72.3260970029635,-38.233057104879 -72.3275437244736,-38.2340830996927 -72.3275778701283,-38.2318188031472 -72.3354717450874,-38.2318328590571 -72.3354682934189,-38.2351938609658 -72.3353012284961,-38.2376203709369 -72.334612059299,-38.2376349489315 -72.3362147676237,-38.2386118858145 -72.3369904003391,-38.238918749685 -72.3390983080181,-38.2390160512258 -72.3392198430055,-38.2388981753835 -72.340406333003,-38.2394650466583 -72.3421988762375,-38.2390491562682 -72.3423353436035,-38.2384879064438 -72.3425090163352,-38.2379251894175 -72.3426665414517,-38.2374058366229 -72.3426623930436,-38.2369196975406 -72.3428487120044,-38.2358417587344 -72.3428884149193,-38.2351255417501 -72.3429087000259,-38.2343812759457 -72.3430614127561,-38.2333615015372 -72.3431154560894,-38.232865359826 -72.3392410105166,-38.2329757739264 -72.3391441681578,-38.2324446015202 -72.3390947428983,-38.2318930102407 -72.3391820694284,-38.2306319724289 -72.3392254676352,-38.2294675307005 -72.3392199732398,-38.228819342014 -72.3392764468666,-38.2279405623152 -72.3392761830692,-38.2274066389606 -72.3395804436942,-38.2271882144001 -72.3419294247445,-38.2265775218205 -72.3428967021113,-38.2263211207217 -72.3429446962795,-38.2253901414794 -72.3427610175103,-38.2253381715497 -72.3427110636874,-38.2250392595361 -72.3423818833882,-38.2249771353607 -72.3423886394278,-38.2255204075389 -72.340776812035,-38.2238203429017 -72.3383282606708,-38.225117647321 -72.3371667399736,-38.2238713041872 -72.3363084316859,-38.2243321385852 -72.3363609874059,-38.2244525972435</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3293688015747,-38.2293533123092 -72.329389170653,-38.230191000156 -72.3283282463508,-38.2301853672548 -72.3282713658169,-38.2293360281448 -72.3293688015747,-38.2293533123092</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-7</SimpleData>
+		<SimpleData name="NOM">ZR-7; Zona de protección de trazado de líneas de alta tensión</SimpleData>
+		<SimpleData name="UPERM">Ningún tipo de construcción.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3199667247305,-38.2463027758532 -72.320289649624,-38.2468075354534 -72.3314695795134,-38.244722481608 -72.3335311202291,-38.2443378772376 -72.3411196240285,-38.2429218094922 -72.3417417645557,-38.2409721785697 -72.3415384661261,-38.2409120713239 -72.3409701136107,-38.242710659993 -72.3335714653948,-38.2439333136065 -72.3310975144933,-38.2443190341585 -72.3199667247305,-38.2463027758532</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">ZR-7</SimpleData>
+		<SimpleData name="NOM">ZR-7; Zona de protección de trazado de líneas de alta tensión</SimpleData>
+		<SimpleData name="UPERM">Ningún tipo de construcción.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3416550804907,-38.2406900559087 -72.3418131554173,-38.2407361981808 -72.3421777963364,-38.2397652482519 -72.3424173302809,-38.2389984702174 -72.3427041837226,-38.2381941374904 -72.3428449373204,-38.2378363556632 -72.3428212054277,-38.2373185969613 -72.3429012000479,-38.2367561666374 -72.3429565603074,-38.23648047189 -72.3430377775523,-38.2354502219857 -72.3430720410294,-38.2345494303036 -72.343121671394,-38.2341487595023 -72.3432327487427,-38.233275572528 -72.3432968130046,-38.232860188368 -72.3433077359871,-38.2324391682786 -72.3435284742427,-38.2308269129823 -72.3470407449332,-38.2302201803659 -72.3482348886412,-38.2300669036962 -72.3492013206308,-38.2298903247481 -72.3498686949348,-38.2297818731682 -72.3501265313077,-38.2297221192691 -72.350051110455,-38.2295913496131 -72.3434246356522,-38.2306052177047 -72.3433245011122,-38.2307939957626 -72.3432272057211,-38.2314403461653 -72.3431938960085,-38.2319422795808 -72.3431379844835,-38.2326585347083 -72.3430614127561,-38.2333615015372 -72.3429087000259,-38.2343812759457 -72.3428884149193,-38.2351255417501 -72.3428487120044,-38.2358417587344 -72.3426623930436,-38.2369196975406 -72.3426665414517,-38.2374058366229 -72.3425090163352,-38.2379251894175 -72.3423353436035,-38.2384879064438 -72.3421217393545,-38.2393663989815 -72.3418182360967,-38.2402617554175 -72.3416550804907,-38.2406900559087</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-4</SimpleData>
+		<SimpleData name="NOM">Zona Z-4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento del tipo comercio, esparcimiento y turismo. Actividades productivas inofensivas y molestas, terminales de buses, playas de estacionamientos, y similares. Mayor detalle en Ordenanza</SimpleData>
+		<SimpleData name="UPROH">Vivienda; equipamientos a cierta escala; actividades productivas insalubres y peligrosas. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3184257946629,-38.2438940493014 -72.3173745577725,-38.2422506824375 -72.3170125320631,-38.241684717693 -72.31678479771,-38.2413286912257 -72.3166843101322,-38.2411715915443 -72.3164501447378,-38.2407561897695 -72.3148811961463,-38.2413702305954 -72.3147826831728,-38.2451868226864 -72.3184257946629,-38.2438940493014</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.332146233408,-38.2344663621131 -72.3308945558165,-38.2335276244104 -72.3308916817144,-38.2344573187526 -72.332146233408,-38.2344663621131</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3283282463508,-38.2301853672548 -72.329389170653,-38.230191000156 -72.3293688015747,-38.2293533123092 -72.3282713658169,-38.2293360281448 -72.3283282463508,-38.2301853672548</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todo lo no indicado como permitido.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.332146233408,-38.2344663621131 -72.3321448740113,-38.2344366054634 -72.332156244426,-38.2335235076133 -72.3308945558165,-38.2335276244104 -72.332146233408,-38.2344663621131</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Victoria</SimpleData>
+		<SimpleData name="LOC">Victoria</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Zona Z-2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; equipamiento; actividades productivas inofensivas, terminales de buses, playas de estacionamiento, y similares. Mayor detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas molestas, insalubres y peligrosas.</SimpleData>
+		<SimpleData name="P_DO">03/10/1992</SimpleData>
+		<SimpleData name="N_DOC">20</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3314695795134,-38.244722481608 -72.3327221973777,-38.2453872309218 -72.3335311202291,-38.2443378772376 -72.3314695795134,-38.244722481608</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="secc_calama_sanjuan_mono" id="secc_calama_sanjuan_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>secc_calama_sanjuan_mono</name>
+  <Placemark id="secc_calama_sanjuan_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOMBRE">Zona ZE-1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento regional y comunal, en deporte y recreación, turismo y esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">43542.67431640000</SimpleData>
+		<SimpleData name="Shape_STLe">835.07477597900</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9228997738238,-22.4513553850246 -68.9229126311053,-22.4513553911658 -68.9232791084277,-22.4512838579215 -68.9248607472682,-22.4509678912692 -68.924546716722,-22.4491630931772 -68.9226822539492,-22.4494490423826 -68.9224945571948,-22.4494732955528 -68.9225278671549,-22.4496282384967 -68.9227458850468,-22.4506322558813 -68.9228548852446,-22.4511521911544 -68.9228997738238,-22.4513553850246</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOMBRE">Zona ZU-1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento escala regional y comunal, en servicios públicos, culto, cultura, seguridad (exepto cárceles), salud, educación, esparcimiento y turismo, comercio y estacionamientos subterráneos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">16759.26123050000</SimpleData>
+		<SimpleData name="Shape_STLe">515.27838737900</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9236096401252,-22.4543978146909 -68.9236410878277,-22.4544791415129 -68.9248813014618,-22.4541604545175 -68.9247774661357,-22.4537625525456 -68.9245566915805,-22.4530644916482 -68.9235094173581,-22.4533366086632 -68.9233230026824,-22.4533884940498 -68.9234505032118,-22.4538527579304 -68.9236096401252,-22.4543978146909</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-5</SimpleData>
+		<SimpleData name="NOMBRE">Zona ZU-5</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento vecinal en comercio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">77459.72509769999</SimpleData>
+		<SimpleData name="Shape_STLe">2166.43117575000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9221816175711,-22.448017629922 -68.9224945571948,-22.4494732955528 -68.9226822539492,-22.4494490423826 -68.924546716722,-22.4491630931772 -68.9249625609099,-22.4490884714268 -68.9252240997705,-22.4504868995417 -68.9254163499789,-22.4516271458038 -68.9255086719213,-22.4521004612053 -68.9260333050709,-22.4520146530605 -68.9260102333643,-22.4518783971039 -68.9258179350288,-22.4508170297539 -68.9254563448708,-22.4489667963633 -68.9253747952499,-22.4483832168439 -68.9257083234218,-22.4483940679267 -68.9256108853737,-22.4478878281278 -68.9235337091517,-22.4482658293228 -68.9231402302102,-22.4483552775337 -68.9230245033482,-22.4483767352069 -68.922461991139,-22.4458928631077 -68.9217610433092,-22.4460056350473 -68.9220148591932,-22.4473303470913 -68.9221816175711,-22.448017629922</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOMBRE">Zona ZU-4</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento vecinal en comercio y educación.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">130296.75805700000</SimpleData>
+		<SimpleData name="Shape_STLe">2727.36436805000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9253747952499,-22.4483832168439 -68.9254563448708,-22.4489667963633 -68.9258179350288,-22.4508170297539 -68.9260102333643,-22.4518783971039 -68.9260333050709,-22.4520146530605 -68.9255086719213,-22.4521004612053 -68.9254163499789,-22.4516271458038 -68.9252240997705,-22.4504868995417 -68.9249625609099,-22.4490884714268 -68.924546716722,-22.4491630931772 -68.9248607472682,-22.4509678912692 -68.9232791084277,-22.4512838579215 -68.923291932162,-22.4513466082813 -68.9233368082995,-22.4515737052424 -68.9234073729714,-22.4518486190125 -68.9234650454627,-22.4521892593556 -68.923509928705,-22.4524044041883 -68.9235098664267,-22.4525179424166 -68.9235290383015,-22.4527270999211 -68.9235289104974,-22.452960150589 -68.9235095025847,-22.453181240957 -68.9235094173581,-22.4533366086632 -68.9245566915805,-22.4530644916482 -68.9250093524421,-22.4529308476594 -68.9251276506137,-22.4529165610126 -68.9251756426782,-22.45357223283 -68.9266159007177,-22.4531964277219 -68.9270016707916,-22.4531189187886 -68.9272645738,-22.4530717441828 -68.9272257001671,-22.4528985645101 -68.9271641036051,-22.452669070695 -68.9271384837151,-22.4524873995367 -68.9271076780741,-22.4523869937267 -68.9270820298395,-22.4522579080008 -68.9270769149751,-22.4522053202296 -68.9270307129423,-22.4520427612367 -68.9269947791688,-22.451913669938 -68.9268871032792,-22.4512897614441 -68.9266434257244,-22.4499087555904 -68.9275152555542,-22.4497153724082 -68.9275051261046,-22.4496264148554 -68.9273564204244,-22.4487825835781 -68.9273307735844,-22.4486534969323 -68.9263432632777,-22.448796466021 -68.926266104862,-22.4488251139487 -68.9258032112251,-22.4488870489751 -68.9257083234218,-22.4483940679267 -68.9253747952499,-22.4483832168439</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOMBRE">Zona ZU-2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento regional y comunal, en esparcimiento y turismo, comercio, cultura, culto y educación.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">340769.48144499998</SimpleData>
+		<SimpleData name="Shape_STLe">3979.54713537000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918383132584,-22.4469664727464 -68.9185060262446,-22.4478820072047 -68.9186036263137,-22.4480780586004 -68.9187476033562,-22.4481163750392 -68.9189275456623,-22.4482168574531 -68.9190457793992,-22.4483077461734 -68.9191382844443,-22.4484225260527 -68.9192307924105,-22.4485325241493 -68.9193541301418,-22.4486903440546 -68.9194671992693,-22.4488194746861 -68.9196522531657,-22.448977324235 -68.9199555745408,-22.4491686962368 -68.9201714941037,-22.4493122198177 -68.9202974543797,-22.4493839899368 -68.9204052302903,-22.4497784368662 -68.9206413488567,-22.4505816830452 -68.9209955013982,-22.4518367465616 -68.9215703982687,-22.4538281191328 -68.921667918161,-22.4541819257464 -68.9218834803167,-22.4549803789037 -68.922135037527,-22.4557979714577 -68.9222120259478,-22.4560824503499 -68.9222890240071,-22.4563501972268 -68.9224327456087,-22.4568665635238 -68.9224788853772,-22.4571342954504 -68.922550701163,-22.4574737474856 -68.9226225182678,-22.4578131994759 -68.9226584256245,-22.4579853154124 -68.9226635178109,-22.4580761480339 -68.9232857362554,-22.4582820076992 -68.9237999798477,-22.4584304477738 -68.9240325487616,-22.4585026256875 -68.9249290656031,-22.4554221840522 -68.9249496779944,-22.4553469001961 -68.9249882969253,-22.4552632591705 -68.9250847788635,-22.4551736689769 -68.9251555219998,-22.455125896281 -68.9251812510578,-22.4551020059029 -68.9251775206805,-22.4540843356364 -68.9230651163518,-22.454627140339 -68.9230845176127,-22.4544180021212 -68.9230782343667,-22.4541550691988 -68.9230911940819,-22.4539698302085 -68.923123628295,-22.4534439866713 -68.9235094173581,-22.4533366086632 -68.9235095025847,-22.453181240957 -68.9235289104974,-22.452960150589 -68.9235290383015,-22.4527270999211 -68.9235098664267,-22.4525179424166 -68.923509928705,-22.4524044041883 -68.9234650454627,-22.4521892593556 -68.9234073729714,-22.4518486190125 -68.9233368082995,-22.4515737052424 -68.923291932162,-22.4513466082813 -68.9232791084277,-22.4512838579215 -68.9229126311053,-22.4513553911658 -68.9228997738238,-22.4513553850246 -68.9228548852446,-22.4511521911544 -68.9227458850468,-22.4506322558813 -68.9225278671549,-22.4496282384967 -68.9221816175711,-22.448017629922 -68.9220148591932,-22.4473303470913 -68.9217610433092,-22.4460056350473 -68.9217213633705,-22.4460120191581 -68.9203532475073,-22.446245596083 -68.9198183464043,-22.4463313807706 -68.9193451840373,-22.4463741698018 -68.9189903136709,-22.4464026752702 -68.9187074485165,-22.446421655482 -68.9183165901777,-22.4464310189349 -68.9183473266187,-22.4466365974225 -68.9183524323965,-22.4466987471487 -68.918383132584,-22.4469664727464</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.9227965430859,-22.457443342835 -68.9227861897366,-22.4574700317046 -68.9227298357859,-22.4571660395174 -68.9226476584471,-22.4569604374617 -68.9225706699848,-22.4566735692974 -68.9225553068517,-22.4565540486036 -68.9225450517355,-22.4564966774313 -68.9225964545351,-22.4565492875234 -68.922627308243,-22.4565588630601 -68.9226838757998,-22.4565732326381 -68.9227353068505,-22.4565732572711 -68.9227918876621,-22.4565637227076 -68.9228381920625,-22.4565350617296 -68.9228896452232,-22.4564968424579 -68.9229565400896,-22.4564347273353 -68.9229564793302,-22.4565446789865 -68.9229461457584,-22.4566307243317 -68.9229461114115,-22.4566928704837 -68.9229923418886,-22.4567980643099 -68.9230077503028,-22.4568363164302 -68.9229047231339,-22.4571326601235 -68.9228583391928,-22.4573047366944 -68.9227965430859,-22.457443342835</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOMBRE">Zona ZU-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento vecinal en cultura, salud, educación, esparcimiento y turismo y comercio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">67601.63623049999</SimpleData>
+		<SimpleData name="Shape_STLe">1660.84335629000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9264936374802,-22.453228330069 -68.9251756426782,-22.45357223283 -68.9251812510578,-22.4551020059029 -68.9251847615239,-22.4553540342332 -68.9253317235242,-22.45539313665 -68.925928251648,-22.4555368281077 -68.9262162170932,-22.4556325701571 -68.9272139071673,-22.4557860005211 -68.9272243141478,-22.455554148856 -68.9272296222791,-22.4552386368039 -68.9272503098269,-22.4550187418148 -68.9273077984031,-22.4532643119908 -68.9272092741619,-22.4532908728901 -68.9270897003832,-22.4532872332979 -68.9269238363189,-22.4532871582824 -68.9267579769939,-22.4532799118622 -68.9264936374802,-22.453228330069</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOMBRE">Zona ZU-3</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento vecinal en cultura, salud, educación, esparcimiento y turismo y comercio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">67601.63623049999</SimpleData>
+		<SimpleData name="Shape_STLe">1660.84335629000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9247633829248,-22.4563528766751 -68.92475820332,-22.4564198012549 -68.9246463115116,-22.4563937454203 -68.9240325487616,-22.4585026256875 -68.9241085230816,-22.4585262041799 -68.9244067718256,-22.4586362958293 -68.9246330339536,-22.4587128902847 -68.9246947503595,-22.4587176999195 -68.924878136693,-22.4572310403045 -68.9249970004646,-22.4561722085454 -68.92505562545,-22.4557440441031 -68.9249797249832,-22.4557410691551 -68.9248406746715,-22.4560852029002 -68.9247633829248,-22.4563528766751</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">AV-2</SimpleData>
+		<SimpleData name="NOMBRE">Zona AV-2</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">17045.21850590000</SimpleData>
+		<SimpleData name="Shape_STLe">1492.51019016000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9247774661357,-22.4537625525456 -68.9248813014618,-22.4541604545175 -68.9251775206805,-22.4540843356364 -68.9251756426782,-22.45357223283 -68.9251276506137,-22.4529165610126 -68.9250093524421,-22.4529308476594 -68.9245566915805,-22.4530644916482 -68.9247774661357,-22.4537625525456</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">AV-2</SimpleData>
+		<SimpleData name="NOMBRE">Zona AV-2</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">17045.21850590000</SimpleData>
+		<SimpleData name="Shape_STLe">1492.51019016000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9230845176127,-22.4544180021212 -68.9230651163518,-22.454627140339 -68.9236410878277,-22.4544791415129 -68.9236096401252,-22.4543978146909 -68.9234505032118,-22.4538527579304 -68.9233230026824,-22.4533884940498 -68.923123628295,-22.4534439866713 -68.9230911940819,-22.4539698302085 -68.9230782343667,-22.4541550691988 -68.9230845176127,-22.4544180021212</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">AV-2</SimpleData>
+		<SimpleData name="NOMBRE">Zona AV-2</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">17045.21850590000</SimpleData>
+		<SimpleData name="Shape_STLe">1492.51019016000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9227918876621,-22.4565637227076 -68.9227353068505,-22.4565732572711 -68.9226838757998,-22.4565732326381 -68.922627308243,-22.4565588630601 -68.9225964545351,-22.4565492875234 -68.9225450517355,-22.4564966774313 -68.9225553068517,-22.4565540486036 -68.9225706699848,-22.4566735692974 -68.9226476584471,-22.4569604374617 -68.9227298357859,-22.4571660395174 -68.9227861897366,-22.4574700317046 -68.9227965430859,-22.457443342835 -68.9228583391928,-22.4573047366944 -68.9229047231339,-22.4571326601235 -68.9230077503028,-22.4568363164302 -68.9229923418886,-22.4567980643099 -68.9229461114115,-22.4566928704837 -68.9229461457584,-22.4566307243317 -68.9229564793302,-22.4565446789865 -68.9229565400896,-22.4564347273353 -68.9228896452232,-22.4564968424579 -68.9228381920625,-22.4565350617296 -68.9227918876621,-22.4565637227076</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">AV-2</SimpleData>
+		<SimpleData name="NOMBRE">Zona AV-2</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">17045.21850590000</SimpleData>
+		<SimpleData name="Shape_STLe">1492.51019016000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9249882969253,-22.4552632591705 -68.9249496779944,-22.4553469001961 -68.9249290656031,-22.4554221840522 -68.9246463115116,-22.4563937454203 -68.92475820332,-22.4564198012549 -68.9247633829248,-22.4563528766751 -68.9248406746715,-22.4560852029002 -68.9249797249832,-22.4557410691551 -68.92505562545,-22.4557440441031 -68.9250899419872,-22.4554934164599 -68.9251157430163,-22.4553356703136 -68.9251847615239,-22.4553540342332 -68.9251812510578,-22.4551020059029 -68.9251555219998,-22.455125896281 -68.9250847788635,-22.4551736689769 -68.9249882969253,-22.4552632591705</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_calama_sanjuan_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_calama_sanjuan_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="LOCALIDAD">Calama</SimpleData>
+		<SimpleData name="ZONA">AV-2</SimpleData>
+		<SimpleData name="NOMBRE">Zona AV-2</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados precedentemente.</SimpleData>
+		<SimpleData name="Capa">Seccional Calama - San Juan</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+		<SimpleData name="Shape_STAr">17045.21850590000</SimpleData>
+		<SimpleData name="Shape_STLe">1492.51019016000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9270897003832,-22.4532872332979 -68.9272092741619,-22.4532908728901 -68.9273077984031,-22.4532643119908 -68.9272645738,-22.4530717441828 -68.9270016707916,-22.4531189187886 -68.9266159007177,-22.4531964277219 -68.9264936374802,-22.453228330069 -68.9267579769939,-22.4532799118622 -68.9269238363189,-22.4532871582824 -68.9270897003832,-22.4532872332979</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

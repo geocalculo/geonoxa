@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Panguipulli</SimpleData>
+		<SimpleData name="LOC">Puyumen</SimpleData>
+		<SimpleData name="ZONA">ZH</SimpleData>
+		<SimpleData name="NOM">Zona ZH</SimpleData>
+		<SimpleData name="UPERM">Vivienda, áreas verdes a escala vecinal.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/07/1990</SimpleData>
+		<SimpleData name="N_DOC">05</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2809560939556,-39.6845347504994 -72.2810569919779,-39.6845019925314 -72.2815857653034,-39.6843345077201 -72.2820318070255,-39.6841862792438 -72.2818744510982,-39.6840085338163 -72.2812562174653,-39.6833034214857 -72.2805277334121,-39.6824584278129 -72.2797150027322,-39.681501415249 -72.2796340099719,-39.6814051958146 -72.2793160158105,-39.6816085019287 -72.2787920636842,-39.6819426688108 -72.2785692101261,-39.6820922442801 -72.278892426515,-39.682420772215 -72.2792684065354,-39.6828048110162 -72.2797376146868,-39.6832815423103 -72.2803290546684,-39.6838901841747 -72.2809560939556,-39.6845347504994</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Panguipulli</SimpleData>
+		<SimpleData name="LOC">Puyumen</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">Zona ZE</SimpleData>
+		<SimpleData name="UPERM">Vivienda: solamente correspondiente al cuidador equipamiento. Equipamiento: Areas verdes; deportes: solamente recintos destinados a deportes náuticos; esparcimiento: Sólo zonas de picnic. Para mayor detalle ver Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/07/1990</SimpleData>
+		<SimpleData name="N_DOC">05</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2811680961214,-39.6847476779505 -72.2812050657679,-39.6847301718482 -72.2815837836358,-39.6846181699044 -72.282425666755,-39.6846298664798 -72.2823437474705,-39.6845386366448 -72.2820318070255,-39.6841862792438 -72.2815857653034,-39.6843345077201 -72.2810569919779,-39.6845019925314 -72.2809560939556,-39.6845347504994 -72.2809879150881,-39.6845674603257 -72.2811680961214,-39.6847476779505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Panguipulli</SimpleData>
+		<SimpleData name="LOC">Puyumen</SimpleData>
+		<SimpleData name="ZONA">ZR-1</SimpleData>
+		<SimpleData name="NOM">Zona ZR-1</SimpleData>
+		<SimpleData name="UPERM">Parques, plazas, miradores, jardines, juegos infantiles, muelles de paseo y ramblas. Kioscos y pérgolas. Club náutico, con casa de bote, taller, bodegas, pañol, y toda actividad complementaria al deporte náutico.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/07/1990</SimpleData>
+		<SimpleData name="N_DOC">05</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2811680961214,-39.6847476779505 -72.2813790657004,-39.6849586894718 -72.2815151461227,-39.6849662795975 -72.2818516513341,-39.6849853587712 -72.2821812406317,-39.6849626872227 -72.2826459461674,-39.6848751804557 -72.282425666755,-39.6846298664798 -72.2815837836358,-39.6846181699044 -72.2812050657679,-39.6847301718482 -72.2811680961214,-39.6847476779505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Panguipulli</SimpleData>
+		<SimpleData name="LOC">Puyumen</SimpleData>
+		<SimpleData name="ZONA">Área Verde</SimpleData>
+		<SimpleData name="NOM">Área Verde</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">27/07/1990</SimpleData>
+		<SimpleData name="N_DOC">05</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2789413752951,-39.6815876133697 -72.2790604547541,-39.681627145892 -72.2790749696682,-39.6816210158051 -72.2790829641771,-39.6816074433356 -72.2791403625147,-39.6814647328643 -72.279150189369,-39.6814377621059 -72.2791485968315,-39.6814225681479 -72.2791482364554,-39.6814225648236 -72.2791294088885,-39.6813897312604 -72.2791028281197,-39.6813494910622 -72.2790889748642,-39.6813174698807 -72.2790649341922,-39.6813048038488 -72.279042530869,-39.6813006703215 -72.2790231769705,-39.6813088440836 -72.2789988802352,-39.681342895736 -72.2789116402438,-39.6815589018768 -72.2789135029527,-39.6815721948145 -72.2789413752951,-39.6815876133697</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Araucanía</SimpleData>
+		<SimpleData name="COM">Panguipulli</SimpleData>
+		<SimpleData name="LOC">Puyumen</SimpleData>
+		<SimpleData name="ZONA">ZT</SimpleData>
+		<SimpleData name="NOM">Zona ZT</SimpleData>
+		<SimpleData name="UPERM">Vivienda: solamente correspondiente al cuidador equipamiento. Equipamiento: Escala Comunal: Cultura; deportes; esparcimiento. Escala vecinal: Culto; cultura; áreas verdes; organización comunitaria; deportes.
+permitidas.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/07/1990</SimpleData>
+		<SimpleData name="N_DOC">05</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2776132957339,-39.6810975122382 -72.2779755584869,-39.68150482224 -72.2782573179209,-39.6817752240876 -72.2785692101261,-39.6820922442801 -72.2787920636842,-39.6819426688108 -72.2793160158105,-39.6816085019287 -72.2796340099719,-39.6814051958146 -72.2790299806988,-39.680687595477 -72.2788290596839,-39.6804568560896 -72.2780494063771,-39.6808754638625 -72.2776132957339,-39.6810975122382</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.2789413752951,-39.6815876133697 -72.2789135029527,-39.6815721948145 -72.2789116402438,-39.6815589018768 -72.2789988802352,-39.681342895736 -72.2790231769705,-39.6813088440836 -72.279042530869,-39.6813006703215 -72.2790649341922,-39.6813048038488 -72.2790889748642,-39.6813174698807 -72.2791028281197,-39.6813494910622 -72.2791294088885,-39.6813897312604 -72.2791482364554,-39.6814225648236 -72.2791485968315,-39.6814225681479 -72.279150189369,-39.6814377621059 -72.2791403625147,-39.6814647328643 -72.2790829641771,-39.6816074433356 -72.2790749696682,-39.6816210158051 -72.2790604547541,-39.681627145892 -72.2789413752951,-39.6815876133697</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

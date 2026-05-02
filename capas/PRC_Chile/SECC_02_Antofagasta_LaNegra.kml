@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="secc_antofagasta_lanegra_mono" id="secc_antofagasta_lanegra_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPREF" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>secc_antofagasta_lanegra_mono</name>
+  <Placemark id="secc_antofagasta_lanegra_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-6</SimpleData>
+		<SimpleData name="NOMBRE">EI-6 Zona especial de protección de infraestructura sanitaria</SimpleData>
+		<SimpleData name="UPREF">Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Instalaciones operativas de empresas de servicios sanitarios</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">294594.56909200002</SimpleData>
+		<SimpleData name="Shape_STLe">3018.67986172000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3231237151296,-23.7691537013963 -70.3242463567819,-23.7692587714609 -70.3244817944289,-23.7692076765711 -70.3249800017714,-23.7690995545294 -70.3283671492854,-23.7651709017336 -70.3284825353705,-23.7650323188189 -70.3293930937283,-23.7639386840588 -70.3303365345738,-23.7627645178659 -70.3326494050614,-23.7614638453046 -70.3331027945167,-23.7612897420557 -70.3327894487659,-23.7609398288108 -70.3318248512083,-23.7605419453672 -70.3312251339351,-23.7602842764634 -70.3304199385356,-23.7602434254 -70.3294109600384,-23.7605866324964 -70.328457531525,-23.7612877708981 -70.3278168092218,-23.7621056877727 -70.327098687041,-23.7629720561323 -70.3266910962612,-23.7637401775037 -70.326074131776,-23.7643428339728 -70.3256383922428,-23.7648961447873 -70.3255886520085,-23.7651116213909 -70.3247421537412,-23.7661224472488 -70.3242314260299,-23.7669631293515 -70.3236166109888,-23.7677808089266 -70.3231575487001,-23.7685971509583 -70.3228599087148,-23.7691049430105 -70.3231237151296,-23.7691537013963</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-20</SimpleData>
+		<SimpleData name="NOMBRE">EI-20 Zona especial destinada a reserva antepuerto</SimpleData>
+		<SimpleData name="UPREF">Mixto</SimpleData>
+		<SimpleData name="UPERM">Actividades productivas: instalaciones de impacto similar, tales como grandes depósitos, talleres o bodegas industriales; Infraestructura todo tipo y equipamiento del tipo servicios y comercio. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2243201.71240000008</SimpleData>
+		<SimpleData name="Shape_STLe">6801.46833417000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.301888114983,-23.7378465081494 -70.3032448452548,-23.7411588114586 -70.3035689246031,-23.7411202373217 -70.3061346757342,-23.74592527628 -70.3062158794608,-23.746259113158 -70.3064016228481,-23.7466637506597 -70.3078830764943,-23.7494468793166 -70.3087520581038,-23.7506820365889 -70.309545585164,-23.7527092200932 -70.3095529126609,-23.7527069029557 -70.3145080585784,-23.7511396614275 -70.314504320983,-23.7511108835477 -70.3141828862179,-23.7486359759331 -70.3128560261873,-23.7405709133739 -70.3094396998857,-23.7286306879192 -70.3092346924467,-23.7279140979673 -70.3089600343035,-23.7280035082106 -70.3069695492525,-23.7286514585024 -70.3040692758875,-23.729595510726 -70.3020311682552,-23.7302588833286 -70.3005845410736,-23.7307297183671 -70.3001438165491,-23.7307812143225 -70.30021197011,-23.7311103872706 -70.3002860984876,-23.7320416540423 -70.3003969060001,-23.7327456129855 -70.3005427250108,-23.7334561326819 -70.3005878268615,-23.7336758969583 -70.3008157848806,-23.7344147120803 -70.3012328957105,-23.7359046145977 -70.301888114983,-23.7378465081494</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3402242169706,-23.8432662205635 -70.3402446638064,-23.8376748375265 -70.3399857139487,-23.8276415823443 -70.3394725958026,-23.8232017412456 -70.3388727605393,-23.8027057874479 -70.3387368705282,-23.7894456968692 -70.3387641016724,-23.7844993597423 -70.3387664767363,-23.7826982437833 -70.3387665159149,-23.7826684352572 -70.3371006490095,-23.7823966387337 -70.3343668828384,-23.7816676255429 -70.3320644463524,-23.7812215729848 -70.3308127725589,-23.7806947470815 -70.3282763368518,-23.7802148120933 -70.3261693865416,-23.7798386704916 -70.3250216245267,-23.7794124054793 -70.3250209047235,-23.7794424719307 -70.3248991078437,-23.7845318876444 -70.3249000454467,-23.7845352183205 -70.3248994105592,-23.7845617529435 -70.3259901281186,-23.7884355763621 -70.3263570120128,-23.789789619652 -70.32679184819,-23.79169742399 -70.3272430040621,-23.7931654307454 -70.3273726842057,-23.7936613164976 -70.3274174355815,-23.7940202550627 -70.3273590049892,-23.8025374304218 -70.3273593858676,-23.8025559774639 -70.3273593085247,-23.8025672956213 -70.3276059781602,-23.814567716648 -70.3279177492456,-23.8207048830323 -70.3279727236483,-23.8220233681999 -70.3281487066629,-23.8250229597128 -70.328376994184,-23.8311168700256 -70.3284472371581,-23.8320154192528 -70.3282600549087,-23.8339170767369 -70.3280995244061,-23.8365181418429 -70.3280453700765,-23.8370804502104 -70.3280484089183,-23.8370819231395 -70.3324480694341,-23.8392150213188 -70.3376693477387,-23.8417503408861 -70.3402242169706,-23.8432662205635</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3227636443124,-23.7233148953861 -70.310733862783,-23.7232439842399 -70.3099915078487,-23.7232395776541 -70.3099945119594,-23.7232501356433 -70.3099916135984,-23.7232501601933 -70.3099918062923,-23.7232694433694 -70.3110293324297,-23.7269162020824 -70.3111486926811,-23.7273210025126 -70.3125513887218,-23.7320779397225 -70.3127488092267,-23.7327474159869 -70.3132096943375,-23.7343838027288 -70.3138758058289,-23.7367487733198 -70.3141624906904,-23.7377665933332 -70.3143098139484,-23.7382896288573 -70.3145558088085,-23.7391296170264 -70.3147963874727,-23.7399510974398 -70.3156795789465,-23.7451850779671 -70.3163123363945,-23.7496481526073 -70.316461870444,-23.7507028173622 -70.3174595779797,-23.75698141966 -70.3177639699205,-23.7583360278485 -70.317885082562,-23.7587744053409 -70.3182381601178,-23.760052379975 -70.3185760141947,-23.7606038473689 -70.3186674529591,-23.7609832360764 -70.3188794637246,-23.7618628820317 -70.319296818353,-23.7632948940545 -70.3194144770583,-23.7636929092713 -70.3198773946931,-23.7652588323877 -70.3204374146455,-23.7672420580641 -70.3206431019323,-23.7679806784405 -70.3207008879272,-23.768020457709 -70.3207030274142,-23.7680274916652 -70.3207209529351,-23.7680393558265 -70.321016670177,-23.7682350798606 -70.3217683758331,-23.7686300736129 -70.3218501408927,-23.7686684496894 -70.3227283462104,-23.7690806262018 -70.3228599087148,-23.7691049430105 -70.3231575487001,-23.7685971509583 -70.3236166109888,-23.7677808089266 -70.3242314260299,-23.7669631293515 -70.3247421537412,-23.7661224472488 -70.3255886520085,-23.7651116213909 -70.3256383922428,-23.7648961447873 -70.326074131776,-23.7643428339728 -70.3266910962612,-23.7637401775037 -70.327098687041,-23.7629720561323 -70.3278168092218,-23.7621056877727 -70.328457531525,-23.7612877708981 -70.3294109600384,-23.7605866324964 -70.3304199385356,-23.7602434254 -70.3312251339351,-23.7602842764634 -70.3318248512083,-23.7605419453672 -70.3327894487659,-23.7609398288108 -70.3331027945167,-23.7612897420557 -70.3333114132983,-23.7612096317941 -70.3334776870993,-23.7611788839887 -70.3347210221902,-23.7609489566957 -70.3366486215522,-23.7605690960977 -70.3378780642114,-23.7603830123437 -70.3319808694674,-23.745634203421 -70.3300662160971,-23.7411346532502 -70.3228011428365,-23.7234195118617 -70.3227636443124,-23.7233148953861</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2870562788939,-23.7280175833269 -70.2891255711852,-23.7341407396113 -70.2902808415005,-23.7337670891214 -70.2913666959186,-23.7334158795847 -70.2913825274915,-23.7334104298744 -70.2920460609276,-23.7331820056108 -70.2930762353981,-23.732827356385 -70.2936430507873,-23.73263222075 -70.2946937288664,-23.7323385512291 -70.2956096289013,-23.7320825464235 -70.2966904627281,-23.7317804324215 -70.297344431365,-23.731597631331 -70.2987212491666,-23.7311961013729 -70.3001438165491,-23.7307812143225 -70.3005845410736,-23.7307297183671 -70.3020311682552,-23.7302588833286 -70.3040692758875,-23.729595510726 -70.3069695492525,-23.7286514585024 -70.3089600343035,-23.7280035082106 -70.3092346924467,-23.7279140979673 -70.3092270295408,-23.7278866300308 -70.30923439411,-23.7278842322608 -70.309112168558,-23.7274461083704 -70.3091055760201,-23.7274224803764 -70.3079436316992,-23.7232572669017 -70.3079352867922,-23.7232273536178 -70.2992392321537,-23.7231753522159 -70.2854507000212,-23.7230918966736 -70.2870562788939,-23.7280175833269</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3015706948179,-23.7700580342305 -70.3015601639813,-23.7700255058197 -70.3015703976355,-23.7700281685953 -70.3003650585508,-23.7663048051924 -70.2994008765621,-23.7639832043149 -70.2981694372228,-23.7608872677511 -70.2975006263697,-23.758891718669 -70.296394471141,-23.7564795043101 -70.2963860239759,-23.7564825463915 -70.2911357889899,-23.7583730497692 -70.2869847765362,-23.7598675821512 -70.2855797730086,-23.7603417444961 -70.283718029664,-23.7609700229859 -70.2799381162745,-23.7623105541894 -70.2784450665764,-23.7628400251026 -70.2784699511921,-23.7628492511541 -70.2775004648944,-23.7632049629183 -70.2784453583804,-23.7628698910382 -70.2820291805765,-23.7641985008786 -70.284007507099,-23.7647316441455 -70.2872942740878,-23.765782536251 -70.2928208342378,-23.7675493685224 -70.2981852278591,-23.7691769865923 -70.3015706948179,-23.7700580342305 -70.301261814957,-23.7699478656952 -70.3015580566458,-23.7700249573389 -70.3015706948179,-23.7700580342305</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3372480203406,-23.777765853971 -70.3387725481773,-23.778360033691 -70.3387729935592,-23.7777611113501 -70.3385762624324,-23.7661502103357 -70.3382263641492,-23.762069160703 -70.3382240815344,-23.762068839111 -70.3379592957203,-23.7620315712562 -70.3377017189534,-23.761976455971 -70.33747287516,-23.7618935354919 -70.3374564923199,-23.7619198606172 -70.3372351180994,-23.7622755679694 -70.3363914812579,-23.7630474863415 -70.3356271963381,-23.7634555213564 -70.3344889011242,-23.7638476689088 -70.333289269826,-23.7643359154248 -70.3325047834262,-23.7648014561589 -70.3315594045978,-23.7657844973996 -70.3296908862022,-23.7678994733939 -70.3290342753478,-23.768688859219 -70.327785876887,-23.770108408037 -70.327292480937,-23.7706096512779 -70.3264120398225,-23.7718597216249 -70.3259269646473,-23.7731828548699 -70.3257489589576,-23.7740636950692 -70.3257549158877,-23.7740655819555 -70.3257492617174,-23.7740935603984 -70.3258811933884,-23.7741353523773 -70.3272062676598,-23.7745550902069 -70.3300162766405,-23.7751402154717 -70.3328295957566,-23.7760478326057 -70.3353325095928,-23.777065606338 -70.3372480203406,-23.777765853971</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3017456713617,-23.7761699724933 -70.3017499693656,-23.776171336959 -70.301390137929,-23.7737255689484 -70.3012237670172,-23.7723241695041 -70.3012201061826,-23.7722933324899 -70.3000113156327,-23.7721424645178 -70.2979023055367,-23.77153894813 -70.2962093973067,-23.7710035934841 -70.2942823817935,-23.7704223936504 -70.2922775014273,-23.769841819812 -70.2900887916031,-23.7690477042955 -70.2881110848738,-23.7685863208568 -70.2863186607743,-23.7679561068525 -70.2846003489719,-23.7674686223599 -70.281459239803,-23.7664433534238 -70.2791934668583,-23.7657214019854 -70.2773924859168,-23.7652279009803 -70.2774047699284,-23.7652610534711 -70.2783325783582,-23.7677649266489 -70.286636816694,-23.7706827915289 -70.2906442149083,-23.7722622337154 -70.2931208589143,-23.7732869004906 -70.2978104937557,-23.7749201716443 -70.3017456713617,-23.7761699724933</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.324579452543,-23.8328392558226 -70.3245759156911,-23.8331433747296 -70.3245752657922,-23.8331432791698 -70.324550594853,-23.835264772003 -70.3245512424959,-23.8352651276703 -70.3245508982146,-23.83529463711 -70.326187348411,-23.8361928432087 -70.3262138482497,-23.8357297240767 -70.3264725509185,-23.8305185723395 -70.326471489409,-23.8305039695667 -70.3264722471853,-23.8304887072374 -70.3263212487335,-23.8284112140123 -70.3262239003926,-23.8265005178562 -70.3256892665741,-23.814782625083 -70.3254934200364,-23.8108417622801 -70.3254513069997,-23.8092306754692 -70.3254903777785,-23.7951898615139 -70.3254900094338,-23.7951834473296 -70.3254900747759,-23.7951599962631 -70.3253954539149,-23.7935121047582 -70.3247023049058,-23.79138435944 -70.3247013730089,-23.7914095744693 -70.3247026076744,-23.7914142247149 -70.3244290109726,-23.7988199621156 -70.324228618378,-23.8097891445281 -70.3244273335756,-23.8293699342858 -70.32457914921,-23.8328093907065 -70.3245789374227,-23.832827588782 -70.324579452543,-23.8328392558226</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3164099929841,-23.7637015028068 -70.3178320044303,-23.7656965076791 -70.3178358904872,-23.7656996624426 -70.3178285296024,-23.7656621899583 -70.3178317035976,-23.7656666422218 -70.3178355896627,-23.7656697978883 -70.3175433736682,-23.7641821036089 -70.3167383869257,-23.7615844763264 -70.3162805055365,-23.7599396627013 -70.3159632375053,-23.7593688995564 -70.3157204850689,-23.7584629791788 -70.315080956031,-23.7542391060546 -70.3146126160588,-23.751547795955 -70.3145077587109,-23.7511097958739 -70.314504320983,-23.7511108835477 -70.3145080585784,-23.7511396614275 -70.3095529126609,-23.7527069029557 -70.309545585164,-23.7527092200932 -70.3095396562735,-23.7527110955023 -70.3095654164327,-23.7527598819462 -70.3115242603504,-23.7564695904827 -70.3126872520684,-23.7585385320046 -70.3134231940074,-23.7594402663351 -70.3148817902617,-23.7614684431702 -70.3164099929841,-23.7637015028068</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3402242169706,-23.8432662205635 -70.3401698433834,-23.8432636420431 -70.3315500967683,-23.8428546867277 -70.3295065185304,-23.8411519590619 -70.3277898763497,-23.8398314100954 -70.3277873728093,-23.8398294837187 -70.3275004660605,-23.8434739246312 -70.327503124369,-23.8434738809551 -70.3397561993853,-23.8432738790726 -70.3401755313418,-23.8432670170439 -70.3402242169706,-23.8432662205635</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">ZUDC-9</SimpleData>
+		<SimpleData name="NOMBRE">ZUDC-09  Zona Urbanizable de Desarrollo Condicionado</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas peligrosas, molestas e inofensivas. Mayor detalle en ordenanza..</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">22290227.95039999858</SimpleData>
+		<SimpleData name="Shape_STLe">71288.34034060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.326053563347,-23.8384956799674 -70.3245266837853,-23.8373210252889 -70.3245263403523,-23.8373505202648 -70.3244545643436,-23.8435234903785 -70.3244552151754,-23.843523479365 -70.3255542542865,-23.8435056024946 -70.3256237248889,-23.8415589990039 -70.3257392719395,-23.8400825612677 -70.3257846502159,-23.8395027179937 -70.3258062516196,-23.8390724384855 -70.3260440094954,-23.8385179608873 -70.326053563347,-23.8384956799674</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">Sin información</SimpleData>
+		<SimpleData name="NOMBRE">Sin información</SimpleData>
+		<SimpleData name="UPREF">Sin informació</SimpleData>
+		<SimpleData name="UPERM">Sin información</SimpleData>
+		<SimpleData name="UPROH">Sin información</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">129289.86328100000</SimpleData>
+		<SimpleData name="Shape_STLe">1685.92306282000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.305844574765,-23.7752328418054 -70.3069170431105,-23.77788149699 -70.3111254487794,-23.7775476619745 -70.3112315999545,-23.7751871872164 -70.3108067311249,-23.7748921143013 -70.3075076886457,-23.77602520414 -70.3070741679724,-23.774864020733 -70.305844574765,-23.7752328418054</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3a</SimpleData>
+		<SimpleData name="NOMBRE">EI-3a Zona Especial de equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPREF">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad y servicios sociales. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">223443.83398400000</SimpleData>
+		<SimpleData name="Shape_STLe">5137.37331046000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3115242532276,-23.7981112944954 -70.3136921804376,-23.798437051501 -70.3136956404098,-23.7984189249945 -70.3140918139009,-23.79634333328 -70.3118789262533,-23.7960079376571 -70.3115242532276,-23.7981112944954</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3a</SimpleData>
+		<SimpleData name="NOMBRE">EI-3a Zona Especial de equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPREF">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad y servicios sociales. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">223443.83398400000</SimpleData>
+		<SimpleData name="Shape_STLe">5137.37331046000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3150545632065,-23.791299146154 -70.3156331911533,-23.791362840222 -70.3161773013952,-23.7903884862045 -70.3165407612391,-23.7878611437988 -70.3159323677714,-23.7875722693338 -70.3153449583919,-23.7870728851829 -70.3150545632065,-23.791299146154</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3a</SimpleData>
+		<SimpleData name="NOMBRE">EI-3a Zona Especial de equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPREF">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad y servicios sociales. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">223443.83398400000</SimpleData>
+		<SimpleData name="Shape_STLe">5137.37331046000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2920460609276,-23.7331820056108 -70.2930637635048,-23.7356920306872 -70.2940898050044,-23.7353733703472 -70.2930762353981,-23.732827356385 -70.2920460609276,-23.7331820056108</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3a</SimpleData>
+		<SimpleData name="NOMBRE">EI-3a Zona Especial de equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPREF">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad y servicios sociales. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">223443.83398400000</SimpleData>
+		<SimpleData name="Shape_STLe">5137.37331046000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2956096289013,-23.7320825464235 -70.2966473043922,-23.7345976104255 -70.2975976291972,-23.7343159438426 -70.2966904627281,-23.7317804324215 -70.2956096289013,-23.7320825464235</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3a</SimpleData>
+		<SimpleData name="NOMBRE">EI-3a Zona Especial de equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPREF">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad y servicios sociales. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">223443.83398400000</SimpleData>
+		<SimpleData name="Shape_STLe">5137.37331046000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3034564189861,-23.7519023766349 -70.3043421486447,-23.7541419723936 -70.305348737547,-23.7537699536116 -70.30451677303,-23.751559567905 -70.3034564189861,-23.7519023766349</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3a</SimpleData>
+		<SimpleData name="NOMBRE">EI-3a Zona Especial de equipamiento Comunitario</SimpleData>
+		<SimpleData name="UPREF">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad y servicios sociales. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">223443.83398400000</SimpleData>
+		<SimpleData name="Shape_STLe">5137.37331046000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2999495942598,-23.7530360564022 -70.3008575433529,-23.7553179676161 -70.301812829856,-23.7550131476486 -70.3009781085429,-23.752703570873 -70.2999495942598,-23.7530360564022</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.324052240065,-23.7738390548452 -70.3253637804526,-23.7741336498973 -70.3257492617174,-23.7740935603984 -70.3257549158877,-23.7740655819555 -70.3257489589576,-23.7740636950692 -70.3259269646473,-23.7731828548699 -70.3264120398225,-23.7718597216249 -70.327292480937,-23.7706096512779 -70.327785876887,-23.770108408037 -70.3290342753478,-23.768688859219 -70.3296908862022,-23.7678994733939 -70.3315594045978,-23.7657844973996 -70.3325047834262,-23.7648014561589 -70.333289269826,-23.7643359154248 -70.3344889011242,-23.7638476689088 -70.3356271963381,-23.7634555213564 -70.3363914812579,-23.7630474863415 -70.3372351180994,-23.7622755679694 -70.3374564923199,-23.7619198606172 -70.3371056145574,-23.7618454195735 -70.3366678988636,-23.7616915059306 -70.3356394995787,-23.7616573920433 -70.3350951004572,-23.7617337811516 -70.3346141709021,-23.7619243133388 -70.3337770552165,-23.7623186310138 -70.3325333714286,-23.7625587509989 -70.3318960972959,-23.7626932764767 -70.3311391789007,-23.763316275612 -70.3310008954946,-23.7635038426679 -70.3306337927639,-23.7641664886925 -70.3303435428089,-23.7647281169119 -70.3299930282902,-23.7654909746504 -70.3297662422828,-23.7661667479135 -70.3292359195902,-23.7676307784529 -70.3291929790882,-23.7680038996808 -70.3291161180602,-23.7681049171552 -70.328823961454,-23.7684801829279 -70.3283169403913,-23.7691727018675 -70.3279155998741,-23.7695345676758 -70.3275829975423,-23.7696091101863 -70.3273509558605,-23.7697688080068 -70.326623091401,-23.770190824048 -70.326127122793,-23.7704388057481 -70.3256781716311,-23.770715056344 -70.3251539513171,-23.7712500100166 -70.324550973668,-23.7716996181352 -70.3240127646972,-23.7723923914441 -70.3235825704862,-23.7729838802139 -70.3231145449177,-23.7735412454319 -70.324052240065,-23.7738390548452</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3138889563049,-23.8054249405096 -70.3128647084511,-23.8107453673861 -70.3124728718959,-23.8131022915435 -70.3123217516871,-23.8148621979617 -70.3118801182473,-23.8174345931288 -70.3116031958729,-23.8195993824435 -70.3114152611688,-23.8202819682915 -70.3110926154679,-23.8230672018907 -70.3107022814623,-23.8255794199851 -70.3098274559316,-23.8302844707112 -70.3094963778694,-23.8322346663692 -70.3094616162347,-23.832653111581 -70.3095777396551,-23.8328738250005 -70.310778213784,-23.8270372340263 -70.3134467489473,-23.8095884200434 -70.314655358438,-23.8096856473394 -70.3160680964157,-23.7936490049417 -70.3157908155316,-23.7944268991515 -70.3153268219246,-23.7973459637095 -70.3150065825958,-23.7990690853186 -70.3148571578642,-23.7997035583037 -70.3142677679271,-23.8030681232214 -70.3138889563049,-23.8054249405096</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3096613104054,-23.8205665964763 -70.3077469703569,-23.8316936924892 -70.3067196682505,-23.8302687486423 -70.3066013565176,-23.8301263861822 -70.3065885223179,-23.8348354433994 -70.3079117427481,-23.8322194490149 -70.3101268788424,-23.8200097740162 -70.3115867885578,-23.8115053268497 -70.3118794468105,-23.8096151873176 -70.312111498779,-23.8081556595768 -70.312518261514,-23.8059921522813 -70.3126650604765,-23.8050948663931 -70.3128166615123,-23.8046754253344 -70.3129010624314,-23.8040295596992 -70.3136030155522,-23.8002339434822 -70.313887450153,-23.7988217564401 -70.3140335131154,-23.7978527915746 -70.3147934340065,-23.7933721025804 -70.3149962253466,-23.7928805404443 -70.3151460040342,-23.7922819059777 -70.31533761415,-23.7919696464139 -70.3156331911533,-23.791362840222 -70.3150545632065,-23.791299146154 -70.3140962545939,-23.7963200688522 -70.3140918139009,-23.79634333328 -70.3136956404098,-23.7984189249945 -70.3136921804376,-23.798437051501 -70.3132044740716,-23.8009921119455 -70.3096613104054,-23.8205665964763</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2930762353981,-23.732827356385 -70.2940898050044,-23.7353733703472 -70.295340901685,-23.7349848024749 -70.2966473043922,-23.7345976104255 -70.2956096289013,-23.7320825464235 -70.2946937288664,-23.7323385512291 -70.2936430507873,-23.73263222075 -70.2930762353981,-23.732827356385</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3009781085429,-23.752703570873 -70.301812829856,-23.7550131476486 -70.3030726714542,-23.7546111377527 -70.3043421486447,-23.7541419723936 -70.3034564189861,-23.7519023766349 -70.3009781085429,-23.752703570873</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3223953603603,-23.8342151844508 -70.3245508982146,-23.83529463711 -70.3245512424959,-23.8352651276703 -70.324550594853,-23.835264772003 -70.3245752657922,-23.8331432791698 -70.3242802399429,-23.8330998673753 -70.3198643563308,-23.8330899598871 -70.3223953603603,-23.8342151844508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3181472758056,-23.7722192490506 -70.3197741107034,-23.7723802046171 -70.3195104924501,-23.7713133175735 -70.3189448397033,-23.7692871279378 -70.3183027856858,-23.7678712440723 -70.3173269311019,-23.7681328518371 -70.3177869488954,-23.7686964195064 -70.3182178310355,-23.7695887815068 -70.3182635252536,-23.7709025836241 -70.3181472758056,-23.7722192490506</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3072358239003,-23.8431023616988 -70.3077867159663,-23.8436019824619 -70.3092895019817,-23.8345760552727 -70.3089484268091,-23.8345761810223 -70.3072358239003,-23.8431023616988</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3096010849284,-23.7979603694894 -70.3115242532276,-23.7981112944954 -70.3118789262533,-23.7960079376571 -70.3099423286188,-23.7957352973683 -70.3096010849284,-23.7979603694894</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.31698224919,-23.7777337704807 -70.3174068397322,-23.7779989598548 -70.3176922913052,-23.7773394282025 -70.3188220144033,-23.7755655810618 -70.3183631649974,-23.7753783447904 -70.3161273481424,-23.775086792338 -70.3165795879953,-23.7764230140069 -70.31698224919,-23.7777337704807</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3218951109779,-23.7732301827404 -70.3220651257485,-23.7732567663653 -70.3227052071674,-23.7724896169453 -70.323474894927,-23.7715798154251 -70.3242758697864,-23.7706840786258 -70.3246779491502,-23.7703938975074 -70.3246769328814,-23.770293550162 -70.3244904536812,-23.7703381594371 -70.3240567851811,-23.7705856011856 -70.3236533971455,-23.7707467618108 -70.3233268753174,-23.7708069066296 -70.3232495729851,-23.7708649153958 -70.3226634711698,-23.7714434009971 -70.3221249630095,-23.7721074974517 -70.3216791843246,-23.7726991146454 -70.3218951109779,-23.7732301827404</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3b</SimpleData>
+		<SimpleData name="NOMBRE">EI-3b Zona especial de áreas verdes</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Jardines, parques, sendero y miradores. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1106590.90674000001</SimpleData>
+		<SimpleData name="Shape_STLe">33139.18595410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.321445271831,-23.7708725280547 -70.3215520251526,-23.7712708066074 -70.321634378821,-23.7711839269127 -70.3216947537285,-23.7709922553262 -70.321445271831,-23.7708725280547</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-17</SimpleData>
+		<SimpleData name="NOMBRE">EI-17 Zona especial de reserva para instalaciones ferroviarias</SimpleData>
+		<SimpleData name="UPREF">Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Instalaciones y zonas de operaciones de ferrocarriles. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">266893.59936499997</SimpleData>
+		<SimpleData name="Shape_STLe">2870.19478752000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3067196682505,-23.8302687486423 -70.3077469703569,-23.8316936924892 -70.3096613104054,-23.8205665964763 -70.3064269792948,-23.8203466175316 -70.3066013565176,-23.8301263861822 -70.3067196682505,-23.8302687486423</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-19</SimpleData>
+		<SimpleData name="NOMBRE">EI-19 Zona especial por proximidad a gasoductos</SimpleData>
+		<SimpleData name="UPREF">Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Construcciones relacionadas con la explotación, mantención y protección de los gasoductos. Áreas verdes y vialidad. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1536725.58642999991</SimpleData>
+		<SimpleData name="Shape_STLe">24484.65613170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.301390137929,-23.7737255689484 -70.3017499693656,-23.776171336959 -70.3017456713617,-23.7761699724933 -70.3017502666753,-23.7762012025683 -70.3021479892546,-23.7802897773858 -70.3025832561069,-23.7848857878528 -70.3034038843247,-23.7942693717869 -70.3038103211875,-23.7985669310888 -70.3043988442817,-23.8054913289697 -70.304596187539,-23.8096472802419 -70.3046944478825,-23.8142819542627 -70.3051167939377,-23.8201563876091 -70.3053675825691,-23.8244552428522 -70.3053164323355,-23.8282556674247 -70.3052144373652,-23.8381495369633 -70.3065874187148,-23.8352406841232 -70.3065885223179,-23.8348354433994 -70.3066013565176,-23.8301263861822 -70.3064269792948,-23.8203466175316 -70.3053544869303,-23.8072496521341 -70.3052755354071,-23.8058465262952 -70.3034141060457,-23.7884701241374 -70.302874369144,-23.7853375409202 -70.3020659204239,-23.7763154259852 -70.3064880174711,-23.7779155236326 -70.3069170431105,-23.77788149699 -70.305844574765,-23.7752328418054 -70.3045784999626,-23.7729865128249 -70.3033056880138,-23.7729255778442 -70.3012237670172,-23.7723241695041 -70.301390137929,-23.7737255689484</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-19</SimpleData>
+		<SimpleData name="NOMBRE">EI-19 Zona especial por proximidad a gasoductos</SimpleData>
+		<SimpleData name="UPREF">Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Construcciones relacionadas con la explotación, mantención y protección de los gasoductos. Áreas verdes y vialidad. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1536725.58642999991</SimpleData>
+		<SimpleData name="Shape_STLe">24484.65613170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2948971647539,-23.7519142561581 -70.2963860239759,-23.7564825463915 -70.296394471141,-23.7564795043101 -70.2975006263697,-23.758891718669 -70.2981694372228,-23.7608872677511 -70.2994008765621,-23.7639832043149 -70.3003650585508,-23.7663048051924 -70.3015703976355,-23.7700281685953 -70.3015601639813,-23.7700255058197 -70.3015706948179,-23.7700580342305 -70.3037478724121,-23.7703383499947 -70.303174934106,-23.7682076160753 -70.2984059313186,-23.7560868942231 -70.2975152793234,-23.7538229600972 -70.2957474159366,-23.7489692732354 -70.2931134303347,-23.7418229488927 -70.2902808415005,-23.7337670891214 -70.2891255711852,-23.7341407396113 -70.2901438365817,-23.7371393363285 -70.2912839838346,-23.7408932245624 -70.2930896080972,-23.7463141586583 -70.2948971647539,-23.7519142561581</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-5</SimpleData>
+		<SimpleData name="NOMBRE">U-5 Zona de  Actividades Productivas molestas y peligrosas; densidad media y baja.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas molestas y peligrosas;densidad media y baja. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">11269360.29690000042</SimpleData>
+		<SimpleData name="Shape_STLe">36420.32332160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3160680964157,-23.7936490049417 -70.314655358438,-23.8096856473394 -70.3134467489473,-23.8095884200434 -70.310778213784,-23.8270372340263 -70.3095777396551,-23.8328738250005 -70.3095523363826,-23.8329973268803 -70.3101428952826,-23.8329842305022 -70.3124806118738,-23.832978677482 -70.3144284424071,-23.8329477398801 -70.3179330928017,-23.8331094420966 -70.3198643563308,-23.8330899598871 -70.3242802399429,-23.8330998673753 -70.3245752657922,-23.8331432791698 -70.3245759156911,-23.8331433747296 -70.324579452543,-23.8328392558226 -70.3245789374227,-23.832827588782 -70.32457914921,-23.8328093907065 -70.3244273335756,-23.8293699342858 -70.324228618378,-23.8097891445281 -70.3244290109726,-23.7988199621156 -70.3247026076744,-23.7914142247149 -70.3247013730089,-23.7914095744693 -70.32143245326,-23.7790912217156 -70.3209367043413,-23.7770850971653 -70.3206997742879,-23.7774469095906 -70.3207292320815,-23.7783068543653 -70.3205960070751,-23.7795122686593 -70.3205043198439,-23.7807173283447 -70.3203654940263,-23.78136844189 -70.3203078157113,-23.7818277066081 -70.3201058268634,-23.7844520774194 -70.3198697033061,-23.7857539483847 -70.3196331907064,-23.7870175917202 -70.3192918527399,-23.7881865530222 -70.3184906449627,-23.7890727116538 -70.3177740546174,-23.7901110670524 -70.3168518549078,-23.7913614443782 -70.3165291361894,-23.7923199709978 -70.3160982314609,-23.7933069017027 -70.3160680964157,-23.7936490049417</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-5</SimpleData>
+		<SimpleData name="NOMBRE">U-5 Zona de  Actividades Productivas molestas y peligrosas; densidad media y baja.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas molestas y peligrosas;densidad media y baja. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">11269360.29690000042</SimpleData>
+		<SimpleData name="Shape_STLe">36420.32332160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3034141060457,-23.7884701241374 -70.3052755354071,-23.8058465262952 -70.3053544869303,-23.8072496521341 -70.3064269792948,-23.8203466175316 -70.3096613104054,-23.8205665964763 -70.3132044740716,-23.8009921119455 -70.3136921804376,-23.798437051501 -70.3115242532276,-23.7981112944954 -70.3096010849284,-23.7979603694894 -70.3099423286188,-23.7957352973683 -70.3118789262533,-23.7960079376571 -70.3140918139009,-23.79634333328 -70.3140962545939,-23.7963200688522 -70.3150545632065,-23.791299146154 -70.3153449583919,-23.7870728851829 -70.3148192858071,-23.7866259806067 -70.3137362719987,-23.7854404842689 -70.310883383223,-23.7825376763625 -70.3079695987876,-23.7800236098901 -70.3067565933328,-23.7788092926414 -70.3064880174711,-23.7779155236326 -70.3020659204239,-23.7763154259852 -70.302874369144,-23.7853375409202 -70.3034141060457,-23.7884701241374</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-5</SimpleData>
+		<SimpleData name="NOMBRE">U-5 Zona de  Actividades Productivas molestas y peligrosas; densidad media y baja.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas molestas y peligrosas;densidad media y baja. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">11269360.29690000042</SimpleData>
+		<SimpleData name="Shape_STLe">36420.32332160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3116268254502,-23.8436138854133 -70.3215240570449,-23.8436009915711 -70.3244548678014,-23.8435533554546 -70.3244552151754,-23.843523479365 -70.3244545643436,-23.8435234903785 -70.3245263403523,-23.8373505202648 -70.3225988961942,-23.8362473965824 -70.3203537988248,-23.8351436225364 -70.3190245649436,-23.8347010159547 -70.3157910751534,-23.8344897152397 -70.3121290796792,-23.8345448316547 -70.3092895019817,-23.8345760552727 -70.3077867159663,-23.8436019824619 -70.3077863844545,-23.8436039738751 -70.3077889185986,-23.8436039803598 -70.3116268254502,-23.8436138854133</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-5</SimpleData>
+		<SimpleData name="NOMBRE">U-5 Zona de  Actividades Productivas molestas y peligrosas; densidad media y baja.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas molestas y peligrosas;densidad media y baja. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">11269360.29690000042</SimpleData>
+		<SimpleData name="Shape_STLe">36420.32332160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3174068397322,-23.7779989598548 -70.3171064642438,-23.7881297444393 -70.3165407612391,-23.7878611437988 -70.3161773013952,-23.7903884862045 -70.3171822018307,-23.7890991764033 -70.3176124269937,-23.788502924297 -70.3181249621236,-23.787829506106 -70.3184530585072,-23.7874061638437 -70.3185534434673,-23.7870612275775 -70.3191539039988,-23.7827512918824 -70.319291904154,-23.7799592518115 -70.3195016621759,-23.7781032577008 -70.3195331716713,-23.7771089828611 -70.3202860093155,-23.7755541917439 -70.3204878193625,-23.7752685536031 -70.3203591349281,-23.7747477823893 -70.3199808780974,-23.7746237979223 -70.3195662192027,-23.7746990261081 -70.3191804149199,-23.7750607376487 -70.3188220144033,-23.7755655810618 -70.3176922913052,-23.7773394282025 -70.3174068397322,-23.7779989598548</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-5</SimpleData>
+		<SimpleData name="NOMBRE">U-5 Zona de  Actividades Productivas molestas y peligrosas; densidad media y baja.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas molestas y peligrosas;densidad media y baja. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">11269360.29690000042</SimpleData>
+		<SimpleData name="Shape_STLe">36420.32332160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3234192904313,-23.7786724417414 -70.3235500999132,-23.7792830154971 -70.3236358882593,-23.7795498965342 -70.3238497796388,-23.7801597566257 -70.3238326867656,-23.7805230974189 -70.3245463706241,-23.7833078311902 -70.3248994105592,-23.7845617529435 -70.3249000454467,-23.7845352183205 -70.3248991078437,-23.7845318876444 -70.3250209047235,-23.7794424719307 -70.3247741636659,-23.7794910399461 -70.3246429599873,-23.7788422402979 -70.3245604629284,-23.7789002943851 -70.3241825427713,-23.7785021115776 -70.3239282745178,-23.7780072905938 -70.3232834505261,-23.7779172411138 -70.3234192904313,-23.7786724417414</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-18</SimpleData>
+		<SimpleData name="NOMBRE">EI-18 Zona de servidumbre de mineroductos</SimpleData>
+		<SimpleData name="UPREF">Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Construcciones relacionadas con la explotación, mantención y protección del mineroducto de la Minera Escondida, áreas verdes y vialidad. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2074541.40674000001</SimpleData>
+		<SimpleData name="Shape_STLe">14094.09587800000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2767329842435,-23.7634771174169 -70.2773927775136,-23.765257766919 -70.2774047699284,-23.7652610534711 -70.2773924859168,-23.7652279009803 -70.2791934668583,-23.7657214019854 -70.281459239803,-23.7664433534238 -70.2846003489719,-23.7674686223599 -70.2863186607743,-23.7679561068525 -70.2881110848738,-23.7685863208568 -70.2900887916031,-23.7690477042955 -70.2922775014273,-23.769841819812 -70.2942823817935,-23.7704223936504 -70.2962093973067,-23.7710035934841 -70.2979023055367,-23.77153894813 -70.3000113156327,-23.7721424645178 -70.3012201061826,-23.7722933324899 -70.3012237670172,-23.7723241695041 -70.3033056880138,-23.7729255778442 -70.3045784999626,-23.7729865128249 -70.310429809706,-23.7739405321645 -70.3116266651296,-23.7741932084433 -70.3126425142854,-23.7745190981658 -70.3141518752959,-23.7748646745759 -70.3152701397792,-23.7750463087537 -70.3161273481424,-23.775086792338 -70.3183631649974,-23.7753783447904 -70.3188220144033,-23.7755655810618 -70.3191804149199,-23.7750607376487 -70.3195662192027,-23.7746990261081 -70.3199808780974,-23.7746237979223 -70.3203591349281,-23.7747477823893 -70.3200865091463,-23.7736444845541 -70.3193843731891,-23.7738028753911 -70.3181605464423,-23.7739662522365 -70.3170163275431,-23.7737848610795 -70.316056724291,-23.7733725012732 -70.3153455835098,-23.7728815576259 -70.3149131476103,-23.7721349403721 -70.3145029104897,-23.7720755994867 -70.3037478724121,-23.7703383499947 -70.3015706948179,-23.7700580342305 -70.2981852278591,-23.7691769865923 -70.2928208342378,-23.7675493685224 -70.2872942740878,-23.765782536251 -70.284007507099,-23.7647316441455 -70.2820291805765,-23.7641985008786 -70.2784453583804,-23.7628698910382 -70.2775004648944,-23.7632049629183 -70.2767329842435,-23.7634771174169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-18</SimpleData>
+		<SimpleData name="NOMBRE">EI-18 Zona de servidumbre de mineroductos</SimpleData>
+		<SimpleData name="UPREF">Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Construcciones relacionadas con la explotación, mantención y protección del mineroducto de la Minera Escondida, áreas verdes y vialidad. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2074541.40674000001</SimpleData>
+		<SimpleData name="Shape_STLe">14094.09587800000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3231145449177,-23.7735412454319 -70.3224559844598,-23.7746096131075 -70.3231765101631,-23.7772599784572 -70.3232834505261,-23.7779172411138 -70.3239282745178,-23.7780072905938 -70.3241825427713,-23.7785021115776 -70.3245604629284,-23.7789002943851 -70.3246429599873,-23.7788422402979 -70.3247741636659,-23.7794910399461 -70.3250209047235,-23.7794424719307 -70.3250216245267,-23.7794124054793 -70.3261693865416,-23.7798386704916 -70.3282763368518,-23.7802148120933 -70.3308127725589,-23.7806947470815 -70.3320644463524,-23.7812215729848 -70.3343668828384,-23.7816676255429 -70.3371006490095,-23.7823966387337 -70.3387665159149,-23.7826684352572 -70.3387664767363,-23.7826982437833 -70.3387668217713,-23.7826983003946 -70.3387725481773,-23.778360033691 -70.3372480203406,-23.777765853971 -70.3353325095928,-23.777065606338 -70.3328295957566,-23.7760478326057 -70.3300162766405,-23.7751402154717 -70.3272062676598,-23.7745550902069 -70.3258811933884,-23.7741353523773 -70.3257492617174,-23.7740935603984 -70.3253637804526,-23.7741336498973 -70.324052240065,-23.7738390548452 -70.3231145449177,-23.7735412454319</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-18</SimpleData>
+		<SimpleData name="NOMBRE">EI-18 Zona de servidumbre de mineroductos</SimpleData>
+		<SimpleData name="UPREF">Infraestructura</SimpleData>
+		<SimpleData name="UPERM">Construcciones relacionadas con la explotación, mantención y protección del mineroducto de la Minera Escondida, áreas verdes y vialidad. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2074541.40674000001</SimpleData>
+		<SimpleData name="Shape_STLe">14094.09587800000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3218951109779,-23.7732301827404 -70.3219574887804,-23.7733835979114 -70.3220651257485,-23.7732567663653 -70.3218951109779,-23.7732301827404</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-6</SimpleData>
+		<SimpleData name="NOMBRE">U-6 Zona de  Actividades Productivas inofensivas y molestas; densidad media y alta.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas inofensivas y molestas; densidad media y alta.Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">5997927.22168000042</SimpleData>
+		<SimpleData name="Shape_STLe">22910.12147050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.2940898050044,-23.7353733703472 -70.2930637635048,-23.7356920306872 -70.2920460609276,-23.7331820056108 -70.2913825274915,-23.7334104298744 -70.2913666959186,-23.7334158795847 -70.2902808415005,-23.7337670891214 -70.2931134303347,-23.7418229488927 -70.2957474159366,-23.7489692732354 -70.2975152793234,-23.7538229600972 -70.2984059313186,-23.7560868942231 -70.303174934106,-23.7682076160753 -70.3037478724121,-23.7703383499947 -70.3145029104897,-23.7720755994867 -70.3149131476103,-23.7721349403721 -70.3125790767681,-23.7662720053687 -70.3127765904838,-23.7652572020157 -70.3141443115675,-23.7690877950064 -70.3142939143096,-23.7695070631188 -70.3150484903872,-23.7701887988539 -70.3161234505595,-23.7717471137225 -70.3167693951301,-23.771951877772 -70.3181472758056,-23.7722192490506 -70.3182635252536,-23.7709025836241 -70.3182178310355,-23.7695887815068 -70.3177869488954,-23.7686964195064 -70.3173269311019,-23.7681328518371 -70.3183027856858,-23.7678712440723 -70.3182316260023,-23.7677143185574 -70.3171564520205,-23.7665579998178 -70.3152362213527,-23.7635541089994 -70.3145007227967,-23.7627001703437 -70.3142486359522,-23.7624155818336 -70.312518886614,-23.7597541109061 -70.31176017125,-23.7586518524001 -70.3104568716754,-23.7562581732521 -70.3089318853323,-23.7532890674522 -70.3083607027137,-23.7522425469145 -70.3073432436214,-23.7501771147852 -70.3050971599424,-23.7456848121192 -70.3043545973198,-23.7441044824226 -70.3030099740877,-23.7412847953777 -70.3032448452548,-23.7411588114586 -70.301888114983,-23.7378465081494 -70.3012328957105,-23.7359046145977 -70.3008157848806,-23.7344147120803 -70.3005878268615,-23.7336758969583 -70.3005427250108,-23.7334561326819 -70.3003969060001,-23.7327456129855 -70.3002860984876,-23.7320416540423 -70.30021197011,-23.7311103872706 -70.3001438165491,-23.7307812143225 -70.2987212491666,-23.7311961013729 -70.297344431365,-23.731597631331 -70.2966904627281,-23.7317804324215 -70.2975976291972,-23.7343159438426 -70.2966473043922,-23.7345976104255 -70.295340901685,-23.7349848024749 -70.2940898050044,-23.7353733703472</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-70.301812829856,-23.7550131476486 -70.3008575433529,-23.7553179676161 -70.2999495942598,-23.7530360564022 -70.3009781085429,-23.752703570873 -70.3034564189861,-23.7519023766349 -70.30451677303,-23.751559567905 -70.305348737547,-23.7537699536116 -70.3043421486447,-23.7541419723936 -70.3030726714542,-23.7546111377527 -70.301812829856,-23.7550131476486</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-6</SimpleData>
+		<SimpleData name="NOMBRE">U-6 Zona de  Actividades Productivas inofensivas y molestas; densidad media y alta.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas inofensivas y molestas; densidad media y alta.Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">5997927.22168000042</SimpleData>
+		<SimpleData name="Shape_STLe">22910.12147050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3045784999626,-23.7729865128249 -70.305844574765,-23.7752328418054 -70.3070741679724,-23.774864020733 -70.3075076886457,-23.77602520414 -70.3108067311249,-23.7748921143013 -70.3112315999545,-23.7751871872164 -70.3111254487794,-23.7775476619745 -70.3069170431105,-23.77788149699 -70.3064880174711,-23.7779155236326 -70.3067565933328,-23.7788092926414 -70.3079695987876,-23.7800236098901 -70.310883383223,-23.7825376763625 -70.3137362719987,-23.7854404842689 -70.3148192858071,-23.7866259806067 -70.3153449583919,-23.7870728851829 -70.3159323677714,-23.7875722693338 -70.3165407612391,-23.7878611437988 -70.3171064642438,-23.7881297444393 -70.3174068397322,-23.7779989598548 -70.31698224919,-23.7777337704807 -70.3165795879953,-23.7764230140069 -70.3161273481424,-23.775086792338 -70.3152701397792,-23.7750463087537 -70.3141518752959,-23.7748646745759 -70.3126425142854,-23.7745190981658 -70.3116266651296,-23.7741932084433 -70.310429809706,-23.7739405321645 -70.3045784999626,-23.7729865128249</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">U-6</SimpleData>
+		<SimpleData name="NOMBRE">U-6 Zona de  Actividades Productivas inofensivas y molestas; densidad media y alta.</SimpleData>
+		<SimpleData name="UPREF">Industrial</SimpleData>
+		<SimpleData name="UPERM">Actividades Productivas inofensivas y molestas; densidad media y alta.Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">5997927.22168000042</SimpleData>
+		<SimpleData name="Shape_STLe">22910.12147050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3244817944289,-23.7692076765711 -70.3259121638483,-23.7692105715037 -70.3266596714381,-23.769189815138 -70.3270930392662,-23.7689136958123 -70.3276498493292,-23.7685218215749 -70.3278181304659,-23.76821930588 -70.3281552716881,-23.7676716162001 -70.3285817877025,-23.7667217321288 -70.3286040586006,-23.7658470078379 -70.328661266757,-23.765344734741 -70.3284825353705,-23.7650323188189 -70.3283671492854,-23.7651709017336 -70.3249800017714,-23.7690995545294 -70.3244817944289,-23.7692076765711</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-11</SimpleData>
+		<SimpleData name="NOMBRE">EI-11 Zona especial de restricción por vía aluvial</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Área verde, espacio público (vialidad). Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2588202.62598000001</SimpleData>
+		<SimpleData name="Shape_STLe">38712.08449860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3079117427481,-23.8322194490149 -70.3065885223179,-23.8348354433994 -70.3065874187148,-23.8352406841232 -70.3052144373652,-23.8381495369633 -70.3051582885631,-23.8435971362733 -70.3077863844545,-23.8436039738751 -70.3077867159663,-23.8436019824619 -70.3072358239003,-23.8431023616988 -70.3089484268091,-23.8345761810223 -70.3092895019817,-23.8345760552727 -70.3121290796792,-23.8345448316547 -70.3157910751534,-23.8344897152397 -70.3190245649436,-23.8347010159547 -70.3203537988248,-23.8351436225364 -70.3225988961942,-23.8362473965824 -70.3245263403523,-23.8373505202648 -70.3245266837853,-23.8373210252889 -70.326053563347,-23.8384956799674 -70.3260440094954,-23.8385179608873 -70.3260538670991,-23.8385255450437 -70.326187348411,-23.8361928432087 -70.3245508982146,-23.83529463711 -70.3223953603603,-23.8342151844508 -70.3198643563308,-23.8330899598871 -70.3179330928017,-23.8331094420966 -70.3144284424071,-23.8329477398801 -70.3124806118738,-23.832978677482 -70.3101428952826,-23.8329842305022 -70.3095523363826,-23.8329973268803 -70.3095777396551,-23.8328738250005 -70.3094616162347,-23.832653111581 -70.3094963778694,-23.8322346663692 -70.3098274559316,-23.8302844707112 -70.3107022814623,-23.8255794199851 -70.3110926154679,-23.8230672018907 -70.3114152611688,-23.8202819682915 -70.3116031958729,-23.8195993824435 -70.3118801182473,-23.8174345931288 -70.3123217516871,-23.8148621979617 -70.3124728718959,-23.8131022915435 -70.3128647084511,-23.8107453673861 -70.3138889563049,-23.8054249405096 -70.3142677679271,-23.8030681232214 -70.3148571578642,-23.7997035583037 -70.3150065825958,-23.7990690853186 -70.3153268219246,-23.7973459637095 -70.3157908155316,-23.7944268991515 -70.3160680964157,-23.7936490049417 -70.3160982314609,-23.7933069017027 -70.3165291361894,-23.7923199709978 -70.3168518549078,-23.7913614443782 -70.3177740546174,-23.7901110670524 -70.3184906449627,-23.7890727116538 -70.3192918527399,-23.7881865530222 -70.3196331907064,-23.7870175917202 -70.3198697033061,-23.7857539483847 -70.3201058268634,-23.7844520774194 -70.3203078157113,-23.7818277066081 -70.3203654940263,-23.78136844189 -70.3205043198439,-23.7807173283447 -70.3205960070751,-23.7795122686593 -70.3207292320815,-23.7783068543653 -70.3206997742879,-23.7774469095906 -70.3209367043413,-23.7770850971653 -70.3204878193625,-23.7752685536031 -70.3202860093155,-23.7755541917439 -70.3195331716713,-23.7771089828611 -70.3195016621759,-23.7781032577008 -70.319291904154,-23.7799592518115 -70.3191539039988,-23.7827512918824 -70.3185534434673,-23.7870612275775 -70.3184530585072,-23.7874061638437 -70.3181249621236,-23.787829506106 -70.3176124269937,-23.788502924297 -70.3171822018307,-23.7890991764033 -70.3161773013952,-23.7903884862045 -70.3156331911533,-23.791362840222 -70.31533761415,-23.7919696464139 -70.3151460040342,-23.7922819059777 -70.3149962253466,-23.7928805404443 -70.3147934340065,-23.7933721025804 -70.3140335131154,-23.7978527915746 -70.313887450153,-23.7988217564401 -70.3136030155522,-23.8002339434822 -70.3129010624314,-23.8040295596992 -70.3128166615123,-23.8046754253344 -70.3126650604765,-23.8050948663931 -70.312518261514,-23.8059921522813 -70.312111498779,-23.8081556595768 -70.3118794468105,-23.8096151873176 -70.3115867885578,-23.8115053268497 -70.3101268788424,-23.8200097740162 -70.3079117427481,-23.8322194490149</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-11</SimpleData>
+		<SimpleData name="NOMBRE">EI-11 Zona especial de restricción por vía aluvial</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Área verde, espacio público (vialidad). Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2588202.62598000001</SimpleData>
+		<SimpleData name="Shape_STLe">38712.08449860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3326494050614,-23.7614638453046 -70.3303365345738,-23.7627645178659 -70.3293930937283,-23.7639386840588 -70.3284825353705,-23.7650323188189 -70.328661266757,-23.765344734741 -70.3286040586006,-23.7658470078379 -70.3285817877025,-23.7667217321288 -70.3281552716881,-23.7676716162001 -70.3278181304659,-23.76821930588 -70.3276498493292,-23.7685218215749 -70.3270930392662,-23.7689136958123 -70.3266596714381,-23.769189815138 -70.3259121638483,-23.7692105715037 -70.3244817944289,-23.7692076765711 -70.3242463567819,-23.7692587714609 -70.3231237151296,-23.7691537013963 -70.3228599087148,-23.7691049430105 -70.3227283462104,-23.7690806262018 -70.3218501408927,-23.7686684496894 -70.3217683758331,-23.7686300736129 -70.321016670177,-23.7682350798606 -70.3207209529351,-23.7680393558265 -70.3207030274142,-23.7680274916652 -70.3207008879272,-23.768020457709 -70.3206431019323,-23.7679806784405 -70.321364125938,-23.7705697869739 -70.321445271831,-23.7708725280547 -70.3216947537285,-23.7709922553262 -70.321634378821,-23.7711839269127 -70.3215520251526,-23.7712708066074 -70.3217526363759,-23.7720192395889 -70.3216791843246,-23.7726991146454 -70.3221249630095,-23.7721074974517 -70.3226634711698,-23.7714434009971 -70.3232495729851,-23.7708649153958 -70.3233268753174,-23.7708069066296 -70.3236533971455,-23.7707467618108 -70.3240567851811,-23.7705856011856 -70.3244904536812,-23.7703381594371 -70.3246769328814,-23.770293550162 -70.3246779491502,-23.7703938975074 -70.3242758697864,-23.7706840786258 -70.323474894927,-23.7715798154251 -70.3227052071674,-23.7724896169453 -70.3220651257485,-23.7732567663653 -70.3219574887804,-23.7733835979114 -70.3224559844598,-23.7746096131075 -70.3231145449177,-23.7735412454319 -70.3235825704862,-23.7729838802139 -70.3240127646972,-23.7723923914441 -70.324550973668,-23.7716996181352 -70.3251539513171,-23.7712500100166 -70.3256781716311,-23.770715056344 -70.326127122793,-23.7704388057481 -70.326623091401,-23.770190824048 -70.3273509558605,-23.7697688080068 -70.3275829975423,-23.7696091101863 -70.3279155998741,-23.7695345676758 -70.3283169403913,-23.7691727018675 -70.328823961454,-23.7684801829279 -70.3291161180602,-23.7681049171552 -70.3291929790882,-23.7680038996808 -70.3292359195902,-23.7676307784529 -70.3297662422828,-23.7661667479135 -70.3299930282902,-23.7654909746504 -70.3303435428089,-23.7647281169119 -70.3306337927639,-23.7641664886925 -70.3310008954946,-23.7635038426679 -70.3311391789007,-23.763316275612 -70.3318960972959,-23.7626932764767 -70.3325333714286,-23.7625587509989 -70.3337770552165,-23.7623186310138 -70.3346141709021,-23.7619243133388 -70.3350951004572,-23.7617337811516 -70.3356394995787,-23.7616573920433 -70.3366678988636,-23.7616915059306 -70.3371056145574,-23.7618454195735 -70.3374564923199,-23.7619198606172 -70.33747287516,-23.7618935354919 -70.3377017189534,-23.761976455971 -70.3379592957203,-23.7620315712562 -70.3382240815344,-23.762068839111 -70.3381432689691,-23.7611262380671 -70.3380475696332,-23.760806052202 -70.3378780642114,-23.7603830123437 -70.3366486215522,-23.7605690960977 -70.3347210221902,-23.7609489566957 -70.3334776870993,-23.7611788839887 -70.3333114132983,-23.7612096317941 -70.3331027945167,-23.7612897420557 -70.3326494050614,-23.7614638453046</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-11</SimpleData>
+		<SimpleData name="NOMBRE">EI-11 Zona especial de restricción por vía aluvial</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Área verde, espacio público (vialidad). Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2588202.62598000001</SimpleData>
+		<SimpleData name="Shape_STLe">38712.08449860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3401698433834,-23.8432636420431 -70.3402242169706,-23.8432662205635 -70.3376693477387,-23.8417503408861 -70.3324480694341,-23.8392150213188 -70.3280484089183,-23.8370819231395 -70.3280456742644,-23.8371103152679 -70.3278179274375,-23.8394750781354 -70.3277898763497,-23.8398314100954 -70.3295065185304,-23.8411519590619 -70.3315500967683,-23.8428546867277 -70.3401698433834,-23.8432636420431</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-11</SimpleData>
+		<SimpleData name="NOMBRE">EI-11 Zona especial de restricción por vía aluvial</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Área verde, espacio público (vialidad). Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2588202.62598000001</SimpleData>
+		<SimpleData name="Shape_STLe">38712.08449860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3171564520205,-23.7665579998178 -70.3182316260023,-23.7677143185574 -70.3178358904872,-23.7656996624426 -70.3178320044303,-23.7656965076791 -70.3164099929841,-23.7637015028068 -70.3148817902617,-23.7614684431702 -70.3134231940074,-23.7594402663351 -70.3126872520684,-23.7585385320046 -70.3115242603504,-23.7564695904827 -70.3095654164327,-23.7527598819462 -70.3095396562735,-23.7527110955023 -70.309545585164,-23.7527092200932 -70.3087520581038,-23.7506820365889 -70.3078830764943,-23.7494468793166 -70.3064016228481,-23.7466637506597 -70.3062158794608,-23.746259113158 -70.3061346757342,-23.74592527628 -70.3035689246031,-23.7411202373217 -70.3032448452548,-23.7411588114586 -70.3030099740877,-23.7412847953777 -70.3043545973198,-23.7441044824226 -70.3050971599424,-23.7456848121192 -70.3073432436214,-23.7501771147852 -70.3083607027137,-23.7522425469145 -70.3089318853323,-23.7532890674522 -70.3104568716754,-23.7562581732521 -70.31176017125,-23.7586518524001 -70.312518886614,-23.7597541109061 -70.3142486359522,-23.7624155818336 -70.3145007227967,-23.7627001703437 -70.3152362213527,-23.7635541089994 -70.3171564520205,-23.7665579998178</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-11</SimpleData>
+		<SimpleData name="NOMBRE">EI-11 Zona especial de restricción por vía aluvial</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Área verde, espacio público (vialidad). Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2588202.62598000001</SimpleData>
+		<SimpleData name="Shape_STLe">38712.08449860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3170163275431,-23.7737848610795 -70.3181605464423,-23.7739662522365 -70.3193843731891,-23.7738028753911 -70.3200865091463,-23.7736444845541 -70.3197741107034,-23.7723802046171 -70.3181472758056,-23.7722192490506 -70.3167693951301,-23.771951877772 -70.3161234505595,-23.7717471137225 -70.3150484903872,-23.7701887988539 -70.3142939143096,-23.7695070631188 -70.3141443115675,-23.7690877950064 -70.3127765904838,-23.7652572020157 -70.3125790767681,-23.7662720053687 -70.3149131476103,-23.7721349403721 -70.3153455835098,-23.7728815576259 -70.316056724291,-23.7733725012732 -70.3170163275431,-23.7737848610795</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-11</SimpleData>
+		<SimpleData name="NOMBRE">EI-11 Zona especial de restricción por vía aluvial</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Área verde, espacio público (vialidad). Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2588202.62598000001</SimpleData>
+		<SimpleData name="Shape_STLe">38712.08449860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3397561993853,-23.8432738790726 -70.3402245240371,-23.8432960854485 -70.3401755313418,-23.8432670170439 -70.3397561993853,-23.8432738790726</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-10</SimpleData>
+		<SimpleData name="NOMBRE">EI-10 Zona especial de restricción por presencia de la falla de Atacama</SimpleData>
+		<SimpleData name="UPREF">Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Parques, paseos, miradores, senderos peatonales, áreas de pic-nic y otros similares. Mayor detalle en ordenanza</SimpleData>
+		<SimpleData name="UPROH">No apta para asentamientos humanos.</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">2738423.92309999978</SimpleData>
+		<SimpleData name="Shape_STLe">27501.01224920000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3141828862179,-23.7486359759331 -70.314504320983,-23.7511108835477 -70.3145077587109,-23.7511097958739 -70.3146126160588,-23.751547795955 -70.315080956031,-23.7542391060546 -70.3157204850689,-23.7584629791788 -70.3159632375053,-23.7593688995564 -70.3162805055365,-23.7599396627013 -70.3167383869257,-23.7615844763264 -70.3175433736682,-23.7641821036089 -70.3178355896627,-23.7656697978883 -70.3178317035976,-23.7656666422218 -70.3178285296024,-23.7656621899583 -70.3178358904872,-23.7656996624426 -70.3182316260023,-23.7677143185574 -70.3183027856858,-23.7678712440723 -70.3189448397033,-23.7692871279378 -70.3195104924501,-23.7713133175735 -70.3197741107034,-23.7723802046171 -70.3200865091463,-23.7736444845541 -70.3203591349281,-23.7747477823893 -70.3204878193625,-23.7752685536031 -70.3209367043413,-23.7770850971653 -70.32143245326,-23.7790912217156 -70.3247013730089,-23.7914095744693 -70.3247023049058,-23.79138435944 -70.3253954539149,-23.7935121047582 -70.3254900747759,-23.7951599962631 -70.3254900094338,-23.7951834473296 -70.3254903777785,-23.7951898615139 -70.3254513069997,-23.8092306754692 -70.3254934200364,-23.8108417622801 -70.3256892665741,-23.814782625083 -70.3262239003926,-23.8265005178562 -70.3263212487335,-23.8284112140123 -70.3264722471853,-23.8304887072374 -70.326471489409,-23.8305039695667 -70.3264725509185,-23.8305185723395 -70.3262138482497,-23.8357297240767 -70.326187348411,-23.8361928432087 -70.3260538670991,-23.8385255450437 -70.3260440094954,-23.8385179608873 -70.3258062516196,-23.8390724384855 -70.3257846502159,-23.8395027179937 -70.3257392719395,-23.8400825612677 -70.3256237248889,-23.8415589990039 -70.3255542542865,-23.8435056024946 -70.3255545579959,-23.8435354675575 -70.3275007702153,-23.8435037896705 -70.327503124369,-23.8434738809551 -70.3275004660605,-23.8434739246312 -70.3277873728093,-23.8398294837187 -70.3277898763497,-23.8398314100954 -70.3278179274375,-23.8394750781354 -70.3280456742644,-23.8371103152679 -70.3280484089183,-23.8370819231395 -70.3280453700765,-23.8370804502104 -70.3280995244061,-23.8365181418429 -70.3282600549087,-23.8339170767369 -70.3284472371581,-23.8320154192528 -70.328376994184,-23.8311168700256 -70.3281487066629,-23.8250229597128 -70.3279727236483,-23.8220233681999 -70.3279177492456,-23.8207048830323 -70.3276059781602,-23.814567716648 -70.3273593085247,-23.8025672956213 -70.3273593858676,-23.8025559774639 -70.3273590049892,-23.8025374304218 -70.3274174355815,-23.7940202550627 -70.3273726842057,-23.7936613164976 -70.3272430040621,-23.7931654307454 -70.32679184819,-23.79169742399 -70.3263570120128,-23.789789619652 -70.3259901281186,-23.7884355763621 -70.3248994105592,-23.7845617529435 -70.3245463706241,-23.7833078311902 -70.3238326867656,-23.7805230974189 -70.3238497796388,-23.7801597566257 -70.3236358882593,-23.7795498965342 -70.3235500999132,-23.7792830154971 -70.3234192904313,-23.7786724417414 -70.3232834505261,-23.7779172411138 -70.3231765101631,-23.7772599784572 -70.3224559844598,-23.7746096131075 -70.3219574887804,-23.7733835979114 -70.3218951109779,-23.7732301827404 -70.3216791843246,-23.7726991146454 -70.3217526363759,-23.7720192395889 -70.3215520251526,-23.7712708066074 -70.321445271831,-23.7708725280547 -70.321364125938,-23.7705697869739 -70.3206431019323,-23.7679806784405 -70.3204374146455,-23.7672420580641 -70.3198773946931,-23.7652588323877 -70.3194144770583,-23.7636929092713 -70.319296818353,-23.7632948940545 -70.3188794637246,-23.7618628820317 -70.3186674529591,-23.7609832360764 -70.3185760141947,-23.7606038473689 -70.3182381601178,-23.760052379975 -70.317885082562,-23.7587744053409 -70.3177639699205,-23.7583360278485 -70.3174595779797,-23.75698141966 -70.316461870444,-23.7507028173622 -70.3163123363945,-23.7496481526073 -70.3156795789465,-23.7451850779671 -70.3147963874727,-23.7399510974398 -70.3145558088085,-23.7391296170264 -70.3143098139484,-23.7382896288573 -70.3141624906904,-23.7377665933332 -70.3138758058289,-23.7367487733198 -70.3132096943375,-23.7343838027288 -70.3127488092267,-23.7327474159869 -70.3125513887218,-23.7320779397225 -70.3111486926811,-23.7273210025126 -70.3110293324297,-23.7269162020824 -70.3099918062923,-23.7232694433694 -70.3086389533751,-23.7232614039782 -70.3079436316992,-23.7232572669017 -70.3091055760201,-23.7274224803764 -70.309112168558,-23.7274461083704 -70.30923439411,-23.7278842322608 -70.3092270295408,-23.7278866300308 -70.3092346924467,-23.7279140979673 -70.3094396998857,-23.7286306879192 -70.3128560261873,-23.7405709133739 -70.3141828862179,-23.7486359759331</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_antofagasta_lanegra_mono.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_antofagasta_lanegra_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Antofagasta</SimpleData>
+		<SimpleData name="LOCALIDAD">La Negra</SimpleData>
+		<SimpleData name="ZONA">EI-3c</SimpleData>
+		<SimpleData name="NOMBRE">EI-3c Zona especial de equipamiento regional</SimpleData>
+		<SimpleData name="UPREF">Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento comunitario del tipo seguridad. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados anteriormente</SimpleData>
+		<SimpleData name="Capa">Seccional Antofagasta - La Negra</SimpleData>
+		<SimpleData name="CUT">02101</SimpleData>
+		<SimpleData name="Shape_STAr">1428497.03881999990</SimpleData>
+		<SimpleData name="Shape_STLe">5752.09979793000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.301261814957,-23.7699478656952 -70.3015706948179,-23.7700580342305 -70.3015580566458,-23.7700249573389 -70.2963947669523,-23.7565093700591 -70.2911357889899,-23.7583730497692 -70.2855797730086,-23.7603417444961 -70.2799384084119,-23.7623404201096 -70.2875149228437,-23.7650439018348 -70.301261814957,-23.7699478656952</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

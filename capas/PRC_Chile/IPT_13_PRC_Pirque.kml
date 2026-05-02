@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ipt_13_prc_pirque_mono" id="ipt_13_prc_pirque_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>ipt_13_prc_pirque_mono</name>
+  <Placemark id="ipt_13_prc_pirque_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZE -2</SimpleData>
+		<SimpleData name="NOM">Equipamiento recreacional deportivo</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, deporte, esparcimiento, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5836160741983,-33.6359202740302 -70.5839972924869,-33.6361933784942 -70.5846351071048,-33.6367530838416 -70.585489481341,-33.6376106503029 -70.5860158803174,-33.6380047537737 -70.5866776022554,-33.6383112205487 -70.5871062696738,-33.6383534389192 -70.5875863600924,-33.6383997675214 -70.5882104501257,-33.6385205977703 -70.5882496681631,-33.6382743314046 -70.5856363113995,-33.637009869726 -70.5852791774722,-33.6368235661229 -70.5850348968486,-33.636569005329 -70.584654426491,-33.6363543664947 -70.5836770984742,-33.6359469456561 -70.5836160741983,-33.6359202740302</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5881891800756,-33.6389157612798 -70.5881652716622,-33.6387788709094 -70.5880642485506,-33.6387145524779 -70.5877349596003,-33.6386472007303 -70.5875349942504,-33.6386318734366 -70.5872562718358,-33.6385996616997 -70.5870348075555,-33.6385786445121 -70.5867918442943,-33.6385519377679 -70.5864331621968,-33.6384372389018 -70.5861885589292,-33.6383210753245 -70.5857780013745,-33.6380996680769 -70.5853087676022,-33.6377895351643 -70.5848584132829,-33.6373419607391 -70.5844301083808,-33.6369298926721 -70.5838781997414,-33.6363881740916 -70.5836619060707,-33.6362597123982 -70.5831357614857,-33.6359562649785 -70.5826976861943,-33.6357888855449 -70.5823189407535,-33.635746012684 -70.5820483404674,-33.6357673711174 -70.5819775890753,-33.6357981020747 -70.5819220785738,-33.6358823240484 -70.5817553823992,-33.6376859227158 -70.5880314088425,-33.6400332634555 -70.5881891800756,-33.6389157612798</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5817553823992,-33.6376859227158 -70.5816197237212,-33.6384571585063 -70.5816438398287,-33.638605977897 -70.581787964935,-33.6386876455238 -70.5878913014811,-33.6409477247527 -70.5879762054195,-33.6409108434926 -70.5880314088425,-33.6400332634555 -70.5817553823992,-33.6376859227158</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5877523129843,-33.6411463585336 -70.584054420842,-33.6397800666055 -70.5816990931947,-33.638897561702 -70.5816080399101,-33.6389882033936 -70.581546009985,-33.6394960318774 -70.5865366763191,-33.6413588145848 -70.5878445405644,-33.6418967774845 -70.5878920552683,-33.6413772028269 -70.5878972143924,-33.6412697646214 -70.5878460991939,-33.6412048050019 -70.5877523129843,-33.6411463585336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.581546009985,-33.6394960318774 -70.5810348331809,-33.6447192619796 -70.5872850988048,-33.6470347481313 -70.5878445405644,-33.6418967774845 -70.5865366763191,-33.6413588145848 -70.581546009985,-33.6394960318774</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5807208481605,-33.6419005856157 -70.5748257691762,-33.639635111609 -70.5746899152342,-33.6396941073566 -70.5744185495476,-33.6421814408864 -70.5745065879069,-33.6423163243649 -70.5806672267673,-33.6445855725491 -70.5807766295122,-33.6444839596612 -70.5810072592046,-33.6421188251957 -70.5809451414459,-33.6419979312898 -70.5807208481605,-33.6419005856157</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5727003907304,-33.6388037866832 -70.5725586590648,-33.6388533106673 -70.5725599602495,-33.6389248756384 -70.5725626710656,-33.6390739693254 -70.5726216627625,-33.639180591186 -70.5741429758866,-33.642048349014 -70.5742137352712,-33.6420176223433 -70.5743959395671,-33.6402734860754 -70.5744614507723,-33.6395628019963 -70.574388305116,-33.6394623264421 -70.5727003907304,-33.6388037866832</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5768378754265,-33.6370677244055 -70.5763566402627,-33.6378970485977 -70.5812428590422,-33.6397530295827 -70.5813410023144,-33.6390359602064 -70.5813374694991,-33.6388427356038 -70.5812846947694,-33.6387646711119 -70.5768378754265,-33.6370677244055</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5763566402627,-33.6378970485977 -70.5754446968924,-33.6395120987086 -70.5809173884641,-33.6416111502549 -70.5810033428588,-33.6416315254032 -70.581062320356,-33.6415806641427 -70.581236448521,-33.6397505947923 -70.5763566402627,-33.6378970485977</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM - 1</SimpleData>
+		<SimpleData name="NOM">Centro cívico</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5768378754265,-33.6370677244055 -70.5751061777634,-33.6364312497162 -70.574970589581,-33.6365045586337 -70.5747446240013,-33.6391344783547 -70.5747897493353,-33.6392627502133 -70.5754446968924,-33.6395120987086 -70.5763566402627,-33.6378970485977 -70.5768378754265,-33.6370677244055</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM - 1</SimpleData>
+		<SimpleData name="NOM">Centro cívico</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5733196898856,-33.6357608498055 -70.5732175427928,-33.6357907823084 -70.5731841011356,-33.6358341567842 -70.5726882183269,-33.6383696802874 -70.5727711098813,-33.6385356493209 -70.5744253096107,-33.6391445105504 -70.5744822625797,-33.6391390131077 -70.5745550246376,-33.6390617327912 -70.574716617897,-33.636969494635 -70.5747564869459,-33.6363390694416 -70.5746690192207,-33.6362351973204 -70.5733196898856,-33.6357608498055</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM - 1</SimpleData>
+		<SimpleData name="NOM">Centro cívico</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5715742167333,-33.6351483604687 -70.5709892802697,-33.6378090848476 -70.5722762339625,-33.6383033390839 -70.572349864693,-33.63827377001 -70.5724165771451,-33.6381774794581 -70.5728709144139,-33.6358667742899 -70.5728613067969,-33.6356521518647 -70.5727685720031,-33.6355722058668 -70.5715742167333,-33.6351483604687</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5676336692093,-33.6368600370307 -70.5675008391648,-33.6369285307762 -70.5672631939676,-33.6395562023624 -70.5674022954788,-33.6396761274881 -70.5737006435979,-33.642008407276 -70.5737506788324,-33.6419361888305 -70.5722610561096,-33.6390847252003 -70.5722371793652,-33.6387128049239 -70.5721413729484,-33.6386209673444 -70.5676336692093,-33.6368600370307</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5655554475203,-33.6360655690189 -70.565430827271,-33.6361148681513 -70.5651535377063,-33.6387621274061 -70.565224748403,-33.6389139332815 -70.566993073488,-33.6395262218337 -70.567049940877,-33.6395159567852 -70.5671053386561,-33.639424584539 -70.5673552626812,-33.6371594376343 -70.56734333427,-33.6368159971214 -70.5672559611736,-33.6367168905311 -70.5655554475203,-33.6360655690189</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5596890672037,-33.6337661861516 -70.5594927779153,-33.6351406456815 -70.5593514790458,-33.6364010733971 -70.5594104527525,-33.6365077021273 -70.5626815574287,-33.6379636484246 -70.5648854397197,-33.6387649248531 -70.5649984402799,-33.6387038430501 -70.5651326370079,-33.6374494656193 -70.5652734207555,-33.6361651787843 -70.565262945543,-33.6359803921475 -70.5651688559728,-33.6359040365762 -70.5643283126205,-33.6355627318783 -70.5608886388564,-33.6342461542846 -70.5600271689922,-33.6339289444853 -70.5598177223263,-33.6337824584921 -70.5596890672037,-33.6337661861516</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5713750964139,-33.6360541242328 -70.5705027864863,-33.6357284245747 -70.5695938860727,-33.6353152497118 -70.5683241028759,-33.6348207485323 -70.5677081911062,-33.6351482913758 -70.5675753728691,-33.6363191420153 -70.5676113250468,-33.6364141283038 -70.5676705249569,-33.6365326803276 -70.5709892802697,-33.6378090848476 -70.5713750964139,-33.6360541242328</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5715742167333,-33.6351483604687 -70.5702977887545,-33.6346235022263 -70.5695614840131,-33.6343286302607 -70.5685240658644,-33.6339451147697 -70.5684360815833,-33.6340088649109 -70.5683891479907,-33.6341735015449 -70.5683717090961,-33.6345882996932 -70.5683749528846,-33.6347672126025 -70.5683241028759,-33.6348207485323 -70.5695938860727,-33.6353152497118 -70.5705027864863,-33.6357284245747 -70.5713750964139,-33.6360541242328 -70.5715742167333,-33.6351483604687</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5659819080002,-33.6329930927373 -70.5658710769086,-33.63297660107 -70.5658151743196,-33.6330399430428 -70.5657881135131,-33.6331208151439 -70.5657602943497,-33.6333567904691 -70.5657139495852,-33.6335542269879 -70.5657082772029,-33.6336348282029 -70.565709083945,-33.6338764061194 -70.5659816810693,-33.6339654132743 -70.5661218415387,-33.6340262718325 -70.5667106257164,-33.634248469833 -70.5681358509112,-33.6347821758477 -70.5682383657473,-33.634733154435 -70.5682393357554,-33.6345899788793 -70.5682466245077,-33.6344019846517 -70.5682474323471,-33.6342498634424 -70.5682552076041,-33.6340887061462 -70.5682816717026,-33.6339750328696 -70.5682335996599,-33.6338802004722 -70.5681721334818,-33.6338332590355 -70.5659819080002,-33.6329930927373</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.565709083945,-33.6338764061194 -70.5655822475375,-33.6349457721388 -70.5655039737704,-33.6355462596822 -70.5655379463278,-33.6356502194007 -70.5656391656531,-33.6357264844029 -70.5657398454098,-33.6357729304657 -70.5673055798724,-33.6363853953538 -70.5673586209295,-33.6363608623765 -70.567432510926,-33.6363062393711 -70.5675848723626,-33.6350725071299 -70.5681358509112,-33.6347821758477 -70.5667106257164,-33.634248469833 -70.5661218415387,-33.6340262718325 -70.5659816810693,-33.6339654132743 -70.565709083945,-33.6338764061194</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5655299790227,-33.6338308337735 -70.5625597280543,-33.6326801527835 -70.5598604579923,-33.6316834603207 -70.5598497391026,-33.6317217724969 -70.5597287144639,-33.6332360605577 -70.5597583509061,-33.633297724193 -70.5599386909383,-33.6334911057054 -70.560209946173,-33.6336642511958 -70.5630591311173,-33.6347449374537 -70.565242083809,-33.6355762994657 -70.565315628498,-33.6355419635502 -70.5653599635908,-33.6354698205514 -70.5655299790227,-33.6338308337735</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5655299790227,-33.6338308337735 -70.5656284186662,-33.6332807944086 -70.5656393990067,-33.6329418354231 -70.5655407974054,-33.6328524138818 -70.5639090742631,-33.6322145131696 -70.5621513802434,-33.6315495494526 -70.5595383041928,-33.6305851649096 -70.5594761681261,-33.6306193534834 -70.5597477901439,-33.6314462758212 -70.5598604579923,-33.6316834603207 -70.5625597280543,-33.6326801527835 -70.5655299790227,-33.6338308337735</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5595242643457,-33.6315469239126 -70.5558540556447,-33.6301662995144 -70.555891107635,-33.6303233133005 -70.5560450606564,-33.6306363359244 -70.5562653112013,-33.6308292208047 -70.5564444366204,-33.630955813285 -70.5568140960369,-33.6312088537823 -70.5572706844978,-33.6315371521831 -70.5581436030696,-33.6321751625958 -70.5593862092481,-33.6330661987014 -70.5594882724115,-33.6330315065391 -70.5594788705762,-33.6328264240825 -70.559577402169,-33.6316464681246 -70.5595242643457,-33.6315469239126</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5595242643457,-33.6315469239126 -70.5592273366885,-33.6305819287426 -70.5590988514134,-33.6304165248267 -70.5575879354175,-33.6298295088098 -70.5558824380625,-33.6292067456599 -70.5557699146947,-33.6292940597893 -70.555749846365,-33.6294470202466 -70.5557328663348,-33.6297717382675 -70.5558540556447,-33.6301662995144 -70.5595242643457,-33.6315469239126</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5553477014967,-33.629424827951 -70.5551971483991,-33.6300550621469 -70.5549674216021,-33.6310167108024 -70.5544401503861,-33.6331039863592 -70.5541273947344,-33.6344651347886 -70.5570900808832,-33.635607459448 -70.5589770618504,-33.6363209710409 -70.5591047532427,-33.6362835699148 -70.5593752592264,-33.6337246901371 -70.5593885001227,-33.6335097778683 -70.5576281567225,-33.632222021638 -70.5570295936967,-33.6317714375794 -70.5559370796287,-33.6309763166745 -70.5556833155384,-33.6306645498352 -70.5554967081014,-33.6302803557232 -70.5554250502322,-33.6301023026057 -70.5554222197597,-33.6299448581535 -70.5553477014967,-33.629424827951</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZP -E</SimpleData>
+		<SimpleData name="NOM">Actividades productivas con equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: hospedaje, científico, comercio, culto y cultura; Equipamiento: deporte, seguridad, servicios, social; Act. prod: inofensivas; Espacio Público; Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5815180813806,-33.6371054110379 -70.5789593877587,-33.6361717672252 -70.5783139187672,-33.6373789988979 -70.578973727017,-33.6376604784158 -70.5812442077296,-33.6385083310197 -70.5813422732655,-33.6384891813051 -70.5814047413399,-33.6383953263999 -70.5815180813806,-33.6371054110379</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5815550893863,-33.6356971694994 -70.5812683763241,-33.6356173253082 -70.5808592606823,-33.6354734293369 -70.5804684843372,-33.6351622741438 -70.5798729626556,-33.6345733734858 -70.5797479479159,-33.6343661916666 -70.5795651351282,-33.6341179922984 -70.5791133055049,-33.6335869029982 -70.5786144047343,-33.6332115062016 -70.5773922056734,-33.6338415136934 -70.5770249950661,-33.6344307806147 -70.5772873144261,-33.6347376207775 -70.577232669808,-33.6348695506758 -70.578670129131,-33.6354835069758 -70.5788932168649,-33.6355939954404 -70.5791349194177,-33.6359428506162 -70.5789593877587,-33.6361717672252 -70.5815180813806,-33.6371054110379 -70.5815563808843,-33.6369378977621 -70.5816031686696,-33.6363765780346 -70.5816424991828,-33.6357974582975 -70.5815550893863,-33.6356971694994</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZP -1</SimpleData>
+		<SimpleData name="NOM">Actividades productivas</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio; Act. prod:  inofensivas; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5770249950661,-33.6344307806147 -70.5761596908891,-33.6341411728004 -70.575349057881,-33.635678577264 -70.5751996308939,-33.6356184439175 -70.5749002280812,-33.6360946963675 -70.5760322174538,-33.6365383925377 -70.5783139187672,-33.6373789988979 -70.5789593877587,-33.6361717672252 -70.5791349194177,-33.6359428506162 -70.5788932168649,-33.6355939954404 -70.578670129131,-33.6354835069758 -70.577232669808,-33.6348695506758 -70.5772873144261,-33.6347376207775 -70.5770249950661,-33.6344307806147</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM - 1</SimpleData>
+		<SimpleData name="NOM">Centro cívico</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.575482860107,-33.6354248188932 -70.5741579131107,-33.6349224585133 -70.5737902575382,-33.6356847105453 -70.5749002280812,-33.6360946963675 -70.5751996308939,-33.6356184439175 -70.575349057881,-33.635678577264 -70.575482860107,-33.6354248188932</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">P</SimpleData>
+		<SimpleData name="NOM">Plaza</SimpleData>
+		<SimpleData name="UPERM">Espacio público con declaratoria de utilidad pública</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5741579131107,-33.6349224585133 -70.5735586833883,-33.634715342185 -70.5732738677439,-33.6353274101379 -70.5732505951198,-33.6354201657968 -70.5733379952347,-33.6355204607589 -70.5737902575382,-33.6356847105453 -70.5741579131107,-33.6349224585133</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZE -1</SimpleData>
+		<SimpleData name="NOM">Equipamiento metropolitano</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: científico, comercio, culto y cultura, esparcimiento, social; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5786144047343,-33.6332115062016 -70.5773299033908,-33.6325365423406 -70.5769085790277,-33.6321911673088 -70.5766037319437,-33.6318979916769 -70.5762277070728,-33.631455401437 -70.5759439921478,-33.631147638344 -70.5753275832193,-33.6306615809642 -70.5746711854435,-33.6300937108362 -70.574551023635,-33.6300737666709 -70.5744954807579,-33.630078053073 -70.5744572433768,-33.6300928563189 -70.5744107764735,-33.6301256597446 -70.5743070934546,-33.6303059339621 -70.5739560190597,-33.6312338062213 -70.57346561814,-33.6325392539975 -70.5735616635526,-33.6327229507004 -70.5741995816727,-33.6332934476444 -70.5739545299445,-33.6339348364845 -70.5735586833883,-33.634715342185 -70.5741579131107,-33.6349224585133 -70.575482860107,-33.6354248188932 -70.5757360067589,-33.6349447173269 -70.5761596908891,-33.6341411728004 -70.5770249950661,-33.6344307806147 -70.5773922056734,-33.6338415136934 -70.5786144047343,-33.6332115062016</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM - 1</SimpleData>
+		<SimpleData name="NOM">Centro cívico</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5731700491238,-33.6325858051147 -70.5727715402102,-33.6324119212186 -70.572652806559,-33.6324706968411 -70.5724763968225,-33.6326518946296 -70.5720432576237,-33.6334448003203 -70.5718928875917,-33.6334109214286 -70.5716281502988,-33.6339117790854 -70.572011794656,-33.6340679601667 -70.5715650752428,-33.6349147230552 -70.5721980715043,-33.6351357360175 -70.5728393011857,-33.6353387455417 -70.5729997754492,-33.6352221733858 -70.5734449200325,-33.6342895277199 -70.5738154653469,-33.6334902560098 -70.5737956204411,-33.6333401873399 -70.573285953738,-33.6328420239493 -70.5731700491238,-33.6325858051147</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5732408565706,-33.629005227589 -70.5732068318525,-33.6290163977625 -70.5731499397507,-33.6291817593624 -70.572583103837,-33.6311860972413 -70.5730057564114,-33.6313704119446 -70.5734359247323,-33.6314973642493 -70.5735585436255,-33.6314170639709 -70.5736368242228,-33.6312514300013 -70.5740940405694,-33.6300430390945 -70.5740292916228,-33.6300116516923 -70.574205237123,-33.6298054041056 -70.5740793660898,-33.6297067924021 -70.5733442320178,-33.6290432820724 -70.5732408565706,-33.629005227589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5726013351378,-33.6314829290054 -70.5724991259816,-33.6318230485831 -70.5723787313583,-33.6322612275335 -70.5726805519662,-33.6323886216002 -70.5727539607587,-33.6323471249008 -70.5731504112413,-33.6325019466301 -70.5733575581691,-33.6319719930437 -70.5733578503035,-33.631831212205 -70.573296488548,-33.6317508672544 -70.5726013351378,-33.6314829290054</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5726013351378,-33.6314829290054 -70.5712929468859,-33.6309448064507 -70.5702905130528,-33.630718936585 -70.5685376483024,-33.6303212407802 -70.5683851263304,-33.6304043015213 -70.5674092438255,-33.6322730282078 -70.5687881308029,-33.6328091043011 -70.5691902371807,-33.6329614809877 -70.5707525276628,-33.6335429278877 -70.5716281502988,-33.6339117790854 -70.5718928875917,-33.6334109214286 -70.5720432576237,-33.6334448003203 -70.5724763968225,-33.6326518946296 -70.572652806559,-33.6324706968411 -70.57270999789,-33.6324423859687 -70.5726805519662,-33.6323886216002 -70.5723787313583,-33.6322612275335 -70.5724991259816,-33.6318230485831 -70.5726013351378,-33.6314829290054</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5674092438255,-33.6322730282078 -70.5670210052734,-33.6330119001685 -70.5670636960141,-33.633164066613 -70.5671612623549,-33.633196234702 -70.5690050998847,-33.6338886652714 -70.5707058539735,-33.6345542530441 -70.5715650752428,-33.6349147230552 -70.572011794656,-33.6340679601667 -70.5716281502988,-33.6339117790854 -70.5707525276628,-33.6335429278877 -70.5691902371807,-33.6329614809877 -70.5687881308029,-33.6328091043011 -70.5674092438255,-33.6322730282078</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZE -2</SimpleData>
+		<SimpleData name="NOM">Equipamiento recreacional deportivo</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, deporte, esparcimiento, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5783071201207,-33.6300803176934 -70.5782352436421,-33.630109788281 -70.5779670109067,-33.6301036677095 -70.5774409084017,-33.6300340273622 -70.577056782154,-33.6299291691797 -70.5762877500307,-33.629676510178 -70.5758051925363,-33.6294917771105 -70.5757427164421,-33.6295068896673 -70.575847288337,-33.6296105432248 -70.5759063526059,-33.6300345077628 -70.5756380643166,-33.630338569661 -70.5753845954415,-33.6302034085035 -70.5750178413721,-33.6301126389206 -70.575469568701,-33.630483879967 -70.5760367591131,-33.6309300011785 -70.5763218777454,-33.6312365531523 -70.5766237610595,-33.6315238022269 -70.5771710204947,-33.6321276514898 -70.5775002964689,-33.6323525115258 -70.5781113103886,-33.6326978494346 -70.5785986253351,-33.6329075658194 -70.5789234778508,-33.6331241272325 -70.5792198140482,-33.6333410520094 -70.5795918025328,-33.633795614454 -70.5798996841698,-33.6340684097183 -70.5798649652519,-33.6340105271555 -70.5797444453893,-33.6336589318749 -70.5796979453201,-33.6336118050377 -70.5795647140674,-33.6333450767176 -70.579474695968,-33.6331016566722 -70.5793961064504,-33.6327029973056 -70.5793690566299,-33.6323931563558 -70.5793571367887,-33.6321308431131 -70.5793159375249,-33.631827147992 -70.579292807578,-33.6317320014358 -70.5792538949107,-33.6315535447079 -70.5790346812799,-33.6312640533963 -70.5786296196761,-33.6305593758093 -70.5783527241068,-33.6302348288691 -70.5783071201207,-33.6300803176934</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -2</SimpleData>
+		<SimpleData name="NOM">Zona residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda; Equipamiento: comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5777788871592,-33.6293944143688 -70.5778993162363,-33.6296762353889 -70.5779978592778,-33.629918355009 -70.5780311601034,-33.6301051315278 -70.5782352436421,-33.630109788281 -70.5783071201207,-33.6300803176934 -70.577996649918,-33.6297132495434 -70.5777788871592,-33.6293944143688</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -2</SimpleData>
+		<SimpleData name="NOM">Zona residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda; Equipamiento: comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5779073416739,-33.6300957693941 -70.5778423023019,-33.6298344423952 -70.5776603339922,-33.6294752776093 -70.5775236864725,-33.629255118323 -70.5772108149882,-33.6289906789346 -70.5765851429607,-33.628465375831 -70.5759301882428,-33.6279762334238 -70.5759636256168,-33.6279328582795 -70.5754136815566,-33.6275712213669 -70.5752454733425,-33.627967063303 -70.5749452700913,-33.6286330174183 -70.5757427164421,-33.6295068896673 -70.5758051925363,-33.6294917771105 -70.5762877500307,-33.629676510178 -70.577056782154,-33.6299291691797 -70.5774409084017,-33.6300340273622 -70.5779073416739,-33.6300957693941</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.57324646307,-33.6275206725992 -70.5723750832869,-33.628304838627 -70.5734848003599,-33.6288633743396 -70.5743504729865,-33.6296469104695 -70.5745646744343,-33.6296620782053 -70.5754126227145,-33.629941182108 -70.5755273992519,-33.6299003497169 -70.5755808567623,-33.6297815589007 -70.5755320447147,-33.6296855457789 -70.5752436698814,-33.6293563657653 -70.5746154669953,-33.6286915006811 -70.5741862685518,-33.6283820067722 -70.57324646307,-33.6275206725992</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5731457174304,-33.6289344985866 -70.5725727856024,-33.6286417405374 -70.572108568847,-33.628406055848 -70.5716130218523,-33.6280156740243 -70.5713073735687,-33.6276765632312 -70.570953764986,-33.6272485839007 -70.5707084557132,-33.6270906416221 -70.5704748149614,-33.6269862368915 -70.5703608052395,-33.6269906674899 -70.5702445838051,-33.6270696903219 -70.5701026056197,-33.6273011511905 -70.5694856525081,-33.6284721863135 -70.5686635614459,-33.6299321479082 -70.5687051511157,-33.6300628533027 -70.5687735818587,-33.6301007584632 -70.5713690358744,-33.6306792260246 -70.5725259566026,-33.6311655882199 -70.5727369789352,-33.6304172623573 -70.5730086368752,-33.6294742978164 -70.5731457174304,-33.6289344985866</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZE -2</SimpleData>
+		<SimpleData name="NOM">Equipamiento recreacional deportivo</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, deporte, esparcimiento, social; Espacio Público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.566649646757,-33.6255960492659 -70.5664877688539,-33.6256694035534 -70.566647087858,-33.6258045833978 -70.566907292077,-33.6259981360646 -70.5673660274154,-33.6261295202817 -70.5676444878133,-33.62614985076 -70.5683937819802,-33.626182104694 -70.5686363818182,-33.6261909575091 -70.5691723492693,-33.6262557385754 -70.5698582414968,-33.6263305441909 -70.570082268435,-33.6264947236235 -70.5702849093298,-33.6266591742321 -70.5705875731511,-33.6268342842944 -70.5710108896258,-33.6269780349743 -70.5713383002901,-33.6273377480162 -70.571645193157,-33.6277454420334 -70.5721511614114,-33.6281207784165 -70.5723750832869,-33.628304838627 -70.57324646307,-33.6275206725992 -70.5741862685518,-33.6283820067722 -70.5745088771976,-33.6286146394028 -70.5745789528397,-33.6283046296609 -70.5748048779283,-33.6277887508044 -70.5750197900112,-33.627260166902 -70.574537509161,-33.627089741355 -70.5740434766396,-33.6269003750574 -70.5734990720631,-33.626764140982 -70.5729952850761,-33.6266655646378 -70.5724514903475,-33.6265627229058 -70.5723666365271,-33.6266019788719 -70.5719996406578,-33.6264968867246 -70.5717292525409,-33.626371477042 -70.5715636012985,-33.6263592662593 -70.5715472658072,-33.6263533034373 -70.571500433445,-33.6263362085543 -70.5712587354758,-33.6262199774008 -70.5711101939809,-33.6262075485794 -70.5710115948664,-33.62611813125 -70.5709358950797,-33.6260331950172 -70.5708215726999,-33.6260203310862 -70.5706911801762,-33.6260649365366 -70.5699999759372,-33.626011677477 -70.5696291859818,-33.6260116128611 -70.5695041497969,-33.6260370606193 -70.5689573410902,-33.6260821771567 -70.5684151971515,-33.6260699667404 -70.5680431353201,-33.6261131927033 -70.5679541074903,-33.6261235357416 -70.5673583881297,-33.6259879250605 -70.5669271972816,-33.6258025054429 -70.566649646757,-33.6255960492659</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5671666664313,-33.6322086176527 -70.5597931137414,-33.6294385906053 -70.5595359626651,-33.6302053735287 -70.5596023838714,-33.630329803838 -70.5665816173135,-33.6329795699142 -70.5666953652448,-33.6329602331477 -70.5667864285264,-33.6328696020898 -70.5671666664313,-33.6322086176527</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5597931137414,-33.6294385906053 -70.5641328449396,-33.6310689759489 -70.5671666664313,-33.6322086176527 -70.5681623209839,-33.6303289047678 -70.5681688007016,-33.6302142919056 -70.5679875868822,-33.6301306921524 -70.5672458841432,-33.6298108203088 -70.5658243225875,-33.6292776523411 -70.5655899698174,-33.6290945075318 -70.5649313871152,-33.6281651241913 -70.563882917887,-33.6274410978518 -70.5636751440257,-33.6273077202744 -70.5627824910883,-33.6266819280696 -70.5612673250755,-33.6256989237638 -70.5610941654186,-33.6255865791596 -70.5609833417639,-33.6256094528287 -70.5608901437867,-33.6256607366296 -70.5597931137414,-33.6294385906053</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZM -2</SimpleData>
+		<SimpleData name="NOM">Zona mixta residencial equipamiento</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Act. productivas: taller; Espacio público; Área verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5595120770817,-33.6293391374213 -70.5557575470107,-33.6279300435686 -70.555509143947,-33.6288300023146 -70.5590991111736,-33.6301651501513 -70.5592244147136,-33.6301540257815 -70.5593140358621,-33.6300622252719 -70.5595120770817,-33.6293391374213</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5595120770817,-33.6293391374213 -70.5598653357946,-33.6283659408764 -70.5604726395103,-33.6262967217119 -70.5607148258056,-33.6254919486243 -70.560661260536,-33.6253685495565 -70.560494321631,-33.6252847582982 -70.5602354452413,-33.6251639499501 -70.5600508817792,-33.6250517477307 -70.5593051810866,-33.6248225475867 -70.5588808326135,-33.624699050808 -70.5585778823089,-33.6246646927837 -70.5582636978976,-33.6246400198356 -70.5578336486076,-33.624516591261 -70.55672949535,-33.6241249527752 -70.556671339653,-33.6242570309072 -70.5564366235574,-33.625161917373 -70.5562356071169,-33.6260377464584 -70.5561577934676,-33.6263469100158 -70.5557777312039,-33.6278569159016 -70.5557575470107,-33.6279300435686 -70.5565225923945,-33.628217182086 -70.5595120770817,-33.6293391374213</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5578651809898,-33.6215773295446 -70.5576866431517,-33.622034750568 -70.5575118778732,-33.6224664433702 -70.5573930607707,-33.6225204332868 -70.5573884739648,-33.6225825287027 -70.5571569827138,-33.6233489842943 -70.5571306138837,-33.6234686195095 -70.5568467132379,-33.6238587365094 -70.5573446880854,-33.624077988442 -70.5577577971764,-33.6242111764362 -70.5580044882506,-33.6242891945059 -70.5582339846865,-33.6243626566359 -70.5585026295808,-33.6243926757911 -70.5587136425448,-33.6243900159968 -70.5591605436275,-33.6244989126401 -70.5596076177447,-33.6246173497112 -70.5599178192964,-33.6247375119407 -70.5601590686337,-33.6248299106653 -70.5604810219754,-33.6249690116621 -70.5606025075994,-33.625062920877 -70.560768757761,-33.6251085437162 -70.5608650219171,-33.6250691516104 -70.5615768287129,-33.6231035942716 -70.5616143388991,-33.6229695011302 -70.5614584654149,-33.6228664828488 -70.5609372599843,-33.6227489881531 -70.5605178483761,-33.6225824853979 -70.560148302478,-33.6223342259304 -70.5596531229648,-33.6220780057348 -70.559296706599,-33.6219250205343 -70.5590495056218,-33.6218183786024 -70.5588599355389,-33.6217444145395 -70.5585741901824,-33.6217146115571 -70.5581858791284,-33.6216908725073 -70.5580708768,-33.6216398282018 -70.5578651809898,-33.6215773295446</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_13_prc_pirque_mono.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_13_prc_pirque_mono">
+		<SimpleData name="REG">Metropolitana</SimpleData>
+		<SimpleData name="COM">Pirque</SimpleData>
+		<SimpleData name="LOC">Pirque</SimpleData>
+		<SimpleData name="ZONA">ZH -1</SimpleData>
+		<SimpleData name="NOM">Zona residencial baja densidad</SimpleData>
+		<SimpleData name="UPERM">Residencial: vivienda, hospedaje; Equipamiento: científico, comercio, culto y cultura, deporte, educación, salud, seguridad, servicios, social; Espacio Público; Área Verde</SimpleData>
+		<SimpleData name="UPROH">Para mayor detalle revisar ordenanza local</SimpleData>
+		<SimpleData name="P_DO">23/12/2015</SimpleData>
+		<SimpleData name="N_DOC">1297</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.5700117072896,-33.626886853287 -70.5700328103382,-33.6267923361073 -70.5699622946702,-33.6266787007785 -70.5698099897589,-33.626537471145 -70.569265789911,-33.62649069279 -70.568819840326,-33.6264355073082 -70.5685884731454,-33.6264169681399 -70.5682157583142,-33.6263894840717 -70.5678392201388,-33.6263871009571 -70.5672346203249,-33.6263124467836 -70.5668261970783,-33.6262030921141 -70.5664279511473,-33.6259468645733 -70.5662127911771,-33.6256417886128 -70.5660023633587,-33.6253617059215 -70.5658767670052,-33.6252773984133 -70.5646779670208,-33.6247557107141 -70.5636204604265,-33.6242393826576 -70.5629516787981,-33.6236894997453 -70.5623125878211,-33.6231249215388 -70.5621772811753,-33.6229763091689 -70.5619884379782,-33.6229429038589 -70.5618864952705,-33.6229835615638 -70.5618209657896,-33.6231454483892 -70.5617603590498,-33.6233430639214 -70.5615732914875,-33.6238822902268 -70.5612748396624,-33.6247295315063 -70.5611657863844,-33.6250876245135 -70.5611167824414,-33.6252170904936 -70.5612050403164,-33.6253662979982 -70.5617232281035,-33.6256317651139 -70.5623204787674,-33.6260107619213 -70.5631697010515,-33.6266013158693 -70.5638724679256,-33.6271364507844 -70.5648849016729,-33.6277607189466 -70.5651714848765,-33.6279933112733 -70.5659257279499,-33.6290073799039 -70.5666067564029,-33.6292850796673 -70.5672190894055,-33.6295493300251 -70.56832956636,-33.6299146320666 -70.568405135093,-33.6298349336448 -70.568663076418,-33.6294308039744 -70.5700117072896,-33.626886853287</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ipt_08_prc_florida" id="ipt_08_prc_florida">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>ipt_08_prc_florida</name>
+  <Placemark id="ipt_08_prc_florida.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZEXHC</SimpleData>
+		<SimpleData name="NOM">ZEXHC Zona de extension habitacional condicionada</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, deporte, educacion, esparcimiento, salud. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6516262709938,-36.8083090706017 -72.6479571609374,-36.8095849696708 -72.6478723495662,-36.8107849278385 -72.6476765640823,-36.8132312598769 -72.647492037634,-36.816213203305 -72.649803188527,-36.8161992124561 -72.649969673911,-36.813137998601 -72.6491324212283,-36.8134260050418 -72.6491094438224,-36.8133155281327 -72.6491968492601,-36.8129165755879 -72.6492653580645,-36.8124184249563 -72.649168530369,-36.8111271206032 -72.650835357408,-36.810539934298 -72.651306342025,-36.8110500091061 -72.6520014665873,-36.8125452807116 -72.652001260056,-36.8126065932216 -72.6519854993442,-36.8172781572522 -72.6535338389957,-36.817179217366 -72.6535204228795,-36.8125014120189 -72.6516262709938,-36.8083090706017</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZH-4</SimpleData>
+		<SimpleData name="NOM">ZH-4 Zona residencial 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, culto y cultura, deporte, educacion, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6520014665873,-36.8125452807116 -72.651306342025,-36.8110500091061 -72.650835357408,-36.810539934298 -72.649168530369,-36.8111271206032 -72.6492653580645,-36.8124184249563 -72.6491968492601,-36.8129165755879 -72.6491094438224,-36.8133155281327 -72.6491324212283,-36.8134260050418 -72.649969673911,-36.813137998601 -72.6509882364023,-36.8128230311834 -72.6511183969868,-36.8128760472766 -72.652001260056,-36.8126065932216 -72.6520014665873,-36.8125452807116</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6504838122551,-36.8116098269936 -72.6505861479052,-36.8118233450384 -72.6501592303725,-36.8119419489455 -72.6500716005905,-36.8117393809843 -72.6504838122551,-36.8116098269936</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">AVP</SimpleData>
+		<SimpleData name="NOM">AVP Area verde publica</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6504838122551,-36.8116098269936 -72.6500716005905,-36.8117393809843 -72.6501592303725,-36.8119419489455 -72.6505861479052,-36.8118233450384 -72.6504838122551,-36.8116098269936</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZH-3</SimpleData>
+		<SimpleData name="NOM">ZH-3 Zona residencial 3</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, sulto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.652001260056,-36.8126065932216 -72.6511183969868,-36.8128760472766 -72.6509882364023,-36.8128230311834 -72.649969673911,-36.813137998601 -72.649803188527,-36.8161992124561 -72.647492037634,-36.816213203305 -72.6473991857701,-36.8172067219206 -72.6472437580444,-36.8194579558234 -72.6474543307902,-36.8193374547579 -72.6476541218615,-36.819288555242 -72.6478325105475,-36.8193115835649 -72.6480242263957,-36.8193912198729 -72.6481629440903,-36.8195494559663 -72.648221714823,-36.8197415074319 -72.6480683968729,-36.8205444520519 -72.648009035811,-36.8209368401635 -72.6480116960545,-36.8211420187449 -72.648104656604,-36.8213073625852 -72.6482958152081,-36.8214497333968 -72.6497229696376,-36.8220815259006 -72.6509157949305,-36.8226321309912 -72.6514557244388,-36.822800833573 -72.651883743183,-36.8228532398548 -72.6544239703147,-36.8230288168903 -72.6544033675956,-36.8208086538142 -72.653434437642,-36.82079000283 -72.6535338389957,-36.817179217366 -72.6519854993442,-36.8172781572522 -72.652001260056,-36.8126065932216</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6521610382767,-36.8190673589496 -72.6520819847418,-36.8203868751609 -72.6514446511415,-36.8204064741472 -72.6514346375284,-36.819152414721 -72.6521610382767,-36.8190673589496</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6509715334771,-36.8185109617901 -72.6509584136214,-36.8186824152864 -72.6507742989408,-36.8186880756028 -72.6507661746932,-36.8185172752164 -72.6509715334771,-36.8185109617901</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZEC</SimpleData>
+		<SimpleData name="NOM">ZEC Zona equipamiento de cementerio</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: salud.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6521610382767,-36.8190673589496 -72.6514346375284,-36.819152414721 -72.6514446511415,-36.8204064741472 -72.6520819847418,-36.8203868751609 -72.6521610382767,-36.8190673589496</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">AVP</SimpleData>
+		<SimpleData name="NOM">AVP Area verde publica</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6509715334771,-36.8185109617901 -72.6507661746932,-36.8185172752164 -72.6507742989408,-36.8186880756028 -72.6509584136214,-36.8186824152864 -72.6509715334771,-36.8185109617901</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZEXH-1</SimpleData>
+		<SimpleData name="NOM">ZEXH-1 Zona de extension habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6535338389957,-36.817179217366 -72.653434437642,-36.82079000283 -72.6544033675956,-36.8208086538142 -72.6544239703147,-36.8230288168903 -72.6569101431065,-36.8231860477252 -72.6567988798966,-36.8224881696961 -72.6569652422586,-36.8213655223258 -72.6579647682522,-36.820165896727 -72.6582673950488,-36.8199684200377 -72.658614461023,-36.8195129984712 -72.6587682353112,-36.8185731889836 -72.6590532660304,-36.8177091582696 -72.6595571385812,-36.8175681962124 -72.6592473464612,-36.8167224939313 -72.656864724668,-36.8173204399634 -72.6535338389957,-36.817179217366</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZIS</SimpleData>
+		<SimpleData name="NOM">ZIS Zona infraestructura sanitaria</SimpleData>
+		<SimpleData name="UPERM">Infraestructura: sanitaria.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6592473464612,-36.8167224939313 -72.6595571385812,-36.8175681962124 -72.6600185600579,-36.8189166710679 -72.6601492346424,-36.8192775493867 -72.6636512960733,-36.8183599230775 -72.6634242217499,-36.817762553587 -72.662722884373,-36.8158456267225 -72.6592473464612,-36.8167224939313</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de equipamiento recreativo</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, culto y cultura, deporte, esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6600185600579,-36.8189166710679 -72.6595571385812,-36.8175681962124 -72.6590532660304,-36.8177091582696 -72.6587682353112,-36.8185731889836 -72.658614461023,-36.8195129984712 -72.6582673950488,-36.8199684200377 -72.6579647682522,-36.820165896727 -72.6569652422586,-36.8213655223258 -72.6567988798966,-36.8224881696961 -72.6569101431065,-36.8231860477252 -72.6572215385335,-36.824958224267 -72.6573026121358,-36.8254688762951 -72.658223597125,-36.8266378538066 -72.6582257173151,-36.8269798876973 -72.6547108480913,-36.827042508962 -72.6546668843761,-36.8287999722382 -72.6581251765641,-36.8287390924752 -72.6581741333848,-36.8291709106909 -72.6573561782264,-36.8304618739028 -72.6572028654403,-36.8317095564592 -72.657258717851,-36.8331788614562 -72.658044666705,-36.8344888352711 -72.6582390846207,-36.8349959946025 -72.658668302421,-36.8356669661351 -72.6596460018861,-36.8375753941045 -72.6637630097973,-36.8356296001221 -72.6633499047085,-36.835519762273 -72.6631548780073,-36.8352977129947 -72.6630764386614,-36.8351404879905 -72.6632404728543,-36.8347135057983 -72.6632443078577,-36.8344967251557 -72.6625437442644,-36.8337885273751 -72.6621368234474,-36.8332879310237 -72.661956549586,-36.8327803432093 -72.6617283133544,-36.8324566867858 -72.661409655414,-36.8320217853069 -72.6612522107706,-36.8319924303923 -72.6610043433418,-36.8318518313105 -72.6607058329513,-36.8315417427582 -72.6602962636184,-36.8306877188961 -72.6599461203347,-36.8295923923665 -72.660092238766,-36.8287896584657 -72.6596511055757,-36.827868184738 -72.6590296515289,-36.8270320888646 -72.6589245803845,-36.8266134043165 -72.6584759773201,-36.8249395381251 -72.6583477272993,-36.8231417664593 -72.6583395860252,-36.8229709676125 -72.6583314448198,-36.8228001687592 -72.6588645234212,-36.820890795992 -72.6594017254411,-36.82025846396 -72.6600185600579,-36.8189166710679</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZH-1</SimpleData>
+		<SimpleData name="NOM">ZH-1 Zona residencial 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6509157949305,-36.8226321309912 -72.6511375473332,-36.8234919665796 -72.6511128518667,-36.8241655218121 -72.6514844346435,-36.8249694340064 -72.6518187189638,-36.8257345806426 -72.6518415523889,-36.8259163317253 -72.6519049874076,-36.827100327155 -72.6547108480913,-36.827042508962 -72.6582257173151,-36.8269798876973 -72.658223597125,-36.8266378538066 -72.6573026121358,-36.8254688762951 -72.6572215385335,-36.824958224267 -72.6569101431065,-36.8231860477252 -72.6544239703147,-36.8230288168903 -72.651883743183,-36.8228532398548 -72.6514557244388,-36.822800833573 -72.6509157949305,-36.8226321309912</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZEXH-2</SimpleData>
+		<SimpleData name="NOM">ZEXH-2 Zona de extension habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6509157949305,-36.8226321309912 -72.6497229696376,-36.8220815259006 -72.6482958152081,-36.8214497333968 -72.648104656604,-36.8213073625852 -72.6480116960545,-36.8211420187449 -72.648009035811,-36.8209368401635 -72.6480683968729,-36.8205444520519 -72.648221714823,-36.8197415074319 -72.6481629440903,-36.8195494559663 -72.6480242263957,-36.8193912198729 -72.6478325105475,-36.8193115835649 -72.6476541218615,-36.819288555242 -72.6474543307902,-36.8193374547579 -72.6472437580444,-36.8194579558234 -72.6466871304778,-36.8271466530959 -72.6519049874076,-36.827100327155 -72.6518415523889,-36.8259163317253 -72.6518187189638,-36.8257345806426 -72.6514844346435,-36.8249694340064 -72.6511128518667,-36.8241655218121 -72.6511375473332,-36.8234919665796 -72.6509157949305,-36.8226321309912</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZEXH-2</SimpleData>
+		<SimpleData name="NOM">ZEXH-2 Zona de extension habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6634242217499,-36.817762553587 -72.6636512960733,-36.8183599230775 -72.6601492346424,-36.8192775493867 -72.6600185600579,-36.8189166710679 -72.6594017254411,-36.82025846396 -72.6588645234212,-36.820890795992 -72.6583314448198,-36.8228001687592 -72.6583395860252,-36.8229709676125 -72.6596937227999,-36.822664116066 -72.6604383053061,-36.8213240841609 -72.6646077350537,-36.8204200640741 -72.6647572880915,-36.8201360685954 -72.6656234129264,-36.8198584643622 -72.6662106289032,-36.8196806904804 -72.666671063409,-36.8214510870006 -72.6668880827297,-36.8222825264701 -72.667196124582,-36.8223471355559 -72.6674210937322,-36.8224542205303 -72.6676948103284,-36.8226909375646 -72.6676251139943,-36.8221229263307 -72.6676548089451,-36.822002274294 -72.6678610047409,-36.8217165247439 -72.6679547028726,-36.8215995986928 -72.6679797789319,-36.8212339192281 -72.6680394392691,-36.8209983087284 -72.6681884270853,-36.8208511660036 -72.6688080652139,-36.8204614166132 -72.6690134302401,-36.8203068299032 -72.6690570118909,-36.8201800464144 -72.6690673811208,-36.8196551762445 -72.6691812430521,-36.819218333664 -72.6692823010747,-36.8188103943547 -72.6686886220231,-36.8176656033769 -72.6669368800359,-36.8175144489029 -72.6634242217499,-36.817762553587</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZEXHC</SimpleData>
+		<SimpleData name="NOM">ZEXHC Zona de extension habitacional condicionada</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, deporte, educacion, esparcimiento, salud. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.666724650996,-36.8267291498373 -72.6664110652839,-36.8278848608879 -72.6660696275364,-36.8299422917237 -72.664648787075,-36.8303396538016 -72.6618002675635,-36.8309919971058 -72.6615091123898,-36.8306873858156 -72.6618366015308,-36.8301185244592 -72.6616907007118,-36.8292905836366 -72.6616962261169,-36.8286632330815 -72.6616884410466,-36.8277569118183 -72.6616443174221,-36.8277240625978 -72.6596511055757,-36.827868184738 -72.660092238766,-36.8287896584657 -72.6599461203347,-36.8295923923665 -72.6602962636184,-36.8306877188961 -72.6607058329513,-36.8315417427582 -72.6610043433418,-36.8318518313105 -72.6612522107706,-36.8319924303923 -72.661409655414,-36.8320217853069 -72.6617283133544,-36.8324566867858 -72.661956549586,-36.8327803432093 -72.6621368234474,-36.8332879310237 -72.6625437442644,-36.8337885273751 -72.6632443078577,-36.8344967251557 -72.6632404728543,-36.8347135057983 -72.6630764386614,-36.8351404879905 -72.6631548780073,-36.8352977129947 -72.6633499047085,-36.835519762273 -72.6637630097973,-36.8356296001221 -72.6648273706491,-36.8351178142123 -72.6644806130887,-36.8348377338126 -72.6644359423291,-36.834793498494 -72.6644612934086,-36.8345817559315 -72.6644416892491,-36.8344683291191 -72.6640012558802,-36.8338604422978 -72.6635749803063,-36.8334003603343 -72.6632080897711,-36.832995460061 -72.6630806183331,-36.832851150082 -72.6630000234368,-36.8325001356102 -72.6626753790503,-36.8319399853672 -72.6641553394729,-36.8318886221813 -72.66575325965,-36.8316340410316 -72.6679529026537,-36.8312069072923 -72.6677285440141,-36.8290358152976 -72.6676740978772,-36.8283418975516 -72.6675621954475,-36.8273361648406 -72.6675319938478,-36.8267042164607 -72.666724650996,-36.8267291498373</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">ZAP Zona de actividades productivas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, seguridad, servicios, social. Actividades productivas. Infraestructura de transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.666724650996,-36.8267291498373 -72.6675319938478,-36.8267042164607 -72.6726868762934,-36.8266033279452 -72.6728641965968,-36.8266035453445 -72.6747677884915,-36.824885476572 -72.6762636826798,-36.8251698674792 -72.67766124921,-36.8253261469221 -72.6781624975651,-36.8230584831308 -72.676765791575,-36.8229192863677 -72.6761720254333,-36.8228122342164 -72.6720985063451,-36.8221628520838 -72.6708981995416,-36.8218293574368 -72.6701930537772,-36.8216173873295 -72.6691190919975,-36.8206627679181 -72.6688751971538,-36.8205676740912 -72.6688080652139,-36.8204614166132 -72.6681884270853,-36.8208511660036 -72.6680394392691,-36.8209983087284 -72.6679797789319,-36.8212339192281 -72.6679547028726,-36.8215995986928 -72.6678610047409,-36.8217165247439 -72.6676548089451,-36.822002274294 -72.6676251139943,-36.8221229263307 -72.6676948103284,-36.8226909375646 -72.6679023449944,-36.8228783830099 -72.6681997038823,-36.824351621554 -72.6682367245313,-36.8248294154093 -72.6677131589561,-36.8260429320682 -72.666724650996,-36.8267291498373</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZH-5</SimpleData>
+		<SimpleData name="NOM">ZH-5 Zono residencial 5</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.67766124921,-36.8253261469221 -72.6762636826798,-36.8251698674792 -72.6747677884915,-36.824885476572 -72.6728641965968,-36.8266035453445 -72.6726868762934,-36.8266033279452 -72.6731291841475,-36.8306577556871 -72.6718457251044,-36.8358517202482 -72.6750274021037,-36.8363034879692 -72.67766124921,-36.8253261469221</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZH-1</SimpleData>
+		<SimpleData name="NOM">ZH-1 Zona residencial 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6668880827297,-36.8222825264701 -72.6642384854651,-36.8224526926315 -72.6620344643002,-36.8226347148516 -72.6603963712999,-36.8230843362554 -72.6590933450037,-36.8231244952357 -72.6583481329795,-36.8231474560669 -72.6584759773201,-36.8249395381251 -72.6589245803845,-36.8266134043165 -72.6590296515289,-36.8270320888646 -72.6596511055757,-36.827868184738 -72.6616443174221,-36.8277240625978 -72.6616884410466,-36.8277569118183 -72.6616962261169,-36.8286632330815 -72.6616907007118,-36.8292905836366 -72.6618366015308,-36.8301185244592 -72.6615091123898,-36.8306873858156 -72.6618002675635,-36.8309919971058 -72.664648787075,-36.8303396538016 -72.6660696275364,-36.8299422917237 -72.6664110652839,-36.8278848608879 -72.666724650996,-36.8267291498373 -72.6677131589561,-36.8260429320682 -72.6682367245313,-36.8248294154093 -72.6681997038823,-36.824351621554 -72.6679023449944,-36.8228783830099 -72.6676948103284,-36.8226909375646 -72.6674210937322,-36.8224542205303 -72.667196124582,-36.8223471355559 -72.6668880827297,-36.8222825264701</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6634043441706,-36.8232153664677 -72.6637373466046,-36.8269225631007 -72.6609944185064,-36.8271097932216 -72.6596657117916,-36.8272077684096 -72.6592697344576,-36.8233656566483 -72.6634043441706,-36.8232153664677</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6643118858182,-36.8290030387022 -72.6643339335187,-36.8291677054489 -72.663988537651,-36.8292125738595 -72.6639283470952,-36.8291403093804 -72.663966761377,-36.8290535998474 -72.6643118858182,-36.8290030387022</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">AVP</SimpleData>
+		<SimpleData name="NOM">AVP Area verde publica</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.665129701227,-36.8213261961517 -72.6645392070579,-36.8214356464263 -72.6642145461254,-36.8214684715172 -72.6642292231688,-36.8217759074917 -72.6651792315504,-36.8217693956338 -72.665129701227,-36.8213261961517</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">AVP</SimpleData>
+		<SimpleData name="NOM">AVP Area verde publica</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6619762128419,-36.8218226011438 -72.661303990598,-36.8220029755958 -72.6614461236839,-36.8223064822974 -72.6621047282925,-36.8221379302456 -72.6619762128419,-36.8218226011438</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">AVP</SimpleData>
+		<SimpleData name="NOM">AVP Area verde publica</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6643118858182,-36.8290030387022 -72.663966761377,-36.8290535998474 -72.6639283470952,-36.8291403093804 -72.663988537651,-36.8292125738595 -72.6643339335187,-36.8291677054489 -72.6643118858182,-36.8290030387022</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZHCC</SimpleData>
+		<SimpleData name="NOM">ZHCC Zona centro civico</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6634043441706,-36.8232153664677 -72.6592697344576,-36.8233656566483 -72.6596657117916,-36.8272077684096 -72.6637373466046,-36.8269225631007 -72.6634043441706,-36.8232153664677</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6620825981072,-36.8248697018789 -72.6621541485806,-36.825551692016 -72.6609940777098,-36.8256159726512 -72.6609417890881,-36.8255605682629 -72.6608619336114,-36.8249272969724 -72.6620825981072,-36.8248697018789</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">AVP</SimpleData>
+		<SimpleData name="NOM">AVP Area verde publica</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6620825981072,-36.8248697018789 -72.6608619336114,-36.8249272969724 -72.6609417890881,-36.8255605682629 -72.6609940777098,-36.8256159726512 -72.6621541485806,-36.825551692016 -72.6620825981072,-36.8248697018789</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">ZAP Zona de actividades productivas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, seguridad, servicios, social. Actividades productivas. Infraestructura de transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8054778270402,-36.8913996817985 -72.8041257369154,-36.8907588770538 -72.8039958370951,-36.8914301003355 -72.803622969213,-36.8923542694098 -72.8028208489082,-36.893782513373 -72.8017221120348,-36.8956706626534 -72.8005586689166,-36.8976863061909 -72.8010766351337,-36.8975385813878 -72.8013819962286,-36.8972551330359 -72.8014554524907,-36.8970190244393 -72.8016162374714,-36.8966831942106 -72.8018884372521,-36.8963038846494 -72.8024200876514,-36.8954316444435 -72.8024524292224,-36.8952253601621 -72.8025167977719,-36.8950921656809 -72.8026684731983,-36.8950017838257 -72.8029706735379,-36.8949407861716 -72.8031039481891,-36.8946229404041 -72.8033001410241,-36.8944285064959 -72.8033976795842,-36.8942486383917 -72.8034132984926,-36.8939915773485 -72.8034615256459,-36.893676456585 -72.8039242058473,-36.8932739319728 -72.8043097752714,-36.892890982607 -72.8043934187756,-36.892717260182 -72.8044518387194,-36.8924645266797 -72.8045706470183,-36.8921414423957 -72.8047869714432,-36.8917810219974 -72.8051104328517,-36.8915768032405 -72.8054778270402,-36.8913996817985</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de equipamiento recreativo</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, culto y cultura, deporte, esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8054778270402,-36.8913996817985 -72.8051104328517,-36.8915768032405 -72.8047869714432,-36.8917810219974 -72.8045706470183,-36.8921414423957 -72.8044518387194,-36.8924645266797 -72.8043934187756,-36.892717260182 -72.8043097752714,-36.892890982607 -72.8039242058473,-36.8932739319728 -72.8034615256459,-36.893676456585 -72.8034132984926,-36.8939915773485 -72.8033976795842,-36.8942486383917 -72.8033001410241,-36.8944285064959 -72.8031039481891,-36.8946229404041 -72.8029706735379,-36.8949407861716 -72.8026684731983,-36.8950017838257 -72.8025167977719,-36.8950921656809 -72.8024524292224,-36.8952253601621 -72.8024200876514,-36.8954316444435 -72.8018884372521,-36.8963038846494 -72.8016162374714,-36.8966831942106 -72.8014554524907,-36.8970190244393 -72.8013819962286,-36.8972551330359 -72.8010766351337,-36.8975385813878 -72.8005586689166,-36.8976863061909 -72.8000915089246,-36.8983569261934 -72.7996800877588,-36.8987920033884 -72.8000656394519,-36.8988366686085 -72.8006452209676,-36.8980712257307 -72.8014217678051,-36.8976985643043 -72.8015879071712,-36.897613422971 -72.8019550206404,-36.8977156855638 -72.8020605540299,-36.8971250657883 -72.8021206828104,-36.8969064866218 -72.8030832879314,-36.8955643242811 -72.8037091818226,-36.8946605524062 -72.8039053862525,-36.8943235829491 -72.8039116395584,-36.8941637455556 -72.8042093259471,-36.8938691337541 -72.8043703466923,-36.893824060975 -72.8046787794978,-36.8937457556587 -72.804940999649,-36.8937373459335 -72.8049410257682,-36.8934522785547 -72.8050102508977,-36.8928457146764 -72.8050269974774,-36.892611423662 -72.8050219031822,-36.8925089627458 -72.8051239628222,-36.8924201690437 -72.8059177280397,-36.8919671087721 -72.806185057261,-36.8917760903397 -72.8063664842512,-36.8917132576704 -72.8066006424899,-36.8915689132466 -72.8068804447687,-36.8913432850686 -72.8071673315915,-36.8911174289434 -72.80737682828,-36.8909054573149 -72.8074859692388,-36.8908164353517 -72.8076058767314,-36.8908011848307 -72.8077405161975,-36.8909393981859 -72.8079675592073,-36.8912228808022 -72.8079422803361,-36.8921416071737 -72.8079672225958,-36.8922149237015 -72.8084219001917,-36.8925082038311 -72.8085840421896,-36.8926284288342 -72.8086523551675,-36.8927174574916 -72.8087107318715,-36.8931773918557 -72.8089409065365,-36.8933809529774 -72.8091883678024,-36.8937892060077 -72.8092875715319,-36.8942136211392 -72.809614390332,-36.8953604993834 -72.8094355004005,-36.895759636087 -72.8093597948308,-36.8962352775 -72.8095729766406,-36.8962398353428 -72.8098987059526,-36.8962236752061 -72.8101025401022,-36.8958978546605 -72.8102037464173,-36.8957919804728 -72.8102561930563,-36.8957047756687 -72.8102649832106,-36.8955961675072 -72.8101496114129,-36.8952748967336 -72.8101765491238,-36.894960458511 -72.8098261883751,-36.894053793248 -72.8096408088938,-36.8934668072321 -72.8093383421639,-36.8933795962719 -72.8092496161899,-36.8933083269887 -72.8091302765151,-36.8931924297351 -72.8090248278596,-36.8930703864149 -72.8089616176904,-36.8929412843382 -72.8089327098547,-36.8927882765735 -72.8088972800406,-36.8926468799484 -72.8087612203061,-36.8924802073909 -72.808611834868,-36.892331065986 -72.8084766249168,-36.8921814711692 -72.808448568005,-36.8920455386088 -72.8084304369149,-36.8918237686425 -72.8083918946183,-36.8916197573946 -72.8081623082103,-36.8911425116034 -72.8080055657502,-36.8908453713857 -72.8078400308918,-36.8906568381968 -72.8076186607683,-36.8903446678447 -72.8074508452753,-36.8903956628674 -72.8072966270768,-36.8905773536636 -72.8068093243445,-36.8909122645633 -72.8066083371999,-36.8910099343777 -72.8060087590026,-36.891513782743 -72.8058987662742,-36.891585727131 -72.8054778270402,-36.8913996817985</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZEXH-2</SimpleData>
+		<SimpleData name="NOM">ZEXH-2 Zona de extension habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.806185057261,-36.8917760903397 -72.8075061401064,-36.8924349700988 -72.8076830206799,-36.8925661261025 -72.8080226166715,-36.8926863578523 -72.8087107318715,-36.8931773918557 -72.8086523551675,-36.8927174574916 -72.8085840421896,-36.8926284288342 -72.8084219001917,-36.8925082038311 -72.8079672225958,-36.8922149237015 -72.8079422803361,-36.8921416071737 -72.8079675592073,-36.8912228808022 -72.8077405161975,-36.8909393981859 -72.8076058767314,-36.8908011848307 -72.8074859692388,-36.8908164353517 -72.80737682828,-36.8909054573149 -72.8071673315915,-36.8911174289434 -72.8068804447687,-36.8913432850686 -72.8066006424899,-36.8915689132466 -72.8063664842512,-36.8917132576704 -72.806185057261,-36.8917760903397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZH-4</SimpleData>
+		<SimpleData name="NOM">ZH-4 Zona residencial 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, culto y cultura, deporte, educacion, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.806185057261,-36.8917760903397 -72.8059177280397,-36.8919671087721 -72.8051239628222,-36.8924201690437 -72.8050219031822,-36.8925089627458 -72.8050269974774,-36.892611423662 -72.8050102508977,-36.8928457146764 -72.8049410257682,-36.8934522785547 -72.804940999649,-36.8937373459335 -72.8061493242212,-36.8938411242302 -72.8061465039041,-36.8936416671246 -72.8064543795128,-36.8934094383145 -72.8076421496568,-36.8934568465029 -72.8076486783548,-36.8933027011501 -72.8089409065365,-36.8933809529774 -72.8087107318715,-36.8931773918557 -72.8080226166715,-36.8926863578523 -72.8076830206799,-36.8925661261025 -72.8075061401064,-36.8924349700988 -72.806185057261,-36.8917760903397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZEXHC</SimpleData>
+		<SimpleData name="NOM">ZEXHC Zona de extension habitacional condicionada</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, deporte, educacion, esparcimiento, salud. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8061493242212,-36.8938411242302 -72.804940999649,-36.8937373459335 -72.8049674640225,-36.8941983060323 -72.8048514971839,-36.8944357806927 -72.8049540362891,-36.8953561107804 -72.8046608749977,-36.8957418009541 -72.8038965601031,-36.8960741807915 -72.8033992289421,-36.8969225208169 -72.803352713875,-36.8971292605344 -72.8038362201971,-36.8984307710754 -72.8043601795108,-36.8978324337712 -72.8045578039235,-36.8975239257573 -72.8049326227158,-36.8970672008355 -72.8052294525781,-36.8968980434545 -72.8058018366641,-36.8967029430984 -72.8061493242212,-36.8938411242302</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZEXH-1</SimpleData>
+		<SimpleData name="NOM">ZEXH-1 Zona de extension habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8101496114129,-36.8952748967336 -72.8102649832106,-36.8955961675072 -72.8102561930563,-36.8957047756687 -72.8102037464173,-36.8957919804728 -72.8101025401022,-36.8958978546605 -72.8098987059526,-36.8962236752061 -72.8099898421963,-36.8964145932303 -72.8107558239639,-36.896686462697 -72.8108618487734,-36.8968198893051 -72.8123668918282,-36.8963952507189 -72.8116791510662,-36.8948437790498 -72.8101496114129,-36.8952748967336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZH-1</SimpleData>
+		<SimpleData name="NOM">ZH-1 Zona residencial 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8093597948308,-36.8962352775 -72.8094355004005,-36.895759636087 -72.809614390332,-36.8953604993834 -72.8092875715319,-36.8942136211392 -72.8091883678024,-36.8937892060077 -72.8089409065365,-36.8933809529774 -72.8076486783548,-36.8933027011501 -72.8076421496568,-36.8934568465029 -72.8064543795128,-36.8934094383145 -72.8061465039041,-36.8936416671246 -72.8061493242212,-36.8938411242302 -72.8058018366641,-36.8967029430984 -72.8060187110854,-36.8966389718354 -72.8073097265455,-36.8966203566446 -72.8073057873522,-36.8961130639789 -72.8093597948308,-36.8962352775</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.8075284422407,-36.8940249281097 -72.8074581054771,-36.8946087232244 -72.8067666947543,-36.8945510900719 -72.8068160583652,-36.8939736708542 -72.8075284422407,-36.8940249281097</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">AVP</SimpleData>
+		<SimpleData name="NOM">AVP Area verde publica</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8075284422407,-36.8940249281097 -72.8068160583652,-36.8939736708542 -72.8067666947543,-36.8945510900719 -72.8074581054771,-36.8946087232244 -72.8075284422407,-36.8940249281097</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">ZAP Zona de actividades productivas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, seguridad, servicios, social. Actividades productivas. Infraestructura de transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.7996800877588,-36.8987920033884 -72.7995824047907,-36.8988977552548 -72.7996634771099,-36.8989578742276 -72.7996809998092,-36.8993107970914 -72.7996072312092,-36.8996837472581 -72.7994220163374,-36.9002427098002 -72.7992989152672,-36.900622941437 -72.7993013693693,-36.9012443101278 -72.7992916940338,-36.9014783759769 -72.7991897871588,-36.9022855299691 -72.8006223801695,-36.9022567498279 -72.8007909274178,-36.9012194059867 -72.8007770737862,-36.9009404830803 -72.8008173583394,-36.9007510474313 -72.8009392623355,-36.9007756492271 -72.8009690455331,-36.9006606680017 -72.800995778173,-36.900055469086 -72.8017470667242,-36.9000313963264 -72.8019460858157,-36.9000364224071 -72.8019607020381,-36.8987588504432 -72.8019145354222,-36.8984011451484 -72.8019550206404,-36.8977156855638 -72.8015879071712,-36.897613422971 -72.8014217678051,-36.8976985643043 -72.8006452209676,-36.8980712257307 -72.8000656394519,-36.8988366686085 -72.7996800877588,-36.8987920033884</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZEC</SimpleData>
+		<SimpleData name="NOM">ZEC Zona equipamiento de cementerio</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: salud.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8017470667242,-36.9000313963264 -72.800995778173,-36.900055469086 -72.8009690455331,-36.9006606680017 -72.8009392623355,-36.9007756492271 -72.8008173583394,-36.9007510474313 -72.8007770737862,-36.9009404830803 -72.8007909274178,-36.9012194059867 -72.8013707080994,-36.9011723233709 -72.8013282188098,-36.9008886171915 -72.8014101608264,-36.9008232772704 -72.801716646465,-36.9007051305444 -72.8017917824778,-36.9006457093615 -72.8017470667242,-36.9000313963264</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZEXH-1</SimpleData>
+		<SimpleData name="NOM">ZEXH-1 Zona de extension habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8073097265455,-36.8966203566446 -72.8060187110854,-36.8966389718354 -72.8058018366641,-36.8967029430984 -72.805799643451,-36.8975867215278 -72.8057976190131,-36.8981170110977 -72.8056297084973,-36.8991657427955 -72.8053469681022,-36.9003321852145 -72.8051045273529,-36.9008815884256 -72.8066419667239,-36.9011059322832 -72.806847825313,-36.9005348946447 -72.8069859302214,-36.8998862120233 -72.8071333833997,-36.8992828400145 -72.8072238540614,-36.8986755946241 -72.8073109182413,-36.8981425763774 -72.8073047103814,-36.8975897449492 -72.8073097265455,-36.8966203566446</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZH-4</SimpleData>
+		<SimpleData name="NOM">ZH-4 Zona residencial 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: comercio, culto y cultura, deporte, educacion, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8058018366641,-36.8967029430984 -72.8052294525781,-36.8968980434545 -72.8049326227158,-36.8970672008355 -72.8045578039235,-36.8975239257573 -72.8043601795108,-36.8978324337712 -72.8038362201971,-36.8984307710754 -72.8045319261653,-36.8999663572396 -72.804886374014,-36.9008130418081 -72.8051045273529,-36.9008815884256 -72.8053469681022,-36.9003321852145 -72.8056297084973,-36.8991657427955 -72.8057976190131,-36.8981170110977 -72.805799643451,-36.8975867215278 -72.8058018366641,-36.8967029430984</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Copiulemu</SimpleData>
+		<SimpleData name="ZONA">ZEXH-2</SimpleData>
+		<SimpleData name="NOM">ZEXH-2 Zona de extension habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.8051045273529,-36.9008815884256 -72.804886374014,-36.9008130418081 -72.8045319261653,-36.8999663572396 -72.8038362201971,-36.8984307710754 -72.803352713875,-36.8971292605344 -72.8033992289421,-36.8969225208169 -72.8038965601031,-36.8960741807915 -72.8046608749977,-36.8957418009541 -72.8049540362891,-36.8953561107804 -72.8048514971839,-36.8944357806927 -72.8049674640225,-36.8941983060323 -72.804940999649,-36.8937373459335 -72.8046787794978,-36.8937457556587 -72.8043703466923,-36.893824060975 -72.8042093259471,-36.8938691337541 -72.8039116395584,-36.8941637455556 -72.8039053862525,-36.8943235829491 -72.8037091818226,-36.8946605524062 -72.8030832879314,-36.8955643242811 -72.8021206828104,-36.8969064866218 -72.8020605540299,-36.8971250657883 -72.8019550206404,-36.8977156855638 -72.8019145354222,-36.8984011451484 -72.8019607020381,-36.8987588504432 -72.8019460858157,-36.9000364224071 -72.8017470667242,-36.9000313963264 -72.8017917824778,-36.9006457093615 -72.801716646465,-36.9007051305444 -72.8014101608264,-36.9008232772704 -72.8013282188098,-36.9008886171915 -72.8013707080994,-36.9011723233709 -72.8007909274178,-36.9012194059867 -72.8006223801695,-36.9022567498279 -72.8010547330681,-36.9022785318856 -72.8018309829295,-36.9023277763229 -72.8030424207493,-36.9024200805851 -72.8036888130474,-36.902570397784 -72.8042223826479,-36.9025932004871 -72.805115721164,-36.902712785641 -72.8052396223615,-36.9026346937443 -72.8049711920511,-36.901947740074 -72.8050214304539,-36.9012448639178 -72.8051045273529,-36.9008815884256</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="ipt_08_prc_florida.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ipt_08_prc_florida">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Florida</SimpleData>
+		<SimpleData name="LOC">Florida</SimpleData>
+		<SimpleData name="ZONA">ZH-2</SimpleData>
+		<SimpleData name="NOM">ZH-2 Zona residencial 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">17/11/2007</SimpleData>
+		<SimpleData name="N_DOC">53</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+		<SimpleData name="OBS">Publicacion PRC Florida. Res Gore N°53. Fecha promulgacion 25.04.2007. Fecha publicaicon D.O. 17.11.2007.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-72.6583481329795,-36.8231474560669 -72.6590933450037,-36.8231244952357 -72.6603963712999,-36.8230843362554 -72.6620344643002,-36.8226347148516 -72.6642384854651,-36.8224526926315 -72.6668880827297,-36.8222825264701 -72.666671063409,-36.8214510870006 -72.6662106289032,-36.8196806904804 -72.6656234129264,-36.8198584643622 -72.6647572880915,-36.8201360685954 -72.6646077350537,-36.8204200640741 -72.6604383053061,-36.8213240841609 -72.6596937227999,-36.822664116066 -72.6583395860252,-36.8229709676125 -72.6583477272993,-36.8231417664593 -72.6583481329795,-36.8231474560669</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.665129701227,-36.8213261961517 -72.6651792315504,-36.8217693956338 -72.6642292231688,-36.8217759074917 -72.6642145461254,-36.8214684715172 -72.6645392070579,-36.8214356464263 -72.665129701227,-36.8213261961517</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.6619762128419,-36.8218226011438 -72.6621047282925,-36.8221379302456 -72.6614461236839,-36.8223064822974 -72.661303990598,-36.8220029755958 -72.6619762128419,-36.8218226011438</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

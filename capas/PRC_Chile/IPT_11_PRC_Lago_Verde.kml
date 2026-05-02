@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZU2</SimpleData>
+		<SimpleData name="NOM">Zona Deportiva Recreacional</SimpleData>
+		<SimpleData name="UPERM">Equipamiento deportivo, recreación y de espacimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8534212535627,-44.2365134206221 -71.8541951157126,-44.2388021001084 -71.8578525438937,-44.2357485660044 -71.8554475245698,-44.2361660564637 -71.8534212535627,-44.2365134206221</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de Expansión de Primera Prioridad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, talleres no molestos y equipamiento (comunal, local).</SimpleData>
+		<SimpleData name="UPROH">El equipamiento no citado como permitido, industria (talleres) y almacenamiento de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8541951157126,-44.2388021001084 -71.8549241861681,-44.2408931287586 -71.8576748526309,-44.2404262763929 -71.8570372310905,-44.2385821204517 -71.8564549621111,-44.2369154370337 -71.8541951157126,-44.2388021001084</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de Expansión de Primera Prioridad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, talleres no molestos y equipamiento (comunal, local).</SimpleData>
+		<SimpleData name="UPROH">El equipamiento no citado como permitido, industria (talleres) y almacenamiento de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8475793889824,-44.2375146683586 -71.8480180248893,-44.2387801270257 -71.8538475333265,-44.2377741556699 -71.8534212535627,-44.2365134206221 -71.8475793889824,-44.2375146683586</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZR2</SimpleData>
+		<SimpleData name="NOM">Zona de Restricción 2</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, camping, equipamiento para actividades turísticas.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados precedentemente, incluido las descargas de efluentes que no cumplan la normativa vigente.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8518995488732,-44.2420692251845 -71.8514958596498,-44.2421150412785 -71.8509495019445,-44.2421227337495 -71.8506177210611,-44.2420452683968 -71.8506749527657,-44.2422010516846 -71.8506312113834,-44.24242724249 -71.8503491199463,-44.2429666643941 -71.8502357029242,-44.2431910226297 -71.85002934056,-44.2434462855039 -71.8499294266629,-44.2435776852748 -71.8500251962327,-44.2436691060841 -71.8501170423883,-44.2439240691226 -71.8502927312318,-44.2440626017538 -71.8505961158068,-44.2441693611387 -71.8508960528536,-44.2442047459657 -71.8511672380537,-44.2442622866117 -71.8515240659243,-44.2444463148229 -71.85227571829,-44.2447776880062 -71.8525734247676,-44.2443557802121 -71.852718133386,-44.2440591777781 -71.8528470425493,-44.243641487835 -71.8529044617729,-44.2433899427302 -71.8536549012315,-44.2432854316024 -71.8540547255752,-44.2431253687208 -71.8542214411571,-44.2430783240353 -71.8544802780773,-44.2430861432358 -71.8548774239457,-44.2430762106095 -71.8553173949832,-44.2431295196321 -71.8555909977174,-44.2432370107326 -71.8564785469571,-44.2435006428628 -71.8570599442259,-44.2436004271978 -71.8576523100769,-44.2437213723568 -71.8579799586776,-44.2437131688337 -71.8581867331686,-44.2436722608446 -71.8585201586414,-44.2435781592925 -71.8586525880027,-44.2434390685248 -71.8592914099522,-44.2426727376982 -71.8594540614266,-44.2424998359639 -71.8589776520377,-44.2423179374866 -71.8588255532675,-44.2422562426168 -71.8586705722611,-44.2421350687934 -71.8585216031513,-44.2420524518099 -71.8583582476816,-44.2420148578763 -71.8581827711823,-44.2419835225921 -71.8579852098946,-44.2420093119263 -71.8577561401214,-44.2420686420509 -71.8574380338068,-44.2420855386321 -71.8570291642525,-44.2420243137606 -71.8566441476162,-44.2420279949531 -71.8563642800329,-44.2420647739439 -71.8559876812384,-44.2420712203958 -71.855600073861,-44.2420213682088 -71.8549922041552,-44.2419561818564 -71.8547237028349,-44.2418854822604 -71.8543433263905,-44.2417282546856 -71.8539330231407,-44.2416372795229 -71.8534927905578,-44.2416125565165 -71.8531142149934,-44.2416637049715 -71.8528212511766,-44.2417722624945 -71.8524632478421,-44.2419062652149 -71.8518995488732,-44.2420692251845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZU3</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamiento Sanitario</SimpleData>
+		<SimpleData name="UPERM">Equipamiento para el tratamiento de aguas servidas.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8589776520377,-44.2423179374866 -71.8594540614266,-44.2424998359639 -71.8599247864924,-44.2419994379468 -71.8593083637991,-44.2401489968531 -71.8576748526309,-44.2404262763929 -71.8581827711823,-44.2419835225921 -71.8583582476816,-44.2420148578763 -71.8585216031513,-44.2420524518099 -71.8586705722611,-44.2421350687934 -71.8588255532675,-44.2422562426168 -71.8589776520377,-44.2423179374866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZU4</SimpleData>
+		<SimpleData name="NOM">Zona de Equipamiento Comunal</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de esparcimiento, cultura, recreación y turismo (comunal).</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8549241861681,-44.2408931287586 -71.8553323580537,-44.2419926593474 -71.855600073861,-44.2420213682088 -71.8559876812384,-44.2420712203958 -71.8563642800329,-44.2420647739439 -71.8566441476162,-44.2420279949531 -71.8570291642525,-44.2420243137606 -71.8574380338068,-44.2420855386321 -71.8577561401214,-44.2420686420509 -71.8579852098946,-44.2420093119263 -71.8581827711823,-44.2419835225921 -71.8576748526309,-44.2404262763929 -71.8549241861681,-44.2408931287586</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona de Expansión de Segunda Prioridad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, talleres no molestos, equipamiento (comunal, local), servicios públicos, servicios profesionales, servicios artesanales, comercio minorista.</SimpleData>
+		<SimpleData name="UPROH">El equipamiento no citado como permitido.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8570372310905,-44.2385821204517 -71.8576748526309,-44.2404262763929 -71.8593083637991,-44.2401489968531 -71.8589592423644,-44.2391009117521 -71.85810112731,-44.2365712777409 -71.8578525438937,-44.2357485660044 -71.8564549621111,-44.2369154370337 -71.8570372310905,-44.2385821204517</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">Zona de Área Verde</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes, juegos infantiles y esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8483218124028,-44.2398051443499 -71.8486776202833,-44.2408264802874 -71.850135696648,-44.2405727234904 -71.8497924354438,-44.2395541028994 -71.8483218124028,-44.2398051443499</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">Zona de Restricción 1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento (local), infraestructura de agua potable, antenas de telecomunicaciones, radio o TV, miradores y otros similares, siempre y cuando estén autorizados por los servicios competentes.</SimpleData>
+		<SimpleData name="UPROH">Todos aquellos no señalados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.846146738005,-44.2411647370153 -71.8462837287943,-44.2413256792538 -71.8464272040616,-44.2414149997267 -71.846777111122,-44.2414562957288 -71.8472149637731,-44.242495836193 -71.847343065056,-44.2426784372783 -71.8473879477738,-44.2427845079051 -71.8477190399342,-44.2428477078628 -71.8479696694862,-44.242891476107 -71.8481004660207,-44.2429239428959 -71.8482641499479,-44.2430199023106 -71.8486414413979,-44.2430104868585 -71.8487705149439,-44.2430072654921 -71.8490225236105,-44.2430795818455 -71.8494796606415,-44.2432825502174 -71.8498792961337,-44.2435298292719 -71.8499294266629,-44.2435776852748 -71.85002934056,-44.2434462855039 -71.8502357029242,-44.2431910226297 -71.8503491199463,-44.2429666643941 -71.8506312113834,-44.24242724249 -71.8506641086877,-44.2422571291872 -71.8488509969575,-44.2425639917282 -71.8485038448587,-44.2420652892404 -71.8480990144703,-44.2421218405392 -71.8480398942404,-44.2419268003584 -71.8476602304748,-44.2419898685832 -71.8473800841385,-44.2411286173435 -71.8472121635265,-44.2411506713535 -71.8464634360078,-44.2388183097301 -71.8461053068143,-44.2377656828829 -71.845914712237,-44.2377976083647 -71.8447922036511,-44.2392547914421 -71.8452432102423,-44.2397437703 -71.8454096348271,-44.2398968343826 -71.8453983851695,-44.2400757650331 -71.8452601330954,-44.240300737519 -71.8452800454636,-44.2405074744189 -71.8453687671834,-44.2406982049528 -71.8457279659998,-44.2409322147301 -71.8458156568401,-44.2411015321855 -71.846146738005,-44.2411647370153</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZU1</SimpleData>
+		<SimpleData name="NOM">Zona Urbana Consolidada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento (comunal, local) sin perjuicio de lo establecido en el artículo 25° de la presente Ordenanza: oficinas, talleres no molestos, almacenamiento inofensivo y áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8464634360078,-44.2388183097301 -71.8472121635265,-44.2411506713535 -71.8473800841385,-44.2411286173435 -71.8476602304748,-44.2419898685832 -71.8480398942404,-44.2419268003584 -71.8480990144703,-44.2421218405392 -71.8485038448587,-44.2420652892404 -71.8488509969575,-44.2425639917282 -71.8506641086877,-44.2422571291872 -71.8506749527657,-44.2422010516846 -71.8506177210611,-44.2420452683968 -71.8504948916337,-44.2416291043273 -71.8549241861681,-44.2408931287586 -71.8541951157126,-44.2388021001084 -71.8538475333265,-44.2377741556699 -71.8480180248893,-44.2387801270257 -71.8475793889824,-44.2375146683586 -71.8465161792218,-44.2376968584898 -71.8461053068143,-44.2377656828829 -71.8464634360078,-44.2388183097301</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.850135696648,-44.2405727234904 -71.8486776202833,-44.2408264802874 -71.8483218124028,-44.2398051443499 -71.8497924354438,-44.2395541028994 -71.850135696648,-44.2405727234904</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Aysén</SimpleData>
+		<SimpleData name="COM">Lago Verde</SimpleData>
+		<SimpleData name="LOC">Lago Verde</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona de Expansión de Primera Prioridad</SimpleData>
+		<SimpleData name="UPERM">Vivienda, talleres no molestos y equipamiento (comunal, local).</SimpleData>
+		<SimpleData name="UPROH">El equipamiento no citado como permitido, industria (talleres) y almacenamiento de todo tipo.</SimpleData>
+		<SimpleData name="P_DO">31/12/1998</SimpleData>
+		<SimpleData name="N_DOC">51</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8553323580537,-44.2419926593474 -71.8549241861681,-44.2408931287586 -71.8504948916337,-44.2416291043273 -71.8506177210611,-44.2420452683968 -71.8509495019445,-44.2421227337495 -71.8514958596498,-44.2421150412785 -71.8518995488732,-44.2420692251845 -71.8524632478421,-44.2419062652149 -71.8528212511766,-44.2417722624945 -71.8531142149934,-44.2416637049715 -71.8534927905578,-44.2416125565165 -71.8539330231407,-44.2416372795229 -71.8543433263905,-44.2417282546856 -71.8547237028349,-44.2418854822604 -71.8549922041552,-44.2419561818564 -71.8553323580537,-44.2419926593474</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

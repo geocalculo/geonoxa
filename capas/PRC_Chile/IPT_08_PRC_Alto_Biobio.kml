@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">EX1</SimpleData>
+		<SimpleData name="NOM">Zona EX1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6416249564521,-37.8770952965558 -71.641553114201,-37.8772581202713 -71.6413655991763,-37.8774398404859 -71.6408344498685,-37.8771010304508 -71.6408493710342,-37.8766546030761 -71.6408563314075,-37.8765408460782 -71.6408295609791,-37.8764244104399 -71.6398927721073,-37.8729975485143 -71.6393786857742,-37.8733597967578 -71.6372829834315,-37.8745686276438 -71.6369897299502,-37.8751744327843 -71.6368017607569,-37.8757626413822 -71.6362769696834,-37.8756855003352 -71.6360029872277,-37.875613929958 -71.6359831688223,-37.8753708249676 -71.6357893038849,-37.8754864670297 -71.6355651884101,-37.8756474021401 -71.634061847177,-37.8765136455476 -71.634114940526,-37.8765978262389 -71.6347931913919,-37.8779058091985 -71.6363824836573,-37.877095376368 -71.6368897650043,-37.8771507617834 -71.6375499947799,-37.8773244689913 -71.6381029158594,-37.8774431624459 -71.6388275092089,-37.8776193684983 -71.6395349370021,-37.8778034430523 -71.6410383908621,-37.878217847181 -71.641419436013,-37.8775923238516 -71.6418558651479,-37.8771888437776 -71.6416249564521,-37.8770952965558</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z10</SimpleData>
+		<SimpleData name="NOM">Zona Z10</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6394929975743,-37.8813524490203 -71.6394926755813,-37.8813532374731 -71.6392988490462,-37.8819924265649 -71.639292968258,-37.8820118197899 -71.6389598455632,-37.8831103436813 -71.6386633095919,-37.8839037435757 -71.6386446961771,-37.8844960618323 -71.6396239684244,-37.8843963198885 -71.6405510685578,-37.8823796816109 -71.6405527375629,-37.8823756109573 -71.6419988817154,-37.8789148503173 -71.640879727328,-37.8785053742044 -71.6407212603402,-37.8788652868537 -71.6401398068296,-37.8797652178205 -71.6394929975743,-37.8813524490203</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">EX4</SimpleData>
+		<SimpleData name="NOM">Zona EX4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, servicios. Activdades productivas. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6332301261689,-37.8769376646962 -71.634061847177,-37.8765136455476 -71.6355651884101,-37.8756474021401 -71.6357893038849,-37.8754864670297 -71.6359831688223,-37.8753708249676 -71.6370350517799,-37.8747433523232 -71.6372829834315,-37.8745686276438 -71.6391650335405,-37.8732422501167 -71.6398927721073,-37.8729975485143 -71.6398608433864,-37.8728807435231 -71.6393415680001,-37.8709868316138 -71.6354427355595,-37.8732806741326 -71.6345907403976,-37.8738202677374 -71.6341450122691,-37.8740416073141 -71.6338475463533,-37.8740911607401 -71.6333419602764,-37.8739979590044 -71.6330353260314,-37.8738331665002 -71.6329371217805,-37.8737781461068 -71.6313204344936,-37.8746630527021 -71.632328270245,-37.8759374545897 -71.6332301261689,-37.8769376646962</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">EX2</SimpleData>
+		<SimpleData name="NOM">Zona EX2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6393415680001,-37.8709868316138 -71.6398608433864,-37.8728807435231 -71.6408295609791,-37.8764244104399 -71.6408563314075,-37.8765408460782 -71.6416249564521,-37.8770952965558 -71.6418558651479,-37.8771888437776 -71.6422164154413,-37.8767690043083 -71.6428322070432,-37.8763260370288 -71.6434634661971,-37.8758111965616 -71.6442688974163,-37.8751207833992 -71.6453277772854,-37.8744532763775 -71.6461109273088,-37.8741495742165 -71.6483732965698,-37.8735624036144 -71.6480735225022,-37.8728262024602 -71.6472375356502,-37.872997596482 -71.6457008448625,-37.8734231535361 -71.6449070425908,-37.8737652374083 -71.6446466742219,-37.8738855264116 -71.6444470914405,-37.8740235215605 -71.6409131551298,-37.873435355024 -71.6401354204185,-37.8704918037489 -71.6393415680001,-37.8709868316138</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">EX8</SimpleData>
+		<SimpleData name="NOM">Zona EX8</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.641419436013,-37.8775923238516 -71.6410383908621,-37.878217847181 -71.640879727328,-37.8785053742044 -71.6419988817154,-37.8789148503173 -71.6405510685578,-37.8823796816109 -71.6396239684244,-37.8843963198885 -71.6386446961771,-37.8844960618323 -71.6385544380252,-37.8846329062546 -71.6385323015982,-37.8857948801191 -71.6384032192386,-37.8868706700049 -71.6382071983457,-37.8877555453933 -71.6379693022597,-37.8882249703399 -71.637223650751,-37.8888589086478 -71.6377891993064,-37.8890535126526 -71.6379815741266,-37.8890491988385 -71.6394658858982,-37.8881576329809 -71.6399372826389,-37.8878800383767 -71.6404567678164,-37.8876013607548 -71.6410571087428,-37.8868917310687 -71.6417388361862,-37.8861445190545 -71.6420759522618,-37.885772173478 -71.6431524982141,-37.8830420629585 -71.6435948037301,-37.8820070654371 -71.6420854332713,-37.8816446129954 -71.6429988598092,-37.8794172090739 -71.644367757717,-37.8797501460286 -71.6444728987121,-37.8794529389816 -71.6450855005163,-37.8787525507921 -71.6464416214531,-37.8769769017582 -71.6467827340793,-37.8767594283405 -71.6475486703959,-37.8761700139112 -71.6481403382896,-37.8756989531976 -71.6489177548802,-37.8748994719337 -71.6483732965698,-37.8735624036144 -71.6461109273088,-37.8741495742165 -71.6453392123138,-37.8744488419022 -71.6453277772854,-37.8744532763775 -71.6442688974163,-37.8751207833992 -71.6434634661971,-37.8758111965616 -71.6428322070432,-37.8763260370288 -71.6422164154413,-37.8767690043083 -71.6418558651479,-37.8771888437776 -71.641419436013,-37.8775923238516</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.6469180435249,-37.8756323810352 -71.6469046075675,-37.8753241054787 -71.6472190340373,-37.8755010746691 -71.6469180435249,-37.8756323810352</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.6428507202664,-37.8791004677428 -71.6428262849972,-37.8790425606062 -71.6427505374225,-37.878525518498 -71.6431598206826,-37.8786516205655 -71.6431744873666,-37.8786572966859 -71.6430284075253,-37.8789625174235 -71.6429318130072,-37.8791027828366 -71.6428507202664,-37.8791004677428</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.6414340315475,-37.8820220692394 -71.6418953981062,-37.8818312411542 -71.641960763811,-37.8818525315726 -71.6420017077576,-37.8819156502504 -71.6418096630885,-37.882343862543 -71.6414340315475,-37.8820220692394</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.6460338458047,-37.8742792445513 -71.6460447134006,-37.8744635123637 -71.6460981453221,-37.8746886739831 -71.6459535740459,-37.8746023509335 -71.6456909415063,-37.8745074264985 -71.6455434544739,-37.8745075099929 -71.6456875413579,-37.8744016866264 -71.6458761193753,-37.8743255376776 -71.6460338458047,-37.8742792445513</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">EX6</SimpleData>
+		<SimpleData name="NOM">Zona EX6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6435948037301,-37.8820070654371 -71.644367757717,-37.8797501460286 -71.6429988598092,-37.8794172090739 -71.6420854332713,-37.8816446129954 -71.6435948037301,-37.8820070654371</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z11</SimpleData>
+		<SimpleData name="NOM">Zona Z11</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: culto y cultura, educacion, esparcimiento, salud, seguridad. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6320062748217,-37.8802437474927 -71.6313313507907,-37.8820668478591 -71.631288350899,-37.8822108548549 -71.6316811904835,-37.8822890734817 -71.6322728310692,-37.8824590412519 -71.6327369202857,-37.8826803030606 -71.6330361910139,-37.8828472734201 -71.6333175252987,-37.8830475840657 -71.6336049243775,-37.8833467328648 -71.6338254116092,-37.8835976812735 -71.6338990738825,-37.8838217829631 -71.6339557877677,-37.8843303106643 -71.634269979515,-37.8848886934639 -71.6345799151312,-37.8854539340694 -71.6348368214603,-37.8858963893948 -71.634957259772,-37.8862370008494 -71.6366553286408,-37.8857554274181 -71.6370744687992,-37.8847709025986 -71.6386446961771,-37.8844960618323 -71.6386633095919,-37.8839037435757 -71.6389598455632,-37.8831103436813 -71.639292968258,-37.8820118197899 -71.6392803768251,-37.8820085871955 -71.6382112202588,-37.8817341191557 -71.6382849458996,-37.8818233208102 -71.638293276186,-37.8819046052399 -71.6380992547617,-37.8820706840689 -71.6371050115353,-37.8826381792067 -71.6366972655711,-37.8828744227801 -71.6366017998542,-37.8828573893893 -71.6365320985396,-37.8828029544291 -71.6364545293479,-37.8827125510753 -71.636434533421,-37.882770728131 -71.6363054942001,-37.8826949455418 -71.6359365464266,-37.8825243303249 -71.6351773556879,-37.8819318283333 -71.6346559677702,-37.8815092218806 -71.6339324274336,-37.8812949634057 -71.6336855765392,-37.8809655298442 -71.6344848976876,-37.8806206330862 -71.6335377109663,-37.879981855123 -71.6333468369255,-37.87994321326 -71.6332030828353,-37.8799607354264 -71.6320062748217,-37.8802437474927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Zona Z5</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: culto y cultura, educacion, salud, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6376481758022,-37.8808720140038 -71.637844329939,-37.8803538926934 -71.6373651036678,-37.8802728015042 -71.6372116417097,-37.8807769004233 -71.6376481758022,-37.8808720140038</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z9</SimpleData>
+		<SimpleData name="NOM">Zona Z9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.637397448087,-37.8776447894568 -71.6380345361034,-37.877698897975 -71.6376746238604,-37.8787185603554 -71.6369653527536,-37.8785520913973 -71.6365342719232,-37.8789897106437 -71.6364056170377,-37.8793163344679 -71.6374439442243,-37.8795319661914 -71.6370942623504,-37.8805220504452 -71.6360447162177,-37.8802325675957 -71.6360378110756,-37.8802500994841 -71.6360769356982,-37.8803350499083 -71.636463894007,-37.8807269059582 -71.6361291880579,-37.8811253966217 -71.6363843726915,-37.8811959693174 -71.6359365464266,-37.8825243303249 -71.6363054942001,-37.8826949455418 -71.636434533421,-37.882770728131 -71.6364545293479,-37.8827125510753 -71.6369250521255,-37.8813435854475 -71.637810631835,-37.8816312797707 -71.6382112202588,-37.8817341191557 -71.6392803768251,-37.8820085871955 -71.639292968258,-37.8820118197899 -71.6392988490462,-37.8819924265649 -71.6394926755813,-37.8813532374731 -71.6394929975743,-37.8813524490203 -71.6376481758022,-37.8808720140038 -71.6372116417097,-37.8807769004233 -71.6373651036678,-37.8802728015042 -71.637844329939,-37.8803538926934 -71.6387032382925,-37.8779024178817 -71.6388275092089,-37.8776193684983 -71.6381029158594,-37.8774431624459 -71.6375499947799,-37.8773244689913 -71.637397448087,-37.8776447894568</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.639090117263,-37.8818415690401 -71.6388279701249,-37.8817864018936 -71.6392655234933,-37.8815557709451 -71.6392695858775,-37.8815525026321 -71.639306056772,-37.8815903007237 -71.6392712556273,-37.8816941892169 -71.6392227082022,-37.8818358237798 -71.6391617702762,-37.8818531515137 -71.639090117263,-37.8818415690401</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Zona Z6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: culto y cultura, deporte, educacion, esparcimiento. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6381026087288,-37.8774439532653 -71.6375499947799,-37.8773244689913 -71.637397448087,-37.8776447894568 -71.6369653527536,-37.8785520913973 -71.6376746238604,-37.8787185603554 -71.6381026087288,-37.8774439532653</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z8</SimpleData>
+		<SimpleData name="NOM">Zona Z8</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: educacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6360447162177,-37.8802325675957 -71.6370942623504,-37.8805220504452 -71.6374439442243,-37.8795319661914 -71.6364056170377,-37.8793163344679 -71.6360447162177,-37.8802325675957</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6359831688223,-37.8753708249676 -71.6360029872277,-37.875613929958 -71.6362769696834,-37.8756855003352 -71.6368017607569,-37.8757626413822 -71.6369897299502,-37.8751744327843 -71.6372829834315,-37.8745686276438 -71.6370350517799,-37.8747433523232 -71.6359831688223,-37.8753708249676</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6416249564521,-37.8770952965558 -71.6408563314075,-37.8765408460782 -71.6408493710342,-37.8766546030761 -71.6408344498685,-37.8771010304508 -71.6413655991763,-37.8774398404859 -71.641553114201,-37.8772581202713 -71.6416249564521,-37.8770952965558</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6456875413579,-37.8744016866264 -71.6455434544739,-37.8745075099929 -71.6456909415063,-37.8745074264985 -71.6459535740459,-37.8746023509335 -71.6460981453221,-37.8746886739831 -71.6460447134006,-37.8744635123637 -71.6460338458047,-37.8742792445513 -71.6458761193753,-37.8743255376776 -71.6456875413579,-37.8744016866264</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6469180435249,-37.8756323810352 -71.6472190340373,-37.8755010746691 -71.6469046075675,-37.8753241054787 -71.6469180435249,-37.8756323810352</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6428507202664,-37.8791004677428 -71.6429318130072,-37.8791027828366 -71.6430284075253,-37.8789625174235 -71.6431744873666,-37.8786572966859 -71.6431598206826,-37.8786516205655 -71.6427505374225,-37.878525518498 -71.6428262849972,-37.8790425606062 -71.6428507202664,-37.8791004677428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6414340315475,-37.8820220692394 -71.6418096630885,-37.882343862543 -71.6420017077576,-37.8819156502504 -71.641960763811,-37.8818525315726 -71.6418953981062,-37.8818312411542 -71.6414340315475,-37.8820220692394</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.639090117263,-37.8818415690401 -71.6391617702762,-37.8818531515137 -71.6392227082022,-37.8818358237798 -71.6392712556273,-37.8816941892169 -71.639306056772,-37.8815903007237 -71.6392695858775,-37.8815525026321 -71.6392655234933,-37.8815557709451 -71.6388279701249,-37.8817864018936 -71.639090117263,-37.8818415690401</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Area verde</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6364545293479,-37.8827125510753 -71.6365320985396,-37.8828029544291 -71.6366017998542,-37.8828573893893 -71.6366972655711,-37.8828744227801 -71.6371050115353,-37.8826381792067 -71.6380992547617,-37.8820706840689 -71.638293276186,-37.8819046052399 -71.6382849458996,-37.8818233208102 -71.6382112202588,-37.8817341191557 -71.637810631835,-37.8816312797707 -71.6369250521255,-37.8813435854475 -71.6364545293479,-37.8827125510753</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">R2</SimpleData>
+		<SimpleData name="NOM">Zona R2</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6354850543733,-37.8882606358596 -71.637223650751,-37.8888589086478 -71.6379693022597,-37.8882249703399 -71.6382071983457,-37.8877555453933 -71.6384032192386,-37.8868706700049 -71.6385323015982,-37.8857948801191 -71.6385544380252,-37.8846329062546 -71.638162305133,-37.8849944951212 -71.6378025383279,-37.885449579257 -71.6374399288473,-37.8860358507776 -71.637305021624,-37.8862594033278 -71.6371692634382,-37.8864591342748 -71.6370773149541,-37.8866221213156 -71.6369787024817,-37.8868090981956 -71.636912059586,-37.8870490009341 -71.6368643457831,-37.8871871557407 -71.6368142951626,-37.8872598001006 -71.6367127060184,-37.8873634007316 -71.6365074007262,-37.8875110471835 -71.6363102470306,-37.8876763914539 -71.6362612580003,-37.8877788138097 -71.6360477993963,-37.8879087613466 -71.6355803319908,-37.8880861219222 -71.6354850543733,-37.8882606358596</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">EX9</SimpleData>
+		<SimpleData name="NOM">Zona EX9</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6352784596148,-37.8881895417147 -71.6354850543733,-37.8882606358596 -71.6355803319908,-37.8880861219222 -71.6360477993963,-37.8879087613466 -71.6362612580003,-37.8877788138097 -71.6363102470306,-37.8876763914539 -71.6365074007262,-37.8875110471835 -71.6367127060184,-37.8873634007316 -71.6368142951626,-37.8872598001006 -71.6368643457831,-37.8871871557407 -71.636912059586,-37.8870490009341 -71.6369787024817,-37.8868090981956 -71.6370773149541,-37.8866221213156 -71.6371692634382,-37.8864591342748 -71.637305021624,-37.8862594033278 -71.6374399288473,-37.8860358507776 -71.6378025383279,-37.885449579257 -71.638162305133,-37.8849944951212 -71.6385544380252,-37.8846329062546 -71.6386446961771,-37.8844960618323 -71.6370744687992,-37.8847709025986 -71.6366553286408,-37.8857554274181 -71.634957259772,-37.8862370008494 -71.6341466343622,-37.8878000441839 -71.6352784596148,-37.8881895417147</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">EX9</SimpleData>
+		<SimpleData name="NOM">Zona EX9</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6332301261689,-37.8769376646962 -71.6320062748217,-37.8802437474927 -71.6332030828353,-37.8799607354264 -71.6333468369255,-37.87994321326 -71.6335377109663,-37.879981855123 -71.6344848976876,-37.8806206330862 -71.634615683979,-37.8805203641663 -71.6351359519886,-37.8799269942901 -71.6355510733759,-37.8794218039474 -71.6356717609065,-37.879094863911 -71.6363824836573,-37.877095376368 -71.6347931913919,-37.8779058091985 -71.634114940526,-37.8765978262389 -71.634061847177,-37.8765136455476 -71.6332301261689,-37.8769376646962</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona Z2</SimpleData>
+		<SimpleData name="UPERM">Vivienda; Equipamiento de todo tipo, almacenamiento y talleres inofensivos, centro de servicio automotriz y expendio de combustibles, terminal de buses.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6376481758022,-37.8808720140038 -71.6394929975743,-37.8813524490203 -71.6401398068296,-37.8797652178205 -71.6407212603402,-37.8788652868537 -71.640879727328,-37.8785053742044 -71.6410383908621,-37.878217847181 -71.6395349370021,-37.8778034430523 -71.6388275092089,-37.8776193684983 -71.6387032382925,-37.8779024178817 -71.637844329939,-37.8803538926934 -71.6376481758022,-37.8808720140038</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Alto Biobío</SimpleData>
+		<SimpleData name="LOC">Ralco</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Zona Z2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados precedentemente.</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">160</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.6351773556879,-37.8819318283333 -71.6359365464266,-37.8825243303249 -71.6363843726915,-37.8811959693174 -71.6361291880579,-37.8811253966217 -71.636463894007,-37.8807269059582 -71.6360769356982,-37.8803350499083 -71.6360378110756,-37.8802500994841 -71.6360447162177,-37.8802325675957 -71.6364056170377,-37.8793163344679 -71.6365342719232,-37.8789897106437 -71.6369653527536,-37.8785520913973 -71.637397448087,-37.8776447894568 -71.6375499947799,-37.8773244689913 -71.6368897650043,-37.8771507617834 -71.6363824836573,-37.877095376368 -71.6356717609065,-37.879094863911 -71.6355510733759,-37.8794218039474 -71.6351359519886,-37.8799269942901 -71.634615683979,-37.8805203641663 -71.6344848976876,-37.8806206330862 -71.6336855765392,-37.8809655298442 -71.6339324274336,-37.8812949634057 -71.6346559677702,-37.8815092218806 -71.6351773556879,-37.8819318283333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

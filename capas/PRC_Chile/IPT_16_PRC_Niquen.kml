@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH-1</SimpleData>
+		<SimpleData name="NOM">ZH-1 Zona Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas inofensivas. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8965202311769,-36.2910690058856 -71.8984588922373,-36.2915227201594 -71.8995725295869,-36.2935582344023 -71.9001913017614,-36.2947568911866 -71.9008020233247,-36.2945453485286 -71.9010802700487,-36.2950989338957 -71.9018655769722,-36.2948294957957 -71.9013825770539,-36.2939172584535 -71.9020592811321,-36.2936981456318 -71.90271872014,-36.2949995243153 -71.9035704557942,-36.2947344216039 -71.9025769877599,-36.2929642778027 -71.9015813608677,-36.2911345650315 -71.9011323182256,-36.2903431082928 -71.8997560039339,-36.2907580306789 -71.8999555847672,-36.2911764233939 -71.8993576160968,-36.291334002342 -71.8991615651982,-36.2910109007673 -71.899040326874,-36.290918464876 -71.8986990462908,-36.2908492513002 -71.8968265953562,-36.2903784426369 -71.8965202311769,-36.2910690058856</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.899668269926,-36.2918486546176 -71.8998296083569,-36.2917910892141 -71.8999766184745,-36.2917451616551 -71.9002904807628,-36.2923056694467 -71.899967008219,-36.2923993612024 -71.899668269926,-36.2918486546176</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona de Equipamiento y Servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Actividades productivas inofensivas. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.9018655769722,-36.2948294957957 -71.9029583929907,-36.2969328885114 -71.9031053120871,-36.296861909395 -71.903244188961,-36.2967941553834 -71.9035924375412,-36.2966533548576 -71.9036641255575,-36.2966229740986 -71.90271872014,-36.2949995243153 -71.9020592811321,-36.2936981456318 -71.9013825770539,-36.2939172584535 -71.9018655769722,-36.2948294957957</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZED</SimpleData>
+		<SimpleData name="NOM">ZED Zona de Equipamiento Deportivo</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Equipamiento: científico, deporte y esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.9010802700487,-36.2950989338957 -71.9009227318513,-36.2955374412897 -71.9008493951216,-36.2956250614963 -71.9003214910988,-36.2960050823749 -71.9001618061253,-36.296147255605 -71.9001339658524,-36.2961908511809 -71.9001096557661,-36.2963297388158 -71.900206682561,-36.2968815258516 -71.9002996166259,-36.2973227743161 -71.9003384020936,-36.2975745827185 -71.9002808655696,-36.29770500097 -71.9004321032505,-36.2976707847712 -71.9008731101392,-36.2975527770952 -71.9016394170448,-36.2973660639388 -71.9023669161302,-36.29720532593 -71.9025191697823,-36.2971408237164 -71.9027233362671,-36.2970464468248 -71.9029583929907,-36.2969328885114 -71.9018655769722,-36.2948294957957 -71.9010802700487,-36.2950989338957</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZEXH</SimpleData>
+		<SimpleData name="NOM">ZEXH Zona de Extensión Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas (talleres inofensivos). Equipamiento: comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8201623503969,-36.2870507766895 -71.8200361263613,-36.2866380341193 -71.8199120938938,-36.2863834373865 -71.819710744326,-36.2859446746056 -71.8195913447708,-36.2858187293005 -71.8192759238312,-36.2856473364287 -71.8178398477362,-36.284984941685 -71.816370755485,-36.2842783714439 -71.8151356998539,-36.2846546460839 -71.8131971907512,-36.2852129677231 -71.8129565533691,-36.2852782454286 -71.8118283553625,-36.2827712774215 -71.8112377892805,-36.2814975465645 -71.8109425138769,-36.2808606791854 -71.8104506507373,-36.279751536523 -71.8117137676614,-36.2792508840665 -71.8115410267304,-36.2789509259377 -71.8117734344961,-36.2788619995594 -71.8115859820296,-36.2785623876386 -71.8125130818504,-36.2781363982153 -71.8135007975057,-36.2796034546964 -71.8148778729981,-36.2792014267086 -71.8148115282575,-36.2773550077393 -71.8147632096356,-36.2763511848101 -71.8128997902261,-36.2765865149245 -71.8095852367545,-36.2770364735917 -71.8072382926279,-36.2773110503046 -71.8081158331525,-36.2786220921281 -71.8105302206228,-36.2823018325698 -71.8067188945963,-36.2836075118074 -71.8017868295734,-36.2852851082279 -71.8027640963739,-36.2874916937774 -71.8081178503409,-36.2856610750188 -71.8113185480024,-36.2845724009872 -71.8134033368766,-36.2889060250954 -71.8160132217658,-36.2881768856973 -71.8201623503969,-36.2870507766895</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZES</SimpleData>
+		<SimpleData name="NOM">ZES Zona de Equipamiento de Salud de Cementerio</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Equipamiento: Culto y cultura, y salud (sólo cementerios y crematorios).</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8239508194491,-36.276312667886 -71.8245739589139,-36.2761010304252 -71.8253986154629,-36.2756952479517 -71.8245861488047,-36.2742336882574 -71.8244902726784,-36.2740734406832 -71.8234280709455,-36.2745670227477 -71.822946170294,-36.2747596282538 -71.8222053415542,-36.274958348177 -71.8239508194491,-36.276312667886</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8050627921894,-36.2740606341587 -71.8051792721405,-36.2740491967984 -71.8057783155651,-36.2740017509101 -71.8062837150478,-36.2739708072086 -71.8065892240964,-36.2739827086715 -71.8067183456566,-36.2739701374762 -71.807019146224,-36.2739821484245 -71.8071550063238,-36.2739932640114 -71.8073505659656,-36.27402682161 -71.8076123945531,-36.2741017437259 -71.8080180172937,-36.2742448212625 -71.8082142609934,-36.2742974375944 -71.8085186507717,-36.2744095090849 -71.808724444674,-36.2743999029969 -71.8088890453529,-36.2743912648239 -71.809246815359,-36.2743494715754 -71.8094799816391,-36.274281993791 -71.8097186907553,-36.2742048466638 -71.8098803857659,-36.2741152021185 -71.8099968823123,-36.2740790805188 -71.8101208018194,-36.2740857042069 -71.8104105186025,-36.2741170425541 -71.8111510396839,-36.27420454256 -71.8114938889599,-36.2742393976233 -71.8117533276217,-36.2742476004299 -71.8118708494096,-36.2742400667805 -71.8121517747766,-36.2741905353512 -71.8124494973486,-36.2741167624371 -71.813120586988,-36.2739435900072 -71.8139065427907,-36.2736890205139 -71.81456085865,-36.2734590064336 -71.8153890876034,-36.2732010470549 -71.8159267003695,-36.2730834630269 -71.8161792224991,-36.2730632044888 -71.8164055763681,-36.2731341739172 -71.8166326157891,-36.2732242029547 -71.8168020087985,-36.2733489726027 -71.8177824642048,-36.2741470770914 -71.8196034105763,-36.2756492751204 -71.821348246654,-36.2771124233966 -71.8214546057745,-36.2770131082611 -71.8214709731889,-36.276976954992 -71.8191352715341,-36.2750839528779 -71.8178752088647,-36.2740287287478 -71.816933969077,-36.2732401926427 -71.8167964270461,-36.2731003654854 -71.8164827775683,-36.2729766102937 -71.8160977129355,-36.2729141504711 -71.8155555325807,-36.2729865383213 -71.8139405344404,-36.2735253219712 -71.8121342622284,-36.2740685863673 -71.8119001586722,-36.2741098620907 -71.8115765026847,-36.2741174774523 -71.8106441131176,-36.2739844191059 -71.8099942368601,-36.2739281667498 -71.809615578801,-36.2740443727171 -71.8092382008744,-36.2741963143461 -71.8089011135094,-36.2742400060457 -71.8087098607408,-36.2742445013723 -71.8085021895197,-36.2742016921024 -71.8079964408761,-36.2740585852647 -71.8074599905209,-36.2738804296732 -71.8071199156364,-36.27384072848 -71.8065894424207,-36.2738293436904 -71.8060005488676,-36.2738312497421 -71.8052666708119,-36.2738961698938 -71.8049732897677,-36.2739269021728 -71.8050627921894,-36.2740606341587</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona de Equipamiento y Servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Actividades productivas inofensivas. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8191352715341,-36.2750839528779 -71.8214709731889,-36.276976954992 -71.8232656160345,-36.2765196663437 -71.8238495516545,-36.2763470616007 -71.8239508194491,-36.276312667886 -71.8222053415542,-36.274958348177 -71.822946170294,-36.2747596282538 -71.8234280709455,-36.2745670227477 -71.8244902726784,-36.2740734406832 -71.8240480562791,-36.2733343015278 -71.8230337977418,-36.2737639056286 -71.8223647949757,-36.2739943117274 -71.8214166984389,-36.2742432271456 -71.8208325247108,-36.2743762428231 -71.8201756482568,-36.2745348160393 -71.8196238947514,-36.2747505176108 -71.8191352715341,-36.2750839528779</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona de Equipamiento y Servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Actividades productivas inofensivas. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8152648721915,-36.2747925233729 -71.8154063085595,-36.2762699615859 -71.8154403069903,-36.2774379594614 -71.8160865747024,-36.2773929247902 -71.8171225457478,-36.2795860829169 -71.8178854575584,-36.281350500255 -71.8182881125153,-36.2823508354965 -71.8183936065936,-36.2826225630955 -71.8186850086278,-36.283552854236 -71.8191490616135,-36.2844139721478 -71.8178398477362,-36.284984941685 -71.8192759238312,-36.2856473364287 -71.8195913447708,-36.2858187293005 -71.819710744326,-36.2859446746056 -71.8199120938938,-36.2863834373865 -71.8200361263613,-36.2866380341193 -71.8201623503969,-36.2870507766895 -71.8202546525162,-36.2870257232335 -71.8202134740772,-36.2869009108125 -71.821065902177,-36.2866900286728 -71.8211033366797,-36.2867953609571 -71.821550626936,-36.2866739480705 -71.8215031131108,-36.2865628653367 -71.822419071691,-36.2863170903902 -71.8224631685521,-36.2864262401277 -71.8234218815194,-36.2861659905764 -71.8214303157588,-36.2819805707018 -71.8195897865796,-36.2778940811609 -71.8207708158041,-36.2776516033084 -71.821348246654,-36.2771124233966 -71.8196034105763,-36.2756492751204 -71.8177824642048,-36.2741470770914 -71.8168020087985,-36.2733489726027 -71.8166326157891,-36.2732242029547 -71.8164055763681,-36.2731341739172 -71.8161792224991,-36.2730632044888 -71.8159267003695,-36.2730834630269 -71.8153890876034,-36.2732010470549 -71.8150631578583,-36.2733025617401 -71.8153389497688,-36.273903746566 -71.8152669557157,-36.2741128936543 -71.8152022468458,-36.274278948277 -71.8152648721915,-36.2747925233729</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.8172899845101,-36.2771277784071 -71.8169891688525,-36.2772385956071 -71.8161600354359,-36.2755745934678 -71.8179089719292,-36.2751781685773 -71.8182903780804,-36.2750976393624 -71.8187340522533,-36.2762567677257 -71.8184546675307,-36.2763491991316 -71.8182370740696,-36.2764401726104 -71.8179714004619,-36.2766681957138 -71.8177841416144,-36.2768657553738 -71.8175734007271,-36.2770245246337 -71.8172899845101,-36.2771277784071</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.8203780531467,-36.2853370953699 -71.8210297894738,-36.2865800707388 -71.8201766423345,-36.2867777874054 -71.8200093760867,-36.286385909769 -71.819989489049,-36.2863243831984 -71.8199876278958,-36.28619089582 -71.8200299943804,-36.2860587492304 -71.820082904179,-36.2859740428262 -71.8201512995405,-36.2859104316901 -71.8202597782618,-36.2858148768938 -71.8203190013976,-36.2857419445348 -71.8203564250402,-36.2856361436627 -71.8203791179698,-36.2855302137458 -71.8203404838986,-36.2853570574238 -71.8203780531467,-36.2853370953699</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.8213383623181,-36.2860774592087 -71.8210993530983,-36.2855951236757 -71.8213377127674,-36.2856506516071 -71.821768039813,-36.2856595658409 -71.8219786904519,-36.2857022799073 -71.8221380044058,-36.285791512337 -71.8223521056795,-36.2861751266404 -71.821984751938,-36.2862791823653 -71.8214814051508,-36.2864508298372 -71.8214747467748,-36.2864295271874 -71.8213383623181,-36.2860774592087</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZPI</SimpleData>
+		<SimpleData name="NOM">ZPI Zona Productiva Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Actividades productivas inofensivas. Equipamiento: científico, comercio, deporte, educación, salud, seguridad y servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8072382926279,-36.2773110503046 -71.8095852367545,-36.2770364735917 -71.8128997902261,-36.2765865149245 -71.8139649364452,-36.276452002361 -71.8146526100016,-36.276365153479 -71.8147632096356,-36.2763511848101 -71.815112134668,-36.2763071164479 -71.8154063085595,-36.2762699615859 -71.8152648721915,-36.2747925233729 -71.8152022468458,-36.274278948277 -71.8152669557157,-36.2741128936543 -71.8153389497688,-36.273903746566 -71.8150631578583,-36.2733025617401 -71.81456085865,-36.2734590064336 -71.8139065427907,-36.2736890205139 -71.813120586988,-36.2739435900072 -71.8124494973486,-36.2741167624371 -71.8121517747766,-36.2741905353512 -71.8118708494096,-36.2742400667805 -71.8117533276217,-36.2742476004299 -71.8114938889599,-36.2742393976233 -71.8111510396839,-36.27420454256 -71.8104105186025,-36.2741170425541 -71.8101208018194,-36.2740857042069 -71.8099968823123,-36.2740790805188 -71.8098803857659,-36.2741152021185 -71.8097186907553,-36.2742048466638 -71.8094799816391,-36.274281993791 -71.809246815359,-36.2743494715754 -71.8088890453529,-36.2743912648239 -71.808724444674,-36.2743999029969 -71.8085186507717,-36.2744095090849 -71.8082142609934,-36.2742974375944 -71.8080180172937,-36.2742448212625 -71.8076123945531,-36.2741017437259 -71.8073505659656,-36.27402682161 -71.8071550063238,-36.2739932640114 -71.807019146224,-36.2739821484245 -71.8067183456566,-36.2739701374762 -71.8065892240964,-36.2739827086715 -71.8062837150478,-36.2739708072086 -71.8057783155651,-36.2740017509101 -71.8051792721405,-36.2740491967984 -71.8050627921894,-36.2740606341587 -71.8072382926279,-36.2773110503046</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">Bien Nacional Uso Público</SimpleData>
+		<SimpleData name="NOM">Bien Nacional Uso Público</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8140335282176,-36.282597755307 -71.8143664619772,-36.2835645744365 -71.8155821828053,-36.2831782607361 -71.8152233945494,-36.2822468542045 -71.8149000806763,-36.2823299531501 -71.8140626332226,-36.2825881279245 -71.8140335282176,-36.282597755307</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZHMC</SimpleData>
+		<SimpleData name="NOM">ZHMC Zona Habitacional Mixta Comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas inofensivas. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Más detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8130582982398,-36.2821795875993 -71.8137942652934,-36.2839744723914 -71.813947497904,-36.2843046922496 -71.8150502496466,-36.2840116548939 -71.8169110624086,-36.2835052093497 -71.8159513798144,-36.281374471149 -71.8141890816738,-36.2818477454414 -71.8130582982398,-36.2821795875993</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.8140335282176,-36.282597755307 -71.8140626332226,-36.2825881279245 -71.8149000806763,-36.2823299531501 -71.8152233945494,-36.2822468542045 -71.8155821828053,-36.2831782607361 -71.8143664619772,-36.2835645744365 -71.8140335282176,-36.282597755307</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZH-1</SimpleData>
+		<SimpleData name="NOM">ZH-1 Zona Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas inofensivas. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8148115282575,-36.2773550077393 -71.8148778729981,-36.2792014267086 -71.8135007975057,-36.2796034546964 -71.8125130818504,-36.2781363982153 -71.8115859820296,-36.2785623876386 -71.8117734344961,-36.2788619995594 -71.8115410267304,-36.2789509259377 -71.8117137676614,-36.2792508840665 -71.8104506507373,-36.279751536523 -71.8109425138769,-36.2808606791854 -71.8112377892805,-36.2814975465645 -71.8118283553625,-36.2827712774215 -71.8129565533691,-36.2852782454286 -71.8131971907512,-36.2852129677231 -71.8151356998539,-36.2846546460839 -71.8172988116788,-36.2839956179091 -71.8186850086278,-36.283552854236 -71.8183936065936,-36.2826225630955 -71.8182881125153,-36.2823508354965 -71.8178854575584,-36.281350500255 -71.8171225457478,-36.2795860829169 -71.8160865747024,-36.2773929247902 -71.8154403069903,-36.2774379594614 -71.8154063085595,-36.2762699615859 -71.8147632096356,-36.2763511848101 -71.8148115282575,-36.2773550077393</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.8137942652934,-36.2839744723914 -71.8130582982398,-36.2821795875993 -71.8141890816738,-36.2818477454414 -71.8159513798144,-36.281374471149 -71.8169110624086,-36.2835052093497 -71.8150502496466,-36.2840116548939 -71.813947497904,-36.2843046922496 -71.8137942652934,-36.2839744723914</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZH-2</SimpleData>
+		<SimpleData name="NOM">ZH-2 Zona Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas inofensivas y molesta. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7825863635787,-36.3625598716835 -71.7797821138677,-36.3629590256447 -71.7732194776618,-36.3641226723821 -71.7657018235012,-36.365298550571 -71.76585810804,-36.3660484306037 -71.7652437853389,-36.3673502892732 -71.7685996341389,-36.3685315238919 -71.7689063995039,-36.3688677764258 -71.7722940362449,-36.3682836434968 -71.7736091407162,-36.3701129987222 -71.7748787840364,-36.3716155271968 -71.7760398558867,-36.3729655745264 -71.7763360495936,-36.3734177000678 -71.7764597781482,-36.373373094038 -71.7769518624619,-36.372879583621 -71.7771651947068,-36.3726600174293 -71.7769673412389,-36.3724857835448 -71.7739750065908,-36.3687640173828 -71.7734818062553,-36.3689900802528 -71.7728352254078,-36.3682182179418 -71.7734029193587,-36.3680142717736 -71.772291970714,-36.3662040177969 -71.7719479772268,-36.3652343635097 -71.7760175446918,-36.364576468449 -71.7791120471377,-36.3640466516749 -71.7819449486257,-36.3636230005458 -71.7828230766679,-36.3634451585099 -71.7845789817851,-36.3628319404346 -71.784773491498,-36.3628323197133 -71.7847847951161,-36.362578557013 -71.7846466881872,-36.3623433296908 -71.7846072621953,-36.3622297941959 -71.7849213215601,-36.3621080136034 -71.785001082109,-36.3620298493587 -71.7849426526829,-36.3618353661999 -71.7848959298263,-36.3618479024887 -71.7825863635787,-36.3625598716835</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.7703911074476,-36.3666248932369 -71.770149638789,-36.3661345223299 -71.7715050597643,-36.365945686828 -71.7717182614563,-36.3664700942388 -71.7703910236749,-36.3666309496023 -71.7703911074476,-36.3666248932369</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7703911074476,-36.3666248932369 -71.7703910236749,-36.3666309496023 -71.7717182614563,-36.3664700942388 -71.7715050597643,-36.365945686828 -71.770149638789,-36.3661345223299 -71.7703911074476,-36.3666248932369</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7650199478696,-36.3693471607644 -71.7652788074495,-36.3694589612945 -71.7657814116781,-36.3686652038907 -71.7654352867866,-36.3685492290906 -71.7650199478696,-36.3693471607644</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZED</SimpleData>
+		<SimpleData name="NOM">ZED Zona de Equipamiento Deportivo</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Equipamiento: científico, deporte y esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7807877516285,-36.3618929170449 -71.7809457756962,-36.3623990728191 -71.7820964264527,-36.3622578087684 -71.7813755652106,-36.3604628432381 -71.7802851356335,-36.3606933027644 -71.7807877516285,-36.3618929170449</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZED</SimpleData>
+		<SimpleData name="NOM">ZED Zona de Equipamiento Deportivo</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Equipamiento: científico, deporte y esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7739750065908,-36.3687640173828 -71.7748788882958,-36.3683220436327 -71.7747854752304,-36.3682036312947 -71.7743146201233,-36.3674818218042 -71.7734029193587,-36.3680142717736 -71.7728352254078,-36.3682182179418 -71.7734818062553,-36.3689900802528 -71.7739750065908,-36.3687640173828</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7849426526829,-36.3618353661999 -71.785001082109,-36.3620298493587 -71.7849213215601,-36.3621080136034 -71.7846072621953,-36.3622297941959 -71.7846466881872,-36.3623433296908 -71.7847847951161,-36.362578557013 -71.7847520460735,-36.3633137429662 -71.784888712937,-36.3637434736254 -71.7850598029418,-36.3636341586639 -71.7849681461806,-36.3633787729577 -71.7849616891023,-36.3631977024895 -71.7849885418294,-36.3629586274646 -71.7849800457607,-36.3627203770241 -71.7849631645661,-36.3625777019921 -71.7848883894134,-36.3624649911905 -71.7848856708033,-36.3623887509299 -71.784966792094,-36.3623487063505 -71.7850947044108,-36.3622980325603 -71.7851380969853,-36.3621921037507 -71.7851652888686,-36.3619625583821 -71.7851311876414,-36.361667677725 -71.7850328474065,-36.3615555167172 -71.7849462909028,-36.3614430807468 -71.7849439121458,-36.361376370173 -71.7849038066736,-36.361243774464 -71.784946519377,-36.3611187854279 -71.7850780571682,-36.3608391160576 -71.7848762769983,-36.3608973455523 -71.7847249611214,-36.3611870956681 -71.7847120441773,-36.3613209281848 -71.7848222208742,-36.361599727641 -71.7849426526829,-36.3618353661999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7771651947068,-36.3726600174293 -71.7769518624619,-36.372879583621 -71.7764597781482,-36.373373094038 -71.7770929190624,-36.3748009804443 -71.7773738108556,-36.375444217812 -71.7767124882285,-36.3764107705591 -71.7768936563315,-36.3767432875907 -71.777627259987,-36.3757304199235 -71.7778342140164,-36.3753031531945 -71.7769237729662,-36.3733332901334 -71.7773538279556,-36.3729894566481 -71.7779681726858,-36.3724386530453 -71.778106353403,-36.3723202847265 -71.7778984339468,-36.3720688609231 -71.7771651947068,-36.3726600174293</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZH-2</SimpleData>
+		<SimpleData name="NOM">ZH-2 Zona Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas inofensivas y molesta. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.777627259987,-36.3757304199235 -71.7788221743617,-36.3776196728986 -71.7792501421914,-36.3766743857021 -71.7793136707139,-36.3765772059577 -71.7780903635196,-36.3746295361005 -71.7773538279556,-36.3729894566481 -71.7769237729662,-36.3733332901334 -71.7778342140164,-36.3753031531945 -71.777627259987,-36.3757304199235</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Act. productiva molesta e  inofensiva, solo asociada a la act. agrícola. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Más detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7739750065908,-36.3687640173828 -71.7769673412389,-36.3724857835448 -71.7771651947068,-36.3726600174293 -71.7778984339468,-36.3720688609231 -71.7765145114905,-36.3703953116606 -71.7748788882958,-36.3683220436327 -71.7739750065908,-36.3687640173828</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Act. productiva molesta e  inofensiva, solo asociada a la act. agrícola. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Más detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7768936563315,-36.3767432875907 -71.7774993325725,-36.3778549203586 -71.7782769128407,-36.3788240012545 -71.7788221743617,-36.3776196728986 -71.777627259987,-36.3757304199235 -71.7768936563315,-36.3767432875907</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Act. productiva molesta e  inofensiva, solo asociada a la act. agrícola. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Más detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7793136707139,-36.3765772059577 -71.7799212718404,-36.3756477365222 -71.7785110449329,-36.3728096487807 -71.778106353403,-36.3723202847265 -71.7779681726858,-36.3724386530453 -71.7773538279556,-36.3729894566481 -71.7780903635196,-36.3746295361005 -71.7793136707139,-36.3765772059577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Act. productiva molesta e  inofensiva, solo asociada a la act. agrícola. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Más detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7617157049157,-36.3581293571702 -71.7618180741031,-36.359023561967 -71.7643540040086,-36.3587073476436 -71.7675440215411,-36.358547604191 -71.7676013175736,-36.359166245182 -71.7679927351808,-36.3612269139679 -71.768666930122,-36.3629471932901 -71.7650014140929,-36.363671187259 -71.7651146578665,-36.365204180207 -71.7652625270249,-36.3660496363055 -71.7627990106812,-36.3710855013913 -71.7644424659241,-36.3715338920964 -71.7649613184514,-36.3715314134949 -71.766071865193,-36.3692547245422 -71.7665353938416,-36.3683569516484 -71.76659397616,-36.3683460554942 -71.7680623206604,-36.368846145162 -71.7685205876081,-36.3691311956818 -71.7688673939466,-36.3692662217663 -71.7693550813361,-36.3692167579991 -71.7714468610668,-36.3688391550003 -71.771853494151,-36.3693304572576 -71.7751901567282,-36.3736165514094 -71.7767124882285,-36.3764107705591 -71.7773738108556,-36.375444217812 -71.7770929190624,-36.3748009804443 -71.7764597781482,-36.373373094038 -71.7763360495936,-36.3734177000678 -71.7760398558867,-36.3729655745264 -71.7748787840364,-36.3716155271968 -71.7736091407162,-36.3701129987222 -71.7722940362449,-36.3682836434968 -71.7689063995039,-36.3688677764258 -71.7685996341389,-36.3685315238919 -71.7652437853389,-36.3673502892732 -71.76585810804,-36.3660484306037 -71.7657018235012,-36.365298550571 -71.7732194776618,-36.3641226723821 -71.7797821138677,-36.3629590256447 -71.7825863635787,-36.3625598716835 -71.7848959298263,-36.3618479024887 -71.7849426526829,-36.3618353661999 -71.7848222208742,-36.361599727641 -71.7847120441773,-36.3613209281848 -71.7847249611214,-36.3611870956681 -71.7848762769983,-36.3608973455523 -71.7828486239153,-36.3614824552596 -71.7824153172077,-36.3602430835244 -71.7813755652106,-36.3604628432381 -71.7820964264527,-36.3622578087684 -71.7809457756962,-36.3623990728191 -71.7807877516285,-36.3618929170449 -71.7713034067329,-36.3634678398186 -71.7702085856903,-36.361194596568 -71.7697966989988,-36.3575606435097 -71.7617157049157,-36.3581293571702</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-71.7650199478696,-36.3693471607644 -71.7654352867866,-36.3685492290906 -71.7657814116781,-36.3686652038907 -71.7652788074495,-36.3694589612945 -71.7650199478696,-36.3693471607644</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Chacay</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Act. productiva molesta e  inofensiva, solo asociada a la act. agrícola. Equipamiento: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social. Más detalle en Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.7734029193587,-36.3680142717736 -71.7743146201233,-36.3674818218042 -71.7733635881029,-36.3660238646291 -71.7739698987973,-36.3658285565924 -71.7799627472275,-36.364887970462 -71.7826721182852,-36.364471946344 -71.7845640054222,-36.3639509374333 -71.784888712937,-36.3637434736254 -71.7847520460735,-36.3633137429662 -71.784773491498,-36.3628323197133 -71.7845789817851,-36.3628319404346 -71.7828230766679,-36.3634451585099 -71.7819449486257,-36.3636230005458 -71.7791120471377,-36.3640466516749 -71.7760175446918,-36.364576468449 -71.7719479772268,-36.3652343635097 -71.772291970714,-36.3662040177969 -71.7734029193587,-36.3680142717736</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8202134740772,-36.2869009108125 -71.8202546525162,-36.2870257232335 -71.8211033366797,-36.2867953609571 -71.821065902177,-36.2866900286728 -71.8202134740772,-36.2869009108125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8215031131108,-36.2865628653367 -71.821550626936,-36.2866739480705 -71.8224631685521,-36.2864262401277 -71.822419071691,-36.2863170903902 -71.8215031131108,-36.2865628653367</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8214747467748,-36.2864295271874 -71.8214814051508,-36.2864508298372 -71.821984751938,-36.2862791823653 -71.8223521056795,-36.2861751266404 -71.8221380044058,-36.285791512337 -71.8219786904519,-36.2857022799073 -71.821768039813,-36.2856595658409 -71.8213377127674,-36.2856506516071 -71.8210993530983,-36.2855951236757 -71.8213383623181,-36.2860774592087 -71.8214747467748,-36.2864295271874</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8200093760867,-36.286385909769 -71.8201766423345,-36.2867777874054 -71.8210297894738,-36.2865800707388 -71.8203780531467,-36.2853370953699 -71.8203404838986,-36.2853570574238 -71.8203791179698,-36.2855302137458 -71.8203564250402,-36.2856361436627 -71.8203190013976,-36.2857419445348 -71.8202597782618,-36.2858148768938 -71.8201512995405,-36.2859104316901 -71.820082904179,-36.2859740428262 -71.8200299943804,-36.2860587492304 -71.8199876278958,-36.28619089582 -71.819989489049,-36.2863243831984 -71.8200093760867,-36.286385909769</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZED</SimpleData>
+		<SimpleData name="NOM">ZED Zona de Equipamiento Deportivo</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Equipamiento: científico, deporte y esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.816370755485,-36.2842783714439 -71.8178398477362,-36.284984941685 -71.8191490616135,-36.2844139721478 -71.8186850086278,-36.283552854236 -71.8172988116788,-36.2839956179091 -71.816370755485,-36.2842783714439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">San Gregorio</SimpleData>
+		<SimpleData name="ZONA">ZED</SimpleData>
+		<SimpleData name="NOM">ZED Zona de Equipamiento Deportivo</SimpleData>
+		<SimpleData name="UPERM">Residencial (vivienda complementaria a la actividad). Equipamiento: científico, deporte y esparcimiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8161600354359,-36.2755745934678 -71.8169891688525,-36.2772385956071 -71.8172899845101,-36.2771277784071 -71.8175734007271,-36.2770245246337 -71.8177841416144,-36.2768657553738 -71.8179714004619,-36.2766681957138 -71.8182370740696,-36.2764401726104 -71.8184546675307,-36.2763491991316 -71.8187340522533,-36.2762567677257 -71.8182903780804,-36.2750976393624 -71.8179089719292,-36.2751781685773 -71.8161600354359,-36.2755745934678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.899668269926,-36.2918486546176 -71.899967008219,-36.2923993612024 -71.9002904807628,-36.2923056694467 -71.8999766184745,-36.2917451616551 -71.8998296083569,-36.2917910892141 -71.899668269926,-36.2918486546176</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas verdes</SimpleData>
+		<SimpleData name="UPERM">Áreas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8992368934641,-36.290977120665 -71.8994058333107,-36.2913212967993 -71.8998360355849,-36.2912079284251 -71.8985111309548,-36.2886770581902 -71.89834234032,-36.2883541957082 -71.8981745066896,-36.2884253255533 -71.8988060820803,-36.2896034093584 -71.899162669998,-36.2902850509565 -71.8992893344739,-36.2909615414767 -71.8992368934641,-36.290977120665</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZEXH</SimpleData>
+		<SimpleData name="NOM">ZEXH Zona de Extensión Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas (talleres inofensivos). Equipamiento: comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8965459897159,-36.2891059891377 -71.894558221075,-36.2899591507038 -71.8932901875901,-36.2895988167551 -71.8926118041019,-36.2898918388882 -71.89131829868,-36.2904048060135 -71.8907309381068,-36.2906553760876 -71.8950655696865,-36.2916432244235 -71.8976327209869,-36.2922462467632 -71.8988470058077,-36.2944944021141 -71.8988694264231,-36.2946226173212 -71.8988634132208,-36.2949375089313 -71.8981499476563,-36.2954770097849 -71.8980733989951,-36.2955575534249 -71.8980492945336,-36.2956225182371 -71.8983371339431,-36.2979074540449 -71.8983660617812,-36.2981998239241 -71.8986811302725,-36.2981138686004 -71.8994075857395,-36.2979245596752 -71.9000070764586,-36.2977669426114 -71.9002808655696,-36.29770500097 -71.9003384020936,-36.2975745827185 -71.9002996166259,-36.2973227743161 -71.900206682561,-36.2968815258516 -71.9001096557661,-36.2963297388158 -71.9001339658524,-36.2961908511809 -71.9001618061253,-36.296147255605 -71.9003214910988,-36.2960050823749 -71.9008493951216,-36.2956250614963 -71.9009227318513,-36.2955374412897 -71.9010802700487,-36.2950989338957 -71.9008020233247,-36.2945453485286 -71.9001913017614,-36.2947568911866 -71.8995725295869,-36.2935582344023 -71.8984588922373,-36.2915227201594 -71.8965202311769,-36.2910690058856 -71.8968265953562,-36.2903784426369 -71.8986990462908,-36.2908492513002 -71.899040326874,-36.290918464876 -71.8991615651982,-36.2910109007673 -71.8993576160968,-36.291334002342 -71.8994058333107,-36.2913212967993 -71.8992368934641,-36.290977120665 -71.8992893344739,-36.2909615414767 -71.899162669998,-36.2902850509565 -71.8988060820803,-36.2896034093584 -71.8981745066896,-36.2884253255533 -71.8980020509916,-36.288498414747 -71.8965459897159,-36.2891059891377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZEXH</SimpleData>
+		<SimpleData name="NOM">ZEXH Zona de Extensión Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Actividades productivas (talleres inofensivos). Equipamiento: comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8985111309548,-36.2886770581902 -71.8998360355849,-36.2912079284251 -71.8999555847672,-36.2911764233939 -71.8997560039339,-36.2907580306789 -71.9011323182256,-36.2903431082928 -71.9015813608677,-36.2911345650315 -71.9025769877599,-36.2929642778027 -71.9035704557942,-36.2947344216039 -71.90271872014,-36.2949995243153 -71.9036641255575,-36.2966229740986 -71.904362385813,-36.2963270472704 -71.9048619515751,-36.2960967258425 -71.9052461729689,-36.2959729302137 -71.9057803487835,-36.2958419092255 -71.9059710746577,-36.2958178806839 -71.9051248390957,-36.2941230162834 -71.9031884266238,-36.29027726352 -71.9017987240319,-36.2876423941291 -71.9013341269404,-36.2876497569786 -71.9006250773645,-36.2875906711757 -71.9002940934767,-36.2875605547792 -71.8988255932397,-36.2881493834584 -71.89834234032,-36.2883541957082 -71.8985111309548,-36.2886770581902</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8983660617812,-36.2981998239241 -71.8983794989213,-36.2983356244365 -71.9002268036025,-36.2978687459813 -71.9016711330007,-36.2974974682381 -71.9024505476956,-36.2973068555726 -71.9027732416245,-36.297191715397 -71.9029974914473,-36.2970432006646 -71.9031805123504,-36.2969743731027 -71.9035891062097,-36.29679276415 -71.9040509370869,-36.2966170125378 -71.9044509638418,-36.2964427617874 -71.9048073748364,-36.2962838768167 -71.9051118728307,-36.2961548663337 -71.9054358839689,-36.2960754539173 -71.9060317277988,-36.2959393551286 -71.9059710746577,-36.2958178806839 -71.9057803487835,-36.2958419092255 -71.9052461729689,-36.2959729302137 -71.9048619515751,-36.2960967258425 -71.904362385813,-36.2963270472704 -71.9035924375412,-36.2966533548576 -71.903244188961,-36.2967941553834 -71.9031053120871,-36.296861909395 -71.9027233362671,-36.2970464468248 -71.9025191697823,-36.2971408237164 -71.9023669161302,-36.29720532593 -71.9016394170448,-36.2973660639388 -71.9008731101392,-36.2975527770952 -71.9004321032505,-36.2976707847712 -71.9000070764586,-36.2977669426114 -71.8994075857395,-36.2979245596752 -71.8986811302725,-36.2981138686004 -71.8983660617812,-36.2981998239241</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Niquén</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">24/09/2009</SimpleData>
+		<SimpleData name="N_DOC">121</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.9002264890732,-36.2874120537216 -71.8979723516991,-36.288339454589 -71.8953012838622,-36.2894629041574 -71.8945653446094,-36.2898240958788 -71.8932522932899,-36.2894410080839 -71.8906236713697,-36.2905204070774 -71.8904406528065,-36.2905892152695 -71.8907309381068,-36.2906553760876 -71.89131829868,-36.2904048060135 -71.8926118041019,-36.2898918388882 -71.8932901875901,-36.2895988167551 -71.894558221075,-36.2899591507038 -71.8965459897159,-36.2891059891377 -71.8980020509916,-36.288498414747 -71.8988255932397,-36.2881493834584 -71.9002940934767,-36.2875605547792 -71.9006250773645,-36.2875906711757 -71.9013341269404,-36.2876497569786 -71.9017987240319,-36.2876423941291 -71.901711711369,-36.287477411941 -71.9017044384788,-36.2874763142769 -71.9002264890732,-36.2874120537216</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

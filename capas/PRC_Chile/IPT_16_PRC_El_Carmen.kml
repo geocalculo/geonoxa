@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZM</SimpleData>
+		<SimpleData name="NOM">ZM Zona Mixta</SimpleData>
+		<SimpleData name="UPERM">Residencial; Actividades productivas inofensivas; Equipamiento de comercio, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0580327009439,-36.8981562318699 -72.0558162100665,-36.8976601855929 -72.055668849703,-36.8978356381022 -72.0539651093638,-36.9000729106162 -72.0525659882745,-36.9019113239496 -72.0523259037522,-36.9024420126762 -72.0520375167885,-36.9032505061899 -72.054194459843,-36.9037386151229 -72.0542737785555,-36.9033455725832 -72.0543928652613,-36.9030564088809 -72.0545230531384,-36.9027478867668 -72.0559117996546,-36.900947864373 -72.058033842361,-36.8981848123076 -72.0580327009439,-36.8981562318699</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">ZE-1 Zona de Equipamiento Comercio</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0216688925027,-36.8952467207819 -72.0215564158878,-36.8978604611536 -72.0214769317389,-36.9003599135637 -72.022738973442,-36.900369506548 -72.0233256271412,-36.9003784079446 -72.0248705797562,-36.9004105746358 -72.0277679548391,-36.9004857191985 -72.027783247383,-36.9001217425824 -72.0278951269334,-36.8978837229042 -72.0279370364117,-36.8966438757517 -72.0279893615574,-36.8954146895472 -72.0244051399913,-36.8953057869459 -72.0216688925027,-36.8952467207819</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.0239164336084,-36.8984152867872 -72.0239015056335,-36.8972855655073 -72.0248762640849,-36.8973131838156 -72.025411940432,-36.8973402492922 -72.0253608931551,-36.8984595441307 -72.0239164336084,-36.8984152867872</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOM">ZE-3 Zona de Equipamiento Esparcimiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, esparcimiento y social.</SimpleData>
+		<SimpleData name="UPROH">Residencial, actividades productivas, estaciones o centros de servicio automotor, talleres mecánicos, grandes tiendas, supermercados, mercados, zoológicos y parques de entretención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0249869528865,-36.8935425224298 -72.0254737083259,-36.8936210767598 -72.0257680326746,-36.8936326491101 -72.0261379029799,-36.8936780571741 -72.0261339404852,-36.893640125228 -72.0261230062966,-36.8936390982494 -72.026122207752,-36.8935278032556 -72.0261105077332,-36.8918953893887 -72.0260812304341,-36.8919056720745 -72.0259000406635,-36.8919400927513 -72.0256486958146,-36.8919643804545 -72.0254121770876,-36.891988289792 -72.0252717957615,-36.8920037879843 -72.0251768341339,-36.8920419709692 -72.0250744586414,-36.8920803418964 -72.0249987991641,-36.8921022049658 -72.0249869528865,-36.8935425224298</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-4</SimpleData>
+		<SimpleData name="NOM">ZE-4 Zona de Equipamiento Comercio y Servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0379287534223,-36.8964257494453 -72.0378642675799,-36.8977845732249 -72.0403989285926,-36.8971690732082 -72.0407681932726,-36.8971238519938 -72.0418224405996,-36.8970218734 -72.041626594784,-36.8959951043773 -72.0392464942844,-36.896120223666 -72.0379287534223,-36.8964257494453</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-4</SimpleData>
+		<SimpleData name="NOM">ZE-4 Zona de Equipamiento Comercio y Servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.9988333655277,-36.8966207555241 -71.9983665112811,-36.8980378330294 -71.9987824170005,-36.8979636549206 -72.0008605686809,-36.8975892739773 -72.0036996109545,-36.8970883180004 -72.004912288423,-36.8969002716366 -72.0062195117101,-36.8968144844392 -72.0066758412472,-36.8955083115076 -72.0061229671018,-36.8955363541063 -72.0053526386013,-36.8955737390613 -72.0046576148077,-36.8956390163778 -72.0034700702178,-36.8958240404778 -72.0022461502988,-36.8960278534528 -71.9988333655277,-36.8966207555241</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-5</SimpleData>
+		<SimpleData name="NOM">ZE-5 Zona de Equipamiento Deporte</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio (restaurantes, kioscos y afines), deporte, esparcimiento, seguridad y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, en especual cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0318053344349,-36.8944041546011 -72.0319430090086,-36.8944439112533 -72.032247431805,-36.8944480565335 -72.0325522780783,-36.8944457265949 -72.032163961289,-36.8906664786832 -72.0320432798085,-36.8906747089731 -72.0318834905543,-36.8907622366704 -72.0317049988755,-36.8909396475427 -72.0315133278275,-36.8911591185409 -72.0313327122822,-36.8912829385657 -72.0311726863826,-36.8913645105753 -72.0309614750064,-36.8914652707291 -72.0307127258257,-36.8915550672162 -72.0304051413959,-36.8916582866803 -72.030020424543,-36.8917355911802 -72.0300082929374,-36.8924313526497 -72.0300544220842,-36.8924718982125 -72.0301399724125,-36.8925710420174 -72.0301889287669,-36.892683041434 -72.0302191777849,-36.8928849241238 -72.0302254294302,-36.8932304705778 -72.0302710868898,-36.8932591073698 -72.0302942695769,-36.8932823570314 -72.0302843906245,-36.8934077780136 -72.0302688301892,-36.8937001717849 -72.0304437682146,-36.8937522766316 -72.0309473217998,-36.8938753193742 -72.0312754993358,-36.8940672103851 -72.0315227654956,-36.8942397095927 -72.0318053344349,-36.8944041546011</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-6</SimpleData>
+		<SimpleData name="NOM">ZE-6 Zona de Equipamiento Esparcimiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, esparcimiento y social. Más detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0261105077332,-36.8918953893887 -72.0261230062966,-36.8936390982494 -72.0266220586183,-36.8936859804054 -72.0266697152264,-36.8939529856614 -72.0266518268752,-36.8942514642562 -72.0266680666676,-36.8942868123739 -72.026719960835,-36.8942854892853 -72.0268459898335,-36.8942822759677 -72.026972018812,-36.8942790625166 -72.0271846556526,-36.8942140359641 -72.0274537754424,-36.8940760433959 -72.0275329700241,-36.8940144192374 -72.027667469347,-36.893850057094 -72.0279043441211,-36.8936473206123 -72.0282304135881,-36.8934482692826 -72.02848034934,-36.8933882498219 -72.0286917925515,-36.8933606829741 -72.029148316897,-36.893420560191 -72.029922141331,-36.8936225409329 -72.03020046396,-36.8936798091806 -72.0302688301892,-36.8937001717849 -72.0302843906245,-36.8934077780136 -72.0302942695769,-36.8932823570314 -72.0302710868898,-36.8932591073698 -72.0302254294302,-36.8932304705778 -72.0302191777849,-36.8928849241238 -72.0301889287669,-36.892683041434 -72.0301399724125,-36.8925710420174 -72.0300544220842,-36.8924718982125 -72.0300082929374,-36.8924313526497 -72.030020424543,-36.8917355911802 -72.0299634112249,-36.8917470467955 -72.0296537050766,-36.8917966748262 -72.029245742163,-36.8918011246288 -72.0290511149935,-36.8917584069644 -72.028900495726,-36.8917026454549 -72.0287676415735,-36.8915331823435 -72.028742106386,-36.8914503878853 -72.0287844656749,-36.8913956626056 -72.0288194124279,-36.8913411273296 -72.0288163513444,-36.8912637194084 -72.0288199975199,-36.8911682597372 -72.0288547086716,-36.8911077696531 -72.028904716796,-36.8910588099957 -72.0289626094029,-36.89102156987 -72.0290130883907,-36.8909845197741 -72.0291453478412,-36.8909513429053 -72.0294821124862,-36.8908354613778 -72.0296356689579,-36.8907778990665 -72.0296634367744,-36.8907295066674 -72.0296857873803,-36.8905441620202 -72.0296824900045,-36.8904608002532 -72.0296416561358,-36.8903664747961 -72.0295092750651,-36.8902089211204 -72.0294021954827,-36.8901282076689 -72.0293039414555,-36.8900830310702 -72.0292295753829,-36.8900789687263 -72.0291480323882,-36.8900810493676 -72.0290528397415,-36.890113280469 -72.0289449402907,-36.8901994793825 -72.0288224501282,-36.8902920112634 -72.0286687804105,-36.8905343497149 -72.0283859108426,-36.8908872712265 -72.0282571824248,-36.8910097639347 -72.0279521857401,-36.8911784754622 -72.0277562671279,-36.8912907606414 -72.0275163390088,-36.8914160885714 -72.0268803325724,-36.8916588037245 -72.026264209135,-36.8918414032574 -72.0261105077332,-36.8918953893887</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-7</SimpleData>
+		<SimpleData name="NOM">ZE-7 Zona de Equipamiento Comercio</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, seguridad y servicios.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, servicentros, estaciones o centros de servicio automotor, grandes tiendas, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0073162466997,-36.8985610541133 -72.0056708779539,-36.898482173328 -72.005417140209,-36.899114086602 -72.0052585811582,-36.9012781774402 -72.0057961519816,-36.9012911917359 -72.0073162466997,-36.8985610541133</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-8</SimpleData>
+		<SimpleData name="NOM">ZE-8 Zona de Equipamiento Comercio</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio, culto y cultura, deporte, esparcimiento y salud.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0020588251624,-36.9019697339683 -72.002112208678,-36.9019683838899 -72.0022023030689,-36.9019947155755 -72.0023115918866,-36.9020563240773 -72.0024300589326,-36.9021248533393 -72.0024976633944,-36.9022590424824 -72.0025792100656,-36.9025216249932 -72.0026627190484,-36.9028342261557 -72.0027105692818,-36.9029188464697 -72.0028181783507,-36.9029375825021 -72.0029071519364,-36.9029353317393 -72.002976368892,-36.9028835123535 -72.003079774879,-36.9027950656515 -72.0031656651157,-36.9027142141113 -72.0032254232664,-36.9026483296729 -72.0033121551838,-36.9025889139606 -72.003426698471,-36.9025574056501 -72.0034978769475,-36.9025556046965 -72.0036410760042,-36.9025734394761 -72.0037587028591,-36.9026205314036 -72.0038855091875,-36.9026745430265 -72.0044616997017,-36.9012437519057 -72.0046006044493,-36.9008117963896 -72.0047948323195,-36.898498984161 -72.0022009677546,-36.8983643394145 -72.0021050370054,-36.9007633557356 -72.0020588251624,-36.9019697339683</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-9</SimpleData>
+		<SimpleData name="NOM">ZE-9 Zona de Equipamiento Comercio e infraestructura</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento de comercio, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0056708779539,-36.898482173328 -72.0073162466997,-36.8985610541133 -72.0075920107031,-36.8980657512738 -72.0083980623618,-36.8966702684656 -72.0083246445541,-36.8966753252387 -72.006343798377,-36.8968062691286 -72.0056708779539,-36.898482173328</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZEP</SimpleData>
+		<SimpleData name="NOM">ZEP Zona de Espacio Público</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público sin cinstrucciones. Se protege especialmente la arborización y el mobiliario urbano.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0239164336084,-36.8984152867872 -72.0253608931551,-36.8984595441307 -72.025411940432,-36.8973402492922 -72.0248762640849,-36.8973131838156 -72.0239015056335,-36.8972855655073 -72.0239164336084,-36.8984152867872</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZCH</SimpleData>
+		<SimpleData name="NOM">ZCH Zona de Conservación Histórica</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, educación, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0176028422787,-36.8974111548024 -72.0191272605497,-36.897451072648 -72.0191506895066,-36.8969008170688 -72.0176345402614,-36.8968596023716 -72.0176028422787,-36.8974111548024</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZES-1</SimpleData>
+		<SimpleData name="NOM">ZES-1 Zona de Equipamiento de Salud/ Hospital
+a de Equipamiento de Salud/ Cementerio</SimpleData>
+		<SimpleData name="UPERM">Equipamiento científico, salud y social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0343369709198,-36.8978503654749 -72.0343245031038,-36.8979102885265 -72.0342616284722,-36.8987582773389 -72.0354499704016,-36.8987815398157 -72.0354766102135,-36.8981430932894 -72.0355275903272,-36.8976506499424 -72.0343430916457,-36.8976302696025 -72.0343369709198,-36.8978503654749</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZES-2</SimpleData>
+		<SimpleData name="NOM">ZES-2 Zona de Equipamiento de Salud/ Cementerio</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de culto, cementerios y crematorios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0301627863769,-36.9019225381634 -72.0323488617857,-36.9020147154376 -72.0330136459842,-36.9020418564619 -72.0330760677673,-36.9011508143825 -72.0331056921615,-36.9007745498141 -72.0328612635295,-36.9007867559202 -72.0328434711605,-36.9005249516782 -72.0324569975747,-36.9005109829288 -72.0324032128997,-36.9004646741327 -72.0312636782026,-36.9003626484605 -72.0310702055363,-36.9003497082292 -72.0310257219617,-36.9003508440817 -72.0309888874459,-36.9003577445076 -72.030956060043,-36.9004658707943 -72.0309456253074,-36.9011396661088 -72.0302102137715,-36.9011226793896 -72.0301325731099,-36.9017862695921 -72.0301627863769,-36.9019225381634</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.020716696738,-36.8990739223163 -72.0207323487445,-36.9016598754425 -72.0244686104759,-36.9017544207396 -72.0252402969839,-36.9017660950235 -72.0252563875935,-36.9023235822626 -72.0250208958318,-36.9037267121677 -72.0248364371366,-36.904618326727 -72.0248337048578,-36.9046994579085 -72.02488839554,-36.9048281936138 -72.0249901574171,-36.9047519765008 -72.0252755864635,-36.9043119738845 -72.0252969818453,-36.9042899705903 -72.0256003393873,-36.9043036966261 -72.0257434635799,-36.9043392879011 -72.0257083873216,-36.904204754139 -72.025947655999,-36.9029350417247 -72.0260428670721,-36.9025273041354 -72.0260717012731,-36.9023179534903 -72.0261019488034,-36.9017688215872 -72.0269784734973,-36.9017881961921 -72.0301627863769,-36.9019225381634 -72.0301325731099,-36.9017862695921 -72.0302102137715,-36.9011226793896 -72.0309456253074,-36.9011396661088 -72.030956060043,-36.9004658707943 -72.0309888874459,-36.9003577445076 -72.0310257219617,-36.9003508440817 -72.0310702055363,-36.9003497082292 -72.0312636782026,-36.9003626484605 -72.0324032128997,-36.9004646741327 -72.0324569975747,-36.9005109829288 -72.0328434711605,-36.9005249516782 -72.0328612635295,-36.9007867559202 -72.0331056921615,-36.9007745498141 -72.0330760677673,-36.9011508143825 -72.0353988982973,-36.9009603104491 -72.0358640960273,-36.9009007302978 -72.0358349650446,-36.8996044862271 -72.03570582146,-36.8982190087703 -72.0357066732613,-36.8981431700138 -72.0354766102135,-36.8981430932894 -72.0354499704016,-36.8987815398157 -72.0342616284722,-36.8987582773389 -72.0343245031038,-36.8979102885265 -72.0343369709198,-36.8978503654749 -72.0324582186261,-36.8978208889971 -72.0324379961279,-36.8980598231369 -72.030431552993,-36.8979918526119 -72.0278951269334,-36.8978837229042 -72.027783247383,-36.9001217425824 -72.0277679548391,-36.9004857191985 -72.0248705797562,-36.9004105746358 -72.0233256271412,-36.9003784079446 -72.022738973442,-36.900369506548 -72.0214769317389,-36.9003599135637 -72.0215564158878,-36.8978604611536 -72.0203032372138,-36.8978863914432 -72.0191955171954,-36.897837083715 -72.0185379436964,-36.8978359256445 -72.0184829722769,-36.899077098374 -72.020716696738,-36.8990739223163</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0051088272289,-36.901274551601 -72.0052585811582,-36.9012781774402 -72.005417140209,-36.899114086602 -72.006343798377,-36.8968062691286 -72.0062195117101,-36.8968144844392 -72.004912288423,-36.8969002716366 -72.0047948323195,-36.898498984161 -72.0046006044493,-36.9008117963896 -72.0044616997017,-36.9012437519057 -72.0051088272289,-36.901274551601</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0190861304412,-36.8964078469262 -72.0216185527368,-36.896416520557 -72.0216688925027,-36.8952467207819 -72.0164979948316,-36.8951361126678 -72.0164596431393,-36.8957450544477 -72.0165152732847,-36.8958008611964 -72.0164896495351,-36.8962807338078 -72.017713535644,-36.8963783738559 -72.0190861304412,-36.8964078469262</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0231470307775,-36.8952786365785 -72.0243997771284,-36.895305671265 -72.0244971717345,-36.8944341708755 -72.0242471376784,-36.8944166984733 -72.023834525986,-36.8943413788266 -72.0232292077051,-36.8943472594139 -72.0231470307775,-36.8952786365785</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0249185685184,-36.8953213937894 -72.0260902926851,-36.8953570017807 -72.0261379029799,-36.8936780571741 -72.0257680326746,-36.8936326491101 -72.0254737083259,-36.8936210767598 -72.0249869528865,-36.8935425224298 -72.0249852212409,-36.8937530657319 -72.0249185685184,-36.8953213937894</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0286917925515,-36.8933606829741 -72.0286491941912,-36.8954360037392 -72.0279893615574,-36.8954146895472 -72.0279370364117,-36.8966438757517 -72.0294600272264,-36.896699850361 -72.029458920413,-36.8960948330324 -72.030189553652,-36.896104795297 -72.0301786579719,-36.8956043965064 -72.0317177162916,-36.8955651010559 -72.0318053344349,-36.8944041546011 -72.0315227654956,-36.8942397095927 -72.0312754993358,-36.8940672103851 -72.0309473217998,-36.8938753193742 -72.0304437682146,-36.8937522766316 -72.03020046396,-36.8936798091806 -72.029922141331,-36.8936225409329 -72.029148316897,-36.893420560191 -72.0286917925515,-36.8933606829741</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0130793523513,-36.8957525982347 -72.0137334556228,-36.8958514885028 -72.0133917925866,-36.8941089769675 -72.0139855918372,-36.8940366814525 -72.0139235147422,-36.893480945494 -72.0136781417767,-36.89347440154 -72.0127318660567,-36.8934484704321 -72.0130793523513,-36.8957525982347</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">ZE-2 Zona de Equipamiento Comercio y Servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0279370364117,-36.8966438757517 -72.0278951269334,-36.8978837229042 -72.030431552993,-36.8979918526119 -72.0324379961279,-36.8980598231369 -72.0324582186261,-36.8978208889971 -72.0343369709198,-36.8978503654749 -72.0343430916457,-36.8976302696025 -72.0355275903272,-36.8976506499424 -72.0354766102135,-36.8981430932894 -72.0357066732613,-36.8981431700138 -72.03570582146,-36.8982190087703 -72.035943062896,-36.8982129415654 -72.0362386704742,-36.8981815396723 -72.0363929427943,-36.8981418307235 -72.0378642675799,-36.8977845732249 -72.0379287534223,-36.8964257494453 -72.0359243424018,-36.8969071720246 -72.0334399235411,-36.8968371699337 -72.0294686192019,-36.8967001663506 -72.0279370364117,-36.8966438757517</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOM">ZE-2 Zona de Equipamiento Comercio y Servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, estaciones o centros de servicios automotor, talleres mecánicos, mercados, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0066758412472,-36.8955083115076 -72.0062195117101,-36.8968144844392 -72.0083246445541,-36.8966753252387 -72.0086532572975,-36.8966526921416 -72.0097845282475,-36.8966597778359 -72.010293319776,-36.896689792248 -72.0111688371695,-36.8967605711412 -72.011580047657,-36.8968002081512 -72.0122790406693,-36.8969112191842 -72.0147717026131,-36.8973414677323 -72.0172087558083,-36.897715857239 -72.0182739341689,-36.8978532878578 -72.0185379436964,-36.8978359256445 -72.0191955171954,-36.897837083715 -72.0203032372138,-36.8978863914432 -72.0215564158878,-36.8978604611536 -72.0216185527368,-36.896416520557 -72.0190861304412,-36.8964078469262 -72.017713535644,-36.8963783738559 -72.0164896495351,-36.8962807338078 -72.0158674143609,-36.8962192950138 -72.0137334556228,-36.8958514885028 -72.0118700618617,-36.8955697615676 -72.0105819489814,-36.8954236212193 -72.0100826245762,-36.8954076729352 -72.0093428164378,-36.8953906668854 -72.0083639256251,-36.8954083244774 -72.0072713435582,-36.8954789224485 -72.0066758412472,-36.8955083115076</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.0191506895066,-36.8969008170688 -72.0191272605497,-36.897451072648 -72.0176028422787,-36.8974111548024 -72.0176345402614,-36.8968596023716 -72.0191506895066,-36.8969008170688</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0242636025138,-36.9052071652131 -72.0243102112479,-36.9053065256437 -72.0244534061476,-36.905255601606 -72.0245014960821,-36.9052329191747 -72.0245180206096,-36.9052003115746 -72.0245928743277,-36.9050660824694 -72.0246824863443,-36.9049672402891 -72.0247825488301,-36.9049074694558 -72.02488839554,-36.9048281936138 -72.0248337048578,-36.9046994579085 -72.0248364371366,-36.904618326727 -72.0250208958318,-36.9037267121677 -72.0252563875935,-36.9023235822626 -72.0252402969839,-36.9017660950235 -72.0244686104759,-36.9017544207396 -72.0244697772239,-36.902159701663 -72.0243900631572,-36.9027720816055 -72.0241977300835,-36.9039154267662 -72.0240912073148,-36.9044128579184 -72.0240789658791,-36.9044787341622 -72.0242025269585,-36.9049762633476 -72.0242636025138,-36.9052071652131</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0043808254954,-36.9030410936592 -72.0047466287478,-36.9031182033048 -72.0047425945348,-36.9029110322593 -72.0045659857672,-36.9027605298075 -72.0045407043456,-36.9026836833144 -72.0045439130622,-36.9025763142113 -72.004571233569,-36.9025160179144 -72.0048379608555,-36.9019370601479 -72.0051088272289,-36.901274551601 -72.0044616997017,-36.9012437519057 -72.0038855091875,-36.9026745430265 -72.0040301092171,-36.9027281042098 -72.0041141098151,-36.9028261141866 -72.0041992332897,-36.9029527059052 -72.004263478044,-36.9030011483076 -72.0043808254954,-36.9030410936592</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0362386704742,-36.8981815396723 -72.035943062896,-36.8982129415654 -72.03570582146,-36.8982190087703 -72.0358349650446,-36.8996044862271 -72.0358640960273,-36.9009007302978 -72.0353988982973,-36.9009603104491 -72.0330760677673,-36.9011508143825 -72.0330136459842,-36.9020418564619 -72.0336958509561,-36.9020697046373 -72.0352927316815,-36.9021004074143 -72.0367023695546,-36.902088195279 -72.0381956874914,-36.9021274689905 -72.0384556546769,-36.9021327355217 -72.0382687410849,-36.9004149576131 -72.0381952525011,-36.9000592128539 -72.0382376102799,-36.9000044852286 -72.0396814829086,-36.8987992777691 -72.0418224405996,-36.8970218734 -72.0407681932726,-36.8971238519938 -72.0403989285926,-36.8971690732082 -72.0363929427943,-36.8981418307235 -72.0362386704742,-36.8981815396723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.9983665112811,-36.8980378330294 -71.9978229063268,-36.8996878117761 -71.9980675197811,-36.8996601858993 -71.9982193292082,-36.8996706568923 -71.9983450066608,-36.8996960928744 -71.9985148900145,-36.899713259092 -71.9985860661702,-36.8997114611989 -71.9986658600806,-36.8997022934539 -71.9987734637997,-36.8997210325122 -71.9988285250136,-36.8997625569754 -71.9988849855883,-36.8998398093541 -71.998922812599,-36.8998960742872 -71.9989253313703,-36.8999603842228 -71.9990112826303,-36.9001084171898 -71.9991158680255,-36.9002774365543 -71.9991667903127,-36.9004406595156 -71.9992335488985,-36.9005534139103 -71.9993144631892,-36.9005728276752 -71.9993853601623,-36.9005638833228 -71.9994020347354,-36.9005348517363 -71.9994620745874,-36.9004761141482 -71.9995401895619,-36.9004240719213 -71.9996817032598,-36.9003990387767 -71.9998151601583,-36.9003956663142 -71.9999508567318,-36.9004494576306 -72.0000704380157,-36.9005465714623 -72.0002397635405,-36.9005494450264 -72.0003743406451,-36.9005746538778 -72.0004669518634,-36.9006652968548 -72.000490066368,-36.9008006108895 -72.0005173183559,-36.9008142271835 -72.0006429983082,-36.9008396606077 -72.0007433877114,-36.9009014964805 -72.0008379601084,-36.9010421570693 -72.0008841256922,-36.9010839063063 -72.0009386288929,-36.9011111387185 -72.0011527220446,-36.901120031318 -72.001398267905,-36.9012497213967 -72.0015495865772,-36.9014747782295 -72.0016803780737,-36.9018577102717 -72.0017093103697,-36.9019141991587 -72.0017560383429,-36.9019702380325 -72.0018188788724,-36.9019829540655 -72.0020054416432,-36.9019710840227 -72.0020588251624,-36.9019697339683 -72.0021050370054,-36.9007633557356 -72.0022009677546,-36.8983643394145 -72.0047948323195,-36.898498984161 -72.004912288423,-36.8969002716366 -72.0036996109545,-36.8970883180004 -72.0008605686809,-36.8975892739773 -71.9987824170005,-36.8979636549206 -71.9983665112811,-36.8980378330294</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0075920107031,-36.8980657512738 -72.0057961519816,-36.9012911917359 -72.0063122820495,-36.9013036841831 -72.0117068335075,-36.9014292010452 -72.0176590971322,-36.9015820182187 -72.0207323487445,-36.9016598754425 -72.020716696738,-36.8990739223163 -72.0184829722769,-36.899077098374 -72.0185379436964,-36.8978359256445 -72.0182739341689,-36.8978532878578 -72.0172087558083,-36.897715857239 -72.0147717026131,-36.8973414677323 -72.0122790406693,-36.8969112191842 -72.011580047657,-36.8968002081512 -72.0111688371695,-36.8967605711412 -72.010293319776,-36.896689792248 -72.0097845282475,-36.8966597778359 -72.0086532572975,-36.8966526921416 -72.0083980623618,-36.8966702684656 -72.0075920107031,-36.8980657512738</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0412666702454,-36.8941274266825 -72.0377397900423,-36.8942654124922 -72.0349518741205,-36.8943247993375 -72.0325522780783,-36.8944457265949 -72.032247431805,-36.8944480565335 -72.0319430090086,-36.8944439112533 -72.0318053344349,-36.8944041546011 -72.0317177162916,-36.8955651010559 -72.0301786579719,-36.8956043965064 -72.030189553652,-36.896104795297 -72.029458920413,-36.8960948330324 -72.0294600272264,-36.896699850361 -72.0294686192019,-36.8967001663506 -72.0334399235411,-36.8968371699337 -72.0359243424018,-36.8969071720246 -72.0379287534223,-36.8964257494453 -72.0392464942844,-36.896120223666 -72.041626594784,-36.8959951043773 -72.0412703492307,-36.8941273207167 -72.0412666702454,-36.8941274266825</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0271846556526,-36.8942140359641 -72.026972018812,-36.8942790625166 -72.0268459898335,-36.8942822759677 -72.026719960835,-36.8942854892853 -72.0266680666676,-36.8942868123739 -72.0266518268752,-36.8942514642562 -72.0266697152264,-36.8939529856614 -72.0266220586183,-36.8936859804054 -72.0261339404852,-36.893640125228 -72.0261379029799,-36.8936780571741 -72.0260902926851,-36.8953570017807 -72.0279893615574,-36.8954146895472 -72.0286491941912,-36.8954360037392 -72.0286917925515,-36.8933606829741 -72.02848034934,-36.8933882498219 -72.0282304135881,-36.8934482692826 -72.0279043441211,-36.8936473206123 -72.027667469347,-36.893850057094 -72.0275329700241,-36.8940144192374 -72.0274537754424,-36.8940760433959 -72.0271846556526,-36.8942140359641</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0133917925866,-36.8941089769675 -72.0137334556228,-36.8958514885028 -72.0158674143609,-36.8962192950138 -72.0164896495351,-36.8962807338078 -72.0165152732847,-36.8958008611964 -72.0164596431393,-36.8957450544477 -72.0164979948316,-36.8951361126678 -72.0216688925027,-36.8952467207819 -72.0231470307775,-36.8952786365785 -72.0232292077051,-36.8943472594139 -72.023834525986,-36.8943413788266 -72.0242471376784,-36.8944166984733 -72.0244971717345,-36.8944341708755 -72.0243997771284,-36.895305671265 -72.0244051399913,-36.8953057869459 -72.0249185685184,-36.8953213937894 -72.0249852212409,-36.8937530657319 -72.0238333152782,-36.8937108869702 -72.0231866998391,-36.8936856316321 -72.0179789883986,-36.8935797199759 -72.0169987671932,-36.8935629112966 -72.0139235147422,-36.893480945494 -72.0139855918372,-36.8940366814525 -72.0133917925866,-36.8941089769675</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZER</SimpleData>
+		<SimpleData name="NOM">ZER Zona de Extensión Residencial</SimpleData>
+		<SimpleData name="UPERM">Residencial; Equipamiento científico, comercio, culto y cultura, deporte, esparcimiento, salud, seguridad, servicios y social.</SimpleData>
+		<SimpleData name="UPROH">Actividades productivas, discotecas, estadios, canchas, zoológicos, parques de entretención, cementerio, crematorios, cárceles y centros de detención.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0068302496012,-36.8933261777469 -72.0061229671018,-36.8955363541063 -72.0066758412472,-36.8955083115076 -72.0072713435582,-36.8954789224485 -72.0083639256251,-36.8954083244774 -72.0093428164378,-36.8953906668854 -72.0100826245762,-36.8954076729352 -72.0105819489814,-36.8954236212193 -72.0118700618617,-36.8955697615676 -72.0130793523513,-36.8957525982347 -72.0127318660567,-36.8934484704321 -72.0119843513214,-36.8934279806513 -72.0081368997367,-36.8933407597017 -72.0072155188934,-36.8933104581708 -72.0068302496012,-36.8933261777469</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección Drenaje</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público sin cOnstrucciones. Se rige por lo señalado en los artículos 24 de la ordenanza local.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0252755864635,-36.9043119738845 -72.0249901574171,-36.9047519765008 -72.0247825488301,-36.9049074694558 -72.0246824863443,-36.9049672402891 -72.0245928743277,-36.9050660824694 -72.0245180206096,-36.9052003115746 -72.0245014960821,-36.9052329191747 -72.0244534061476,-36.905255601606 -72.0243102112479,-36.9053065256437 -72.0243851715269,-36.9054663270472 -72.0246406823786,-36.9053584891505 -72.0248046299754,-36.9051874187771 -72.0250111811013,-36.9049675796285 -72.0251186342761,-36.9048694737171 -72.0251978414118,-36.9048078506232 -72.0253031763608,-36.9046561548935 -72.0253450742651,-36.9045895226896 -72.0254305192802,-36.9044979382376 -72.0256374178196,-36.9044747831446 -72.0257871194351,-36.9045067302431 -72.0257434635799,-36.9043392879011 -72.0256003393873,-36.9043036966261 -72.0252969818453,-36.9042899705903 -72.0252755864635,-36.9043119738845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección Drenaje</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público sin cOnstrucciones. Se rige por lo señalado en los artículos 24 de la ordenanza local.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.9978229063268,-36.8996878117761 -71.9977521768968,-36.8999024890736 -71.9980023960488,-36.899848486805 -71.998158327086,-36.8998505085861 -71.9982927159122,-36.8998709568195 -71.9983527293763,-36.8998873217545 -71.9984342851177,-36.89988526178 -71.9986048123626,-36.8998809543387 -71.9986789545342,-36.8998790814644 -71.9987164920144,-36.8998900540263 -71.9987118757994,-36.8999616972276 -71.9987557098866,-36.9001334437375 -71.9988507441161,-36.9002860151476 -71.9989059099023,-36.9003680688921 -71.9989805675239,-36.9005688390401 -71.9990533597145,-36.9007219730741 -71.999143963725,-36.9007614072304 -71.9992702409264,-36.9007641767115 -71.9994479503754,-36.9007537266056 -71.9995855556484,-36.9006668022086 -71.99964995209,-36.9006055701023 -71.9996860903722,-36.9005808153206 -71.9997750614774,-36.9005785670256 -71.9997905896884,-36.9005960562628 -71.9998529370014,-36.9006719672107 -71.9999150500037,-36.9007419231968 -71.9999743645608,-36.9007404242116 -72.0000781653054,-36.9007378009091 -72.0002038346656,-36.9007250874562 -72.0002334913698,-36.9007243379097 -72.0002638480682,-36.9007414523024 -72.0002657147135,-36.9007890891931 -72.0002379246163,-36.9008374756403 -72.0002249628689,-36.9008854873078 -72.0002268294645,-36.9009331232988 -72.0002500059548,-36.9009563800134 -72.0003253157357,-36.9009842790075 -72.0003925107736,-36.9009945014207 -72.0004226342579,-36.9010056608178 -72.0004819489915,-36.90100416157 -72.0005345490249,-36.9010207136559 -72.000564673659,-36.9010318729872 -72.000587616908,-36.9010491746827 -72.0006205407537,-36.9011317888867 -72.0006821892288,-36.9011898353973 -72.0007206611053,-36.901224626165 -72.0007739614299,-36.9012590411719 -72.0008492716845,-36.9012869398101 -72.0009908438297,-36.9013012424773 -72.0010802824531,-36.9013109021555 -72.0011555928581,-36.9013388005917 -72.00120194662,-36.9013853127134 -72.0013115824189,-36.9015315528887 -72.0013827473487,-36.9016430023987 -72.0014411837271,-36.9018084185914 -72.0014989200665,-36.9019559708172 -72.0015622039658,-36.9020556986879 -72.0016231524466,-36.9020958807438 -72.0016762214745,-36.9021243412274 -72.0017730748594,-36.9021338128651 -72.0018919394035,-36.9021367678522 -72.0019730314539,-36.9021227963368 -72.0020545893036,-36.9021207337708 -72.0021067234161,-36.9021253752319 -72.0021839029059,-36.9022009097557 -72.0022780126525,-36.9023296600056 -72.0023531494123,-36.9025423373333 -72.002432255225,-36.9028562413103 -72.0024811794494,-36.9029682535268 -72.0025444644013,-36.9030679807919 -72.0026577836833,-36.9031187583694 -72.002784531768,-36.9031334337934 -72.0029179919276,-36.903130057661 -72.003049351106,-36.9030730905693 -72.0032286404147,-36.9029135818279 -72.0033495474181,-36.9027793924345 -72.0034000468955,-36.9027423514944 -72.0034811392329,-36.9027283789326 -72.0036227143377,-36.9027426783132 -72.0037740405877,-36.9028163355676 -72.0038185278328,-36.9028152098256 -72.0039554918235,-36.9029011510551 -72.0040169105738,-36.9029532407134 -72.00407926401,-36.9030291491387 -72.0040982984106,-36.903135956223 -72.0041965562802,-36.9031811526315 -72.0043446125955,-36.9031714455484 -72.0044558300398,-36.9031686306334 -72.0045839793926,-36.9032190309815 -72.0046599939316,-36.9032647909103 -72.004712830004,-36.9032872950492 -72.0047499025307,-36.9032863566383 -72.0047466287478,-36.9031182033048 -72.0043808254954,-36.9030410936592 -72.004263478044,-36.9030011483076 -72.0041992332897,-36.9029527059052 -72.0041141098151,-36.9028261141866 -72.0040301092171,-36.9027281042098 -72.0038855091875,-36.9026745430265 -72.0037587028591,-36.9026205314036 -72.0036410760042,-36.9025734394761 -72.0034978769475,-36.9025556046965 -72.003426698471,-36.9025574056501 -72.0033121551838,-36.9025889139606 -72.0032254232664,-36.9026483296729 -72.0031656651157,-36.9027142141113 -72.003079774879,-36.9027950656515 -72.002976368892,-36.9028835123535 -72.0029071519364,-36.9029353317393 -72.0028181783507,-36.9029375825021 -72.0027105692818,-36.9029188464697 -72.0026627190484,-36.9028342261557 -72.0025792100656,-36.9025216249932 -72.0024976633944,-36.9022590424824 -72.0024300589326,-36.9021248533393 -72.0023115918866,-36.9020563240773 -72.0022023030689,-36.9019947155755 -72.002112208678,-36.9019683838899 -72.0020054416432,-36.9019710840227 -72.0018188788724,-36.9019829540655 -72.0017560383429,-36.9019702380325 -72.0017093103697,-36.9019141991587 -72.0016803780737,-36.9018577102717 -72.0015495865772,-36.9014747782295 -72.001398267905,-36.9012497213967 -72.0011527220446,-36.901120031318 -72.0009386288929,-36.9011111387185 -72.0008841256922,-36.9010839063063 -72.0008379601084,-36.9010421570693 -72.0007433877114,-36.9009014964805 -72.0006429983082,-36.9008396606077 -72.0005173183559,-36.9008142271835 -72.000490066368,-36.9008006108895 -72.0004669518634,-36.9006652968548 -72.0003743406451,-36.9005746538778 -72.0002397635405,-36.9005494450264 -72.0000704380157,-36.9005465714623 -71.9999508567318,-36.9004494576306 -71.9998151601583,-36.9003956663142 -71.9996817032598,-36.9003990387767 -71.9995401895619,-36.9004240719213 -71.9994620745874,-36.9004761141482 -71.9994020347354,-36.9005348517363 -71.9993853601623,-36.9005638833228 -71.9993144631892,-36.9005728276752 -71.9992335488985,-36.9005534139103 -71.9991667903127,-36.9004406595156 -71.9991158680255,-36.9002774365543 -71.9990112826303,-36.9001084171898 -71.9989253313703,-36.8999603842228 -71.998922812599,-36.8998960742872 -71.9988849855883,-36.8998398093541 -71.9988285250136,-36.8997625569754 -71.9987734637997,-36.8997210325122 -71.9986658600806,-36.8997022934539 -71.9985860661702,-36.8997114611989 -71.9985148900145,-36.899713259092 -71.9983450066608,-36.8996960928744 -71.9982193292082,-36.8996706568923 -71.9980675197811,-36.8996601858993 -71.9978229063268,-36.8996878117761</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">El Carmen</SimpleData>
+		<SimpleData name="LOC">El Carmen</SimpleData>
+		<SimpleData name="ZONA">ZPD</SimpleData>
+		<SimpleData name="NOM">ZPD Zona de Protección Drenaje</SimpleData>
+		<SimpleData name="UPERM">Sólo se permite el uso de espacio público sin cOnstrucciones. Se rige por lo señalado en los artículos 24 de la ordenanza local.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">28/12/2009</SimpleData>
+		<SimpleData name="N_DOC">147</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0288665950218,-36.8900063069877 -72.0287082158459,-36.890129556636 -72.0285517207545,-36.890300440898 -72.0283415701093,-36.8906157450165 -72.0281496554742,-36.8908292561561 -72.0278891386233,-36.8909968329444 -72.0275480167182,-36.8911903071666 -72.0265025189918,-36.8915865130553 -72.0258423867855,-36.8917821539645 -72.0253385207039,-36.8918009553839 -72.0250005689315,-36.8918870532972 -72.0249987991641,-36.8921022049658 -72.0250744586414,-36.8920803418964 -72.0251768341339,-36.8920419709692 -72.0252717957615,-36.8920037879843 -72.0254121770876,-36.891988289792 -72.0256486958146,-36.8919643804545 -72.0259000406635,-36.8919400927513 -72.0260812304341,-36.8919056720745 -72.026264209135,-36.8918414032574 -72.0268803325724,-36.8916588037245 -72.0275163390088,-36.8914160885714 -72.0277562671279,-36.8912907606414 -72.0279521857401,-36.8911784754622 -72.0282571824248,-36.8910097639347 -72.0283859108426,-36.8908872712265 -72.0286687804105,-36.8905343497149 -72.0288224501282,-36.8902920112634 -72.0289449402907,-36.8901994793825 -72.0290528397415,-36.890113280469 -72.0291480323882,-36.8900810493676 -72.0292295753829,-36.8900789687263 -72.0293039414555,-36.8900830310702 -72.0294021954827,-36.8901282076689 -72.0295092750651,-36.8902089211204 -72.0296416561358,-36.8903664747961 -72.0296824900045,-36.8904608002532 -72.0296857873803,-36.8905441620202 -72.0296634367744,-36.8907295066674 -72.0296356689579,-36.8907778990665 -72.0294821124862,-36.8908354613778 -72.0291453478412,-36.8909513429053 -72.0290130883907,-36.8909845197741 -72.0289626094029,-36.89102156987 -72.028904716796,-36.8910588099957 -72.0288547086716,-36.8911077696531 -72.0288199975199,-36.8911682597372 -72.0288163513444,-36.8912637194084 -72.0288194124279,-36.8913411273296 -72.0287844656749,-36.8913956626056 -72.028742106386,-36.8914503878853 -72.0287676415735,-36.8915331823435 -72.028900495726,-36.8917026454549 -72.0290511149935,-36.8917584069644 -72.029245742163,-36.8918011246288 -72.0296537050766,-36.8917966748262 -72.0299634112249,-36.8917470467955 -72.0304051413959,-36.8916582866803 -72.0307127258257,-36.8915550672162 -72.0309614750064,-36.8914652707291 -72.0311726863826,-36.8913645105753 -72.0313327122822,-36.8912829385657 -72.0315133278275,-36.8911591185409 -72.0317049988755,-36.8909396475427 -72.0318834905543,-36.8907622366704 -72.0320432798085,-36.8906747089731 -72.032163961289,-36.8906664786832 -72.0321418014799,-36.8904507958552 -72.0319217672972,-36.8905160199704 -72.0317184430537,-36.8906285006984 -72.0314337023954,-36.8909337932552 -72.0311753137653,-36.891154967343 -72.030781600186,-36.8913319120185 -72.0299602759957,-36.8915793735617 -72.0294135835674,-36.8916410091733 -72.0291151711564,-36.891600939971 -72.0289774956445,-36.8914971654154 -72.0289751408332,-36.8914376210096 -72.0290460701376,-36.8913547487692 -72.0290652474591,-36.8912767734445 -72.0290617151708,-36.8911874568394 -72.0290971326041,-36.8911448301938 -72.029126079456,-36.8911262100739 -72.0292150371737,-36.8911239402293 -72.029493204711,-36.8910274353538 -72.029741482766,-36.8909257327366 -72.0298429108156,-36.8908635396938 -72.0299190380813,-36.8907245063004 -72.0299107939437,-36.8905161010314 -72.0299041987231,-36.8903493775299 -72.0298478321114,-36.8902375670468 -72.0296480261142,-36.8900638527636 -72.0294204533393,-36.8899385304453 -72.029329848553,-36.8898991194803 -72.0291961780948,-36.8898965703684 -72.0290335622966,-36.8899126402639 -72.0288665950218,-36.8900063069877</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

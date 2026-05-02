@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Viña del Mar</SimpleData>
+		<SimpleData name="LOC">Viña del Mar</SimpleData>
+		<SimpleData name="ZONA">C1</SimpleData>
+		<SimpleData name="NOM">Zona C-1 Avenida Marina</SimpleData>
+		<SimpleData name="UPERM">Vivienda, vialidad, áreas verdes y equipamiento. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">03/06/1992</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="OBS">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.556561975661,-33.0227423801548 -71.5537386954876,-33.0231360937696 -71.5537331639289,-33.0231370915722 -71.5537308075621,-33.0231375167192 -71.5537010403202,-33.0231428825385 -71.553695252134,-33.0231439261692 -71.5536739692925,-33.0231472860653 -71.5524045343342,-33.0233477064584 -71.5520791820434,-33.0233954121673 -71.5520357592925,-33.0234017792638 -71.5518088594203,-33.0234355459589 -71.5517792567323,-33.0234403534313 -71.5517777375492,-33.0234406000137 -71.5517853562087,-33.0234667737544 -71.551788754396,-33.0234711503524 -71.5520684831493,-33.0238313858383 -71.5521030649241,-33.0238614250739 -71.5521194992197,-33.0238713479533 -71.5521292081726,-33.0238772102879 -71.5521952609766,-33.0238999331324 -71.5538077271807,-33.0236640549298 -71.5538011850825,-33.0236337783368 -71.5537077736805,-33.0232014549781 -71.5537052215251,-33.0231896412847 -71.5537368020171,-33.0231847982712 -71.5537395900011,-33.0231976999566 -71.5538328694384,-33.023629413757 -71.5538393547481,-33.0236594282239 -71.5545946708581,-33.023548929584 -71.5552899070719,-33.0234487299784 -71.555285170876,-33.0234276360264 -71.5551915551339,-33.0230107195399 -71.5551768382794,-33.0229451749735 -71.5552083790416,-33.0229401484648 -71.5552232763428,-33.0230064927158 -71.5553167400979,-33.0234227369396 -71.5553215524305,-33.0234441692589 -71.5566534443143,-33.0232522012708 -71.5567139662871,-33.0232390585591 -71.556723849845,-33.0232292081037 -71.5567294082546,-33.0232104296432 -71.5567290884713,-33.0232084002343 -71.5566676034009,-33.022818150464 -71.5566675981591,-33.0228181172097 -71.5566541800151,-33.0227329475832 -71.556576655616,-33.0227408782097 -71.556561975661,-33.0227423801548</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Viña del Mar</SimpleData>
+		<SimpleData name="LOC">Viña del Mar</SimpleData>
+		<SimpleData name="ZONA">C1</SimpleData>
+		<SimpleData name="NOM">Zona C-1 Avenida Marina</SimpleData>
+		<SimpleData name="UPERM">Vivienda, vialidad, áreas verdes y equipamiento. Mayor detalle en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todo uso no indicado precedentemente.</SimpleData>
+		<SimpleData name="P_DO">03/06/1992</SimpleData>
+		<SimpleData name="N_DOC">15</SimpleData>
+		<SimpleData name="OBS">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5592993998248,-33.0219048515823 -71.5573945224059,-33.0225700439862 -71.5571781326315,-33.022631607917 -71.5571209498904,-33.022647876983 -71.5568005913088,-33.0227030448722 -71.5568057331363,-33.0227106036318 -71.5568033689314,-33.0227176851045 -71.5567431561673,-33.0227238453117 -71.5567468513849,-33.0227469081431 -71.5568180034792,-33.0231909406955 -71.5568311178637,-33.0232077133446 -71.5568832687232,-33.0232160215147 -71.5569280970309,-33.0232098276992 -71.5569729253313,-33.0232036338678 -71.5571578423526,-33.0231755867461 -71.5576270248321,-33.0231044225373 -71.5583805276694,-33.0229901297239 -71.5583705300742,-33.0229452613911 -71.5582677656388,-33.0224840659517 -71.5582993156605,-33.022479076349 -71.5584021959355,-33.0229407932502 -71.5584121210311,-33.0229853375656 -71.5595489263098,-33.0228166355348 -71.5595517834414,-33.0228081012336 -71.5595546405726,-33.0227995669323 -71.5595561725099,-33.0227859203293 -71.5595570797977,-33.0227778399095 -71.559557704447,-33.0227722737262 -71.5594062375527,-33.022101747135 -71.559388264302,-33.0220316958144 -71.5593719826259,-33.0219767992517 -71.5593682220845,-33.0219641214472 -71.5592993998248,-33.0219048515823</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

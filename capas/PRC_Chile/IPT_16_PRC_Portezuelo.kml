@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4161503220763,-36.5355926945968 -72.4160487606366,-36.5357502947029 -72.4170114078036,-36.5356632798202 -72.4180598151915,-36.5355692686545 -72.4179944835857,-36.5353073511925 -72.4179751196425,-36.5352207696341 -72.4164907564331,-36.5353473154363 -72.4162907325068,-36.5353674490039 -72.4161503220763,-36.5355926945968</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4268596756326,-36.5344892319488 -72.4256626411326,-36.534542734398 -72.4253173348967,-36.5345502799949 -72.4245576328548,-36.5346198022394 -72.4229626925149,-36.534761004611 -72.4217306330251,-36.5348846100785 -72.4204267259271,-36.5349935776893 -72.4199574774311,-36.535038250215 -72.4185980626904,-36.5351676566061 -72.4183171331533,-36.5351916093412 -72.4183922838253,-36.5355394539179 -72.4202953470719,-36.5353687759461 -72.4234216991928,-36.5350787117298 -72.4252134838839,-36.5349127716943 -72.4262835504271,-36.534860541544 -72.4276005670913,-36.5348011971468 -72.429999903396,-36.5347464379718 -72.4306643822799,-36.5347416068665 -72.4336545317686,-36.5348199494389 -72.4340811618961,-36.5348340955812 -72.4340917691506,-36.5348113728445 -72.4342098635244,-36.5345061184952 -72.4324036403818,-36.5344392783747 -72.4305355027627,-36.5344144215944 -72.429817329274,-36.5344207979392 -72.4289729823682,-36.5344331861435 -72.4276215823427,-36.5344696952272 -72.4268596756326,-36.5344892319488</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4117361590276,-36.5348131973702 -72.4119359033931,-36.5361306065374 -72.4134185738874,-36.5359880009398 -72.4156445998573,-36.5357868251375 -72.4158741787804,-36.5354093760295 -72.4153645754279,-36.535460666064 -72.4147023883733,-36.53551779487 -72.4135163909292,-36.5356280753359 -72.4123282565473,-36.5357503251654 -72.4122730373522,-36.53536807996 -72.4122240343735,-36.5349928082297 -72.4121582287294,-36.5346385210266 -72.4121580558661,-36.5345002525474 -72.4121343836546,-36.5343650413466 -72.4120136341367,-36.5335674702287 -72.4118843025985,-36.532495444861 -72.4118695207553,-36.5323729125219 -72.4117934147228,-36.5317171031539 -72.4116822981828,-36.5308696663743 -72.4116642024102,-36.5307956078044 -72.4116565335107,-36.5307972898294 -72.4112574238374,-36.5308909675171 -72.4112344273754,-36.5308960699858 -72.4117361590276,-36.5348131973702</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4111693990601,-36.5303883386204 -72.4111693551127,-36.5303879992837 -72.4111676168934,-36.530388764487 -72.4111693990601,-36.5303883386204</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4111693990601,-36.5303883386204 -72.4112014317318,-36.5306384427206 -72.4112325276441,-36.5306270542065 -72.4115345888796,-36.5305433075139 -72.4123500334561,-36.5303447268965 -72.4127089951144,-36.5302450432798 -72.4130296985867,-36.5301822153816 -72.4132629911159,-36.5301469231003 -72.4136230503957,-36.530072237244 -72.4139358436381,-36.5300310892769 -72.4141911055184,-36.529991590252 -72.4142309347622,-36.5299904487427 -72.4141637662052,-36.5297649302892 -72.4130049252122,-36.5299499284232 -72.4111693990601,-36.5303883386204</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4156203672484,-36.529947042907 -72.4157798400061,-36.5299460466538 -72.4158408984476,-36.5297225822466 -72.4158409279105,-36.5297222624322 -72.4158408039401,-36.5297222614816 -72.4154048508641,-36.529720225428 -72.4149757066908,-36.5297214264666 -72.4148976048703,-36.529935579292 -72.4151060726725,-36.5299403310397 -72.4153678017693,-36.5299471316872 -72.4156203672484,-36.529947042907</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4145379665831,-36.5297346246625 -72.4145698325653,-36.5298376936386 -72.4146299303768,-36.5297281006842 -72.4146395639671,-36.5297105344068 -72.4145336670649,-36.5297207222382 -72.4145379665831,-36.5297346246625</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4213588258519,-36.5297710889972 -72.4211821238914,-36.5297833162516 -72.4199171041489,-36.5297338139579 -72.4189662893312,-36.5296752817819 -72.4182977569069,-36.5295871858306 -72.4177968217398,-36.5295014302988 -72.4175918371237,-36.5294751267692 -72.417449752549,-36.5294684750315 -72.4172992885177,-36.5294727913241 -72.4171018755599,-36.5295177910047 -72.4170098855571,-36.5295418852926 -72.416918839195,-36.5295874090042 -72.4168486399102,-36.529703855076 -72.4167977368454,-36.5297553797828 -72.4167763958757,-36.5297738721945 -72.4167281883822,-36.5297859826825 -72.4166651311,-36.5297627593205 -72.4165895841889,-36.5297577735443 -72.4163627874194,-36.5297392459586 -72.4161471863087,-36.5297308012445 -72.4161470386836,-36.5297316830949 -72.4161259675349,-36.5299575772067 -72.4162769044394,-36.5299639766478 -72.4164501249337,-36.5299733130733 -72.4165844610496,-36.5300052210182 -72.4166773848915,-36.5300526206278 -72.4168087184877,-36.5301049257606 -72.4168532793636,-36.5301226722999 -72.4168980720208,-36.5301532619611 -72.4169176558896,-36.5301426833354 -72.416978249402,-36.5301099530167 -72.4171566586003,-36.530002322841 -72.417218852292,-36.5298718021679 -72.4172332889319,-36.5298642364619 -72.4173437613443,-36.5298372267391 -72.4175028666309,-36.5298278950534 -72.4176574354245,-36.5298496847021 -72.418397930289,-36.5299619432293 -72.4186607017416,-36.5300259229564 -72.4197962297924,-36.5300863075234 -72.4212252059354,-36.5301358689108 -72.4216135924846,-36.5301008743623 -72.4220159866845,-36.5299682077308 -72.4230845652462,-36.529548913823 -72.4233824531135,-36.5294044648816 -72.4235551780829,-36.5291682522788 -72.4237263087834,-36.5287084646188 -72.4238544143518,-36.5281507878644 -72.4238823530961,-36.5277993614302 -72.4239249501849,-36.5275597357941 -72.4237358301581,-36.5268892029064 -72.423714216317,-36.5269663342799 -72.4233568395273,-36.5282060398298 -72.4233389545476,-36.5284032341984 -72.4233093821054,-36.5285363966575 -72.4232306437354,-36.5287603724479 -72.4230576863891,-36.5291587050003 -72.4224077590696,-36.5293919391508 -72.421661658324,-36.5297051750077 -72.4215393223565,-36.5297444493441 -72.4214645628611,-36.5297573243523 -72.4213588258519,-36.5297710889972</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4240915039793,-36.5269160332219 -72.4241333427234,-36.5270606382277 -72.4244510886114,-36.5259212240956 -72.4244520154638,-36.5259181933783 -72.4244511350258,-36.5259174437902 -72.4244465119196,-36.5258126800456 -72.4244349387025,-36.5256842763028 -72.4243881734076,-36.5255616515503 -72.4243443501366,-36.525505695028 -72.4242758763322,-36.525426607252 -72.4242314228131,-36.5253563638504 -72.4241996098802,-36.5253048303708 -72.4241963441383,-36.5252869367281 -72.424150611017,-36.5254089512451 -72.4238867223891,-36.5263507121623 -72.4240915039793,-36.5269160332219</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4398940248277,-36.5239361573525 -72.4398169836302,-36.5239473219432 -72.4397500804751,-36.523937333832 -72.4397142609045,-36.5239622086204 -72.4396748860127,-36.5239901648821 -72.4396632162208,-36.5239945168443 -72.4396579065801,-36.5241976785635 -72.439616414915,-36.5244611173867 -72.4396091483802,-36.5244970866902 -72.4394684149285,-36.5248539820314 -72.4393626552841,-36.5251335802244 -72.4391814639972,-36.5255107146556 -72.4387085799287,-36.5263711629313 -72.4382678016755,-36.5272230537791 -72.4380602636945,-36.5276724678848 -72.4380411352357,-36.5277741020145 -72.4379856249752,-36.528054632148 -72.4379659347701,-36.5282769125834 -72.4387019206003,-36.5283405407415 -72.4397075127049,-36.528435477796 -72.4412039583138,-36.528594899489 -72.4416404832332,-36.5286466562812 -72.4422840485833,-36.5287043497329 -72.4428748364592,-36.5288374689466 -72.4433500542409,-36.5290621336671 -72.4441105127745,-36.5294239737145 -72.445727127199,-36.5301734784987 -72.4457320851588,-36.5306177115935 -72.4457594725407,-36.531234374953 -72.4448524918095,-36.5313321264943 -72.4436492179518,-36.5314432051236 -72.4429629728891,-36.5315226412432 -72.4419712662638,-36.5316085157338 -72.4405878470071,-36.5317343042283 -72.4396933878377,-36.5318149668707 -72.4387425539966,-36.5318900986662 -72.438720757326,-36.5323980427327 -72.438680755442,-36.5329618215974 -72.43865179784,-36.5332415854214 -72.4386068065761,-36.5335594799473 -72.4385153120384,-36.5346277691589 -72.4372295859171,-36.5345862036585 -72.4354455346026,-36.5345256216512 -72.4345348889915,-36.5345119085307 -72.4344244822257,-36.5348196608616 -72.4344141420657,-36.5348451358063 -72.435731419158,-36.5348888005567 -72.4389503123901,-36.5349890196168 -72.4390004954281,-36.5339219229084 -72.4391608251643,-36.5326406618635 -72.4391781486995,-36.5322317826672 -72.4407847382868,-36.5320888366783 -72.4423941939443,-36.5319207536598 -72.4445343388605,-36.5317194247169 -72.4462406576987,-36.5315377612805 -72.4461579003375,-36.5299738705148 -72.444668772364,-36.5292681265989 -72.4429980373455,-36.5284832193119 -72.4427067530335,-36.5284093891562 -72.4422204417522,-36.5283340422568 -72.4409472238454,-36.528199177776 -72.440359293774,-36.5281303345607 -72.4396741352916,-36.5280571433592 -72.4390245711248,-36.5279972255107 -72.4384608261268,-36.5279741618943 -72.4385003250246,-36.5277656136343 -72.4388034097592,-36.5271060326134 -72.4393532935827,-36.5261167705018 -72.4398549955647,-36.5251403404862 -72.4400100000608,-36.5247389286328 -72.4400744677264,-36.5245940272835 -72.4400845685848,-36.5244220878584 -72.4401195647211,-36.5241121104425 -72.440127224949,-36.523901635606 -72.4399927954183,-36.5239154260746 -72.4398940248277,-36.5239361573525</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4260255925727,-36.5243797843961 -72.4264002426259,-36.5244357615806 -72.4265987314409,-36.5245158778173 -72.4267152481531,-36.5246126546946 -72.426895183645,-36.5248077354692 -72.4269544771375,-36.5248916783778 -72.4269645006052,-36.524905870685 -72.4272915324438,-36.5249536790243 -72.4272964149744,-36.5249376387813 -72.4273140554511,-36.5248796808777 -72.4273998718073,-36.5245977287491 -72.4274059140719,-36.5245091879683 -72.4274070447526,-36.5244926258317 -72.4274051519521,-36.5244497681816 -72.4273955118346,-36.5244438517621 -72.427338358584,-36.5244087767626 -72.4272072945964,-36.5243839391787 -72.426968977825,-36.5243383469393 -72.4269040762059,-36.5243402138634 -72.4268615147284,-36.524312830069 -72.4268409849224,-36.5243074340818 -72.4268219310519,-36.5243759143982 -72.4255105552319,-36.5241776110642 -72.4254585928468,-36.5241701749195 -72.4254615250905,-36.5241814437397 -72.4255118782265,-36.5242515161441 -72.4256798134912,-36.5243086708949 -72.4258412190392,-36.5243517100312 -72.4260255925727,-36.5243797843961</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4246136334659,-36.5241736294968 -72.4242460656142,-36.525154286086 -72.4244562928289,-36.5250971947749 -72.4246619583156,-36.5250722113217 -72.4247172101335,-36.5250647716424 -72.4249137217452,-36.5245304430439 -72.4257570318979,-36.5246020318959 -72.4257339372069,-36.5245979646238 -72.425518380389,-36.5245326426372 -72.4252589995308,-36.5244113631809 -72.4250367024389,-36.5243271617273 -72.4246136334659,-36.5241736294968</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4273908918034,-36.5241485691807 -72.427397802855,-36.5241495939695 -72.4274144515094,-36.5241252752399 -72.4273887714798,-36.5238113243477 -72.4273842535847,-36.5237865792667 -72.4273809783312,-36.5237686364409 -72.4272789946007,-36.5237334256703 -72.4270638597636,-36.5236776309437 -72.4270189031381,-36.5236679756134 -72.4269053183841,-36.5240762134504 -72.4269399223761,-36.5240817091626 -72.4273908918034,-36.5241485691807</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4271296254993,-36.5234278012347 -72.4274343113959,-36.5235048602258 -72.427493533944,-36.5233744200895 -72.427651805397,-36.5230790175114 -72.4276790476044,-36.523037624675 -72.4277957398644,-36.5228603148392 -72.4279584361114,-36.522531408194 -72.4279649002442,-36.5225016175751 -72.4279927950827,-36.5223730751708 -72.4279696267223,-36.5222497728978 -72.4278676561183,-36.5220810584682 -72.4276588570278,-36.5219011134875 -72.4275379153709,-36.5218378402328 -72.4275190597788,-36.521829414633 -72.4272540171904,-36.5228229378403 -72.4270879768782,-36.5234197140894 -72.4271296254993,-36.5234278012347</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.429425281854,-36.5217562688016 -72.4294797286272,-36.5217585165145 -72.4295084724292,-36.5217138227975 -72.4294507462487,-36.5214980235981 -72.4293967632414,-36.5214917907277 -72.4288571820577,-36.5214224767349 -72.4288465229441,-36.521492568272 -72.4288452495235,-36.5216242020268 -72.4288660641818,-36.5216674683655 -72.4288951409038,-36.5216837963478 -72.4289810246937,-36.5217023043331 -72.4291280995409,-36.5217152359939 -72.4292471075446,-36.5217346969658 -72.429425281854,-36.5217562688016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4277585468458,-36.5216169319513 -72.4279824277291,-36.5217718389762 -72.4280417327313,-36.5216669182281 -72.4284867431141,-36.5217780815946 -72.4285102429264,-36.5217082693056 -72.4285224317727,-36.521710529754 -72.4285152771516,-36.5216432341227 -72.4285100603148,-36.5215251378668 -72.4285337139849,-36.5213809239466 -72.4276683572765,-36.5212697540991 -72.4275915790903,-36.5215575671605 -72.4276024167083,-36.5215594394858 -72.4277585468458,-36.5216169319513</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZR</SimpleData>
+		<SimpleData name="NOM">ZR Zona de Restricción por Incendios Forestales</SimpleData>
+		<SimpleData name="UPERM">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="UPROH">Según lo señalado en el  Artículo 26 de la Ordenanza Local.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4346385602727,-36.5186895351752 -72.4334056268133,-36.5200625011524 -72.4318778180518,-36.5217815246141 -72.4312809333108,-36.5217093167631 -72.4298167457944,-36.5215402803716 -72.4298180525889,-36.5216076433344 -72.4298457769945,-36.5217002984643 -72.4298744296478,-36.5217605037967 -72.4299000497774,-36.5218055399974 -72.4299771682197,-36.5218395560318 -72.430434743265,-36.5218740618271 -72.431777211129,-36.5220680783739 -72.432119016146,-36.5221320434581 -72.4330068725253,-36.5210991182987 -72.4342790816844,-36.5196787744186 -72.4347184689291,-36.5191922122089 -72.4347237275682,-36.5191943997056 -72.4357864117298,-36.5197478402989 -72.4365387400263,-36.5201957906995 -72.4375210672856,-36.5207682201959 -72.43815720878,-36.5211932883259 -72.438460745542,-36.5214443850942 -72.4386776226963,-36.5217394634784 -72.4392022221806,-36.522379920724 -72.4395498701969,-36.522959686905 -72.4396427341135,-36.5235887660865 -72.4396488038057,-36.5236725910353 -72.4396533972071,-36.5236719249989 -72.4397234585079,-36.5236699021511 -72.4397972080595,-36.5236677727695 -72.4399078323724,-36.5236645786118 -72.4400221438097,-36.5236612778843 -72.4401097206366,-36.5236378891068 -72.4401167113335,-36.5236366537519 -72.4400765123416,-36.5232408090087 -72.4400050570263,-36.5229281838063 -72.4399783413808,-36.5228252511203 -72.4398626456984,-36.5226140319996 -72.4395769220684,-36.5221652685614 -72.4391917666459,-36.5216721711413 -72.4388448632172,-36.521242336608 -72.4387065795868,-36.5211211674515 -72.4383579521045,-36.5208523012517 -72.4379331549419,-36.5205641755603 -72.4372822194192,-36.520171717097 -72.4363587202248,-36.5196269120174 -72.4358764163002,-36.5193404372583 -72.4355635204172,-36.5191778115108 -72.434661157078,-36.5186996124251 -72.4346385602727,-36.5186895351752</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZPI</SimpleData>
+		<SimpleData name="NOM">ZPI Zona Productiva Industrial</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de comercio y servicios. Actividades productivas inofensivas y molestas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente el residencial.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4118843025985,-36.532495444861 -72.4120136341367,-36.5335674702287 -72.4121343836546,-36.5343650413466 -72.4121580558661,-36.5345002525474 -72.4121582287294,-36.5346385210266 -72.4122240343735,-36.5349928082297 -72.4122730373522,-36.53536807996 -72.4123282565473,-36.5357503251654 -72.4135163909292,-36.5356280753359 -72.4147023883733,-36.53551779487 -72.4153645754279,-36.535460666064 -72.4158741787804,-36.5354093760295 -72.4160001861059,-36.535202206941 -72.4163154664303,-36.534713977721 -72.4164122460432,-36.5344966411095 -72.4164300984137,-36.5340970442631 -72.4164704882377,-36.5337060997952 -72.4165596946997,-36.5334174590354 -72.4167394586645,-36.5331727092989 -72.417003014353,-36.532818275765 -72.4171280733228,-36.5326394634078 -72.4173027576806,-36.5324806829935 -72.4173040992338,-36.5321087378663 -72.4172619384105,-36.5319484748915 -72.4118843025985,-36.532495444861</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZPU (C)</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas Condicionada</SimpleData>
+		<SimpleData name="UPERM">Ver ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Ver ordenanza.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4237263087834,-36.5287084646188 -72.4235551780829,-36.5291682522788 -72.4233824531135,-36.5294044648816 -72.4230845652462,-36.529548913823 -72.4220159866845,-36.5299682077308 -72.4216135924846,-36.5301008743623 -72.4212252059354,-36.5301358689108 -72.4197962297924,-36.5300863075234 -72.4186607017416,-36.5300259229564 -72.418397930289,-36.5299619432293 -72.4176574354245,-36.5298496847021 -72.4175028666309,-36.5298278950534 -72.4173437613443,-36.5298372267391 -72.4172332889319,-36.5298642364619 -72.417218852292,-36.5298718021679 -72.4171566586003,-36.530002322841 -72.416978249402,-36.5301099530167 -72.4169176558896,-36.5301426833354 -72.4168980720208,-36.5301532619611 -72.416924841979,-36.5301715439925 -72.4170040376237,-36.5302256281892 -72.4171212802804,-36.5303724583785 -72.4171952131961,-36.5305419873579 -72.4172450686444,-36.5307042741757 -72.4172458297584,-36.5307067509369 -72.4172779755582,-36.5308113905836 -72.4174554990587,-36.5314213747204 -72.4175167793252,-36.5316037765055 -72.4175174462555,-36.5316057621943 -72.417562593917,-36.5317401443121 -72.4175991624456,-36.5318970571445 -72.4175993717396,-36.5318979557877 -72.4176192476879,-36.5318955465318 -72.4199008345961,-36.5317011227993 -72.4228642726544,-36.5314485289032 -72.4229976188838,-36.5314371610308 -72.4249774563403,-36.5312670148123 -72.4249777519154,-36.530044536092 -72.4249779402219,-36.5292703916605 -72.424488825808,-36.5288970508442 -72.4244211314925,-36.5288691966205 -72.424405329789,-36.5288458110813 -72.4243381620454,-36.5288298615562 -72.424313909262,-36.5288275600309 -72.4243142117719,-36.5288835943454 -72.4240094897471,-36.5289400326582 -72.4239873755578,-36.5288405399654 -72.4239545275679,-36.5286316908396 -72.4239265127799,-36.528532367721 -72.4239313801028,-36.5283748833434 -72.4239010540581,-36.5282231778781 -72.4238519590688,-36.5281816767769 -72.4238544143518,-36.5281507878644 -72.4237263087834,-36.5287084646188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZEXH-2</SimpleData>
+		<SimpleData name="NOM">ZEXH-2 Zona de Extensión Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4284452549092,-36.5328846717065 -72.428330028459,-36.5329652981274 -72.4276090371412,-36.5336297286376 -72.4264573328864,-36.5328364570552 -72.4262978249564,-36.5329705642777 -72.4261418076551,-36.5331502762104 -72.426038738869,-36.5333248898007 -72.4251234305102,-36.5333690904711 -72.4229283021255,-36.5336036242182 -72.4229626925149,-36.534761004611 -72.4245576328548,-36.5346198022394 -72.4253173348967,-36.5345502799949 -72.4256626411326,-36.534542734398 -72.4268596756326,-36.5344892319488 -72.4276215823427,-36.5344696952272 -72.4289729823682,-36.5344331861435 -72.429817329274,-36.5344207979392 -72.4305355027627,-36.5344144215944 -72.4324036403818,-36.5344392783747 -72.4342098635244,-36.5345061184952 -72.4342428678286,-36.5344208081368 -72.434391749259,-36.5338801148394 -72.4344567082213,-36.5337459298556 -72.4344846838628,-36.5336771795447 -72.4346060655375,-36.533416207121 -72.4348981463974,-36.5331074015125 -72.4350301188843,-36.5329855878707 -72.435067102354,-36.5329201530053 -72.4350955504836,-36.5328621167053 -72.4350430662382,-36.5323772936407 -72.4350018174658,-36.5321885801671 -72.4332913919514,-36.5321457876498 -72.4306416366038,-36.5320135268379 -72.4295186456228,-36.5319504540466 -72.4295303242899,-36.5319577550405 -72.4297068659579,-36.5320420726572 -72.4298426298385,-36.5321061076239 -72.4299303465337,-36.5321858307754 -72.429995776585,-36.5322626184425 -72.4300158470758,-36.5323156812581 -72.4300635764672,-36.5323929794511 -72.4300842786142,-36.5324603271743 -72.4300950250232,-36.5325029297699 -72.4300744762365,-36.5325392819377 -72.4302325238749,-36.5327063790761 -72.4299873732341,-36.5328743584583 -72.4297896547153,-36.5327119785295 -72.4297586801322,-36.5326127422613 -72.429742246108,-36.5325416953626 -72.4297251805752,-36.53245636263 -72.4296633858071,-36.5323615890077 -72.4295712445333,-36.5322819939435 -72.4294395894301,-36.532210687925 -72.4293904302119,-36.5323015034685 -72.4293629239887,-36.5323809678573 -72.4293588095779,-36.5324883659593 -72.4293695502091,-36.5326310977941 -72.4293889834791,-36.5327700022462 -72.4293995663629,-36.5329091623844 -72.4294117322471,-36.5329839084369 -72.4294054023829,-36.5331414348088 -72.4293756814492,-36.5332710265532 -72.429349127548,-36.5332717910019 -72.4290741109377,-36.5332654039726 -72.4290794954022,-36.5330864483467 -72.4290755593424,-36.5327969051304 -72.4290741386116,-36.532764761769 -72.4290159750235,-36.5327521320359 -72.428985628011,-36.5327673096009 -72.4289167137298,-36.5328122053416 -72.4288620228082,-36.5328781481103 -72.4287801466097,-36.5329305693321 -72.4286465854095,-36.5330166614931 -72.4286197159182,-36.5330102833025 -72.4284452549092,-36.5328846717065</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">AV Áreas Verdes</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4277902321783,-36.5279483088519 -72.4288845256565,-36.5281123058363 -72.4289012195799,-36.5280091940829 -72.4291026142541,-36.5271626999538 -72.4281728647366,-36.5269680801306 -72.4280712037138,-36.5269532442273 -72.4277902321783,-36.5279483088519</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZHMC</SimpleData>
+		<SimpleData name="NOM">ZHMC Zona Habitacional Mixta Comercial</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas de almacenamiento y talleres, inofensivas y molestas.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4305373680882,-36.5273856983853 -72.4307931597411,-36.5263291219697 -72.4299210527034,-36.5261419768905 -72.4298216090845,-36.526148672968 -72.4296813479049,-36.5261497313009 -72.4295738799901,-36.526140904386 -72.4294400726876,-36.5261209166412 -72.4293424852378,-36.5260849856036 -72.42925556519,-36.5260398072899 -72.4292026997852,-36.5259878198175 -72.4270844952263,-36.5255332281806 -72.4267781131864,-36.5266219984054 -72.4264211439678,-36.5277694390582 -72.4261427279077,-36.5287894586003 -72.4288903457415,-36.5292003189296 -72.4301114130448,-36.5293582709065 -72.4303619714119,-36.5281101803281 -72.4305373680882,-36.5273856983853</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.4277902321783,-36.5279483088519 -72.4280712037138,-36.5269532442273 -72.4281728647366,-36.5269680801306 -72.4291026142541,-36.5271626999538 -72.4289012195799,-36.5280091940829 -72.4288845256565,-36.5281123058363 -72.4277902321783,-36.5279483088519</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de Equipamiento de Salud</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de Salud de Cementerio.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente el residencial.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.435450716983,-36.5311259195534 -72.4364723556106,-36.5311155242603 -72.4364354307338,-36.5298816756508 -72.436467149446,-36.5291384138897 -72.4358853114658,-36.5291054792857 -72.4358817576843,-36.5292026461868 -72.4357945194735,-36.5293338982131 -72.4357833895166,-36.5293535906501 -72.4357634053487,-36.5293889507214 -72.4357164473527,-36.5294720382687 -72.4356024991179,-36.5296004851806 -72.4355206310972,-36.5296529097426 -72.4355013099077,-36.5296687278451 -72.4354436641127,-36.5297159215807 -72.4353543689714,-36.529800745329 -72.4353312952307,-36.529880082231 -72.4352881583363,-36.5303068715262 -72.4352984461218,-36.5309395275745 -72.435291188618,-36.5311284107767 -72.435450716983,-36.5311259195534</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">ZE2 Zona de Equipamiento Deportivo</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de deportes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente el residencial.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4354659616197,-36.5290856740348 -72.4355373768323,-36.5290888234004 -72.4355597417047,-36.5289901570955 -72.4355775196831,-36.528891304103 -72.4355391903423,-36.5287761889943 -72.435525094962,-36.5286246154559 -72.4354323707571,-36.528448489125 -72.4353902227615,-36.5283305043393 -72.4353923278764,-36.5282112433812 -72.4353929824476,-36.5280592444527 -72.4354122078319,-36.527909689717 -72.435451248283,-36.5278709743222 -72.4354864877291,-36.52783602765 -72.435552084019,-36.5277791635472 -72.4356038319763,-36.5277343032698 -72.4356680614918,-36.527697004038 -72.4351262408811,-36.5276841407215 -72.4343349332724,-36.527662546213 -72.4343676323492,-36.5278299807565 -72.434603448095,-36.529019952362 -72.4346038696562,-36.529029475905 -72.4349092154322,-36.5290540482603 -72.4354659616197,-36.5290856740348</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZEXH-1</SimpleData>
+		<SimpleData name="NOM">ZEXH-1 Zona de Extensión Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4307931597411,-36.5263291219697 -72.4305373680882,-36.5273856983853 -72.43178067513,-36.5275881742412 -72.4315608360285,-36.5285451303953 -72.4317099251723,-36.5285765952689 -72.4327568447319,-36.5287878125823 -72.4331251867361,-36.5288575391471 -72.4334585634716,-36.5275796404933 -72.433608558596,-36.52702413521 -72.4337991893474,-36.5262483959318 -72.4327652520329,-36.5262933489018 -72.4321143856703,-36.5263121018902 -72.431859938636,-36.5263194321387 -72.4316378908588,-36.5263079483249 -72.4314636508771,-36.5262921073015 -72.4312487157151,-36.5262744584028 -72.4308957591922,-36.5262250236244 -72.4308215689556,-36.5262071751531 -72.4307931597411,-36.5263291219697</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZEXH-1</SimpleData>
+		<SimpleData name="NOM">ZEXH-1 Zona de Extensión Habitacional</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4314692702866,-36.5260154882582 -72.4318452483246,-36.5260400201806 -72.4320574441333,-36.526029139807 -72.4323585647733,-36.5260252318298 -72.4331076773257,-36.5259988789528 -72.4335440796131,-36.5259815336632 -72.4338676489228,-36.5259681194396 -72.4338862386154,-36.525889688727 -72.4318773995083,-36.5254505101926 -72.4310389728779,-36.525273938009 -72.4308832166822,-36.5259425482406 -72.430953400714,-36.5259558455687 -72.4311086759785,-36.5259603137036 -72.4312983234605,-36.5259906119966 -72.4314692702866,-36.5260154882582</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZP</SimpleData>
+		<SimpleData name="NOM">ZP Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de esparcimiento sin construcciones.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4146299303768,-36.5297281006842 -72.4145698325653,-36.5298376936386 -72.4145379665831,-36.5297346246625 -72.4145336670649,-36.5297207222382 -72.4144235037911,-36.5297346076028 -72.4142999050684,-36.5297453016906 -72.4141633457428,-36.5297635195899 -72.4141637662052,-36.5297649302892 -72.4142309347622,-36.5299904487427 -72.4141911055184,-36.529991590252 -72.4139358436381,-36.5300310892769 -72.4136230503957,-36.530072237244 -72.4132629911159,-36.5301469231003 -72.4130296985867,-36.5301822153816 -72.4127089951144,-36.5302450432798 -72.4123500334561,-36.5303447268965 -72.4115345888796,-36.5305433075139 -72.4112325276441,-36.5306270542065 -72.4112014317318,-36.5306384427206 -72.4112344273754,-36.5308960699858 -72.4112574238374,-36.5308909675171 -72.4116565335107,-36.5307972898294 -72.4116642024102,-36.5307956078044 -72.4120690753498,-36.5307068014421 -72.4125372638249,-36.5305718062223 -72.412962608054,-36.5304702201994 -72.413466497556,-36.5303914139997 -72.413756693186,-36.5303401861428 -72.4139858742813,-36.5303121618485 -72.4141837629557,-36.5302778823673 -72.4143688468377,-36.5302546974022 -72.4145098337993,-36.5302363523405 -72.4146032390364,-36.5302444037978 -72.4149218727087,-36.530235270229 -72.4152850745691,-36.5302320096704 -72.4159986736684,-36.5302365820312 -72.4162298987116,-36.530254983289 -72.4164212934177,-36.5302745263852 -72.416529548603,-36.5303179101752 -72.4166830025896,-36.530381453184 -72.4167890353727,-36.5304749651733 -72.416927261253,-36.530796418805 -72.4172508776429,-36.5319064314193 -72.4172619384105,-36.5319484748915 -72.4173040992338,-36.5321087378663 -72.4173027576806,-36.5324806829935 -72.4171280733228,-36.5326394634078 -72.417003014353,-36.532818275765 -72.4167394586645,-36.5331727092989 -72.4165596946997,-36.5334174590354 -72.4164704882377,-36.5337060997952 -72.4164300984137,-36.5340970442631 -72.4164122460432,-36.5344966411095 -72.4163154664303,-36.534713977721 -72.4160001861059,-36.535202206941 -72.4158741787804,-36.5354093760295 -72.4156445998573,-36.5357868251375 -72.4160487606366,-36.5357502947029 -72.4161503220763,-36.5355926945968 -72.4162907325068,-36.5353674490039 -72.4165724916164,-36.5349154464322 -72.4166388985903,-36.5348134124041 -72.4166311693959,-36.5347385384213 -72.4166722809378,-36.5346658380271 -72.4167402822014,-36.5344993912747 -72.4167672148888,-36.5342053840618 -72.4168104548076,-36.5337785971556 -72.4168878002805,-36.5335224807635 -72.416936503325,-36.5334209553043 -72.4171676418192,-36.533135395354 -72.4173219503584,-36.5329164077872 -72.4174307233629,-36.5327702457945 -72.4174833584046,-36.5327580079645 -72.4174972641766,-36.532771913094 -72.4177338259973,-36.5330118715708 -72.4179311879769,-36.5332672592418 -72.4179637203592,-36.5334022139492 -72.4179641333628,-36.5337133161263 -72.4179166903914,-36.5338434148467 -72.4178361821058,-36.534128230698 -72.4178238292962,-36.5342501691966 -72.4178285497972,-36.5343573146693 -72.4178470001232,-36.5345749224533 -72.4178378133943,-36.5346681628864 -72.4178670431116,-36.5347281167071 -72.4178951513761,-36.5348631992393 -72.4179751196425,-36.5352207696341 -72.4179944835857,-36.5353073511925 -72.4180598151915,-36.5355692686545 -72.4183922838253,-36.5355394539179 -72.4183171331533,-36.5351916093412 -72.4182394122881,-36.5348318644792 -72.4182027859085,-36.5346040505347 -72.4181851224916,-36.5344042996493 -72.418173772451,-36.5342472806762 -72.4181979850631,-36.5340928165773 -72.4182410029002,-36.5339628456367 -72.4182999909743,-36.5337930795654 -72.4183120282596,-36.5336639976041 -72.4183363978833,-36.5335131052129 -72.4183253440685,-36.5334633586492 -72.4182730813821,-36.533182352471 -72.41825364795,-36.5331435732712 -72.4180287882846,-36.5328675204042 -72.4176803482634,-36.5325020348832 -72.4176387872512,-36.5324638913085 -72.4176440604195,-36.5321812340546 -72.4176172332231,-36.5319745943072 -72.4175993717396,-36.5318979557877 -72.4175991624456,-36.5318970571445 -72.417562593917,-36.5317401443121 -72.4175174462555,-36.5316057621943 -72.4175167793252,-36.5316037765055 -72.4174554990587,-36.5314213747204 -72.4172779755582,-36.5308113905836 -72.4172458297584,-36.5307067509369 -72.4172450686444,-36.5307042741757 -72.4171952131961,-36.5305419873579 -72.4171212802804,-36.5303724583785 -72.4170040376237,-36.5302256281892 -72.416924841979,-36.5301715439925 -72.4168980720208,-36.5301532619611 -72.4168532793636,-36.5301226722999 -72.4168087184877,-36.5301049257606 -72.4166773848915,-36.5300526206278 -72.4165844610496,-36.5300052210182 -72.4164501249337,-36.5299733130733 -72.4162769044394,-36.5299639766478 -72.4161259675349,-36.5299575772067 -72.4161470386836,-36.5297316830949 -72.4161471863087,-36.5297308012445 -72.4161465991559,-36.529730778436 -72.4159411140202,-36.5297227298532 -72.4159013426338,-36.5297225439363 -72.4158409279105,-36.5297222624322 -72.4158408984476,-36.5297225822466 -72.4157798400061,-36.5299460466538 -72.4156203672484,-36.529947042907 -72.4153678017693,-36.5299471316872 -72.4151060726725,-36.5299403310397 -72.4148976048703,-36.529935579292 -72.4149757066908,-36.5297214264666 -72.4146395639671,-36.5297105344068 -72.4146299303768,-36.5297281006842</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZP</SimpleData>
+		<SimpleData name="NOM">ZP Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de esparcimiento sin construcciones.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4293491275878,-36.5332717919018 -72.429375681489,-36.5332710274531 -72.4294054023829,-36.5331414348088 -72.4294117322471,-36.5329839084369 -72.4293995663629,-36.5329091623844 -72.4293889835188,-36.532770003146 -72.4293695502091,-36.5326310977941 -72.4293588096177,-36.5324883668592 -72.4293629239887,-36.5323809678573 -72.4293904302119,-36.5323015034685 -72.4294395894301,-36.532210687925 -72.4295712445333,-36.5322819939435 -72.4296633858469,-36.5323615899076 -72.4297251805752,-36.53245636263 -72.429742246108,-36.5325416953626 -72.4297586801322,-36.5326127422613 -72.429789654755,-36.5327119794294 -72.4299873732341,-36.5328743584583 -72.4302325238749,-36.5327063790761 -72.4300744762365,-36.5325392819377 -72.4300950250232,-36.5325029297699 -72.4300842786142,-36.5324603271743 -72.4300635764672,-36.5323929794511 -72.4300158470758,-36.5323156812581 -72.4299957766248,-36.5322626193424 -72.4299303465337,-36.5321858307754 -72.4298426298783,-36.5321061085238 -72.4297068659579,-36.5320420726572 -72.4295303242899,-36.5319577550405 -72.4294482970148,-36.5319064767139 -72.4294008854257,-36.5318363215568 -72.4293202846832,-36.5317170573197 -72.4292940526365,-36.5316248359264 -72.4292837815096,-36.5315929473454 -72.429271614999,-36.5315182021795 -72.4292630849062,-36.5314254711826 -72.4292983363028,-36.5313207520482 -72.4293212587139,-36.5312378434004 -72.4293493950388,-36.5311726657981 -72.4294085101535,-36.5311065954661 -72.429107263801,-36.531108115896 -72.4290334517075,-36.5311424239742 -72.4289623229368,-36.5312374479714 -72.4289564716674,-36.5313055611572 -72.4289365478253,-36.5314563263885 -72.4289344847964,-36.531610154634 -72.4289706717156,-36.5317271213729 -72.4290481090052,-36.531875084954 -72.429143248558,-36.5320225388931 -72.4291536786418,-36.5320579982372 -72.429145932135,-36.5320832539344 -72.4290997776974,-36.5321417986077 -72.4290552017092,-36.5322360574165 -72.4290463443145,-36.5323364413932 -72.4289733214442,-36.5323886069846 -72.4288661560729,-36.532470364234 -72.4286867552952,-36.532622144395 -72.4284294297632,-36.5328155028662 -72.4284000295828,-36.5328521095114 -72.4286197159182,-36.5330102833025 -72.4286465854095,-36.5330166614931 -72.4287801466097,-36.5329305693321 -72.4288620228082,-36.5328781481103 -72.4289167137696,-36.5328122062415 -72.4289856280508,-36.5327673105008 -72.4290159750235,-36.5327521320359 -72.4290741386514,-36.5327647626689 -72.4290755593424,-36.5327969051304 -72.4290794943269,-36.5330864492787 -72.4290741109774,-36.5332654048725 -72.4293491275878,-36.5332717919018</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZP</SimpleData>
+		<SimpleData name="NOM">ZP Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de esparcimiento sin construcciones.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4239873755578,-36.5288405399654 -72.4240094897471,-36.5289400326582 -72.4243142117719,-36.5288835943454 -72.424313909262,-36.5288275600309 -72.4243125623353,-36.5285784876629 -72.4242864716032,-36.5282550120652 -72.4242163129075,-36.5281378280496 -72.4241866180182,-36.5280004094673 -72.4242159261118,-36.5278612940273 -72.4242616910307,-36.5275595927504 -72.424237894838,-36.5274220046174 -72.4241333427234,-36.5270606382277 -72.4240915039793,-36.5269160332219 -72.4238867223891,-36.5263507121623 -72.4237358301581,-36.5268892029064 -72.4239249501849,-36.5275597357941 -72.4238823530961,-36.5277993614302 -72.4238544143518,-36.5281507878644 -72.4238519590688,-36.5281816767769 -72.4239010540581,-36.5282231778781 -72.4239313801028,-36.5283748833434 -72.4239265127799,-36.528532367721 -72.4239545275679,-36.5286316908396 -72.4239873755578,-36.5288405399654</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZP</SimpleData>
+		<SimpleData name="NOM">ZP Zona de Protección de Drenajes</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de esparcimiento sin construcciones.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente residencial.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4285274056334,-36.5217573182653 -72.4285635578771,-36.5218268438358 -72.4287718159073,-36.5219410051036 -72.4290335996532,-36.5219830576463 -72.4293717435109,-36.522041983926 -72.4298560797763,-36.5220971780898 -72.4307334729915,-36.5222006515047 -72.4311768956191,-36.522267746197 -72.4316532685175,-36.5223531994023 -72.4319918365826,-36.5224216425253 -72.4325626088659,-36.5225043734972 -72.4328608064821,-36.5225415542303 -72.4331597637651,-36.5225691766079 -72.4338687646097,-36.5226784324096 -72.433888486744,-36.5226969362643 -72.4340391036541,-36.5227898621291 -72.4341767400108,-36.5229098633855 -72.434282012081,-36.5229926528162 -72.434422177947,-36.5231697968751 -72.434468030795,-36.5233248657816 -72.4346291870407,-36.5238694944576 -72.4346816144474,-36.5239862299952 -72.4347823376862,-36.5241263660831 -72.4349363297255,-36.5242954817064 -72.4350034224349,-36.5243698355308 -72.4351139249003,-36.5245707203427 -72.4351738556274,-36.5247501759731 -72.4352237539044,-36.5248097681533 -72.4352905095274,-36.5248231005143 -72.4353410819098,-36.5248445286035 -72.4353923289173,-36.5248811954164 -72.4354896810168,-36.5248917378556 -72.4356637334989,-36.5248733686779 -72.4358745335029,-36.5248310521275 -72.4365782396181,-36.5246867860454 -72.4371690843764,-36.5245820092176 -72.4374812791017,-36.5245348578096 -72.4377028674039,-36.5245227422469 -72.4378804588709,-36.5245309682084 -72.4379578363555,-36.5245706930213 -72.4379860745237,-36.5246213733729 -72.4379618868102,-36.5246621225593 -72.4378824076662,-36.5247349819104 -72.4377360914367,-36.5248460078856 -72.4376239938524,-36.5249293449148 -72.4373844175462,-36.5251222105561 -72.4368706984256,-36.5253945039514 -72.4366410206248,-36.5255441697157 -72.4365259699773,-36.5256142411493 -72.4363774162124,-36.5257281908691 -72.4363076690083,-36.5257540424177 -72.4360371060626,-36.5257809187184 -72.4357484207788,-36.5257987804589 -72.4355726816116,-36.5258324566471 -72.4353558517192,-36.5258720858085 -72.435109309282,-36.5259078030348 -72.4349392592436,-36.5259365459527 -72.4348098771088,-36.5259498129931 -72.4346853404601,-36.5259390995907 -72.4343462921082,-36.5259536416557 -72.4339214796081,-36.5259658875128 -72.4338676489228,-36.5259681194396 -72.4335440796131,-36.5259815336632 -72.4331076773257,-36.5259988789528 -72.4323585647733,-36.5260252318298 -72.4320574441333,-36.526029139807 -72.4318452483246,-36.5260400201806 -72.4314692702866,-36.5260154882582 -72.4312983234605,-36.5259906119966 -72.4311086759785,-36.5259603137036 -72.430953400714,-36.5259558455687 -72.4308832166822,-36.5259425482406 -72.4307895666732,-36.5259248042389 -72.430692635694,-36.5259037550202 -72.4305796399356,-36.5258533691193 -72.4305195852516,-36.5258312578398 -72.4304231807461,-36.5258221140033 -72.4302315558319,-36.5258306123757 -72.4300374286241,-36.5258660019626 -72.4298207795083,-36.5258930995218 -72.4296566801584,-36.5258978238596 -72.4295972844771,-36.5258905936485 -72.4295410488519,-36.5258713525669 -72.4294952185502,-36.5258369114032 -72.4294566324548,-36.525799281939 -72.4293207271099,-36.5256482340647 -72.4291594036946,-36.5255068568967 -72.4290636621329,-36.5254291524718 -72.4289348982404,-36.5253784241067 -72.4287349333937,-36.5252649789101 -72.4283352046423,-36.5251763545677 -72.4278756347511,-36.5250703783726 -72.4276366845232,-36.5250105008289 -72.4277045626089,-36.5246747867804 -72.4277180527021,-36.5245727143105 -72.4277267022085,-36.5245072687877 -72.4277123885463,-36.524316959872 -72.42772778637,-36.5241305644043 -72.4277187422471,-36.5239257989294 -72.4277073733915,-36.5238021580332 -72.4277130747656,-36.5236637210579 -72.427784948012,-36.5234184845249 -72.4279333106538,-36.5231662778981 -72.4281484765458,-36.5228215572273 -72.4282717644426,-36.5225366962635 -72.4283200362181,-36.5222921385984 -72.4282720053001,-36.5221409437787 -72.4281708766654,-36.5219912768379 -72.4279901039082,-36.5217771496004 -72.4279824277291,-36.5217718389762 -72.4277585468458,-36.5216169319513 -72.4276024167083,-36.5215594394858 -72.4275915790903,-36.5215575671605 -72.4275192101051,-36.5218288498602 -72.4275190597788,-36.521829414633 -72.4275379153709,-36.5218378402328 -72.4276588570278,-36.5219011134875 -72.4278676561183,-36.5220810584682 -72.4279696267223,-36.5222497728978 -72.4279927950827,-36.5223730751708 -72.4279649002442,-36.5225016175751 -72.4279584361114,-36.522531408194 -72.4277957398644,-36.5228603148392 -72.4276790476044,-36.523037624675 -72.427651805397,-36.5230790175114 -72.427493533944,-36.5233744200895 -72.4274343113959,-36.5235048602258 -72.4271296254993,-36.5234278012347 -72.4270879768782,-36.5234197140894 -72.4270191315809,-36.5236671572034 -72.4270189031381,-36.5236679756134 -72.4270638597636,-36.5236776309437 -72.4272789946007,-36.5237334256703 -72.4273809783312,-36.5237686364409 -72.4273842535847,-36.5237865792667 -72.4273887714798,-36.5238113243477 -72.4274144515094,-36.5241252752399 -72.427397802855,-36.5241495939695 -72.4273908918034,-36.5241485691807 -72.4269399223761,-36.5240817091626 -72.4269053183841,-36.5240762134504 -72.4268412613686,-36.5243064385882 -72.4268409849224,-36.5243074340818 -72.4268615147284,-36.524312830069 -72.4269040762059,-36.5243402138634 -72.426968977825,-36.5243383469393 -72.4272072945964,-36.5243839391787 -72.427338358584,-36.5244087767626 -72.4273955118346,-36.5244438517621 -72.4274051519521,-36.5244497681816 -72.4274070447526,-36.5244926258317 -72.4274059140719,-36.5245091879683 -72.4273998718073,-36.5245977287491 -72.4273140554511,-36.5248796808777 -72.4272964149744,-36.5249376387813 -72.4272915324438,-36.5249536790243 -72.4269645006052,-36.524905870685 -72.4269544771375,-36.5248916783778 -72.426895183645,-36.5248077354692 -72.4267152481531,-36.5246126546946 -72.4265987314409,-36.5245158778173 -72.4264002426259,-36.5244357615806 -72.4260255925727,-36.5243797843961 -72.4258412190392,-36.5243517100312 -72.4256798134912,-36.5243086708949 -72.4255118782265,-36.5242515161441 -72.4254615250905,-36.5241814437397 -72.4254585928468,-36.5241701749195 -72.4250111646287,-36.5241061449183 -72.4248934612297,-36.5240854213492 -72.4248908047877,-36.5240849534874 -72.4246619722766,-36.5240446631606 -72.4246600476146,-36.5240497985643 -72.4246136334659,-36.5241736294968 -72.4250367024389,-36.5243271617273 -72.4252589995308,-36.5244113631809 -72.425518380389,-36.5245326426372 -72.4257339372069,-36.5245979646238 -72.4257570318979,-36.5246020318959 -72.4259899545875,-36.5246430503141 -72.4261144875559,-36.5246537730231 -72.4263169838039,-36.5246908614552 -72.4264868129018,-36.5247908735744 -72.4266798098491,-36.5250141879787 -72.4266111109366,-36.5250638444049 -72.4264539097774,-36.5251160453933 -72.4263009258593,-36.525129981987 -72.4261180210124,-36.5251352422517 -72.4259056157558,-36.5251413505826 -72.4256506477694,-36.5251200743446 -72.4253303571142,-36.5250911391122 -72.4247970308983,-36.5250540243314 -72.4247172101335,-36.5250647716424 -72.4246619583156,-36.5250722113217 -72.4244562928289,-36.5250971947749 -72.4242460656142,-36.525154286086 -72.4241963441383,-36.5252869367281 -72.4241996098802,-36.5253048303708 -72.4242314228131,-36.5253563638504 -72.4242758763322,-36.525426607252 -72.4243443501366,-36.525505695028 -72.4243881734076,-36.5255616515503 -72.4244349387025,-36.5256842763028 -72.4244465119196,-36.5258126800456 -72.4244511350258,-36.5259174437902 -72.4244520154638,-36.5259181933783 -72.4245432107277,-36.525995852993 -72.4246704627414,-36.5262019882146 -72.4246801461841,-36.5262875341096 -72.4246662283316,-36.5263737593714 -72.4246088904259,-36.5265470561773 -72.4249605795627,-36.5266180026561 -72.4249986762017,-36.5264662297352 -72.4250389968874,-36.5262922290293 -72.4250374297474,-36.5261730743305 -72.4249984514337,-36.5261265145083 -72.4249393371344,-36.5259583531586 -72.4248817900017,-36.5259093473824 -72.4248316175518,-36.5258601295678 -72.4248056822806,-36.5257744544019 -72.4247578848912,-36.5256953681059 -72.4247449925269,-36.5255705776611 -72.4247369707979,-36.5254724685183 -72.4246783722732,-36.5253996521776 -72.4246795639951,-36.5253429973264 -72.4247601665931,-36.5253287603481 -72.4248524877295,-36.5253290860629 -72.4249122779037,-36.5253452474683 -72.4250312015101,-36.525362688534 -72.4251199667802,-36.5253660969174 -72.4252419209182,-36.5253685510091 -72.4254534285425,-36.5253922698224 -72.4256384661442,-36.5254018488692 -72.4258270596714,-36.5254083456253 -72.4260890113149,-36.5254037931877 -72.4263208053355,-36.5253852060988 -72.4264388082112,-36.5253818122087 -72.4265417991572,-36.5253728904924 -72.4266177929855,-36.5253379239021 -72.4267163069105,-36.5253112505379 -72.4267920377664,-36.5252703319137 -72.4268493310897,-36.5252299435996 -72.4268985915836,-36.5251748867022 -72.4269517990549,-36.5251673957668 -72.4272532544365,-36.525221304711 -72.4277940040315,-36.525342826924 -72.4281930465412,-36.5254326649064 -72.4283953338633,-36.5254983646899 -72.428631071036,-36.5255690600206 -72.4287925314847,-36.5256299737167 -72.4289323922863,-36.5257034287557 -72.4290818617949,-36.5258689871744 -72.4292026997852,-36.5259878198175 -72.4292555652298,-36.5260398081898 -72.4293424841228,-36.5260849856357 -72.4294400726876,-36.5261209166412 -72.4295738800299,-36.5261409052859 -72.4296813479049,-36.5261497313009 -72.4298216090845,-36.526148672968 -72.4299210527034,-36.5261419768905 -72.4299762258988,-36.5261382610233 -72.4301411174635,-36.5261096736885 -72.4303103539823,-36.5260958606249 -72.4304215091195,-36.526104579797 -72.4305860013325,-36.5261505031827 -72.4308215689556,-36.5262071751531 -72.4308957580772,-36.5262250236565 -72.4312487157151,-36.5262744584028 -72.4314636508771,-36.5262921073015 -72.4316378908588,-36.5263079483249 -72.431859938636,-36.5263194321387 -72.4321143856703,-36.5263121018902 -72.4327652520329,-36.5262933489018 -72.4337991893474,-36.5262483959318 -72.4339850645679,-36.5262403134182 -72.4346244720051,-36.5262129404553 -72.4349053887653,-36.5262197415832 -72.43508186807,-36.5262027331635 -72.4352364837331,-36.5261923144155 -72.4353314396444,-36.5261687162845 -72.4354487848844,-36.5261504318992 -72.435621311946,-36.5261275771844 -72.4357642055473,-36.5261025962243 -72.4359172406048,-36.526056461743 -72.4360200978025,-36.5260445559309 -72.4360730418893,-36.5260728289484 -72.4360744915079,-36.5261055669369 -72.4360442030363,-36.526172000139 -72.4359969244082,-36.5262717040708 -72.4359640016926,-36.5263620538236 -72.4359312106769,-36.5264553795059 -72.435914225269,-36.5265720899125 -72.4359292417168,-36.5266610570018 -72.4359222639222,-36.5267536381788 -72.4359405723864,-36.5268335702073 -72.4359956255834,-36.526909462693 -72.4360367192505,-36.5270036379997 -72.4360587235558,-36.5273337837298 -72.4360179003674,-36.5274958813335 -72.4357766246164,-36.527633960252 -72.4356038319763,-36.5277343032698 -72.4354864877291,-36.52783602765 -72.4354122078319,-36.527909689717 -72.4353929824476,-36.5280592444527 -72.4353923279162,-36.5282112442811 -72.4353902228014,-36.5283305052392 -72.4354323707571,-36.528448489125 -72.435525094962,-36.5286246154559 -72.4355391903821,-36.5287761898942 -72.4355775196831,-36.528891304103 -72.4355597417047,-36.5289901570955 -72.4355373768323,-36.5290888234004 -72.4355173003978,-36.5291773978452 -72.4354711525262,-36.5292359446693 -72.4353832810499,-36.5293529106805 -72.4352897187295,-36.5294414327547 -72.4352869441312,-36.5294441519095 -72.4351580685176,-36.5295703897325 -72.4350909000636,-36.5296545743339 -72.4349982857509,-36.5297645252965 -72.434978530486,-36.5298187346871 -72.4349613061413,-36.5299300879715 -72.4349380795759,-36.5303062386485 -72.4349423576385,-36.5309033076541 -72.4349320322465,-36.5311307239422 -72.4349311404455,-36.5311503751842 -72.4349355721767,-36.5314506321173 -72.4349654492574,-36.53172512266 -72.434970828947,-36.5320468077693 -72.4350018174658,-36.5321885801671 -72.4350430662382,-36.5323772936407 -72.4350955504836,-36.5328621167053 -72.435067102354,-36.5329201530053 -72.4350301188843,-36.5329855878707 -72.4348981463974,-36.5331074015125 -72.4346060655375,-36.533416207121 -72.4344846838628,-36.5336771795447 -72.4344567082213,-36.5337459298556 -72.434391749259,-36.5338801148394 -72.4342428678286,-36.5344208081368 -72.4342098635244,-36.5345061184952 -72.4340917691506,-36.5348113728445 -72.4340811618961,-36.5348340955812 -72.4340812066203,-36.534834096995 -72.4344141420657,-36.5348451358063 -72.4344244822257,-36.5348196608616 -72.4345348889915,-36.5345119085307 -72.4345349277797,-36.5345118010897 -72.4346130037788,-36.5342735336865 -72.4347873311191,-36.5338072024344 -72.4348834271465,-36.5336756947343 -72.4349597638612,-36.5334982694536 -72.4351295122595,-36.5333288782077 -72.4351761370413,-36.5332810463916 -72.4352537412573,-36.5332323202724 -72.4352954656332,-36.5331739010645 -72.4353395609321,-36.5330689252857 -72.4353850783588,-36.532996092675 -72.4354174775753,-36.5329272136914 -72.4354277489719,-36.5328589737578 -72.4353924924838,-36.5324630542069 -72.4353186677853,-36.5318965981033 -72.4352860935768,-36.5312610085997 -72.435291188618,-36.5311284107767 -72.4352984461218,-36.5309395275745 -72.4352881583363,-36.5303068715262 -72.4353312952705,-36.5298800831309 -72.4353543689714,-36.529800745329 -72.4354436641127,-36.5297159215807 -72.4355206311371,-36.5296529106424 -72.4356024991179,-36.5296004851806 -72.4357164473527,-36.5294720382687 -72.4357945195134,-36.529333899113 -72.4358817576843,-36.5292026461868 -72.4358853114658,-36.5291054792857 -72.4358890057116,-36.5290045005424 -72.4358864973386,-36.5287810729177 -72.4358476378129,-36.528570613565 -72.4358165523869,-36.5284523098853 -72.435765182979,-36.5282928713018 -72.4357410783333,-36.5281654261528 -72.4357517437038,-36.52807273864 -72.4357878274377,-36.5279703770276 -72.4358664533181,-36.5279114898682 -72.4359460015519,-36.5278734351065 -72.4361183975024,-36.52776416293 -72.4362946120933,-36.5276577600993 -72.436328457451,-36.5275882435988 -72.4363292462599,-36.5275226603605 -72.4363561111596,-36.5274622853144 -72.4363705928903,-36.5272890276099 -72.4363791486349,-36.5271487206345 -72.4363612350282,-36.5270777174064 -72.4363592549387,-36.5269496341837 -72.4363339656783,-36.5268788437027 -72.4362764080565,-36.5267464032373 -72.4362537530278,-36.5266516970628 -72.4362575691844,-36.526571126915 -72.4362766639014,-36.5265020359061 -72.4363073457806,-36.5263610906992 -72.4363961070011,-36.5261976102128 -72.43650383252,-36.5260455024584 -72.436670822968,-36.5258976444354 -72.4368746886983,-36.5257487232636 -72.4372230261823,-36.525568813172 -72.4374209656425,-36.5254528418776 -72.4376215370224,-36.525312954639 -72.4378089386902,-36.5252092066383 -72.437929173226,-36.5250895164823 -72.4381442289552,-36.5249432500372 -72.4383313613741,-36.5247501088748 -72.4384348716507,-36.5246696419731 -72.4385374574589,-36.5245683408257 -72.4387460593684,-36.5244431195619 -72.4390270851114,-36.5242025674957 -72.4391312533333,-36.5241369796931 -72.4392632111573,-36.5241152909585 -72.43944969158,-36.5240741468832 -72.4396632162208,-36.5239945168443 -72.4396748860127,-36.5239901648821 -72.4397142609045,-36.5239622086204 -72.4397500804751,-36.523937333832 -72.4398169836302,-36.5239473219432 -72.4398940248277,-36.5239361573525 -72.4399927954183,-36.5239154260746 -72.440127224949,-36.523901635606 -72.4401228567628,-36.5237429024148 -72.4401167113335,-36.5236366537519 -72.4401097206366,-36.5236378891068 -72.4400221438097,-36.5236612778843 -72.4399078323724,-36.5236645786118 -72.4397972080595,-36.5236677727695 -72.4397234585079,-36.5236699021511 -72.4396533972071,-36.5236719249989 -72.4396488038057,-36.5236725910353 -72.4396020354515,-36.5236793682854 -72.4395444876362,-36.5237138095546 -72.4395010288572,-36.5237329444641 -72.4394429522383,-36.5237554811172 -72.4393881681433,-36.523768982585 -72.4393228479708,-36.523794708937 -72.4392502852917,-36.5238236231703 -72.4391550709964,-36.5238412723362 -72.4390649911175,-36.5238498322056 -72.439003227154,-36.5238724759932 -72.4389123581235,-36.5239048982037 -72.438847038776,-36.5239306242762 -72.438750509727,-36.524001950796 -72.4386870364397,-36.5240693424808 -72.4385943261004,-36.5241435383902 -72.4384913441639,-36.5242359109053 -72.4384016518605,-36.5242948812148 -72.4383216671916,-36.5243563131457 -72.4382858451875,-36.5243478113168 -72.4382310591286,-36.5243379492915 -72.4381384282499,-36.524327271938 -72.4380420024892,-36.5242842819539 -72.4379392562642,-36.5242586390718 -72.4377779315629,-36.5242442221842 -72.4375934295204,-36.5242400104569 -72.4374282289591,-36.5242447772187 -72.4373202590228,-36.5242612431944 -72.4371742765731,-36.5242730833018 -72.4369913761358,-36.524305061514 -72.436414019647,-36.5244208915412 -72.4359696640057,-36.52452525383 -72.4356348794518,-36.5245959391455 -72.4355519419134,-36.5245907027298 -72.4354946268641,-36.5245770973683 -72.4354861133353,-36.5245449207789 -72.4354495308385,-36.524465873321 -72.4353946583189,-36.5243473011722 -72.4353348977529,-36.5242250567459 -72.4353053129013,-36.5241973018518 -72.4352039145505,-36.5240953294036 -72.4351573889244,-36.524058526353 -72.4351149917019,-36.524008254443 -72.435024635807,-36.5238887986246 -72.4349745683799,-36.5237719961039 -72.4349494502844,-36.52368498881 -72.4349173366033,-36.523600090709 -72.4348955898194,-36.5234931507107 -72.4348782728915,-36.5234450064696 -72.4348093641619,-36.5232534219798 -72.434792338013,-36.5231890677449 -72.4347844138772,-36.5231168228837 -72.4347575271494,-36.5230432172295 -72.4346901830203,-36.522963148869 -72.4345708340298,-36.5228292712154 -72.4344372810024,-36.5226846759652 -72.4344318485795,-36.5226787938025 -72.434346214726,-36.52261260319 -72.4340657163416,-36.5224147111355 -72.4340100049422,-36.5223838939736 -72.4339269843947,-36.5223767512536 -72.4337112734779,-36.5223346683874 -72.4332355742776,-36.5222644613896 -72.4329556779018,-36.5222599854842 -72.4329376303207,-36.522259696398 -72.432884173605,-36.5222409228049 -72.4328824238794,-36.5222403082552 -72.4328814838291,-36.5222402055928 -72.4324395959553,-36.5221920363765 -72.4321422061645,-36.522136383372 -72.432119016146,-36.5221320434581 -72.431777211129,-36.5220680783739 -72.430434743265,-36.5218740618271 -72.4299771682197,-36.5218395560318 -72.4299000497774,-36.5218055399974 -72.4298744296478,-36.5217605037967 -72.4298457769945,-36.5217002984643 -72.4298180525889,-36.5216076433344 -72.4298167457944,-36.5215402803716 -72.4298162041819,-36.5215123366557 -72.4294462008564,-36.5214810292496 -72.4294507462487,-36.5214980235981 -72.4295084724292,-36.5217138227975 -72.4294797286272,-36.5217585165145 -72.429425281854,-36.5217562688016 -72.4292471075446,-36.5217346969658 -72.4291280995409,-36.5217152359939 -72.4289810246937,-36.5217023043331 -72.4288951409038,-36.5216837963478 -72.4288660641818,-36.5216674683655 -72.4288452495235,-36.5216242020268 -72.4288465229441,-36.521492568272 -72.4288571820577,-36.5214224767349 -72.4285337139849,-36.5213809239466 -72.4285100603148,-36.5215251378668 -72.4285152771516,-36.5216432341227 -72.4285224317727,-36.521710529754 -72.4285274056334,-36.5217573182653</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZEXHMP</SimpleData>
+		<SimpleData name="NOM">ZEXHMP Zona de Extensión Habitacional Mixta Productiva</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas de industria, almacenamiento y talleres, solamente catalogados inofensivas por la autoridad correspondiente.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4350818680301,-36.5262027322636 -72.4349053887653,-36.5262197415832 -72.4346244720051,-36.5262129404553 -72.4339850656829,-36.5262403133861 -72.4337991893474,-36.5262483959318 -72.433608558596,-36.52702413521 -72.4334585634716,-36.5275796404933 -72.4338273319986,-36.5276357632395 -72.4339813712956,-36.5276456270464 -72.4341356224923,-36.5276602528446 -72.4343349332724,-36.527662546213 -72.4351262408811,-36.5276841407215 -72.4356680614918,-36.527697004038 -72.4357766246164,-36.527633960252 -72.4360179003674,-36.5274958813335 -72.4360587235159,-36.5273337828299 -72.4360367192107,-36.5270036370999 -72.4359956255834,-36.526909462693 -72.4359405723864,-36.5268335702073 -72.4359349507537,-36.5268090276591 -72.4359222639222,-36.5267536381788 -72.4359292417168,-36.5266610570018 -72.4359260893486,-36.5266423828835 -72.435914225269,-36.5265720899125 -72.4359312106769,-36.5264553795059 -72.4359640016926,-36.5263620538236 -72.4359834150835,-36.5263087777115 -72.4359969244082,-36.5262717040708 -72.4360442030363,-36.526172000139 -72.4360483863491,-36.5261628249401 -72.4360744915079,-36.5261055669369 -72.4360730418494,-36.5260728280485 -72.4360200977626,-36.526044555031 -72.4359172406048,-36.526056461743 -72.4357642055075,-36.5261025953244 -72.4356213119061,-36.5261275762845 -72.4354487848844,-36.5261504318992 -72.4353314396444,-36.5261687162845 -72.4352364837331,-36.5261923144155 -72.4350818680301,-36.5262027322636</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZEXHMP</SimpleData>
+		<SimpleData name="NOM">ZEXHMP Zona de Extensión Habitacional Mixta Productiva</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas de industria, almacenamiento y talleres, solamente catalogados inofensivas por la autoridad correspondiente.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4329376303207,-36.522259696398 -72.4329556779018,-36.5222599854842 -72.432884173605,-36.5222409228049 -72.4329376303207,-36.522259696398</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZEXHMP</SimpleData>
+		<SimpleData name="NOM">ZEXHMP Zona de Extensión Habitacional Mixta Productiva</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas de industria, almacenamiento y talleres, solamente catalogados inofensivas por la autoridad correspondiente.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4279901039082,-36.5217771496004 -72.4281708766654,-36.5219912768379 -72.4282720053001,-36.5221409437787 -72.4283200362181,-36.5222921385984 -72.4282717644426,-36.5225366962635 -72.4281484765458,-36.5228215572273 -72.4279333106538,-36.5231662778981 -72.427784948012,-36.5234184845249 -72.4277130747656,-36.5236637210579 -72.4277073733915,-36.5238021580332 -72.4277187422471,-36.5239257989294 -72.42772778637,-36.5241305644043 -72.4277123885463,-36.524316959872 -72.4277267022085,-36.5245072687877 -72.4277180527021,-36.5245727143105 -72.4286256232064,-36.5247574174619 -72.4295920161658,-36.5249691940452 -72.4310389728779,-36.525273938009 -72.4318773995083,-36.5254505101926 -72.4338862386154,-36.525889688727 -72.4338676489228,-36.5259681194396 -72.4339214796081,-36.5259658875128 -72.4343462921082,-36.5259536416557 -72.4346853404601,-36.5259390995907 -72.4348098771088,-36.5259498129931 -72.4349392592436,-36.5259365459527 -72.435109309282,-36.5259078030348 -72.4353558517192,-36.5258720858085 -72.4355726816116,-36.5258324566471 -72.4357484207788,-36.5257987804589 -72.4360371060626,-36.5257809187184 -72.4363076690083,-36.5257540424177 -72.4363774162124,-36.5257281908691 -72.4365259699773,-36.5256142411493 -72.4366410206248,-36.5255441697157 -72.4368706984256,-36.5253945039514 -72.4373844175462,-36.5251222105561 -72.4376239938524,-36.5249293449148 -72.4377360914367,-36.5248460078856 -72.4378824076662,-36.5247349819104 -72.4379618868102,-36.5246621225593 -72.4379860745237,-36.5246213733729 -72.4379578363555,-36.5245706930213 -72.4378804588709,-36.5245309682084 -72.4377028674039,-36.5245227422469 -72.4374812791017,-36.5245348578096 -72.4371690843764,-36.5245820092176 -72.4365782396181,-36.5246867860454 -72.4358745335029,-36.5248310521275 -72.4356637334989,-36.5248733686779 -72.4354896810168,-36.5248917378556 -72.4353923289173,-36.5248811954164 -72.4353410819098,-36.5248445286035 -72.4352905095274,-36.5248231005143 -72.4352237539044,-36.5248097681533 -72.4351738556274,-36.5247501759731 -72.4351139249003,-36.5245707203427 -72.4350034224349,-36.5243698355308 -72.4349363297255,-36.5242954817064 -72.4347823376862,-36.5241263660831 -72.4346816144474,-36.5239862299952 -72.4346291881556,-36.5238694944254 -72.434468030795,-36.5233248657816 -72.434422179062,-36.523169796843 -72.434282012081,-36.5229926528162 -72.4341767400108,-36.5229098633855 -72.4340391036541,-36.5227898621291 -72.433888486744,-36.5226969362643 -72.4338687646097,-36.5226784324096 -72.4331597637651,-36.5225691766079 -72.4328608064821,-36.5225415542303 -72.4325626088659,-36.5225043734972 -72.4319918365826,-36.5224216425253 -72.4316532685175,-36.5223531994023 -72.4311768956191,-36.522267746197 -72.4307334729915,-36.5222006515047 -72.4298560797763,-36.5220971780898 -72.4293717435109,-36.522041983926 -72.4290335996532,-36.5219830576463 -72.4287718159073,-36.5219410051036 -72.4285635578771,-36.5218268438358 -72.4285274056334,-36.5217573182653 -72.4285224317727,-36.521710529754 -72.4285102429264,-36.5217082693056 -72.4284867431141,-36.5217780815946 -72.4280417327313,-36.5216669182281 -72.4279824277291,-36.5217718389762 -72.4279901039082,-36.5217771496004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4165724916164,-36.5349154464322 -72.4162907325068,-36.5353674490039 -72.4164907564331,-36.5353473154363 -72.4179751196425,-36.5352207696341 -72.4178951513761,-36.5348631992393 -72.4178670431116,-36.5347281167071 -72.4178378133943,-36.5346681628864 -72.4178470001232,-36.5345749224533 -72.4178285497972,-36.5343573146693 -72.4178238292962,-36.5342501691966 -72.4178361821058,-36.534128230698 -72.4179166903914,-36.5338434148467 -72.4179641333628,-36.5337133161263 -72.4179637203592,-36.5334022139492 -72.4179311879769,-36.5332672592418 -72.4177338259973,-36.5330118715708 -72.4174972641766,-36.532771913094 -72.4174833584046,-36.5327580079645 -72.4174307233629,-36.5327702457945 -72.4173219503584,-36.5329164077872 -72.4171676418192,-36.533135395354 -72.416936503325,-36.5334209553043 -72.4168878002805,-36.5335224807635 -72.4168104548076,-36.5337785971556 -72.4167672148888,-36.5342053840618 -72.4167402822014,-36.5344993912747 -72.4166722809378,-36.5346658380271 -72.4166311693959,-36.5347385384213 -72.4166388985903,-36.5348134124041 -72.4165724916164,-36.5349154464322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4182394122881,-36.5348318644792 -72.4183171331533,-36.5351916093412 -72.4185980626904,-36.5351676566061 -72.4199574774311,-36.535038250215 -72.4199217297026,-36.5321751490828 -72.4199008345961,-36.5317011227993 -72.4176192476879,-36.5318955465318 -72.4175993717396,-36.5318979557877 -72.4176172332231,-36.5319745943072 -72.4176440604195,-36.5321812340546 -72.4176387872512,-36.5324638913085 -72.4176803482634,-36.5325020348832 -72.4180287882846,-36.5328675204042 -72.41825364795,-36.5331435732712 -72.4182730813821,-36.533182352471 -72.4183253440685,-36.5334633586492 -72.4183363978833,-36.5335131052129 -72.4183120282596,-36.5336639976041 -72.4182999909743,-36.5337930795654 -72.4182410029002,-36.5339628456367 -72.4181979850631,-36.5340928165773 -72.418173772451,-36.5342472806762 -72.4181851224916,-36.5344042996493 -72.4182027859085,-36.5346040505347 -72.4182394122881,-36.5348318644792</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4118695207553,-36.5323729125219 -72.4118843025985,-36.532495444861 -72.4172619384105,-36.5319484748915 -72.4172508776429,-36.5319064314193 -72.416927261253,-36.530796418805 -72.4167890353727,-36.5304749651733 -72.4166830025896,-36.530381453184 -72.416529548603,-36.5303179101752 -72.4164212934177,-36.5302745263852 -72.4162298987116,-36.530254983289 -72.4159986736684,-36.5302365820312 -72.4152850745691,-36.5302320096704 -72.4149218727087,-36.530235270229 -72.4146032390364,-36.5302444037978 -72.4145098337993,-36.5302363523405 -72.4143688468377,-36.5302546974022 -72.4141837629557,-36.5302778823673 -72.4139858742813,-36.5303121618485 -72.413756693186,-36.5303401861428 -72.413466497556,-36.5303914139997 -72.412962608054,-36.5304702201994 -72.4125372638249,-36.5305718062223 -72.4120690753498,-36.5307068014421 -72.4116642024102,-36.5307956078044 -72.4116822981828,-36.5308696663743 -72.4117934147228,-36.5317171031539 -72.4118695207553,-36.5323729125219</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4364354307338,-36.5298816756508 -72.4364723556106,-36.5311155242603 -72.435450716983,-36.5311259195534 -72.435291188618,-36.5311284107767 -72.4352860935768,-36.5312610085997 -72.4353186677853,-36.5318965981033 -72.4353924924838,-36.5324630542069 -72.4354277489719,-36.5328589737578 -72.4354174775753,-36.5329272136914 -72.4353850783588,-36.532996092675 -72.4353395609321,-36.5330689252857 -72.4352954656332,-36.5331739010645 -72.4352537412573,-36.5332323202724 -72.4351761370413,-36.5332810463916 -72.4351295122595,-36.5333288782077 -72.4349597638612,-36.5334982694536 -72.4348834271465,-36.5336756947343 -72.4347873322342,-36.5338072024023 -72.4346130037788,-36.5342735336865 -72.4345349277797,-36.5345118010897 -72.4345348889915,-36.5345119085307 -72.4354455346026,-36.5345256216512 -72.4372295859171,-36.5345862036585 -72.4385153120384,-36.5346277691589 -72.4386068065761,-36.5335594799473 -72.43865179784,-36.5332415854214 -72.438680755442,-36.5329618215974 -72.438720757326,-36.5323980427327 -72.4387425539966,-36.5318900986662 -72.4396933878377,-36.5318149668707 -72.4405878470071,-36.5317343042283 -72.4419712662638,-36.5316085157338 -72.4429629728891,-36.5315226412432 -72.4436492179518,-36.5314432051236 -72.4448524918095,-36.5313321264943 -72.4457594725407,-36.531234374953 -72.4457320851588,-36.5306177115935 -72.445727127199,-36.5301734784987 -72.4441105127745,-36.5294239737145 -72.4433500542409,-36.5290621336671 -72.4428748364592,-36.5288374689466 -72.4422840485833,-36.5287043497329 -72.4416404832332,-36.5286466562812 -72.4412039583138,-36.528594899489 -72.4397075127049,-36.528435477796 -72.4387019206003,-36.5283405407415 -72.4379659347701,-36.5282769125834 -72.4379856249752,-36.528054632148 -72.4380411352357,-36.5277741020145 -72.4380602636945,-36.5276724678848 -72.4382678016755,-36.5272230537791 -72.4387085799287,-36.5263711629313 -72.4391814639972,-36.5255107146556 -72.4393626552841,-36.5251335802244 -72.4394684149285,-36.5248539820314 -72.4396091483802,-36.5244970866902 -72.439616414915,-36.5244611173867 -72.4396579065801,-36.5241976785635 -72.4396632162208,-36.5239945168443 -72.43944969158,-36.5240741468832 -72.4392632122722,-36.5241152909263 -72.4391312533333,-36.5241369796931 -72.4390270851114,-36.5242025674957 -72.4387460593684,-36.5244431195619 -72.4385374574589,-36.5245683408257 -72.4384348716507,-36.5246696419731 -72.4383313613741,-36.5247501088748 -72.4381442289552,-36.5249432500372 -72.437929173226,-36.5250895164823 -72.4378089386902,-36.5252092066383 -72.4376215370224,-36.525312954639 -72.4374209656425,-36.5254528418776 -72.4372230261823,-36.525568813172 -72.4368746886983,-36.5257487232636 -72.436670822968,-36.5258976444354 -72.43650383252,-36.5260455024584 -72.4363961070011,-36.5261976102128 -72.4363073457806,-36.5263610906992 -72.4362766639014,-36.5265020359061 -72.4362575691844,-36.526571126915 -72.4362537530278,-36.5266516970628 -72.4362764080565,-36.5267464032373 -72.4363339656783,-36.5268788437027 -72.4363592549387,-36.5269496341837 -72.4363612350282,-36.5270777174064 -72.4363791486349,-36.5271487206345 -72.4363705928903,-36.5272890276099 -72.4363561111596,-36.5274622853144 -72.4363292462599,-36.5275226603605 -72.436328458566,-36.5275882435667 -72.4362946132083,-36.5276577600671 -72.4361183975024,-36.52776416293 -72.4359460015519,-36.5278734351065 -72.4358664533181,-36.5279114898682 -72.4357878274377,-36.5279703770276 -72.4357517437038,-36.52807273864 -72.4357410783333,-36.5281654261528 -72.435765182979,-36.5282928713018 -72.4358165523869,-36.5284523098853 -72.4358476378129,-36.528570613565 -72.4358864973386,-36.5287810729177 -72.4358890057116,-36.5290045005424 -72.4358853114658,-36.5291054792857 -72.436467149446,-36.5291384138897 -72.4364354307338,-36.5298816756508</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZPU</SimpleData>
+		<SimpleData name="NOM">ZPU Zona de Parcelas Urbanas</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo almacenamiento y talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4353348977529,-36.5242250567459 -72.4353946583189,-36.5243473011722 -72.4354495308385,-36.524465873321 -72.4354861133353,-36.5245449207789 -72.4354946268641,-36.5245770973683 -72.4355519419134,-36.5245907027298 -72.4356348794518,-36.5245959391455 -72.4359696640057,-36.52452525383 -72.436414019647,-36.5244208915412 -72.4369913761358,-36.524305061514 -72.4371742765731,-36.5242730833018 -72.4373202590228,-36.5242612431944 -72.4374282289591,-36.5242447772187 -72.4375934295204,-36.5242400104569 -72.4377779315629,-36.5242442221842 -72.4379392562642,-36.5242586390718 -72.4380420024892,-36.5242842819539 -72.4381384282499,-36.524327271938 -72.4382310591286,-36.5243379492915 -72.4382858451875,-36.5243478113168 -72.4383216671916,-36.5243563131457 -72.4384016518605,-36.5242948812148 -72.4384913441639,-36.5242359109053 -72.4385943261004,-36.5241435383902 -72.4386870364397,-36.5240693424808 -72.438750509727,-36.524001950796 -72.438847038776,-36.5239306242762 -72.4389123581235,-36.5239048982037 -72.439003227154,-36.5238724759932 -72.4390649911175,-36.5238498322056 -72.4391550709964,-36.5238412723362 -72.4392502864067,-36.5238236231381 -72.4393228479708,-36.523794708937 -72.4393881681433,-36.523768982585 -72.4394429522383,-36.5237554811172 -72.4395010288572,-36.5237329444641 -72.4395444876362,-36.5237138095546 -72.4396020354515,-36.5236793682854 -72.4396488038057,-36.5236725910353 -72.4396427341135,-36.5235887660865 -72.4395498701969,-36.522959686905 -72.4392022221806,-36.522379920724 -72.4386776226963,-36.5217394634784 -72.438460745542,-36.5214443850942 -72.43815720878,-36.5211932883259 -72.4375210672856,-36.5207682201959 -72.4365387400263,-36.5201957906995 -72.4357864117298,-36.5197478402989 -72.4347237275682,-36.5191943997056 -72.4347184689291,-36.5191922122089 -72.4342790816844,-36.5196787744186 -72.4330068725253,-36.5210991182987 -72.432119016146,-36.5221320434581 -72.4321422061645,-36.522136383372 -72.4324395959553,-36.5221920363765 -72.4328814838291,-36.5222402055928 -72.4328824238794,-36.5222403082552 -72.432884173605,-36.5222409228049 -72.4329556779018,-36.5222599854842 -72.4332355742776,-36.5222644613896 -72.4337112745929,-36.5223346683552 -72.4339269843947,-36.5223767512536 -72.4340100049422,-36.5223838939736 -72.4340657163416,-36.5224147111355 -72.434346214726,-36.52261260319 -72.4344318485795,-36.5226787938025 -72.4344372810024,-36.5226846759652 -72.4345708340298,-36.5228292712154 -72.4346901830203,-36.522963148869 -72.4347575271494,-36.5230432172295 -72.4347844138772,-36.5231168228837 -72.434792338013,-36.5231890677449 -72.4348093641619,-36.5232534219798 -72.4348782728915,-36.5234450064696 -72.4348955898194,-36.5234931507107 -72.4349173366033,-36.523600090709 -72.4349494502844,-36.52368498881 -72.4349745683799,-36.5237719961039 -72.435024635807,-36.5238887986246 -72.4351149917019,-36.524008254443 -72.4351573889244,-36.524058526353 -72.4352039145505,-36.5240953294036 -72.4353053129013,-36.5241973018518 -72.4353348977529,-36.5242250567459</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZHM</SimpleData>
+		<SimpleData name="NOM">ZHM Zona Habitacional Mixta</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4249774563403,-36.5312670148123 -72.4229976188838,-36.5314371610308 -72.4228642726544,-36.5314485289032 -72.4229283021255,-36.5336036242182 -72.4251234305102,-36.5333690904711 -72.4250058959443,-36.5328146117217 -72.4249813107097,-36.5321573321614 -72.4249709697545,-36.5313208412145 -72.4249774563403,-36.5312670148123</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZHM</SimpleData>
+		<SimpleData name="NOM">ZHM Zona Habitacional Mixta</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4299210527034,-36.5261419768905 -72.4307931597411,-36.5263291219697 -72.4308215689556,-36.5262071751531 -72.4305860013325,-36.5261505031827 -72.4304215091195,-36.526104579797 -72.4303103539823,-36.5260958606249 -72.4301411174635,-36.5261096736885 -72.4299762270138,-36.5261382609912 -72.4299210527034,-36.5261419768905</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZHM</SimpleData>
+		<SimpleData name="NOM">ZHM Zona Habitacional Mixta</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4249774563403,-36.5312670148123 -72.426570632795,-36.5311210704359 -72.4267828976158,-36.5311113883398 -72.4268171881061,-36.5311854982957 -72.4269041108787,-36.5312473663694 -72.4270117426249,-36.5312764534329 -72.4270469885341,-36.5312718641363 -72.4271089200339,-36.5315704669811 -72.4272795892718,-36.5319231583683 -72.4271292557949,-36.5322314442059 -72.4265840833908,-36.5327298897308 -72.4264573328864,-36.5328364570552 -72.4276090371412,-36.5336297286376 -72.428330028459,-36.5329652981274 -72.4284452549092,-36.5328846717065 -72.4284000295828,-36.5328521095114 -72.4284294297632,-36.5328155028662 -72.4286867552952,-36.532622144395 -72.4288661560729,-36.532470364234 -72.4289733214442,-36.5323886069846 -72.4290463453898,-36.5323364404612 -72.4290552017092,-36.5322360574165 -72.4290997776576,-36.5321417977078 -72.4291459320952,-36.5320832530345 -72.4291536786418,-36.5320579982372 -72.4291432485182,-36.5320225379932 -72.4290481090052,-36.531875084954 -72.4289706717156,-36.5317271213729 -72.4289344847964,-36.531610154634 -72.4289365478253,-36.5314563263885 -72.4289564716276,-36.5313055602573 -72.4289623229368,-36.5312374479714 -72.4290334517075,-36.5311424239742 -72.4291072637612,-36.5311081149961 -72.4294085101535,-36.5311065954661 -72.4293493950388,-36.5311726657981 -72.4293212587139,-36.5312378434004 -72.4292983363028,-36.5313207520482 -72.4292630849062,-36.5314254711826 -72.4292716149592,-36.5315182012796 -72.4292837815096,-36.5315929473454 -72.4292940526365,-36.5316248359264 -72.4293202846832,-36.5317170573197 -72.429400885386,-36.5318363206569 -72.4294482981299,-36.5319064766818 -72.4295186456228,-36.5319504540466 -72.4306416366038,-36.5320135268379 -72.4332913919514,-36.5321457876498 -72.4350018174658,-36.5321885801671 -72.434970828947,-36.5320468077693 -72.4349654492574,-36.53172512266 -72.4349355721767,-36.5314506321173 -72.4349311404455,-36.5311503751842 -72.4349320322465,-36.5311307239422 -72.433697315635,-36.5311221261508 -72.4338094270692,-36.5307354861653 -72.434043969232,-36.5300278275618 -72.4341410068468,-36.5295172369664 -72.4349113302217,-36.5295021803166 -72.4352869441312,-36.5294441519095 -72.4352897198446,-36.5294414327226 -72.4353832810499,-36.5293529106805 -72.4354711525262,-36.5292359446693 -72.4355173003978,-36.5291773978452 -72.4355373768323,-36.5290888234004 -72.4354659616197,-36.5290856740348 -72.4349092154322,-36.5290540482603 -72.4346038696562,-36.529029475905 -72.4338861274377,-36.5289643432446 -72.4334109336884,-36.5289065199013 -72.4331251867361,-36.5288575391471 -72.4327568447319,-36.5287878125823 -72.4317099251723,-36.5285765952689 -72.4315608360285,-36.5285451303953 -72.43178067513,-36.5275881742412 -72.4305373680882,-36.5273856983853 -72.4303619714119,-36.5281101803281 -72.4301114130448,-36.5293582709065 -72.4288903457415,-36.5292003189296 -72.4261427279077,-36.5287894586003 -72.4264211439678,-36.5277694390582 -72.4267781131864,-36.5266219984054 -72.4270844952263,-36.5255332281806 -72.4292026997852,-36.5259878198175 -72.4290818617949,-36.5258689871744 -72.4289323922863,-36.5257034287557 -72.4287925314847,-36.5256299737167 -72.428631071036,-36.5255690600206 -72.4283953338633,-36.5254983646899 -72.4281930465412,-36.5254326649064 -72.4277940040315,-36.525342826924 -72.4272532544365,-36.525221304711 -72.4269517990549,-36.5251673957668 -72.4268985915836,-36.5251748867022 -72.4268493310897,-36.5252299435996 -72.4267920377664,-36.5252703319137 -72.4267163069105,-36.5253112505379 -72.4266177929855,-36.5253379239021 -72.4265417991572,-36.5253728904924 -72.4264388082112,-36.5253818122087 -72.4263208053355,-36.5253852060988 -72.4260890113149,-36.5254037931877 -72.4258270596714,-36.5254083456253 -72.4256384661442,-36.5254018488692 -72.4254534285425,-36.5253922698224 -72.4252419209182,-36.5253685510091 -72.4251199667802,-36.5253660969174 -72.4250312015101,-36.525362688534 -72.4249122779037,-36.5253452474683 -72.4248524877295,-36.5253290860629 -72.4247601665931,-36.5253287603481 -72.4246795639951,-36.5253429973264 -72.4246783722732,-36.5253996521776 -72.4247369707979,-36.5254724685183 -72.4247449925269,-36.5255705776611 -72.4247578848912,-36.5256953681059 -72.4248056822806,-36.5257744544019 -72.4248316175518,-36.5258601295678 -72.4248817900017,-36.5259093473824 -72.4249393371344,-36.5259583531586 -72.4249984514337,-36.5261265145083 -72.4250374297474,-36.5261730743305 -72.4250389968874,-36.5262922290293 -72.4249986762017,-36.5264662297352 -72.4249605795627,-36.5266180026561 -72.4246088904259,-36.5265470561773 -72.4246662283316,-36.5263737593714 -72.4246801461841,-36.5262875341096 -72.4246704627414,-36.5262019882146 -72.4245432107277,-36.525995852993 -72.4244520154638,-36.5259181933783 -72.4244510886114,-36.5259212240956 -72.4241333427234,-36.5270606382277 -72.424237895953,-36.5274220045854 -72.4242616910307,-36.5275595927504 -72.4242159261118,-36.5278612940273 -72.4241866180182,-36.5280004094673 -72.4242163129075,-36.5281378280496 -72.4242864716032,-36.5282550120652 -72.4243125623353,-36.5285784876629 -72.424313909262,-36.5288275600309 -72.4243381620454,-36.5288298615562 -72.424405329789,-36.5288458110813 -72.4244211314925,-36.5288691966205 -72.424488825808,-36.5288970508442 -72.4249779402219,-36.5292703916605 -72.4249777519154,-36.530044536092 -72.4249774563403,-36.5312670148123</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZHM</SimpleData>
+		<SimpleData name="NOM">ZHM Zona Habitacional Mixta</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4294952185502,-36.5258369114032 -72.4295410488519,-36.5258713525669 -72.4295972844771,-36.5258905936485 -72.4296566801584,-36.5258978238596 -72.4298207795083,-36.5258930995218 -72.4300374286241,-36.5258660019626 -72.4302315558319,-36.5258306123757 -72.4304231807461,-36.5258221140033 -72.4305195852516,-36.5258312578398 -72.4305796399356,-36.5258533691193 -72.430692635694,-36.5259037550202 -72.4307895666732,-36.5259248042389 -72.4308832166822,-36.5259425482406 -72.4310389728779,-36.525273938009 -72.4295920161658,-36.5249691940452 -72.4286256232064,-36.5247574174619 -72.4277180527021,-36.5245727143105 -72.4277045637239,-36.5246747867484 -72.4276366845232,-36.5250105008289 -72.4278756347511,-36.5250703783726 -72.4283352046423,-36.5251763545677 -72.4287349333937,-36.5252649789101 -72.4289348982404,-36.5253784241067 -72.4290636621329,-36.5254291524718 -72.4291594036946,-36.5255068568967 -72.4293207271099,-36.5256482340647 -72.4294566335698,-36.5257992819069 -72.4294952185502,-36.5258369114032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZHM</SimpleData>
+		<SimpleData name="NOM">ZHM Zona Habitacional Mixta</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento de todo tipo. Actividades productivas sólo talleres inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Cárcel, cementerio y crematorio, y todos los usos de suelo no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4249137217452,-36.5245304430439 -72.4247172101335,-36.5250647716424 -72.4247970308983,-36.5250540243314 -72.4253303571142,-36.5250911391122 -72.4256506477694,-36.5251200743446 -72.4259056157558,-36.5251413505826 -72.4261180210124,-36.5251352422517 -72.4263009258593,-36.525129981987 -72.4264539097774,-36.5251160453933 -72.4266111109366,-36.5250638444049 -72.4266798098491,-36.5250141879787 -72.4264868129018,-36.5247908735744 -72.4263169838039,-36.5246908614552 -72.4261144875559,-36.5246537730231 -72.4259899545875,-36.5246430503141 -72.4257570318979,-36.5246020318959 -72.4249137217452,-36.5245304430439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona de Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente residencial, xárcel, cementerio y crematorio.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4199217297026,-36.5321751490828 -72.4199574774311,-36.535038250215 -72.4204267259271,-36.5349935776893 -72.4217306330251,-36.5348846100785 -72.4229626925149,-36.534761004611 -72.4229283021255,-36.5336036242182 -72.4228642726544,-36.5314485289032 -72.4199008345961,-36.5317011227993 -72.4199217297026,-36.5321751490828</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona de Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente residencial, xárcel, cementerio y crematorio.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4249709697545,-36.5313208412145 -72.4249813107097,-36.5321573321614 -72.4250058959443,-36.5328146117217 -72.4251234305102,-36.5333690904711 -72.426038738869,-36.5333248898007 -72.4261418076551,-36.5331502762104 -72.4262978249564,-36.5329705642777 -72.4264573328864,-36.5328364570552 -72.4265840833908,-36.5327298897308 -72.4271292557949,-36.5322314442059 -72.4272795892718,-36.5319231583683 -72.4271089200339,-36.5315704669811 -72.4270469885341,-36.5312718641363 -72.4270117426249,-36.5312764534329 -72.4269041108787,-36.5312473663694 -72.4268171881061,-36.5311854982957 -72.4267828976158,-36.5311113883398 -72.426570632795,-36.5311210704359 -72.4249774563403,-36.5312670148123 -72.4249709697545,-36.5313208412145</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona de Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente residencial, xárcel, cementerio y crematorio.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4352869441312,-36.5294441519095 -72.4349113302217,-36.5295021803166 -72.4341410068468,-36.5295172369664 -72.434043969232,-36.5300278275618 -72.4338094270692,-36.5307354861653 -72.433697315635,-36.5311221261508 -72.4349320322465,-36.5311307239422 -72.4349423576385,-36.5309033076541 -72.4349380795361,-36.5303062377486 -72.4349613061413,-36.5299300879715 -72.434978530486,-36.5298187346871 -72.4349982857509,-36.5297645252965 -72.4350909000636,-36.5296545743339 -72.4351580685176,-36.5295703897325 -72.4352869441312,-36.5294441519095</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Ñuble</SimpleData>
+		<SimpleData name="COM">Portezuelo</SimpleData>
+		<SimpleData name="LOC">Portezuelo</SimpleData>
+		<SimpleData name="ZONA">ZE</SimpleData>
+		<SimpleData name="NOM">ZE Zona de Equipamiento</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de todo tipo.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos, expresamente residencial, xárcel, cementerio y crematorio.</SimpleData>
+		<SimpleData name="P_DO">30/06/2007</SimpleData>
+		<SimpleData name="N_DOC">47</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.4338861274377,-36.5289643432446 -72.4346038696562,-36.529029475905 -72.434603448095,-36.529019952362 -72.4343676323492,-36.5278299807565 -72.4343349332724,-36.527662546213 -72.4341356224923,-36.5276602528446 -72.4339813712956,-36.5276456270464 -72.4338273319986,-36.5276357632395 -72.4334585634716,-36.5275796404933 -72.4331251867361,-36.5288575391471 -72.4334109336884,-36.5289065199013 -72.4338861274377,-36.5289643432446</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

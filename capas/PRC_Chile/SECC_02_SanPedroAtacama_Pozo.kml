@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="secc_sanpedroatacama_pozo_mono" id="secc_sanpedroatacama_pozo_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>secc_sanpedroatacama_pozo_mono</name>
+  <Placemark id="secc_sanpedroatacama_pozo_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_sanpedroatacama_pozo_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Pozo Tres</SimpleData>
+		<SimpleData name="ZONA">ZATI</SimpleData>
+		<SimpleData name="NOMBRE">ZA.T.I Zona de apoyo al transporte internacional.</SimpleData>
+		<SimpleData name="UPERM">Equipamiento tipo seguridad, Áreas Verdes, Transporte,  Salud, Seguridad, deportes, Esparcimiento y turismo, comercio minorista servicios públicos y profesionales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.
+</SimpleData>
+		<SimpleData name="Capa">Seccional Área Entorno Pozo Tres</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">2602511.97069999995</SimpleData>
+		<SimpleData name="Shape_STLe">8101.21556794000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1642007807714,-22.9146579737826 -68.164092602139,-22.9154699888108 -68.1690217389502,-22.9152974338475 -68.1749682250978,-22.9196184017662 -68.1800227396607,-22.9243049933562 -68.1849320867786,-22.9274372128544 -68.1845139722559,-22.9283193503767 -68.1853879353626,-22.9288735270087 -68.1905586252831,-22.9271553024858 -68.1917541338689,-22.9257035177969 -68.1906862491662,-22.9230452227971 -68.1897999996704,-22.9202205499474 -68.1896803890036,-22.9185852593549 -68.1896938581527,-22.9178400825722 -68.189757652379,-22.9175249337438 -68.1898838203126,-22.9171336231987 -68.1908105174921,-22.914012276085 -68.1912855504311,-22.912462033914 -68.1914302566092,-22.9121799400053 -68.1866233634866,-22.9122613310833 -68.1824884904655,-22.9125675303362 -68.1810019811368,-22.9126459116791 -68.1790350140499,-22.9128221756976 -68.1751317649732,-22.9132178078442 -68.17147590118,-22.9136576531105 -68.1642717087358,-22.9141852910398 -68.1642007807714,-22.9146579737826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_sanpedroatacama_pozo_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_sanpedroatacama_pozo_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Pozo Tres</SimpleData>
+		<SimpleData name="ZONA">ZET</SimpleData>
+		<SimpleData name="NOMBRE">Z.E.T  Zona de Esparcimiento y Turismo.
+Z.E.T  Zona de Esparcimiento y Turismo.
+</SimpleData>
+		<SimpleData name="UPERM">Equipamiento tipo áreas verdes deportes esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.
+</SimpleData>
+		<SimpleData name="Capa">Seccional Área Entorno Pozo Tres</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">781881.38354499999</SimpleData>
+		<SimpleData name="Shape_STLe">8298.06800898000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1856432644018,-22.9399674139702 -68.1849926285686,-22.9408901803739 -68.1847672024242,-22.9408292736974 -68.1847370944204,-22.9404706259516 -68.1843503954358,-22.9404088901578 -68.1835746695894,-22.9406737712255 -68.1823778346369,-22.941235223536 -68.1814085707188,-22.941499096545 -68.1806072324213,-22.9406584778732 -68.1797349140259,-22.9408929668075 -68.1789881899469,-22.9416957140836 -68.1775017541118,-22.9421361319217 -68.1768849334734,-22.9427901700683 -68.1902364866995,-22.9432173549463 -68.19068806293,-22.9432196586209 -68.1908514701709,-22.9428619985554 -68.1905308716607,-22.9425317446285 -68.1897884668024,-22.9426175793183 -68.1898871883627,-22.942289464437 -68.1901801511631,-22.9418428430075 -68.1897626127506,-22.9415419682275 -68.1893129991396,-22.9412110531858 -68.1888952866247,-22.9409400488419 -68.1886716398392,-22.9405804123285 -68.1888352278834,-22.9401928807512 -68.1884175194131,-22.9399218761355 -68.188029750968,-22.9400393904924 -68.1879953581018,-22.9403977069285 -68.187094900733,-22.9399449815534 -68.1859986012746,-22.9398796135848 -68.1856432644018,-22.9399674139702</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_sanpedroatacama_pozo_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_sanpedroatacama_pozo_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Pozo Tres</SimpleData>
+		<SimpleData name="ZONA">ZET</SimpleData>
+		<SimpleData name="NOMBRE">Z.E.T  Zona de Esparcimiento y Turismo.
+Z.E.T  Zona de Esparcimiento y Turismo.
+</SimpleData>
+		<SimpleData name="UPERM">Equipamiento tipo áreas verdes deportes esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.
+</SimpleData>
+		<SimpleData name="Capa">Seccional Área Entorno Pozo Tres</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">781881.38354499999</SimpleData>
+		<SimpleData name="Shape_STLe">8298.06800898000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1633439497334,-22.9265242894554 -68.1676169886906,-22.9281719143172 -68.1692455861038,-22.9240415347533 -68.1693281232106,-22.923832201672 -68.1698267842198,-22.922567459035 -68.1654409689666,-22.9211579400674 -68.1633439497334,-22.9265242894554</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_sanpedroatacama_pozo_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_sanpedroatacama_pozo_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Pozo Tres</SimpleData>
+		<SimpleData name="ZONA">ZET</SimpleData>
+		<SimpleData name="NOMBRE">Z.E.T  Zona de Esparcimiento y Turismo.
+Z.E.T  Zona de Esparcimiento y Turismo.
+</SimpleData>
+		<SimpleData name="UPERM">Equipamiento tipo áreas verdes deportes esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.
+</SimpleData>
+		<SimpleData name="Capa">Seccional Área Entorno Pozo Tres</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">781881.38354499999</SimpleData>
+		<SimpleData name="Shape_STLe">8298.06800898000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1647727546569,-22.937423835798 -68.1659465757071,-22.9374658571025 -68.1696365655496,-22.9374613056056 -68.1693935505822,-22.9371134913493 -68.1692541117843,-22.9367064710705 -68.1692952224082,-22.9363123443528 -68.1687935973379,-22.9360587738474 -68.167958875367,-22.9354210647066 -68.1675872922157,-22.9350008755393 -68.1671369162041,-22.9348073174006 -68.1665701362322,-22.9346609460188 -68.1662489940855,-22.9344322143156 -68.1659005139057,-22.9344542826734 -68.1647769327702,-22.9367427233871 -68.1647727546569,-22.937423835798</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_sanpedroatacama_pozo_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_sanpedroatacama_pozo_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">San Pedro de Atacama</SimpleData>
+		<SimpleData name="LOCALIDAD">Pozo Tres</SimpleData>
+		<SimpleData name="ZONA">ZET</SimpleData>
+		<SimpleData name="NOMBRE">Z.E.T  Zona de Esparcimiento y Turismo.
+Z.E.T  Zona de Esparcimiento y Turismo.
+</SimpleData>
+		<SimpleData name="UPERM">Equipamiento tipo áreas verdes deportes esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.
+</SimpleData>
+		<SimpleData name="Capa">Seccional Área Entorno Pozo Tres</SimpleData>
+		<SimpleData name="CUT">02203</SimpleData>
+		<SimpleData name="Shape_STAr">781881.38354499999</SimpleData>
+		<SimpleData name="Shape_STLe">8298.06800898000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.1914317122619,-22.9168454769922 -68.1912373661182,-22.9169878849567 -68.1910054549221,-22.9169389044439 -68.1907469654259,-22.9170212368869 -68.1904735878087,-22.9174380864148 -68.190640219356,-22.9176181828666 -68.1911017733914,-22.9180985268654 -68.1911010641443,-22.9182180214105 -68.1903525917408,-22.9182620070555 -68.1903739896051,-22.9190030042137 -68.1906061169471,-22.9190161370138 -68.1911610951993,-22.9189711649585 -68.1918048847176,-22.9191775888719 -68.1921000942992,-22.9194300377242 -68.1924717141565,-22.9198501703878 -68.1926759897134,-22.9202097034287 -68.192466531576,-22.9185476147033 -68.192193571945,-22.9167179057699 -68.1920136847192,-22.916597492574 -68.1917034558363,-22.9167034617707 -68.1914317122619,-22.9168454769922</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

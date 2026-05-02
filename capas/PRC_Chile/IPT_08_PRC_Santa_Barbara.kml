@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX6</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: culto y cultura, esparcimiento, servicios. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.040178763067,-37.6637374161943 -72.0397431067913,-37.6640502900223 -72.0379818166054,-37.6648452302731 -72.0357440144594,-37.6657986680576 -72.033957431233,-37.666539357682 -72.0329400049197,-37.6669677293471 -72.0319781408463,-37.6673489613392 -72.0308247089916,-37.6678265185047 -72.0309448146009,-37.6682347518002 -72.0311431372094,-37.6688694858469 -72.0314156646459,-37.6701969897382 -72.0321478668766,-37.6701050265557 -72.0325817738498,-37.6700298785008 -72.0329441533798,-37.6698925840364 -72.0334199148129,-37.6697158092167 -72.0344473734153,-37.6692506112739 -72.034453310689,-37.667139003007 -72.0386133137653,-37.6653865183625 -72.0399544662836,-37.6647212345142 -72.040562418168,-37.6644039144983 -72.040178763067,-37.6637374161943</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z8</SimpleData>
+		<SimpleData name="NOM">Area consolidada 8</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: educacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0343186280557,-37.666091313088 -72.0332645878016,-37.6644914383727 -72.0321882260182,-37.6646014034064 -72.0316494872022,-37.6646426848884 -72.0318189573775,-37.6656986246016 -72.0324822363662,-37.6658917902419 -72.0333200491823,-37.6661353019416 -72.0337009622733,-37.6661711988304 -72.0339766378977,-37.6661641025039 -72.0343186280557,-37.666091313088</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX1</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0343186280557,-37.666091313088 -72.0345928159154,-37.6660476902984 -72.0354646186848,-37.6657144605184 -72.0365149821166,-37.6652486563714 -72.0378595037785,-37.6646655731622 -72.0385030411278,-37.6643747669759 -72.0385678601747,-37.6642725501709 -72.0385404175217,-37.6641635723511 -72.038422203681,-37.6640843556195 -72.0361074261988,-37.6634310558394 -72.033198718603,-37.6625919068811 -72.0299043550464,-37.6615980726414 -72.0294356916787,-37.6619483209018 -72.0267303183306,-37.6638459393459 -72.0266884561914,-37.6639475602941 -72.0266925383104,-37.664048001223 -72.0267647948679,-37.6641284103584 -72.0270801207906,-37.6642482784448 -72.0318189573775,-37.6656986246016 -72.0316494872022,-37.6646426848884 -72.0321882260182,-37.6646014034064 -72.0332645878016,-37.6644914383727 -72.0343186280557,-37.666091313088</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX1</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0399938001448,-37.6634314105453 -72.0376943358189,-37.6597705221966 -72.0307487326543,-37.6614392521863 -72.0344510591226,-37.6625688084942 -72.0366375892477,-37.6631797431729 -72.0377540254114,-37.6634891676789 -72.038333542771,-37.6636021948207 -72.0387707575784,-37.6636092022851 -72.0392190862059,-37.6636067815719 -72.0395499448527,-37.6635434051144 -72.0399938001448,-37.6634314105453</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX4</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 4</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, servicios. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0307487326543,-37.6614392521863 -72.0376943358189,-37.6597705221966 -72.0370153520194,-37.658627177153 -72.0327404607612,-37.6578323535173 -72.0315143169009,-37.6593446635228 -72.0307618486378,-37.6595011245625 -72.0311543490482,-37.6606701577602 -72.0302718707317,-37.6613052667515 -72.0307487326543,-37.6614392521863</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX5</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 5</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: salud.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0327404607612,-37.6578323535173 -72.0320924557179,-37.6577301998037 -72.0294946201598,-37.6583088781108 -72.0298837789605,-37.6596790926829 -72.0305573392392,-37.6595612279756 -72.0307618486378,-37.6595011245625 -72.0315143169009,-37.6593446635228 -72.0327404607612,-37.6578323535173</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX3</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0305573392392,-37.6595612279756 -72.0298837789605,-37.6596790926829 -72.0294946201598,-37.6583088781108 -72.0225485625878,-37.6599679955039 -72.0231187689364,-37.6598528247911 -72.023917943271,-37.6597134938442 -72.0241821125929,-37.6597067152247 -72.0244577667046,-37.6596996412718 -72.0247927037077,-37.659736748513 -72.0251054106069,-37.6597927053421 -72.0258027071004,-37.6599758959759 -72.0297938960755,-37.6611438863118 -72.0308449465953,-37.6604130398542 -72.0305573392392,-37.6595612279756</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX3</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0293919216165,-37.6614375765324 -72.0250168735385,-37.6601605997835 -72.0246808232629,-37.6600961001089 -72.0242888273959,-37.6600695986131 -72.0238753446418,-37.6600802087825 -72.0230431903985,-37.6602569471545 -72.0233314536219,-37.6608436868622 -72.0237616349739,-37.6618106871421 -72.0242677898727,-37.6629494049867 -72.0244652975214,-37.6635658929553 -72.0245323699127,-37.6638018248349 -72.0246268663448,-37.6641467394755 -72.0247106075653,-37.6642268551431 -72.0248154680282,-37.6642607261881 -72.0249533040016,-37.664257188176 -72.0259399962825,-37.6639210785491 -72.0260400323947,-37.6638362457806 -72.0284216145068,-37.6621754763538 -72.0292926342269,-37.6615406745085 -72.0293919216165,-37.6614375765324</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX3</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0228323722435,-37.6603034864488 -72.0203555180631,-37.6608925721351 -72.0201493255477,-37.6610532458428 -72.018909931065,-37.661820815241 -72.01890103552,-37.6618850274157 -72.018938640816,-37.661961759234 -72.0191513043632,-37.6622442373619 -72.019165011769,-37.6622987296109 -72.0190877550397,-37.6623784039886 -72.0183107378296,-37.6632072453523 -72.0183166588794,-37.6633533422339 -72.0184369985942,-37.6650458305471 -72.0183841926011,-37.665161439897 -72.0195058004936,-37.6648904821502 -72.0219160984173,-37.6643579614129 -72.0236312598582,-37.6639803377357 -72.0238441267958,-37.6639840167554 -72.0240986785102,-37.664023187331 -72.0242133553906,-37.664015674511 -72.0243265501074,-37.663971637088 -72.0243539623454,-37.6637972627044 -72.024219082095,-37.6634488141753 -72.0237953645204,-37.6623582535222 -72.0233944490557,-37.6614042126246 -72.0228323722435,-37.6603034864488</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z2</SimpleData>
+		<SimpleData name="NOM">Area consolidada 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0304566115476,-37.6654937728328 -72.0305605062256,-37.6658201145938 -72.0302926186903,-37.6658772768079 -72.0301021152271,-37.6654342902814 -72.0301942619815,-37.6654125516669 -72.0281189317448,-37.6647700210866 -72.0266215980553,-37.6642829072794 -72.0260734024977,-37.6642330011667 -72.0258725770819,-37.6642427278434 -72.0254518510784,-37.6643586466124 -72.0252475090961,-37.6644233058378 -72.0249266325538,-37.6644498235621 -72.024795467361,-37.664476042016 -72.024752860466,-37.6645593997236 -72.0250043021018,-37.6655127002654 -72.0250091547772,-37.6663397936894 -72.0250829399372,-37.6674484731107 -72.0251003884566,-37.6681609863858 -72.0250857868271,-37.6689337356305 -72.0261118165102,-37.6685737630748 -72.0267678711015,-37.6685889055658 -72.0269227585782,-37.6685803571605 -72.0282756039295,-37.6683399371427 -72.0284886953542,-37.668631527967 -72.0285896775224,-37.6687111975732 -72.0288234732418,-37.6685223780553 -72.0293522134161,-37.6682345714457 -72.0300187915572,-37.6679432184017 -72.0306008856899,-37.6676951668481 -72.0314323380604,-37.6673584332313 -72.0331181910557,-37.6666843580469 -72.0333267876179,-37.6665830141129 -72.0333636427465,-37.6664998006205 -72.0333538083324,-37.666399507281 -72.0332694965789,-37.6663057018807 -72.0330138178156,-37.666239159699 -72.030517813713,-37.6655127205651 -72.0304566115476,-37.6654937728328</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.0295573410346,-37.6663166454076 -72.0296807660867,-37.6666653816698 -72.0290145560796,-37.666824186819 -72.0288859479214,-37.6664892929503 -72.0295573410346,-37.6663166454076</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z6</SimpleData>
+		<SimpleData name="NOM">Area consolidada 6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: culto y cultura, deporte, educacion, esparcimiento. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0308247089916,-37.6678265185047 -72.0303328369459,-37.668031117768 -72.0294910001116,-37.6683955323895 -72.0290076504961,-37.6686684620891 -72.0287221610761,-37.6688586106113 -72.0279857437035,-37.6694122556801 -72.0281243431637,-37.6695686539688 -72.0282268117464,-37.6696848472347 -72.0283867281684,-37.6699412412437 -72.0284834533867,-37.6700575827663 -72.0286372431161,-37.6701633167282 -72.0287849197256,-37.6702600667636 -72.0288692296976,-37.6703538745007 -72.0289270513531,-37.6705032071745 -72.0289568975895,-37.6706715387853 -72.0297389434059,-37.6705326077827 -72.0304289016593,-37.6703914698941 -72.0314156646459,-37.6701969897382 -72.0311431372094,-37.6688694858469 -72.0309448146009,-37.6682347518002 -72.0308247089916,-37.6678265185047</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z8</SimpleData>
+		<SimpleData name="NOM">Area consolidada 8</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: educacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0279857437035,-37.6694122556801 -72.0278460542446,-37.6695118207415 -72.0277608412582,-37.6696785391124 -72.027187314632,-37.6708449788379 -72.0273768554171,-37.6708401094994 -72.0277714945864,-37.6707888377258 -72.0282637766692,-37.6707350563004 -72.0285509570255,-37.6707276749417 -72.0287801452235,-37.670708073554 -72.0289568975895,-37.6706715387853 -72.0289270513531,-37.6705032071745 -72.0288692296976,-37.6703538745007 -72.0287849197256,-37.6702600667636 -72.0286372431161,-37.6701633167282 -72.0284834533867,-37.6700575827663 -72.0283867281684,-37.6699412412437 -72.0282268117464,-37.6696848472347 -72.0281243431637,-37.6695686539688 -72.0279857437035,-37.6694122556801</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0281713059907,-37.6684614447224 -72.0268705206782,-37.6687096663137 -72.0261451718846,-37.6686871621627 -72.0251252561352,-37.6690561189259 -72.0250734194287,-37.6699029480528 -72.026526357111,-37.669861069568 -72.0271572227697,-37.6698220142558 -72.0273593498405,-37.6697025660613 -72.0278341843525,-37.669361306766 -72.0285044659013,-37.6688779164194 -72.0281713059907,-37.6684614447224</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0271498188638,-37.6699227510438 -72.025096399382,-37.6700440363336 -72.0250610514741,-37.6708721612795 -72.0258127283546,-37.6708345806543 -72.026517341006,-37.6707707832933 -72.0270776187741,-37.6706924078642 -72.0273382650424,-37.6701738436544 -72.0273556701395,-37.6700362892515 -72.0272834067943,-37.6699558808234 -72.0271498188638,-37.6699227510438</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z8</SimpleData>
+		<SimpleData name="NOM">Area consolidada 8</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: educacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0249362770949,-37.669074681864 -72.0241886924823,-37.6690710181839 -72.0241913179382,-37.6699850026243 -72.0249142683443,-37.6699481660149 -72.0249362770949,-37.669074681864</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.022280728232,-37.6690925451504 -72.0223214985332,-37.6700969584619 -72.0227518976148,-37.6700767780138 -72.0237427611295,-37.6699828034759 -72.0241913179382,-37.6699850026243 -72.0241886924823,-37.6690710181839 -72.022280728232,-37.6690925451504</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z9</SimpleData>
+		<SimpleData name="NOM">Area consolidada 9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.022280728232,-37.6690925451504 -72.0218725661441,-37.6690938727267 -72.0219137026535,-37.6701074168392 -72.0223214985332,-37.6700969584619 -72.022280728232,-37.6690925451504</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z9</SimpleData>
+		<SimpleData name="NOM">Area consolidada 9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0218004960423,-37.6697264174504 -72.0210277049033,-37.6698102160526 -72.0210634609328,-37.6701246477084 -72.021798829591,-37.6701103617301 -72.0218004960423,-37.6697264174504</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z9</SimpleData>
+		<SimpleData name="NOM">Area consolidada 9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0209076446759,-37.6698270038842 -72.0203985018659,-37.6698903284195 -72.0204613070235,-37.6701629344746 -72.0209543321836,-37.6701274454081 -72.0209076446759,-37.6698270038842</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z9</SimpleData>
+		<SimpleData name="NOM">Area consolidada 9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0223489205063,-37.670205941798 -72.021963912896,-37.6702112450033 -72.0220017155497,-37.6711426094239 -72.0223744999385,-37.6711193378123 -72.0223489205063,-37.670205941798</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z9</SimpleData>
+		<SimpleData name="NOM">Area consolidada 9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0218562153365,-37.6707880246317 -72.0211554143343,-37.670809639448 -72.0211951888329,-37.6712455553335 -72.0218647929596,-37.6711689715592 -72.0218562153365,-37.6707880246317</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z9</SimpleData>
+		<SimpleData name="NOM">Area consolidada 9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: comercio, culto y cultura, esparcimiento, servicios.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0209698951169,-37.6702275913622 -72.0204483370397,-37.6702683827428 -72.0206226700144,-37.6713059340653 -72.0210617871261,-37.6712169829348 -72.0209698951169,-37.6702275913622</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0204483370397,-37.6702683827428 -72.0194780321811,-37.6703023904143 -72.0183078075642,-37.6703689317477 -72.0181766292432,-37.6703951433553 -72.0166367742152,-37.6704208622317 -72.0155782740823,-37.6704068229773 -72.0145675720905,-37.6704372530747 -72.0145076663141,-37.6710877639767 -72.015547464933,-37.6710657296173 -72.0167755105332,-37.6710068752484 -72.0179403720488,-37.6709496262933 -72.0184343297538,-37.6709369746101 -72.0189153149588,-37.6710297699487 -72.0200618267101,-37.6712289051256 -72.0206226700144,-37.6713059340653 -72.0204483370397,-37.6702683827428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0217519526309,-37.6690969656527 -72.0209185837002,-37.6691046226509 -72.0210277049033,-37.6698102160526 -72.0218004960423,-37.6697264174504 -72.0217519526309,-37.6690969656527</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0208038984595,-37.6691121326087 -72.019659820667,-37.6691140334672 -72.01807607948,-37.6691911687141 -72.0162968677723,-37.6692687144013 -72.0146125185504,-37.6692752539865 -72.0145631356597,-37.6703276797168 -72.0152173588765,-37.67029723075 -72.0156257141944,-37.670300492108 -72.0165691539683,-37.6703129073642 -72.0182181372134,-37.6702843934608 -72.0183202276291,-37.6702497869049 -72.0196058769179,-37.6701939977449 -72.0204613070235,-37.6701629344746 -72.0203985018659,-37.6698903284195 -72.0209076446759,-37.6698270038842 -72.0208038984595,-37.6691121326087</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0144226109973,-37.6692709720974 -72.0133887632463,-37.6692974129923 -72.0123320901478,-37.6696123564521 -72.0125689882295,-37.6702095766278 -72.0127952078526,-37.6702586365657 -72.0132009611266,-37.6703396671568 -72.0133906867087,-37.6703393856399 -72.0144021279298,-37.6703272285103 -72.0144226109973,-37.6692709720974</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0144067489535,-37.6704413671416 -72.0138485038925,-37.6704282243607 -72.0134820160941,-37.6704650178564 -72.0131781547663,-37.6704864989015 -72.0128478085686,-37.670421821159 -72.0125921306551,-37.6703552344941 -72.0129171889181,-37.6712838296938 -72.0143338751447,-37.6710556471282 -72.0144067489535,-37.6704413671416</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z1</SimpleData>
+		<SimpleData name="NOM">Area consolidada 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0223489205063,-37.670205941798 -72.0223744999385,-37.6711193378123 -72.0226381528432,-37.6710988634779 -72.023652559587,-37.6710179963948 -72.0248959695345,-37.6709129606257 -72.0249072323316,-37.6700580332179 -72.0237703704731,-37.6700963507128 -72.0227854353097,-37.6701947452136 -72.0223489205063,-37.670205941798</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">R3</SimpleData>
+		<SimpleData name="NOM">Zona no edificable de proteccion de cursos de agua y canales</SimpleData>
+		<SimpleData name="UPERM">Sin informacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0203555180631,-37.6608925721351 -72.0201619261355,-37.6609386670067 -72.0199551753986,-37.6610856429326 -72.0194332991759,-37.6614006531197 -72.0188334218092,-37.6617770734922 -72.0188128558171,-37.6618370128271 -72.0188108142871,-37.6619284711369 -72.0188780580232,-37.6620272945767 -72.0190608966755,-37.6622831160701 -72.0189840110901,-37.6623719208431 -72.018223665884,-37.6631866236916 -72.0182929107862,-37.6640440614366 -72.0183445516584,-37.6650344875609 -72.0183293562312,-37.665085149286 -72.0177931921656,-37.6651902866953 -72.0170146974119,-37.6652742033754 -72.0166715820533,-37.6653195497691 -72.0166580499429,-37.6654113012925 -72.01805367371,-37.6652338893727 -72.0183841926011,-37.665161439897 -72.0184369985942,-37.6650458305471 -72.0183166588794,-37.6633533422339 -72.0183107378296,-37.6632072453523 -72.0190877550397,-37.6623784039886 -72.019165011769,-37.6622987296109 -72.0191513043632,-37.6622442373619 -72.018938640816,-37.661961759234 -72.01890103552,-37.6618850274157 -72.018909931065,-37.661820815241 -72.0201493255477,-37.6610532458428 -72.0203555180631,-37.6608925721351</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX3</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 3</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0166580499429,-37.6654113012925 -72.0166715820533,-37.6653195497691 -72.0170146974119,-37.6652742033754 -72.0177931921656,-37.6651902866953 -72.0183293562312,-37.665085149286 -72.0183445516584,-37.6650344875609 -72.0182929107862,-37.6640440614366 -72.018223665884,-37.6631866236916 -72.0189840110901,-37.6623719208431 -72.0190608966755,-37.6622831160701 -72.0188780580232,-37.6620272945767 -72.0188108142871,-37.6619284711369 -72.0188128558171,-37.6618370128271 -72.0188334218092,-37.6617770734922 -72.0194332991759,-37.6614006531197 -72.0199551753986,-37.6610856429326 -72.0201619261355,-37.6609386670067 -72.0194616538597,-37.6611074295737 -72.0188840172257,-37.6613233200249 -72.0183376815946,-37.6616023894217 -72.0178945311681,-37.6618742449029 -72.0174724909797,-37.6622415324633 -72.017153081163,-37.6625879111022 -72.0168079030132,-37.6631497505596 -72.0166520681765,-37.6635604937834 -72.016333870007,-37.6649305802504 -72.0166580499429,-37.6654113012925</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX2</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.01610580403,-37.6649775501287 -72.0151080905302,-37.665610928257 -72.0163951542019,-37.6654500224674 -72.01610580403,-37.6649775501287</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX2</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0157297671676,-37.6643519058987 -72.014907009318,-37.6643363951767 -72.0146726467789,-37.6643698133844 -72.0142313284284,-37.6645456316448 -72.0139150669695,-37.6646862582763 -72.0135708254211,-37.6648458804498 -72.0132388093913,-37.6650234707988 -72.0129338439115,-37.6651592360273 -72.0127028022304,-37.6652748288843 -72.0125047433822,-37.6653530173309 -72.0122629520654,-37.6654871650008 -72.0118442246716,-37.6656532570513 -72.011537779106,-37.6657524948345 -72.0109947039509,-37.666113712924 -72.0112275971584,-37.6660437777467 -72.0116994956371,-37.6659128916092 -72.0123212715985,-37.6657918834288 -72.0135964910685,-37.6656221709087 -72.0141904689866,-37.6655247146394 -72.0143785200818,-37.6654833428766 -72.0146786629044,-37.6653705490414 -72.0155477969527,-37.6648273008873 -72.0158403434106,-37.6646689950634 -72.0158711061767,-37.6645768026496 -72.0157297671676,-37.6643519058987</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">R2</SimpleData>
+		<SimpleData name="NOM">Zona no edificable de proteccion de laderas y quebradas</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0195479984136,-37.6606847525114 -72.0194607441124,-37.6606595664022 -72.0179453404509,-37.6610000213675 -72.0166362993066,-37.6613260339672 -72.0166820485706,-37.6614619715392 -72.016540497836,-37.6616575469633 -72.0162623519085,-37.6625970014648 -72.0159773945871,-37.6629424943121 -72.0154964156534,-37.6634164002986 -72.0154880595718,-37.6636359879545 -72.0156464398841,-37.6638558780839 -72.0159178131878,-37.6643105318637 -72.0159817284925,-37.6643271760699 -72.0161522309083,-37.6635687185352 -72.016258598141,-37.6632140845956 -72.0165057690214,-37.662787293121 -72.0166669662079,-37.6625089505423 -72.0169065287264,-37.6621783281656 -72.0172001830482,-37.661905733893 -72.0175232883192,-37.661650667475 -72.0177735828102,-37.6614431663687 -72.0181770859184,-37.6611860376223 -72.0186963695458,-37.6609487945148 -72.019115979536,-37.660805506905 -72.0195479984136,-37.6606847525114</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">R2</SimpleData>
+		<SimpleData name="NOM">Zona no edificable de proteccion de laderas y quebradas</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0162323981821,-37.6618573832222 -72.0161403142202,-37.6619968486537 -72.0160591606053,-37.662122323414 -72.0159189011601,-37.6623498558948 -72.0156821291094,-37.6624656010646 -72.0155581861309,-37.6625281870096 -72.015482403979,-37.6626443830643 -72.0154179233369,-37.6627557199079 -72.0153073134861,-37.6628636652231 -72.0151585479098,-37.662881182392 -72.0149429111632,-37.6628090050033 -72.0147659976365,-37.6626992739871 -72.0146413268952,-37.662601918063 -72.0144401499047,-37.6624608145826 -72.0142489663198,-37.6624245730148 -72.0140835251639,-37.6624562253008 -72.0139788423429,-37.6625685886968 -72.0140223694074,-37.6626497407035 -72.0141579706351,-37.6627331077609 -72.014336360588,-37.6628793645612 -72.014463617464,-37.6630406390085 -72.014588276107,-37.66327967499 -72.0146301261632,-37.6634614157084 -72.0146306668938,-37.6636167914089 -72.0145376527204,-37.6637334276944 -72.0143807247217,-37.6638334170136 -72.014184518231,-37.663957262519 -72.0140266654179,-37.6640344241863 -72.0138111958029,-37.6641084900705 -72.0136420413156,-37.6641905102516 -72.0134278639666,-37.6642965332287 -72.013225171713,-37.6644022621607 -72.0129811693547,-37.6644816251978 -72.0128238682262,-37.6645724820526 -72.0126361877669,-37.6646229827146 -72.0124801786877,-37.6647457978258 -72.0122752688761,-37.6647967392549 -72.012053128889,-37.6648481198234 -72.0119035998569,-37.6649890494297 -72.0116966376164,-37.6651314466513 -72.0115274783793,-37.6652134648825 -72.011355549449,-37.6652269992751 -72.0111263711388,-37.6652465662328 -72.0109110793934,-37.6653251914471 -72.0107847047694,-37.6654700989771 -72.0105944164188,-37.6655983574351 -72.0104119220728,-37.6656350112426 -72.0102251598674,-37.6657083364301 -72.0099898441883,-37.6658605958679 -72.0098210503745,-37.6659517432503 -72.0094740258974,-37.6660428703339 -72.0091953689141,-37.6661185406603 -72.0092043607241,-37.6666256127195 -72.0087902579852,-37.6667641533416 -72.0084560068002,-37.6668869440274 -72.0081962347157,-37.6670032625791 -72.0078621657953,-37.6671306169498 -72.0075957267295,-37.6672242525977 -72.0073218572365,-37.6674186234612 -72.0071762145192,-37.667513746329 -72.007037973876,-37.6676498118949 -72.0067802235145,-37.6678163475475 -72.0066894345612,-37.6678460857811 -72.006440774991,-37.667952976124 -72.0061904557767,-37.6680187756286 -72.0058652859186,-37.6680819147868 -72.0055189831648,-37.6681912929023 -72.0052688476391,-37.6682616566826 -72.0050718767609,-37.6683672259833 -72.0048793588262,-37.6684406896382 -72.0046297733393,-37.6685247489472 -72.0041009599464,-37.6686707689792 -72.0037731739514,-37.6688116617779 -72.0033762766071,-37.668949746012 -72.0028961701119,-37.6691630747104 -72.0025811548862,-37.6693356315141 -72.0024053093874,-37.6693949554849 -72.0021325602347,-37.6694750279548 -72.002043054642,-37.6695367226615 -72.0018458914763,-37.669637720676 -72.0016759731264,-37.6697014625889 -72.0015412529745,-37.6697825895287 -72.0013379759122,-37.66987460244 -72.0011174682701,-37.669967053829 -72.0009464455733,-37.6700034019336 -72.0007741335089,-37.6700077899223 -72.0005964460091,-37.6700214545346 -72.0004422860923,-37.6700482307289 -72.0002117606227,-37.6701774982242 -71.9999839925324,-37.670375248696 -71.9998744524768,-37.6705105754453 -71.9997336175062,-37.6705827151275 -71.9995687038947,-37.6706280466512 -71.9993552643504,-37.6706106267503 -71.9993180009222,-37.6706847006247 -71.9995263072464,-37.671145567461 -71.9996619930839,-37.6709455909569 -71.9997114789756,-37.6708894885533 -71.9999349763923,-37.6707284091099 -72.0001651372373,-37.6705900114109 -72.0005277292523,-37.6705990603114 -72.000810278251,-37.6706192873206 -72.001239587295,-37.670571791454 -72.0015247519126,-37.6705142556412 -72.0017050545726,-37.6704228267078 -72.0018238701069,-37.6702324184422 -72.0019033996851,-37.6700658626448 -72.0020045768512,-37.6700084425025 -72.0021924996553,-37.6698208433468 -72.0024095074772,-37.6696416437633 -72.0025644391046,-37.6694914463855 -72.00279031957,-37.6693897145265 -72.0033447267497,-37.6691653535159 -72.0034755409753,-37.6691300276888 -72.0037523751105,-37.6690087144405 -72.0039271122345,-37.6689219949542 -72.0041709555719,-37.6688380843916 -72.0043564425491,-37.6687328093432 -72.0045589744742,-37.668622529428 -72.0047987320906,-37.6685798535317 -72.0050255278105,-37.6685009459129 -72.005216939011,-37.6684000884637 -72.0055074663171,-37.6683332655185 -72.0057566803555,-37.6682400738553 -72.0061717202131,-37.6681243706767 -72.0067162797658,-37.6679413770377 -72.0068802618362,-37.6678732085442 -72.0071205949416,-37.6677025471351 -72.0073045984604,-37.6675607427376 -72.0075706702947,-37.6674579762093 -72.0081415402114,-37.6672148910839 -72.0084700503555,-37.667092248729 -72.009214877098,-37.6668858490878 -72.009362177574,-37.6668318140563 -72.0094900322479,-37.6667234337389 -72.009806681452,-37.666591948834 -72.0100558849355,-37.6664987485 -72.0101965170526,-37.6664220319111 -72.0106254467029,-37.6662236932214 -72.0109947039509,-37.666113712924 -72.011537779106,-37.6657524948345 -72.0118442246716,-37.6656532570513 -72.0122629520654,-37.6654871650008 -72.0125047433822,-37.6653530173309 -72.0127028022304,-37.6652748288843 -72.0129338439115,-37.6651592360273 -72.0132388093913,-37.6650234707988 -72.0135708254211,-37.6648458804498 -72.0139150669695,-37.6646862582763 -72.0142313284284,-37.6645456316448 -72.0146726467789,-37.6643698133844 -72.014907009318,-37.6643363951767 -72.0157297671676,-37.6643519058987 -72.0154919165029,-37.6640152216755 -72.0152816763274,-37.6636504087362 -72.0152867058086,-37.6633486428081 -72.0156353971191,-37.6630152306391 -72.0158171540249,-37.6628186282484 -72.0160367087572,-37.6625616438992 -72.0162323981821,-37.6618573832222</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0139788423429,-37.6625685886968 -72.0138287748517,-37.6626249850955 -72.0137347521779,-37.6626456713489 -72.0135735762385,-37.6626406521277 -72.0134738278539,-37.6625198049691 -72.0134238198857,-37.6624205385028 -72.0131308574593,-37.6622132253101 -72.0128302039041,-37.6620289615421 -72.0125449163,-37.6619402785167 -72.0123233571994,-37.6618636767211 -72.0121764577082,-37.6617851662478 -72.0123335144949,-37.662114781979 -72.0125763286562,-37.6625747440273 -72.0126287376516,-37.6627333638854 -72.0126963446991,-37.6628413216772 -72.0126657632241,-37.6629380795936 -72.0124275177585,-37.6629464548784 -72.0120038192849,-37.6629892773744 -72.0116655288171,-37.663011633957 -72.0113965161604,-37.6631121986866 -72.0113384277951,-37.6631685265399 -72.0109329625243,-37.6633068536533 -72.0108292047876,-37.663371203972 -72.0107208931921,-37.6635362166973 -72.0106564067947,-37.6636475503002 -72.010580153207,-37.6637523294917 -72.0103864436355,-37.6638669649907 -72.0102987037655,-37.6639720374233 -72.0102146677684,-37.6640975810543 -72.010088190272,-37.6643110448772 -72.0099556935503,-37.6645178073208 -72.0097924484235,-37.664675080511 -72.0096247639346,-37.6647936192111 -72.0094950676356,-37.6648563458333 -72.0093320171171,-37.6649473449244 -72.0091691518337,-37.6650429099601 -72.0091548246725,-37.6653997569404 -72.0091953689141,-37.6661185406603 -72.0094740258974,-37.6660428703339 -72.0098210503745,-37.6659517432503 -72.0099898441883,-37.6658605958679 -72.0102251598674,-37.6657083364301 -72.0104119220728,-37.6656350112426 -72.0105944164188,-37.6655983574351 -72.0107847047694,-37.6654700989771 -72.0109110793934,-37.6653251914471 -72.0111263711388,-37.6652465662328 -72.011355549449,-37.6652269992751 -72.0115274783793,-37.6652134648825 -72.0116966376164,-37.6651314466513 -72.0119035998569,-37.6649890494297 -72.012053128889,-37.6648481198234 -72.0122752688761,-37.6647967392549 -72.0124801786877,-37.6647457978258 -72.0126361877669,-37.6646229827146 -72.0128238682262,-37.6645724820526 -72.0129811693547,-37.6644816251978 -72.013225171713,-37.6644022621607 -72.0134278639666,-37.6642965332287 -72.0136420413156,-37.6641905102516 -72.0138111958029,-37.6641084900705 -72.0140266654179,-37.6640344241863 -72.014184518231,-37.663957262519 -72.0143807247217,-37.6638334170136 -72.0145376527204,-37.6637334276944 -72.0146306668938,-37.6636167914089 -72.0146301261632,-37.6634614157084 -72.014588276107,-37.66327967499 -72.014463617464,-37.6630406390085 -72.014336360588,-37.6628793645612 -72.0141579706351,-37.6627331077609 -72.0140223694074,-37.6626497407035 -72.0139788423429,-37.6625685886968</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0244023437749,-37.6643408783115 -72.0216823414381,-37.6649375240449 -72.0204284615802,-37.6652073218369 -72.0186793482937,-37.6655994809612 -72.0188944630957,-37.6661876762632 -72.0190180810124,-37.6661601376397 -72.0188994373922,-37.6657812240095 -72.0245535677456,-37.6644944802994 -72.0245289635166,-37.6644257538952 -72.0244023437749,-37.6643408783115</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Area consolidada 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0166023646049,-37.6655978228789 -72.0164904580865,-37.665673811705 -72.0142560538479,-37.6664348073659 -72.0145622316381,-37.6671810710499 -72.0146129852147,-37.6672985995669 -72.0146181834835,-37.6691311455056 -72.0160214650595,-37.6691409407619 -72.0157632450335,-37.6684437275818 -72.0155237398574,-37.6677825973757 -72.0152316240055,-37.6670999609751 -72.0172273977049,-37.6665507186303 -72.0166023646049,-37.6655978228789</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Area consolidada 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0162820342834,-37.6656380149202 -72.0140352633087,-37.6659514352804 -72.0142184507043,-37.6663580739919 -72.015255991822,-37.6659979013482 -72.0160163519514,-37.6657499308721 -72.0162820342834,-37.6656380149202</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Area consolidada 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0138859368589,-37.6659552544239 -72.0125419767964,-37.6661312974442 -72.0117669734999,-37.6663019256017 -72.0109374851133,-37.6665470651897 -72.0110115751564,-37.6666731409069 -72.011265023587,-37.6666849465646 -72.0116513097292,-37.6667116368649 -72.0121066995923,-37.6667411304955 -72.0124763088335,-37.6667819552072 -72.0127177173792,-37.6667803537321 -72.0129467150414,-37.6667562182303 -72.0132253699501,-37.6666805390944 -72.0133445036442,-37.6666409311091 -72.0137589667677,-37.6665115044585 -72.0140824596827,-37.6664072548851 -72.0138859368589,-37.6659552544239</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Area consolidada 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0141094984187,-37.6665071102534 -72.0129500389831,-37.66683839755 -72.0127266005538,-37.6668578209488 -72.0124853776153,-37.6668639885921 -72.0120524051437,-37.6668202125929 -72.0117580140247,-37.6667911750735 -72.0114065572769,-37.6667727350783 -72.0110613986559,-37.6667678439774 -72.0116702123922,-37.6680319637503 -72.0122919959029,-37.6694739886233 -72.0128207940209,-37.6693279314241 -72.0134007292629,-37.6691668551629 -72.0144290144931,-37.6691451255711 -72.0144504637157,-37.6676866602463 -72.0144612387409,-37.667384745665 -72.0144154902662,-37.6672488082012 -72.0141094984187,-37.6665071102534</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0107733265347,-37.6666106737576 -72.0103456925022,-37.6668055524187 -72.0099947452211,-37.6670841635788 -72.0102452365683,-37.6670583409095 -72.010344961738,-37.667036370076 -72.0104101349676,-37.6670129968272 -72.0104377440289,-37.6669848697762 -72.0105109844041,-37.6669121584761 -72.0105731516417,-37.6668500152041 -72.0106459712266,-37.6668024513275 -72.0108403799396,-37.6667049358214 -72.0107733265347,-37.6666106737576</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">R3</SimpleData>
+		<SimpleData name="NOM">Zona no edificable de proteccion de cursos de agua y canales</SimpleData>
+		<SimpleData name="UPERM">Sin informacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0166023646049,-37.6655978228789 -72.0162820342834,-37.6656380149202 -72.0160163519514,-37.6657499308721 -72.015255991822,-37.6659979013482 -72.0142184507043,-37.6663580739919 -72.0140824596827,-37.6664072548851 -72.0137589667677,-37.6665115044585 -72.0133445036442,-37.6666409311091 -72.0132253699501,-37.6666805390944 -72.0129467150414,-37.6667562182303 -72.0127177173792,-37.6667803537321 -72.0124763088335,-37.6667819552072 -72.0121066995923,-37.6667411304955 -72.0116513097292,-37.6667116368649 -72.011265023587,-37.6666849465646 -72.0110115751564,-37.6666731409069 -72.0110613986559,-37.6667678439774 -72.0114065572769,-37.6667727350783 -72.0117580140247,-37.6667911750735 -72.0120524051437,-37.6668202125929 -72.0124853776153,-37.6668639885921 -72.0127266005538,-37.6668578209488 -72.0129500389831,-37.66683839755 -72.0141094984187,-37.6665071102534 -72.0142560538479,-37.6664348073659 -72.0164904580865,-37.665673811705 -72.0166023646049,-37.6655978228789</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">R3</SimpleData>
+		<SimpleData name="NOM">Zona no edificable de proteccion de cursos de agua y canales</SimpleData>
+		<SimpleData name="UPERM">Sin informacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0108403799396,-37.6667049358214 -72.0106459712266,-37.6668024513275 -72.0105731516417,-37.6668500152041 -72.0105109844041,-37.6669121584761 -72.0104377440289,-37.6669848697762 -72.0104101349676,-37.6670129968272 -72.010344961738,-37.667036370076 -72.0102452365683,-37.6670583409095 -72.0099947452211,-37.6670841635788 -72.0099038067783,-37.6671813190629 -72.0101013110967,-37.6671602784501 -72.010298443868,-37.6671301061145 -72.0104205438117,-37.6670927093773 -72.0105218957218,-37.667039847594 -72.0105710026689,-37.6669746095758 -72.0106370629689,-37.6669020825311 -72.0107236853436,-37.6668404560019 -72.0108799694412,-37.6667953304536 -72.0108403799396,-37.6667049358214</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Area consolidada 3</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0172273977049,-37.6665507186303 -72.0152316240055,-37.6670999609751 -72.0157632450335,-37.6684437275818 -72.0160214650595,-37.6691409407619 -72.0163251773065,-37.669151447978 -72.0180641826238,-37.6690749307586 -72.01798213449,-37.6684691866034 -72.0178522987405,-37.6676772851227 -72.0177639408352,-37.6673413474844 -72.0172273977049,-37.6665507186303</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.0171556839658,-37.6675123117986 -72.0174987552695,-37.6684587135117 -72.0168992003351,-37.6685608995593 -72.0162418385656,-37.6686554222351 -72.0160277292401,-37.6677696994542 -72.0171556839658,-37.6675123117986</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z5</SimpleData>
+		<SimpleData name="NOM">Area consolidada 5</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: culto y cultura, educacion, salud, servicios. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0171556839658,-37.6675123117986 -72.0160277292401,-37.6677696994542 -72.0162418385656,-37.6686554222351 -72.0168992003351,-37.6685608995593 -72.0174987552695,-37.6684587135117 -72.0171556839658,-37.6675123117986</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX6</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 6</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: culto y cultura, esparcimiento, servicios. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0198755699161,-37.6713502193025 -72.0184151945174,-37.6710677173145 -72.0144649926448,-37.6712053974511 -72.0115645290659,-37.6717091652168 -72.0116641862869,-37.6718985694431 -72.0118772413568,-37.6720485135355 -72.0121922109965,-37.6721592895109 -72.0125305249028,-37.6722786087018 -72.0129259096181,-37.6723873268251 -72.0132512603583,-37.6724704127622 -72.0135632756331,-37.6725081362737 -72.0138289714058,-37.672537903668 -72.0141391387702,-37.6725299703566 -72.0144259612698,-37.6725134934534 -72.0147672625247,-37.6724224960249 -72.0150151850529,-37.672297326998 -72.015298677927,-37.6721986671702 -72.0155936569314,-37.6720997136293 -72.0158460142803,-37.6720841143893 -72.0161072701208,-37.6720043034893 -72.0164241121285,-37.6718773666035 -72.0168209963806,-37.6717392388447 -72.0172534529939,-37.6716276206318 -72.017878603745,-37.6714470817956 -72.0183455181798,-37.6713345771359 -72.0186419701299,-37.6712721408809 -72.0189658402228,-37.6713186872732 -72.01942830109,-37.6713799624801 -72.0196121000983,-37.6713752527555 -72.0198755699161,-37.6713502193025</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX1</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.012335874304,-37.6700967090572 -72.0089684732045,-37.670925411057 -72.0089536405473,-37.6709852032847 -72.0102572218861,-37.6713723759503 -72.0106820555941,-37.6714986303354 -72.0109195826857,-37.6715428349431 -72.0111039374781,-37.6715518351715 -72.0113166412094,-37.6715509697902 -72.0127417690841,-37.6713180214398 -72.012335874304,-37.6700967090572</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX1</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 1</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0109013576458,-37.6668414606067 -72.0108165041277,-37.6668609363433 -72.0107044048984,-37.6669323538163 -72.0106327861424,-37.6670095928953 -72.0105328176463,-37.667096697969 -72.0104341537814,-37.6671449211023 -72.0101800469792,-37.6671879739993 -72.0099745738928,-37.6672252141576 -72.009851386355,-37.6672343127369 -72.0093541983647,-37.6677369339817 -72.0086596640247,-37.6684767721849 -72.0084826955167,-37.6686503899286 -72.0071864274332,-37.6700088573473 -72.0071001778282,-37.6701027212957 -72.0072711735811,-37.6706257548105 -72.0084710061337,-37.6708512773401 -72.0122741993919,-37.6699223302926 -72.0119967483422,-37.6691753273508 -72.0115881455244,-37.6683128475689 -72.0112925340444,-37.6676851336512 -72.0109013576458,-37.6668414606067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0067146658645,-37.6702151326964 -72.0061614605355,-37.6704691865367 -72.0066609654324,-37.6705227122499 -72.0066522721644,-37.6704498087547 -72.0066618381758,-37.6703307376405 -72.0067146658645,-37.6702151326964</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0072711735811,-37.6706257548105 -72.0071001778282,-37.6701027212957 -72.0068724981964,-37.670350499278 -72.0068760002752,-37.6704372451957 -72.006878397214,-37.6704965975503 -72.0069617590067,-37.6705675948034 -72.0072711735811,-37.6706257548105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0211554143343,-37.670809639448 -72.0218562153365,-37.6707880246317 -72.0218432975845,-37.6702143381003 -72.0211019993476,-37.6702242046139 -72.0211554143343,-37.670809639448</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Area consolidada 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0188944630957,-37.6661876762632 -72.0186793482937,-37.6655994809612 -72.0204284615802,-37.6652073218369 -72.0216823414381,-37.6649375240449 -72.0244023437749,-37.6643408783115 -72.0243516631296,-37.6643069067135 -72.0240887720576,-37.6642039674062 -72.0238049484931,-37.664151836175 -72.0235981934644,-37.6641571411366 -72.0219060014106,-37.664534176296 -72.0197469203192,-37.6650236972423 -72.0185228554757,-37.6653201325463 -72.0180552394979,-37.6654143744606 -72.0167400191194,-37.6655897282072 -72.0172048113858,-37.6662770807322 -72.0173759849083,-37.6665286333146 -72.0188459255454,-37.6661984885306 -72.0188944630957,-37.6661876762632</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.0185537351329,-37.6656209794154 -72.0186374672287,-37.6658427782077 -72.0174011591394,-37.6661212348913 -72.0173233605331,-37.6659038541297 -72.0185537351329,-37.6656209794154</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z4</SimpleData>
+		<SimpleData name="NOM">Area consolidada 4</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0245535677456,-37.6644944802994 -72.0188994373922,-37.6657812240095 -72.0190180810124,-37.6661601376397 -72.0205381734156,-37.6658214960422 -72.023079288958,-37.6652536063307 -72.0246634831052,-37.6649067486812 -72.0245873274298,-37.6645887850607 -72.0245535677456,-37.6644944802994</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0185537351329,-37.6656209794154 -72.0173233605331,-37.6659038541297 -72.0174011591394,-37.6661212348913 -72.0186374672287,-37.6658427782077 -72.0185537351329,-37.6656209794154</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">Z3</SimpleData>
+		<SimpleData name="NOM">Area consolidada 3</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social. Actividades productivas. Infraestructura: transporte.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0190180810124,-37.6661601376397 -72.0188944630957,-37.6661876762632 -72.0188459255454,-37.6661984885306 -72.0173759849083,-37.6665286333146 -72.0178288851001,-37.6672414233951 -72.0179111357846,-37.6674266980355 -72.0179642923168,-37.667745255334 -72.0180839514957,-37.6682860529472 -72.0181902621278,-37.6690648466444 -72.0193210013413,-37.669017599355 -72.0205334437921,-37.6690002386511 -72.022217409862,-37.6689844833052 -72.0234533789891,-37.6689801999486 -72.0249359474988,-37.6689604328465 -72.024923687692,-37.6682340764754 -72.0248995704569,-37.6674988835525 -72.0248608092589,-37.6665446931696 -72.0248426238097,-37.6658139177791 -72.0248314968992,-37.6655399876632 -72.0246634831052,-37.6649067486812 -72.023079288958,-37.6652536063307 -72.0205381734156,-37.6658214960422 -72.0190180810124,-37.6661601376397</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.009851386355,-37.6672343127369 -72.0099745738928,-37.6672252141576 -72.0101800469792,-37.6671879739993 -72.0104341537814,-37.6671449211023 -72.0105328176463,-37.667096697969 -72.0106327861424,-37.6670095928953 -72.0107044048984,-37.6669323538163 -72.0108165041277,-37.6668609363433 -72.0109013576458,-37.6668414606067 -72.0108799694412,-37.6667953304536 -72.0107236853436,-37.6668404560019 -72.0106370629689,-37.6669020825311 -72.0105710026689,-37.6669746095758 -72.0105218957218,-37.667039847594 -72.0104205438117,-37.6670927093773 -72.010298443868,-37.6671301061145 -72.0101013110967,-37.6671602784501 -72.0099038067783,-37.6671813190629 -72.009851386355,-37.6672343127369</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0295573410346,-37.6663166454076 -72.0288859479214,-37.6664892929503 -72.0290145560796,-37.666824186819 -72.0296807660867,-37.6666653816698 -72.0295573410346,-37.6663166454076</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">AV</SimpleData>
+		<SimpleData name="NOM">Area verde</SimpleData>
+		<SimpleData name="UPERM">Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0301942619815,-37.6654125516669 -72.0301021152271,-37.6654342902814 -72.0302926186903,-37.6658772768079 -72.0305605062256,-37.6658201145938 -72.0304566115476,-37.6654937728328 -72.0301942619815,-37.6654125516669</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">R3</SimpleData>
+		<SimpleData name="NOM">Zona no edificable de proteccion de cursos de agua y canales</SimpleData>
+		<SimpleData name="UPERM">Sin informacion.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0092075400527,-37.6672733676508 -72.0084694722113,-37.6674693113666 -72.0082536188514,-37.6675342353089 -72.00813058194,-37.6676196404763 -72.0080150400241,-37.6677482727476 -72.0079337885846,-37.667800620251 -72.0077732467641,-37.6678115729604 -72.007401959766,-37.6678004821897 -72.0072329874945,-37.6678162202067 -72.0071110689274,-37.6678581790439 -72.0069512504055,-37.6679582333797 -72.0069359556131,-37.6680066112972 -72.0068627508154,-37.6681158812904 -72.0068068826472,-37.6681561535634 -72.0066877426887,-37.6681957560786 -72.0065241426616,-37.668202215133 -72.0063348825534,-37.668213898585 -72.0061546980013,-37.6682367770069 -72.0059528295204,-37.6682921991448 -72.005762815736,-37.6683564594601 -72.0056505249297,-37.6684233080153 -72.0054995022109,-37.6685277051764 -72.0053495091468,-37.6685863750297 -72.0051609836981,-37.6686163196616 -72.0049934828957,-37.6686685787455 -72.0048436733087,-37.6687318123808 -72.0047197091899,-37.6687943868269 -72.0045802641499,-37.6689007735299 -72.0044789973319,-37.6689559131241 -72.004315103749,-37.6690263610806 -72.0042223605282,-37.6690789990565 -72.0041020026212,-37.6691597627215 -72.0039719265869,-37.6692133513131 -72.00361672434,-37.6693160958149 -72.0035604840044,-37.6693472360762 -72.0035161929385,-37.669389498547 -72.0034064755421,-37.6695202620894 -72.0033360620027,-37.6695563343755 -72.003211817805,-37.6696120585115 -72.0030563534483,-37.6696777190328 -72.0030001137292,-37.6697088590177 -72.002965081592,-37.6697668812314 -72.002918377409,-37.6698206290724 -72.0028453667149,-37.6698636222519 -72.0027388131255,-37.6699303219008 -72.002640693583,-37.6699922347524 -72.0025258928264,-37.6700682852526 -72.0024476906192,-37.6701251213647 -72.002409416793,-37.6701740842169 -72.0023694690309,-37.6702527964963 -72.0022949473777,-37.6704009450079 -72.0022473957145,-37.6705049877693 -72.0021997530177,-37.6706067478326 -72.0021729667313,-37.6706554179445 -72.0021229295038,-37.6706978245016 -72.0018496034868,-37.6708350414728 -72.0012951780871,-37.6710593961428 -72.000675432141,-37.6713036942959 -72.0006649583572,-37.6713290968984 -72.00067754932,-37.6713561980796 -72.0007181238199,-37.6713643048775 -72.0007887255931,-37.671332801124 -72.0010122944555,-37.6712448414282 -72.0014674004801,-37.6710527246339 -72.001920645937,-37.6708857903034 -72.0022241822878,-37.6707135267109 -72.0022758944838,-37.6706413697471 -72.0023536743894,-37.6704314396549 -72.0025103006292,-37.670180653794 -72.002593509747,-37.6701054091708 -72.0028232031165,-37.669955592391 -72.0028939855686,-37.6699286518988 -72.0029888671131,-37.6698576804592 -72.0030541088047,-37.6697646115985 -72.0031411104492,-37.6697121217431 -72.0033592033334,-37.66963115405 -72.0034636186493,-37.669582789243 -72.0035289516627,-37.6694920046031 -72.0036482045564,-37.6693838478879 -72.0039205853447,-37.6692946395281 -72.004153219651,-37.6692178706122 -72.0042377154421,-37.6691745829408 -72.0043634469411,-37.6690845421464 -72.0045076997874,-37.6690260216797 -72.0046596460979,-37.6689444530919 -72.0047091268134,-37.6688883478898 -72.0048300352012,-37.6688212804729 -72.0049968915502,-37.6687530412598 -72.0051612445408,-37.6686940074485 -72.0052892785638,-37.6686610346267 -72.0053976696399,-37.6686399894268 -72.0054885534287,-37.6686125356482 -72.0055618377189,-37.6685763888836 -72.0056373496985,-37.6685241902709 -72.0057324098923,-37.6684577812188 -72.0058648952102,-37.6683927033743 -72.0059643944093,-37.668365028576 -72.006103175503,-37.6683135007604 -72.0062314849404,-37.6682873766985 -72.0063545096247,-37.6682728123085 -72.0065238518991,-37.6682662069848 -72.0066502111819,-37.6682629821977 -72.0067359949138,-37.6682516534754 -72.0068724578405,-37.6682138947961 -72.006919433496,-37.668166992604 -72.0069660426768,-37.6681109606572 -72.0070412891963,-37.6679810717257 -72.0071257830156,-37.6679377838775 -72.0072099079176,-37.6678853635937 -72.0073587770307,-37.6678701386437 -72.0074591047169,-37.6678630082327 -72.0076000977666,-37.6678662657611 -72.0076981070375,-37.667872904299 -72.0077986179509,-37.6678703389158 -72.0079419292935,-37.6678598259801 -72.0080189131154,-37.6678441500558 -72.0080892315863,-37.6678057933554 -72.0081499207956,-37.6677425447519 -72.0082051423147,-37.6676862915848 -72.0083081693234,-37.6676036812522 -72.0083363328062,-37.667589252308 -72.0084530604114,-37.6675611356208 -72.0086888323491,-37.6674911318739 -72.008853640515,-37.6674435063507 -72.0089845409764,-37.6674104572775 -72.0091319825122,-37.667365885972 -72.0092075400527,-37.6672733676508</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">EX2</SimpleData>
+		<SimpleData name="NOM">Area de extensión urbana 2</SimpleData>
+		<SimpleData name="UPERM">Residencial. Equipamiento: cientifico, comercio, culto y cultura, deporte, educacion, esparcimiento, salud, seguridad, servicios, social.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.0091319825122,-37.667365885972 -72.0089845409764,-37.6674104572775 -72.008853640515,-37.6674435063507 -72.0086888323491,-37.6674911318739 -72.0084530604114,-37.6675611356208 -72.0083363328062,-37.667589252308 -72.0083081693234,-37.6676036812522 -72.0082051423147,-37.6676862915848 -72.0081499207956,-37.6677425447519 -72.0080892315863,-37.6678057933554 -72.0080189131154,-37.6678441500558 -72.0079419292935,-37.6678598259801 -72.0077986179509,-37.6678703389158 -72.0076981070375,-37.667872904299 -72.0076000977666,-37.6678662657611 -72.0074591047169,-37.6678630082327 -72.0073587770307,-37.6678701386437 -72.0072099079176,-37.6678853635937 -72.0071257830156,-37.6679377838775 -72.0070412891963,-37.6679810717257 -72.0069660426768,-37.6681109606572 -72.006919433496,-37.668166992604 -72.0068724578405,-37.6682138947961 -72.0067359949138,-37.6682516534754 -72.0066502111819,-37.6682629821977 -72.0065238518991,-37.6682662069848 -72.0063545096247,-37.6682728123085 -72.0062314849404,-37.6682873766985 -72.006103175503,-37.6683135007604 -72.0059643944093,-37.668365028576 -72.0058648952102,-37.6683927033743 -72.0057324098923,-37.6684577812188 -72.0056373496985,-37.6685241902709 -72.0055618377189,-37.6685763888836 -72.0054885534287,-37.6686125356482 -72.0053976696399,-37.6686399894268 -72.0052892785638,-37.6686610346267 -72.0051612445408,-37.6686940074485 -72.0049968915502,-37.6687530412598 -72.0048300352012,-37.6688212804729 -72.0047091268134,-37.6688883478898 -72.0046596460979,-37.6689444530919 -72.0045076997874,-37.6690260216797 -72.0043634469411,-37.6690845421464 -72.0042377154421,-37.6691745829408 -72.004153219651,-37.6692178706122 -72.0039205853447,-37.6692946395281 -72.0036482045564,-37.6693838478879 -72.0035289516627,-37.6694920046031 -72.0034636186493,-37.669582789243 -72.0033592033334,-37.66963115405 -72.0031411104492,-37.6697121217431 -72.0030541088047,-37.6697646115985 -72.0029888671131,-37.6698576804592 -72.0028939855686,-37.6699286518988 -72.0028232031165,-37.669955592391 -72.002593509747,-37.6701054091708 -72.0025103006292,-37.670180653794 -72.0023536743894,-37.6704314396549 -72.0022758944838,-37.6706413697471 -72.0022241822878,-37.6707135267109 -72.001920645937,-37.6708857903034 -72.0014674004801,-37.6710527246339 -72.0010122944555,-37.6712448414282 -72.0007887255931,-37.671332801124 -72.0007181238199,-37.6713643048775 -72.00067754932,-37.6713561980796 -72.0006649583572,-37.6713290968984 -72.000675432141,-37.6713036942959 -72.0012951780871,-37.6710593961428 -72.0018496034868,-37.6708350414728 -72.0021229295038,-37.6706978245016 -72.0021729667313,-37.6706554179445 -72.0021997530177,-37.6706067478326 -72.0022473957145,-37.6705049877693 -72.0022949473777,-37.6704009450079 -72.0023694690309,-37.6702527964963 -72.002409416793,-37.6701740842169 -72.0024476906192,-37.6701251213647 -72.0025258928264,-37.6700682852526 -72.002640693583,-37.6699922347524 -72.0027388131255,-37.6699303219008 -72.0028453667149,-37.6698636222519 -72.002918377409,-37.6698206290724 -72.002965081592,-37.6697668812314 -72.0030001137292,-37.6697088590177 -72.0030563534483,-37.6696777190328 -72.003211817805,-37.6696120585115 -72.0033360620027,-37.6695563343755 -72.0034064755421,-37.6695202620894 -72.0035161929385,-37.669389498547 -72.0035604840044,-37.6693472360762 -72.00361672434,-37.6693160958149 -72.0039719265869,-37.6692133513131 -72.0041020026212,-37.6691597627215 -72.0042223605282,-37.6690789990565 -72.004315103749,-37.6690263610806 -72.0044789973319,-37.6689559131241 -72.0045802641499,-37.6689007735299 -72.0047197091899,-37.6687943868269 -72.0048436733087,-37.6687318123808 -72.0049934828957,-37.6686685787455 -72.0051609836981,-37.6686163196616 -72.0053495091468,-37.6685863750297 -72.0054995022109,-37.6685277051764 -72.0056505249297,-37.6684233080153 -72.005762815736,-37.6683564594601 -72.0059528295204,-37.6682921991448 -72.0061546980013,-37.6682367770069 -72.0063348825534,-37.668213898585 -72.0065241426616,-37.668202215133 -72.0066877426887,-37.6681957560786 -72.0068068826472,-37.6681561535634 -72.0068627508154,-37.6681158812904 -72.0069359556131,-37.6680066112972 -72.0069512504055,-37.6679582333797 -72.0071110689274,-37.6678581790439 -72.0072329874945,-37.6678162202067 -72.007401959766,-37.6678004821897 -72.0077732467641,-37.6678115729604 -72.0079337885846,-37.667800620251 -72.0080150400241,-37.6677482727476 -72.00813058194,-37.6676196404763 -72.0082536188514,-37.6675342353089 -72.0084694722113,-37.6674693113666 -72.0092075400527,-37.6672733676508 -72.0093032067111,-37.6671509551859 -72.0094497350046,-37.6670066770005 -72.0095864419069,-37.6668683628585 -72.0097256912193,-37.6667574044857 -72.0099464669031,-37.6666009469216 -72.0100558849355,-37.6664987485 -72.009806681452,-37.666591948834 -72.0094900322479,-37.6667234337389 -72.009362177574,-37.6668318140563 -72.009214877098,-37.6668858490878 -72.0084700503555,-37.667092248729 -72.0081415402114,-37.6672148910839 -72.0075706702947,-37.6674579762093 -72.0073045984604,-37.6675607427376 -72.0071205949416,-37.6677025471351 -72.0068802618362,-37.6678732085442 -72.0067162797658,-37.6679413770377 -72.0061717202131,-37.6681243706767 -72.0057566803555,-37.6682400738553 -72.0055074663171,-37.6683332655185 -72.005216939011,-37.6684000884637 -72.0050255278105,-37.6685009459129 -72.0047987320906,-37.6685798535317 -72.0045589744742,-37.668622529428 -72.0043564425491,-37.6687328093432 -72.0041709555719,-37.6688380843916 -72.0039271122345,-37.6689219949542 -72.0037523751105,-37.6690087144405 -72.0034755409753,-37.6691300276888 -72.0033447267497,-37.6691653535159 -72.00279031957,-37.6693897145265 -72.0025644391046,-37.6694914463855 -72.0024095074772,-37.6696416437633 -72.0021924996553,-37.6698208433468 -72.0020045768512,-37.6700084425025 -72.0019033996851,-37.6700658626448 -72.0018238701069,-37.6702324184422 -72.0017050545726,-37.6704228267078 -72.0015247519126,-37.6705142556412 -72.001239587295,-37.670571791454 -72.000810278251,-37.6706192873206 -72.0005277292523,-37.6705990603114 -72.0001651372373,-37.6705900114109 -71.9999349763923,-37.6707284091099 -71.9997114789756,-37.6708894885533 -71.9996619930839,-37.6709455909569 -71.9995263072464,-37.671145567461 -71.9997841893781,-37.671730855851 -72.0012191632331,-37.6712418588329 -72.0024881747204,-37.6708439086904 -72.0032062730786,-37.6706862167726 -72.0039749390213,-37.6705706482282 -72.0050265363842,-37.6704135832699 -72.0054222237185,-37.6703166569235 -72.0059159369842,-37.6701555293889 -72.0061051245054,-37.6700707239655 -72.0065389091073,-37.6698494241014 -72.0068133424012,-37.669668751426 -72.0074218040212,-37.6691459236223 -72.0091319825122,-37.667365885972</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Biobío</SimpleData>
+		<SimpleData name="COM">Santa Bárbara</SimpleData>
+		<SimpleData name="LOC">Santa Bárbara</SimpleData>
+		<SimpleData name="ZONA">R1</SimpleData>
+		<SimpleData name="NOM">Zona no edificable de borde de río, con riesgo de inundación</SimpleData>
+		<SimpleData name="UPERM">Equipamiento: esparcimiento. Area verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos de suelo no mencionados como permitidos</SimpleData>
+		<SimpleData name="P_DO">01/04/1999</SimpleData>
+		<SimpleData name="N_DOC">120</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.9998829680208,-37.6719705665536 -72.0000400879608,-37.6723024813601 -72.000477623137,-37.6720308361098 -72.0007303938757,-37.6718827206674 -72.0010185457942,-37.6717565545403 -72.0013115200058,-37.6716074149074 -72.0018164625497,-37.671439163313 -72.0022539507145,-37.6713091899575 -72.0028055763224,-37.6711580265952 -72.0031648572077,-37.671084887233 -72.0034626126902,-37.6710544467134 -72.003927675204,-37.6710380215122 -72.0043523458847,-37.6710180551879 -72.0046330544418,-37.6709926172272 -72.0050004723521,-37.6709786774603 -72.0053263928166,-37.6709338040232 -72.0056884342592,-37.6709291401213 -72.0060528719044,-37.6709838275028 -72.0064530632608,-37.6710695942173 -72.0068334415758,-37.6710918807054 -72.0072666228398,-37.6711402401917 -72.0076477393379,-37.6711807869656 -72.0080181082847,-37.6712398877116 -72.0083949590675,-37.6713171026662 -72.0086838074437,-37.6713508607145 -72.0090187924411,-37.6713880099473 -72.0094249155636,-37.6714781849637 -72.0096991184106,-37.6715762979805 -72.0098751241054,-37.6716632077051 -72.0101371029404,-37.6717433510485 -72.0105046853679,-37.6718756393755 -72.0108542978706,-37.6719901048217 -72.0111800142409,-37.6720823281009 -72.0114375438792,-37.6721945738984 -72.0117280599039,-37.6722694143472 -72.0123078004667,-37.6723871334652 -72.0127248661889,-37.6724633063167 -72.0130220528135,-37.6725608238064 -72.0133162673967,-37.6727269708128 -72.0135158093365,-37.6728269839393 -72.0137409133218,-37.6729903272446 -72.0139343295698,-37.6732230348554 -72.0141238787234,-37.6732181865559 -72.0143425022056,-37.6733634126848 -72.0147058349242,-37.6735323588571 -72.0149142805348,-37.6735681574725 -72.0152196092468,-37.6738665536898 -72.015529030245,-37.6739820333416 -72.0157786095736,-37.6740396294442 -72.0160500549593,-37.6740692436497 -72.0164263719296,-37.674132736153 -72.0167385802696,-37.6741750161166 -72.0171091534518,-37.6742386525609 -72.0177533948668,-37.674386685404 -72.018486205002,-37.674591858327 -72.019032434115,-37.6747332538669 -72.019311112313,-37.6746575593683 -72.0196400031766,-37.6745440158544 -72.0199681521239,-37.6744122087403 -72.0203070472965,-37.6742618453778 -72.020565711736,-37.6741181067839 -72.0208343813191,-37.6739375486291 -72.0211425144403,-37.6737376981885 -72.0214274853884,-37.6735338708924 -72.0216320411396,-37.6733321041188 -72.0218882894854,-37.6731290122667 -72.0221845587624,-37.6729203225754 -72.0223476080252,-37.6728293057462 -72.0225903294383,-37.6727179633714 -72.02295774757,-37.6727039682789 -72.0237954167471,-37.6726596241843 -72.0246679172352,-37.6726235209258 -72.026463310499,-37.6725180091759 -72.028091569831,-37.6724030543103 -72.0295840160242,-37.672341842072 -72.0311105503036,-37.6722705923445 -72.0324416065518,-37.6721997835423 -72.0343829821178,-37.6721498083532 -72.0344454942345,-37.6704389251103 -72.0344473734153,-37.6692506112739 -72.0334199148129,-37.6697158092167 -72.0329441533798,-37.6698925840364 -72.0325817738498,-37.6700298785008 -72.0321478668766,-37.6701050265557 -72.0314156646459,-37.6701969897382 -72.0304289016593,-37.6703914698941 -72.0297389434059,-37.6705326077827 -72.0289568975895,-37.6706715387853 -72.0287801452235,-37.670708073554 -72.0285509570255,-37.6707276749417 -72.0282637766692,-37.6707350563004 -72.0277714945864,-37.6707888377258 -72.0273768554171,-37.6708401094994 -72.027187314632,-37.6708449788379 -72.0264783946615,-37.6709088908436 -72.0254408343105,-37.6709858076263 -72.0244846082911,-37.671083478522 -72.0238133397983,-37.6711189864939 -72.0227027724988,-37.6712388850822 -72.0216537124328,-37.6713160635614 -72.0208807205344,-37.6713952957408 -72.0203246906127,-37.6714369695212 -72.0198755699161,-37.6713502193025 -72.0196121000983,-37.6713752527555 -72.01942830109,-37.6713799624801 -72.0189658402228,-37.6713186872732 -72.0186419701299,-37.6712721408809 -72.0183455181798,-37.6713345771359 -72.017878603745,-37.6714470817956 -72.0172534529939,-37.6716276206318 -72.0168209963806,-37.6717392388447 -72.0164241121285,-37.6718773666035 -72.0161072701208,-37.6720043034893 -72.0158460142803,-37.6720841143893 -72.0155936569314,-37.6720997136293 -72.015298677927,-37.6721986671702 -72.0150151850529,-37.672297326998 -72.0147672625247,-37.6724224960249 -72.0144259612698,-37.6725134934534 -72.0141391387702,-37.6725299703566 -72.0138289714058,-37.672537903668 -72.0135632756331,-37.6725081362737 -72.0132512603583,-37.6724704127622 -72.0129259096181,-37.6723873268251 -72.0125305249028,-37.6722786087018 -72.0121922109965,-37.6721592895109 -72.0118772413568,-37.6720485135355 -72.0116641862869,-37.6718985694431 -72.0115645290659,-37.6717091652168 -72.0111659806153,-37.6717353460069 -72.0108952835175,-37.671723982066 -72.0106294067914,-37.6716896426006 -72.0102744206396,-37.6715844537029 -72.0098028991227,-37.6714411094793 -72.0093424970523,-37.6712883384833 -72.008754626936,-37.6711113976768 -72.0078903207363,-37.6709232294594 -72.0070215670263,-37.670767160951 -72.0061891212899,-37.6706558614563 -72.0057568660096,-37.6706303260896 -72.0052519695549,-37.6706569152543 -72.0040200866882,-37.6708345733126 -72.0032005515743,-37.6709720054184 -72.0026617228828,-37.6710839968425 -72.0021816189866,-37.6712264833029 -72.0014434827734,-37.671457803938 -72.0007620439774,-37.6716693962332 -71.9998829680208,-37.6719705665536</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

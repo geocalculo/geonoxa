@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="secc_mejillones_meseta_mono" id="secc_mejillones_meseta_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOCALIDAD" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="URL" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+	<SimpleField name="Shape_STAr" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>secc_mejillones_meseta_mono</name>
+  <Placemark id="secc_mejillones_meseta_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZIM</SimpleData>
+		<SimpleData name="NOMBRE">ZIM Zona Insustrial Mixta</SimpleData>
+		<SimpleData name="UPERM">Industria todo impacto; fabricas productortas y ensambladoras de partes, bienes y servicios; comercio, oficinas; bodegas, almacenamiento y distribución de material; equip. público, seguridad, servicios; espacios públicos y fajas verdes</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">2799147.82714999979</SimpleData>
+		<SimpleData name="Shape_STLe">8616.40798516000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3944363369214,-23.104667007856 -70.395833699526,-23.1050423297727 -70.407878517141,-23.1081851462375 -70.4238354095121,-23.112343168405 -70.425151984756,-23.1128850486536 -70.4237145552335,-23.1039449638109 -70.4246080655365,-23.1040412445274 -70.4265651692215,-23.1044393481001 -70.4276104798072,-23.1044246381224 -70.4251950893273,-23.1031919525928 -70.422670305884,-23.1026053950456 -70.4090322573243,-23.0990000168187 -70.4049285398248,-23.0963885719137 -70.4039795000094,-23.0973279130803 -70.4015497009768,-23.0991560258358 -70.4001801002762,-23.1001001163425 -70.398688428094,-23.1012316650432 -70.3977509405795,-23.1019998555592 -70.3963850182979,-23.1033051868934 -70.3959266038774,-23.1039400907618 -70.3944363369214,-23.104667007856</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZEA</SimpleData>
+		<SimpleData name="NOMBRE">ZEA Zona Especial Aluvional</SimpleData>
+		<SimpleData name="UPERM">Torres, ductos o líneas de red para la producción o distribución de energía; espacio público, vialidad; áreas libres y fajas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">149165.04809600001</SimpleData>
+		<SimpleData name="Shape_STLe">3150.01968888000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3930513585895,-23.1042949985774 -70.3944363369214,-23.104667007856 -70.3959266038774,-23.1039400907618 -70.3963850182979,-23.1033051868934 -70.3977509405795,-23.1019998555592 -70.398688428094,-23.1012316650432 -70.4001801002762,-23.1001001163425 -70.4015497009768,-23.0991560258358 -70.4039795000094,-23.0973279130803 -70.4049285398248,-23.0963885719137 -70.4041256045443,-23.0958775901826 -70.403660501823,-23.0964590329823 -70.4020784461912,-23.0978351514348 -70.400416345907,-23.0989682289461 -70.3987388683155,-23.1001157627181 -70.3970170924762,-23.1014787342967 -70.3954317996317,-23.1025537316785 -70.3941682357976,-23.1032674358299 -70.3936742284036,-23.1034581860379 -70.3930513585895,-23.1042949985774</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZIM</SimpleData>
+		<SimpleData name="NOMBRE">ZIM Zona Insustrial Mixta</SimpleData>
+		<SimpleData name="UPERM">Industria todo impacto; fabricas productortas y ensambladoras de partes, bienes y servicios; comercio, oficinas; bodegas, almacenamiento y distribución de material; equip. público, seguridad, servicios; espacios públicos y fajas verdes</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">1474585.26538000000</SimpleData>
+		<SimpleData name="Shape_STLe">5055.24666615000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3930513585895,-23.1042949985774 -70.3936742284036,-23.1034581860379 -70.3941682357976,-23.1032674358299 -70.3954317996317,-23.1025537316785 -70.3970170924762,-23.1014787342967 -70.3987388683155,-23.1001157627181 -70.400416345907,-23.0989682289461 -70.4020784461912,-23.0978351514348 -70.403660501823,-23.0964590329823 -70.4041256045443,-23.0958775901826 -70.3947571329285,-23.0899149657208 -70.3941309953475,-23.089311151608 -70.3938551482386,-23.0888127055356 -70.393546633944,-23.0893056368472 -70.3898623102387,-23.0957326441963 -70.3883674237978,-23.1010793541052 -70.3878451901075,-23.1030481856248 -70.3879346461196,-23.1030808533513 -70.3923884461132,-23.104116932942 -70.3930513585895,-23.1042949985774</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZIP</SimpleData>
+		<SimpleData name="NOMBRE">ZIP Zona Industrial Periferia</SimpleData>
+		<SimpleData name="UPERM">Industria inofensiva; fabrica productora y ensambladora de partes y bienes; comercio, oficina; bodega de almacenamiento y distribución de material sólido no granular; equip. público de salud, seguridad, culto; espacio público, faja ve</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">1699391.78417999996</SimpleData>
+		<SimpleData name="Shape_STLe">8936.89273645000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3868135011969,-23.1070739637578 -70.3886616575447,-23.1075321464427 -70.4139112747704,-23.1135088384385 -70.4257108004503,-23.1163602113149 -70.425151984756,-23.1128850486536 -70.4238354095121,-23.112343168405 -70.407878517141,-23.1081851462375 -70.395833699526,-23.1050423297727 -70.3923884461132,-23.104116932942 -70.3879346461196,-23.1030808533513 -70.3878451901075,-23.1030481856248 -70.3877574106436,-23.1033860684643 -70.3868135011969,-23.1070739637578</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZEA</SimpleData>
+		<SimpleData name="NOMBRE">ZEA Zona Especial Aluvional</SimpleData>
+		<SimpleData name="UPERM">Torres, ductos o líneas de red para la producción o distribución de energía; espacio público, vialidad; áreas libres y fajas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">181394.83666999999</SimpleData>
+		<SimpleData name="Shape_STLe">4360.22419477000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3859047482382,-23.1068486636136 -70.3868135011969,-23.1070739637578 -70.3877574106436,-23.1033860684643 -70.3878451901075,-23.1030481856248 -70.3883674237978,-23.1010793541052 -70.3898623102387,-23.0957326441963 -70.39343978659,-23.0894920332129 -70.3927401364623,-23.0890763628347 -70.391111705692,-23.0919725596622 -70.389086625429,-23.0954887441835 -70.3890120887147,-23.0957761506962 -70.3870972217601,-23.1024886092052 -70.3860193436027,-23.1061971572499 -70.3859047482382,-23.1068486636136</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZEE</SimpleData>
+		<SimpleData name="NOMBRE">ZEE Zona Especial Energía</SimpleData>
+		<SimpleData name="UPERM">Ductos y tendidos de redes para la pruducción o distribución de energía; torres y equipamiento para la producción de energía; espacio público; Áreas libres y fajas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">801782.43701200001</SimpleData>
+		<SimpleData name="Shape_STLe">5305.80836538000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3809724032838,-23.1012432390216 -70.3870078110217,-23.1027962451522 -70.3870972217601,-23.1024886092052 -70.3890120887147,-23.0957761506962 -70.389086625429,-23.0954887441835 -70.391111705692,-23.0919725596622 -70.3927401364623,-23.0890763628347 -70.39343978659,-23.0894920332129 -70.393546633944,-23.0893056368472 -70.3938551482386,-23.0888127055356 -70.3938151557645,-23.0887404400384 -70.3937328699134,-23.0882751969714 -70.393767543736,-23.087880609764 -70.3938398489901,-23.0873781588039 -70.39402504668,-23.0865521165195 -70.3934586720228,-23.0842272701018 -70.3932656312756,-23.0839167313073 -70.3904215244444,-23.0878551682102 -70.3875350077484,-23.0919954321405 -70.3853807112148,-23.0950108950141 -70.3851520781937,-23.0953856773183 -70.3826310229803,-23.0989204758497 -70.3809724032838,-23.1012432390216</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZEA</SimpleData>
+		<SimpleData name="NOMBRE">ZEA Zona Especial Aluvional</SimpleData>
+		<SimpleData name="UPERM">Torres, ductos o líneas de red para la producción o distribución de energía; espacio público, vialidad; áreas libres y fajas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">241968.48290999999</SimpleData>
+		<SimpleData name="Shape_STLe">5832.14036282000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3775194636877,-23.1047694707904 -70.378433504247,-23.1049961389008 -70.3785511574691,-23.1046338301794 -70.3826310229803,-23.0989204758497 -70.3851520781937,-23.0953856773183 -70.3853807112148,-23.0950108950141 -70.3875350077484,-23.0919954321405 -70.3904215244444,-23.0878551682102 -70.3932656312756,-23.0839167313073 -70.3931041098867,-23.083656896945 -70.3927783899912,-23.0831994366655 -70.3923629320487,-23.0837518680745 -70.389277024306,-23.0880803056338 -70.3850305189291,-23.094110703226 -70.380034516713,-23.1011511810994 -70.3775194636877,-23.1047694707904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZIB</SimpleData>
+		<SimpleData name="NOMBRE">ZIB Zona industrial Borde</SimpleData>
+		<SimpleData name="UPERM">Industria inofensiva, fabricas productoras y ensambladoras de partes y bienes; comercio minorista y mayorista, oficinas; equipamientos públicos de salud, seguridad, culto, alimentación, servicios; espaciós públicos y fajas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">2367695.41381999990</SimpleData>
+		<SimpleData name="Shape_STLe">7627.82425370000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3775194636877,-23.1047694707904 -70.380034516713,-23.1011511810994 -70.3850305189291,-23.094110703226 -70.389277024306,-23.0880803056338 -70.3923629320487,-23.0837518680745 -70.3927783899912,-23.0831994366655 -70.3923178858716,-23.0825526726042 -70.3867827946953,-23.0792678935921 -70.379444601935,-23.08908170544 -70.3693934420617,-23.1027540720556 -70.3775194636877,-23.1047694707904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZAC</SimpleData>
+		<SimpleData name="NOMBRE">ZAC Zona Autónoma Cementerio</SimpleData>
+		<SimpleData name="UPERM">Actividades relacionadas con el cementerio; oficnas; equipamientos sanitarios</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">529910.42480499996</SimpleData>
+		<SimpleData name="Shape_STLe">3104.95278730000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.4237145552335,-23.1039449638109 -70.4252689162939,-23.1136122351289 -70.426455030843,-23.1130857552147 -70.4322560170383,-23.1104985504175 -70.4276104798072,-23.1044246381224 -70.4265651692215,-23.1044393481001 -70.4246080655365,-23.1040412445274 -70.4237145552335,-23.1039449638109</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZIB</SimpleData>
+		<SimpleData name="NOMBRE">ZIB Zona industrial Borde</SimpleData>
+		<SimpleData name="UPERM">Industria inofensiva, fabricas productoras y ensambladoras de partes y bienes; comercio minorista y mayorista, oficinas; equipamientos públicos de salud, seguridad, culto, alimentación, servicios; espaciós públicos y fajas verdes.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">849076.02856400004</SimpleData>
+		<SimpleData name="Shape_STLe">4208.62678692000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.4271390569696,-23.1167052824092 -70.4407960842376,-23.1200041100821 -70.4405835938535,-23.1182497368719 -70.440379907266,-23.117319675349 -70.4402080794933,-23.1162872531347 -70.4399807533605,-23.1162889491093 -70.4395862170693,-23.1155706064448 -70.4386516959,-23.115149013734 -70.4348798738751,-23.1139288539928 -70.4322560170383,-23.1104985504175 -70.426455030843,-23.1130857552147 -70.4252689162939,-23.1136122351289 -70.4257108004503,-23.1163602113149 -70.4271390569696,-23.1167052824092</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="secc_mejillones_meseta_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#secc_mejillones_meseta_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Mejillones</SimpleData>
+		<SimpleData name="LOCALIDAD">Meseta</SimpleData>
+		<SimpleData name="ZONA">ZIP</SimpleData>
+		<SimpleData name="NOMBRE">ZIP Zona Industrial Periferia</SimpleData>
+		<SimpleData name="UPERM">Industria inofensiva; fabrica productora y ensambladora de partes y bienes; comercio, oficina; bodega de almacenamiento y distribución de material sólido no granular; equip. público de salud, seguridad, culto; espacio público, faja ve</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados expresamente</SimpleData>
+		<SimpleData name="URL">http://www.observatoriourbano.cl/Ipt/cehu_resultado_decreto.asp?r=2&amp;c=73&amp;i=18</SimpleData>
+		<SimpleData name="Capa">Seccional Mejillones - Meseta</SimpleData>
+		<SimpleData name="CUT">02102</SimpleData>
+		<SimpleData name="Shape_STAr">335360.94628899998</SimpleData>
+		<SimpleData name="Shape_STLe">2388.83067890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.3870078110217,-23.1027962451522 -70.3809724032838,-23.1012432390216 -70.3785511574691,-23.1046338301794 -70.378433504247,-23.1049961389008 -70.3859047482382,-23.1068486636136 -70.3860193436027,-23.1061971572499 -70.3870078110217,-23.1027962451522</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

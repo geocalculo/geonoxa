@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Valparaíso</SimpleData>
+		<SimpleData name="COM">Viña del Mar</SimpleData>
+		<SimpleData name="LOC">Parroquia de Reñaca</SimpleData>
+		<SimpleData name="ZONA">ECC</SimpleData>
+		<SimpleData name="NOM">Zona ECC Parroquia de Reñaca</SimpleData>
+		<SimpleData name="UPERM">Equipamiento nivel vecional de Culto</SimpleData>
+		<SimpleData name="UPROH">Todo otro uso no indicado previamente.</SimpleData>
+		<SimpleData name="P_DO">13/12/2002</SimpleData>
+		<SimpleData name="N_DOC">10949</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5446233002621,-32.9744519188799 -71.544661055583,-32.9744638438243 -71.544700858156,-32.9743186387734 -71.5448064373066,-32.9739334774804 -71.5446770135657,-32.9738556867249 -71.5445909775304,-32.973798741674 -71.5445829897497,-32.9737915811081 -71.5443531215667,-32.97413059901 -71.5443530907862,-32.9741306447213 -71.5443503464233,-32.9741346914867 -71.5442204283926,-32.9743246694714 -71.5446233002621,-32.9744519188799</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

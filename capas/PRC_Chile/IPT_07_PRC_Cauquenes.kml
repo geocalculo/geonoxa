@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.305040041457,-35.9801537941485 -72.3048833795938,-35.9802225277991 -72.3048356086716,-35.9801088978648 -72.3047560819168,-35.9798540065468 -72.3046826416801,-35.9799050845262 -72.3044789104565,-35.980029276077 -72.3040153285587,-35.9803390529006 -72.3051974328641,-35.9837274248389 -72.3029655382068,-35.9841256660134 -72.3028825482471,-35.9856302886876 -72.3031248430598,-35.9876431600493 -72.3036066415166,-35.9875489338678 -72.3047592506287,-35.9872195383912 -72.3076410095916,-35.9863447352836 -72.3069053668995,-35.9848752404291 -72.3061929220328,-35.9836949266627 -72.3052178621853,-35.9809679783809 -72.3053163106902,-35.9809201131651 -72.3090323039913,-35.9800950174901 -72.3112806759929,-35.9795903096844 -72.3143826778818,-35.9789587411988 -72.314240165663,-35.9788743509309 -72.3140936415447,-35.978782836269 -72.314038748738,-35.978757760048 -72.3139107265602,-35.9787262757862 -72.3136420664717,-35.9786892557617 -72.3134937170519,-35.9786515935098 -72.3133891476403,-35.9786206344654 -72.3128886046133,-35.9784138750858 -72.3127007976434,-35.9783285875118 -72.3123810682362,-35.978240342154 -72.3120605913893,-35.9780876940499 -72.3118422566589,-35.9780374906407 -72.3115005530867,-35.977991674115 -72.3111323847588,-35.9779476483547 -72.31063318416,-35.9778744515515 -72.310378069904,-35.9778274745192 -72.3102232609459,-35.9778073089253 -72.3099888770009,-35.9777114336927 -72.3097454559495,-35.9776225083327 -72.309420049993,-35.9776152068348 -72.3088747123218,-35.9776912003963 -72.308270352868,-35.9778636383267 -72.3080626480717,-35.9780187469152 -72.3078975399051,-35.9782153515922 -72.3078067729309,-35.9783826244906 -72.3077334991219,-35.9784668269815 -72.3077241539312,-35.9785691575712 -72.3077207524685,-35.9786692371102 -72.3076987729161,-35.9787116668965 -72.3076686461394,-35.9787348373122 -72.3075317676451,-35.9787913803526 -72.3070634916099,-35.9789735441377 -72.3062554874678,-35.9793536315092 -72.3057824006765,-35.9796339299615 -72.3052503659238,-35.9800082883425 -72.305040041457,-35.9801537941485</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZM2</SimpleData>
+		<SimpleData name="NOM">ZM2 Zona mixta residencial, comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3133050670694,-35.9838377229728 -72.3108856171919,-35.9842706667152 -72.3105982230109,-35.9839208285726 -72.3089175088455,-35.9842515456356 -72.3088668414627,-35.9841884075451 -72.3086782327157,-35.9842127889478 -72.308435474344,-35.9842764951669 -72.3087897594062,-35.9848162267679 -72.3086544371046,-35.9848698248983 -72.3090816193263,-35.9855094406789 -72.3096515916281,-35.9863509010701 -72.3092742197992,-35.9864902807493 -72.3094374699349,-35.9866942558489 -72.3104844783234,-35.9862765865717 -72.3111272830946,-35.987133982377 -72.3101481871694,-35.9875388726062 -72.3106492631324,-35.9882497728034 -72.3113920462923,-35.9892741894581 -72.3109830329321,-35.9896537154016 -72.3108608408526,-35.9895365115404 -72.3102794803344,-35.9898930914412 -72.3101889737252,-35.9897932891954 -72.3101313227647,-35.9898492276973 -72.3083724354577,-35.9916125509724 -72.3073985662398,-35.9920342270025 -72.3067502067075,-35.9922891288355 -72.3063442361886,-35.9925780897039 -72.3061602013732,-35.9928124195915 -72.3059843387294,-35.9932377052779 -72.305801011842,-35.9938889517339 -72.3066241888887,-35.9942113460148 -72.3076150451274,-35.9945912633463 -72.3077250497757,-35.9942766963977 -72.3077701033979,-35.9941167444234 -72.3078467742339,-35.9938036922325 -72.3079305387191,-35.993540875777 -72.3081663191843,-35.9934674772019 -72.3083755898739,-35.9933970592703 -72.3089562310033,-35.9931489755637 -72.3093787609927,-35.9929424091267 -72.309710788948,-35.9927567040176 -72.3099748724983,-35.9924979334202 -72.3109156222036,-35.9915478874884 -72.311361934205,-35.991107196978 -72.3117784551964,-35.9907659934515 -72.312052292313,-35.9904788203254 -72.3128820410217,-35.9896335783395 -72.3127676607017,-35.9895022435485 -72.3135671593846,-35.9891588857063 -72.3138646517497,-35.9886021756618 -72.3142241294765,-35.9883848792599 -72.3141313743671,-35.9882647605762 -72.3146564495996,-35.987836552458 -72.3149880749916,-35.9883626439513 -72.3157881590515,-35.9880013988249 -72.3189050649536,-35.9866699154182 -72.3192236891934,-35.9871387115395 -72.3204251314759,-35.9888846752776 -72.3210018469924,-35.9897045350108 -72.3219475569514,-35.9910667991497 -72.3224919263041,-35.9918621176618 -72.3231654731426,-35.9915718256037 -72.322657629307,-35.9908942710161 -72.3212154541979,-35.9888894598866 -72.3195868679217,-35.9865513816563 -72.3201491496199,-35.9863231002643 -72.319796717571,-35.9857867801863 -72.3193792731756,-35.9851168953192 -72.3188238985334,-35.9843614152436 -72.3182032875366,-35.9835138556255 -72.317886759112,-35.9830703818669 -72.3176819913822,-35.9827057158152 -72.3172898846054,-35.9820683456728 -72.3185508665869,-35.9818270866227 -72.3182107502758,-35.9806939178155 -72.3160858656788,-35.9810613018653 -72.3163881111557,-35.9820123948809 -72.3164968794687,-35.9821793707824 -72.317175131496,-35.9831174145409 -72.3155101513854,-35.9834829163942 -72.3152571785826,-35.9835452148374 -72.3133050670694,-35.9838377229728</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3179091607553,-35.993236800562 -72.3181928583341,-35.9937201419602 -72.3218596169248,-35.9921346308855 -72.3224919263041,-35.9918621176618 -72.3219475569514,-35.9910667991497 -72.3210018469924,-35.9897045350108 -72.3204251314759,-35.9888846752776 -72.3192236891934,-35.9871387115395 -72.3189050649536,-35.9866699154182 -72.3157881590515,-35.9880013988249 -72.3149880749916,-35.9883626439513 -72.3158766215285,-35.9898315604595 -72.3179091607553,-35.993236800562</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3142241294765,-35.9883848792599 -72.3138646517497,-35.9886021756618 -72.3135671593846,-35.9891588857063 -72.3127676607017,-35.9895022435485 -72.3128820410217,-35.9896335783395 -72.312052292313,-35.9904788203254 -72.3117784551964,-35.9907659934515 -72.311361934205,-35.991107196978 -72.3109156222036,-35.9915478874884 -72.3099748724983,-35.9924979334202 -72.309710788948,-35.9927567040176 -72.3093787609927,-35.9929424091267 -72.3089562310033,-35.9931489755637 -72.3083755898739,-35.9933970592703 -72.3081663191843,-35.9934674772019 -72.3079305387191,-35.993540875777 -72.3078467742339,-35.9938036922325 -72.3077701033979,-35.9941167444234 -72.3077250497757,-35.9942766963977 -72.3076150451274,-35.9945912633463 -72.3081304563881,-35.9947888800481 -72.3092159287719,-35.9951423314456 -72.3097446588565,-35.9952305071024 -72.3102591134163,-35.9952897448737 -72.3110156308871,-35.995306716722 -72.3118166001868,-35.9952245253634 -72.3160615451066,-35.9946243425293 -72.3179739395068,-35.9938147968278 -72.3181928583341,-35.9937201419602 -72.3179091607553,-35.993236800562 -72.3158766215285,-35.9898315604595 -72.3149880749916,-35.9883626439513 -72.3146564495996,-35.987836552458 -72.3141313743671,-35.9882647605762 -72.3142241294765,-35.9883848792599</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3154618200216,-35.9893005090239 -72.315302798662,-35.9894471817396 -72.3144307579565,-35.988944756469 -72.3149054903751,-35.9884219146615 -72.3154618200216,-35.9893005090239</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3144307579565,-35.988944756469 -72.315302798662,-35.9894471817396 -72.3154618200216,-35.9893005090239 -72.3149054903751,-35.9884219146615 -72.3144307579565,-35.988944756469</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">ZAP Zona de Actividades productivas</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador; equipamiento y actividades productivas tales como: industrias, talleres artesanales inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.322657629307,-35.9908942710161 -72.3231654731426,-35.9915718256037 -72.3247498999704,-35.9908889287746 -72.3241812964591,-35.9900679370541 -72.3222427871857,-35.9873294824546 -72.3206252059936,-35.9880420879962 -72.3212154541979,-35.9888894598866 -72.322657629307,-35.9908942710161</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3195868679217,-35.9865513816563 -72.3206252059936,-35.9880420879962 -72.3222427871857,-35.9873294824546 -72.3221649376193,-35.9872195029084 -72.3212061457588,-35.9858641165257 -72.3201491496199,-35.9863231002643 -72.3195868679217,-35.9865513816563</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.319796717571,-35.9857867801863 -72.3201491496199,-35.9863231002643 -72.3212061457588,-35.9858641165257 -72.3203313453859,-35.984627419116 -72.3192082285281,-35.9829616617965 -72.3186776623817,-35.9822180685724 -72.3195258923797,-35.9820567774195 -72.3193957629645,-35.9816482546688 -72.3185508665869,-35.9818270866227 -72.3172898846054,-35.9820683456728 -72.3176819913822,-35.9827057158152 -72.317886759112,-35.9830703818669 -72.3182032875366,-35.9835138556255 -72.3188238985334,-35.9843614152436 -72.3193792731756,-35.9851168953192 -72.319796717571,-35.9857867801863</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3182107502758,-35.9806939178155 -72.3185508665869,-35.9818270866227 -72.3193957629645,-35.9816482546688 -72.3193755329587,-35.9815847458553 -72.3199689010916,-35.9814177529713 -72.3200543080749,-35.9812822169775 -72.320279509704,-35.9811298626101 -72.3203363932182,-35.9810095166135 -72.3203492990591,-35.9808881866193 -72.3202112370587,-35.9808064072528 -72.3200184686484,-35.9807806360247 -72.3197524357752,-35.9808390756032 -72.3195753227076,-35.980870886271 -72.3195152073093,-35.9808266182533 -72.3192683667406,-35.9804917894706 -72.3192748604629,-35.9804872445743 -72.3182107502758,-35.9806939178155</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3158322872625,-35.9810371243772 -72.3158449271002,-35.9810970239887 -72.3160858656788,-35.9810613018653 -72.3163836187022,-35.9810098243284 -72.316225863406,-35.9804616927073 -72.3168740679969,-35.9803808135049 -72.31679580321,-35.9800929024188 -72.317497931892,-35.9799357251218 -72.317380531325,-35.9795038587679 -72.3177494116608,-35.9794405707383 -72.3176924015676,-35.9792217766982 -72.3157332669792,-35.9795357962922 -72.3158322872625,-35.9810371243772</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZI</SimpleData>
+		<SimpleData name="NOM">ZI Zona Industrial</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador; equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.316225863406,-35.9804616927073 -72.3163836187022,-35.9810098243284 -72.3182107502758,-35.9806939178155 -72.3192748604629,-35.9804872445743 -72.3195057564882,-35.9803256271903 -72.3197211073287,-35.9799441256113 -72.3196729330946,-35.9798071227899 -72.3195464841142,-35.9793822093416 -72.3194501361561,-35.9791082034691 -72.3194159238942,-35.9790788227296 -72.3192854514809,-35.9790329815303 -72.3189976367251,-35.9789550063814 -72.3187369331912,-35.9788561747956 -72.3185346490409,-35.9788516508495 -72.3183929620608,-35.978877098151 -72.3182852441773,-35.9789390745283 -72.3181501726655,-35.9790290554542 -72.317918115248,-35.9791240208437 -72.3176924015676,-35.9792217766982 -72.3177494116608,-35.9794405707383 -72.317380531325,-35.9795038587679 -72.317497931892,-35.9799357251218 -72.31679580321,-35.9800929024188 -72.3168740679969,-35.9803808135049 -72.316225863406,-35.9804616927073</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZM1</SimpleData>
+		<SimpleData name="NOM">ZM1 Zona mixta comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3147836140624,-35.9793258975555 -72.3148989107489,-35.9805983131753 -72.3144190050278,-35.9807342209811 -72.314127433005,-35.9807670369927 -72.3141833027449,-35.980936406999 -72.3133681467197,-35.9810952049235 -72.3134979923281,-35.9815488154814 -72.3125427434016,-35.9817634896123 -72.3127313445087,-35.9824308906311 -72.3125271128486,-35.9824835447331 -72.3115595663003,-35.9827229735806 -72.3111922546458,-35.9827826996572 -72.3107820575468,-35.982809269156 -72.310412668457,-35.9828653691414 -72.3103730888327,-35.9828644817152 -72.3103741818108,-35.9828323128029 -72.3099801183634,-35.9829021656621 -72.3086807909685,-35.9831913580075 -72.3061929220328,-35.9836949266627 -72.3069053668995,-35.9848752404291 -72.3073636846685,-35.9847281474992 -72.3077120512006,-35.9852260180112 -72.3086544371046,-35.9848698248983 -72.3087897594062,-35.9848162267679 -72.308435474344,-35.9842764951669 -72.3086782327157,-35.9842127889478 -72.3088668414627,-35.9841884075451 -72.3089175088455,-35.9842515456356 -72.3105982230109,-35.9839208285726 -72.3108856171919,-35.9842706667152 -72.3133050670694,-35.9838377229728 -72.3152571785826,-35.9835452148374 -72.3155101513854,-35.9834829163942 -72.317175131496,-35.9831174145409 -72.3164968794687,-35.9821793707824 -72.3163881111557,-35.9820123948809 -72.3160858656788,-35.9810613018653 -72.3158449271002,-35.9810970239887 -72.3158322872625,-35.9810371243772 -72.3157332669792,-35.9795357962922 -72.3153733605412,-35.9795934799196 -72.3153497272296,-35.9792456706654 -72.3148334401891,-35.9792840895341 -72.3148415082533,-35.9793057322342 -72.3147836140624,-35.9793258975555</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3069200261599,-35.9848755703541 -72.3076556679758,-35.9863450642344 -72.3047739103364,-35.9872198685566 -72.3036213012919,-35.9875492641714 -72.3031248279913,-35.9876463594738 -72.3033884382243,-35.9899021838708 -72.3034797814015,-35.9899817669066 -72.3053177295645,-35.9915015790527 -72.3064773509952,-35.9924941065685 -72.3067648673083,-35.9922894578071 -72.3074132267897,-35.9920345558971 -72.3083870959238,-35.9916128797516 -72.3101459829311,-35.989849557178 -72.3102036338809,-35.9897936186695 -72.3102941404705,-35.9898934200032 -72.3108755009192,-35.9895368400346 -72.3109976930574,-35.9896540447797 -72.3114067063449,-35.9892745187897 -72.3106639229612,-35.988250101336 -72.3101628468689,-35.9875392012072 -72.3111419427135,-35.987134310862 -72.3104991377867,-35.9862769151438 -72.3094521294815,-35.9866945845454 -72.3092888793089,-35.9864906094678 -72.3096662511097,-35.9863512297437 -72.3090962786549,-35.9855097694306 -72.3086690963167,-35.9848701537087 -72.3077267105218,-35.9852263478338 -72.3073783438991,-35.9847284773694 -72.3069200261599,-35.9848755703541</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3052178621853,-35.9809679783809 -72.3061929220328,-35.9836949266627 -72.3086807909685,-35.9831913580075 -72.3099801183634,-35.9829021656621 -72.310017924972,-35.9828954642261 -72.309986324825,-35.9827755605992 -72.3105804679497,-35.9826458097311 -72.3106728187166,-35.9826478814658 -72.3117626500317,-35.9824362408185 -72.3125602925102,-35.9822752728845 -72.3126266505313,-35.9824578832787 -72.3127313445087,-35.9824308906311 -72.3125427434016,-35.9817634896123 -72.3134979923281,-35.9815488154814 -72.3133681467197,-35.9810952049235 -72.3141833027449,-35.980936406999 -72.314127433005,-35.9807670369927 -72.3144190050278,-35.9807342209811 -72.3148989107489,-35.9805983131753 -72.3147836140624,-35.9793258975555 -72.3148415082533,-35.9793057322342 -72.3148334401891,-35.9792840895341 -72.3147948185602,-35.9792636703395 -72.3146979931777,-35.9792638863497 -72.3146780369341,-35.9792467464426 -72.3146669572191,-35.9792274209146 -72.3146447955916,-35.9791887699159 -72.3145889092047,-35.9791064404016 -72.3145637359533,-35.9790701065673 -72.3144943466294,-35.9790399363973 -72.3143826778818,-35.9789587411988 -72.3112806759929,-35.9795903096844 -72.3090323039913,-35.9800950174901 -72.3053163106902,-35.9809201131651 -72.3052178621853,-35.9809679783809</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.312641672058,-35.9816278732295 -72.3124271999983,-35.9816797017735 -72.3123441746667,-35.9814244704388 -72.3124035165045,-35.9814049348772 -72.3125831205316,-35.9813766938331 -72.312641672058,-35.9816278732295</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3117626500317,-35.9824362408185 -72.3106728187166,-35.9826478814658 -72.3105804679497,-35.9826458097311 -72.309986324825,-35.9827755605992 -72.310017924972,-35.9828954642261 -72.3103741818108,-35.9828323128029 -72.3103730888327,-35.9828644817152 -72.310412668457,-35.9828653691414 -72.3107820575468,-35.982809269156 -72.3111922546458,-35.9827826996572 -72.3115595663003,-35.9827229735806 -72.3125271128486,-35.9824835447331 -72.3126266505313,-35.9824578832787 -72.3125602925102,-35.9822752728845 -72.3117626500317,-35.9824362408185</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3123441746667,-35.9814244704388 -72.3124271999983,-35.9816797017735 -72.312641672058,-35.9816278732295 -72.3125831205316,-35.9813766938331 -72.3124035165045,-35.9814049348772 -72.3123441746667,-35.9814244704388</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3086453758856,-35.9775503024089 -72.3083129904759,-35.9776620737881 -72.3080095963419,-35.9777840342751 -72.3079185712148,-35.9778726079658 -72.3077433232767,-35.9778495951759 -72.307530792015,-35.9778877469558 -72.3073529517676,-35.9779409847844 -72.3072326109067,-35.9780288998901 -72.3070922486266,-35.9781879041122 -72.3069285071839,-35.9783959844325 -72.3069409126766,-35.978548880972 -72.3069037886005,-35.9786052787597 -72.3068005489432,-35.9787078849197 -72.3067860685405,-35.9787886381295 -72.30676131902,-35.9788262366302 -72.306612144922,-35.9788991949184 -72.3063370882473,-35.979050403263 -72.3059004788547,-35.9792933677164 -72.3056172584665,-35.9793394657174 -72.3055035873694,-35.9794036811385 -72.3051925350867,-35.979577924912 -72.3048088520816,-35.9798173046895 -72.3047560819168,-35.9798540065468 -72.3048356086716,-35.9801088978648 -72.3048833795938,-35.9802225277991 -72.305040041457,-35.9801537941485 -72.3052503659238,-35.9800082883425 -72.3057824006765,-35.9796339299615 -72.3062554874678,-35.9793536315092 -72.3070634916099,-35.9789735441377 -72.3075317676451,-35.9787913803526 -72.3076686461394,-35.9787348373122 -72.3076987729161,-35.9787116668965 -72.3077207524685,-35.9786692371102 -72.3077241539312,-35.9785691575712 -72.3077334991219,-35.9784668269815 -72.3078067729309,-35.9783826244906 -72.3078975399051,-35.9782153515922 -72.3080626480717,-35.9780187469152 -72.308270352868,-35.9778636383267 -72.3088747123218,-35.9776912003963 -72.309420049993,-35.9776152068348 -72.3097454559495,-35.9776225083327 -72.3099888770009,-35.9777114336927 -72.3102232609459,-35.9778073089253 -72.310378069904,-35.9778274745192 -72.31063318416,-35.9778744515515 -72.3111323847588,-35.9779476483547 -72.3115005530867,-35.977991674115 -72.3118422566589,-35.9780374906407 -72.3120605913893,-35.9780876940499 -72.3123810682362,-35.978240342154 -72.3127007976434,-35.9783285875118 -72.3128886046133,-35.9784138750858 -72.3133891476403,-35.9786206344654 -72.3134937170519,-35.9786515935098 -72.3136420664717,-35.9786892557617 -72.3139107265602,-35.9787262757862 -72.314038748738,-35.978757760048 -72.3140936415447,-35.978782836269 -72.314240165663,-35.9788743509309 -72.3143826778818,-35.9789587411988 -72.3144943466294,-35.9790399363973 -72.3145637359533,-35.9790701065673 -72.3145889092047,-35.9791064404016 -72.3146447955916,-35.9791887699159 -72.3146669572191,-35.9792274209146 -72.3146780369341,-35.9792467464426 -72.3146979931777,-35.9792638863497 -72.3147948185602,-35.9792636703395 -72.3148334401891,-35.9792840895341 -72.3153497272296,-35.9792456706654 -72.3152549880224,-35.9778513419394 -72.3150937076469,-35.9778331819694 -72.3148994138942,-35.9778526774119 -72.3148694516155,-35.9778710843816 -72.3148450290554,-35.9778991532061 -72.3147331437621,-35.9779109551886 -72.3145443894226,-35.9779401128379 -72.314496353729,-35.9779724228966 -72.3144950604541,-35.9780105484033 -72.3144931216683,-35.9780677370824 -72.3144433078395,-35.9781524689018 -72.3143047375848,-35.9782590599776 -72.3142143649584,-35.9783285749332 -72.3140775712142,-35.9783827431222 -72.3138542825884,-35.9783920484901 -72.3136676291704,-35.978359250969 -72.3134288522702,-35.978306207616 -72.3132602727752,-35.978259506414 -72.3131620525451,-35.9782143816325 -72.313012357127,-35.9781299486943 -72.3129781475623,-35.9781005659633 -72.3128090848369,-35.9780681612366 -72.3125883840425,-35.9780012131628 -72.3125538516762,-35.9779813614423 -72.3124450371807,-35.9779026140145 -72.3123702710945,-35.9778580136165 -72.3122311709429,-35.9778072025871 -72.3120245432734,-35.9777405692043 -72.3118618303926,-35.977693997627 -72.3116632899288,-35.9776656994003 -72.3112424351882,-35.9776181077009 -72.3111784254847,-35.9776023644627 -72.3110101729047,-35.9775461287588 -72.3105424137228,-35.9774974828588 -72.3099998905932,-35.9774042340271 -72.3096036244115,-35.9773238033691 -72.3095036270349,-35.977331098161 -72.3093969570331,-35.9773620893594 -72.3092373569668,-35.9773966622438 -72.3090490890654,-35.977411514911 -72.3088468274999,-35.9774928225658 -72.3086453758856,-35.9775503024089</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.302801553319,-35.9893908542958 -72.3032928377702,-35.989818891014 -72.3030383550747,-35.9876632717447 -72.3025933582704,-35.9877502979457 -72.3027313274707,-35.9892128098574 -72.302801553319,-35.9893908542958</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3055260903122,-35.9937812776919 -72.305801011842,-35.9938889517339 -72.3059843387294,-35.9932377052779 -72.3061602013732,-35.9928124195915 -72.3063442361886,-35.9925780897039 -72.3064626903547,-35.9924937775636 -72.3053030690645,-35.9915012489957 -72.3034651211736,-35.9899814366094 -72.3033926040567,-35.9899182569211 -72.3037782645253,-35.9929001309256 -72.3037950278397,-35.9929124972372 -72.3047157905517,-35.9934482881723 -72.3055260903122,-35.9937812776919</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3026214302857,-35.9920466989551 -72.3036792772734,-35.9928271065215 -72.3032957435945,-35.9898338660804 -72.3027868931972,-35.9893905239096 -72.3027166674191,-35.989212480361 -72.3025786984521,-35.987749967518 -72.3030307781049,-35.9876615566666 -72.3030076090104,-35.9873858224562 -72.302788748498,-35.9857998737893 -72.3027889623088,-35.9855351817875 -72.3028581775046,-35.9841448217205 -72.3008461590483,-35.9845037889496 -72.301190423697,-35.9879553371696 -72.3014827496187,-35.9912056492195 -72.3026214302857,-35.9920466989551</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZR2</SimpleData>
+		<SimpleData name="NOM">ZR2 Zona de riesgo por infraestructura peligrosa</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3036792772734,-35.9928271065215 -72.3037782645253,-35.9929001309256 -72.3033926040567,-35.9899182569211 -72.3032957435945,-35.9898338660804 -72.3036792772734,-35.9928271065215</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZR2</SimpleData>
+		<SimpleData name="NOM">ZR2 Zona de riesgo por infraestructura peligrosa</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3032928377702,-35.989818891014 -72.3033884382243,-35.9899021838708 -72.3031248279913,-35.9876463594738 -72.3030383550747,-35.9876632717447 -72.3032928377702,-35.989818891014</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Estación</SimpleData>
+		<SimpleData name="ZONA">ZR2</SimpleData>
+		<SimpleData name="NOM">ZR2 Zona de riesgo por infraestructura peligrosa</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3030076090104,-35.9873858224562 -72.3030307781049,-35.9876615566666 -72.3031248430598,-35.9876431600493 -72.3028825482471,-35.9856302886876 -72.3029655382068,-35.9841256660134 -72.3028581775046,-35.9841448217205 -72.3027889623088,-35.9855351817875 -72.302788748498,-35.9857998737893 -72.3030076090104,-35.9873858224562</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZI</SimpleData>
+		<SimpleData name="NOM">ZI Zona Industrial</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador; equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3517008581177,-35.9407829229852 -72.3510490889164,-35.9424647375639 -72.3512194414446,-35.9425006933963 -72.3518405117997,-35.9426074096904 -72.353417966872,-35.9423954077146 -72.3535881183875,-35.9440195644018 -72.3539576068107,-35.9438674559334 -72.353999705179,-35.9438257153007 -72.3552415196071,-35.9435893288115 -72.3555007579281,-35.941727850549 -72.3558930141073,-35.9394614930547 -72.3563484913532,-35.936980144514 -72.3542120666854,-35.9381624456668 -72.3533332467806,-35.9386629241797 -72.352480245233,-35.9390924241853 -72.3521397714781,-35.9392216904333 -72.3517630734386,-35.9402138196095 -72.3519123049799,-35.9402372924438 -72.3517008581177,-35.9407829229852</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">ZE2 Cementerio</SimpleData>
+		<SimpleData name="UPERM">Cementerio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3494791140357,-35.9417412461533 -72.3494764841002,-35.9419749315665 -72.3517008581177,-35.9407829229852 -72.3519123049799,-35.9402372924438 -72.3517630734386,-35.9402138196095 -72.3510891645221,-35.9402893565499 -72.3499617552321,-35.9404611921965 -72.3496126344127,-35.9405538849872 -72.3494791140357,-35.9417412461533</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH3</SimpleData>
+		<SimpleData name="NOM">ZH3 Zona Habitacional 3</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3494764841002,-35.9419749315665 -72.3488539335421,-35.9433370999112 -72.348146314228,-35.9446314066922 -72.3465023873404,-35.9456821419547 -72.346630956803,-35.9457157948058 -72.347279754936,-35.9458708425742 -72.3474431761491,-35.9459388427592 -72.347525470021,-35.9459335092241 -72.3478999809547,-35.9461349506503 -72.3481493134974,-35.9461333092196 -72.3481872510295,-35.9461389171699 -72.3482706424826,-35.9461884550444 -72.3483172739018,-35.9462848729923 -72.3484682102203,-35.9464193680531 -72.3486502754246,-35.9465438200725 -72.3488833714517,-35.9465453952021 -72.3487654706769,-35.9467824507164 -72.3496016786942,-35.9465076141262 -72.3509152952845,-35.9458999196274 -72.3535561057923,-35.9446682150068 -72.3539576068107,-35.9438674559334 -72.3535881183875,-35.9440195644018 -72.353417966872,-35.9423954077146 -72.3518405117997,-35.9426074096904 -72.3512194414446,-35.9425006933963 -72.3510490889164,-35.9424647375639 -72.3517008581177,-35.9407829229852 -72.3494764841002,-35.9419749315665</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.347699155338,-35.9494652654464 -72.3474805329,-35.9500828359991 -72.3473306264334,-35.9504873028456 -72.3474764126752,-35.9504690649427 -72.3500607659305,-35.9500146743217 -72.3502337621791,-35.9499719940369 -72.3506501104565,-35.9498875923902 -72.3509052926454,-35.9514608805465 -72.3512461423154,-35.9513785354921 -72.3509844360869,-35.9499216623654 -72.3515889110544,-35.9483105887027 -72.3518450372832,-35.9477544087275 -72.3528725798634,-35.9459647215655 -72.3532911934287,-35.9451965480187 -72.3535561057923,-35.9446682150068 -72.3509152952845,-35.9458999196274 -72.3496016786942,-35.9465076141262 -72.3487654706769,-35.9467824507164 -72.3485784052388,-35.9471145578786 -72.3483287876085,-35.9477385986615 -72.3479349500407,-35.9488602361969 -72.347699155338,-35.9494652654464</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3417260965061,-35.9487464076944 -72.3405906204683,-35.9494843557059 -72.3377035520702,-35.9486451912949 -72.3332430150518,-35.9504298083999 -72.3330667736678,-35.9511540795547 -72.333025932775,-35.9512783671587 -72.3330441054216,-35.9513920443261 -72.3331499992186,-35.9515136330046 -72.3332856002087,-35.9516239588034 -72.3333715167113,-35.9516854858644 -72.3334423793979,-35.9517586017636 -72.3334910617817,-35.9518371868977 -72.3335694522524,-35.9519045082351 -72.3336854783258,-35.9519428580613 -72.3338808966902,-35.95201874231 -72.3340042489991,-35.9520572548449 -72.3341139496585,-35.952065654669 -72.3342674110105,-35.952080988913 -72.3344440540132,-35.9520610687369 -72.3345834626072,-35.9520582050377 -72.3346781094748,-35.9520781933838 -72.334765029626,-35.9521099336682 -72.3349038683468,-35.9522549076087 -72.3349315732987,-35.9523032166485 -72.3349510151234,-35.9524228830473 -72.334960334703,-35.9524946308038 -72.3348799707808,-35.9526168482403 -72.3348542832913,-35.9526830492562 -72.3348041876854,-35.9527773233785 -72.3347213257623,-35.9527993286334 -72.3346350061374,-35.9527497167657 -72.3343131071717,-35.9527282542802 -72.3336955014222,-35.9526873215681 -72.3343763126622,-35.9540635236647 -72.3346966015223,-35.9539585615115 -72.3354728490063,-35.953464294407 -72.3357443350158,-35.9531531630786 -72.3359603128362,-35.9530101096918 -72.337800857106,-35.9518705590327 -72.3383612408195,-35.9526508647097 -72.3384572063613,-35.9527626899791 -72.3384869930609,-35.9527490429388 -72.338821208347,-35.9525346832707 -72.3411873755863,-35.9510465332151 -72.3423696451134,-35.950292942355 -72.3442720496788,-35.9490530712132 -72.3441697035572,-35.9490221889532 -72.3420812356453,-35.9485169130389 -72.3417260965061,-35.9487464076944</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3384042778578,-35.9518384610627 -72.3384966270155,-35.95269578053 -72.3379304602864,-35.951912961111 -72.338036088602,-35.9518466117196 -72.3383817670844,-35.9516294740887 -72.3384042778578,-35.9518384610627</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3379304602864,-35.951912961111 -72.3384966270155,-35.95269578053 -72.3384042778578,-35.9518384610627 -72.3381278281521,-35.9519745742273 -72.338036088602,-35.9518466117196 -72.3379304602864,-35.951912961111</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.338036088602,-35.9518466117196 -72.3381278281521,-35.9519745742273 -72.3384042778578,-35.9518384610627 -72.3383817670844,-35.9516294740887 -72.338036088602,-35.9518466117196</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3456377243588,-35.9495583917683 -72.3454794961902,-35.9499483644349 -72.3461399390953,-35.9495373120871 -72.3456842977576,-35.9494209047607 -72.3456377243588,-35.9495583917683</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3488359225059,-35.9522346432982 -72.3488598236247,-35.9522959943293 -72.3490688478393,-35.952254389887 -72.3489724924674,-35.9519658071965 -72.3487513562207,-35.9520230354731 -72.3488359225059,-35.9522346432982</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZM2</SimpleData>
+		<SimpleData name="NOM">ZM2 Zona mixta residencial, comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3488598236247,-35.9522959943293 -72.3489048002616,-35.9524114401881 -72.349108456612,-35.9523730178842 -72.3490688478393,-35.952254389887 -72.3488598236247,-35.9522959943293</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3282563664478,-35.9661519819555 -72.3282502569674,-35.9666812431544 -72.3290954148731,-35.9666714544839 -72.3291136440736,-35.9666527833445 -72.3295301999816,-35.9666525217796 -72.329636029212,-35.9666449756138 -72.3296129933892,-35.9661106587333 -72.3282563664478,-35.9661519819555</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3294001008744,-35.9665089286979 -72.3292413331247,-35.9665197003728 -72.3292238662043,-35.9662546125167 -72.3293938355896,-35.9662495871055 -72.3294001008744,-35.9665089286979</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3292238662043,-35.9662546125167 -72.3292413331247,-35.9665197003728 -72.3294001008744,-35.9665089286979 -72.3293938355896,-35.9662495871055 -72.3292238662043,-35.9662546125167</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3372372478419,-35.9615609113361 -72.3373582631996,-35.9621061130449 -72.3374984898692,-35.9620794177865 -72.3373812760779,-35.9614210276715 -72.3372215349451,-35.9614433332921 -72.3372372478419,-35.9615609113361</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3351317789272,-35.9611504796897 -72.3351355014276,-35.9612578728785 -72.3360261466859,-35.961158426837 -72.3360147284827,-35.9610472964463 -72.3356178030311,-35.9610897378598 -72.3351317789272,-35.9611504796897</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3349256869066,-35.9635723129675 -72.3349349332324,-35.9637334846559 -72.3353546229479,-35.9636831937911 -72.3353337829353,-35.9635254527122 -72.3349256869066,-35.9635723129675</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3331295943069,-35.9639914348458 -72.3331311090221,-35.96416435792 -72.3334545374771,-35.964141741084 -72.3334504130272,-35.963976121216 -72.3331295943069,-35.9639914348458</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3350135951214,-35.9647853600767 -72.3350251698174,-35.9649755236463 -72.3353996957402,-35.9649599990449 -72.3350135951214,-35.9647853600767</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">ZE2 Cementerio</SimpleData>
+		<SimpleData name="UPERM">Cementerio.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3337088604662,-35.9607671115734 -72.3338525938875,-35.9609592861514 -72.3340161493313,-35.9608642033585 -72.3339919332182,-35.9607992786907 -72.3350111939271,-35.9601895157447 -72.3351897209021,-35.9600782416407 -72.3348558114904,-35.9595830959336 -72.3346853544779,-35.9593313005715 -72.3343889347458,-35.9589002391868 -72.334308424681,-35.9587649067239 -72.3342905982509,-35.9587716653555 -72.3341779402635,-35.9588073158001 -72.3336997484156,-35.9590279993575 -72.3329142356892,-35.9594469294288 -72.3326868678584,-35.9594919511952 -72.331922737227,-35.9597110366165 -72.3311878990451,-35.9599448819017 -72.3313810282339,-35.9599927768497 -72.3322152219944,-35.9601758788082 -72.3323150187248,-35.9602174463174 -72.3335270248957,-35.9605484472091 -72.3337088604662,-35.9607671115734</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3387595660785,-35.9578771816942 -72.3387719548623,-35.9582355535732 -72.3387352732352,-35.9586729246784 -72.3391064414102,-35.9585380795539 -72.3392346710111,-35.9585409246554 -72.3389594737912,-35.9580012457278 -72.3389675010916,-35.9579805576618 -72.3389788920692,-35.9579688871532 -72.3389551530152,-35.9579244030326 -72.3389520258321,-35.9579260220405 -72.3387844216257,-35.9578838507073 -72.3387595660785,-35.9578771816942</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZM2</SimpleData>
+		<SimpleData name="NOM">ZM2 Zona mixta residencial, comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3462507481614,-35.9507241205753 -72.3466488865055,-35.9515785408934 -72.3460738984589,-35.9518019039212 -72.3458172197766,-35.9519786531316 -72.3455975048806,-35.9521025639598 -72.3454041643189,-35.952227057674 -72.3452968630449,-35.9522783384058 -72.3451350125033,-35.9523820670688 -72.3444964007271,-35.9527971741423 -72.3439704881932,-35.9531310703472 -72.3425596703662,-35.9540083850159 -72.3420426064422,-35.9543403223636 -72.3416181043308,-35.9546013373798 -72.3412775195214,-35.954786947356 -72.340697578267,-35.9551568323378 -72.3405504638215,-35.9552143791341 -72.3404836807878,-35.9552379381492 -72.3404474317482,-35.9552693268322 -72.3404109431929,-35.9553078653728 -72.3401773011718,-35.9554529192544 -72.3397510220298,-35.9557010102742 -72.3390848981418,-35.9561476699828 -72.3387834237727,-35.9563473757981 -72.3388245313275,-35.9570887322701 -72.3392432791277,-35.9568643842187 -72.3389138753005,-35.9573936293013 -72.3388955570607,-35.9573932230605 -72.3388789379094,-35.9573421795912 -72.3387900475034,-35.9572597245445 -72.3386525296074,-35.9572059979992 -72.3386082026417,-35.957187329403 -72.3385251766037,-35.9572251710602 -72.3385166996883,-35.957346601779 -72.3385054640232,-35.9575502430191 -72.3381538302818,-35.9576712119453 -72.3382255681068,-35.9577622299769 -72.3381184940971,-35.9578063541097 -72.3381604184537,-35.9578680940472 -72.3379456706464,-35.9579742154537 -72.337885427286,-35.9579776482541 -72.3373588135384,-35.9582431770991 -72.3373189510711,-35.9582947551109 -72.3368173478305,-35.9585578561321 -72.3368037829039,-35.9586124019984 -72.3365801829509,-35.9587199938647 -72.3365236446954,-35.9586567362046 -72.3362400000465,-35.9588054407766 -72.3361248767076,-35.9586526485432 -72.3359370228503,-35.958743863172 -72.336103030333,-35.9590408673043 -72.3356006498717,-35.9592395583572 -72.3353029073164,-35.9593712550824 -72.3348558114904,-35.9595830959336 -72.3351897209021,-35.9600782416407 -72.3379591621893,-35.9583520111311 -72.3386972131811,-35.9578604533721 -72.3387595660785,-35.9578771816942 -72.3387844216257,-35.9578838507073 -72.3389520258321,-35.9579260220405 -72.3389551530152,-35.9579244030326 -72.3392169444859,-35.9577888193133 -72.3392092715532,-35.9577552634905 -72.3395761321673,-35.9575738192379 -72.340725264722,-35.9571557537643 -72.3417183576485,-35.9567986051013 -72.3421353276431,-35.9566969582505 -72.3425201645607,-35.9565695588531 -72.3423815242227,-35.9562167722402 -72.3437631430294,-35.9556869786808 -72.3434675181479,-35.9549903615802 -72.3444336620694,-35.9543857768458 -72.3450711615645,-35.9539605110107 -72.3451046318678,-35.9539463477459 -72.3453170413385,-35.9538437385942 -72.3454257759872,-35.9537716235395 -72.3458643745045,-35.9534832440593 -72.3465428155898,-35.9530392030512 -72.3467684639291,-35.9528695164216 -72.3469742150227,-35.9528561822842 -72.3469376045797,-35.9527450806674 -72.3468777669562,-35.9524516324472 -72.3468708628618,-35.9523292637995 -72.3474673030297,-35.952363322003 -72.3474424490919,-35.9523172253031 -72.3473316354884,-35.9519475312981 -72.3481240656223,-35.9518434357129 -72.3480173625525,-35.9513069050354 -72.3479426290188,-35.9513052532967 -72.3480844600116,-35.950879144697 -72.347744291091,-35.9509217016241 -72.3471837229527,-35.9509772677998 -72.3473036965561,-35.9505470997527 -72.3471842867952,-35.9505659202846 -72.3462507481614,-35.9507241205753</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3388955570607,-35.9573932230605 -72.3389138753005,-35.9573936293013 -72.3392432791277,-35.9568643842187 -72.3388245313275,-35.9570887322701 -72.3386082026417,-35.957187329403 -72.3386525296074,-35.9572059979992 -72.3387900475034,-35.9572597245445 -72.3388789379094,-35.9573421795912 -72.3388955570607,-35.9573932230605</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3371688867097,-35.9564707763548 -72.3372143655479,-35.9565576347426 -72.3373434185465,-35.9565139980475 -72.3373006980753,-35.9564279775626 -72.3371688867097,-35.9564707763548</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3338226351437,-35.9568088631312 -72.3341781785715,-35.9574681369289 -72.335689494578,-35.9569358810288 -72.33534008084,-35.9562905710202 -72.3338226351437,-35.9568088631312</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3341781785715,-35.9574681369289 -72.3347461715528,-35.9585213237524 -72.3362640850795,-35.9579970318734 -72.335689494578,-35.9569358810288 -72.3341781785715,-35.9574681369289</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3338723660037,-35.9586006269421 -72.3339694649436,-35.9588531769863 -72.3344299892833,-35.9586344841845 -72.3344938789892,-35.9585963152067 -72.3343076105402,-35.9586103019991 -72.3338723660037,-35.9586006269421</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3337114670535,-35.9589368672531 -72.3337459162114,-35.9589590951562 -72.3337770526369,-35.958949055829 -72.3338267359976,-35.9589108136835 -72.3338457642056,-35.9588683119751 -72.3338485288739,-35.9587861021857 -72.3338124478494,-35.9586815660121 -72.3337616141628,-35.9586232036484 -72.3337401125761,-35.9586084176118 -72.333621510475,-35.9586470218116 -72.3336242425722,-35.9586523426659 -72.3336514111601,-35.9587602572489 -72.3336744233923,-35.9588609261274 -72.3337114670535,-35.9589368672531</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3337022372795,-35.9543275477717 -72.3338172771941,-35.9545697653402 -72.3340037198445,-35.9545202550969 -72.3339672797398,-35.9544264423256 -72.3338895320489,-35.9542790196767 -72.3337022372795,-35.9543275477717</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3338895320489,-35.9542790196767 -72.3339672797398,-35.9544264423256 -72.3341626335826,-35.9543735526199 -72.3340955699247,-35.9542256347263 -72.3338895320489,-35.9542790196767</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3465023873404,-35.9456821419547 -72.3433673192402,-35.9476858127564 -72.3420812356453,-35.9485169130389 -72.3441697035572,-35.9490221889532 -72.3442720496788,-35.9490530712132 -72.3423696451134,-35.950292942355 -72.3411873755863,-35.9510465332151 -72.338821208347,-35.9525346832707 -72.3384869930609,-35.9527490429388 -72.3384572063613,-35.9527626899791 -72.3383612408195,-35.9526508647097 -72.337800857106,-35.9518705590327 -72.3359603128362,-35.9530101096918 -72.3357443350158,-35.9531531630786 -72.3354728490063,-35.953464294407 -72.3346966015223,-35.9539585615115 -72.3343763126622,-35.9540635236647 -72.3336955014222,-35.9526873215681 -72.3336634478977,-35.9526851968141 -72.3325740933184,-35.9524606605786 -72.3324635274347,-35.9524343555281 -72.3323051093844,-35.9524356013723 -72.3314447054345,-35.9529029353781 -72.3310024551907,-35.9531458704561 -72.3308302324412,-35.9533828906964 -72.3307835868974,-35.9535487807267 -72.3307554881094,-35.9536864665968 -72.3307666548887,-35.9538774894999 -72.330842939955,-35.9540508848479 -72.3309488541349,-35.9542153999509 -72.3310912209594,-35.9543425714399 -72.3312920443301,-35.9544758131034 -72.3315114152361,-35.954580851033 -72.3316623729261,-35.954627134216 -72.3319313632427,-35.9546521963063 -72.3321887920102,-35.9546722300665 -72.3323226463529,-35.954703823667 -72.3323970834216,-35.9547579423843 -72.3324241464851,-35.9548253160148 -72.3324504072245,-35.954916517842 -72.3324465586606,-35.9550308972959 -72.3324491174835,-35.9551292028079 -72.3324292879764,-35.9551955324831 -72.332396611645,-35.955294962511 -72.3323221029959,-35.9554173084661 -72.3322276034978,-35.955610750951 -72.3321467507452,-35.9557472640013 -72.3321337450323,-35.9557851293877 -72.3321021913021,-35.9558511982564 -72.3320945657989,-35.9559034915856 -72.3321475692338,-35.9560715991402 -72.3321806543558,-35.9561343367506 -72.3321720666439,-35.9562152242689 -72.3321229269756,-35.9562809024532 -72.3320896095165,-35.9563993954876 -72.3320968418542,-35.9565330988275 -72.3321149968463,-35.9566908911009 -72.3320583272018,-35.9568060033724 -72.3315184322071,-35.9575093961503 -72.3313551466623,-35.957778439928 -72.3308341325477,-35.9576229408723 -72.3304910143599,-35.9575342241825 -72.3301044580154,-35.9575160808216 -72.3297871188188,-35.9575328624562 -72.3294085936999,-35.957624590504 -72.3269084893742,-35.9586199200594 -72.3271036390333,-35.9588164850435 -72.3276572413973,-35.9590130386117 -72.3277816058923,-35.9590217713881 -72.3289866061584,-35.9593854506872 -72.3298806512095,-35.9596199807177 -72.3300349809156,-35.9597188040284 -72.3301023315618,-35.9596785713301 -72.3311155326513,-35.9599679097406 -72.3311878990451,-35.9599448819017 -72.331922737227,-35.9597110366165 -72.3326868678584,-35.9594919511952 -72.3329142356892,-35.9594469294288 -72.3336997484156,-35.9590279993575 -72.3341779402635,-35.9588073158001 -72.3342905982509,-35.9587716653555 -72.334308424681,-35.9587649067239 -72.3343889347458,-35.9589002391868 -72.3346853544779,-35.9593313005715 -72.3348558114904,-35.9595830959336 -72.3353029073164,-35.9593712550824 -72.3356006498717,-35.9592395583572 -72.336103030333,-35.9590408673043 -72.3359370228503,-35.958743863172 -72.3361248767076,-35.9586526485432 -72.3362400000465,-35.9588054407766 -72.3365236446954,-35.9586567362046 -72.3365801829509,-35.9587199938647 -72.3368037829039,-35.9586124019984 -72.3368173478305,-35.9585578561321 -72.3373189510711,-35.9582947551109 -72.3373588135384,-35.9582431770991 -72.337885427286,-35.9579776482541 -72.3379456706464,-35.9579742154537 -72.3381604184537,-35.9578680940472 -72.3381184940971,-35.9578063541097 -72.3382255681068,-35.9577622299769 -72.3381538302818,-35.9576712119453 -72.3385054640232,-35.9575502430191 -72.3385166996883,-35.957346601779 -72.3385251766037,-35.9572251710602 -72.3386082026417,-35.957187329403 -72.3388245313275,-35.9570887322701 -72.3387834237727,-35.9563473757981 -72.3390848981418,-35.9561476699828 -72.3397510220298,-35.9557010102742 -72.3401773011718,-35.9554529192544 -72.3404109431929,-35.9553078653728 -72.3404474317482,-35.9552693268322 -72.3404836807878,-35.9552379381492 -72.3405504638215,-35.9552143791341 -72.340697578267,-35.9551568323378 -72.3412775195214,-35.954786947356 -72.3416181043308,-35.9546013373798 -72.3420426064422,-35.9543403223636 -72.3425596703662,-35.9540083850159 -72.3439704881932,-35.9531310703472 -72.3444964007271,-35.9527971741423 -72.3451350125033,-35.9523820670688 -72.3452968630449,-35.9522783384058 -72.3454041643189,-35.952227057674 -72.3455975048806,-35.9521025639598 -72.3458172197766,-35.9519786531316 -72.3460738984589,-35.9518019039212 -72.3466488865055,-35.9515785408934 -72.3462507481614,-35.9507241205753 -72.3471842867952,-35.9505659202846 -72.3473036965561,-35.9505470997527 -72.3471837229527,-35.9509772677998 -72.347744291091,-35.9509217016241 -72.3480844600116,-35.950879144697 -72.3479426290188,-35.9513052532967 -72.3480173625525,-35.9513069050354 -72.3481240656223,-35.9518434357129 -72.3473316354884,-35.9519475312981 -72.3474424490919,-35.9523172253031 -72.3474673030297,-35.952363322003 -72.3468708628618,-35.9523292637995 -72.3468777669562,-35.9524516324472 -72.3469376045797,-35.9527450806674 -72.3469742150227,-35.9528561822842 -72.3467684639291,-35.9528695164216 -72.3465428155898,-35.9530392030512 -72.3458643745045,-35.9534832440593 -72.3454257759872,-35.9537716235395 -72.3453170413385,-35.9538437385942 -72.3451046318678,-35.9539463477459 -72.3450711615645,-35.9539605110107 -72.3444336620694,-35.9543857768458 -72.3434675181479,-35.9549903615802 -72.3437631430294,-35.9556869786808 -72.3423815242227,-35.9562167722402 -72.3425201645607,-35.9565695588531 -72.3421353276431,-35.9566969582505 -72.3417183576485,-35.9567986051013 -72.340725264722,-35.9571557537643 -72.3395761321673,-35.9575738192379 -72.3392092715532,-35.9577552634905 -72.3392169444859,-35.9577888193133 -72.3389551530152,-35.9579244030326 -72.3389788920692,-35.9579688871532 -72.3389675010916,-35.9579805576618 -72.3389594737912,-35.9580012457278 -72.3392346710111,-35.9585409246554 -72.3391064414102,-35.9585380795539 -72.3387352732352,-35.9586729246784 -72.3387719548623,-35.9582355535732 -72.3387595660785,-35.9578771816942 -72.3386972131811,-35.9578604533721 -72.3379591621893,-35.9583520111311 -72.3351897209021,-35.9600782416407 -72.3350111939271,-35.9601895157447 -72.3339919332182,-35.9607992786907 -72.3340161493313,-35.9608642033585 -72.3338525938875,-35.9609592861514 -72.332463433474,-35.9617668551738 -72.3325539377108,-35.9632612008533 -72.332731982183,-35.9660766982573 -72.3327915878265,-35.9677048517605 -72.3342332487727,-35.9676653680479 -72.3343370117983,-35.967720138229 -72.3343892935582,-35.967735607872 -72.335933390958,-35.9677031511009 -72.3359297708213,-35.9676362993839 -72.3363534768095,-35.9675980182511 -72.3364090264693,-35.9682144993101 -72.336937284092,-35.9681954581173 -72.3370639878091,-35.968190890852 -72.3383435371038,-35.9679999079821 -72.3381256569487,-35.9644430881172 -72.3380963355534,-35.9640060405689 -72.3382473212599,-35.9623925765106 -72.3384415606148,-35.9605389804565 -72.338657547023,-35.9606582382957 -72.3387787305617,-35.960718159757 -72.3390218973736,-35.9608141741829 -72.3393241644926,-35.9608971903448 -72.3396856946559,-35.9609624435351 -72.3399368045358,-35.9609966295823 -72.3400597476025,-35.9610041256955 -72.3405536030973,-35.9609721545983 -72.3412372815123,-35.9608776181892 -72.3417062485887,-35.9607999968117 -72.3419128975236,-35.9589772919634 -72.3453048037921,-35.9568714956188 -72.3470411078122,-35.9558011048346 -72.3487922223276,-35.9558127884295 -72.3501787515761,-35.9554558717226 -72.3500982610912,-35.9552107422069 -72.3504697020713,-35.9551237422757 -72.3505647641896,-35.955087687262 -72.3510535243283,-35.9545046945133 -72.351089061567,-35.9544214605187 -72.3511059910072,-35.9543389250833 -72.3509702773694,-35.9540116087251 -72.350948612239,-35.9537822000456 -72.3510186627828,-35.9536168186418 -72.3511248685425,-35.9533497039722 -72.3513592902423,-35.9533008037772 -72.3506650395454,-35.9515189223645 -72.3509052926454,-35.9514608805465 -72.3506501104565,-35.9498875923902 -72.3502337621791,-35.9499719940369 -72.3500607659305,-35.9500146743217 -72.3474764126752,-35.9504690649427 -72.3473306264334,-35.9504873028456 -72.3474805329,-35.9500828359991 -72.347699155338,-35.9494652654464 -72.3479349500407,-35.9488602361969 -72.3483287876085,-35.9477385986615 -72.3485784052388,-35.9471145578786 -72.3487654706769,-35.9467824507164 -72.3488833714517,-35.9465453952021 -72.3486502754246,-35.9465438200725 -72.3484682102203,-35.9464193680531 -72.3483172739018,-35.9462848729923 -72.3482706424826,-35.9461884550444 -72.3481872510295,-35.9461389171699 -72.3481493134974,-35.9461333092196 -72.3478999809547,-35.9461349506503 -72.347525470021,-35.9459335092241 -72.3474431761491,-35.9459388427592 -72.347279754936,-35.9458708425742 -72.346630956803,-35.9457157948058 -72.3465023873404,-35.9456821419547</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3461399390953,-35.9495373120871 -72.3454794961902,-35.9499483644349 -72.3456377243588,-35.9495583917683 -72.3456842977576,-35.9494209047607 -72.3461399390953,-35.9495373120871</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.349108456612,-35.9523730178842 -72.3489048002616,-35.9524114401881 -72.3488598236247,-35.9522959943293 -72.3488359225059,-35.9522346432982 -72.3487513562207,-35.9520230354731 -72.3489724924674,-35.9519658071965 -72.3490688478393,-35.952254389887 -72.349108456612,-35.9523730178842</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3360261466859,-35.961158426837 -72.3351355014276,-35.9612578728785 -72.3351317789272,-35.9611504796897 -72.3356178030311,-35.9610897378598 -72.3360147284827,-35.9610472964463 -72.3360261466859,-35.961158426837</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3374984898692,-35.9620794177865 -72.3373582631996,-35.9621061130449 -72.3372372478419,-35.9615609113361 -72.3372215349451,-35.9614433332921 -72.3373812760779,-35.9614210276715 -72.3374984898692,-35.9620794177865</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3353546229479,-35.9636831937911 -72.3349349332324,-35.9637334846559 -72.3349256869066,-35.9635723129675 -72.3353337829353,-35.9635254527122 -72.3353546229479,-35.9636831937911</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3334545374771,-35.964141741084 -72.3331311090221,-35.96416435792 -72.3331295943069,-35.9639914348458 -72.3334504130272,-35.963976121216 -72.3334545374771,-35.964141741084</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3353996957402,-35.9649599990449 -72.3350251698174,-35.9649755236463 -72.3350135951214,-35.9647853600767 -72.3353996957402,-35.9649599990449</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3359068078887,-35.9539216593209 -72.3357152345731,-35.9540366385704 -72.335607308649,-35.9539316995084 -72.3358118491852,-35.9538154071326 -72.3359068078887,-35.9539216593209</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3340037198445,-35.9545202550969 -72.3338172771941,-35.9545697653402 -72.3337022372795,-35.9543275477717 -72.3338895320489,-35.9542790196767 -72.3340955699247,-35.9542256347263 -72.3341626335826,-35.9543735526199 -72.3339672797398,-35.9544264423256 -72.3340037198445,-35.9545202550969</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.33534008084,-35.9562905710202 -72.335689494578,-35.9569358810288 -72.3362640850795,-35.9579970318734 -72.3347461715528,-35.9585213237524 -72.3341781785715,-35.9574681369289 -72.3338226351437,-35.9568088631312 -72.33534008084,-35.9562905710202</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3371688867097,-35.9564707763548 -72.3373006980753,-35.9564279775626 -72.3373434185465,-35.9565139980475 -72.3372143655479,-35.9565576347426 -72.3371688867097,-35.9564707763548</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3338723660037,-35.9586006269421 -72.3343076105402,-35.9586103019991 -72.3344938789892,-35.9585963152067 -72.3344299892833,-35.9586344841845 -72.3339694649436,-35.9588531769863 -72.3338723660037,-35.9586006269421</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3338485288739,-35.9587861021857 -72.3338457642056,-35.9588683119751 -72.3338267359976,-35.9589108136835 -72.3337770526369,-35.958949055829 -72.3337459162114,-35.9589590951562 -72.3337114670535,-35.9589368672531 -72.3336744233923,-35.9588609261274 -72.3336514111601,-35.9587602572489 -72.3336242425722,-35.9586523426659 -72.333621510475,-35.9586470218116 -72.3337401125761,-35.9586084176118 -72.3337616141628,-35.9586232036484 -72.3338124478494,-35.9586815660121 -72.3338485288739,-35.9587861021857</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.335607308649,-35.9539316995084 -72.3357152345731,-35.9540366385704 -72.3359068078887,-35.9539216593209 -72.3358118491852,-35.9538154071326 -72.335607308649,-35.9539316995084</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZCH</SimpleData>
+		<SimpleData name="NOM">ZCH Zona de conservación histórica</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Moteles, supermercados, fuentes de soda, bares, pubs y similares, además de todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3359297708213,-35.9676362993839 -72.335933390958,-35.9677031511009 -72.3343892935582,-35.967735607872 -72.3343370117983,-35.967720138229 -72.3342332487727,-35.9676653680479 -72.3327915878265,-35.9677048517605 -72.3293620495863,-35.9678121412603 -72.3293871063293,-35.9683742908676 -72.3294265581333,-35.9683787459739 -72.3297877094112,-35.9683689032378 -72.3298047592597,-35.969038185282 -72.3305924196941,-35.9690378368339 -72.3313766470381,-35.9690087904248 -72.3313828497739,-35.9689552733416 -72.3321179871691,-35.9689465920144 -72.3322839886715,-35.9689824782065 -72.3323809633337,-35.9689774816728 -72.3328530039664,-35.9689414806706 -72.333064875448,-35.9689458946203 -72.3334031800521,-35.9689176480878 -72.3334154759875,-35.9688791706311 -72.333463510076,-35.9688683153455 -72.3335738356392,-35.9688588455486 -72.3337195713733,-35.9688322769439 -72.3337055604898,-35.9687037889687 -72.3338892691146,-35.9686929699874 -72.3339091487115,-35.9687560092775 -72.3344162033099,-35.9687255496932 -72.3344297857312,-35.9691938455881 -72.3359159413959,-35.9687260893954 -72.3369934208834,-35.9684161668871 -72.336937284092,-35.9681954581173 -72.3364090264693,-35.9682144993101 -72.3363534768095,-35.9675980182511 -72.3359297708213,-35.9676362993839</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3384415606148,-35.9605389804565 -72.3382473212599,-35.9623925765106 -72.3380963355534,-35.9640060405689 -72.3381256569487,-35.9644430881172 -72.3383435371038,-35.9679999079821 -72.3370639878091,-35.968190890852 -72.336937284092,-35.9681954581173 -72.3369934208834,-35.9684161668871 -72.3359159413959,-35.9687260893954 -72.3344297857312,-35.9691938455881 -72.3344162033099,-35.9687255496932 -72.3339091487115,-35.9687560092775 -72.3338892691146,-35.9686929699874 -72.3337055604898,-35.9687037889687 -72.3337195713733,-35.9688322769439 -72.3335738356392,-35.9688588455486 -72.333463510076,-35.9688683153455 -72.3334154759875,-35.9688791706311 -72.3334031800521,-35.9689176480878 -72.333064875448,-35.9689458946203 -72.3328530039664,-35.9689414806706 -72.3329558718268,-35.9703302205587 -72.3331277539549,-35.9711066791183 -72.3331566848728,-35.9712358056519 -72.3332251139673,-35.9712945590883 -72.3333254238119,-35.9712777129287 -72.3334214741626,-35.9712130778732 -72.3336574303663,-35.9711754007177 -72.3338089711105,-35.9710309198992 -72.3338948991437,-35.9709183658866 -72.3340559209252,-35.9708408673138 -72.3342102766129,-35.9707870660434 -72.3343483279679,-35.9706947482053 -72.3344876604934,-35.9705643032384 -72.3346428179212,-35.97048667328 -72.334732041038,-35.9704505016616 -72.3348966794223,-35.9704398529451 -72.33512292354,-35.9705164215986 -72.3353517313736,-35.9705167367243 -72.3355173316114,-35.9704774921191 -72.3356426929723,-35.9704135067026 -72.3357463662075,-35.9702965764715 -72.3357803260773,-35.9701590195015 -72.3357456965328,-35.9699674756701 -72.3357412762705,-35.9699244529688 -72.3355983935365,-35.9698115834671 -72.3356115611073,-35.9697689517135 -72.335654683874,-35.9697079081614 -72.3357326617393,-35.9696571775519 -72.3359107858595,-35.9695943647081 -72.3359412206869,-35.9695616549096 -72.3359600914379,-35.9695239196898 -72.3359318991899,-35.9694899074909 -72.3356885506995,-35.9693986522244 -72.3356491137267,-35.9693500825677 -72.3356212430545,-35.9693065391851 -72.3356760902889,-35.9692457559863 -72.3358326854836,-35.9691252317006 -72.3359753118544,-35.9690711680499 -72.3361348863068,-35.9690365581329 -72.3363037812273,-35.9690736954221 -72.3364378224004,-35.9691005196856 -72.3365848688857,-35.9690894779921 -72.336764369308,-35.9689856768384 -72.3368433071814,-35.9689063514521 -72.3369151005022,-35.9688650215608 -72.3369860929727,-35.9688475206558 -72.3370849566554,-35.9688735627286 -72.3371068056026,-35.9689217420663 -72.3371374974897,-35.9690559657041 -72.3371712328459,-35.9690996383001 -72.3372398234131,-35.9691536252029 -72.3373569163458,-35.9691609946941 -72.3375213919308,-35.9691551075924 -72.3377411924014,-35.9690741391838 -72.3379752801068,-35.9689171774436 -72.338236119492,-35.9688371189524 -72.3384894937203,-35.968804588403 -72.3387197382953,-35.9687620043696 -72.3389457201207,-35.9686716323414 -72.339203254377,-35.9685151884107 -72.3392466935033,-35.9684446126812 -72.3393448742778,-35.9681415509724 -72.3394262777115,-35.9679516688221 -72.3394339903544,-35.9679336766343 -72.3394396158764,-35.9679326746568 -72.3396959981835,-35.9678870186056 -72.3396184219821,-35.9662847060395 -72.3395077086904,-35.9646892816674 -72.3392999350783,-35.9611906163179 -72.3401566434852,-35.9612606695029 -72.3408342492159,-35.9613472370737 -72.3416295338533,-35.9614766163374 -72.3417062485887,-35.9607999968117 -72.3412372815123,-35.9608776181892 -72.3405536030973,-35.9609721545983 -72.3400597476025,-35.9610041256955 -72.3399368045358,-35.9609966295823 -72.3396856946559,-35.9609624435351 -72.3393241644926,-35.9608971903448 -72.3390218973736,-35.9608141741829 -72.3387787305617,-35.960718159757 -72.338657547023,-35.9606582382957 -72.3384415606148,-35.9605389804565</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZM3</SimpleData>
+		<SimpleData name="NOM">ZM3 Zona mixta residencial y equipamiento educacional</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3263092700309,-35.9715433730401 -72.326320952856,-35.9716996543344 -72.3266236563528,-35.9716020944897 -72.3278261216451,-35.9712145394773 -72.327697078401,-35.9685169807906 -72.3260842313468,-35.9685737872417 -72.3261866115856,-35.9699037196104 -72.3261895744344,-35.9699422010196 -72.3263092700309,-35.9715433730401</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3233081707421,-35.9714597887198 -72.3232801474597,-35.9716380134761 -72.3232730944363,-35.9717165501533 -72.3233369981437,-35.9717787861785 -72.3234579436043,-35.9718458718898 -72.3235148647682,-35.9718542960884 -72.3238466996232,-35.9718008934579 -72.32393548654,-35.971777836092 -72.3241298051288,-35.9717571334903 -72.3242713566187,-35.9717352528422 -72.3245918106321,-35.9716279395157 -72.3249749090511,-35.9714898290392 -72.3250551425561,-35.9714594260648 -72.3252230759817,-35.9714381326008 -72.3256050198016,-35.9714645371622 -72.3261438128195,-35.971537361927 -72.3263092700309,-35.9715433730401 -72.3261895744344,-35.9699422010196 -72.3261866115856,-35.9699037196104 -72.3260185842525,-35.9699020220516 -72.3253976408699,-35.9699167895479 -72.3249495085639,-35.9698960625669 -72.3247039472538,-35.9697403498033 -72.3244234534064,-35.9695767031447 -72.3243452727611,-35.9695463426268 -72.3241781873907,-35.9695426140348 -72.3239117136541,-35.969615361497 -72.323799857494,-35.9696700977545 -72.323380070782,-35.9699826584547 -72.323495632078,-35.9703393619835 -72.323380947275,-35.9703475331583 -72.3234441758594,-35.9705599874487 -72.3234741601944,-35.970714468622 -72.3234767571596,-35.9707715243541 -72.3234792113877,-35.9708254688534 -72.3234553449022,-35.9710109405847 -72.3234100478863,-35.9711794796261 -72.3233081707421,-35.9714597887198</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3209102036497,-35.9717126658814 -72.320542570873,-35.9717402219859 -72.3205352037825,-35.9716327469224 -72.3205281775807,-35.9716236473546 -72.3205149940683,-35.9714713302825 -72.3202868046979,-35.9714960390049 -72.3202691251681,-35.9715850688876 -72.3196260704417,-35.9716243513489 -72.3196034803562,-35.9716417316275 -72.3190635281388,-35.9716684117163 -72.3190301466123,-35.9716795881827 -72.3189081548209,-35.9718169600196 -72.3188292907852,-35.9718718325555 -72.3186908909202,-35.9719522017737 -72.3185427084597,-35.9719965812511 -72.3184720794901,-35.9720248099368 -72.3185900665632,-35.9724018502485 -72.3187016220398,-35.9723995752892 -72.3188312487892,-35.9723833964987 -72.318944254921,-35.9723382298822 -72.3190958824833,-35.9723654670375 -72.3192712839147,-35.9723836958036 -72.3195170380716,-35.9724034984397 -72.3197569312948,-35.9724231682272 -72.3198621397549,-35.9724350588599 -72.3200210810063,-35.9724195338731 -72.320179216384,-35.9724278378487 -72.3203321338558,-35.9724169470925 -72.3205855254244,-35.9723844544785 -72.3207504899968,-35.9723642938774 -72.3209550448616,-35.972387941947 -72.3211830513978,-35.9724121131188 -72.3212998247739,-35.9724290302136 -72.3213689037545,-35.9724812007099 -72.3218680373835,-35.9724560306376 -72.326597027056,-35.9723094636723 -72.326602312615,-35.9723113354961 -72.3266236563528,-35.9716020944897 -72.326320952856,-35.9716996543344 -72.3263092700309,-35.9715433730401 -72.3261438128195,-35.971537361927 -72.3256050198016,-35.9714645371622 -72.3252230759817,-35.9714381326008 -72.3250551425561,-35.9714594260648 -72.3249749090511,-35.9714898290392 -72.3245918106321,-35.9716279395157 -72.3242713566187,-35.9717352528422 -72.3241298051288,-35.9717571334903 -72.32393548654,-35.971777836092 -72.3238466996232,-35.9718008934579 -72.3235148647682,-35.9718542960884 -72.3234579436043,-35.9718458718898 -72.3233369981437,-35.9717787861785 -72.3232730944363,-35.9717165501533 -72.3232801474597,-35.9716380134761 -72.3233081707421,-35.9714597887198 -72.3234100478863,-35.9711794796261 -72.3234553449022,-35.9710109405847 -72.3234792113877,-35.9708254688534 -72.3234767571596,-35.9707715243541 -72.3233211020364,-35.9707947538603 -72.3231443155083,-35.9708176354591 -72.3229487036489,-35.9708549998283 -72.3227928947736,-35.9709081574911 -72.3226781965126,-35.9709383852349 -72.3226321129627,-35.9709999542949 -72.3225616274686,-35.9711325181834 -72.322501833138,-35.9712742637219 -72.3224833510425,-35.9713871229524 -72.3222256471554,-35.9714171383723 -72.3216773604764,-35.9714734523379 -72.3211660187701,-35.9715216464719 -72.3209102036497,-35.9717126658814</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3213598261473,-35.9709953867862 -72.3218661912047,-35.9709858313275 -72.3218689233466,-35.9709049940184 -72.3213551151244,-35.9709177799013 -72.3213598261473,-35.9709953867862</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3242378418134,-35.9691442744095 -72.3242469295607,-35.9692660951083 -72.3245200234356,-35.9692578803257 -72.3245091628807,-35.9691324709852 -72.3242378418134,-35.9691442744095</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3158926183488,-35.9665490497956 -72.3154232272529,-35.9665724873985 -72.3149243197226,-35.9665792025733 -72.3147576541639,-35.9667364355764 -72.314780023716,-35.9673748348776 -72.3149736423763,-35.9675043658435 -72.3159718724601,-35.9674790200363 -72.3161601177837,-35.9673341916443 -72.3161228795181,-35.9667014208408 -72.3158926183488,-35.9665490497956</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZM1</SimpleData>
+		<SimpleData name="NOM">ZM1 Zona mixta comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3131609427656,-35.9653795644163 -72.3133750551026,-35.9700958667129 -72.3145634504924,-35.9700867173865 -72.3193119233814,-35.9699843071027 -72.3193074061552,-35.96903391575 -72.3191813115672,-35.9652381439509 -72.3138992253248,-35.9653622383804 -72.3132410013284,-35.965377685945 -72.3131609427656,-35.9653795644163</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3161601177837,-35.9673341916443 -72.3159718724601,-35.9674790200363 -72.3149736423763,-35.9675043658435 -72.314780023716,-35.9673748348776 -72.3147576541639,-35.9667364355764 -72.3149243197226,-35.9665792025733 -72.3154232272529,-35.9665724873985 -72.3158926183488,-35.9665490497956 -72.3161228795181,-35.9667014208408 -72.3161601177837,-35.9673341916443</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3103422221374,-35.9669713335302 -72.3104056932691,-35.9676941184063 -72.3116758719578,-35.9676510608657 -72.3116575162962,-35.9666788983536 -72.3103192182317,-35.9667182621308 -72.3103422221374,-35.9669713335302</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3132410013284,-35.965377685945 -72.3138992253248,-35.9653622383804 -72.3138452855016,-35.9647423572399 -72.3131889515293,-35.9647697173295 -72.3132410013284,-35.965377685945</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3244089128878,-35.9610470950696 -72.3240892168537,-35.9613070457152 -72.3238673340824,-35.961449944075 -72.3225158171351,-35.9618633264838 -72.3224649903098,-35.9618049598879 -72.3222843936451,-35.9617675419314 -72.3221367145861,-35.961797629484 -72.3219939319653,-35.9618564424492 -72.32179243291,-35.9620904104737 -72.3202801713803,-35.9624858689706 -72.3199554996774,-35.9625453838568 -72.3196503481272,-35.9625481026412 -72.3194511977905,-35.9625388822497 -72.3180640817274,-35.962269401084 -72.3157401265853,-35.9617738573408 -72.3143284611143,-35.9615371697436 -72.3134190195543,-35.9614547985062 -72.3132946456184,-35.9610013195417 -72.3132117200294,-35.960950565628 -72.313155898689,-35.9609099680188 -72.3130120269473,-35.9608709747942 -72.3129071177233,-35.9608507393966 -72.3127529994236,-35.9608544397757 -72.3126117071953,-35.9608691586841 -72.312509982335,-35.9608847638706 -72.3123017737656,-35.9609265991296 -72.3121846776022,-35.9610062457994 -72.3121317987745,-35.9610086376849 -72.3119438743009,-35.9611010041368 -72.3118548539747,-35.9611312021093 -72.3117315112349,-35.9611355909736 -72.3116526170886,-35.9611266685632 -72.3114689347272,-35.9610939349197 -72.3113189703302,-35.9611048800444 -72.311228857801,-35.9611672465176 -72.3111814986863,-35.9612663407472 -72.3111705233974,-35.9613304799304 -72.3126265205185,-35.9614704270866 -72.3126343437372,-35.9614992182545 -72.3126499901941,-35.9615568005875 -72.3126771643326,-35.9617934918126 -72.3127102602277,-35.9617901387755 -72.312839048756,-35.9617770881159 -72.3132729986231,-35.9617820415441 -72.3140852360129,-35.9618765458717 -72.3145354819814,-35.9619200143893 -72.3174665076222,-35.9625054728076 -72.318800866414,-35.962773780278 -72.3194244058597,-35.962897414912 -72.3196761554754,-35.9629125805629 -72.3201874491641,-35.9628858521904 -72.3203590625533,-35.9628419935379 -72.3223991760691,-35.9622770863837 -72.3232871814681,-35.9620393650712 -72.3237915736982,-35.9618693868425 -72.323979964842,-35.9618497442375 -72.3235814812534,-35.9621842450072 -72.3233492267546,-35.9624604524774 -72.3233976397814,-35.9625903061398 -72.3234643523694,-35.9628731862922 -72.3235366502156,-35.9636855888923 -72.3235825818423,-35.9637152303331 -72.3236226520691,-35.9637447405032 -72.3249255822265,-35.9639025852127 -72.3245001631893,-35.9632969258493 -72.3241274182396,-35.9628689064954 -72.3243011855049,-35.9627611809962 -72.3239833651076,-35.9624440813252 -72.3250942337926,-35.9616866908746 -72.3251530154927,-35.9616832328946 -72.325462988586,-35.961537527163 -72.3253966644535,-35.9614168139493 -72.3257048672581,-35.9613235310525 -72.3255720576013,-35.9610868708792 -72.3253725884264,-35.9610871922232 -72.3252548657241,-35.9610988743156 -72.3250292131961,-35.9611796899441 -72.3247440559356,-35.96128540818 -72.3248845126815,-35.9611216140747 -72.3254617544789,-35.9603570849265 -72.3259346692251,-35.9597285376877 -72.3261478743875,-35.9594948240067 -72.3263117728242,-35.9593315502922 -72.3267128767444,-35.9590924857475 -72.3269501681152,-35.9588402293875 -72.3271036390333,-35.9588164850435 -72.3269084893742,-35.9586199200594 -72.3267885370722,-35.9586754222994 -72.3264674971974,-35.9588018081411 -72.3261329633537,-35.9589803552397 -72.325880173608,-35.9591702622053 -72.3255499008926,-35.9595701997612 -72.3244089128878,-35.9610470950696</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.308126889549,-35.9639771400567 -72.3076739894358,-35.9648750533775 -72.3074869833639,-35.9651771267962 -72.3086516254078,-35.9655415729833 -72.3087084214981,-35.9653375285992 -72.3087634480421,-35.9652719925633 -72.3089484137129,-35.9651807569021 -72.3100805983533,-35.9650106165926 -72.310055654506,-35.9648812849786 -72.3103564069743,-35.9648355685693 -72.3107861291542,-35.9647927433213 -72.3112234905769,-35.9646976247493 -72.3111886772349,-35.9641674481002 -72.3113060833374,-35.9641653115864 -72.3113055556259,-35.9640079114714 -72.3112821075635,-35.9640073859131 -72.3111985353103,-35.9631851870641 -72.3110946267629,-35.9620978336487 -72.309914904433,-35.9621142998525 -72.3099893351378,-35.9614768786654 -72.3097521066569,-35.9615526363758 -72.3093444321305,-35.9618105722081 -72.3092047531603,-35.9619505186336 -72.3090584019231,-35.9621141613775 -72.308871052978,-35.9624485796814 -72.308126889549,-35.9639771400567</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZM2</SimpleData>
+		<SimpleData name="NOM">ZM2 Zona mixta residencial, comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3259346692251,-35.9597285376877 -72.3254617544789,-35.9603570849265 -72.3248845126815,-35.9611216140747 -72.3247440559356,-35.96128540818 -72.3250292131961,-35.9611796899441 -72.3252548657241,-35.9610988743156 -72.3253725884264,-35.9610871922232 -72.3255720576013,-35.9610868708792 -72.3257048672581,-35.9613235310525 -72.3253966644535,-35.9614168139493 -72.325462988586,-35.961537527163 -72.3251530154927,-35.9616832328946 -72.3250942337926,-35.9616866908746 -72.3239833651076,-35.9624440813252 -72.3243011855049,-35.9627611809962 -72.3241274182396,-35.9628689064954 -72.3245001631893,-35.9632969258493 -72.3249255822265,-35.9639025852127 -72.3236226520691,-35.9637447405032 -72.3235825818423,-35.9637152303331 -72.3235366502156,-35.9636855888923 -72.3234643523694,-35.9628731862922 -72.3233976397814,-35.9625903061398 -72.3233492267546,-35.9624604524774 -72.3235814812534,-35.9621842450072 -72.323979964842,-35.9618497442375 -72.3237915736982,-35.9618693868425 -72.3232871814681,-35.9620393650712 -72.3223991760691,-35.9622770863837 -72.3203590625533,-35.9628419935379 -72.3201874491641,-35.9628858521904 -72.3196761554754,-35.9629125805629 -72.3194244058597,-35.962897414912 -72.318800866414,-35.962773780278 -72.3174665076222,-35.9625054728076 -72.3145354819814,-35.9619200143893 -72.3140852360129,-35.9618765458717 -72.3132729986231,-35.9617820415441 -72.312839048756,-35.9617770881159 -72.3127102602277,-35.9617901387755 -72.3126771643326,-35.9617934918126 -72.3126499901941,-35.9615568005875 -72.3126343437372,-35.9614992182545 -72.3126265205185,-35.9614704270866 -72.3111705233974,-35.9613304799304 -72.3109103313032,-35.9613352577988 -72.3106897800835,-35.9613517742221 -72.310478021186,-35.9613684871867 -72.3103278138147,-35.9613865801493 -72.3099893351378,-35.9614768786654 -72.309914904433,-35.9621142998525 -72.3110946267629,-35.9620978336487 -72.3111985353103,-35.9631851870641 -72.3112821075635,-35.9640073859131 -72.3113055556259,-35.9640079114714 -72.3113060833374,-35.9641653115864 -72.3111886772349,-35.9641674481002 -72.3112234905769,-35.9646976247493 -72.3107861291542,-35.9647927433213 -72.3103564069743,-35.9648355685693 -72.310055654506,-35.9648812849786 -72.3100805983533,-35.9650106165926 -72.3089484137129,-35.9651807569021 -72.3087634480421,-35.9652719925633 -72.3087084214981,-35.9653375285992 -72.3086516254078,-35.9655415729833 -72.3090857398688,-35.9707297323892 -72.3111156668522,-35.9706894206114 -72.3111317999715,-35.9707327067317 -72.3112691074586,-35.9708359416323 -72.3113179903078,-35.9709515018628 -72.3113954395163,-35.9710033164337 -72.311561555971,-35.9710356562887 -72.3117159674851,-35.9711535822905 -72.3122316647453,-35.9712581449492 -72.3124041510325,-35.9713621671707 -72.3124627996907,-35.9714493291792 -72.3125461341638,-35.9715871227886 -72.3126167293299,-35.9715815510591 -72.3127061248896,-35.9715406301865 -72.3127776901177,-35.9715064639855 -72.3128169879991,-35.9713857269565 -72.3128807284703,-35.9713227696426 -72.3130917861344,-35.9713274990969 -72.3132478983677,-35.9713953832489 -72.3133984355997,-35.971627684332 -72.3134532071524,-35.9718292232388 -72.3134786203442,-35.9718584084328 -72.3135746288754,-35.9718820213158 -72.3139410751795,-35.9719760788279 -72.3139486572551,-35.9720120188449 -72.3139462341007,-35.9720835038278 -72.3140044002001,-35.9721849630372 -72.3141705199905,-35.9722172999809 -72.3144238554692,-35.9722730522542 -72.3144830356096,-35.9733832468886 -72.3151785045254,-35.9733255359279 -72.3151592008901,-35.9729755060451 -72.3152070686525,-35.9730779261857 -72.3152847556832,-35.973166110042 -72.3153786151924,-35.973209943584 -72.3154661547374,-35.9732238262792 -72.3156348124282,-35.9732246217465 -72.3159365971344,-35.9731926258858 -72.3164328908086,-35.9731560414334 -72.3165909597756,-35.9731446749589 -72.3166905010057,-35.9731290173339 -72.3168338423796,-35.9731235540432 -72.3172643445787,-35.9729876505819 -72.3177823999403,-35.9727631582073 -72.3185900665632,-35.9724018502485 -72.3184720794901,-35.9720248099368 -72.3185427084597,-35.9719965812511 -72.3186908909202,-35.9719522017737 -72.3188292907852,-35.9718718325555 -72.3189081548209,-35.9718169600196 -72.3190301466123,-35.9716795881827 -72.3190635281388,-35.9716684117163 -72.3196034803562,-35.9716417316275 -72.3196260704417,-35.9716243513489 -72.3202691251681,-35.9715850688876 -72.3202868046979,-35.9714960390049 -72.3205149940683,-35.9714713302825 -72.3205281775807,-35.9716236473546 -72.3205352037825,-35.9716327469224 -72.320542570873,-35.9717402219859 -72.3209102036497,-35.9717126658814 -72.3211660187701,-35.9715216464719 -72.3216773604764,-35.9714734523379 -72.3222256471554,-35.9714171383723 -72.3224833510425,-35.9713871229524 -72.322501833138,-35.9712742637219 -72.3225616274686,-35.9711325181834 -72.3226321129627,-35.9709999542949 -72.3226781965126,-35.9709383852349 -72.3227928947736,-35.9709081574911 -72.3229487036489,-35.9708549998283 -72.3231443155083,-35.9708176354591 -72.3233211020364,-35.9707947538603 -72.3234767571596,-35.9707715243541 -72.3234741601944,-35.970714468622 -72.3234441758594,-35.9705599874487 -72.323380947275,-35.9703475331583 -72.323495632078,-35.9703393619835 -72.323380070782,-35.9699826584547 -72.323799857494,-35.9696700977545 -72.3239117136541,-35.969615361497 -72.3241781873907,-35.9695426140348 -72.3243452727611,-35.9695463426268 -72.3244234534064,-35.9695767031447 -72.3247039472538,-35.9697403498033 -72.3249495085639,-35.9698960625669 -72.3253976408699,-35.9699167895479 -72.3260185842525,-35.9699020220516 -72.3261866115856,-35.9699037196104 -72.3260842313468,-35.9685737872417 -72.327697078401,-35.9685169807906 -72.3278261216451,-35.9712145394773 -72.3266236563528,-35.9716020944897 -72.326602312615,-35.9723113354961 -72.3268548072979,-35.9723862802645 -72.3273227056555,-35.9726041765589 -72.3274797982587,-35.9726434479909 -72.3276986916832,-35.9726769420775 -72.3279544507886,-35.9726611804263 -72.3281855149487,-35.9725947885484 -72.3286896837894,-35.9725201731531 -72.3288824357051,-35.9725459294999 -72.3289979677469,-35.9725127322822 -72.3290966328045,-35.9724576979226 -72.3292069837742,-35.9723170754969 -72.3293039629005,-35.9723120812317 -72.3293760039975,-35.9722636083261 -72.3297694577361,-35.9720792115518 -72.3299736535406,-35.9720265262583 -72.3301109897048,-35.972129740726 -72.3302514579149,-35.9721400225756 -72.3304444506654,-35.97215862742 -72.3306172057456,-35.9722554756217 -72.3307388808299,-35.9723011084095 -72.3310295749899,-35.9722932707165 -72.3311448642051,-35.9722672205023 -72.3312632838345,-35.9721482377772 -72.3314332642974,-35.9720661727517 -72.3317406959406,-35.9718226228255 -72.3319489823734,-35.9716484068187 -72.3321453448994,-35.9715669275846 -72.3323607385481,-35.9714429473487 -72.332405190923,-35.971429628333 -72.3324862650481,-35.9713741990257 -72.3327641804133,-35.9712229924441 -72.3328897051259,-35.9711542446639 -72.3330296902969,-35.9711788204067 -72.3331566848728,-35.9712358056519 -72.3331277539549,-35.9711066791183 -72.3329558718268,-35.9703302205587 -72.3328530039664,-35.9689414806706 -72.3323809633337,-35.9689774816728 -72.3322839886715,-35.9689824782065 -72.3321179871691,-35.9689465920144 -72.3313828497739,-35.9689552733416 -72.3313766470381,-35.9690087904248 -72.3305924196941,-35.9690378368339 -72.3298047592597,-35.969038185282 -72.3297877094112,-35.9683689032378 -72.3294265581333,-35.9683787459739 -72.3293871063293,-35.9683742908676 -72.3293620495863,-35.9678121412603 -72.3327915878265,-35.9677048517605 -72.332731982183,-35.9660766982573 -72.3325539377108,-35.9632612008533 -72.332463433474,-35.9617668551738 -72.3338525938875,-35.9609592861514 -72.3337088604662,-35.9607671115734 -72.3335270248957,-35.9605484472091 -72.3323150187248,-35.9602174463174 -72.3322152219944,-35.9601758788082 -72.3313810282339,-35.9599927768497 -72.3311878990451,-35.9599448819017 -72.3311155326513,-35.9599679097406 -72.3301023315618,-35.9596785713301 -72.3300349809156,-35.9597188040284 -72.3298806512095,-35.9596199807177 -72.3289866061584,-35.9593854506872 -72.3277816058923,-35.9590217713881 -72.3276572413973,-35.9590130386117 -72.3271036390333,-35.9588164850435 -72.3269501681152,-35.9588402293875 -72.3267128767444,-35.9590924857475 -72.3263117728242,-35.9593315502922 -72.3261478743875,-35.9594948240067 -72.3259346692251,-35.9597285376877</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3138452855016,-35.9647423572399 -72.3138992253248,-35.9653622383804 -72.3191813115672,-35.9652381439509 -72.3193074061552,-35.96903391575 -72.3193119233814,-35.9699843071027 -72.3145634504924,-35.9700867173865 -72.3133750551026,-35.9700958667129 -72.3131609427656,-35.9653795644163 -72.3132410013284,-35.965377685945 -72.3131889515293,-35.9647697173295 -72.3138452855016,-35.9647423572399</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3116758719578,-35.9676510608657 -72.3104056932691,-35.9676941184063 -72.3103422221374,-35.9669713335302 -72.3103192182317,-35.9667182621308 -72.3116575162962,-35.9666788983536 -72.3116758719578,-35.9676510608657</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3242378418134,-35.9691442744095 -72.3245091628807,-35.9691324709852 -72.3245200234356,-35.9692578803257 -72.3242469295607,-35.9692660951083 -72.3242378418134,-35.9691442744095</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3282563664478,-35.9661519819555 -72.3296129933892,-35.9661106587333 -72.329636029212,-35.9666449756138 -72.3295301999816,-35.9666525217796 -72.3291136440736,-35.9666527833445 -72.3290954148731,-35.9666714544839 -72.3282502569674,-35.9666812431544 -72.3282563664478,-35.9661519819555</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3182741520477,-35.9648470394964 -72.3182680712059,-35.9646799766087 -72.3185285004263,-35.9646765996726 -72.3185267132338,-35.9648383798714 -72.3182741520477,-35.9648470394964</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3218689233466,-35.9709049940184 -72.3218661912047,-35.9709858313275 -72.3213598261473,-35.9709953867862 -72.3213551151244,-35.9709177799013 -72.3218689233466,-35.9709049940184</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3157609822766,-35.9730724428165 -72.3154626611475,-35.9731104763924 -72.315407696028,-35.9731092456261 -72.3153648356036,-35.9730754971551 -72.3153439601307,-35.9730422408436 -72.315330715886,-35.9730002127396 -72.3152548861245,-35.972799005898 -72.3156770128631,-35.9727367095709 -72.3157609822766,-35.9730724428165</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3181807072355,-35.9634475331489 -72.3181778199053,-35.9632913368322 -72.3185265177514,-35.9632835702175 -72.3185459355736,-35.9634032376547 -72.3186281669015,-35.9634003069393 -72.3186270381581,-35.9634336672859 -72.3181807072355,-35.9634475331489</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3182680712059,-35.9646799766087 -72.3182741520477,-35.9648470394964 -72.3185267132338,-35.9648383798714 -72.3185285004263,-35.9646765996726 -72.3182680712059,-35.9646799766087</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3181778199053,-35.9632913368322 -72.3181807072355,-35.9634475331489 -72.3186270381581,-35.9634336672859 -72.3186281669015,-35.9634003069393 -72.3185459355736,-35.9634032376547 -72.3185265177514,-35.9632835702175 -72.3181778199053,-35.9632913368322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3151592008901,-35.9729755060451 -72.3151785045254,-35.9733255359279 -72.3153656166667,-35.973310009262 -72.3165660024371,-35.973208106504 -72.3168338423796,-35.9731235540432 -72.3166905010057,-35.9731290173339 -72.3165909597756,-35.9731446749589 -72.3164328908086,-35.9731560414334 -72.3159365971344,-35.9731926258858 -72.3156348124282,-35.9732246217465 -72.3154661547374,-35.9732238262792 -72.3153786151924,-35.973209943584 -72.3152847556832,-35.973166110042 -72.3152070686525,-35.9730779261857 -72.3151592008901,-35.9729755060451</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.315407696028,-35.9731092456261 -72.3154626611475,-35.9731104763924 -72.3157609822766,-35.9730724428165 -72.3156770128631,-35.9727367095709 -72.3152548861245,-35.972799005898 -72.315330715886,-35.9730002127396 -72.3153439601307,-35.9730422408436 -72.3153648356036,-35.9730754971551 -72.315407696028,-35.9731092456261</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">ZAP Zona de Actividades productivas</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3138198183848,-35.9526003150254 -72.3135331455848,-35.9527512821181 -72.313480393363,-35.9527501006882 -72.3133841655016,-35.9527336373201 -72.3132447051765,-35.9526947428299 -72.3131299241724,-35.9527064801097 -72.3129961056792,-35.9527607134961 -72.3126916044501,-35.9529184341456 -72.312550447317,-35.9529295786309 -72.312497937054,-35.9529212486278 -72.3124380888774,-35.9528698292458 -72.3123599304011,-35.9528394614922 -72.3122720098812,-35.9528374912718 -72.3121838472343,-35.9528426691333 -72.3120526944779,-35.9528182681967 -72.3110440711468,-35.9553174471272 -72.3111237638094,-35.9556065455005 -72.3111559153997,-35.955723180204 -72.3112245116675,-35.9560027148749 -72.311249561247,-35.9559996359041 -72.3114845295942,-35.9559899990063 -72.3115545398704,-35.9559796449763 -72.31165385779,-35.9559699483614 -72.3118175771764,-35.9558990971212 -72.3119137928222,-35.9558770711253 -72.3123839077473,-35.9557659894457 -72.312970018883,-35.9556074261776 -72.3132433074694,-35.9555920869655 -72.313282111266,-35.9554856454442 -72.3133575362852,-35.9553371011727 -72.3134962038343,-35.9551398952065 -72.313662701031,-35.9549003886133 -72.3136834344384,-35.9548078507477 -72.3138636392581,-35.9546831140615 -72.3139752003222,-35.9545067628576 -72.3141444317282,-35.9544461669278 -72.314412557128,-35.954323399147 -72.3144699107982,-35.954188756338 -72.3145033095077,-35.9539820384175 -72.3145425947407,-35.9538612994156 -72.3145811531184,-35.9537620066545 -72.3145576821016,-35.953675632589 -72.3145356636392,-35.9535463678455 -72.3145246171584,-35.9533529619318 -72.3144752544556,-35.9532517006055 -72.3143511214307,-35.9530199925184 -72.3143452350799,-35.95293401266 -72.3143737911949,-35.9528702657897 -72.3144387249411,-35.9527715631606 -72.3144413881172,-35.9526929290507 -72.3144262253072,-35.9526210488059 -72.314402754932,-35.9525346755697 -72.3143597630779,-35.9525050968297 -72.314227641567,-35.9525092917777 -72.3140862425318,-35.9525275879971 -72.3138198183848,-35.9526003150254</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3102000919646,-35.9558429193961 -72.3096323687246,-35.9559780341558 -72.3089396713196,-35.9560793421057 -72.3086018885147,-35.9561368636048 -72.3084887380105,-35.9561867865529 -72.3083454710777,-35.9562598804394 -72.3081738851869,-35.9563895707768 -72.3079992064457,-35.9565239609147 -72.3078896512425,-35.9566407345483 -72.3078225037767,-35.9567179218603 -72.3077684539813,-35.9567548627871 -72.3076879471009,-35.9567935952002 -72.3075252958062,-35.9568328673472 -72.3074517821591,-35.9568383711946 -72.3075587041941,-35.9571445777662 -72.3075985393568,-35.9572670904759 -72.3076200431841,-35.9573248048676 -72.3076333223757,-35.9573656427085 -72.3076323512287,-35.9573942362608 -72.3075987359381,-35.9574340213975 -72.3075658492218,-35.9574523602291 -72.3075069902086,-35.9574581924208 -72.3063465472242,-35.9575394443484 -72.3070341496772,-35.958624647077 -72.3071632022599,-35.9588371935279 -72.3077103896697,-35.9597383866861 -72.307996219948,-35.9600667323374 -72.3080558236842,-35.9600066654809 -72.3083191352751,-35.9597025693775 -72.3085780737671,-35.9594192401332 -72.30867656414,-35.9593260636477 -72.30877709984,-35.9592806266009 -72.3087999921324,-35.9592543125319 -72.3088159613512,-35.959215919749 -72.308869244616,-35.9591583933329 -72.3089032274537,-35.9591293472859 -72.3089823887483,-35.9590655456634 -72.3090213506234,-35.9589978604465 -72.3090631664053,-35.9589540863394 -72.3091538237438,-35.9588756384068 -72.3091691857389,-35.9588551173434 -72.3091721179095,-35.9587687387363 -72.309187581611,-35.9587452393304 -72.3092027412225,-35.9587306749159 -72.3092183054923,-35.9587041962961 -72.3093089624012,-35.9586257482664 -72.3093327631421,-35.9585726274257 -72.3093427188284,-35.9584953491913 -72.3093504263198,-35.9583762881203 -72.30936639516,-35.9583378961826 -72.3094174595384,-35.9582376928766 -72.3096317948191,-35.957863935226 -72.3096565049646,-35.9577840076224 -72.309665550482,-35.957733536091 -72.3096666625774,-35.9577007718227 -72.3096677746731,-35.9576680075543 -72.3096566945933,-35.9574543318942 -72.3096755947854,-35.9573295604232 -72.3096834024071,-35.9572075210331 -72.3097168549029,-35.9570860577534 -72.3097817377422,-35.9569027012643 -72.3098586478606,-35.9567971163717 -72.3099811357081,-35.9566448605674 -72.3100608994154,-35.9565631857625 -72.3100884640192,-35.956507168261 -72.3101672921434,-35.9563449905958 -72.3102126696736,-35.9563042762415 -72.3102429876673,-35.9562751481105 -72.3103546109921,-35.956226977844 -72.3104068096605,-35.9562013203925 -72.3105108013742,-35.9561619214584 -72.3105926115837,-35.9561279857644 -72.3107384175682,-35.9560448111675 -72.3108736370003,-35.95594947515 -72.3109288918872,-35.955941771901 -72.3109979928693,-35.955958225803 -72.31104094444,-35.9559889972313 -72.3111059778821,-35.9560172826083 -72.3112245116675,-35.9560027148749 -72.3111559153997,-35.955723180204 -72.3111237638094,-35.9556065455005 -72.3108661463569,-35.9556623124482 -72.3102000919646,-35.9558429193961</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZM2</SimpleData>
+		<SimpleData name="NOM">ZM2 Zona mixta residencial, comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2987918611366,-35.9575281248109 -72.2983244004531,-35.9575605189625 -72.2943040643221,-35.9575342682326 -72.2945253862146,-35.9587840527256 -72.2979913651812,-35.9588121167272 -72.2985849247721,-35.9587484415163 -72.2985077404449,-35.9586894710948 -72.2985090798632,-35.9586501547296 -72.2984911841044,-35.9578842753324 -72.2982503411591,-35.9577673193406 -72.2990330353791,-35.9577432653139 -72.2990351759334,-35.9577880260862 -72.2990366073037,-35.9578536369764 -72.2990348825844,-35.9579042722715 -72.2990337660468,-35.9579370357708 -72.2989993735956,-35.9579779925355 -72.2989538880227,-35.958021680406 -72.2989271273337,-35.9580538672712 -72.2988961636117,-35.958088768658 -72.2996330427061,-35.9584608488622 -72.3000270171321,-35.9586485682314 -72.3002205897623,-35.9587781211234 -72.3004692451035,-35.958969722225 -72.3007092309617,-35.9591575505321 -72.3010463700251,-35.9592831797143 -72.3010481954514,-35.9592295661154 -72.3010521965688,-35.9589828429229 -72.3019349867523,-35.9588989743337 -72.3020044761189,-35.9589255766777 -72.3042140052116,-35.958588949689 -72.3050058420858,-35.9597048838185 -72.3069907633556,-35.9589088793105 -72.3071632022599,-35.9588371935279 -72.3070341496772,-35.958624647077 -72.3063465472242,-35.9575394443484 -72.3075069902086,-35.9574581924208 -72.3075658492218,-35.9574523602291 -72.3075987359381,-35.9574340213975 -72.3076323512287,-35.9573942362608 -72.3076333223757,-35.9573656427085 -72.3076200431841,-35.9573248048676 -72.3075985393568,-35.9572670904759 -72.3075587041941,-35.9571445777662 -72.3074517821591,-35.9568383711946 -72.3075252958062,-35.9568328673472 -72.3076879471009,-35.9567935952002 -72.3077684539813,-35.9567548627871 -72.3078225037767,-35.9567179218603 -72.3078896512425,-35.9566407345483 -72.3079992064457,-35.9565239609147 -72.3081738851869,-35.9563895707768 -72.3083454710777,-35.9562598804394 -72.3084887380105,-35.9561867865529 -72.3086018885147,-35.9561368636048 -72.3089396713196,-35.9560793421057 -72.3096323687246,-35.9559780341558 -72.3102000919646,-35.9558429193961 -72.3108661463569,-35.9556623124482 -72.3111237638094,-35.9556065455005 -72.3110440711468,-35.9553174471272 -72.3109595431728,-35.9552153955873 -72.3107602303707,-35.9551250782821 -72.3106385936428,-35.9550794266595 -72.3103227995545,-35.9550508824462 -72.3101538058387,-35.9551043250416 -72.3087974572436,-35.9555317526178 -72.3055144733897,-35.9565955242531 -72.30461769303,-35.9568329164645 -72.3034947347439,-35.9569936766082 -72.3019805384859,-35.9571706637883 -72.2998425457794,-35.9574230134658 -72.2987918611366,-35.9575281248109</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZR2</SimpleData>
+		<SimpleData name="NOM">ZR2 Zona de riesgo por infraestructura peligrosa</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3041167438177,-35.9653991934608 -72.3041143273071,-35.9654601080595 -72.3041337476484,-35.9654417384719 -72.3041168472797,-35.9653996276577 -72.3041167438177,-35.9653991934608</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.76">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZR2</SimpleData>
+		<SimpleData name="NOM">ZR2 Zona de riesgo por infraestructura peligrosa</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3052675214991,-35.9613091247786 -72.3042213955061,-35.9617100836634 -72.3039886727802,-35.961480693525 -72.3036633740361,-35.961730923303 -72.3007854186437,-35.9611415548761 -72.2994184683613,-35.9608554569382 -72.2994732975091,-35.9609339594691 -72.3035758436482,-35.9617861868824 -72.3032697260891,-35.9620071211123 -72.3032725524803,-35.9620102025979 -72.3038368399005,-35.9624950540421 -72.3040107288986,-35.96238449924 -72.3042712633154,-35.9641976956514 -72.3042988142225,-35.9643323888799 -72.3042929786851,-35.9645039530312 -72.3041739060435,-35.9656223653948 -72.304260862578,-35.9656347659484 -72.3043794525766,-35.9645488210788 -72.3043987949088,-35.9643250974878 -72.3043701315908,-35.964168095904 -72.3041012532353,-35.962310225447 -72.3045221280275,-35.9620096800819 -72.3042840288737,-35.96176586117 -72.3063762737635,-35.9609639344711 -72.3071783841942,-35.9606439614146 -72.3084309249072,-35.9601449104338 -72.3120704343768,-35.9586908128737 -72.3126087505677,-35.9584702003073 -72.3125889970583,-35.958396492164 -72.3093570180155,-35.9597188049706 -72.3072397680323,-35.9605326444761 -72.3052675214991,-35.9613091247786</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.77">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2979913651812,-35.9588121167272 -72.2994184683613,-35.9608554569382 -72.3007854186437,-35.9611415548761 -72.3036633740361,-35.961730923303 -72.3039886727802,-35.961480693525 -72.3042213955061,-35.9617100836634 -72.3052675214991,-35.9613091247786 -72.3072397680323,-35.9605326444761 -72.3073103692873,-35.9603971112394 -72.3075711131354,-35.9599528598557 -72.3077103896697,-35.9597383866861 -72.3071632022599,-35.9588371935279 -72.3069907633556,-35.9589088793105 -72.3050058420858,-35.9597048838185 -72.3042140052116,-35.958588949689 -72.3020044761189,-35.9589255766777 -72.3019349867523,-35.9588989743337 -72.3010521965688,-35.9589828429229 -72.3010481954514,-35.9592295661154 -72.3010463700251,-35.9592831797143 -72.3007092309617,-35.9591575505321 -72.3004692451035,-35.958969722225 -72.3002205897623,-35.9587781211234 -72.3000270171321,-35.9586485682314 -72.2996330427061,-35.9584608488622 -72.2988961636117,-35.958088768658 -72.2984911841044,-35.9578842753324 -72.2985090798632,-35.9586501547296 -72.2985077404449,-35.9586894710948 -72.2985849247721,-35.9587484415163 -72.2979913651812,-35.9588121167272</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.78">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2994732975091,-35.9609339594691 -72.3026269509997,-35.9654489704421 -72.3039730663768,-35.9655937231105 -72.3041143273071,-35.9654601080595 -72.3041167438177,-35.9653991934608 -72.3041104304945,-35.9653726561447 -72.3040929220123,-35.9653484153018 -72.3040796852948,-35.9653063864275 -72.304073673927,-35.9652675006932 -72.3040634927251,-35.9652434246411 -72.304042624211,-35.9652101668657 -72.3040145292469,-35.96517376507 -72.3040008872002,-35.9651436504007 -72.3039941669513,-35.9651256138508 -72.3040178732896,-35.9650754730089 -72.3040191903103,-35.9650367520393 -72.3040095153737,-35.9649977834465 -72.3039961367638,-35.9649599244002 -72.3039721109566,-35.9649116912204 -72.3039659988774,-35.9648757837886 -72.3039272167888,-35.9648301993288 -72.3038633943635,-35.9647661667744 -72.3038678688412,-35.9647424211917 -72.3038799751274,-35.9647099045162 -72.3038842468657,-35.9646921155929 -72.3037903889685,-35.9645409639853 -72.303784784343,-35.964490163071 -72.3037661450367,-35.9643913774951 -72.3037496494335,-35.9643373515106 -72.3038822571896,-35.9643194669608 -72.3040452911251,-35.9642694770818 -72.3041343378759,-35.9642386902025 -72.3042712633154,-35.9641976956514 -72.3040107288986,-35.96238449924 -72.3038368399005,-35.9624950540421 -72.3032725524803,-35.9620102025979 -72.3032697260891,-35.9620071211123 -72.3035758436482,-35.9617861868824 -72.2994732975091,-35.9609339594691</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.79">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3041012532353,-35.962310225447 -72.3043701315908,-35.964168095904 -72.3045047741139,-35.9641277839989 -72.3046522056948,-35.9638896508728 -72.3051597089658,-35.9642766408332 -72.3051829072296,-35.9642413923648 -72.3051967346005,-35.9641582404158 -72.3051982536615,-35.964113561902 -72.3051816564045,-35.9640625144743 -72.3051503019756,-35.9640141168433 -72.3050802661201,-35.9639171568074 -72.3050739510097,-35.9638872061071 -72.3050747615165,-35.9638633776765 -72.3051202466281,-35.9638196875176 -72.3051694970964,-35.9637731009186 -72.305248564112,-35.9637122806482 -72.3054107263952,-35.963579998265 -72.3055924625512,-35.9634111937524 -72.3057257584701,-35.9632651473895 -72.3057704143072,-35.9631379747533 -72.305793998896,-35.9629835021897 -72.3057780081608,-35.9629145831045 -72.3057399335232,-35.9628481500704 -72.3056634821659,-35.9627242179935 -72.3056400627945,-35.9626581134098 -72.305624478604,-35.9625772809454 -72.3055940356947,-35.9625020766605 -72.3055587137703,-35.9624625321993 -72.3055118954811,-35.9624376336203 -72.3054722015775,-35.962418856405 -72.3055554375935,-35.9623432253575 -72.3063626658496,-35.9616355271984 -72.3067184936119,-35.961306685979 -72.306850650259,-35.9610860913923 -72.3069537188191,-35.9609661921704 -72.3070379632012,-35.9608607733861 -72.3071186457792,-35.9607522943436 -72.3071783841942,-35.9606439614146 -72.3063762737635,-35.9609639344711 -72.3042840288737,-35.96176586117 -72.3045221280275,-35.9620096800819 -72.3041012532353,-35.962310225447</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.80">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">ZR1 Zona de riesgo por inundación</SimpleData>
+		<SimpleData name="UPERM">Sólo se permitirá el uso de área verde y los usos complementarios al área verde.</SimpleData>
+		<SimpleData name="UPROH">Edificaciones e instalaciones que impliquen la permanencia de personas.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3069537188191,-35.9609661921704 -72.306850650259,-35.9610860913923 -72.3067184936119,-35.961306685979 -72.3063626658496,-35.9616355271984 -72.3055554375935,-35.9623432253575 -72.3054722015775,-35.962418856405 -72.3055118954811,-35.9624376336203 -72.3055587137703,-35.9624625321993 -72.3055940356947,-35.9625020766605 -72.305624478604,-35.9625772809454 -72.3056400627945,-35.9626581134098 -72.3056634821659,-35.9627242179935 -72.3057399335232,-35.9628481500704 -72.3057780081608,-35.9629145831045 -72.305793998896,-35.9629835021897 -72.3057704143072,-35.9631379747533 -72.3057257584701,-35.9632651473895 -72.3055924625512,-35.9634111937524 -72.3054107263952,-35.963579998265 -72.305248564112,-35.9637122806482 -72.3051694970964,-35.9637731009186 -72.3051202466281,-35.9638196875176 -72.3050747615165,-35.9638633776765 -72.3050739510097,-35.9638872061071 -72.3050802661201,-35.9639171568074 -72.3051503019756,-35.9640141168433 -72.3051816564045,-35.9640625144743 -72.3051982536615,-35.964113561902 -72.3051967346005,-35.9641582404158 -72.3051829072296,-35.9642413923648 -72.3051597089658,-35.9642766408332 -72.3046522056948,-35.9638896508728 -72.3045047741139,-35.9641277839989 -72.3043701315908,-35.964168095904 -72.3043987949088,-35.9643250974878 -72.3043794525766,-35.9645488210788 -72.304260862578,-35.9656347659484 -72.3042620234407,-35.9656349321982 -72.3046859073635,-35.9656953808388 -72.30505450019,-35.9657251270923 -72.3054534779551,-35.965741247294 -72.3059815686228,-35.9657388042491 -72.306299832172,-35.9656958761617 -72.3067006375676,-35.9655546449414 -72.30703352333,-35.9653403472892 -72.3072616156731,-35.9651022332325 -72.3074869833639,-35.9651771267962 -72.3076739894358,-35.9648750533775 -72.308126889549,-35.9639771400567 -72.308871052978,-35.9624485796814 -72.3090584019231,-35.9621141613775 -72.3092047531603,-35.9619505186336 -72.3093444321305,-35.9618105722081 -72.3097521066569,-35.9615526363758 -72.3099893351378,-35.9614768786654 -72.3103278138147,-35.9613865801493 -72.310478021186,-35.9613684871867 -72.3106897800835,-35.9613517742221 -72.3109103313032,-35.9613352577988 -72.3111705233974,-35.9613304799304 -72.3111814986863,-35.9612663407472 -72.311228857801,-35.9611672465176 -72.3113189703302,-35.9611048800444 -72.3114689347272,-35.9610939349197 -72.3116526170886,-35.9611266685632 -72.3117315112349,-35.9611355909736 -72.3118548539747,-35.9611312021093 -72.3119438743009,-35.9611010041368 -72.3121317987745,-35.9610086376849 -72.3121846776022,-35.9610062457994 -72.3123017737656,-35.9609265991296 -72.312509982335,-35.9608847638706 -72.3126117071953,-35.9608691586841 -72.3127529994236,-35.9608544397757 -72.3129071177233,-35.9608507393966 -72.3130120269473,-35.9608709747942 -72.313155898689,-35.9609099680188 -72.3132117200294,-35.960950565628 -72.3132946456184,-35.9610013195417 -72.3128120699438,-35.9592288235327 -72.3126087505677,-35.9584702003073 -72.3120704343768,-35.9586908128737 -72.3084309249072,-35.9601449104338 -72.3071783841942,-35.9606439614146 -72.3071186457792,-35.9607522943436 -72.3070379632012,-35.9608607733861 -72.3069537188191,-35.9609661921704</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.81">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">ZR1 Zona de riesgo por inundación</SimpleData>
+		<SimpleData name="UPERM">Sólo se permitirá el uso de área verde y los usos complementarios al área verde.</SimpleData>
+		<SimpleData name="UPROH">Edificaciones e instalaciones que impliquen la permanencia de personas.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3112245116675,-35.9560027148749 -72.3111059778821,-35.9560172826083 -72.31104094444,-35.9559889972313 -72.3109979928693,-35.955958225803 -72.3109288918872,-35.955941771901 -72.3108736370003,-35.95594947515 -72.3107384175682,-35.9560448111675 -72.3105926115837,-35.9561279857644 -72.3105108013742,-35.9561619214584 -72.3104068096605,-35.9562013203925 -72.3103546109921,-35.956226977844 -72.3102429876673,-35.9562751481105 -72.3102126696736,-35.9563042762415 -72.3101672921434,-35.9563449905958 -72.3100884640192,-35.956507168261 -72.3100608994154,-35.9565631857625 -72.3099811357081,-35.9566448605674 -72.3098586478606,-35.9567971163717 -72.3097817377422,-35.9569027012643 -72.3097168549029,-35.9570860577534 -72.3096834024071,-35.9572075210331 -72.3096755947854,-35.9573295604232 -72.3096566945933,-35.9574543318942 -72.3096677746731,-35.9576680075543 -72.3096666625774,-35.9577007718227 -72.309665550482,-35.957733536091 -72.3096565049646,-35.9577840076224 -72.3096317948191,-35.957863935226 -72.3094174595384,-35.9582376928766 -72.30936639516,-35.9583378961826 -72.3093504263198,-35.9583762881203 -72.3093427188284,-35.9584953491913 -72.3093327631421,-35.9585726274257 -72.3093089624012,-35.9586257482664 -72.3092183054923,-35.9587041962961 -72.3092027412225,-35.9587306749159 -72.309187581611,-35.9587452393304 -72.3091721179095,-35.9587687387363 -72.3091691857389,-35.9588551173434 -72.3091538237438,-35.9588756384068 -72.3090631664053,-35.9589540863394 -72.3090213506234,-35.9589978604465 -72.3089823887483,-35.9590655456634 -72.3089032274537,-35.9591293472859 -72.308869244616,-35.9591583933329 -72.3088159613512,-35.959215919749 -72.3087999921324,-35.9592543125319 -72.30877709984,-35.9592806266009 -72.30867656414,-35.9593260636477 -72.3085780737671,-35.9594192401332 -72.3083191352751,-35.9597025693775 -72.3080558236842,-35.9600066654809 -72.307996219948,-35.9600667323374 -72.3077103896697,-35.9597383866861 -72.3075711131354,-35.9599528598557 -72.3073103692873,-35.9603971112394 -72.3072397680323,-35.9605326444761 -72.3093570180155,-35.9597188049706 -72.3125889970583,-35.958396492164 -72.3119137928222,-35.9558770711253 -72.3118175771764,-35.9558990971212 -72.31165385779,-35.9559699483614 -72.3115545398704,-35.9559796449763 -72.3114845295942,-35.9559899990063 -72.311249561247,-35.9559996359041 -72.3112245116675,-35.9560027148749</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.82">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">ZR1 Zona de riesgo por inundación</SimpleData>
+		<SimpleData name="UPERM">Sólo se permitirá el uso de área verde y los usos complementarios al área verde.</SimpleData>
+		<SimpleData name="UPROH">Edificaciones e instalaciones que impliquen la permanencia de personas.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3039730663768,-35.9655937231105 -72.3041739060435,-35.9656223653948 -72.3042929786851,-35.9645039530312 -72.3042988142225,-35.9643323888799 -72.3042712633154,-35.9641976956514 -72.3041343378759,-35.9642386902025 -72.3040452911251,-35.9642694770818 -72.3038822571896,-35.9643194669608 -72.3037496494335,-35.9643373515106 -72.3037661450367,-35.9643913774951 -72.303784784343,-35.964490163071 -72.3037903889685,-35.9645409639853 -72.3038842468657,-35.9646921155929 -72.3038799751274,-35.9647099045162 -72.3038678688412,-35.9647424211917 -72.3038633943635,-35.9647661667744 -72.3039272167888,-35.9648301993288 -72.3039659988774,-35.9648757837886 -72.3039721109566,-35.9649116912204 -72.3039961367638,-35.9649599244002 -72.3040095153737,-35.9649977834465 -72.3040191903103,-35.9650367520393 -72.3040178732896,-35.9650754730089 -72.3039941669513,-35.9651256138508 -72.3040008872002,-35.9651436504007 -72.3040145292469,-35.96517376507 -72.304042624211,-35.9652101668657 -72.3040634927251,-35.9652434246411 -72.304073673927,-35.9652675006932 -72.3040796852948,-35.9653063864275 -72.3040929220123,-35.9653484153018 -72.3041104304945,-35.9653726561447 -72.3041167438177,-35.9653991934608 -72.3041168472797,-35.9653996276577 -72.3041337476484,-35.9654417384719 -72.3041143273071,-35.9654601080595 -72.3039730663768,-35.9655937231105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.83">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Cauquenes</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área Verde</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.2984911841044,-35.9578842753324 -72.2988961636117,-35.958088768658 -72.2989271273337,-35.9580538672712 -72.2989538880227,-35.958021680406 -72.2989993735956,-35.9579779925355 -72.2990337660468,-35.9579370357708 -72.2990348825844,-35.9579042722715 -72.2990366073037,-35.9578536369764 -72.2990351759334,-35.9577880260862 -72.2990330353791,-35.9577432653139 -72.2982503411591,-35.9577673193406 -72.2984911841044,-35.9578842753324</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.84">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZM1</SimpleData>
+		<SimpleData name="NOM">ZM1 Zona mixta comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.362806846551,-35.963901844759 -72.3608988355329,-35.964558586772 -72.3606312750845,-35.9640488121611 -72.360038922264,-35.9642193949942 -72.35997991179,-35.9642561313254 -72.3579202487057,-35.9649293992199 -72.3550914894096,-35.9658596714666 -72.354955935328,-35.9658837298707 -72.3549610050638,-35.9659196299417 -72.3539836775889,-35.9661103069207 -72.3539934137017,-35.966170139001 -72.3536711959429,-35.966217877339 -72.3535797697361,-35.9662325525757 -72.3528278532895,-35.966420093644 -72.3525672402822,-35.9664880192371 -72.350798108709,-35.9669348297959 -72.3499044601166,-35.9671774000462 -72.3496750936233,-35.967237910386 -72.349446922245,-35.9672626755835 -72.3487503514812,-35.967339468099 -72.3486980498011,-35.9675069459167 -72.3486726772729,-35.9676077338614 -72.3486032337762,-35.9677105288559 -72.3484600099107,-35.9678265966231 -72.348407317548,-35.967867163609 -72.3484022574198,-35.9679087834452 -72.3484032056729,-35.9679992121272 -72.349397734811,-35.9679338322681 -72.3497647166794,-35.9678811335317 -72.3512598817519,-35.96751354009 -72.351550275071,-35.9691991486192 -72.3517861053439,-35.9691356630751 -72.3529463476344,-35.9688472030159 -72.3530827017541,-35.968916878393 -72.3532271809294,-35.9689826650678 -72.3533365102482,-35.9690029634314 -72.3535131881622,-35.9689830159962 -72.3535773707995,-35.9689277957712 -72.3536498754608,-35.968842950944 -72.3537056335959,-35.9688203344799 -72.3537614928368,-35.9687947396738 -72.3539943425284,-35.9686299684149 -72.3540479290259,-35.9685625910149 -72.3541228042719,-35.9685165492555 -72.3541937168441,-35.9684793627771 -72.3542580963722,-35.96841818482 -72.3544172623951,-35.9682637109201 -72.35450848396,-35.9681673553921 -72.354620895254,-35.9680953136321 -72.3546679169304,-35.9680920494211 -72.3547842185318,-35.9681018966414 -72.3550996221111,-35.9682102029814 -72.3552196451982,-35.9682396782527 -72.3552670810041,-35.9682466866541 -72.3553402647708,-35.9682512810816 -72.3555139729043,-35.9682103989381 -72.3555431298483,-35.9682012690056 -72.3551629019777,-35.967662046917 -72.3548274901269,-35.9670942463827 -72.3550685991539,-35.9669893915526 -72.3550473106648,-35.9669417046895 -72.3552492494207,-35.9668502947833 -72.3553208086646,-35.9668156253206 -72.3560029743469,-35.9672599126771 -72.3560975954767,-35.9673077845117 -72.3562525316209,-35.9671023018941 -72.3563897757952,-35.9668573193453 -72.3564685336806,-35.9667827453558 -72.3574290808494,-35.9664795973702 -72.3587811550369,-35.9660467540134 -72.3626799603363,-35.9647601684234 -72.363229572363,-35.9645516697002 -72.3633054292293,-35.9644758346459 -72.3641711561098,-35.9641666119553 -72.3639469460061,-35.9635248814038 -72.362806846551,-35.963901844759</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3544506661366,-35.9667504075158 -72.354562035398,-35.9670390273579 -72.3530640378173,-35.9674262733867 -72.3529842693489,-35.9671278542251 -72.3544506661366,-35.9667504075158</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.85">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZI</SimpleData>
+		<SimpleData name="NOM">ZI Zona Industrial</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador; equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3597817432483,-35.9633981675639 -72.360038922264,-35.9642193949942 -72.3606312750845,-35.9640488121611 -72.3608988355329,-35.964558586772 -72.362806846551,-35.963901844759 -72.3639469460061,-35.9635248814038 -72.3634690527582,-35.9621570289998 -72.3612313273364,-35.9629037103621 -72.3602847258023,-35.9632316323585 -72.3597817432483,-35.9633981675639</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.86">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZH2</SimpleData>
+		<SimpleData name="NOM">ZH2 Zona Habitacional 2</SimpleData>
+		<SimpleData name="UPERM">Residencial y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3570210330452,-35.9625486781661 -72.3569810247015,-35.9625640083054 -72.3566403826409,-35.9625283645511 -72.3565859198718,-35.962512260157 -72.3564976880618,-35.9625192579574 -72.356383013965,-35.9625495194868 -72.3562651715675,-35.9625648065497 -72.3561440632319,-35.9625680982576 -72.3560409766133,-35.962580729992 -72.3558161862853,-35.9626145253139 -72.3557227556263,-35.962612464982 -72.3556095715547,-35.9625980463399 -72.3554917299821,-35.9626133326224 -72.3553803211006,-35.962655589384 -72.3552352413957,-35.96271796878 -72.3551078843091,-35.9627986240343 -72.3549966748949,-35.9628349229878 -72.3548743728178,-35.9628739572006 -72.3547891082927,-35.9629018847578 -72.3547240378817,-35.9629839142756 -72.3547179879752,-35.9630553214032 -72.3547265940857,-35.963127051875 -72.3546991100749,-35.9631716441711 -72.3545907156449,-35.9632432896015 -72.3543905756466,-35.9633074341433 -72.3540847772434,-35.963351362586 -72.3539030549584,-35.9634129319293 -72.353761836138,-35.9634694335178 -72.3533900715224,-35.9638087979779 -72.3532433961744,-35.9639188338242 -72.3531760526884,-35.9639590791437 -72.3530946326698,-35.9640914213101 -72.3529961681706,-35.9642949274568 -72.3529435620274,-35.9644428098154 -72.3529069049665,-35.9645522927697 -72.352838465691,-35.9646253034605 -72.3527756634254,-35.9647491137404 -72.3527621834953,-35.9648233373582 -72.3527459361414,-35.9648706724384 -72.3526969927493,-35.9650186351794 -72.3526870284181,-35.9650974084231 -72.3527426677085,-35.9651880626463 -72.3528040432849,-35.9653265372913 -72.3528938370805,-35.9654924670294 -72.3529018438606,-35.9655820691528 -72.3529138971315,-35.9657701295146 -72.352947115062,-35.9658734046543 -72.3529558190498,-35.9659421570368 -72.3529616542989,-35.9659869983151 -72.3529740229983,-35.9660558311112 -72.3529568795571,-35.9661299742918 -72.3528946723493,-35.966235912354 -72.3528278532895,-35.966420093644 -72.3535797697361,-35.9662325525757 -72.3536711959429,-35.966217877339 -72.3539934137017,-35.966170139001 -72.3539836775889,-35.9661103069207 -72.3549610050638,-35.9659196299417 -72.3548115292683,-35.9648611065792 -72.3548412507976,-35.9647616051482 -72.3547968209285,-35.9643789556835 -72.3561920700697,-35.9641020974751 -72.3571951092831,-35.963777233118 -72.3593751374642,-35.9630561917762 -72.3596589943473,-35.9629883968631 -72.3597817432483,-35.9633981675639 -72.3602847258023,-35.9632316323585 -72.3600144068906,-35.9623604328387 -72.3596804207834,-35.9623509030517 -72.3595712970667,-35.9623246535571 -72.3594501969647,-35.9622176562997 -72.3593292957526,-35.9621047023669 -72.359173334719,-35.9620535741357 -72.3590035134195,-35.9619782939905 -72.3587584374421,-35.9618506803861 -72.3585984167078,-35.9618113859489 -72.3583378826591,-35.9618175706548 -72.3580038186225,-35.9618847332097 -72.3578629020677,-35.9619323036859 -72.3576759337592,-35.9620414567345 -72.3574881703169,-35.9621744401699 -72.3573678470402,-35.9622641957644 -72.3572631716346,-35.9623244871306 -72.3571309618704,-35.9624408087064 -72.3570210330452,-35.9625486781661</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.87">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">ZE1 Zona de equipamiento público y privado</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador,  y equipamiento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3549191074835,-35.9650611704947 -72.3550260772648,-35.9658712812576 -72.3550914894096,-35.9658596714666 -72.3565812886835,-35.9653697446576 -72.3564138736011,-35.9647692166262 -72.3549191074835,-35.9650611704947</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.88">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3575280863922,-35.9641762567972 -72.3576345294626,-35.9645029207023 -72.3580790569562,-35.9643672487581 -72.3580861907799,-35.964329250694 -72.3580013680518,-35.9640579111321 -72.3579552340963,-35.9640442702157 -72.3575280863922,-35.9641762567972</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.89">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZM2</SimpleData>
+		<SimpleData name="NOM">ZM2 Zona mixta residencial, comercio y servicios</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas tales como: industrias, talleres artesanales clasificados como inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros, clasificados como inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3571951092831,-35.963777233118 -72.3561920700697,-35.9641020974751 -72.3547968209285,-35.9643789556835 -72.3548412507976,-35.9647616051482 -72.3548115292683,-35.9648611065792 -72.354955935328,-35.9658837298707 -72.3550260772648,-35.9658712812576 -72.3549191074835,-35.9650611704947 -72.3564138736011,-35.9647692166262 -72.3565812886835,-35.9653697446576 -72.3579202487057,-35.9649293992199 -72.35997991179,-35.9642561313254 -72.360038922264,-35.9642193949942 -72.3597817432483,-35.9633981675639 -72.3596589943473,-35.9629883968631 -72.3593751374642,-35.9630561917762 -72.3571951092831,-35.963777233118</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.3580790569562,-35.9643672487581 -72.3576345294626,-35.9645029207023 -72.3575280863922,-35.9641762567972 -72.3579552340963,-35.9640442702157 -72.3580013680518,-35.9640579111321 -72.3580861907799,-35.964329250694 -72.3580790569562,-35.9643672487581</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.90">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZAV</SimpleData>
+		<SimpleData name="NOM">ZAV Área Verde</SimpleData>
+		<SimpleData name="UPERM">Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3529842693489,-35.9671278542251 -72.3530640378173,-35.9674262733867 -72.354562035398,-35.9670390273579 -72.3544506661366,-35.9667504075158 -72.3529842693489,-35.9671278542251</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.91">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZAP</SimpleData>
+		<SimpleData name="NOM">ZAP Zona de Actividades productivas</SimpleData>
+		<SimpleData name="UPERM">Residencial, sólo la vivienda del cuidador; equipamiento y actividades productivas tales como: industrias, talleres artesanales inofensivos, bodegaje, depósitos de vehículos o maquinarias, entre otros  inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3484032056729,-35.9679992121272 -72.348404050944,-35.9680798881768 -72.3491706114965,-35.9680337452928 -72.3496167530375,-35.969611864657 -72.3499708405288,-35.9695784597314 -72.3503543102817,-35.9695153931137 -72.351131167023,-35.9693119721634 -72.351550275071,-35.9691991486192 -72.3512598817519,-35.96751354009 -72.3497647166794,-35.9678811335317 -72.349397734811,-35.9679338322681 -72.3484032056729,-35.9679992121272</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.92">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Maule</SimpleData>
+		<SimpleData name="COM">Cauquenes</SimpleData>
+		<SimpleData name="LOC">Santa Sofía</SimpleData>
+		<SimpleData name="ZONA">ZH1</SimpleData>
+		<SimpleData name="NOM">ZH1 Zona Habitacional 1</SimpleData>
+		<SimpleData name="UPERM">Residencial, equipamiento y actividades productivas.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">04/09/2009</SimpleData>
+		<SimpleData name="N_DOC">500</SimpleData>
+		<SimpleData name="T_DO">Decreto</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.3562525316209,-35.9671023018941 -72.3560975954767,-35.9673077845117 -72.3560029743469,-35.9672599126771 -72.3553208086646,-35.9668156253206 -72.3552492494207,-35.9668502947833 -72.3550473106648,-35.9669417046895 -72.3550685991539,-35.9669893915526 -72.3548274901269,-35.9670942463827 -72.3551629019777,-35.967662046917 -72.3555431298483,-35.9682012690056 -72.3556029064058,-35.9681825518566 -72.3556653966719,-35.968177967509 -72.3557276881937,-35.9681793414674 -72.3557861161356,-35.9681865916059 -72.3560368572802,-35.9682547182296 -72.3561500496479,-35.9682691378218 -72.356323061188,-35.9682491051178 -72.3565840143754,-35.9682310105936 -72.3566717552135,-35.9682389064519 -72.3567553361939,-35.9682616150422 -72.3568730869759,-35.9682493062455 -72.3570052959939,-35.9682432777847 -72.3571270089295,-35.9682221133431 -72.3574197581696,-35.9681301964493 -72.3575458302468,-35.9680882613195 -72.3576929048446,-35.9679663061748 -72.3580159001028,-35.9681027682005 -72.3582731514151,-35.9677028502772 -72.3575177075016,-35.9674158164035 -72.3581201159115,-35.9672397426106 -72.3603371727661,-35.9665105580363 -72.3619650574413,-35.9659651109607 -72.3644813514704,-35.9650544323732 -72.3641711561098,-35.9641666119553 -72.3633054292293,-35.9644758346459 -72.363229572363,-35.9645516697002 -72.3626799603363,-35.9647601684234 -72.3587811550369,-35.9660467540134 -72.3574290808494,-35.9664795973702 -72.3564685336806,-35.9667827453558 -72.3563897757952,-35.9668573193453 -72.3562525316209,-35.9671023018941</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-6</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento: servicio, comercio, deportivo y áreas verdes. Actividad productiva: industria, almacenamiento y talleres infofensivos, establecimientos de impacto similar y talleres artesanales. Mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9478876967264,-40.3483149240249 -72.9476257270626,-40.3483245747267 -72.9470270640882,-40.3483425477392 -72.9473152064465,-40.3499350437216 -72.9474955381253,-40.3508677505395 -72.9497041694562,-40.3493036958724 -72.9510166246309,-40.348394392393 -72.951881616675,-40.3477806175634 -72.9527764062004,-40.3472350402239 -72.9539992534564,-40.3469167725368 -72.9542080168703,-40.3464394082026 -72.9540030300854,-40.3461695689302 -72.9532101511832,-40.3459924464878 -72.9529325372789,-40.3459017278323 -72.9515693730142,-40.3464782150698 -72.9509824844132,-40.3467252284955 -72.9500797500623,-40.3469094369301 -72.9491557324532,-40.3471790645805 -72.9487143770977,-40.3475573542985 -72.9483803374863,-40.3480948553136 -72.9482265564575,-40.3482351339496 -72.9478876967264,-40.3483149240249</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOM">Área especial. Protección de cauces naturales de agua</SimpleData>
+		<SimpleData name="UPERM">Se permitirá exclusivamente el quipamiento para zonas de picnic y área verde comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9718066661025,-40.334726128707 -72.9690039050888,-40.3352903539898 -72.9672947889994,-40.3355749376413 -72.9666002761031,-40.3356771320566 -72.9662937031574,-40.3359291542084 -72.9654134741651,-40.3366144067001 -72.9646113776642,-40.3371866220084 -72.9636081048672,-40.3376122802699 -72.9628871467565,-40.3379714002314 -72.9627125893601,-40.338182836524 -72.9622834701798,-40.3390905234343 -72.9621432535796,-40.3394026691325 -72.9619903813126,-40.3395143808063 -72.9596575624883,-40.3406459012067 -72.9581955598126,-40.3414066338348 -72.9581787475821,-40.3419640661454 -72.9551260195482,-40.3434116944341 -72.9544012311841,-40.3435847830991 -72.9521396695545,-40.3435876512827 -72.9518356023566,-40.3437538737324 -72.9497640591635,-40.3455047502695 -72.9490334179489,-40.3461782270699 -72.9485173467624,-40.3465551912476 -72.9475911601262,-40.3468962720222 -72.9468947710641,-40.3470555163607 -72.946652788294,-40.3470226174181 -72.9457339349617,-40.3465057699486 -72.9450111071884,-40.3459351959126 -72.9443729190098,-40.3454090246809 -72.9441322468996,-40.3453332422557 -72.9437764539062,-40.3453555165191 -72.9430092606191,-40.3453847719375 -72.9426530325446,-40.3454213353654 -72.9418719385312,-40.3452930278009 -72.9412902440783,-40.3453684760789 -72.940588638839,-40.3456991981498 -72.940156584293,-40.3457367553154 -72.9402872906027,-40.3460499579142 -72.9409435334048,-40.3457999762627 -72.941659400144,-40.3455954596191 -72.9423155670786,-40.3456864391935 -72.9431805311485,-40.3456410456014 -72.9437770435656,-40.345686550867 -72.9443138799296,-40.3459138980531 -72.9447611936911,-40.346573124569 -72.94517870443,-40.347073230128 -72.9458050010947,-40.3475506114556 -72.9464611376075,-40.34793706841 -72.9463715479906,-40.3491872745369 -72.9463118466808,-40.3496873594508 -72.9464907644997,-40.3501647230485 -72.9467591757083,-40.3505057044309 -72.9472363656757,-40.3510512775297 -72.9474955381253,-40.3508677505395 -72.9473152064465,-40.3499350437216 -72.9470270640882,-40.3483425477392 -72.9476257270626,-40.3483245747267 -72.9478876967264,-40.3483149240249 -72.9482265564575,-40.3482351339496 -72.9483803374863,-40.3480948553136 -72.9487143770977,-40.3475573542985 -72.9491557324532,-40.3471790645805 -72.9500797500623,-40.3469094369301 -72.9509824844132,-40.3467252284955 -72.9515693730142,-40.3464782150698 -72.9529325372789,-40.3459017278323 -72.9532101511832,-40.3459924464878 -72.9540030300854,-40.3461695689302 -72.9538799314482,-40.3460075236534 -72.9536822573325,-40.3457768822612 -72.9546001669957,-40.3458486005267 -72.9550473442147,-40.3456153892888 -72.955470978962,-40.3453463013337 -72.9555651117572,-40.3451131058804 -72.9558004532851,-40.344808152493 -72.9559887169141,-40.3444314530862 -72.9560828383442,-40.3440906360229 -72.956200494596,-40.343767753639 -72.9563181433333,-40.343337248898 -72.9565534741556,-40.3431040505507 -72.9568829467437,-40.3429784736242 -72.9570947634067,-40.3430681503284 -72.9573771856905,-40.3431936978724 -72.9577772787227,-40.3433013008508 -72.9580832365099,-40.343408908375 -72.9584362567355,-40.3434627000273 -72.9587892457039,-40.3431936171111 -72.9590951368734,-40.3426913504827 -72.9596987867894,-40.3421890811441 -72.9601929761969,-40.3417585405668 -72.9606400813071,-40.3413100657283 -72.961440154898,-40.3406104376899 -72.9614872189251,-40.3405745581571 -72.9620755447803,-40.3403951337762 -72.9625226874779,-40.3403771563726 -72.96296983923,-40.3404309293852 -72.9633464081852,-40.34059233094 -72.9639112315486,-40.3406640232603 -72.9644524922685,-40.3405922170777 -72.9646642374711,-40.3403051950426 -72.9648288932389,-40.3399105549249 -72.9651347271512,-40.3394262097988 -72.9653934862927,-40.3389239296991 -72.9657228079583,-40.3382781400744 -72.9661227565789,-40.3377937756301 -72.966381497865,-40.3372735491639 -72.9667343522417,-40.3366994916921 -72.9669225495986,-40.336469677527 -72.9673695788733,-40.3360929116903 -72.9677931392773,-40.3360210999258 -72.9682873350988,-40.3361107218572 -72.9686874468384,-40.3363618004606 -72.9691346079053,-40.3365411202486 -72.969652344827,-40.3366307367782 -72.9701700274211,-40.3365230279128 -72.9704053050386,-40.3363615463351 -72.9708288141384,-40.3361103442316 -72.9711346513134,-40.335841221892 -72.971558146211,-40.3355720827178 -72.9719582287789,-40.3356796479103 -72.9723112126985,-40.3356795902371 -72.9726877778298,-40.3358230346348 -72.9731584908971,-40.3360023399382 -72.9736762552221,-40.3361278216763 -72.9744998750091,-40.3360379885123 -72.9748763347302,-40.3358585375231 -72.9749703718705,-40.3356073837056 -72.9750408338596,-40.3352486040616 -72.9750642485598,-40.3349436500079 -72.9747817322284,-40.3346028794063 -72.9744149356689,-40.3341662632613 -72.9729897000549,-40.3344879486027 -72.9718066661025,-40.334726128707</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-8</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento de esparcimiento, turismo y áreas verdes. Para mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9709751209812,-40.332252238053 -72.9718066661025,-40.334726128707 -72.9729897000549,-40.3344879486027 -72.9744149356689,-40.3341662632613 -72.9744050509583,-40.3341544961144 -72.9738635614471,-40.3334370785545 -72.9732043443793,-40.3324326878716 -72.9729782009387,-40.3321110879578 -72.9722104925403,-40.3321146541109 -72.9709751209812,-40.332252238053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">ZE-5</SimpleData>
+		<SimpleData name="NOM">Área especial. Área de equipamiento especial</SimpleData>
+		<SimpleData name="UPERM">Todas quellas instalaciones necesarias para el desarrollo de las actividades propias del Paperchasse y Club de Rodeo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9593518693146,-40.3301797125904 -72.959318042122,-40.3303586533828 -72.9592598497832,-40.3306664779948 -72.9606006167186,-40.3311310741473 -72.9618686025703,-40.3314275297174 -72.963039415517,-40.3316674398404 -72.9634680617036,-40.3317597627875 -72.9634134067546,-40.3296597401132 -72.9629531407987,-40.3295398697274 -72.9611868000562,-40.3292465577094 -72.9602352831364,-40.3293012801416 -72.9597032594512,-40.3293872327044 -72.9594821425689,-40.3294905863098 -72.9593836937978,-40.3300113708936 -72.9593680439249,-40.3300941535147 -72.9593518693146,-40.3301797125904</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-1</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, actividades productivas del tipo servicios artesanales y equipamiento de servicios, comercial, áreas verdes, esparcimiento y turismo. Para mayor detalle revisar la Ordenanza de dicho instrumento.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9538832761739,-40.3336008405428 -72.9539716108026,-40.3378926330134 -72.9596119927302,-40.3378016281051 -72.9594975480983,-40.3337395331614 -72.9588968283565,-40.3338909338272 -72.9586111900251,-40.3336803176971 -72.9594901911972,-40.3334784136876 -72.9594614997746,-40.3324600173026 -72.9579989562964,-40.3313854744329 -72.959318042122,-40.3303586533828 -72.9593518693146,-40.3301797125904 -72.9539977868783,-40.3296046096021 -72.9538832761739,-40.3336008405428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-4</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de salud, educación, cultura, áreas verdes, deportivo, esparcimiento, turismo, comercial y servicios. Actividades productivas referidas a servicios artesanales, almcenamiento inofensivo.Detalles en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.941855403632,-40.3356889353118 -72.938565318362,-40.3358766756083 -72.9388470892202,-40.3388020728666 -72.9391748702481,-40.3401659660439 -72.9395919751292,-40.3423936286566 -72.9397111037687,-40.3433256045794 -72.9400785837554,-40.345549844632 -72.940156584293,-40.3457367553154 -72.940588638839,-40.3456991981498 -72.9412902440783,-40.3453684760789 -72.9418719385312,-40.3452930278009 -72.9426530325446,-40.3454213353654 -72.9430092606191,-40.3453847719375 -72.9437764539062,-40.3453555165191 -72.9441322468996,-40.3453332422557 -72.9443729190098,-40.3454090246809 -72.9450111071884,-40.3459351959126 -72.9457339349617,-40.3465057699486 -72.946652788294,-40.3470226174181 -72.9468947710641,-40.3470555163607 -72.9475911601262,-40.3468962720222 -72.9485173467624,-40.3465551912476 -72.9490334179489,-40.3461782270699 -72.9497640591635,-40.3455047502695 -72.9518356023566,-40.3437538737324 -72.9521396695545,-40.3435876512827 -72.9519538507367,-40.3383884209987 -72.9469441434541,-40.3384282814081 -72.9465868933705,-40.335418780077 -72.941855403632,-40.3356889353118</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-72.9410231202665,-40.342393864436 -72.9408671019361,-40.3424180898868 -72.9395106282211,-40.338475523487 -72.9390096466513,-40.3369757421725 -72.9387601383712,-40.3362705582777 -72.9389844880626,-40.3362674077958 -72.9393908915558,-40.3374973641774 -72.9399190336963,-40.3390262288335 -72.9405183222177,-40.340828071924 -72.9410231202665,-40.342393864436</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">ZE-6</SimpleData>
+		<SimpleData name="NOM">Área especial. Restricción Aeródromo Choncomilla</SimpleData>
+		<SimpleData name="UPERM">Destinada a evitar los obstáculos físicos como cualquier otro que perjudique la aeronavegación y en la cual se ha de controlar los usos urbanos en beneficio y seguridad de la población. Para mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9395106282211,-40.338475523487 -72.9408671019361,-40.3424180898868 -72.9410231202665,-40.342393864436 -72.9405183222177,-40.340828071924 -72.9399190336963,-40.3390262288335 -72.9393908915558,-40.3374973641774 -72.9389844880626,-40.3362674077958 -72.9387601383712,-40.3362705582777 -72.9390096466513,-40.3369757421725 -72.9395106282211,-40.338475523487</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-7</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento de servicios, comercial y áreas verdes. Para mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9699749460092,-40.3314676440454 -72.9658232006714,-40.3323516802948 -72.966396297392,-40.33251307087 -72.9669344970331,-40.3326369423825 -72.9681867146159,-40.3326303509452 -72.9708792918581,-40.3322629104817 -72.9709751209812,-40.332252238053 -72.9722104925403,-40.3321146541109 -72.9729782009387,-40.3321110879578 -72.9728512169016,-40.3319304998736 -72.9727099183826,-40.3315717759635 -72.9724980642164,-40.331320690191 -72.9722627203515,-40.331195168542 -72.9715055104058,-40.3309621317618 -72.9704000847204,-40.3307054284957 -72.9700556218982,-40.3313737217883 -72.9699749460092,-40.3314676440454</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-7</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento de servicios, comercial y áreas verdes. Para mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9644133300343,-40.3319633508073 -72.9652936427,-40.3322052643937 -72.9686505826051,-40.3314920544445 -72.9697319930674,-40.3312607839134 -72.9698611463422,-40.3311081260339 -72.9700569773534,-40.3306257493453 -72.9695757587889,-40.3305139944709 -72.9670813502382,-40.330012098339 -72.9651282592918,-40.3296177186633 -72.963408960026,-40.3293044973351 -72.9634134067546,-40.3296597401132 -72.9634680617036,-40.3317597627875 -72.9644133300343,-40.3319633508073</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-5</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de servicios, seguridad, áreas verdes, deportivo, esparcimiento, turismo, comercial y servicios. Actividades productivas del tipo servicios artesanales. Para mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9658232006714,-40.3323516802948 -72.9630555721478,-40.3329518429558 -72.9630834967944,-40.3351719080531 -72.9630937113357,-40.3373172040207 -72.9628871467565,-40.3379714002314 -72.9636081048672,-40.3376122802699 -72.9646113776642,-40.3371866220084 -72.9654134741651,-40.3366144067001 -72.9662937031574,-40.3359291542084 -72.9666002761031,-40.3356771320566 -72.9672947889994,-40.3355749376413 -72.9690039050888,-40.3352903539898 -72.9718066661025,-40.334726128707 -72.9709751209812,-40.332252238053 -72.9708792918581,-40.3322629104817 -72.9681867146159,-40.3326303509452 -72.9669344970331,-40.3326369423825 -72.966396297392,-40.33251307087 -72.9658232006714,-40.3323516802948</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-5</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento de servicios, seguridad, áreas verdes, deportivo, esparcimiento, turismo, comercial y servicios. Actividades productivas del tipo servicios artesanales. Para mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.963039415517,-40.3316674398404 -72.9630518253025,-40.3326539519435 -72.9652936427,-40.3322052643937 -72.9644133300343,-40.3319633508073 -72.9634680617036,-40.3317597627875 -72.963039415517,-40.3316674398404</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento: servicio, seguridad, esparcimiento, turismo, comercio, educacional, deportivo y áreas verdes. Actividad productiva:industria, almacenamiento y talleres inofensivo, servicios artesanales. Detalles en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9422948375909,-40.331710527471 -72.941855403632,-40.3356889353118 -72.9465868933705,-40.335418780077 -72.9469441434541,-40.3384282814081 -72.9519538507367,-40.3383884209987 -72.9521396695545,-40.3435876512827 -72.9544012311841,-40.3435847830991 -72.9551260195482,-40.3434116944341 -72.9581787475821,-40.3419640661454 -72.9581955598126,-40.3414066338348 -72.9596575624883,-40.3406459012067 -72.9619903813126,-40.3395143808063 -72.9621432535796,-40.3394026691325 -72.9622834701798,-40.3390905234343 -72.9627125893601,-40.338182836524 -72.9628871467565,-40.3379714002314 -72.9630937113357,-40.3373172040207 -72.9630834967944,-40.3351719080531 -72.9630555721478,-40.3329518429558 -72.9594975480983,-40.3337395331614 -72.9596119927302,-40.3378016281051 -72.9539716108026,-40.3378926330134 -72.9538832761739,-40.3336008405428 -72.9504435772678,-40.3335399210239 -72.9505313651563,-40.3321829047913 -72.9422948375909,-40.331710527471</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-3</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento: servicio, seguridad, esparcimiento, turismo, comercio, educacional, deportivo y áreas verdes. Actividad productiva:industria, almacenamiento y talleres inofensivo, servicios artesanales. Detalles en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9594614997746,-40.3324600173026 -72.9594901911972,-40.3334784136876 -72.9630518253025,-40.3326539519435 -72.963039415517,-40.3316674398404 -72.9618686025703,-40.3314275297174 -72.9606006167186,-40.3311310741473 -72.9592598497832,-40.3306664779948 -72.959318042122,-40.3303586533828 -72.9579989562964,-40.3313854744329 -72.9594614997746,-40.3324600173026</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOM">Área especial. Protección de líneas de alta tensión</SimpleData>
+		<SimpleData name="UPERM">Protección de líneas de alta tensión, franja no edificable.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9586111900251,-40.3336803176971 -72.9588968283565,-40.3338909338272 -72.9594975480983,-40.3337395331614 -72.9630555721478,-40.3329518429558 -72.9658232006714,-40.3323516802948 -72.9699749460092,-40.3314676440454 -72.9700556218982,-40.3313737217883 -72.9704000847204,-40.3307054284957 -72.9700569773534,-40.3306257493453 -72.9698611463422,-40.3311081260339 -72.9697319930674,-40.3312607839134 -72.9686505826051,-40.3314920544445 -72.9652936427,-40.3322052643937 -72.9630518253025,-40.3326539519435 -72.9594901911972,-40.3334784136876 -72.9586111900251,-40.3336803176971</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-2</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento: servicios, esparcimiento, turismo, comercio, educacional, deportivo y áreas verdes. Act. prod.: establecimientos de impacto similar, serv. artesanales, talleres y almacenamiento inofensivo. Detalles en ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9403694061455,-40.3262197656289 -72.9422587301274,-40.3268948547083 -72.9428051212345,-40.3270900353032 -72.9424759685378,-40.330070531186 -72.9424576852332,-40.3302360722225 -72.9424368395248,-40.3304248231164 -72.9422948375909,-40.331710527471 -72.9505313651563,-40.3321829047913 -72.9504435772678,-40.3335399210239 -72.9538832761739,-40.3336008405428 -72.9539977868783,-40.3296046096021 -72.9593518693146,-40.3301797125904 -72.9593680439249,-40.3300941535147 -72.9593836937978,-40.3300113708936 -72.9594821425689,-40.3294905863098 -72.9597032594512,-40.3293872327044 -72.9602352831364,-40.3293012801416 -72.9611868000562,-40.3292465577094 -72.9629531407987,-40.3295398697274 -72.9634134067546,-40.3296597401132 -72.963408960026,-40.3293044973351 -72.9629634584538,-40.329223331381 -72.961575200212,-40.3290440839288 -72.9594340049456,-40.3288110607648 -72.9590369857125,-40.328728542484 -72.9586575221511,-40.3286496718078 -72.9581398657882,-40.3285241391683 -72.956963386458,-40.3283627567738 -72.9558810205185,-40.3282192951319 -72.9546574740624,-40.3281475731661 -72.9538574585174,-40.3281834590006 -72.9525162386755,-40.3283090265684 -72.9512220466493,-40.328416641295 -72.9504441261217,-40.3283987367837 -72.9491029629126,-40.3280040972995 -72.947832407422,-40.3277170666693 -72.9460912966209,-40.327340310808 -72.9446796158724,-40.3268917935079 -72.9430091528872,-40.3262459165958 -72.9423503902042,-40.3259229788891 -72.9416680749553,-40.3257973487004 -72.9412210418343,-40.3257076135326 -72.940908438799,-40.3255102579299 -72.9406698494989,-40.3257602919316 -72.9403715893966,-40.3262149054574 -72.9403694061455,-40.3262197656289</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Los Ríos</SimpleData>
+		<SimpleData name="COM">Río Bueno</SimpleData>
+		<SimpleData name="LOC">Río Bueno</SimpleData>
+		<SimpleData name="ZONA">Z-9</SimpleData>
+		<SimpleData name="NOM">Área consolidada y de extensión urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento: servicio, esparcimiento, turismo, comercio, deportivo y áreas verdes. Actividad productiva: establecimientos de impacto similar, industria, talleres y almacenamiento inofensivo. Mayor detalle revisar Ordenanza.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">11/03/1991</SimpleData>
+		<SimpleData name="N_DOC">3</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.9288250572284,-40.3401725732799 -72.9302576168534,-40.3413011924186 -72.9324948622897,-40.339551302712 -72.9328528225892,-40.3392103967432 -72.9335983914429,-40.3391423262907 -72.9347614787497,-40.3390288531482 -72.9360736444377,-40.3389835785727 -72.9388470892202,-40.3388020728666 -72.938565318362,-40.3358766756083 -72.941855403632,-40.3356889353118 -72.9422948375909,-40.331710527471 -72.9424368395248,-40.3304248231164 -72.9424576852332,-40.3302360722225 -72.9424759685378,-40.330070531186 -72.9428051212345,-40.3270900353032 -72.9422587301274,-40.3268948547083 -72.9403694061455,-40.3262197656289 -72.939625823732,-40.3278742419752 -72.9387606800224,-40.3300108805133 -72.9385220374409,-40.330488206961 -72.9380448780194,-40.3308063840083 -72.9376273773265,-40.3310109107615 -72.9370607774751,-40.3312608818885 -72.9366432608462,-40.3315335985735 -72.9361959268866,-40.3317835789804 -72.9352416073136,-40.3323062553839 -72.9347644524367,-40.3325334936075 -72.9338399786551,-40.3330047578794 -72.9327663042729,-40.3335729206417 -72.9318715544425,-40.3340956188323 -72.9313347195569,-40.3343455819387 -72.9307084800253,-40.334390931108 -72.9301418516705,-40.3345272154276 -72.9296646977023,-40.3346180496248 -72.9289787835404,-40.3347543037048 -72.9285016389892,-40.3347996678089 -72.9279350150632,-40.3348904726112 -72.9273385531074,-40.3350267330306 -72.9261754713492,-40.335185587139 -72.9256386532628,-40.3352763842115 -72.9250421795969,-40.3353898935105 -72.9244755315346,-40.3354806768112 -72.9232527101106,-40.3357758723819 -72.9248608663667,-40.3370491648692 -72.9285271916852,-40.3399378972819 -72.9286800266368,-40.3400583105097 -72.9288250572284,-40.3401725732799</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

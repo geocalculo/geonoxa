@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="monoparte" id="monoparte">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="LOC" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="P_DO" type="string"></SimpleField>
+	<SimpleField name="N_DOC" type="string"></SimpleField>
+	<SimpleField name="T_DO" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+</Schema>
+<Folder><name>monoparte</name>
+  <Placemark id="monoparte.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZEV</SimpleData>
+		<SimpleData name="NOM">Zona_ZEV</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento (comunal) de servicios públicos, salud, educación, culto, cultura, áreas verdes y almacenamiento inofensivos. Organización comunitaria, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4152464629157,-52.423895775473 -71.4145366004151,-52.4257009432854 -71.4137897380876,-52.4255913972812 -71.4126521828662,-52.428308530795 -71.4134346194662,-52.4284311656249 -71.4134759679029,-52.4283245901928 -71.4142529432089,-52.4284432881866 -71.4142121214194,-52.4285594650635 -71.4151158071507,-52.4286947929134 -71.4151268780259,-52.4287101980817 -71.4158751385601,-52.428818185064 -71.4160450812846,-52.4284355020602 -71.415617324288,-52.4283769621955 -71.4150654469903,-52.4280614353096 -71.4155565024704,-52.4278399386487 -71.4163968257137,-52.4279669388042 -71.4166490709955,-52.4274042906367 -71.415777870407,-52.427287534518 -71.4159437615608,-52.4268708308642 -71.4153253081334,-52.4259126673653 -71.4145017839453,-52.425804539645 -71.4145416822356,-52.4257016892402 -71.4163027443404,-52.4259599711983 -71.4163078347259,-52.425959017348 -71.4158054923793,-52.4236686266088 -71.415054235462,-52.4234907243761 -71.4152464629157,-52.423895775473</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZEV</SimpleData>
+		<SimpleData name="NOM">Zona_ZEV</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento (comunal) de servicios públicos, salud, educación, culto, cultura, áreas verdes y almacenamiento inofensivos. Organización comunitaria, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.411684401368,-52.4306198824542 -71.4116155413747,-52.4307843338927 -71.4129134396346,-52.4306502793931 -71.4143984470981,-52.4293366314355 -71.4130919479149,-52.4291488435903 -71.4126342751347,-52.4301872624868 -71.411684401368,-52.4306198824542</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZR1</SimpleData>
+		<SimpleData name="NOM">Zona_ZR1</SimpleData>
+		<SimpleData name="UPERM">Franja de protección de la Ruta Interprovincial N°9, definida como &quot;Vía Troncal&quot;.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4116155413747,-52.4307843338927 -71.4147038441546,-52.4234077474227 -71.4142476389257,-52.4232997103157 -71.4111305632545,-52.430834420715 -71.4116155413747,-52.4307843338927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona_ZE2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento, aceptado solamente a escala regional de áreas verdes, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4126521828662,-52.428308530795 -71.411684401368,-52.4306198824542 -71.4126342751347,-52.4301872624868 -71.4134037307094,-52.4284414082924 -71.4133971541362,-52.4284252943197 -71.4126521828662,-52.428308530795</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZE2</SimpleData>
+		<SimpleData name="NOM">Zona_ZE2</SimpleData>
+		<SimpleData name="UPERM">Equipamiento, aceptado solamente a escala regional de áreas verdes, esparcimiento y turismo.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4137897380876,-52.4255913972812 -71.4145366004151,-52.4257009432854 -71.4152464629157,-52.423895775473 -71.415054235462,-52.4234907243761 -71.4147038441546,-52.4234077474227 -71.4137897380876,-52.4255913972812</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZV</SimpleData>
+		<SimpleData name="NOM">Zona_ZV</SimpleData>
+		<SimpleData name="UPERM">Viviendas y equipamiento (local), comercio minorista, almacenamiento inofensivo, áreas verdes y servicios artesanales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4134759679029,-52.4283245901928 -71.4134346194662,-52.4284311656249 -71.4133971541362,-52.4284252943197 -71.4134037307094,-52.4284414082924 -71.4130919479149,-52.4291488435903 -71.4143984470981,-52.4293366314355 -71.4151094093614,-52.4287076765939 -71.4151268780259,-52.4287101980817 -71.4151158071507,-52.4286947929134 -71.4142121214194,-52.4285594650635 -71.4142529432089,-52.4284432881866 -71.4134759679029,-52.4283245901928</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZV</SimpleData>
+		<SimpleData name="NOM">Zona_ZV</SimpleData>
+		<SimpleData name="UPERM">Viviendas y equipamiento (local), comercio minorista, almacenamiento inofensivo, áreas verdes y servicios artesanales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4158751385601,-52.428818185064 -71.4163565323466,-52.4288876556086 -71.4168117146861,-52.4280550342401 -71.4163973510425,-52.4279765399859 -71.4163875920901,-52.4279655440363 -71.4155565024704,-52.4278399386487 -71.4150654469903,-52.4280614353096 -71.415617324288,-52.4283769621955 -71.4160450812846,-52.4284355020602 -71.4158751385601,-52.428818185064</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZV</SimpleData>
+		<SimpleData name="NOM">Zona_ZV</SimpleData>
+		<SimpleData name="UPERM">Viviendas y equipamiento (local), comercio minorista, almacenamiento inofensivo, áreas verdes y servicios artesanales.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.415777870407,-52.427287534518 -71.416637034959,-52.4274026771266 -71.4166642519387,-52.4273943682975 -71.4171248408766,-52.4274822430209 -71.4174107044585,-52.4269593099671 -71.4164437312388,-52.4268125499164 -71.4159442867705,-52.4268804320509 -71.4159396256441,-52.4268812215419 -71.415777870407,-52.427287534518</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZE3</SimpleData>
+		<SimpleData name="NOM">Zona_ZE3</SimpleData>
+		<SimpleData name="UPERM">Sin información.</SimpleData>
+		<SimpleData name="UPROH">Sin información.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.416637034959,-52.4274026771266 -71.4166490709955,-52.4274042906367 -71.4163968257137,-52.4279669388042 -71.4163875920901,-52.4279655440363 -71.4163973510425,-52.4279765399859 -71.4168117146861,-52.4280550342401 -71.4171248408766,-52.4274822430209 -71.4166642519387,-52.4273943682975 -71.416637034959,-52.4274026771266</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="monoparte.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monoparte">
+		<SimpleData name="REG">Magallanes</SimpleData>
+		<SimpleData name="COM">Laguna Blanca</SimpleData>
+		<SimpleData name="LOC">Tehuelches</SimpleData>
+		<SimpleData name="ZONA">ZE1</SimpleData>
+		<SimpleData name="NOM">Zona_ZE1</SimpleData>
+		<SimpleData name="UPERM">Equipamiento a escala comunal de servicios públicos, salud, educación, culto, cultura, áreas verdes y almacenamiento inofensivos.</SimpleData>
+		<SimpleData name="UPROH">Todos los no mencionados como permitidos.</SimpleData>
+		<SimpleData name="P_DO">27/09/1994</SimpleData>
+		<SimpleData name="N_DOC">8</SimpleData>
+		<SimpleData name="T_DO">Resolución</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4159396256441,-52.4268812215419 -71.4159442867705,-52.4268804320509 -71.4164437312388,-52.4268125499164 -71.4174107044585,-52.4269593099671 -71.4177949757798,-52.4262563386611 -71.4163103372854,-52.4259704251369 -71.4163078347259,-52.425959017348 -71.4163027443404,-52.4259599711983 -71.4145416822356,-52.4257016892402 -71.4145017839453,-52.425804539645 -71.4153253081334,-52.4259126673653 -71.4159437615608,-52.4268708308642 -71.4159396256441,-52.4268812215419</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

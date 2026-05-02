@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="prc_calama_mono" id="prc_calama_mono">
+	<SimpleField name="REG" type="string"></SimpleField>
+	<SimpleField name="COM" type="string"></SimpleField>
+	<SimpleField name="SECTOR" type="string"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="UPERM" type="string"></SimpleField>
+	<SimpleField name="UPROH" type="string"></SimpleField>
+	<SimpleField name="Capa" type="string"></SimpleField>
+	<SimpleField name="CUT" type="string"></SimpleField>
+</Schema>
+<Folder><name>prc_calama_mono</name>
+  <Placemark id="prc_calama_mono.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-5</SimpleData>
+		<SimpleData name="NOMBRE">ZR-5 Forestación</SimpleData>
+		<SimpleData name="UPERM">Usos de forestación destinada a evitar la contaminación partculada y diseminar los olores que generara la planta de tratamiento de aguas servidas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9507173757361,-22.469248174942 -68.9512893013822,-22.4694991183816 -68.9517238062702,-22.462643388497 -68.9519308860679,-22.4587473184377 -68.9520089564228,-22.4560702440861 -68.9520095652346,-22.4543014466262 -68.9519072891042,-22.4526043269344 -68.9515560947561,-22.4526303357669 -68.9512643924871,-22.452651938733 -68.9512783819274,-22.4533397133771 -68.9513115888331,-22.4549723445205 -68.9513402366353,-22.4563807784267 -68.9513340565711,-22.4566383484196 -68.9513272561063,-22.4569217727883 -68.9513133562515,-22.4575010477512 -68.9512487316207,-22.4601942538318 -68.9512358519393,-22.4607310299602 -68.9510041919688,-22.4640942000728 -68.951004165584,-22.4640946011766 -68.9509304017448,-22.4651973155088 -68.9508688101314,-22.4661180515022 -68.9507963810729,-22.4672085121191 -68.9507173757361,-22.469248174942</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOMBRE">ZU-3 Residencial Densidad Media y Renovación Urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9291813878283,-22.4470000654496 -68.9294871395739,-22.4484705874944 -68.9300215068245,-22.4507163712586 -68.9301843865217,-22.451323176655 -68.9302449213488,-22.4523588965525 -68.9303406207451,-22.4539962248567 -68.9304146101126,-22.4552620801362 -68.9304903566754,-22.456557991345 -68.9312577641607,-22.4567051894339 -68.9318017452438,-22.4568095287077 -68.9328432233167,-22.4568458198517 -68.9336572404902,-22.4567988695981 -68.934041130179,-22.4567767263956 -68.9340550425209,-22.4562547930622 -68.9339508779968,-22.4538567716716 -68.9337146477828,-22.4519316221566 -68.9334780864811,-22.4506468748054 -68.9331554417553,-22.4492807548912 -68.9329245112086,-22.4482408932802 -68.9333102088459,-22.4482769065863 -68.9331564211869,-22.4472370761268 -68.9326550287478,-22.4471651598244 -68.9326168217816,-22.446412209461 -68.9325430633542,-22.4461479872733 -68.9324126476864,-22.4456808027261 -68.9322772132186,-22.4451956390487 -68.9289008239929,-22.4455188519094 -68.9291813878283,-22.4470000654496</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOMBRE">ZU-3 Residencial Densidad Media y Renovación Urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9276759721965,-22.4536525814925 -68.9285014019245,-22.4536761993366 -68.9289488643985,-22.4536890012689 -68.9290647844631,-22.4532946577437 -68.9288334194513,-22.4531511401891 -68.92867698802,-22.4522578663596 -68.9284932038344,-22.4512083812375 -68.9282180617951,-22.4496371750495 -68.9279094859432,-22.4496370375281 -68.9278706178786,-22.4502106849942 -68.927704610827,-22.4502028947319 -68.927514887256,-22.4501939914946 -68.927380573887,-22.4501876885845 -68.9270991943149,-22.4501744840353 -68.92706032179,-22.450748130355 -68.9272917370681,-22.4507840891521 -68.9273682465185,-22.452003160002 -68.9276759721965,-22.4536525814925</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOMBRE">ZU-3 Residencial Densidad Media y Renovación Urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9188467375073,-22.4434730149447 -68.919580284586,-22.4455815992482 -68.9196183599481,-22.4464421139483 -68.92278142354,-22.4460134105186 -68.9231272180389,-22.448451648543 -68.9261745459767,-22.4481303850444 -68.9263668926026,-22.4490985316426 -68.9278711927074,-22.449099210848 -68.9273714019264,-22.4459438328777 -68.9270952462336,-22.4459207618681 -68.9240557106491,-22.4461918506293 -68.9240250413958,-22.4458476373359 -68.9255370736265,-22.4457479507763 -68.9254597391752,-22.4451940517362 -68.925414107213,-22.4448873972119 -68.9253477932127,-22.4443922498976 -68.9253500795458,-22.443884534444 -68.9253533142439,-22.4431663752432 -68.9265221125473,-22.4429766845933 -68.9276907521895,-22.4427870115983 -68.9276027371498,-22.4424015578858 -68.9265613495151,-22.4424010875611 -68.9261390404339,-22.442537417806 -68.9256740875574,-22.4426875133089 -68.9251340305213,-22.4428306805663 -68.9251723317581,-22.4433326547746 -68.919579199737,-22.4441187545705 -68.9194637987459,-22.4435808862754 -68.9188467375073,-22.4434730149447</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOMBRE">ZU-2 Preferentemente Comercial</SimpleData>
+		<SimpleData name="UPERM">Comercio, equipamiento regional, talleres inofensivos y vivienda.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, estadios, canchas, piscinas, ferias, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9240250413958,-22.4458476373359 -68.9240557106491,-22.4461918506293 -68.9270952462336,-22.4459207618681 -68.9273714019264,-22.4459438328777 -68.9278711927074,-22.449099210848 -68.9282180617951,-22.4496371750495 -68.9284932038344,-22.4512083812375 -68.92867698802,-22.4522578663596 -68.9288334194513,-22.4531511401891 -68.9290647844631,-22.4532946577437 -68.9295060743243,-22.4532647342506 -68.9297298362037,-22.4531859527439 -68.9295759250876,-22.4524329518341 -68.9302449213488,-22.4523588965525 -68.9301843865217,-22.451323176655 -68.9300215068245,-22.4507163712586 -68.9294871395739,-22.4484705874944 -68.9291813878283,-22.4470000654496 -68.9289008239929,-22.4455188519094 -68.9286432272012,-22.4441588687334 -68.9279875668886,-22.444086869677 -68.9276907521895,-22.4427870115983 -68.9265221125473,-22.4429766845933 -68.9253533142439,-22.4431663752432 -68.9253500795458,-22.443884534444 -68.9253477932127,-22.4443922498976 -68.925414107213,-22.4448873972119 -68.9254597391752,-22.4451940517362 -68.9255370736265,-22.4457479507763 -68.9240250413958,-22.4458476373359</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOMBRE">ZR-4 Quebradas</SimpleData>
+		<SimpleData name="UPERM">Esta zona podrá ser usada para fines agrícolas, forestales o canchas deportivas.</SimpleData>
+		<SimpleData name="UPROH">Cualquier tipo de construcción.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9402864508899,-22.440931949894 -68.9401217896978,-22.4411613553187 -68.9396692393009,-22.4411611868552 -68.939545692539,-22.44144797251 -68.9393194002444,-22.4414861324724 -68.9390357680713,-22.4414745613867 -68.938846287369,-22.4414668315462 -68.9385582834635,-22.4415049670558 -68.9384934000093,-22.441504942352 -68.9382085849315,-22.4415048336028 -68.9381262009923,-22.4417342675324 -68.9383729962851,-22.4418490946581 -68.9389283760414,-22.4419066720558 -68.9390723199245,-22.4420214600786 -68.9393809039251,-22.4419642098638 -68.9396277264567,-22.4420216687133 -68.9398952344224,-22.4418114245636 -68.9400802786725,-22.4420218372989 -68.9402844350451,-22.4420883459013 -68.9404916330424,-22.4421558445975 -68.9409236724657,-22.4420221480968 -68.9410163862506,-22.4420300172461 -68.9411499409995,-22.4420413522499 -68.9412150371092,-22.4420262493107 -68.9413968125948,-22.4419840756753 -68.9414997531444,-22.4417737699488 -68.9416643817909,-22.4416208519198 -68.9418084073914,-22.4415444150943 -68.940698021685,-22.4405496584579 -68.9404929260373,-22.4406258333079 -68.9403894178119,-22.4406642775779 -68.9402864508899,-22.440931949894</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOMBRE">ZR-4 Quebradas</SimpleData>
+		<SimpleData name="UPERM">Esta zona podrá ser usada para fines agrícolas, forestales o canchas deportivas.</SimpleData>
+		<SimpleData name="UPROH">Cualquier tipo de construcción.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9329432885514,-22.436368430413 -68.9326140806269,-22.4365595150177 -68.9320964024783,-22.436471792274 -68.9318169460232,-22.4364388040278 -68.9311331324925,-22.4364059134845 -68.9306806070964,-22.4363865974354 -68.9304131815249,-22.4364247263864 -68.9303102678642,-22.4365537573101 -68.9303616388419,-22.4366613410177 -68.9306572231905,-22.4368765931096 -68.9310623415749,-22.4368767665617 -68.9312614615664,-22.4368768514427 -68.9316493552351,-22.4368860311963 -68.9322899405319,-22.4369011883194 -68.9328041921511,-22.4368894519415 -68.9334212979644,-22.4368658051816 -68.9339618799886,-22.4368608985064 -68.9348550878185,-22.4368472539667 -68.9352597425852,-22.4368306982351 -68.9353240731382,-22.4367231615571 -68.9354903845573,-22.4367430506563 -68.9358254339908,-22.436783118396 -68.9359926189702,-22.4366636711082 -68.9361630571332,-22.4366910585329 -68.9363654185896,-22.4367235752629 -68.9364425670402,-22.4366997032784 -68.9353913987861,-22.4357001521572 -68.9350005215254,-22.4358147290261 -68.9347113195603,-22.4358295475059 -68.9346424682806,-22.4358330754695 -68.9346272340648,-22.4358338868875 -68.9346167345041,-22.435834533994 -68.9345782775796,-22.4358369016096 -68.9344664306237,-22.4358437881101 -68.934013150535,-22.4358716950032 -68.933704505171,-22.436081912685 -68.9331491141565,-22.4361008052613 -68.9329432885514,-22.436368430413</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-4</SimpleData>
+		<SimpleData name="NOMBRE">ZR-4 Quebradas</SimpleData>
+		<SimpleData name="UPERM">Esta zona podrá ser usada para fines agrícolas, forestales o canchas deportivas.</SimpleData>
+		<SimpleData name="UPROH">Cualquier tipo de construcción.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9321369677515,-22.4342264103636 -68.9317769320598,-22.4343696747157 -68.9313655902438,-22.4342738900341 -68.9312053901792,-22.434214239396 -68.9308514497839,-22.4340824490256 -68.9305685364658,-22.4342496460592 -68.9305169708427,-22.4345364568602 -68.9302598045048,-22.4346319564001 -68.9304653921259,-22.4348471699989 -68.9314166147085,-22.4350866040766 -68.9320337127696,-22.4350629616912 -68.9325737442566,-22.4348958696613 -68.9330878452215,-22.4351829155475 -68.9337563789282,-22.435135386416 -68.9340852734001,-22.4352333754419 -68.9343990882658,-22.435326870445 -68.9348105469333,-22.435183620126 -68.9333713155806,-22.4338444809226 -68.9330370059416,-22.4339638563327 -68.9328771260422,-22.4339712213988 -68.9325227603144,-22.4339875446676 -68.9321369677515,-22.4342264103636</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOMBRE">ZU-4 Residencial Densidad Baja</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, comercio y programas de viviendas sociales comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos, antenas radioemisoras AM y FM, discotecas, moteles, juegos electrónicos y nuevos servicentros comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9312577641607,-22.4567051894339 -68.9312514437269,-22.4573554508561 -68.9305442966482,-22.4572655130451 -68.9302863144273,-22.4589087089727 -68.9313469519895,-22.4592378253003 -68.931388220051,-22.4599827899608 -68.9314744030614,-22.4615385092645 -68.933853195225,-22.4615693803466 -68.9339929794097,-22.4585830308742 -68.934041130179,-22.4567767263956 -68.9336572404902,-22.4567988695981 -68.9328432233167,-22.4568458198517 -68.9318017452438,-22.4568095287077 -68.9312577641607,-22.4567051894339</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-7</SimpleData>
+		<SimpleData name="NOMBRE">ZU-7 Equipamiento Exclusivo</SimpleData>
+		<SimpleData name="UPERM">Estadio municipal, hospital, cementerios y sub-estación eléctrica.</SimpleData>
+		<SimpleData name="UPROH">Todos los demás, excepto vivienda del cuidador.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9302863144273,-22.4589087089727 -68.9293541431726,-22.4588186685731 -68.9293217856776,-22.4592369509496 -68.931388220051,-22.4599827899608 -68.9313469519895,-22.4592378253003 -68.9302863144273,-22.4589087089727</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-8</SimpleData>
+		<SimpleData name="NOMBRE">ZU-8 Áreas Verdes y Deportivas</SimpleData>
+		<SimpleData name="UPERM">El que ahora tienen conforme su destino, además de equipamiento complementario como bancas, espejos de agua, kioscos ornamentales, esculturas, juegos infantiles comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9295759250876,-22.4524329518341 -68.9297298362037,-22.4531859527439 -68.9295060743243,-22.4532647342506 -68.9290647844631,-22.4532946577437 -68.9289488643985,-22.4536890012689 -68.9298709496292,-22.4538889714644 -68.9297731623944,-22.4565779785477 -68.9304903566754,-22.456557991345 -68.9304146101126,-22.4552620801362 -68.9303406207451,-22.4539962248567 -68.9302449213488,-22.4523588965525 -68.9295759250876,-22.4524329518341</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-1</SimpleData>
+		<SimpleData name="NOMBRE">ZU-1 Ex Finca San Juán</SimpleData>
+		<SimpleData name="UPERM">Centro Cívico.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9196183599481,-22.4464421139483 -68.9185103465225,-22.4464891453733 -68.9184993685269,-22.4476747127201 -68.9188010427612,-22.4479917282314 -68.9190802241012,-22.448168197094 -68.9194657670134,-22.448467172596 -68.9196583153457,-22.449005078991 -68.9200759879016,-22.4493339482616 -68.9204616544753,-22.4494237738305 -68.920974828967,-22.4513959962515 -68.9219116360959,-22.4545898475337 -68.9222113985013,-22.4558639379204 -68.9224196784561,-22.45661225763 -68.9225891094453,-22.4571429776922 -68.9225991485858,-22.4579623621761 -68.9226038702178,-22.4583476776582 -68.922943301289,-22.458388475276 -68.9237348757614,-22.458590168889 -68.9251237401408,-22.4589440426772 -68.9252429049388,-22.4580626778634 -68.9253082855311,-22.4575791025729 -68.9253717639574,-22.4568024805691 -68.9254956396461,-22.4559802860572 -68.9278819859471,-22.4561343474279 -68.9279439913642,-22.4555798340078 -68.9278918519647,-22.4549580877935 -68.927857667498,-22.454674170923 -68.9278381360671,-22.4545119538704 -68.9277802127018,-22.4540308679596 -68.9276759721965,-22.4536525814925 -68.9273682465185,-22.452003160002 -68.9272917370681,-22.4507840891521 -68.92706032179,-22.450748130355 -68.9270991943149,-22.4501744840353 -68.927380573887,-22.4501876885845 -68.927514887256,-22.4501939914946 -68.927704610827,-22.4502028947319 -68.9278706178786,-22.4502106849942 -68.9279094859432,-22.4496370375281 -68.9282180617951,-22.4496371750495 -68.9278711927074,-22.449099210848 -68.9263668926026,-22.4490985316426 -68.9261745459767,-22.4481303850444 -68.9231272180389,-22.448451648543 -68.92278142354,-22.4460134105186 -68.9196183599481,-22.4464421139483</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOMBRE">ZU-3 Residencial Densidad Media y Renovación Urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9217123090655,-22.4577002828707 -68.9225991485858,-22.4579623621761 -68.9225891094453,-22.4571429776922 -68.9224196784561,-22.45661225763 -68.9222113985013,-22.4558639379204 -68.9219116360959,-22.4545898475337 -68.9191941668825,-22.454185351425 -68.9179599369754,-22.4539935075553 -68.9174970593369,-22.4539932715931 -68.9174450621895,-22.4549493517454 -68.9177017386078,-22.4557621729464 -68.9182671772878,-22.4562883182043 -68.9192184417058,-22.4566712403482 -68.9206324903362,-22.457245605366 -68.9206863541512,-22.4572682856432 -68.9217123090655,-22.4577002828707</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOMBRE">ZE-3 Expansión Residencial Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, ferias libres, juegos electrónicos, talleres y terminales de buses urbanos e interurbanos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9214260897205,-22.4636279985336 -68.9215799901057,-22.4643451526768 -68.9218114590591,-22.4643213618407 -68.9223514962424,-22.4643694281283 -68.9231952624032,-22.4643921470261 -68.9231620200673,-22.463235975527 -68.9231073373939,-22.4619917703826 -68.9230841432857,-22.4614912756986 -68.9230670534935,-22.4611225102807 -68.9230554877751,-22.4608729382236 -68.9230449210349,-22.4606449327203 -68.922943301289,-22.458388475276 -68.9226038702178,-22.4583476776582 -68.9225991485858,-22.4579623621761 -68.9217123090655,-22.4577002828707 -68.9206863541512,-22.4572682856432 -68.920452083334,-22.4579386931495 -68.9203488905233,-22.4585123055119 -68.9205286048296,-22.4590382527583 -68.9209398629798,-22.4593969946221 -68.9212739874402,-22.459731794615 -68.9213251508141,-22.4602098726475 -68.9212940122256,-22.460619218302 -68.9212215140788,-22.4615722724733 -68.9211949597364,-22.4630542228912 -68.9214260897205,-22.4636279985336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-8</SimpleData>
+		<SimpleData name="NOMBRE">ZU-8 Áreas Verdes y Deportivas</SimpleData>
+		<SimpleData name="UPERM">El que ahora tienen conforme su destino, además de equipamiento complementario como bancas, espejos de agua, kioscos ornamentales, esculturas, juegos infantiles comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9212739874402,-22.459731794615 -68.9206825898379,-22.4595880894215 -68.9203224915453,-22.4597074252804 -68.9199625426321,-22.4595638306689 -68.9187799756381,-22.4588939655909 -68.9187547054606,-22.4581290685634 -68.9187808390332,-22.457412002842 -68.9183951969505,-22.4572444894787 -68.9181123340211,-22.4572204429847 -68.9181627840729,-22.4588936537513 -68.9180082896037,-22.4592282128569 -68.9181109440036,-22.4595868047995 -68.9186765391442,-22.4598739219681 -68.9189077925731,-22.4602086758534 -68.9195761337242,-22.4607109656852 -68.9203730635383,-22.4612133162402 -68.9212215140788,-22.4615722724733 -68.9212940122256,-22.460619218302 -68.9213251508141,-22.4602098726475 -68.9212739874402,-22.459731794615</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOMBRE">ZE-2 Expansión Residencial Baja Densidad Arborizada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, ferias libres, juegos electrónicos, talleres, terminales de buses urbanos e interurbanos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9320173779124,-22.4726482904046 -68.936899812043,-22.4726972930565 -68.9372084605549,-22.4726496080913 -68.9373114818092,-22.4723245727151 -68.9369413210586,-22.4719037420947 -68.9368843782799,-22.4717565417584 -68.9367563635362,-22.4714256180803 -68.936242147808,-22.4710812177809 -68.9359336924747,-22.4707177753369 -68.9358846549758,-22.4704435997999 -68.9358569533031,-22.4702887182118 -68.9357489947338,-22.4696851090933 -68.9356830383162,-22.4694963056506 -68.9356128680814,-22.4692954418546 -68.9341470800755,-22.4689721649311 -68.9334258744924,-22.4686982304339 -68.9322571408256,-22.4682543033128 -68.9312713958151,-22.4678515886255 -68.9306758018903,-22.4676082610717 -68.9301743015813,-22.4676080447712 -68.9298735700521,-22.4672233486111 -68.9295574700139,-22.4668189897941 -68.9291910913664,-22.4664519297271 -68.9289478747408,-22.4673404638031 -68.9284925642144,-22.469003798525 -68.9298504169155,-22.4691382494501 -68.9298502147382,-22.4695398134285 -68.9298502983675,-22.4697675562322 -68.9298506485491,-22.470726552348 -68.9323195912961,-22.4707993149293 -68.9324429853371,-22.4709140998779 -68.9322575112983,-22.4715307091539 -68.932056577367,-22.4722046787056 -68.9320173779124,-22.4726482904046</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-3</SimpleData>
+		<SimpleData name="NOMBRE">ZU-3 Residencial Densidad Media y Renovación Urbana</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.926804526407,-22.470762273577 -68.9275031048726,-22.4726174317584 -68.9279041121886,-22.4726159104028 -68.9285542301121,-22.472613442515 -68.9320173779124,-22.4726482904046 -68.932056577367,-22.4722046787056 -68.9322575112983,-22.4715307091539 -68.9324429853371,-22.4709140998779 -68.9323195912961,-22.4707993149293 -68.9298506485491,-22.470726552348 -68.9298502983675,-22.4697675562322 -68.9298502147382,-22.4695398134285 -68.9282454425416,-22.4694434975595 -68.9280596492721,-22.4706481059597 -68.926804526407,-22.470762273577</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-5</SimpleData>
+		<SimpleData name="NOMBRE">ZU-5 Mixta con Industria Inofensiva</SimpleData>
+		<SimpleData name="UPERM">Industria inofensiva, talleres, bodegas, viviendas y terminales de buses urbanos e interurbanos.</SimpleData>
+		<SimpleData name="UPROH">Industria molesta o peligrosa y todos los demás no incluidos entre los permitidos y antenas radioemisoras AM y FM.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9126802137814,-22.4359404474423 -68.9157119191789,-22.4387774715298 -68.9137010796227,-22.440439141291 -68.9109639608321,-22.442700874913 -68.9089908745202,-22.444331199067 -68.9110157271102,-22.4444817196703 -68.9115222557725,-22.4445818877424 -68.9120762854539,-22.44469144843 -68.9123884137907,-22.4450649427894 -68.9125259372837,-22.4452295033189 -68.914186706652,-22.4455565876842 -68.9183856983037,-22.441768643439 -68.9177631137205,-22.4394669997155 -68.9170596449731,-22.4368662456004 -68.9164606631781,-22.4346517007244 -68.9154855391597,-22.4347928242316 -68.9139921052086,-22.4350089458038 -68.913349525809,-22.435465208073 -68.9126802137814,-22.4359404474423</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-3</SimpleData>
+		<SimpleData name="NOMBRE">ZE-3 Expansión Residencial Densidad Media</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, ferias libres, juegos electrónicos, talleres y terminales de buses urbanos e interurbanos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9081232160205,-22.4440618013978 -68.9089908745202,-22.444331199067 -68.9109639608321,-22.442700874913 -68.9137010796227,-22.440439141291 -68.9157119191789,-22.4387774715298 -68.9126802137814,-22.4359404474423 -68.9122422195649,-22.4363853523849 -68.9114382587139,-22.4371019950355 -68.9113136422237,-22.4372631505539 -68.9116382321824,-22.4377666556389 -68.9096368884131,-22.4394315088796 -68.909740452662,-22.4400662401631 -68.9076121481416,-22.4417678926992 -68.9076121034019,-22.4417679459746 -68.9064429416579,-22.4431117534856 -68.9064402514665,-22.4431148424811 -68.9061629772861,-22.443433229099 -68.9062591428166,-22.4438217037659 -68.9072254722398,-22.4439461723128 -68.9077669883443,-22.4440159211341 -68.9081232160205,-22.4440618013978</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOMBRE">ZR-2 Franja de Protección Río Loa</SimpleData>
+		<SimpleData name="UPERM">Protección.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8862913087113,-22.4440061319135 -68.8860069617837,-22.4451077833766 -68.8871320843953,-22.444929304708 -68.8884179367988,-22.4447210500981 -68.8891570168254,-22.4449605851564 -68.8899282406718,-22.4452001405589 -68.8904422564659,-22.4455291520846 -68.8912775851062,-22.4460077704399 -68.8921452439333,-22.4462473792668 -68.8930130910351,-22.4462479567526 -68.8940095989243,-22.4461290997867 -68.8946846572823,-22.4460399074363 -68.8954241359694,-22.4457714829749 -68.8960353300922,-22.4451145539083 -68.8961643650641,-22.4444871923269 -68.8962935784944,-22.4436208029006 -68.896817775074,-22.4434858084743 -68.897450905964,-22.4433227585243 -68.8981259704152,-22.4432036724382 -68.8986258796435,-22.4435095002363 -68.899250436797,-22.4438915804575 -68.9001352123861,-22.4431199921793 -68.9003117820175,-22.4429660099393 -68.9002155695334,-22.442667166818 -68.8994122873132,-22.4423081279262 -68.8982638403012,-22.442342494857 -68.897943645637,-22.4423520748648 -68.897059151294,-22.4422941461212 -68.8961950649636,-22.4424561319961 -68.8957115334973,-22.4426183576935 -68.8947648506722,-22.4431914074789 -68.893530037267,-22.4439363608115 -68.8924290716406,-22.4444901743327 -68.8917912702343,-22.444623601292 -68.8911121649117,-22.4444779275428 -68.8907628939518,-22.4444030042844 -68.889786175932,-22.4438956054043 -68.8892412394502,-22.4436562047097 -68.8888402230455,-22.4435125133422 -68.8881408091767,-22.4435215919204 -68.8873075921305,-22.4436453067286 -68.8867350490178,-22.443848585339 -68.8862913087113,-22.4440061319135</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-1B</SimpleData>
+		<SimpleData name="NOMBRE">ZR-1B Oasis</SimpleData>
+		<SimpleData name="UPERM">Silvoagropecuario y complementarios: áreas verdes vecinal, equipamiento deportivo al aire libre, culto vecinal, servicios artesanales, pequeña agroindustria inofensiva, educación superior y no más de una vivienda (Ley 19.537).</SimpleData>
+		<SimpleData name="UPROH">Uso industrial de todo tipo, edificios de oficinas, cines, bodegas no silvoagropecuarias y todos los no mencionados como usos permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8860069617837,-22.4451077833766 -68.8860671821608,-22.4469351849713 -68.8866845240955,-22.4466846424885 -68.8876105487607,-22.446290894418 -68.8885365376222,-22.4459329980643 -68.8891151579821,-22.4458616877787 -68.8896164650461,-22.4460054470521 -68.8900788919904,-22.4465435719605 -68.8910041778033,-22.4470820105127 -68.8917370026057,-22.4471183571266 -68.8922813165657,-22.4470366811509 -68.8931643014619,-22.4469041835804 -68.8938584462114,-22.4470839124794 -68.894629842469,-22.4471202713201 -68.8949954898711,-22.4468437213097 -68.8956718553699,-22.4463321598317 -68.8960961893082,-22.4462607265441 -68.8963278821122,-22.4459023352565 -68.8960353300922,-22.4451145539083 -68.8954241359694,-22.4457714829749 -68.8946846572823,-22.4460399074363 -68.8940095989243,-22.4461290997867 -68.8930130910351,-22.4462479567526 -68.8921452439333,-22.4462473792668 -68.8912775851062,-22.4460077704399 -68.8904422564659,-22.4455291520846 -68.8899282406718,-22.4452001405589 -68.8891570168254,-22.4449605851564 -68.8884179367988,-22.4447210500981 -68.8871320843953,-22.444929304708 -68.8860069617837,-22.4451077833766</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-1A</SimpleData>
+		<SimpleData name="NOMBRE">ZR-1A Oasis</SimpleData>
+		<SimpleData name="UPERM">Silvoagropecuario y complementarios: áreas verdes regional, equipamiento deportivo vecinal al aire libre, esparcimiento y turismo regional, equipamiento educacional comunal, comercio minorista vecinal y pequeña agroindustria inofensiva.</SimpleData>
+		<SimpleData name="UPROH">Uso industrial de todo tipo, edificios de oficinas, cementerios, cines, bodegas no silvoagropecuarias y todos los no mencionados como usos permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8996645567922,-22.4560125980232 -68.8997583726147,-22.4563695646017 -68.8998142874659,-22.457287460702 -68.8999324992009,-22.4574022673925 -68.9000402287023,-22.4577895561325 -68.9001942889001,-22.4581195081356 -68.9003329723553,-22.4583777427179 -68.9003688923435,-22.4584924973249 -68.9003841410049,-22.4587458747741 -68.9004508226065,-22.458999283953 -68.9005381938049,-22.4590901679628 -68.9005586434296,-22.4592622791888 -68.9006459296821,-22.4594726763157 -68.9008516031546,-22.4595540713153 -68.9009698074728,-22.4596832187686 -68.9009897061827,-22.4600201458528 -68.9010003004864,-22.4601995342064 -68.9011494287608,-22.4602378694688 -68.9012881837875,-22.4604004922835 -68.9013189691812,-22.4605056827809 -68.9013342772997,-22.4606777916407 -68.9014678951171,-22.4608308495174 -68.9015655510785,-22.4609265200535 -68.9016838145414,-22.4609743976238 -68.901760951005,-22.4609935660705 -68.901894621035,-22.4610749167812 -68.9022340508428,-22.4611181474556 -68.9024346184463,-22.4611517327763 -68.9024808583016,-22.4612234684747 -68.9026453746969,-22.4613239586664 -68.902753312483,-22.461429195416 -68.9027995092558,-22.4615630780061 -68.902835408759,-22.4617112959282 -68.9029021661532,-22.4618643123268 -68.9029843804161,-22.461979095068 -68.9030408716337,-22.4621034221369 -68.9030510915482,-22.462199039196 -68.9030509452386,-22.4624093824005 -68.9031021234779,-22.4627775134424 -68.9031946315593,-22.4628827406146 -68.9033745849234,-22.4629784584946 -68.9035288473229,-22.4630359169925 -68.9038475379449,-22.4633277198719 -68.9041456723079,-22.4635956067259 -68.904454092061,-22.4638682790276 -68.9046699790584,-22.4640691892651 -68.9048806847221,-22.4643274614285 -68.905281569662,-22.4647770668642 -68.9055951953746,-22.4649636907568 -68.9057494382605,-22.4650546110164 -68.9060579191643,-22.4652460118162 -68.9062687127768,-22.4653799891261 -68.9063817286333,-22.465590397974 -68.9064741961406,-22.4657625501127 -68.9065099893402,-22.4660780856796 -68.9067000597951,-22.4664367351504 -68.9068182679964,-22.4665754389696 -68.9069570263614,-22.4667523983609 -68.9070288761703,-22.4669914651534 -68.9072086560255,-22.4673596696889 -68.907429683592,-22.4675797005797 -68.907722665669,-22.4678858215725 -68.9079334891708,-22.4679815528949 -68.9080002235834,-22.4681823725048 -68.9081133042135,-22.4683019500766 -68.9082880673945,-22.468483709614 -68.9083289957687,-22.4688183690511 -68.9084009222406,-22.4689474837439 -68.9084677080321,-22.469071815576 -68.9085293123241,-22.4692535105862 -68.9085333096121,-22.4693670409053 -68.9085444608207,-22.4696837661574 -68.9085903835915,-22.4702478937727 -68.9085900260306,-22.4707928727687 -68.9086568097356,-22.4709219844047 -68.9087595487396,-22.4711276048324 -68.9087902857809,-22.4713188429567 -68.908954766503,-22.4715005959016 -68.9090369414769,-22.4716918629987 -68.9091757005317,-22.4718783820153 -68.9093504540182,-22.4720840425832 -68.909838687123,-22.4727392476755 -68.9099466381979,-22.4728444786077 -68.910064787154,-22.4730883514499 -68.9101675400455,-22.4732796294137 -68.9106353098837,-22.4737722829928 -68.9107071910349,-22.4739778850194 -68.9109179870347,-22.4741357584049 -68.9110310627764,-22.4742744561989 -68.9114577788006,-22.4746236685175 -68.9116016942437,-22.4748006266062 -68.9117559246804,-22.4749345656267 -68.9118021859989,-22.474987177135 -68.9119461566511,-22.4750780857795 -68.9120746929098,-22.4751737657875 -68.9121466532552,-22.4752598541652 -68.9123266428332,-22.4753316606531 -68.91254258691,-22.4754895346976 -68.9126402517417,-22.4755995399366 -68.9128507844727,-22.4756713614776 -68.912958747563,-22.4757646392529 -68.9132442242886,-22.4757791346086 -68.913606859247,-22.4757936708126 -68.9136918137017,-22.4756646425657 -68.9138693443317,-22.4755571755801 -68.9140082597948,-22.4755070548215 -68.9141240238278,-22.4754640919277 -68.9143555154356,-22.4754355319783 -68.9145638028695,-22.4755001788784 -68.9147952603298,-22.4755289843875 -68.9149340834686,-22.4756294492655 -68.9150497904666,-22.4756797051496 -68.9151962996815,-22.4758303687405 -68.9153042775518,-22.4759021331181 -68.9154199273304,-22.4760456099814 -68.9154352903074,-22.4761603502466 -68.9158133495137,-22.4761892311049 -68.916006220043,-22.4762323562543 -68.9162608519369,-22.4762181471518 -68.9164922540867,-22.4763401705685 -68.9171326453393,-22.4763835254929 -68.9173332489423,-22.4763979699775 -68.9175184006234,-22.4764482596734 -68.9177961163578,-22.4765416218494 -68.9180815403816,-22.4766493289885 -68.918212664262,-22.4767282743875 -68.918382351341,-22.4768359213495 -68.9187218205881,-22.476886288597 -68.9189686295542,-22.4770585111097 -68.9192694707126,-22.4771949069408 -68.9194082945992,-22.4773025382697 -68.9195548599458,-22.4773671478626 -68.9198788629483,-22.4774820422721 -68.9199945599495,-22.4775538073388 -68.9202645477038,-22.477675844475 -68.9204805494774,-22.4777548290689 -68.9207428501948,-22.4778266658257 -68.92088166053,-22.4779629789237 -68.9210608564019,-22.4780463568972 -68.9213830796529,-22.4781711767135 -68.9216453503208,-22.4783003789853 -68.9217996131033,-22.4784008445357 -68.9220696081017,-22.4785157074346 -68.9222007079668,-22.4786448444504 -68.9223086716375,-22.4787524583796 -68.9224860918339,-22.4788385929028 -68.9226094679381,-22.4789820682958 -68.9227251606108,-22.4790681729167 -68.9229719704731,-22.4792547307994 -68.9231648201421,-22.4793456527514 -68.9231657432436,-22.4776724721129 -68.923166648021,-22.4760323511642 -68.9231682747309,-22.4730831749176 -68.9231705507001,-22.4689560836627 -68.9231710691519,-22.4680158226352 -68.9231150226106,-22.4679700249554 -68.9227935072288,-22.467707298751 -68.9224565706256,-22.4676061031118 -68.9221558087529,-22.4675157714046 -68.9218063562834,-22.4669610612076 -68.9212716520212,-22.4665592369982 -68.9205516214489,-22.4664441516378 -68.9203506200353,-22.4664342198675 -68.9201607225395,-22.4664248362886 -68.9201896328737,-22.4662908585596 -68.9202228566906,-22.4661368870031 -68.9203051245416,-22.4657556340816 -68.9203466011485,-22.465181991815 -68.920737778398,-22.4647041317031 -68.9209230843571,-22.4644556355076 -68.9202441684933,-22.4644170574769 -68.919215541598,-22.4643018132978 -68.9176519168973,-22.4643201442144 -68.9174872124728,-22.4645112809924 -68.9173224735629,-22.4647597846694 -68.9172811104666,-22.4651230829417 -68.9169930063408,-22.4652376673277 -68.9163346496341,-22.4652182057805 -68.9161701273572,-22.4651033871045 -68.9161909421366,-22.4647018337238 -68.916499814759,-22.4642621858428 -68.9169527247683,-22.463784366819 -68.9170968995509,-22.4635167314599 -68.9172822113734,-22.4632682394249 -68.9172618871205,-22.4628475432444 -68.9171592694721,-22.4624268039037 -68.9173446581339,-22.4620444570181 -68.9174273375538,-22.4613943477861 -68.9174277113714,-22.4607633178274 -68.9174280511935,-22.460189654925 -68.9173874594207,-22.4592526504032 -68.9170789543356,-22.4590995158579 -68.9162357334617,-22.4586401496098 -68.915721696648,-22.4581618288279 -68.915372072607,-22.457970424771 -68.9149402394597,-22.4576451217937 -68.9146111909202,-22.4574537269264 -68.9140352454113,-22.4573004439049 -68.9137062344405,-22.457051680972 -68.9133566506403,-22.4568029063192 -68.9127190150983,-22.4566113416058 -68.9121225875315,-22.4563241858147 -68.9118140211936,-22.4562857727263 -68.9112792781544,-22.4560560146574 -68.9112586200356,-22.4561898581638 -68.9108883119618,-22.4561896541052 -68.9106209656911,-22.4560365290107 -68.9101480048827,-22.4557111903928 -68.909530877179,-22.4556343569858 -68.9093664081322,-22.45546216597 -68.9092020017549,-22.4551943638077 -68.9086260715894,-22.4550410614877 -68.907844607722,-22.4546008086394 -68.9074538210151,-22.454466730135 -68.9065902218938,-22.4538065198132 -68.9063434703379,-22.453634277146 -68.9059526352331,-22.453576683614 -68.9054797066542,-22.453232208902 -68.9052538018381,-22.4526584129651 -68.9047294492887,-22.4524296140333 -68.9041926646981,-22.4521953882932 -68.9034112308257,-22.4517551139262 -68.9032882489872,-22.4511048880658 -68.9033663259092,-22.4497606488224 -68.9030807879701,-22.4499110645537 -68.902655970926,-22.4506637426041 -68.9021692122194,-22.4517318972721 -68.9019934854418,-22.4521353880531 -68.9019058014457,-22.4522439114961 -68.9018238020957,-22.4523454008178 -68.9017411839548,-22.4524476530972 -68.9016391085728,-22.4525739882068 -68.9015274590943,-22.4527121737029 -68.9014500914874,-22.4528079281244 -68.9014004241788,-22.45286939893 -68.9012622333044,-22.4530404312027 -68.9012212886232,-22.4530911070739 -68.9011286997018,-22.4532056997682 -68.9009435467707,-22.4532103670571 -68.9007788326886,-22.4534014870107 -68.9005833347978,-22.4534874160756 -68.9002333123969,-22.4538983254482 -68.9001972250544,-22.4540178164454 -68.9000479940339,-22.4541324565778 -68.8999450632452,-22.4542280038029 -68.8998935943663,-22.4542805573059 -68.899836921198,-22.4544191578265 -68.8997493918281,-22.4545529583388 -68.8997081236269,-22.454725031414 -68.8996715230713,-22.4555568208783 -68.8996765014125,-22.4557862898014 -68.8996645567922,-22.4560125980232</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.9058471766704,-22.4626745000898 -68.9053653573638,-22.4625342437914 -68.9047569979566,-22.4623487836368 -68.9038311885058,-22.4623482344576 -68.9035227425755,-22.4621185846507 -68.9033790346626,-22.4616786914874 -68.9036875161088,-22.4618509745038 -68.9041798019764,-22.4618604182019 -68.9047161790162,-22.4618707067342 -68.9051102170795,-22.4618984087814 -68.9055390785323,-22.4619285577065 -68.9057230142397,-22.4620677254595 -68.9058474996031,-22.4621964474851 -68.9059090661707,-22.4624259490707 -68.9060939831919,-22.4627893754038 -68.9058471766704,-22.4626745000898</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-R</SimpleData>
+		<SimpleData name="NOMBRE">ZE-R Expansión Restrictiva</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal-regional.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9004490034352,-22.4434057040178 -68.9005035919017,-22.4434685361714 -68.9005194666135,-22.4434868074148 -68.9005293162959,-22.4434949567907 -68.9007233487634,-22.4436554977423 -68.9011729110237,-22.4442533408605 -68.9011930416433,-22.444904172635 -68.9012043336175,-22.4452692234987 -68.9021034574383,-22.4464947830286 -68.9026497974149,-22.4466146268463 -68.902745975171,-22.4469732250835 -68.9030464586002,-22.4480071934181 -68.9031628331276,-22.4484076356998 -68.9032909078881,-22.4491247928473 -68.9033663259092,-22.4497606488224 -68.9032882489872,-22.4511048880658 -68.9034112308257,-22.4517551139262 -68.9041926646981,-22.4521953882932 -68.9047294492887,-22.4524296140333 -68.9052538018381,-22.4526584129651 -68.9056673787397,-22.4522634233635 -68.9062140056345,-22.4519948368838 -68.90637484511,-22.4518156602309 -68.905410693791,-22.4515760713558 -68.9049287823336,-22.4512172490389 -68.9045759187783,-22.4501712988298 -68.9039663051178,-22.4485575074592 -68.9038120473026,-22.4480921415871 -68.9032927101933,-22.4465253782033 -68.9022012257366,-22.4445826281645 -68.9015910946993,-22.4437755424676 -68.9012679200777,-22.4431522068926 -68.9011417217471,-22.4429087952785 -68.9004490034352,-22.4434057040178</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-6</SimpleData>
+		<SimpleData name="NOMBRE">ZE-6 Expansión Equipamiento Turístico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico regional y vivienda.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8960353300922,-22.4451145539083 -68.8963278821122,-22.4459023352565 -68.8960961893082,-22.4462607265441 -68.8964203963422,-22.4468438008072 -68.8963681747274,-22.4479035502505 -68.8963407709178,-22.450892515054 -68.8963401976981,-22.4509550077737 -68.896905854121,-22.4510509801983 -68.8970854351083,-22.4516247591957 -68.8974956084326,-22.4533460113587 -68.897777285743,-22.4549715698119 -68.8980942234623,-22.4549950284227 -68.8982769921284,-22.455008556587 -68.8987544263366,-22.4550438935841 -68.8986262827218,-22.4544462466718 -68.8989093435125,-22.454183495326 -68.8996042452114,-22.4533712391352 -68.9002990201501,-22.4527262986094 -68.9010194694125,-22.4521291753819 -68.9012255453936,-22.4516273459507 -68.9015539593417,-22.4512980898893 -68.9018688732378,-22.4509823660838 -68.9023579581937,-22.450265583413 -68.902435754341,-22.4493334266588 -68.9023078344719,-22.4484011453875 -68.901828708196,-22.4475089489464 -68.9017942198036,-22.4474447265054 -68.9014603573432,-22.4468469568853 -68.9007410089204,-22.4459382143441 -68.9003298254109,-22.4456033230329 -68.9002787733831,-22.4450774331044 -68.8999962649105,-22.4445992045754 -68.8996622450125,-22.4442404569762 -68.899250436797,-22.4438915804575 -68.8986258796435,-22.4435095002363 -68.8981259704152,-22.4432036724382 -68.897450905964,-22.4433227585243 -68.896817775074,-22.4434858084743 -68.8962935784944,-22.4436208029006 -68.8961643650641,-22.4444871923269 -68.8960353300922,-22.4451145539083</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOMBRE">ZR-3 Forestación</SimpleData>
+		<SimpleData name="UPERM">Reserva de expansión.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8860671821608,-22.4469351849713 -68.886268290134,-22.4517919894286 -68.8863942371693,-22.4550189330598 -68.8865856459077,-22.456811766332 -68.8866796033731,-22.4598594155124 -68.8869009618462,-22.4643711914078 -68.887027829759,-22.4664926369784 -68.8872489178824,-22.4713629467281 -68.8877929837923,-22.47441090481 -68.8905217933337,-22.4793128092134 -68.8923849517792,-22.4813159044898 -68.8952763912446,-22.4841263581844 -68.8987786573603,-22.4871761715523 -68.9019276294966,-22.4898970316225 -68.9053338477638,-22.4927673727623 -68.910735492395,-22.4929198468422 -68.9184477655029,-22.4901549638211 -68.9188076523717,-22.4900259319597 -68.9191803452872,-22.4899030596852 -68.9184748018579,-22.4893594898097 -68.9151733187342,-22.4862496662917 -68.9050543338947,-22.4773728339559 -68.9050136587157,-22.4773376775668 -68.902187946431,-22.4743409110747 -68.9017389145902,-22.4728467262317 -68.9008222683084,-22.4701285179384 -68.9006005943125,-22.469239024842 -68.9005575559786,-22.4690986726145 -68.9005422991236,-22.4688548562193 -68.9005115910063,-22.4686397142597 -68.9004655648627,-22.4682668050434 -68.9004280727285,-22.4679572179317 -68.9004361636955,-22.4676118290391 -68.9005274921625,-22.4675629019196 -68.9003710424962,-22.4656148404775 -68.9003010640739,-22.4655472135833 -68.9002056745364,-22.4648676925913 -68.9002372540104,-22.4638638023385 -68.8997916817108,-22.4612103348323 -68.8994690581133,-22.4592596797745 -68.8993152770864,-22.4585425044871 -68.8982433946153,-22.4582857385089 -68.897777285743,-22.4549715698119 -68.8974956084326,-22.4533460113587 -68.8970854351083,-22.4516247591957 -68.896905854121,-22.4510509801983 -68.8963401976981,-22.4509550077737 -68.8963407709178,-22.450892515054 -68.8963681747274,-22.4479035502505 -68.8964203963422,-22.4468438008072 -68.8960961893082,-22.4462607265441 -68.8956718553699,-22.4463321598317 -68.8949954898711,-22.4468437213097 -68.894629842469,-22.4471202713201 -68.8938584462114,-22.4470839124794 -68.8931643014619,-22.4469041835804 -68.8922813165657,-22.4470366811509 -68.8917370026057,-22.4471183571266 -68.8910041778033,-22.4470820105127 -68.8900788919904,-22.4465435719605 -68.8896164650461,-22.4460054470521 -68.8891151579821,-22.4458616877787 -68.8885365376222,-22.4459329980643 -68.8876105487607,-22.446290894418 -68.8866845240955,-22.4466846424885 -68.8860671821608,-22.4469351849713</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.8976967478742,-22.4608697284757 -68.8970858012453,-22.4610303772364 -68.8968340566184,-22.4604012445076 -68.8972475654031,-22.4602531882965 -68.8979401489328,-22.4600506319235 -68.8980583099726,-22.4602610842745 -68.8982718407232,-22.4607016812045 -68.8977612892353,-22.4608527564696 -68.8976967478742,-22.4608697284757</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-1B</SimpleData>
+		<SimpleData name="NOMBRE">ZR-1B Oasis</SimpleData>
+		<SimpleData name="UPERM">Silvoagropecuario y complementarios: áreas verdes vecinal, equipamiento deportivo al aire libre, culto vecinal, servicios artesanales, pequeña agroindustria inofensiva, educación superior y no más de una vivienda (Ley 19.537).</SimpleData>
+		<SimpleData name="UPROH">Uso industrial de todo tipo, edificios de oficinas, cines, bodegas no silvoagropecuarias y todos los no mencionados como usos permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9380677383904,-22.4748009628708 -68.9380709326779,-22.4748029669434 -68.9402790013046,-22.4761881483643 -68.9384248699955,-22.4814460212999 -68.9381161386556,-22.4816371236886 -68.9368812934559,-22.4822103067349 -68.9365726018604,-22.4823057963274 -68.9356467022686,-22.482209818687 -68.9356277456859,-22.4822567347656 -68.9344106708206,-22.4852688508305 -68.9343282726063,-22.4854600377735 -68.9347603537025,-22.4855367006801 -68.935295328709,-22.4855942832472 -68.9357890623322,-22.4858430671974 -68.9362002964261,-22.4865125025794 -68.9365499597321,-22.4868377154618 -68.9368585139557,-22.4870673008007 -68.9373111875854,-22.4871248435191 -68.937619785575,-22.4872588176397 -68.9379076881594,-22.4876604920034 -68.9379692751349,-22.4879855905511 -68.9377016240963,-22.4883105621561 -68.9373338647778,-22.4885332392299 -68.9369811806728,-22.4888265773327 -68.9371662060534,-22.4892090912837 -68.9376598701972,-22.4896490897935 -68.9383182853396,-22.4898023197707 -68.9397381174394,-22.4898602228747 -68.9411165774327,-22.4904343935119 -68.9415755790475,-22.4907165773372 -68.9423303546727,-22.4911805924686 -68.9424949767446,-22.4911806512859 -68.94358637776,-22.4892688321137 -68.9455633338496,-22.4854068560667 -68.9470869316934,-22.4830362283885 -68.948342603972,-22.4816980905483 -68.949289683725,-22.4801495029312 -68.9496809224764,-22.4793464990993 -68.9502370303298,-22.4777977829436 -68.9511029555225,-22.4728454284753 -68.9512893013822,-22.4694991183816 -68.9507173757361,-22.469248174942 -68.9489797762819,-22.4684857530529 -68.9476193225181,-22.4678887953876 -68.945837951065,-22.4671071171712 -68.9434934951789,-22.4661333913213 -68.9429580407149,-22.4659109933193 -68.9419932160752,-22.4680162695115 -68.940744088149,-22.4711687723866 -68.9403139282275,-22.4709286849998 -68.9399727150196,-22.4707382400279 -68.9396435603238,-22.4708833231501 -68.9390362926027,-22.4723930759173 -68.9387322679518,-22.4731489101433 -68.9382329159142,-22.4743903271471 -68.9380677383904,-22.4748009628708</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-8</SimpleData>
+		<SimpleData name="NOMBRE">ZU-8 Áreas Verdes y Deportivas</SimpleData>
+		<SimpleData name="UPERM">El que ahora tienen conforme su destino, además de equipamiento complementario como bancas, espejos de agua, kioscos ornamentales, esculturas, juegos infantiles comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.937558154891,-22.4814369755551 -68.9384248699955,-22.4814460212999 -68.9402790013046,-22.4761881483643 -68.9380709326779,-22.4748029669434 -68.9380677383904,-22.4748009628708 -68.9378500510005,-22.4753656401127 -68.9376841381609,-22.4757960126674 -68.9373552916665,-22.4766914842732 -68.936009968676,-22.4803547666237 -68.9358094081155,-22.4809008708105 -68.937558154891,-22.4814369755551</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOMBRE">ZU-2 Preferentemente Comercial</SimpleData>
+		<SimpleData name="UPERM">Comercio, equipamiento regional, talleres inofensivos y vivienda.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, estadios, canchas, piscinas, ferias, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9331564211869,-22.4472370761268 -68.9333102088459,-22.4482769065863 -68.9329245112086,-22.4482408932802 -68.9331554417553,-22.4492807548912 -68.9334780864811,-22.4506468748054 -68.9337146477828,-22.4519316221566 -68.9339508779968,-22.4538567716716 -68.9340550425209,-22.4562547930622 -68.934041130179,-22.4567767263956 -68.9339929794097,-22.4585830308742 -68.933853195225,-22.4615693803466 -68.9314744030614,-22.4615385092645 -68.931388220051,-22.4599827899608 -68.9293217856776,-22.4592369509496 -68.9293541431726,-22.4588186685731 -68.9302863144273,-22.4589087089727 -68.9305442966482,-22.4572655130451 -68.9312514437269,-22.4573554508561 -68.9312577641607,-22.4567051894339 -68.9304903566754,-22.456557991345 -68.9297731623944,-22.4565779785477 -68.9298709496292,-22.4538889714644 -68.9289488643985,-22.4536890012689 -68.9285014019245,-22.4536761993366 -68.9276759721965,-22.4536525814925 -68.9277802127018,-22.4540308679596 -68.9278381360671,-22.4545119538704 -68.927857667498,-22.454674170923 -68.9278918519647,-22.4549580877935 -68.9279439913642,-22.4555798340078 -68.9278819859471,-22.4561343474279 -68.9254956396461,-22.4559802860572 -68.9253717639574,-22.4568024805691 -68.9253082855311,-22.4575791025729 -68.9252429049388,-22.4580626778634 -68.9251237401408,-22.4589440426772 -68.9237348757614,-22.458590168889 -68.922943301289,-22.458388475276 -68.9230449210349,-22.4606449327203 -68.9230554877751,-22.4608729382236 -68.9230670534935,-22.4611225102807 -68.9230841432857,-22.4614912756986 -68.9231073373939,-22.4619917703826 -68.9231620200673,-22.463235975527 -68.9231952624032,-22.4643921470261 -68.9232071785826,-22.4648709959948 -68.9231802883261,-22.4660100751252 -68.9231733425141,-22.4663042808349 -68.9231439804087,-22.4675480595233 -68.9231586570679,-22.4678014912909 -68.9231710691519,-22.4680158226352 -68.9241834862784,-22.4684830436439 -68.9253282885547,-22.4690113481905 -68.9252579536992,-22.4696186037455 -68.9251732608143,-22.4703498230824 -68.9274336700668,-22.4757528443618 -68.9289253974052,-22.4757535087079 -68.9279041121886,-22.4726159104028 -68.9275031048726,-22.4726174317584 -68.926804526407,-22.470762273577 -68.9280596492721,-22.4706481059597 -68.9282454425416,-22.4694434975595 -68.9298502147382,-22.4695398134285 -68.9298504169155,-22.4691382494501 -68.9284925642144,-22.469003798525 -68.9289478747408,-22.4673404638031 -68.9291910913664,-22.4664519297271 -68.9290562281054,-22.4663168151134 -68.9282848821344,-22.4659579344773 -68.9283622191988,-22.4655994301505 -68.9298281026098,-22.4656359278544 -68.929943958129,-22.4653850006594 -68.9308698061495,-22.4653495466367 -68.9312556222806,-22.4652421494343 -68.9312175597628,-22.4642023685747 -68.9347279220717,-22.4643113890915 -68.9347919148455,-22.4610315317374 -68.9348093956063,-22.4606992347475 -68.934856951667,-22.4597952235231 -68.9349589558214,-22.4578561573028 -68.9350400354094,-22.4565737939455 -68.9350549312655,-22.4554492955694 -68.9349961551922,-22.4542079362108 -68.9349262082754,-22.4527306349866 -68.9347087011163,-22.4516080956836 -68.9344259762891,-22.4501489437274 -68.9341289055153,-22.4488482950769 -68.9336561373697,-22.446778350748 -68.9333483739675,-22.4450930847069 -68.9322772132186,-22.4451956390487 -68.9324126476864,-22.4456808027261 -68.9325430633542,-22.4461479872733 -68.9326168217816,-22.446412209461 -68.9326550287478,-22.4471651598244 -68.9331564211869,-22.4472370761268</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOMBRE">ZU-4 Residencial Densidad Baja</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, comercio y programas de viviendas sociales comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos, antenas radioemisoras AM y FM, discotecas, moteles, juegos electrónicos y nuevos servicentros comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9328654863919,-22.4851697601614 -68.9343282726063,-22.4854600377735 -68.9344106708206,-22.4852688508305 -68.9356277456859,-22.4822567347656 -68.9356467022686,-22.482209818687 -68.9352879952586,-22.4821381789106 -68.9346296097586,-22.4820040588272 -68.9335597786041,-22.48169766879 -68.9323665033718,-22.4813720975891 -68.9319344645702,-22.4812380612873 -68.9317594765841,-22.4821671985661 -68.9315159651012,-22.4834601590966 -68.9311812098579,-22.4842368497246 -68.9318666886522,-22.4846817124854 -68.9325529713599,-22.4850534413195 -68.9328654863919,-22.4851697601614</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-6</SimpleData>
+		<SimpleData name="NOMBRE">ZE-6 Expansión Equipamiento Turístico</SimpleData>
+		<SimpleData name="UPERM">Equipamiento turístico regional y vivienda.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9287047977673,-22.4796304115076 -68.9281286265699,-22.4797066441432 -68.9278530430804,-22.4796825104267 -68.9276140283874,-22.4796615780589 -68.9281741071204,-22.4798613658486 -68.9283243689265,-22.4800098789877 -68.9287148107355,-22.4802602052596 -68.9290354355394,-22.4804473610377 -68.929639657465,-22.4808539692417 -68.9298581189076,-22.481176749998 -68.9298578961638,-22.4816189475238 -68.9297763837486,-22.4819693573447 -68.9297161247559,-22.4822284017043 -68.9293300490321,-22.4827540892064 -68.929278273467,-22.4834113876881 -68.9296640623994,-22.4834593618116 -68.9302169769044,-22.4836269194708 -68.9306541254664,-22.483842231738 -68.9311812098579,-22.4842368497246 -68.9315159651012,-22.4834601590966 -68.9317594765841,-22.4821671985661 -68.9319344645702,-22.4812380612873 -68.9313791195381,-22.4807980186423 -68.9309154329428,-22.4804772860455 -68.9305769199012,-22.4802431348908 -68.9299186643984,-22.4798795312611 -68.9291368576427,-22.4797070903906 -68.9287047977673,-22.4796304115076</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-2</SimpleData>
+		<SimpleData name="NOMBRE">ZR-2 Franja de Protección Río Loa</SimpleData>
+		<SimpleData name="UPERM">Protección.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9108660444943,-22.4755447397939 -68.9112516163004,-22.4758891499599 -68.9119303022676,-22.4763771347847 -68.912146265602,-22.4765063263043 -68.912578218535,-22.476721684818 -68.9131183312696,-22.4767219767165 -68.9138899358618,-22.4766937075352 -68.9140443171033,-22.4765933992248 -68.9141832821396,-22.4764643986082 -68.914322185164,-22.4764357894163 -68.9145535287779,-22.4766510350374 -68.914646023451,-22.4768088416958 -68.9147538876813,-22.4770670470938 -68.9151550798829,-22.4771246247735 -68.9157414615926,-22.4771679558972 -68.9165283911313,-22.4773261228239 -68.9167753514358,-22.4772402013231 -68.9172999388264,-22.4773982279758 -68.9176701686547,-22.4776278827112 -68.9180845745543,-22.4777925140194 -68.9189352892688,-22.4781304778979 -68.9195061635896,-22.4783172036795 -68.9201541807443,-22.4785326487022 -68.9207866485019,-22.4789632081265 -68.9218048144543,-22.4795803905345 -68.9223909858324,-22.480025262696 -68.9224526193955,-22.480197390598 -68.9230390173719,-22.480240696116 -68.9235482786618,-22.4802409383844 -68.9247982135304,-22.4803705998792 -68.9252303232583,-22.480356460217 -68.9255698534316,-22.480313592742 -68.9260328566869,-22.4802420972943 -68.9262797489939,-22.4802852358312 -68.9266500683734,-22.4803857944638 -68.9268043446247,-22.4804719146023 -68.9273135843471,-22.4805151686305 -68.9278999629516,-22.480601481933 -68.9282547329721,-22.4809314951627 -68.928532410662,-22.481132400671 -68.9287483454616,-22.4813619614647 -68.9287790192578,-22.4817348554298 -68.9287942535417,-22.482122084073 -68.9287478684532,-22.4822941618018 -68.9286410715474,-22.4826604281047 -68.9285623637361,-22.4829107667819 -68.9284850017361,-22.4832979525343 -68.9285465485951,-22.483656519533 -68.929024736149,-22.484086978029 -68.9298269998685,-22.4845462576989 -68.9303207520363,-22.4847329115466 -68.9306137657229,-22.4851489427326 -68.9309223481124,-22.48529249129 -68.9314160600679,-22.4855651899325 -68.9316629353427,-22.4856656862659 -68.9318633854199,-22.4860243098311 -68.9323571455722,-22.4862109574276 -68.9327275197806,-22.4862397963394 -68.9335917379519,-22.4862831792017 -68.9339620990109,-22.4863406964898 -68.9342706797657,-22.4864985801404 -68.9346565216377,-22.4864557124638 -68.9349495988259,-22.4867713442556 -68.9351192733777,-22.4869578531875 -68.9351808723114,-22.487244709093 -68.9352424972119,-22.4874741980307 -68.9355510705998,-22.4876607613299 -68.935890543796,-22.4877756296814 -68.9361682912263,-22.4878761313769 -68.9361527990436,-22.4880051988296 -68.9360292889431,-22.4881055404292 -68.9359211843029,-22.4882632540941 -68.9358130870023,-22.4884066270804 -68.9358129679662,-22.4886647741889 -68.9357974356751,-22.4888798915301 -68.9359360628824,-22.4894679493983 -68.9361211686332,-22.4896688039578 -68.9363525427078,-22.489941384109 -68.9368154042508,-22.4902427396486 -68.9370313593691,-22.4904866288512 -68.9378646363158,-22.4907594426375 -68.9381424484936,-22.4907308664839 -68.9384665614174,-22.4907023066304 -68.9390067151642,-22.4907311958504 -68.9393616757625,-22.4907456712865 -68.9402720085775,-22.4912909892898 -68.9408738070686,-22.4915350176547 -68.9415145838104,-22.4918384457466 -68.9420439775771,-22.4920075180088 -68.9424949767446,-22.4911806512859 -68.9423303546727,-22.4911805924686 -68.9415755790475,-22.4907165773372 -68.9411165774327,-22.4904343935119 -68.9397381174394,-22.4898602228747 -68.9383182853396,-22.4898023197707 -68.9376598701972,-22.4896490897935 -68.9371662060534,-22.4892090912837 -68.9369811806728,-22.4888265773327 -68.9373338647778,-22.4885332392299 -68.9377016240963,-22.4883105621561 -68.9379692751349,-22.4879855905511 -68.9379076881594,-22.4876604920034 -68.937619785575,-22.4872588176397 -68.9373111875854,-22.4871248435191 -68.9368585139557,-22.4870673008007 -68.9365499597321,-22.4868377154618 -68.9362002964261,-22.4865125025794 -68.9357890623322,-22.4858430671974 -68.935295328709,-22.4855942832472 -68.9347603537025,-22.4855367006801 -68.9343282726063,-22.4854600377735 -68.9328654863919,-22.4851697601614 -68.9325529713599,-22.4850534413195 -68.9318666886522,-22.4846817124854 -68.9311812098579,-22.4842368497246 -68.9306541254664,-22.483842231738 -68.9302169769044,-22.4836269194708 -68.9296640623994,-22.4834593618116 -68.929278273467,-22.4834113876881 -68.9293300490321,-22.4827540892064 -68.9297161247559,-22.4822284017043 -68.9297763837486,-22.4819693573447 -68.9298578961638,-22.4816189475238 -68.9298581189076,-22.481176749998 -68.929639657465,-22.4808539692417 -68.9290354355394,-22.4804473610377 -68.9287148107355,-22.4802602052596 -68.9283243689265,-22.4800098789877 -68.9281741071204,-22.4798613658486 -68.9276140283874,-22.4796615780589 -68.9274702197035,-22.4796489832363 -68.926914704475,-22.4795722439796 -68.9264620809388,-22.4794764283395 -68.9253509911363,-22.4794376731225 -68.9252892116728,-22.4795332552618 -68.9246458142584,-22.4795183722338 -68.9240604484717,-22.4794925033044 -68.9233962517106,-22.4794558786528 -68.9231648201421,-22.4793456527514 -68.9229719704731,-22.4792547307994 -68.9227251606108,-22.4790681729167 -68.9226094679381,-22.4789820682958 -68.9224860918339,-22.4788385929028 -68.9223086716375,-22.4787524583796 -68.9222007079668,-22.4786448444504 -68.9220696081017,-22.4785157074346 -68.9217996131033,-22.4784008445357 -68.9216453503208,-22.4783003789853 -68.9213830796529,-22.4781711767135 -68.9210608564019,-22.4780463568972 -68.92088166053,-22.4779629789237 -68.9207428501948,-22.4778266658257 -68.9204805494774,-22.4777548290689 -68.9202645477038,-22.477675844475 -68.9199945599495,-22.4775538073388 -68.9198788629483,-22.4774820422721 -68.9195548599458,-22.4773671478626 -68.9194082945992,-22.4773025382697 -68.9192694707126,-22.4771949069408 -68.9189686295542,-22.4770585111097 -68.9187218205881,-22.476886288597 -68.918382351341,-22.4768359213495 -68.918212664262,-22.4767282743875 -68.9180815403816,-22.4766493289885 -68.9177961163578,-22.4765416218494 -68.9175184006234,-22.4764482596734 -68.9173332489423,-22.4763979699775 -68.9171326453393,-22.4763835254929 -68.9164922540867,-22.4763401705685 -68.9162608519369,-22.4762181471518 -68.916006220043,-22.4762323562543 -68.9158133495137,-22.4761892311049 -68.9154352903074,-22.4761603502466 -68.9154199273304,-22.4760456099814 -68.9153042775518,-22.4759021331181 -68.9151962996815,-22.4758303687405 -68.9150497904666,-22.4756797051496 -68.9149340834686,-22.4756294492655 -68.9147952603298,-22.4755289843875 -68.9145638028695,-22.4755001788784 -68.9143555154356,-22.4754355319783 -68.9141240238278,-22.4754640919277 -68.9140082597948,-22.4755070548215 -68.9138693443317,-22.4755571755801 -68.9136918137017,-22.4756646425657 -68.913606859247,-22.4757936708126 -68.9132442242886,-22.4757791346086 -68.912958747563,-22.4757646392529 -68.9128507844727,-22.4756713614776 -68.9126402517417,-22.4755995399366 -68.91254258691,-22.4754895346976 -68.9123266428332,-22.4753316606531 -68.9121466532552,-22.4752598541652 -68.9120746929098,-22.4751737657875 -68.9119461566511,-22.4750780857795 -68.9118021859989,-22.474987177135 -68.9117559246804,-22.4749345656267 -68.9116016942437,-22.4748006266062 -68.9114577788006,-22.4746236685175 -68.9110310627764,-22.4742744561989 -68.9109179870347,-22.4741357584049 -68.9107071910349,-22.4739778850194 -68.9106353098837,-22.4737722829928 -68.9101675400455,-22.4732796294137 -68.910064787154,-22.4730883514499 -68.9099466381979,-22.4728444786077 -68.909838687123,-22.4727392476755 -68.9093504540182,-22.4720840425832 -68.9091757005317,-22.4718783820153 -68.9090369414769,-22.4716918629987 -68.908954766503,-22.4715005959016 -68.9087902857809,-22.4713188429567 -68.9087595487396,-22.4711276048324 -68.9086568097356,-22.4709219844047 -68.9085900260306,-22.4707928727687 -68.9085903835915,-22.4702478937727 -68.9085444608207,-22.4696837661574 -68.9085333096121,-22.4693670409053 -68.9085293123241,-22.4692535105862 -68.9084677080321,-22.469071815576 -68.9084009222406,-22.4689474837439 -68.9083289957687,-22.4688183690511 -68.9082880673945,-22.468483709614 -68.9081133042135,-22.4683019500766 -68.9080002235834,-22.4681823725048 -68.9079334891708,-22.4679815528949 -68.907722665669,-22.4678858215725 -68.907429683592,-22.4675797005797 -68.9072086560255,-22.4673596696889 -68.9070288761703,-22.4669914651534 -68.9069570263614,-22.4667523983609 -68.9068182679964,-22.4665754389696 -68.9067000597951,-22.4664367351504 -68.9065099893402,-22.4660780856796 -68.9064741961406,-22.4657625501127 -68.9063817286333,-22.465590397974 -68.9062687127768,-22.4653799891261 -68.9060579191643,-22.4652460118162 -68.9057494382605,-22.4650546110164 -68.9055951953746,-22.4649636907568 -68.905281569662,-22.4647770668642 -68.9048806847221,-22.4643274614285 -68.9046699790584,-22.4640691892651 -68.904454092061,-22.4638682790276 -68.9041456723079,-22.4635956067259 -68.9038475379449,-22.4633277198719 -68.9035288473229,-22.4630359169925 -68.9033745849234,-22.4629784584946 -68.9031946315593,-22.4628827406146 -68.9031021234779,-22.4627775134424 -68.9030509452386,-22.4624093824005 -68.9030510915482,-22.462199039196 -68.9030408716337,-22.4621034221369 -68.9029843804161,-22.461979095068 -68.9029021661532,-22.4618643123268 -68.902835408759,-22.4617112959282 -68.9027995092558,-22.4615630780061 -68.902753312483,-22.461429195416 -68.9026453746969,-22.4613239586664 -68.9024808583016,-22.4612234684747 -68.9024346184463,-22.4611517327763 -68.9022340508428,-22.4611181474556 -68.901894621035,-22.4610749167812 -68.901760951005,-22.4609935660705 -68.9016838145414,-22.4609743976238 -68.9015655510785,-22.4609265200535 -68.9014678951171,-22.4608308495174 -68.9013342772997,-22.4606777916407 -68.9013189691812,-22.4605056827809 -68.9012881837875,-22.4604004922835 -68.9011494287608,-22.4602378694688 -68.9010003004864,-22.4601995342064 -68.9009897061827,-22.4600201458528 -68.9009698074728,-22.4596832187686 -68.9008516031546,-22.4595540713153 -68.9006459296821,-22.4594726763157 -68.9005586434296,-22.4592622791888 -68.9005381938049,-22.4590901679628 -68.9004508226065,-22.458999283953 -68.9003841410049,-22.4587458747741 -68.9003688923435,-22.4584924973249 -68.9003329723553,-22.4583777427179 -68.9001942889001,-22.4581195081356 -68.9000402287023,-22.4577895561325 -68.8999324992009,-22.4574022673925 -68.8998142874659,-22.457287460702 -68.8997583726147,-22.4563695646017 -68.8996645567922,-22.4560125980232 -68.8996765014125,-22.4557862898014 -68.8996715230713,-22.4555568208783 -68.8997081236269,-22.454725031414 -68.8997493918281,-22.4545529583388 -68.899836921198,-22.4544191578265 -68.8998935943663,-22.4542805573059 -68.8999450632452,-22.4542280038029 -68.9000479940339,-22.4541324565778 -68.9001972250544,-22.4540178164454 -68.9002333123969,-22.4538983254482 -68.9005833347978,-22.4534874160756 -68.9007788326886,-22.4534014870107 -68.9009435467707,-22.4532103670571 -68.9011286997018,-22.4532056997682 -68.9012212886232,-22.4530911070739 -68.9012622333044,-22.4530404312027 -68.9014004241788,-22.45286939893 -68.9014500914874,-22.4528079281244 -68.9015274590943,-22.4527121737029 -68.9016391085728,-22.4525739882068 -68.9017411839548,-22.4524476530972 -68.9018238020957,-22.4523454008178 -68.9019058014457,-22.4522439114961 -68.9019934854418,-22.4521353880531 -68.9021692122194,-22.4517318972721 -68.902655970926,-22.4506637426041 -68.9030807879701,-22.4499110645537 -68.9033663259092,-22.4497606488224 -68.9032909078881,-22.4491247928473 -68.9031628331276,-22.4484076356998 -68.9030464586002,-22.4480071934181 -68.902745975171,-22.4469732250835 -68.9026497974149,-22.4466146268463 -68.9021034574383,-22.4464947830286 -68.9012043336175,-22.4452692234987 -68.9011930416433,-22.444904172635 -68.9011729110237,-22.4442533408605 -68.9007233487634,-22.4436554977423 -68.9005293162959,-22.4434949567907 -68.9005194666135,-22.4434868074148 -68.9005035919017,-22.4434685361714 -68.9004490034352,-22.4434057040178 -68.9001352123861,-22.4431199921793 -68.899250436797,-22.4438915804575 -68.8996622450125,-22.4442404569762 -68.8999962649105,-22.4445992045754 -68.9002787733831,-22.4450774331044 -68.9003298254109,-22.4456033230329 -68.9007410089204,-22.4459382143441 -68.9014603573432,-22.4468469568853 -68.9017942198036,-22.4474447265054 -68.901828708196,-22.4475089489464 -68.9023078344719,-22.4484011453875 -68.902435754341,-22.4493334266588 -68.9023579581937,-22.450265583413 -68.9018688732378,-22.4509823660838 -68.9015539593417,-22.4512980898893 -68.9012255453936,-22.4516273459507 -68.9010194694125,-22.4521291753819 -68.9002990201501,-22.4527262986094 -68.8996042452114,-22.4533712391352 -68.8989093435125,-22.454183495326 -68.8986262827218,-22.4544462466718 -68.8987544263366,-22.4550438935841 -68.8989715378419,-22.4554200368487 -68.8989915001434,-22.4562614222108 -68.8990937134167,-22.4571602251566 -68.8991757005108,-22.4575809632098 -68.8996073588035,-22.4580975291809 -68.8999158011667,-22.458308064167 -68.8998946384411,-22.4591303012517 -68.8999972838538,-22.4594363182984 -68.9002439566362,-22.4597233029111 -68.9004289645748,-22.4599337605285 -68.90046970097,-22.4605074485636 -68.9007165536747,-22.4605458453807 -68.900798602055,-22.4608900930266 -68.9007159543828,-22.4613872173759 -68.9008325563412,-22.4615833450444 -68.9010896228029,-22.4617269183156 -68.9012387561221,-22.4617604726794 -68.901485618018,-22.4617893084997 -68.9016065660198,-22.4618134742962 -68.9017016097417,-22.4618324648787 -68.9018095385264,-22.4619472620736 -68.9018403179169,-22.4620620140835 -68.9018401967147,-22.4622341134768 -68.9019634561594,-22.4624923362594 -68.9019632947564,-22.4627218009003 -68.9019323041825,-22.4629082221617 -68.9019630223835,-22.4631090233706 -68.902148046055,-22.4633099182304 -68.9023948185526,-22.4634678238025 -68.9027033657129,-22.4635540603456 -68.9029346700002,-22.4637693237458 -68.9031968465799,-22.4639702628901 -68.9033663712786,-22.4642715378456 -68.9036747513412,-22.4646015777634 -68.9039369098097,-22.4648311996704 -68.9042453210506,-22.465118214777 -68.9043377570408,-22.4653333927496 -68.9048157784153,-22.4658069472804 -68.9050626198993,-22.4658788013447 -68.9053094889307,-22.4659076295203 -68.9052939316896,-22.4660940595196 -68.9054480523671,-22.4663666410073 -68.9055404618737,-22.4666248419667 -68.9057871771879,-22.4668831348651 -68.905879596376,-22.4671269958896 -68.905972016858,-22.4673708568555 -68.9061570596761,-22.4675574046137 -68.9062649107014,-22.4678012734735 -68.9066194247727,-22.468389483944 -68.9069588557118,-22.4684613877694 -68.9071284895755,-22.4686192433366 -68.907220987679,-22.4687483703981 -68.907220901733,-22.4688774432759 -68.9073904897099,-22.4691070062168 -68.9073901751382,-22.4695802785255 -68.9074515855148,-22.4700535844276 -68.9076132039346,-22.4706667792421 -68.9077054387903,-22.4711974696744 -68.9079211626807,-22.4716708653437 -68.9082294092675,-22.4722447031856 -68.9086303026412,-22.4727325437369 -68.908892306343,-22.4732346454966 -68.9091210270186,-22.4735843419711 -68.9093239546874,-22.4738946017973 -68.9096015453998,-22.474167245762 -68.9097402974005,-22.474368105768 -68.9101875347096,-22.4747986021748 -68.9107427856141,-22.4752434995738 -68.9108660444943,-22.4755447397939</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOMBRE">ZU-4 Residencial Densidad Baja</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, comercio y programas de viviendas sociales comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos, antenas radioemisoras AM y FM, discotecas, moteles, juegos electrónicos y nuevos servicentros comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9137277034575,-22.449062285343 -68.9135310190099,-22.4504388012061 -68.9134705250824,-22.4508621671881 -68.9134177823275,-22.4512312859476 -68.9129346025101,-22.4528743339468 -68.9128058769194,-22.4531132911625 -68.9107487328861,-22.4529926533159 -68.909559499678,-22.452842599602 -68.9092392846263,-22.4529356404744 -68.9092773679993,-22.4536885953958 -68.9095470768652,-22.4541548489622 -68.9098939339735,-22.4546211442451 -68.9103180563786,-22.4549082126425 -68.9122079935618,-22.4551602296246 -68.9149076542016,-22.4559504634009 -68.9157072257323,-22.4561806380044 -68.9170288426201,-22.4565610856634 -68.9173371786155,-22.4569914916305 -68.9173509938265,-22.4576127823107 -68.9173874594207,-22.4592526504032 -68.9174280511935,-22.460189654925 -68.9174277113714,-22.4607633178274 -68.9174273375538,-22.4613943477861 -68.9173446581339,-22.4620444570181 -68.9171592694721,-22.4624268039037 -68.9172618871205,-22.4628475432444 -68.9172822113734,-22.4632682394249 -68.9170968995509,-22.4635167314599 -68.9169527247683,-22.463784366819 -68.916499814759,-22.4642621858428 -68.9161909421366,-22.4647018337238 -68.9161701273572,-22.4651033871045 -68.9163346496341,-22.4652182057805 -68.9169930063408,-22.4652376673277 -68.9172811104666,-22.4651230829417 -68.9173224735629,-22.4647597846694 -68.9174872124728,-22.4645112809924 -68.9176519168973,-22.4643201442144 -68.919215541598,-22.4643018132978 -68.9202441684933,-22.4644170574769 -68.9209230843571,-22.4644556355076 -68.9215799901057,-22.4643451526768 -68.9214260897205,-22.4636279985336 -68.9211949597364,-22.4630542228912 -68.9212215140788,-22.4615722724733 -68.9203730635383,-22.4612133162402 -68.9195761337242,-22.4607109656852 -68.9189077925731,-22.4602086758534 -68.9186765391442,-22.4598739219681 -68.9181109440036,-22.4595868047995 -68.9180082896037,-22.4592282128569 -68.9181627840729,-22.4588936537513 -68.9181123340211,-22.4572204429847 -68.9183951969505,-22.4572444894787 -68.9187808390332,-22.457412002842 -68.9187547054606,-22.4581290685634 -68.9187799756381,-22.4588939655909 -68.9199625426321,-22.4595638306689 -68.9203224915453,-22.4597074252804 -68.9206825898379,-22.4595880894215 -68.9212739874402,-22.459731794615 -68.9209398629798,-22.4593969946221 -68.9205286048296,-22.4590382527583 -68.9203488905233,-22.4585123055119 -68.920452083334,-22.4579386931495 -68.9206863541512,-22.4572682856432 -68.9206324903362,-22.457245605366 -68.9192184417058,-22.4566712403482 -68.9182671772878,-22.4562883182043 -68.9177017386078,-22.4557621729464 -68.9174450621895,-22.4549493517454 -68.9174970593369,-22.4539932715931 -68.9179599369754,-22.4539935075553 -68.9191941668825,-22.454185351425 -68.9219116360959,-22.4545898475337 -68.920974828967,-22.4513959962515 -68.9204616544753,-22.4494237738305 -68.9200759879016,-22.4493339482616 -68.9196583153457,-22.449005078991 -68.9194657670134,-22.448467172596 -68.9190802241012,-22.448168197094 -68.9188010427612,-22.4479917282314 -68.9185511488547,-22.4480812202515 -68.9184452560568,-22.4481191414743 -68.9183340983996,-22.4481589489866 -68.9181283481799,-22.4482326313826 -68.9179573839868,-22.4482505856055 -68.9173796102228,-22.448311261812 -68.9171225018597,-22.448251373294 -68.9166081571795,-22.4483467186013 -68.9159136603964,-22.4486929474421 -68.9153607991955,-22.4486926584983 -68.9147178072297,-22.4489074436826 -68.9142164111338,-22.4488474212903 -68.9137277034575,-22.449062285343</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-8</SimpleData>
+		<SimpleData name="NOMBRE">ZU-8 Áreas Verdes y Deportivas</SimpleData>
+		<SimpleData name="UPERM">El que ahora tienen conforme su destino, además de equipamiento complementario como bancas, espejos de agua, kioscos ornamentales, esculturas, juegos infantiles comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9137277034575,-22.449062285343 -68.9142164111338,-22.4488474212903 -68.9147178072297,-22.4489074436826 -68.9153607991955,-22.4486926584983 -68.9159136603964,-22.4486929474421 -68.9166081571795,-22.4483467186013 -68.9171225018597,-22.448251373294 -68.9173796102228,-22.448311261812 -68.9179573839868,-22.4482505856055 -68.9181283481799,-22.4482326313826 -68.9183340983996,-22.4481589489866 -68.9184452560568,-22.4481191414743 -68.9185511488547,-22.4480812202515 -68.9188010427612,-22.4479917282314 -68.9184993685269,-22.4476747127201 -68.9182928147842,-22.4476183242737 -68.9180743401587,-22.447558680864 -68.9178274332974,-22.4476446057333 -68.9174223733141,-22.4476720830174 -68.9173172286525,-22.4476792157939 -68.9171265068638,-22.4476921532433 -68.9167782492339,-22.4477157761247 -68.9162508467024,-22.4476921575338 -68.9161141791716,-22.4476669727762 -68.9157164852768,-22.4475936872697 -68.914894044818,-22.4474421267093 -68.9147264256602,-22.4474278728384 -68.9138471766963,-22.4471405735387 -68.9138470969725,-22.4472696485921 -68.9139858569526,-22.4474274799323 -68.913893108915,-22.4477142629154 -68.9136923951165,-22.4479436209386 -68.913645745411,-22.4485316023741 -68.9135529425982,-22.4489044336297 -68.9137277034575,-22.449062285343</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOMBRE">ZU-4 Residencial Densidad Baja</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, comercio y programas de viviendas sociales comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos, antenas radioemisoras AM y FM, discotecas, moteles, juegos electrónicos y nuevos servicentros comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9138471766963,-22.4471405735387 -68.9147264256602,-22.4474278728384 -68.914894044818,-22.4474421267093 -68.9157164852768,-22.4475936872697 -68.9161141791716,-22.4476669727762 -68.9162508467024,-22.4476921575338 -68.9167782492339,-22.4477157761247 -68.9171265068638,-22.4476921532433 -68.9173172286525,-22.4476792157939 -68.9174223733141,-22.4476720830174 -68.9178274332974,-22.4476446057333 -68.9180743401587,-22.447558680864 -68.9182928147842,-22.4476183242737 -68.9184993685269,-22.4476747127201 -68.9185103465225,-22.4464891453733 -68.914807763838,-22.4456788990979 -68.914186706652,-22.4455565876842 -68.9125259372837,-22.4452295033189 -68.9123884137907,-22.4450649427894 -68.9120762854539,-22.44469144843 -68.9115222557725,-22.4445818877424 -68.9113876172391,-22.4451170760102 -68.9113256307916,-22.4455472902655 -68.9112481699999,-22.4460492038582 -68.9113558311713,-22.4465799022955 -68.9122043228837,-22.4466950986066 -68.9130835646545,-22.4469824068503 -68.9138471766963,-22.4471405735387</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-R</SimpleData>
+		<SimpleData name="NOMBRE">ZE-R Expansión Restrictiva</SimpleData>
+		<SimpleData name="UPERM">Vivienda y equipamiento comunal-regional.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9095470768652,-22.4541548489622 -68.9092773679993,-22.4536885953958 -68.9092392846263,-22.4529356404744 -68.909559499678,-22.452842599602 -68.9062140056345,-22.4519948368838 -68.9056673787397,-22.4522634233635 -68.9052538018381,-22.4526584129651 -68.9054797066542,-22.453232208902 -68.9059526352331,-22.453576683614 -68.9063434703379,-22.453634277146 -68.9065902218938,-22.4538065198132 -68.9074538210151,-22.454466730135 -68.907844607722,-22.4546008086394 -68.9086260715894,-22.4550410614877 -68.9092020017549,-22.4551943638077 -68.9093664081322,-22.45546216597 -68.909530877179,-22.4556343569858 -68.9101480048827,-22.4557111903928 -68.9106209656911,-22.4560365290107 -68.9108883119618,-22.4561896541052 -68.9112586200356,-22.4561898581638 -68.9112792781544,-22.4560560146574 -68.9118140211936,-22.4562857727263 -68.9121225875315,-22.4563241858147 -68.9127190150983,-22.4566113416058 -68.9133566506403,-22.4568029063192 -68.9137062344405,-22.457051680972 -68.9140352454113,-22.4573004439049 -68.9146111909202,-22.4574537269264 -68.9149402394597,-22.4576451217937 -68.915372072607,-22.457970424771 -68.915721696648,-22.4581618288279 -68.9162357334617,-22.4586401496098 -68.9170789543356,-22.4590995158579 -68.9173874594207,-22.4592526504032 -68.9173509938265,-22.4576127823107 -68.9173371786155,-22.4569914916305 -68.9170288426201,-22.4565610856634 -68.9157072257323,-22.4561806380044 -68.9149076542016,-22.4559504634009 -68.9122079935618,-22.4551602296246 -68.9103180563786,-22.4549082126425 -68.9098939339735,-22.4546211442451 -68.9095470768652,-22.4541548489622</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-3</SimpleData>
+		<SimpleData name="NOMBRE">ZR-3 Forestación</SimpleData>
+		<SimpleData name="UPERM">Reserva de expansión.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9011417217471,-22.4429087952785 -68.9012679200777,-22.4431522068926 -68.9015910946993,-22.4437755424676 -68.9022012257366,-22.4445826281645 -68.9032927101933,-22.4465253782033 -68.9038120473026,-22.4480921415871 -68.9039663051178,-22.4485575074592 -68.9045759187783,-22.4501712988298 -68.9049287823336,-22.4512172490389 -68.905410693791,-22.4515760713558 -68.90637484511,-22.4518156602309 -68.9062140056345,-22.4519948368838 -68.909559499678,-22.452842599602 -68.9107487328861,-22.4529926533159 -68.9128058769194,-22.4531132911625 -68.9129346025101,-22.4528743339468 -68.9134177823275,-22.4512312859476 -68.9134705250824,-22.4508621671881 -68.9135310190099,-22.4504388012061 -68.9137277034575,-22.449062285343 -68.9135529425982,-22.4489044336297 -68.913645745411,-22.4485316023741 -68.9136923951165,-22.4479436209386 -68.913893108915,-22.4477142629154 -68.9139858569526,-22.4474274799323 -68.9138470969725,-22.4472696485921 -68.9138471766963,-22.4471405735387 -68.9130835646545,-22.4469824068503 -68.9122043228837,-22.4466950986066 -68.9113558311713,-22.4465799022955 -68.9112481699999,-22.4460492038582 -68.9113256307916,-22.4455472902655 -68.9113876172391,-22.4451170760102 -68.9115222557725,-22.4445818877424 -68.9110157271102,-22.4444817196703 -68.9089908745202,-22.444331199067 -68.9081232160205,-22.4440618013978 -68.9077669883443,-22.4440159211341 -68.9072254722398,-22.4439461723128 -68.9062591428166,-22.4438217037659 -68.9061629772861,-22.443433229099 -68.9055947949188,-22.4433074083448 -68.9052041839474,-22.4429629806024 -68.9048750539985,-22.4429627870185 -68.9045047016044,-22.4430773010403 -68.9041218410823,-22.4430516513621 -68.9036876823944,-22.4430225643395 -68.9030648173111,-22.4429808336131 -68.9030033057113,-22.4426939641342 -68.902592091929,-22.4424068831166 -68.9025077132298,-22.4423231071592 -68.9022837465612,-22.4421007436361 -68.9011417217471,-22.4429087952785</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-2</SimpleData>
+		<SimpleData name="NOMBRE">ZU-2 Preferentemente Comercial</SimpleData>
+		<SimpleData name="UPERM">Comercio, equipamiento regional, talleres inofensivos y vivienda.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, estadios, canchas, piscinas, ferias, terminales de buses urbanos e interurbanos y antenas radioemisoras AM y FM comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9096759116993,-22.4357455995102 -68.9097539887804,-22.4357991547048 -68.9097760987185,-22.4358176480688 -68.9098061167276,-22.4358427560801 -68.9099535812457,-22.4359816993508 -68.9113136422237,-22.4372631505539 -68.9114382587139,-22.4371019950355 -68.9122422195649,-22.4363853523849 -68.9126802137814,-22.4359404474423 -68.9118186297431,-22.4351887894585 -68.9113006124907,-22.4347368570079 -68.9110810925096,-22.4345453403193 -68.9110325555583,-22.4345029952571 -68.9106836812891,-22.4349706531778 -68.910445908562,-22.4351534949908 -68.9096759116993,-22.4357455995102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-4</SimpleData>
+		<SimpleData name="NOMBRE">ZU-4 Residencial Densidad Baja</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento, comercio y programas de viviendas sociales comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, terminales de buses urbanos e interurbanos, antenas radioemisoras AM y FM, discotecas, moteles, juegos electrónicos y nuevos servicentros comunal.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9050419875763,-22.4394826537143 -68.9050418964842,-22.4396165096871 -68.9048351548578,-22.4397913137864 -68.9027366738247,-22.4415655959032 -68.9022837465612,-22.4421007436361 -68.9025077132298,-22.4423231071592 -68.902592091929,-22.4424068831166 -68.9030033057113,-22.4426939641342 -68.9030648173111,-22.4429808336131 -68.9036876823944,-22.4430225643395 -68.9041218410823,-22.4430516513621 -68.9045047016044,-22.4430773010403 -68.9048750539985,-22.4429627870185 -68.9052041839474,-22.4429629806024 -68.9055947949188,-22.4433074083448 -68.9061629772861,-22.443433229099 -68.9064402514665,-22.4431148424811 -68.9064429416579,-22.4431117534856 -68.9076121034019,-22.4417679459746 -68.9076121481416,-22.4417678926992 -68.909740452662,-22.4400662401631 -68.9096368884131,-22.4394315088796 -68.9116382321824,-22.4377666556389 -68.9113136422237,-22.4372631505539 -68.9099535812457,-22.4359816993508 -68.9098061167276,-22.4358427560801 -68.9097760987185,-22.4358176480688 -68.9097539887804,-22.4357991547048 -68.9096759116993,-22.4357455995102 -68.9096054692734,-22.4357997690702 -68.9095294682815,-22.4358582104099 -68.9087671806825,-22.4364443776479 -68.9082640864114,-22.4368385456525 -68.9078616809307,-22.4370940170025 -68.9063386533787,-22.4383743269259 -68.9050419875763,-22.4394826537143</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-2</SimpleData>
+		<SimpleData name="NOMBRE">ZE-2 Expansión Residencial Baja Densidad Arborizada</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento comunal.</SimpleData>
+		<SimpleData name="UPROH">Cementerios, botaderos de basura, quintas de recreo, ferias libres, juegos electrónicos, talleres, terminales de buses urbanos e interurbanos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9184748018579,-22.4893594898097 -68.9191803452872,-22.4899030596852 -68.9194259380945,-22.4898220896856 -68.9206765963925,-22.4894097515042 -68.9224466190163,-22.4887795857263 -68.9236903538031,-22.4882626185288 -68.9235006415646,-22.4873626868839 -68.9225494219471,-22.4865017412489 -68.9215981717696,-22.4857124965713 -68.9210068137703,-22.4853058647843 -68.9206214189603,-22.4845646949705 -68.9200813315562,-22.4844688183611 -68.9185900263423,-22.483583676496 -68.9164660775526,-22.482178443286 -68.916270541087,-22.4820493007415 -68.9160598341326,-22.4819185980157 -68.9148105489971,-22.4811436617034 -68.9133707993331,-22.4801867919145 -68.912727988384,-22.479875711774 -68.911056923872,-22.4787035712786 -68.9094372961718,-22.477579249447 -68.9082032352228,-22.4768375715184 -68.9071234731842,-22.4761437775299 -68.9062747615488,-22.4760954811198 -68.9060042937374,-22.4763618971573 -68.9050136587157,-22.4773376775668 -68.9050543338947,-22.4773728339559 -68.9151733187342,-22.4862496662917 -68.9184748018579,-22.4893594898097</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-8</SimpleData>
+		<SimpleData name="NOMBRE">ZR-8 Franja de Protección Uso Recreativo Municipal</SimpleData>
+		<SimpleData name="UPERM">Inherente al espacio público y riberas de río.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9003710424962,-22.4656148404775 -68.90045825946,-22.465568110631 -68.9005852586527,-22.4655605054915 -68.9013913171164,-22.4655122353547 -68.9014293702476,-22.4655653896147 -68.9015027363028,-22.46565688693 -68.9015806787218,-22.4657441355834 -68.9016622151392,-22.4658280492146 -68.9017551430351,-22.4659236877964 -68.901882063154,-22.4661171061662 -68.9019511856317,-22.4663749363531 -68.9019511854251,-22.4663752299593 -68.9020718520884,-22.4661595775884 -68.9021338362058,-22.4657867342533 -68.9018102793295,-22.4650981427664 -68.901455794889,-22.4645099224922 -68.901363649074,-22.4638931780176 -68.9013950779088,-22.4630900689339 -68.9015188135597,-22.4626742396889 -68.901673297437,-22.4624161851761 -68.901611789445,-22.4621149742955 -68.9016065660198,-22.4618134742962 -68.901485618018,-22.4617893084997 -68.9012387561221,-22.4617604726794 -68.9010896228029,-22.4617269183156 -68.9008325563412,-22.4615833450444 -68.9007159543828,-22.4613872173759 -68.900798602055,-22.4608900930266 -68.9007165536747,-22.4605458453807 -68.90046970097,-22.4605074485636 -68.9004289645748,-22.4599337605285 -68.9002439566362,-22.4597233029111 -68.8999972838538,-22.4594363182984 -68.8998946384411,-22.4591303012517 -68.8999158011667,-22.458308064167 -68.8996073588035,-22.4580975291809 -68.8991757005108,-22.4575809632098 -68.8990937134167,-22.4571602251566 -68.8989915001434,-22.4562614222108 -68.8989715378419,-22.4554200368487 -68.8987544263366,-22.4550438935841 -68.8982769921284,-22.455008556587 -68.8980942234623,-22.4549950284227 -68.897777285743,-22.4549715698119 -68.8982433946153,-22.4582857385089 -68.8993152770864,-22.4585425044871 -68.8994690581133,-22.4592596797745 -68.8997916817108,-22.4612103348323 -68.9002372540104,-22.4638638023385 -68.9002056745364,-22.4648676925913 -68.9003010640739,-22.4655472135833 -68.9003710424962,-22.4656148404775</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOMBRE">ZE-1 Expansión Comercial</SimpleData>
+		<SimpleData name="UPERM">Comercio, equipamiento comunal .</SimpleData>
+		<SimpleData name="UPROH">Cementerios, estadios, canchas, piscinas, ferias. botaderos de basura, terminales de buses urbanos e interurbanos, y antenas radioemisoras AM y FM.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9241170332537,-22.4890600604257 -68.9243677311498,-22.4891835459098 -68.9254285056556,-22.4897060420112 -68.925988253899,-22.489173078781 -68.9264321696936,-22.488750400449 -68.9255322883307,-22.488032910997 -68.9241170332537,-22.4890600604257</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-1</SimpleData>
+		<SimpleData name="NOMBRE">ZE-1 Expansión Comercial</SimpleData>
+		<SimpleData name="UPERM">Comercio, equipamiento comunal .</SimpleData>
+		<SimpleData name="UPROH">Cementerios, estadios, canchas, piscinas, ferias. botaderos de basura, terminales de buses urbanos e interurbanos, y antenas radioemisoras AM y FM.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9184477655029,-22.4901549638211 -68.910735492395,-22.4929198468422 -68.9053338477638,-22.4927673727623 -68.9066324608056,-22.4941478388096 -68.9101306734461,-22.4942932424113 -68.9110053421957,-22.4941503128562 -68.9121116809808,-22.4937445773683 -68.9140155484921,-22.4931241383799 -68.9172315906128,-22.4919306942849 -68.9194698145379,-22.4912864597589 -68.9204473855246,-22.4910718218093 -68.9208586834126,-22.4915261733049 -68.9215014594671,-22.4920284410324 -68.9228129588994,-22.492650540612 -68.9241093366265,-22.4926135115105 -68.9244592291292,-22.4926035153275 -68.9254881564754,-22.492556189001 -68.9250780241586,-22.4899028156632 -68.9254285056556,-22.4897060420112 -68.9243677311498,-22.4891835459098 -68.9241170332537,-22.4890600604257 -68.9237828449037,-22.4887013633134 -68.9236903538031,-22.4882626185288 -68.9224466190163,-22.4887795857263 -68.9206765963925,-22.4894097515042 -68.9194259380945,-22.4898220896856 -68.9191803452872,-22.4899030596852 -68.9188076523717,-22.4900259319597 -68.9184477655029,-22.4901549638211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-7</SimpleData>
+		<SimpleData name="NOMBRE">ZE-7 Equipamiento Exclusivo</SimpleData>
+		<SimpleData name="UPERM">Usos inherentes al funcionamiento del Ejército de Chile.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9339086215689,-22.5057014732434 -68.9367625187393,-22.5091684822323 -68.9379968792419,-22.510220672112 -68.9385627210291,-22.5105077192433 -68.9402872579133,-22.5084049476467 -68.9408019093558,-22.5080705019925 -68.9427050494522,-22.5093858285808 -68.9428851588641,-22.5093141842765 -68.9463339086181,-22.50539535894 -68.9441733507152,-22.5045580362213 -68.9426813634388,-22.5044380005582 -68.9414983865557,-22.5035770845902 -68.9396211866975,-22.5019749229787 -68.9391584838769,-22.5012098675519 -68.9393390838214,-22.4999909073697 -68.9398547288492,-22.498579914284 -68.9386809848274,-22.4979275840193 -68.9377459109355,-22.4974078899914 -68.9352746124948,-22.4958690772239 -68.9347114295897,-22.4955183881552 -68.9332358431044,-22.4945851183598 -68.9327827870015,-22.4942985662391 -68.9303398686518,-22.4927916669637 -68.9277169458163,-22.4912846525748 -68.9263284089509,-22.4903996297225 -68.925479782582,-22.4900167980128 -68.9254285056556,-22.4897060420112 -68.9250780241586,-22.4899028156632 -68.9254881564754,-22.492556189001 -68.9266073176024,-22.4969977943853 -68.9271984299034,-22.4980019695892 -68.9272650810685,-22.4980816778437 -68.9300777378923,-22.5014452080397 -68.9308618870694,-22.5023129844209 -68.9313351693575,-22.5028367336016 -68.9321079045851,-22.5036918549446 -68.9339086215689,-22.5057014732434</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-6</SimpleData>
+		<SimpleData name="NOMBRE">ZU-6 Industria Molesta</SimpleData>
+		<SimpleData name="UPERM">Industrias de todo tipo, talleres, bodegas, garajes, ferias y antenas radioemisoras AM y FM.</SimpleData>
+		<SimpleData name="UPROH">Todos los demás, excepto casa del cuidador y vivienda.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9427050494522,-22.5093858285808 -68.9408019093558,-22.5080705019925 -68.9402872579133,-22.5084049476467 -68.9385627210291,-22.5105077192433 -68.9379968792419,-22.510220672112 -68.9367625187393,-22.5091684822323 -68.9339086215689,-22.5057014732434 -68.9321079045851,-22.5036918549446 -68.9313351693575,-22.5028367336016 -68.9308618870694,-22.5023129844209 -68.9300777378923,-22.5014452080397 -68.9272650810685,-22.4980816778437 -68.9271984299034,-22.4980019695892 -68.9266073176024,-22.4969977943853 -68.9254881564754,-22.492556189001 -68.9244592291292,-22.4926035153275 -68.9241093366265,-22.4926135115105 -68.9228129588994,-22.492650540612 -68.9215014594671,-22.4920284410324 -68.9208586834126,-22.4915261733049 -68.9204473855246,-22.4910718218093 -68.9206444195078,-22.4928729763478 -68.9227317929894,-22.4975349851533 -68.9244661153935,-22.5012406990676 -68.9264258910731,-22.504438567319 -68.9291253300727,-22.5076964940842 -68.931311069855,-22.5095498848304 -68.9384153972868,-22.5149606967954 -68.9427050494522,-22.5093858285808</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-4</SimpleData>
+		<SimpleData name="NOMBRE">ZE-4 Expansión Residencial Densidad Baja</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de educación, culto y deportes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9081429326946,-22.4318704134701 -68.9110325555583,-22.4345029952571 -68.9110810925096,-22.4345453403193 -68.9113006124907,-22.4347368570079 -68.9118186297431,-22.4351887894585 -68.9126802137814,-22.4359404474423 -68.913349525809,-22.435465208073 -68.9139921052086,-22.4350089458038 -68.9154855391597,-22.4347928242316 -68.9164606631781,-22.4346517007244 -68.9170596449731,-22.4368662456004 -68.9177631137205,-22.4394669997155 -68.9183856983037,-22.441768643439 -68.9185179030859,-22.4422573847834 -68.9188467375073,-22.4434730149447 -68.9194637987459,-22.4435808862754 -68.919579199737,-22.4441187545705 -68.9251723317581,-22.4433326547746 -68.9251340305213,-22.4428306805663 -68.9256740875574,-22.4426875133089 -68.9261390404339,-22.442537417806 -68.9265613495151,-22.4424010875611 -68.9276027371498,-22.4424015578858 -68.9276907521895,-22.4427870115983 -68.9279875668886,-22.444086869677 -68.9286432272012,-22.4441588687334 -68.9289008239929,-22.4455188519094 -68.9322772132186,-22.4451956390487 -68.9333483739675,-22.4450930847069 -68.9336561373697,-22.446778350748 -68.9341289055153,-22.4488482950769 -68.9344259762891,-22.4501489437274 -68.9347087011163,-22.4516080956836 -68.9349262082754,-22.4527306349866 -68.9349961551922,-22.4542079362108 -68.9350549312655,-22.4554492955694 -68.9350400354094,-22.4565737939455 -68.9349589558214,-22.4578561573028 -68.934856951667,-22.4597952235231 -68.9348093956063,-22.4606992347475 -68.9347919148455,-22.4610315317374 -68.9347279220717,-22.4643113890915 -68.9312175597628,-22.4642023685747 -68.9312556222806,-22.4652421494343 -68.9308698061495,-22.4653495466367 -68.929943958129,-22.4653850006594 -68.9298281026098,-22.4656359278544 -68.9283622191988,-22.4655994301505 -68.9282848821344,-22.4659579344773 -68.9290562281054,-22.4663168151134 -68.9291910913664,-22.4664519297271 -68.9295574700139,-22.4668189897941 -68.9298735700521,-22.4672233486111 -68.9301743015813,-22.4676080447712 -68.9306758018903,-22.4676082610717 -68.9312713958151,-22.4678515886255 -68.9322571408256,-22.4682543033128 -68.9334258744924,-22.4686982304339 -68.9341470800755,-22.4689721649311 -68.9356128680814,-22.4692954418546 -68.9356830383162,-22.4694963056506 -68.9357489947338,-22.4696851090933 -68.9358569533031,-22.4702887182118 -68.9358846549758,-22.4704435997999 -68.9359336924747,-22.4707177753369 -68.936242147808,-22.4710812177809 -68.9367563635362,-22.4714256180803 -68.9368843782799,-22.4717565417584 -68.9369413210586,-22.4719037420947 -68.9373114818092,-22.4723245727151 -68.9372084605549,-22.4726496080913 -68.936899812043,-22.4726972930565 -68.9320173779124,-22.4726482904046 -68.9285542301121,-22.472613442515 -68.9279041121886,-22.4726159104028 -68.9289253974052,-22.4757535087079 -68.9274336700668,-22.4757528443618 -68.9251732608143,-22.4703498230824 -68.9252579536992,-22.4696186037455 -68.9253282885547,-22.4690113481905 -68.9241834862784,-22.4684830436439 -68.9231710691519,-22.4680158226352 -68.9231705507001,-22.4689560836627 -68.9231682747309,-22.4730831749176 -68.923166648021,-22.4760323511642 -68.9231657432436,-22.4776724721129 -68.9231648201421,-22.4793456527514 -68.9233962517106,-22.4794558786528 -68.9240604484717,-22.4794925033044 -68.9246458142584,-22.4795183722338 -68.9252892116728,-22.4795332552618 -68.9253509911363,-22.4794376731225 -68.9264620809388,-22.4794764283395 -68.926914704475,-22.4795722439796 -68.9274702197035,-22.4796489832363 -68.9276140283874,-22.4796615780589 -68.9278530430804,-22.4796825104267 -68.9281286265699,-22.4797066441432 -68.9287047977673,-22.4796304115076 -68.9291368576427,-22.4797070903906 -68.9299186643984,-22.4798795312611 -68.9305769199012,-22.4802431348908 -68.9309154329428,-22.4804772860455 -68.9313791195381,-22.4807980186423 -68.9319344645702,-22.4812380612873 -68.9323665033718,-22.4813720975891 -68.9335597786041,-22.48169766879 -68.9346296097586,-22.4820040588272 -68.9352879952586,-22.4821381789106 -68.9356467022686,-22.482209818687 -68.9365726018604,-22.4823057963274 -68.9368812934559,-22.4822103067349 -68.9381161386556,-22.4816371236886 -68.9384248699955,-22.4814460212999 -68.937558154891,-22.4814369755551 -68.9358094081155,-22.4809008708105 -68.936009968676,-22.4803547666237 -68.9373552916665,-22.4766914842732 -68.9376841381609,-22.4757960126674 -68.9378500510005,-22.4753656401127 -68.9380677383904,-22.4748009628708 -68.9382329159142,-22.4743903271471 -68.9387322679518,-22.4731489101433 -68.9390362926027,-22.4723930759173 -68.9396435603238,-22.4708833231501 -68.9399727150196,-22.4707382400279 -68.9403139282275,-22.4709286849998 -68.940744088149,-22.4711687723866 -68.9419932160752,-22.4680162695115 -68.9429580407149,-22.4659109933193 -68.9434934951789,-22.4661333913213 -68.945837951065,-22.4671071171712 -68.9476193225181,-22.4678887953876 -68.9489797762819,-22.4684857530529 -68.9507173757361,-22.469248174942 -68.9507963810729,-22.4672085121191 -68.9508688101314,-22.4661180515022 -68.9509304017448,-22.4651973155088 -68.951004165584,-22.4640946011766 -68.9510041919688,-22.4640942000728 -68.9512358519393,-22.4607310299602 -68.9512487316207,-22.4601942538318 -68.9513133562515,-22.4575010477512 -68.9513272561063,-22.4569217727883 -68.9513340565711,-22.4566383484196 -68.9513402366353,-22.4563807784267 -68.9513115888331,-22.4549723445205 -68.9512783819274,-22.4533397133771 -68.9512643924871,-22.452651938733 -68.9515560947561,-22.4526303357669 -68.9519072891042,-22.4526043269344 -68.9517399090464,-22.451858839345 -68.95156015252,-22.4511417048279 -68.9512775726434,-22.4503289288177 -68.951046315458,-22.4498269026534 -68.9507893214021,-22.4493965761893 -68.9505837063892,-22.4491096808474 -68.9494012189604,-22.4480575963802 -68.9486043032813,-22.4474358747949 -68.9456584193632,-22.4449538111423 -68.9435918047562,-22.4430408864648 -68.9418084073914,-22.4415444150943 -68.9416643817909,-22.4416208519198 -68.9414997531444,-22.4417737699488 -68.9413968125948,-22.4419840756753 -68.9412150371092,-22.4420262493107 -68.9411499409995,-22.4420413522499 -68.9410163862506,-22.4420300172461 -68.9409236724657,-22.4420221480968 -68.9404916330424,-22.4421558445975 -68.9402844350451,-22.4420883459013 -68.9400802786725,-22.4420218372989 -68.9398952344224,-22.4418114245636 -68.9396277264567,-22.4420216687133 -68.9393809039251,-22.4419642098638 -68.9390723199245,-22.4420214600786 -68.9389283760414,-22.4419066720558 -68.9383729962851,-22.4418490946581 -68.9381262009923,-22.4417342675324 -68.9382085849315,-22.4415048336028 -68.9384934000093,-22.441504942352 -68.9385582834635,-22.4415049670558 -68.938846287369,-22.4414668315462 -68.9390357680713,-22.4414745613867 -68.9393194002444,-22.4414861324724 -68.939545692539,-22.44144797251 -68.9396692393009,-22.4411611868552 -68.9401217896978,-22.4411613553187 -68.9402864508899,-22.440931949894 -68.9403894178119,-22.4406642775779 -68.9404929260373,-22.4406258333079 -68.940698021685,-22.4405496584579 -68.9364425670402,-22.4366997032784 -68.9363654185896,-22.4367235752629 -68.9361630571332,-22.4366910585329 -68.9359926189702,-22.4366636711082 -68.9358254339908,-22.436783118396 -68.9354903845573,-22.4367430506563 -68.9353240731382,-22.4367231615571 -68.9352597425852,-22.4368306982351 -68.9348550878185,-22.4368472539667 -68.9339618799886,-22.4368608985064 -68.9334212979644,-22.4368658051816 -68.9328041921511,-22.4368894519415 -68.9322899405319,-22.4369011883194 -68.9316493552351,-22.4368860311963 -68.9312614615664,-22.4368768514427 -68.9310623415749,-22.4368767665617 -68.9306572231905,-22.4368765931096 -68.9303616388419,-22.4366613410177 -68.9303102678642,-22.4365537573101 -68.9304131815249,-22.4364247263864 -68.9306806070964,-22.4363865974354 -68.9311331324925,-22.4364059134845 -68.9318169460232,-22.4364388040278 -68.9320964024783,-22.436471792274 -68.9326140806269,-22.4365595150177 -68.9329432885514,-22.436368430413 -68.9331491141565,-22.4361008052613 -68.933704505171,-22.436081912685 -68.934013150535,-22.4358716950032 -68.9344664306237,-22.4358437881101 -68.9345782775796,-22.4358369016096 -68.9346167345041,-22.435834533994 -68.9346272340648,-22.4358338868875 -68.9346424682806,-22.4358330754695 -68.9347113195603,-22.4358295475059 -68.9350005215254,-22.4358147290261 -68.9353913987861,-22.4357001521572 -68.9348105469333,-22.435183620126 -68.9343990882658,-22.435326870445 -68.9340852734001,-22.4352333754419 -68.9337563789282,-22.435135386416 -68.9330878452215,-22.4351829155475 -68.9325737442566,-22.4348958696613 -68.9320337127696,-22.4350629616912 -68.9314166147085,-22.4350866040766 -68.9304653921259,-22.4348471699989 -68.9302598045048,-22.4346319564001 -68.9305169708427,-22.4345364568602 -68.9305685364658,-22.4342496460592 -68.9308514497839,-22.4340824490256 -68.9312053901792,-22.434214239396 -68.9313655902438,-22.4342738900341 -68.9317769320598,-22.4343696747157 -68.9321369677515,-22.4342264103636 -68.9325227603144,-22.4339875446676 -68.9328771260422,-22.4339712213988 -68.9330370059416,-22.4339638563327 -68.9333713155806,-22.4338444809226 -68.9326966930054,-22.4330776475562 -68.9309940240415,-22.4316128871612 -68.9294197053284,-22.4306262196533 -68.9280379176098,-22.4302670687795 -68.9251133817676,-22.4300864687785 -68.9216422256412,-22.4303836064368 -68.917913856724,-22.4308299301543 -68.9134141278643,-22.4312757569605 -68.9094607547733,-22.4316918870838 -68.9081429326946,-22.4318704134701</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-68.9393769053939,-22.4491927659458 -68.9392130403491,-22.4475673212622 -68.9405913897544,-22.4474148578364 -68.9409194946603,-22.4498626122132 -68.9396020932883,-22.4499360494878 -68.9393769053939,-22.4491927659458</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-4</SimpleData>
+		<SimpleData name="NOMBRE">ZE-4 Expansión Residencial Densidad Baja</SimpleData>
+		<SimpleData name="UPERM">Vivienda, equipamiento vecinal de educación, culto y deportes.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9231710691519,-22.4680158226352 -68.9231586570679,-22.4678014912909 -68.9231439804087,-22.4675480595233 -68.9231733425141,-22.4663042808349 -68.9229957148349,-22.4663859831534 -68.922512892768,-22.4674912478669 -68.9224565706256,-22.4676061031118 -68.9227935072288,-22.467707298751 -68.9231150226106,-22.4679700249554 -68.9231710691519,-22.4680158226352</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-8</SimpleData>
+		<SimpleData name="NOMBRE">ZU-8 Áreas Verdes y Deportivas</SimpleData>
+		<SimpleData name="UPERM">El que ahora tienen conforme su destino, además de equipamiento complementario como bancas, espejos de agua, kioscos ornamentales, esculturas, juegos infantiles comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9231802883261,-22.4660100751252 -68.9232071785826,-22.4648709959948 -68.9231952624032,-22.4643921470261 -68.9223514962424,-22.4643694281283 -68.9218114590591,-22.4643213618407 -68.9215799901057,-22.4643451526768 -68.9209230843571,-22.4644556355076 -68.920737778398,-22.4647041317031 -68.9203466011485,-22.465181991815 -68.9203051245416,-22.4657556340816 -68.9202228566906,-22.4661368870031 -68.9201896328737,-22.4662908585596 -68.9201607225395,-22.4664248362886 -68.9203506200353,-22.4664342198675 -68.9205516214489,-22.4664441516378 -68.9212716520212,-22.4665592369982 -68.9218063562834,-22.4669610612076 -68.9221558087529,-22.4675157714046 -68.9224565706256,-22.4676061031118 -68.922512892768,-22.4674912478669 -68.9229957148349,-22.4663859831534 -68.9231733425141,-22.4663042808349 -68.9231802883261,-22.4660100751252</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-6</SimpleData>
+		<SimpleData name="NOMBRE">ZR-6 Zonas de Conservación Histórica</SimpleData>
+		<SimpleData name="UPERM">Las construcciones que se desee realizar sobre estos terrenos requieren, de conformidad a lo dispuesto en el art. 60 de la LGUC, un visto bueno previo de la SEREMI de Vivienda y Urbanismo y autorización del CMN.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8968340566184,-22.4604012445076 -68.8970858012453,-22.4610303772364 -68.8976967478742,-22.4608697284757 -68.8977612892353,-22.4608527564696 -68.8982718407232,-22.4607016812045 -68.8980583099726,-22.4602610842745 -68.8979401489328,-22.4600506319235 -68.8972475654031,-22.4602531882965 -68.8968340566184,-22.4604012445076</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZE-5</SimpleData>
+		<SimpleData name="NOMBRE">ZE-5 Expansión Industrial Molesta</SimpleData>
+		<SimpleData name="UPERM">Industria de todo tipo, talleres de todo tipo, bodegas de todo tipo, garajes y ferias .</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8879465992257,-22.4372532133567 -68.8891806009229,-22.4374930919672 -68.8894637627163,-22.4375600884763 -68.8943478619303,-22.4387155930369 -68.8967387082931,-22.4392908040171 -68.901812303624,-22.4404285640862 -68.9027603971836,-22.4406411557138 -68.9034502041107,-22.4400307599311 -68.9041755329367,-22.4393889219724 -68.9042188539051,-22.439355999514 -68.9048642147064,-22.4388655472763 -68.9101638012017,-22.4345421929083 -68.9098040357951,-22.4342312571437 -68.9073885567971,-22.4320786455333 -68.9039687799531,-22.4323156757057 -68.8957404668002,-22.433194974621 -68.8896205650744,-22.4338840862319 -68.8890805056433,-22.4340271321512 -68.8887718694108,-22.4341464334562 -68.8885144855395,-22.4344808934351 -68.8883854485817,-22.4350783721108 -68.8879465992257,-22.4372532133567</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-6</SimpleData>
+		<SimpleData name="NOMBRE">ZU-6 Industria Molesta</SimpleData>
+		<SimpleData name="UPERM">Industrias de todo tipo, talleres, bodegas, garajes, ferias y antenas radioemisoras AM y FM.</SimpleData>
+		<SimpleData name="UPROH">Todos los demás, excepto casa del cuidador y vivienda.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8867281647342,-22.4415978717663 -68.8864129172404,-22.4434534566466 -68.88692777532,-22.4433149961224 -68.8872462150466,-22.443229357285 -68.8876988677295,-22.4431101584382 -68.8882748718093,-22.443081874914 -68.8890564752251,-22.4431875857621 -68.889570690677,-22.4432548653536 -68.889992231937,-22.4434559352033 -68.8907118719033,-22.4438866730412 -68.8917607447954,-22.4441933344756 -68.8923883422503,-22.4439547262525 -68.8934687429732,-22.443391340447 -68.8939421526389,-22.4430187701972 -68.894652189997,-22.4425603027271 -68.8954443875783,-22.4422548645864 -68.8962776603692,-22.4420354975114 -68.8965862668081,-22.4419687674902 -68.8967041009153,-22.4419740013727 -68.8972694206036,-22.4419991090805 -68.8983070301623,-22.4418606187303 -68.8986879252849,-22.4418097786653 -68.9004451422179,-22.4422549873949 -68.901109661218,-22.4418056618192 -68.9019365236826,-22.4412465570991 -68.9025289000999,-22.4408460009733 -68.9027603971836,-22.4406411557138 -68.901812303624,-22.4404285640862 -68.8967387082931,-22.4392908040171 -68.8943478619303,-22.4387155930369 -68.8894637627163,-22.4375600884763 -68.8891806009229,-22.4374930919672 -68.8879465992257,-22.4372532133567 -68.8873923188841,-22.4390694327475 -68.8871771965054,-22.4395903594834 -68.8867281647342,-22.4415978717663</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-1B</SimpleData>
+		<SimpleData name="NOMBRE">ZR-1B Oasis</SimpleData>
+		<SimpleData name="UPERM">Silvoagropecuario y complementarios: áreas verdes vecinal, equipamiento deportivo al aire libre, culto vecinal, servicios artesanales, pequeña agroindustria inofensiva, educación superior y no más de una vivienda (Ley 19.537).</SimpleData>
+		<SimpleData name="UPROH">Uso industrial de todo tipo, edificios de oficinas, cines, bodegas no silvoagropecuarias y todos los no mencionados como usos permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9255322883307,-22.488032910997 -68.9264321696936,-22.488750400449 -68.925988253899,-22.489173078781 -68.9254285056556,-22.4897060420112 -68.925479782582,-22.4900167980128 -68.9263284089509,-22.4903996297225 -68.9277169458163,-22.4912846525748 -68.9303398686518,-22.4927916669637 -68.9327827870015,-22.4942985662391 -68.9332358431044,-22.4945851183598 -68.9347114295897,-22.4955183881552 -68.9352746124948,-22.4958690772239 -68.9377459109355,-22.4974078899914 -68.9386809848274,-22.4979275840193 -68.9398547288492,-22.498579914284 -68.9406645600489,-22.4962649084065 -68.9415402135311,-22.4937315595331 -68.9420439775771,-22.4920075180088 -68.9415145838104,-22.4918384457466 -68.9408738070686,-22.4915350176547 -68.9402720085775,-22.4912909892898 -68.9393616757625,-22.4907456712865 -68.9390067151642,-22.4907311958504 -68.9384665614174,-22.4907023066304 -68.9381424484936,-22.4907308664839 -68.9378646363158,-22.4907594426375 -68.9370313593691,-22.4904866288512 -68.9368154042508,-22.4902427396486 -68.9363525427078,-22.489941384109 -68.9361211686332,-22.4896688039578 -68.9359360628824,-22.4894679493983 -68.9357974356751,-22.4888798915301 -68.9358129679662,-22.4886647741889 -68.9358130870023,-22.4884066270804 -68.9359211843029,-22.4882632540941 -68.9360292889431,-22.4881055404292 -68.9361527990436,-22.4880051988296 -68.9361682912263,-22.4878761313769 -68.935890543796,-22.4877756296814 -68.9355510705998,-22.4876607613299 -68.9352424972119,-22.4874741980307 -68.9351808723114,-22.487244709093 -68.9351192733777,-22.4869578531875 -68.9349495988259,-22.4867713442556 -68.9346565216377,-22.4864557124638 -68.9342706797657,-22.4864985801404 -68.9339620990109,-22.4863406964898 -68.9335917379519,-22.4862831792017 -68.9327275197806,-22.4862397963394 -68.9323571455722,-22.4862109574276 -68.9318633854199,-22.4860243098311 -68.9316629353427,-22.4856656862659 -68.9314160600679,-22.4855651899325 -68.9309223481124,-22.48529249129 -68.9306137657229,-22.4851489427326 -68.9303207520363,-22.4847329115466 -68.9298269998685,-22.4845462576989 -68.929024736149,-22.484086978029 -68.9255322883307,-22.488032910997</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-1A</SimpleData>
+		<SimpleData name="NOMBRE">ZR-1A Oasis</SimpleData>
+		<SimpleData name="UPERM">Silvoagropecuario y complementarios: áreas verdes regional, equipamiento deportivo vecinal al aire libre, esparcimiento y turismo regional, equipamiento educacional comunal, comercio minorista vecinal y pequeña agroindustria inofensiva.</SimpleData>
+		<SimpleData name="UPROH">Uso industrial de todo tipo, edificios de oficinas, cementerios, cines, bodegas no silvoagropecuarias y todos los no mencionados como usos permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9019518919903,-22.4663739665264 -68.9019511770194,-22.4663871765695 -68.9019511568377,-22.4664158596361 -68.9019509891335,-22.4666542064301 -68.9019486377792,-22.4666708791291 -68.9019287230078,-22.4668121422475 -68.9019161631808,-22.4669012328317 -68.9018813749195,-22.4670945527777 -68.9017850993923,-22.4673176738161 -68.9014696873593,-22.4674892781841 -68.9012467838192,-22.4676105521391 -68.9012087099078,-22.467631266463 -68.9010008779565,-22.4677320592006 -68.9008265529415,-22.4678166019679 -68.9007078505257,-22.4678600251326 -68.9005953497552,-22.4678908296725 -68.9005638385549,-22.4678831801021 -68.9004280727285,-22.4679572179317 -68.9004655648627,-22.4682668050434 -68.9005115910063,-22.4686397142597 -68.9005422991236,-22.4688548562193 -68.9005575559786,-22.4690986726145 -68.9006005943125,-22.469239024842 -68.9008222683084,-22.4701285179384 -68.9017389145902,-22.4728467262317 -68.902187946431,-22.4743409110747 -68.9050136587157,-22.4773376775668 -68.9060042937374,-22.4763618971573 -68.9062747615488,-22.4760954811198 -68.9071234731842,-22.4761437775299 -68.9082032352228,-22.4768375715184 -68.9094372961718,-22.477579249447 -68.911056923872,-22.4787035712786 -68.912727988384,-22.479875711774 -68.9133707993331,-22.4801867919145 -68.9148105489971,-22.4811436617034 -68.9160598341326,-22.4819185980157 -68.916270541087,-22.4820493007415 -68.9164660775526,-22.482178443286 -68.9185900263423,-22.483583676496 -68.9200813315562,-22.4844688183611 -68.9206214189603,-22.4845646949705 -68.9210068137703,-22.4853058647843 -68.9215981717696,-22.4857124965713 -68.9225494219471,-22.4865017412489 -68.9235006415646,-22.4873626868839 -68.9236903538031,-22.4882626185288 -68.9237828449037,-22.4887013633134 -68.9241170332537,-22.4890600604257 -68.9255322883307,-22.488032910997 -68.929024736149,-22.484086978029 -68.9285465485951,-22.483656519533 -68.9284850017361,-22.4832979525343 -68.9285623637361,-22.4829107667819 -68.9286410715474,-22.4826604281047 -68.9287478684532,-22.4822941618018 -68.9287942535417,-22.482122084073 -68.9287790192578,-22.4817348554298 -68.9287483454616,-22.4813619614647 -68.928532410662,-22.481132400671 -68.9282547329721,-22.4809314951627 -68.9278999629516,-22.480601481933 -68.9273135843471,-22.4805151686305 -68.9268043446247,-22.4804719146023 -68.9266500683734,-22.4803857944638 -68.9262797489939,-22.4802852358312 -68.9260328566869,-22.4802420972943 -68.9255698534316,-22.480313592742 -68.9252303232583,-22.480356460217 -68.9247982135304,-22.4803705998792 -68.9235482786618,-22.4802409383844 -68.9230390173719,-22.480240696116 -68.9224526193955,-22.480197390598 -68.9223909858324,-22.480025262696 -68.9218048144543,-22.4795803905345 -68.9207866485019,-22.4789632081265 -68.9201541807443,-22.4785326487022 -68.9195061635896,-22.4783172036795 -68.9189352892688,-22.4781304778979 -68.9180845745543,-22.4777925140194 -68.9176701686547,-22.4776278827112 -68.9172999388264,-22.4773982279758 -68.9167753514358,-22.4772402013231 -68.9165283911313,-22.4773261228239 -68.9157414615926,-22.4771679558972 -68.9151550798829,-22.4771246247735 -68.9147538876813,-22.4770670470938 -68.914646023451,-22.4768088416958 -68.9145535287779,-22.4766510350374 -68.914322185164,-22.4764357894163 -68.9141832821396,-22.4764643986082 -68.9140443171033,-22.4765933992248 -68.9138899358618,-22.4766937075352 -68.9131183312696,-22.4767219767165 -68.912578218535,-22.476721684818 -68.912146265602,-22.4765063263043 -68.9119303022676,-22.4763771347847 -68.9112516163004,-22.4758891499599 -68.9108660444943,-22.4755447397939 -68.9107427856141,-22.4752434995738 -68.9101875347096,-22.4747986021748 -68.9097402974005,-22.474368105768 -68.9096015453998,-22.474167245762 -68.9093239546874,-22.4738946017973 -68.9091210270186,-22.4735843419711 -68.908892306343,-22.4732346454966 -68.9086303026412,-22.4727325437369 -68.9082294092675,-22.4722447031856 -68.9079211626807,-22.4716708653437 -68.9077054387903,-22.4711974696744 -68.9076132039346,-22.4706667792421 -68.9074515855148,-22.4700535844276 -68.9073901751382,-22.4695802785255 -68.9073904897099,-22.4691070062168 -68.907220901733,-22.4688774432759 -68.907220987679,-22.4687483703981 -68.9071284895755,-22.4686192433366 -68.9069588557118,-22.4684613877694 -68.9066194247727,-22.468389483944 -68.9062649107014,-22.4678012734735 -68.9061570596761,-22.4675574046137 -68.905972016858,-22.4673708568555 -68.905879596376,-22.4671269958896 -68.9057871771879,-22.4668831348651 -68.9055404618737,-22.4666248419667 -68.9054480523671,-22.4663666410073 -68.9052939316896,-22.4660940595196 -68.9053094889307,-22.4659076295203 -68.9050626198993,-22.4658788013447 -68.9048157784153,-22.4658069472804 -68.9043377570408,-22.4653333927496 -68.9042453210506,-22.465118214777 -68.9039369098097,-22.4648311996704 -68.9036747513412,-22.4646015777634 -68.9033663712786,-22.4642715378456 -68.9031968465799,-22.4639702628901 -68.9029346700002,-22.4637693237458 -68.9027033657129,-22.4635540603456 -68.9023948185526,-22.4634678238025 -68.902148046055,-22.4633099182304 -68.9019630223835,-22.4631090233706 -68.9019323041825,-22.4629082221617 -68.9019632947564,-22.4627218009003 -68.9019634561594,-22.4624923362594 -68.9018401967147,-22.4622341134768 -68.9018403179169,-22.4620620140835 -68.9018095385264,-22.4619472620736 -68.9017016097417,-22.4618324648787 -68.9016065660198,-22.4618134742962 -68.901611789445,-22.4621149742955 -68.901673297437,-22.4624161851761 -68.9015188135597,-22.4626742396889 -68.9013950779088,-22.4630900689339 -68.901363649074,-22.4638931780176 -68.901455794889,-22.4645099224922 -68.9018102793295,-22.4650981427664 -68.9021338362058,-22.4657867342533 -68.9020718520884,-22.4661595775884 -68.9019518919903,-22.4663739665264</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-7</SimpleData>
+		<SimpleData name="NOMBRE">ZR-7 Equipamiento Exclusivo</SimpleData>
+		<SimpleData name="UPERM">Estadio municipal, hospital, cementerios y sub-estación eléctrica.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8972694206036,-22.4419991090805 -68.8967041009153,-22.4419740013727 -68.8965862668081,-22.4419687674902 -68.8962776603692,-22.4420354975114 -68.8954443875783,-22.4422548645864 -68.894652189997,-22.4425603027271 -68.8939421526389,-22.4430187701972 -68.8934687429732,-22.443391340447 -68.8923883422503,-22.4439547262525 -68.8917607447954,-22.4441933344756 -68.8907118719033,-22.4438866730412 -68.889992231937,-22.4434559352033 -68.889570690677,-22.4432548653536 -68.8890564752251,-22.4431875857621 -68.8882748718093,-22.443081874914 -68.8876988677295,-22.4431101584382 -68.8872462150466,-22.443229357285 -68.88692777532,-22.4433149961224 -68.8864129172404,-22.4434534566466 -68.8862913087113,-22.4440061319135 -68.8867350490178,-22.443848585339 -68.8873075921305,-22.4436453067286 -68.8881408091767,-22.4435215919204 -68.8888402230455,-22.4435125133422 -68.8892412394502,-22.4436562047097 -68.889786175932,-22.4438956054043 -68.8907628939518,-22.4444030042844 -68.8911121649117,-22.4444779275428 -68.8917912702343,-22.444623601292 -68.8924290716406,-22.4444901743327 -68.893530037267,-22.4439363608115 -68.8947648506722,-22.4431914074789 -68.8957115334973,-22.4426183576935 -68.8961950649636,-22.4424561319961 -68.897059151294,-22.4422941461212 -68.897943645637,-22.4423520748648 -68.8982638403012,-22.442342494857 -68.8994122873132,-22.4423081279262 -68.9002155695334,-22.442667166818 -68.9004451422179,-22.4422549873949 -68.8986879252849,-22.4418097786653 -68.8983070301623,-22.4418606187303 -68.8972694206036,-22.4419991090805</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-9</SimpleData>
+		<SimpleData name="NOMBRE">ZU-9</SimpleData>
+		<SimpleData name="UPERM">Equipamiento de salud, servicio; residencial; Área verde.</SimpleData>
+		<SimpleData name="UPROH">Todos los no indicados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.914186706652,-22.4455565876842 -68.914807763838,-22.4456788990979 -68.9185103465225,-22.4464891453733 -68.9196183599481,-22.4464421139483 -68.919580284586,-22.4455815992482 -68.9188467375073,-22.4434730149447 -68.9185179030859,-22.4422573847834 -68.9183856983037,-22.441768643439 -68.914186706652,-22.4455565876842</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-8</SimpleData>
+		<SimpleData name="NOMBRE">ZU-8 Áreas Verdes y Deportivas</SimpleData>
+		<SimpleData name="UPERM">El que ahora tienen conforme su destino, además de equipamiento complementario como bancas, espejos de agua, kioscos ornamentales, esculturas, juegos infantiles comunal.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9393769053939,-22.4491927659458 -68.9396020932883,-22.4499360494878 -68.9409194946603,-22.4498626122132 -68.9405913897544,-22.4474148578364 -68.9392130403491,-22.4475673212622 -68.9393769053939,-22.4491927659458</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZU-7</SimpleData>
+		<SimpleData name="NOMBRE">ZU-7 Equipamiento Exclusivo</SimpleData>
+		<SimpleData name="UPERM">Estadio municipal, hospital, cementerios y sub-estación eléctrica.</SimpleData>
+		<SimpleData name="UPROH">Todos los demás, excepto vivienda del cuidador.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9058471766704,-22.4626745000898 -68.9060939831919,-22.4627893754038 -68.9059090661707,-22.4624259490707 -68.9058474996031,-22.4621964474851 -68.9057230142397,-22.4620677254595 -68.9055390785323,-22.4619285577065 -68.9051102170795,-22.4618984087814 -68.9047161790162,-22.4618707067342 -68.9041798019764,-22.4618604182019 -68.9036875161088,-22.4618509745038 -68.9033790346626,-22.4616786914874 -68.9035227425755,-22.4621185846507 -68.9038311885058,-22.4623482344576 -68.9047569979566,-22.4623487836368 -68.9053653573638,-22.4625342437914 -68.9058471766704,-22.4626745000898</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-5</SimpleData>
+		<SimpleData name="NOMBRE">ZR-5 Forestación</SimpleData>
+		<SimpleData name="UPERM">Usos de forestación destinada a evitar la contaminación partculada y diseminar los olores que generara la planta de tratamiento de aguas servidas.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9001352123861,-22.4431199921793 -68.9004490034352,-22.4434057040178 -68.9011417217471,-22.4429087952785 -68.9022837465612,-22.4421007436361 -68.9027366738247,-22.4415655959032 -68.9048351548578,-22.4397913137864 -68.9050418964842,-22.4396165096871 -68.9050419875763,-22.4394826537143 -68.9063386533787,-22.4383743269259 -68.9078616809307,-22.4370940170025 -68.9082640864114,-22.4368385456525 -68.9087671806825,-22.4364443776479 -68.9095294682815,-22.4358582104099 -68.9096054692734,-22.4357997690702 -68.9096759116993,-22.4357455995102 -68.910445908562,-22.4351534949908 -68.9106836812891,-22.4349706531778 -68.9110325555583,-22.4345029952571 -68.9081429326946,-22.4318704134701 -68.9073885567971,-22.4320786455333 -68.9098040357951,-22.4342312571437 -68.9101638012017,-22.4345421929083 -68.9048642147064,-22.4388655472763 -68.9042188539051,-22.439355999514 -68.9041755329367,-22.4393889219724 -68.9034502041107,-22.4400307599311 -68.9027603971836,-22.4406411557138 -68.9025289000999,-22.4408460009733 -68.9019365236826,-22.4412465570991 -68.901109661218,-22.4418056618192 -68.9004451422179,-22.4422549873949 -68.9002155695334,-22.442667166818 -68.9003117820175,-22.4429660099393 -68.9001352123861,-22.4431199921793</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="prc_calama_mono.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prc_calama_mono">
+		<SimpleData name="REG">Antofagasta</SimpleData>
+		<SimpleData name="COM">Calama</SimpleData>
+		<SimpleData name="SECTOR">Calama</SimpleData>
+		<SimpleData name="ZONA">ZR-6</SimpleData>
+		<SimpleData name="NOMBRE">ZR-6 Zonas de Conservación Histórica</SimpleData>
+		<SimpleData name="UPERM">Las construcciones que se desee realizar sobre estos terrenos requieren, de conformidad a lo dispuesto en el art. 60 de la LGUC, un visto bueno previo de la SEREMI de Vivienda y Urbanismo y autorización del CMN.</SimpleData>
+		<SimpleData name="UPROH">Todos los usos no mencionados como permitidos.</SimpleData>
+		<SimpleData name="Capa">PRC Calama</SimpleData>
+		<SimpleData name="CUT">02201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.9003710424962,-22.4656148404775 -68.9005274921625,-22.4675629019196 -68.9004361636955,-22.4676118290391 -68.9004280727285,-22.4679572179317 -68.9005638385549,-22.4678831801021 -68.9005953497552,-22.4678908296725 -68.9007078505257,-22.4678600251326 -68.9008265529415,-22.4678166019679 -68.9010008779565,-22.4677320592006 -68.9012087099078,-22.467631266463 -68.9012467838192,-22.4676105521391 -68.9014696873593,-22.4674892781841 -68.9017850993923,-22.4673176738161 -68.9018813749195,-22.4670945527777 -68.9019161631808,-22.4669012328317 -68.9019287230078,-22.4668121422475 -68.9019486377792,-22.4666708791291 -68.9019509891335,-22.4666542064301 -68.9019511568377,-22.4664158596361 -68.9019511770194,-22.4663871765695 -68.9019518919903,-22.4663739665264 -68.9019511854251,-22.4663752299593 -68.9019511856317,-22.4663749363531 -68.901882063154,-22.4661171061662 -68.9017551430351,-22.4659236877964 -68.9016622151392,-22.4658280492146 -68.9015806787218,-22.4657441355834 -68.9015027363028,-22.46565688693 -68.9014293702476,-22.4655653896147 -68.9013913171164,-22.4655122353547 -68.9005852586527,-22.4655605054915 -68.90045825946,-22.465568110631 -68.9003710424962,-22.4656148404775</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
