@@ -405,7 +405,7 @@
       updateRelavesSummary();
     }
 
-    function buildMapQueryUrl(latlng){ const b = map.getBounds(); const bbox = [b.getNorth(), b.getEast(), b.getSouth(), b.getWest()].map(v => v.toFixed(6)).join(","); const params = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), bbox }); return `mapquery.html?${params.toString()}`; }
+    function buildMapQueryUrl(latlng){ const b = map.getBounds(); const bbox = [b.getNorth(), b.getEast(), b.getSouth(), b.getWest()].map(v => v.toFixed(6)).join(","); const params = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), bbox }); return `mapago.html?${params.toString()}`; }
     map.on("click", e => { if(noxaState.poi) map.removeLayer(noxaState.poi); noxaState.poi = L.marker(e.latlng, { icon: L.divIcon({ className: "", html: '<div class="poi-marker"></div>', iconSize: [22,22], iconAnchor: [11,11] }) }).addTo(map); const url = buildMapQueryUrl(e.latlng); showWarning(`<strong>POI capturado</strong><br>${url}`); });
     map.on("moveend zoomend", () => { updateSummary(); updateIndexSummary(); updateRelavesSummary(); });
 
