@@ -304,7 +304,8 @@
       const avg = count ? areaTotal / count : 0;
       const top3Text = top3.slice(0, 3).map(item => `${item.name} (${fmt2(item.area)} ha)`).join(" · ") || "-";
 
-      document.getElementById("sum-relaves").textContent = fmt(count);
+      const relavesCompact = areaTotal > 0 ? `${fmt(count)} / ${fmt(Math.round(areaTotal))} ha` : fmt(count);
+      document.getElementById("sum-relaves").textContent = relavesCompact;
       document.getElementById("sum-relaves-area").textContent = fmt2(areaTotal);
       document.getElementById("sum-relaves-avg").textContent = fmt2(avg);
       document.getElementById("sum-relaves-ton").textContent = fmt2(tonTotal);
