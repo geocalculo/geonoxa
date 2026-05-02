@@ -39,6 +39,33 @@ function computeEquivalentDiameter(areaHa) {
   return (2 * Math.sqrt(areaM2 / Math.PI)) / 1000;
 }
 
+function computeEquivalentRadiusMeters(areaHa) {
+  if (!Number.isFinite(areaHa) || areaHa <= 0) return null;
+  const areaM2 = areaHa * 10000;
+  return Math.sqrt(areaM2 / Math.PI);
+}
+
+function getLeafletPolygonCoords(feature) {
+  const g = feature?.geometry;
+  if (!g) return null;
+
+  if (g.type === 'Polygon') {
+    return g.coordinates.map((ring) =>
+      ring.map(([lon, lat]) => [lat, lon])
+    );
+  }
+
+  if (g.type === 'MultiPolygon') {
+    return g.coordinates.map((poly) =>
+      poly.map((ring) =>
+        ring.map(([lon, lat]) => [lat, lon])
+      )
+    );
+  }
+
+  return null;
+}
+
 function getGeometryPoints(geometry) {
   if (!geometry) return [];
   const { type, coordinates } = geometry;
@@ -165,6 +192,23 @@ async function buildAnalysisData(poi) {
   const urbanaMatch = findNearestFeature(point, urbanas);
 
   const zf = zonaMatch?.feature; const rf = relaveMatch?.feature; const uf = urbanaMatch?.feature;
+  let prcFeature = null;
+  const prcName = prop(uf?.properties, ['nombre_prc']);
+  if (prcName !== 'Sin datos disponibles') {
+    const prcUrl = `capas/PRC_Chile/${prcName}.geojson`;
+    try {
+      const prcResponse = await fetch(prcUrl);
+      if (prcResponse.ok) {
+        const prcGeojson = await prcResponse.json();
+        prcFeature = prcGeojson?.features?.[0] || null;
+      } else {
+        console.warn('PRC polygon not found', prcUrl);
+      }
+    } catch {
+      console.warn('PRC polygon not found', prcUrl);
+    }
+  }
+
   const zCent = zf ? getFeatureCentroid(zf) : null;
   const rCent = rf ? getFeatureCentroid(rf) : null;
   const uCent = uf ? getFeatureCentroid(uf) : null;
@@ -189,7 +233,7 @@ async function buildAnalysisData(poi) {
       fuente: prop(zf?.properties, ['decreto']), featureId: prop(zf?.id ? { id: zf.id } : zf?.properties, ['id', 'fid', 'objectid']),
       poiInOut: zonaMatch?.inOut || 'Sin datos disponibles', distPerimetroKm: Number.isFinite(zonaDist) ? zonaDist : null,
       distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), superficieHa: zArea,
-      perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, polygon: zf?.geometry?.type === 'Polygon' ? zf.geometry.coordinates[0].map(([lon, lat]) => [lat, lon]) : null
+      perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, feature: zf || null, polygon: getLeafletPolygonCoords(zf)
     },
     relave: {
       nombre: prop(rf?.properties, ['id_relave', 'faena']), empresaFaena: prop(rf?.properties, ['empresa']), tipoDeposito: prop(rf?.properties, ['tipo_deposito']), recurso: prop(rf?.properties, ['recurso']), metodo: prop(rf?.properties, ['metodo_constructivo']),
@@ -198,7 +242,7 @@ async function buildAnalysisData(poi) {
     zonaUrbana: {
       nombre: prop(uf?.properties, ['nombre_prc']), comuna: prop(uf?.properties, ['nombre_prc']), region: 'Chile', instrumento: 'PRC',
       superficieHa: prop(uf?.properties, ['area_ha']), featureId: prop(uf?.id ? { id: uf.id } : uf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(urbDist) ? urbDist : null,
-      distCentroideKm: (uCent ? haversineKm(poi.lat, poi.lon, uCent[0], uCent[1]) : null), centroide: uCent
+      distCentroideKm: (uCent ? haversineKm(poi.lat, poi.lon, uCent[0], uCent[1]) : null), centroide: uCent, prcFeature
     },
     relaciones: { triangular: { indice: synergy, sinergia: synergy > 70 ? 'Alta' : synergy > 40 ? 'Media' : 'Baja' } },
     riesgo: { nivel: riesgo }
@@ -218,6 +262,62 @@ function renderGeometryCards(){const zDia=computeEquivalentDiameter(analysisData
 function renderSynthesis(){document.getElementById('synthesis').innerHTML=`<p class="synthesis">POI en ${analysisData.poi.lat}, ${analysisData.poi.lon}. Zona saturada: ${analysisData.zonaSaturada.nombre}. Relave: ${analysisData.relave.nombre}. Zona urbana: ${analysisData.zonaUrbana.nombre}. Riesgo ${analysisData.riesgo.nivel}.</p>`;}
 function buildEcosystemUrl(baseUrl){const{lat,lon,zoom,bbox}=analysisData.poi;const bboxText=Array.isArray(bbox)?bbox.join(','):'';return `${baseUrl}?lat=${lat}&lon=${lon}&zoom=${zoom}&bbox=${encodeURIComponent(bboxText)}`;}
 function renderActions(){document.getElementById('actions').innerHTML=`<a href="${buildEcosystemUrl('https://example.com/geoipt')}" target="_blank" rel="noopener">Ir a GeoIPT</a>`;}
-function initMap(){const {lat,lon,zoom}=analysisData.poi;map=L.map('map').setView([lat,lon],zoom||10);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);L.marker([lat,lon]).addTo(map).bindPopup('POI');if(analysisData.relave.centroide)L.circleMarker(analysisData.relave.centroide,{radius:7,color:'#ff9f43'}).addTo(map);if(analysisData.zonaUrbana.centroide)L.circleMarker(analysisData.zonaUrbana.centroide,{radius:7,color:'#24d1ff'}).addTo(map);if(analysisData.zonaSaturada.polygon)L.polygon(analysisData.zonaSaturada.polygon,{color:'#8e5dff',fillOpacity:0.14}).addTo(map);}
+function initMap(){
+  const {lat,lon,zoom}=analysisData.poi;
+  map=L.map('map').setView([lat,lon],zoom||10);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);
+
+  const layersForBounds = [];
+  const poiLayer = L.marker([lat,lon]).addTo(map).bindPopup('POI consultado');
+  layersForBounds.push(poiLayer);
+
+  if(analysisData.relave.centroide){
+    const relaveLayer = L.circleMarker(analysisData.relave.centroide,{radius:7,color:'#ff9f43'}).addTo(map).bindPopup('Relave más cercano');
+    layersForBounds.push(relaveLayer);
+
+    const radioM = computeEquivalentRadiusMeters(Number(analysisData.relave.superficieHa));
+    if (Number.isFinite(radioM) && radioM > 0) {
+      const relaveCircle = L.circle(analysisData.relave.centroide, {
+        radius: radioM,
+        color: '#ff9f43',
+        fillColor: '#ff9f43',
+        fillOpacity: 0.16,
+        weight: 2
+      }).addTo(map);
+      layersForBounds.push(relaveCircle);
+    }
+  }
+
+  if(analysisData.zonaUrbana.centroide){
+    const urbanaLayer = L.circleMarker(analysisData.zonaUrbana.centroide,{radius:7,color:'#24d1ff'}).addTo(map).bindPopup('Centroide urbano / PRC');
+    layersForBounds.push(urbanaLayer);
+  }
+
+  if(analysisData.zonaSaturada.polygon){
+    const zonaLayer = L.polygon(analysisData.zonaSaturada.polygon,{color:'#8e5dff',fillColor:'#8e5dff',fillOpacity:0.18,weight:2}).addTo(map);
+    layersForBounds.push(zonaLayer);
+  }
+
+  const prcPolygonCoords = getLeafletPolygonCoords(analysisData.zonaUrbana.prcFeature);
+  if (prcPolygonCoords) {
+    const prcLayer = L.polygon(prcPolygonCoords, { color: '#24d1ff', fillColor: '#24d1ff', fillOpacity: 0.10, weight: 2 }).addTo(map);
+    layersForBounds.push(prcLayer);
+  }
+
+  if (analysisData.relave.centroide) L.polyline([[lat, lon], analysisData.relave.centroide], {color: '#ff9f43', dashArray: '4,4'}).addTo(map);
+  if (analysisData.zonaUrbana.centroide) L.polyline([[lat, lon], analysisData.zonaUrbana.centroide], {color: '#24d1ff', dashArray: '4,4'}).addTo(map);
+  if (analysisData.zonaSaturada.centroide) L.polyline([[lat, lon], analysisData.zonaSaturada.centroide], {color: '#8e5dff', dashArray: '4,4'}).addTo(map);
+  if (analysisData.relave.centroide && analysisData.zonaUrbana.centroide) L.polyline([analysisData.relave.centroide, analysisData.zonaUrbana.centroide], {color: '#5f6c7b', dashArray: '4,4'}).addTo(map);
+  if (analysisData.zonaUrbana.centroide && analysisData.zonaSaturada.centroide) L.polyline([analysisData.zonaUrbana.centroide, analysisData.zonaSaturada.centroide], {color: '#b26bff', dashArray: '4,4'}).addTo(map);
+
+  const validLayers = layersForBounds.filter((layer) => layer?.getBounds || layer?.getLatLng);
+  if (validLayers.length) {
+    const group = L.featureGroup(validLayers);
+    const bounds = group.getBounds?.();
+    if (bounds?.isValid && bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [30, 30] });
+    }
+  }
+}
 
 (async function init(){const poi=getPoiFromUrl();analysisData=await buildAnalysisData(poi);renderAll();})();
