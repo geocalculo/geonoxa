@@ -188,7 +188,7 @@ function addZonas(fc){
     feature,
     bounds: L.geoJSON(feature).getBounds()
   })).filter(item => item.bounds && item.bounds.isValid());
-  const layer = L.geoJSON(fc, { style: { color: "#ef4444", weight: 2, fillColor: "#ef4444", fillOpacity: 0.22 }, onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Zona saturada", feature, [["Nombre", ["nombre", "NOMBRE", "zona", "ZONA"]], ["Contaminante", ["contaminante", "CONTAMINANTE"]], ["Decreto", ["decreto", "DECRETO"]], ["Superficie", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]]])) }).addTo(map);
+  const layer = L.geoJSON(fc, { style: { color: "#ef4444", weight: 2, fillColor: "#ef4444", fillOpacity: 0.22 }, onEachFeature: (feature, lyr) => bindLayerInteractions(lyr, popupTable("Zona saturada", feature, [["Nombre", ["nombre", "NOMBRE", "zona", "ZONA"]], ["Contaminante", ["contaminante", "CONTAMINANTE"]], ["Decreto", ["decreto", "DECRETO"]], ["Superficie", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]]])) }).addTo(map);
   noxaState.layers.zonas = layer;
   overlays["Zonas saturadas"] = layer;
 }
@@ -200,12 +200,12 @@ function addRelaves(fc){
       const radius = area > 0 ? Math.min(9, Math.max(5, 5 + Math.log10(area + 1))) : 5;
       return L.circleMarker(latlng, { radius, color: "#f59e0b", fillColor: "#f59e0b", fillOpacity: 0.9, weight: 1 });
     },
-    onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Relave", feature, [["Nombre", ["nombre", "NOMBRE", "nom_relave", "NOM_RELAVE", "RELAVE", "faena", "FAENA"]], ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]], ["Comuna", ["comuna", "COMUNA", "nom_comuna", "NOM_COMUNA"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "superficie", "SUPERFICIE", "area_ha", "AREA_HA"]], ["Ton. autorizadas", ["ton_autorizadas", "TON_AUTORIZADAS", "toneladas", "TONELADAS", "toneladas_autorizadas", "TONELADAS_AUTORIZADAS"]], ["Estado", ["estado", "ESTADO"]]]))
+    onEachFeature: (feature, lyr) => bindLayerInteractions(lyr, popupTable("Relave", feature, [["Nombre", ["nombre", "NOMBRE", "nom_relave", "NOM_RELAVE", "RELAVE", "faena", "FAENA"]], ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]], ["Comuna", ["comuna", "COMUNA", "nom_comuna", "NOM_COMUNA"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "superficie", "SUPERFICIE", "area_ha", "AREA_HA"]], ["Ton. autorizadas", ["ton_autorizadas", "TON_AUTORIZADAS", "toneladas", "TONELADAS", "toneladas_autorizadas", "TONELADAS_AUTORIZADAS"]], ["Estado", ["estado", "ESTADO"]]]))
   }).addTo(map);
   noxaState.layers.relaves = layer;
   overlays["Relaves"] = layer;
 }
-function addHidricas(fc){ const layer = L.geoJSON(fc, { style: feature => isWaterPolygon(feature) ? { color: "#22d3ee", weight: 1.5, fillColor: "#22d3ee", fillOpacity: 0.20 } : { color: "#38bdf8", weight: 2.2, opacity: 0.86 }, onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Plataforma hídrica", feature, [["Nombre", ["nombre", "NOMBRE", "toponimo", "TOPONIMO"]], ["Tipo", ["tipo", "TIPO", "categoria", "CATEGORIA"]]])) }).addTo(map); noxaState.layers.hidricas = layer; overlays["Plataformas hídricas"] = layer; }
+function addHidricas(fc){ const layer = L.geoJSON(fc, { style: feature => isWaterPolygon(feature) ? { color: "#22d3ee", weight: 1.5, fillColor: "#22d3ee", fillOpacity: 0.20 } : { color: "#38bdf8", weight: 2.2, opacity: 0.86 }, onEachFeature: (feature, lyr) => bindLayerInteractions(lyr, popupTable("Plataforma hídrica", feature, [["Nombre", ["nombre", "NOMBRE", "toponimo", "TOPONIMO"]], ["Tipo", ["tipo", "TIPO", "categoria", "CATEGORIA"]]])) }).addTo(map); noxaState.layers.hidricas = layer; overlays["Plataformas hídricas"] = layer; }
 function addLagos(fc){
   const points = [];
   const layer = L.layerGroup();
@@ -215,27 +215,27 @@ function addLagos(fc){
     const point = normalizeLatLng(values[values.length - 2], values[values.length - 1]);
     if(!point) return;
     points.push({ feature, lat: point.lat, lng: point.lng });
-    L.circleMarker([point.lat, point.lng], {
+    const lagoonMarker = L.circleMarker([point.lat, point.lng], {
       radius: 4,
       color: "#38bdf8",
       fillColor: "#38bdf8",
       fillOpacity: 0.85,
       weight: 1
-    }).bindPopup(
-      popupTable("Lago / laguna", feature, [
-        ["Nombre", ["nombre", "NOMBRE", "nom_lago", "NOM_LAGO"]],
-        ["Tipo", ["tipo", "TIPO", "categoria", "CATEGORIA"]],
-        ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]],
-        ["Comuna", ["comuna", "COMUNA", "nom_comuna", "NOM_COMUNA"]],
-        ["Superficie", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]]
-      ])
-    ).addTo(layer);
+    });
+    bindLayerInteractions(lagoonMarker, popupTable("Lago / laguna", feature, [
+      ["Nombre", ["nombre", "NOMBRE", "nom_lago", "NOM_LAGO"]],
+      ["Tipo", ["tipo", "TIPO", "categoria", "CATEGORIA"]],
+      ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]],
+      ["Comuna", ["comuna", "COMUNA", "nom_comuna", "NOM_COMUNA"]],
+      ["Superficie", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]]
+    ]));
+    lagoonMarker.addTo(layer);
   });
   noxaState.lagosCentroides = points;
   noxaState.layers.lagos = layer.addTo(map);
   overlays["Lagos / lagunas"] = noxaState.layers.lagos;
 }
-function addPrc(fc){ noxaState.centroidesData = fc; const layer = L.geoJSON(fc, { pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 6, color: "#d946ef", fillColor: "#a855f7", fillOpacity: 0.92, weight: 1.5 }), onEachFeature: (feature, lyr) => lyr.bindPopup(popupTable("Centro urbano PRC", feature, [["Comuna", ["comuna", "COMUNA", "nombre", "NOMBRE", "nombre_prc"]], ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]], ["Diám. equiv.", ["diam_eq_m", "DIAM_EQ_M"]]])) }).addTo(map); noxaState.layers.prc = layer; overlays["Centros urbanos PRC"] = layer; }
+function addPrc(fc){ noxaState.centroidesData = fc; const layer = L.geoJSON(fc, { pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 6, color: "#d946ef", fillColor: "#a855f7", fillOpacity: 0.92, weight: 1.5 }), onEachFeature: (feature, lyr) => bindLayerInteractions(lyr, popupTable("Centro urbano PRC", feature, [["Comuna", ["comuna", "COMUNA", "nombre", "NOMBRE", "nombre_prc"]], ["Región", ["region", "REGION", "nom_region", "NOM_REGION"]], ["Superficie ha", ["superficie_ha", "SUPERFICIE_HA", "area_ha", "AREA_HA"]], ["Diám. equiv.", ["diam_eq_m", "DIAM_EQ_M"]]])) }).addTo(map); noxaState.layers.prc = layer; overlays["Centros urbanos PRC"] = layer; }
 
 async function loadAllLayers(){
   const failures = [];
@@ -251,6 +251,17 @@ async function loadAllLayers(){
 }
 
 function buildMapQueryUrl(latlng){ const b = map.getBounds(); const bbox = [b.getNorth(), b.getEast(), b.getSouth(), b.getWest()].map(v => v.toFixed(6)).join(","); const params = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), bbox }); return `mapago.html?${params.toString()}`; }
+function isDesktopPointer(){ return window.matchMedia("(hover: hover) and (pointer: fine)").matches; }
+function bindLayerInteractions(layer, tooltipHtml){
+  if(isDesktopPointer() && tooltipHtml){
+    layer.bindTooltip(tooltipHtml, { sticky: true, direction: "top", className: "layer-tooltip" });
+  }
+  layer.on("click", function(e){
+    if(e.originalEvent){ L.DomEvent.stopPropagation(e.originalEvent); }
+    const url = buildMapQueryUrl(e.latlng);
+    window.location.href = url;
+  });
+}
 map.on("click", function(e) { const url = buildMapQueryUrl(e.latlng); window.location.href = url; });
 map.on("moveend zoomend", () => { updateSummary(); updateIndexSummary(); updateRelavesSummary(); });
 
