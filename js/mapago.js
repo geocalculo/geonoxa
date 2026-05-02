@@ -223,7 +223,8 @@ async function buildAnalysisData(poi) {
   const rCent = rf ? getFeatureCentroid(rf) : null;
   const uCent = uf ? getFeatureCentroid(uf) : null;
   const zArea = zf ? getFeatureAreaHa(zf) : null;
-  const rArea = rf ? getFeatureAreaHa(rf) : null;
+  const rArea = rf ? getRelaveAreaHa(rf) : null;
+  console.log("shape_area relave:", rf?.properties?.shape_area, "rArea ha:", rArea);
   const zonaDist = zonaMatch?.distKm ?? Infinity;
   const relDist = relaveMatch?.distKm ?? Infinity;
   const urbDist = urbanaMatch?.distKm ?? Infinity;
@@ -248,7 +249,7 @@ async function buildAnalysisData(poi) {
     },
     relave: {
       nombre: prop(rf?.properties, ['id_relave', 'faena']), empresaFaena: prop(rf?.properties, ['empresa']), tipoDeposito: prop(rf?.properties, ['tipo_deposito']), recurso: prop(rf?.properties, ['recurso']), metodo: prop(rf?.properties, ['metodo_constructivo']),
-      superficieHa: getRelaveAreaHa(rf), featureId: prop(rf?.id ? { id: rf.id } : rf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(relDist) ? relDist : null, centroide: rCent
+      superficieHa: rArea, featureId: prop(rf?.id ? { id: rf.id } : rf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(relDist) ? relDist : null, centroide: rCent
     },
     zonaUrbana: {
       nombre: prop(uf?.properties, ['nombre_prc']), comuna: prop(uf?.properties, ['nombre_prc']), region: 'Chile', instrumento: 'PRC',
