@@ -262,9 +262,8 @@ async function buildAnalysisData(poi) {
 
 function getDistanceFactors() {
   return [
-    { label: `Relave cercano a ${formatKm(analysisData.relave.distPoiKm)}`, value: analysisData.relave.distPoiKm },
     { label: `Zona saturada a ${formatKm(analysisData.zonaSaturada.distPerimetroKm)}`, value: analysisData.zonaSaturada.distPerimetroKm },
-    { label: `Zona urbana a ${formatKm(analysisData.zonaUrbana.distPoiKm)}`, value: analysisData.zonaUrbana.distPoiKm }
+    { label: `Relave cercano a ${formatKm(analysisData.relave.distPoiKm)}`, value: analysisData.relave.distPoiKm }
   ].sort((a, b) => (a.value ?? Infinity) - (b.value ?? Infinity));
 }
 
@@ -319,7 +318,7 @@ function renderMapSection() {
     <aside class="legend-floating">
       <strong>Leyenda</strong>
       <ul>
-        <li>POI</li><li>Relave</li><li>Zona saturada</li><li>PRC</li><li>Relaciones espaciales</li>
+        <li>POI</li><li>Relave</li><li>Zona saturada</li><li>Relaciones espaciales</li>
       </ul>
     </aside>
   </div>`;
@@ -328,7 +327,6 @@ function renderMapSection() {
 function renderSummaryCards() {
   const z = analysisData.zonaSaturada;
   const r = analysisData.relave;
-  const u = analysisData.zonaUrbana;
   document.getElementById('summary-cards').innerHTML = `
     <article class="summary-card zona">
       <h3>Zona Saturada</h3>
@@ -336,18 +334,15 @@ function renderSummaryCards() {
     </article>
     <article class="summary-card relave">
       <h3>Relave</h3>
-      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Tipo:</strong> ${r.tipoDeposito}</li><li><strong>Distancia:</strong> ${formatKm(r.distPoiKm)}</li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
-    </article>
-    <article class="summary-card prc">
-      <h3>PRC</h3>
-      <ul><li><strong>Nombre PRC:</strong> ${u.nombre}</li><li><strong>Comuna:</strong> ${u.comuna}</li><li><strong>Distancia:</strong> ${formatKm(u.distPoiKm)}</li><li><strong>Superficie PRC:</strong> ${formatHa(u.superficieHa)}</li></ul>
+      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Tipo depósito:</strong> ${r.tipoDeposito}</li><li><strong>Distancia al POI:</strong> ${formatKm(r.distPoiKm)}</li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
     </article>`;
 }
 
 function renderInterpretation() {
-  const factors = getDistanceFactors();
-  const [main, second] = factors;
-  const text = `El punto analizado presenta un riesgo ${analysisData.riesgo.nivel.toLowerCase()}, influenciado principalmente por ${main?.label?.toLowerCase() || 'factores sin datos disponibles'} y ${second?.label?.toLowerCase() || 'factores secundarios sin datos'}.`;
+  const riesgo = analysisData.riesgo.nivel.toLowerCase();
+  const zonaDist = formatKm(analysisData.zonaSaturada.distPerimetroKm);
+  const relaveDist = formatKm(analysisData.relave.distPoiKm);
+  const text = `El punto analizado presenta un riesgo ${riesgo}, influenciado principalmente por la cercanía de la zona saturada a ${zonaDist} y la presencia de un relave a ${relaveDist}.`;
   document.getElementById('interpretation').innerHTML = `<h2 class="section-title">Interpretación automática GeoNOXA</h2><p>${text}</p>`;
 }
 
@@ -392,13 +387,6 @@ function initMap() {
       .addTo(group);
   }
 
-  let urbanaCentroid = null;
-  if (Array.isArray(analysisData.zonaUrbana.centroide)) {
-    urbanaCentroid = analysisData.zonaUrbana.centroide;
-    L.circleMarker(urbanaCentroid, { radius: 7, color: '#0f766e', weight: 2, fillColor: '#14b8a6', fillOpacity: 0.85 })
-      .bindPopup(`Centroide urbano: ${analysisData.zonaUrbana.nombre}`)
-      .addTo(group);
-  }
 
   if (analysisData.zonaSaturada.polygon) {
     L.polygon(analysisData.zonaSaturada.polygon, { color: '#dc2626', weight: 2, fillColor: '#ef4444', fillOpacity: 0.14 })
@@ -406,17 +394,11 @@ function initMap() {
       .addTo(group);
   }
 
-  if (analysisData.zonaUrbana.prcFeature) {
-    analysisData.zonaUrbana.prcFeature.addTo(group);
-  }
 
   const lineStyle = { color: '#334155', weight: 1.8, opacity: 0.9, dashArray: '6 5' };
   const zCent = analysisData.zonaSaturada.centroide;
   if (relaveCentroid) L.polyline([poiLatLng, relaveCentroid], lineStyle).addTo(group);
-  if (urbanaCentroid) L.polyline([poiLatLng, urbanaCentroid], lineStyle).addTo(group);
   if (Array.isArray(zCent)) L.polyline([poiLatLng, zCent], lineStyle).addTo(group);
-  if (relaveCentroid && urbanaCentroid) L.polyline([relaveCentroid, urbanaCentroid], lineStyle).addTo(group);
-  if (urbanaCentroid && Array.isArray(zCent)) L.polyline([urbanaCentroid, zCent], lineStyle).addTo(group);
 
   const bounds = group.getBounds();
   if (bounds.isValid()) map.fitBounds(bounds.pad(0.12));
