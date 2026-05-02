@@ -186,20 +186,56 @@
     function isWaterLine(feature){ const g = feature?.geometry?.type || ""; const tipo = hidroTipo(feature); return g.includes("LineString") || tipo.includes("rio") || tipo.includes("río") || tipo.includes("curso") || tipo.includes("estero") || tipo.includes("quebrada"); }
     function layerInBounds(layer, bounds){ if(layer.getLatLng) return bounds.contains(layer.getLatLng()); if(layer.getBounds) return bounds.intersects(layer.getBounds()); return false; }
     function countGeoJsonLayer(layer, filterFn){ if(!layer) return 0; const bounds = map.getBounds(); let count = 0; layer.eachLayer(child => { const feature = child.feature; if(filterFn && !filterFn(feature)) return; if(layerInBounds(child, bounds)) count += 1; }); return count; }
+    function areaHaFromProps(props){
+      const direct = Number(props?.superficie_ha ?? props?.SUPERFICIE_HA ?? props?.area_ha ?? props?.AREA_HA ?? props?.superficie ?? props?.SUPERFICIE);
+      if(Number.isFinite(direct) && direct > 0) return direct;
+      const km2 = Number(props?.area_km2 ?? props?.AREA_KM2);
+      if(Number.isFinite(km2) && km2 > 0) return km2 * 100;
+      return null;
+    }
+    function formatKpiCountArea(count, areaTotal){
+      if(count === 0) return "#0";
+      if(Number.isFinite(areaTotal) && areaTotal > 0) return `#${fmt(count)}; ${fmt(Math.round(areaTotal))} has`;
+      return `#${fmt(count)}`;
+    }
 
     function updateSummary(){
       const bounds = map.getBounds();
-      const zonas = noxaState.zonasSaturadasFeatures.filter(item => bounds.intersects(item.bounds)).length;
+      let zonas = 0;
+      let zonasAreaTotal = 0;
+      let zonasHasArea = false;
+      for(let i = 0; i < noxaState.zonasSaturadasFeatures.length; i += 1){
+        const item = noxaState.zonasSaturadasFeatures[i];
+        if(!bounds.intersects(item.bounds)) continue;
+        zonas += 1;
+        const area = areaHaFromProps(item.feature?.properties || {});
+        if(Number.isFinite(area)){ zonasAreaTotal += area; zonasHasArea = true; }
+      }
+
+      let prc = 0;
+      let prcAreaTotal = 0;
+      let prcHasArea = false;
+      const prcFeatures = noxaState.centroidesData?.features || [];
+      for(let i = 0; i < prcFeatures.length; i += 1){
+        const feature = prcFeatures[i];
+        const coords = feature?.geometry?.coordinates;
+        if(!coords || coords.length < 2) continue;
+        const [lng, lat] = coords;
+        if(!bounds.contains([lat, lng])) continue;
+        prc += 1;
+        const area = areaHaFromProps(feature.properties || {});
+        if(Number.isFinite(area)){ prcAreaTotal += area; prcHasArea = true; }
+      }
+
       const relaves = countGeoJsonLayer(noxaState.layers.relaves);
       const rios = countGeoJsonLayer(noxaState.layers.hidricas, isWaterLine);
       const lagos = countGeoJsonLayer(noxaState.layers.hidricas, isWaterPolygon);
-      const prc = countGeoJsonLayer(noxaState.layers.prc);
       const total = zonas + relaves + rios + lagos + prc;
-      document.getElementById("sum-zonas").textContent = fmt(zonas);
+      document.getElementById("sum-zonas").textContent = formatKpiCountArea(zonas, zonasHasArea ? zonasAreaTotal : null);
       document.getElementById("sum-relaves").textContent = fmt(relaves);
       document.getElementById("sum-rios").textContent = fmt(rios);
       document.getElementById("sum-lagos").textContent = fmt(lagos);
-      document.getElementById("sum-prc").textContent = fmt(prc);
+      document.getElementById("sum-prc").textContent = formatKpiCountArea(prc, prcHasArea ? prcAreaTotal : null);
       document.getElementById("noxa-visible-total").textContent = fmt(total);
     }
 
@@ -304,9 +340,7 @@
       const avg = count ? areaTotal / count : 0;
       const top3Text = top3.slice(0, 3).map(item => `${item.name} (${fmt2(item.area)} ha)`).join(" · ") || "-";
 
-      const relavesText = areaTotal > 0
-        ? `#${fmt(count)}; ${fmt(Math.round(areaTotal))} has`
-        : `#${fmt(count)}`;
+      const relavesText = formatKpiCountArea(count, areaTotal);
       document.getElementById("sum-relaves").textContent = relavesText;
       document.getElementById("sum-relaves-area").textContent = fmt2(areaTotal);
       document.getElementById("sum-relaves-avg").textContent = fmt2(avg);
