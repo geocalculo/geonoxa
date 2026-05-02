@@ -269,8 +269,7 @@ function getDistanceFactors() {
 
 function renderAll() {
   renderHeader();
-  renderKpiPanel();
-  renderMapSection();
+  renderTopLayout();
   renderSummaryCards();
   renderInterpretation();
   renderActions();
@@ -290,38 +289,41 @@ function renderHeader() {
   </div>`;
 }
 
-function renderKpiPanel() {
+function renderTopLayout() {
   const score = analysisData.relaciones.triangular.indice || 0;
   const factors = getDistanceFactors();
-  document.getElementById('kpi-panel').innerHTML = `<div class="kpi-grid">
-    <article class="kpi-card">
-      <p class="kpi-label">Riesgo territorial</p>
-      <p>🛡️</p>
-      <p class="risk-value ${getRiskClass(analysisData.riesgo.nivel)}">${analysisData.riesgo.nivel.toUpperCase()}</p>
-    </article>
-    <article class="kpi-card">
-      <p class="kpi-label">Índice de sinergia</p>
-      <p class="score-value">${score} / 100</p>
-      <div class="progress-track"><div class="progress-fill" style="width:${Math.max(0, Math.min(score, 100))}%"></div></div>
-    </article>
-    <article class="kpi-card">
-      <p class="kpi-label">Factores principales</p>
-      <ul class="factors-list">${factors.map((f) => `<li>${f.label}</li>`).join('')}</ul>
-    </article>
-  </div>`;
-}
+  const riesgo = analysisData.riesgo.nivel.toLowerCase();
+  const zonaDist = formatKm(analysisData.zonaSaturada.distPerimetroKm);
+  const relaveDist = formatKm(analysisData.relave.distPoiKm);
+  const alertText = `POI con riesgo ${riesgo}, influenciado principalmente por zona saturada cercana y relave en el entorno.`;
 
-function renderMapSection() {
-  document.getElementById('map-section').innerHTML = `<h2 class="section-title">Mapa de relaciones espaciales</h2>
-  <div class="map-wrap">
-    <div id="map"></div>
-    <aside class="legend-floating">
-      <strong>Leyenda</strong>
-      <ul>
-        <li>POI</li><li>Relave</li><li>Zona saturada</li><li>Relaciones espaciales</li>
-      </ul>
-    </aside>
-  </div>`;
+  document.getElementById('top-layout').innerHTML = `<article class="card panel summary-panel">
+      <h2 class="section-title">RESUMEN DEL ANÁLISIS</h2>
+      <p class="kpi-label">Riesgo territorial</p>
+      <p class="risk-value ${getRiskClass(analysisData.riesgo.nivel)}">${analysisData.riesgo.nivel.toUpperCase()}</p>
+      <div class="synergy-block">
+        <p class="kpi-label">Índice de sinergia</p>
+        <p class="score-value">${score} / 100</p>
+        <div class="progress-track"><div class="progress-fill" style="width:${Math.max(0, Math.min(score, 100))}%"></div></div>
+      </div>
+      <div class="factors-block">
+        <p class="kpi-label">Factores principales</p>
+        <ul class="factors-list">${factors.map((f) => `<li>${f.label}</li>`).join('')}</ul>
+      </div>
+      <div class="summary-alert">${alertText}<span class="sr-only">Zona saturada a ${zonaDist}, relave cercano a ${relaveDist}.</span></div>
+    </article>
+    <article class="card panel map-panel">
+      <h2 class="section-title">Mapa de relaciones espaciales</h2>
+      <div class="map-wrap">
+        <div id="map"></div>
+        <aside class="legend-floating">
+          <strong>Leyenda</strong>
+          <ul>
+            <li>POI</li><li>Relave</li><li>Zona saturada</li><li>Relaciones espaciales</li>
+          </ul>
+        </aside>
+      </div>
+    </article>`;
 }
 
 function renderSummaryCards() {
@@ -330,11 +332,11 @@ function renderSummaryCards() {
   document.getElementById('summary-cards').innerHTML = `
     <article class="summary-card zona">
       <h3>Zona Saturada</h3>
-      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> ${formatKm(z.distPerimetroKm)}</li></ul>
+      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li></ul>
     </article>
     <article class="summary-card relave">
       <h3>Relave</h3>
-      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Tipo depósito:</strong> ${r.tipoDeposito}</li><li><strong>Distancia al POI:</strong> ${formatKm(r.distPoiKm)}</li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
+      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Tipo depósito:</strong> ${r.tipoDeposito}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(r.distPoiKm)}</span></li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
     </article>`;
 }
 
@@ -343,7 +345,7 @@ function renderInterpretation() {
   const zonaDist = formatKm(analysisData.zonaSaturada.distPerimetroKm);
   const relaveDist = formatKm(analysisData.relave.distPoiKm);
   const text = `El punto analizado presenta un riesgo ${riesgo}, influenciado principalmente por la cercanía de la zona saturada a ${zonaDist} y la presencia de un relave a ${relaveDist}.`;
-  document.getElementById('interpretation').innerHTML = `<h2 class="section-title">Interpretación automática GeoNOXA</h2><p>${text}</p>`;
+  document.getElementById('interpretation').innerHTML = `<h2 class="section-title">INTERPRETACIÓN AUTOMÁTICA GEONOXA</h2><p>${text}</p>`;
 }
 
 function buildEcosystemUrl(baseUrl) { const { lat, lon, zoom, bbox } = analysisData.poi; const bboxText = Array.isArray(bbox) ? bbox.join(',') : ''; return `${baseUrl}?lat=${lat}&lon=${lon}&zoom=${zoom}&bbox=${encodeURIComponent(bboxText)}`; }
@@ -389,16 +391,15 @@ function initMap() {
 
 
   if (analysisData.zonaSaturada.polygon) {
-    L.polygon(analysisData.zonaSaturada.polygon, { color: '#dc2626', weight: 2, fillColor: '#ef4444', fillOpacity: 0.14 })
+    L.polygon(analysisData.zonaSaturada.polygon, { color: '#8b5cf6', weight: 2, fillColor: '#8b5cf6', fillOpacity: 0.16 })
       .bindPopup(`Zona saturada: ${analysisData.zonaSaturada.nombre}`)
       .addTo(group);
   }
 
 
-  const lineStyle = { color: '#334155', weight: 1.8, opacity: 0.9, dashArray: '6 5' };
   const zCent = analysisData.zonaSaturada.centroide;
-  if (relaveCentroid) L.polyline([poiLatLng, relaveCentroid], lineStyle).addTo(group);
-  if (Array.isArray(zCent)) L.polyline([poiLatLng, zCent], lineStyle).addTo(group);
+  if (relaveCentroid) L.polyline([poiLatLng, relaveCentroid], { color: '#f59e0b', weight: 2.2, opacity: 0.95, dashArray: '8 6' }).addTo(group);
+  if (Array.isArray(zCent)) L.polyline([poiLatLng, zCent], { color: '#8b5cf6', weight: 2.2, opacity: 0.95, dashArray: '8 6' }).addTo(group);
 
   const bounds = group.getBounds();
   if (bounds.isValid()) map.fitBounds(bounds.pad(0.12));
