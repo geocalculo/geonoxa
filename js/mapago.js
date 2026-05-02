@@ -104,7 +104,7 @@ function getFeatureAreaHa(feature) {
   return null;
 }
 function getRelaveAreaHa(feature) {
-  const m2 = Number(feature?.properties?.shape_area);
+  const m2 = Number(feature?.properties?.shape_area_m2);
   if (Number.isFinite(m2) && m2 > 0) return m2 / 10000;
   return null;
 }
@@ -224,7 +224,6 @@ async function buildAnalysisData(poi) {
   const uCent = uf ? getFeatureCentroid(uf) : null;
   const zArea = zf ? getFeatureAreaHa(zf) : null;
   const rArea = rf ? getRelaveAreaHa(rf) : null;
-  console.log("shape_area relave:", rf?.properties?.shape_area, "rArea ha:", rArea);
   const zonaDist = zonaMatch?.distKm ?? Infinity;
   const relDist = relaveMatch?.distKm ?? Infinity;
   const urbDist = urbanaMatch?.distKm ?? Infinity;
