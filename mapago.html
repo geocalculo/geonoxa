@@ -14,48 +14,34 @@
   </head>
   <body>
     <div class="page-shell">
-      <header id="header-card" class="card"></header>
-      <section id="summary-strip" class="summary-strip"></section>
+      <header id="header-card" class="card panel"></header>
 
-      <main class="main-grid">
-        <aside class="column column-left">
-          <section class="card panel">
-            <h2>Ficha GeoJSON</h2>
-            <div id="geojson-tables"></div>
-          </section>
-        </aside>
+      <section class="card panel" id="panel-general">
+        <h2 class="panel-title">1. Datos generales y mapa</h2>
+        <div id="general-layout" class="general-layout"></div>
+      </section>
 
-        <section class="column column-center">
-          <section class="card panel map-panel">
-            <h2>Mapa de Relaciones Espaciales</h2>
-            <div id="map"></div>
-            <div id="map-legend" class="map-legend"></div>
-          </section>
+      <section class="card panel" id="panel-zona-saturada">
+        <h2 class="panel-title">2. Zona Saturada próxima</h2>
+        <div id="zona-saturada-layout" class="subgrid"></div>
+      </section>
 
-          <section class="card panel">
-            <h2>Geometrías de Relación entre Elementos</h2>
-            <div id="relationship-cards" class="relationship-grid"></div>
-          </section>
+      <section class="card panel" id="panel-relave">
+        <h2 class="panel-title">3. Relave próximo</h2>
+        <div id="relave-layout" class="subgrid"></div>
+      </section>
 
-          <section class="card panel">
-            <h2>Relación triangular: POI – Relave – Zona Urbana – Zona Saturada</h2>
-            <div id="triangular-relation"></div>
-          </section>
-        </section>
+      <section class="card panel" id="panel-zona-urbana">
+        <h2 class="panel-title">4. Zona urbana / PRC próxima</h2>
+        <div id="zona-urbana-layout" class="subgrid"></div>
+      </section>
 
-        <aside class="column column-right">
-          <section class="card panel">
-            <h2>Geometría propia de elementos</h2>
-            <div id="geometry-cards"></div>
-          </section>
-          <section class="card panel">
-            <h2>Síntesis GeoNOXA</h2>
-            <div id="synthesis"></div>
-          </section>
-        </aside>
-      </main>
+      <section class="card panel" id="panel-relaciones">
+        <h2 class="panel-title">5. Relaciones espaciales</h2>
+        <div id="relations-layout"></div>
+      </section>
 
-      <footer class="card actions" id="actions"></footer>
+      <footer class="card panel actions" id="actions"></footer>
     </div>
 
     <script
