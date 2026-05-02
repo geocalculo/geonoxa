@@ -185,19 +185,19 @@ async function buildAnalysisData(poi) {
   return {
     poi: { ...poi, name: 'POI seleccionado', comuna: 'Sin datos disponibles', region: 'Sin datos disponibles' },
     zonaSaturada: {
-      nombre: prop(zf?.properties, ['nombre', 'nom_zs', 'zona_sat']), contaminante: prop(zf?.properties, ['tipo', 'contaminante']), estado: prop(zf?.properties, ['estado']),
-      fuente: prop(zf?.properties, ['decreto', 'fuente']), featureId: prop(zf?.id ? { id: zf.id } : zf?.properties, ['id', 'fid', 'objectid']),
+      nombre: prop(zf?.properties, ['nombre_zona', 'nombre']), contaminante: prop(zf?.properties, ['contaminante', 'tipo']), estado: 'Vigente',
+      fuente: prop(zf?.properties, ['decreto']), featureId: prop(zf?.id ? { id: zf.id } : zf?.properties, ['id', 'fid', 'objectid']),
       poiInOut: zonaMatch?.inOut || 'Sin datos disponibles', distPerimetroKm: Number.isFinite(zonaDist) ? zonaDist : null,
       distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), superficieHa: zArea,
       perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, polygon: zf?.geometry?.type === 'Polygon' ? zf.geometry.coordinates[0].map(([lon, lat]) => [lat, lon]) : null
     },
     relave: {
-      nombre: prop(rf?.properties, ['nombre', 'nom_relave']), empresaFaena: prop(rf?.properties, ['empresa', 'faena']), tipoDeposito: prop(rf?.properties, ['tipo', 'deposito']), recurso: prop(rf?.properties, ['recurso']), metodo: prop(rf?.properties, ['metodo', 'metodo_const']),
-      superficieHa: rArea, featureId: prop(rf?.id ? { id: rf.id } : rf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(relDist) ? relDist : null, centroide: rCent
+      nombre: prop(rf?.properties, ['id_relave', 'faena']), empresaFaena: prop(rf?.properties, ['empresa']), tipoDeposito: prop(rf?.properties, ['tipo_deposito']), recurso: prop(rf?.properties, ['recurso']), metodo: prop(rf?.properties, ['metodo_constructivo']),
+      superficieHa: prop(rf?.properties, ['superficie']), featureId: prop(rf?.id ? { id: rf.id } : rf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(relDist) ? relDist : null, centroide: rCent
     },
     zonaUrbana: {
-      nombre: prop(uf?.properties, ['nombre', 'nom_prc', 'centro_urbano']), comuna: prop(uf?.properties, ['comuna']), region: prop(uf?.properties, ['region']), instrumento: prop(uf?.properties, ['instrumento', 'tipo']),
-      superficieHa: getFeatureAreaHa(uf), featureId: prop(uf?.id ? { id: uf.id } : uf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(urbDist) ? urbDist : null,
+      nombre: prop(uf?.properties, ['nombre_prc']), comuna: prop(uf?.properties, ['nombre_prc']), region: 'Chile', instrumento: 'PRC',
+      superficieHa: prop(uf?.properties, ['area_ha']), featureId: prop(uf?.id ? { id: uf.id } : uf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(urbDist) ? urbDist : null,
       distCentroideKm: (uCent ? haversineKm(poi.lat, poi.lon, uCent[0], uCent[1]) : null), centroide: uCent
     },
     relaciones: { triangular: { indice: synergy, sinergia: synergy > 70 ? 'Alta' : synergy > 40 ? 'Media' : 'Baja' } },
