@@ -229,8 +229,9 @@ async function buildAnalysisData(poi) {
   return {
     poi: { ...poi, name: 'POI seleccionado', comuna: 'Sin datos disponibles', region: 'Sin datos disponibles' },
     zonaSaturada: {
-      nombre: prop(zf?.properties, ['nombre_zona', 'nombre']), contaminante: prop(zf?.properties, ['contaminante', 'tipo']), estado: 'Vigente',
-      fuente: prop(zf?.properties, ['decreto']), featureId: prop(zf?.id ? { id: zf.id } : zf?.properties, ['id', 'fid', 'objectid']),
+      nombre: prop(zf?.properties, ['nombre_zon']), contaminante: prop(zf?.properties, ['saturado']), estado: prop(zf?.properties, ['zona_dec']),
+      fuente: prop(zf?.properties, ['decreto']), link: prop(zf?.properties, ['link']), latentes: prop(zf?.properties, ['latentes']),
+      featureId: prop(zf?.properties, ['objectid']),
       poiInOut: zonaMatch?.inOut || 'Sin datos disponibles', distPerimetroKm: Number.isFinite(zonaDist) ? zonaDist : null,
       distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), superficieHa: zArea,
       perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, feature: zf || null, polygon: getLeafletPolygonCoords(zf)
@@ -298,11 +299,11 @@ function renderZonaSaturadaPanel() {
   document.getElementById('zona-saturada-layout').innerHTML = `
     <article class="subblock zona text-13"><h3 class="sub-title">A) Ficha GeoJSON</h3>${table({
       nombre_zon: analysisData.zonaSaturada.nombre,
-      zona_dec: analysisData.zonaSaturada.contaminante,
-      saturado: analysisData.zonaSaturada.estado,
-      latentes: 'Sin datos disponibles',
+      zona_dec: analysisData.zonaSaturada.estado,
+      saturado: analysisData.zonaSaturada.contaminante,
+      latentes: analysisData.zonaSaturada.latentes,
       decreto: analysisData.zonaSaturada.fuente,
-      link: 'Sin datos disponibles',
+      link: analysisData.zonaSaturada.link,
       objectid: analysisData.zonaSaturada.featureId
     })}</article>
     <article class="subblock zona text-13"><h3 class="sub-title">B) Geometría propia</h3>${table({
@@ -391,6 +392,81 @@ function renderRelationsPanel() {
 }
 
 function buildEcosystemUrl(baseUrl) { const { lat, lon, zoom, bbox } = analysisData.poi; const bboxText = Array.isArray(bbox) ? bbox.join(',') : ''; return `${baseUrl}?lat=${lat}&lon=${lon}&zoom=${zoom}&bbox=${encodeURIComponent(bboxText)}`; }
+
+function initMap() {
+  if (!analysisData || !document.getElementById('map')) return;
+  if (map) map.remove();
+
+  const poiLatLng = [analysisData.poi.lat, analysisData.poi.lon];
+  map = L.map('map', { zoomControl: true }).setView(poiLatLng, analysisData.poi.zoom || 10);
+
+  const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap'
+  }).addTo(map);
+  const mapSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 19,
+    attribution: 'Tiles &copy; Esri'
+  });
+  L.control.layers({ OSM: osm, MapSAT: mapSat }).addTo(map);
+  L.control.scale({ metric: true, imperial: false }).addTo(map);
+
+  const group = L.featureGroup().addTo(map);
+
+  const poi = L.circleMarker(poiLatLng, { radius: 7, color: '#1d4ed8', weight: 2, fillColor: '#2563eb', fillOpacity: 0.85 })
+    .bindPopup('POI')
+    .addTo(group);
+
+  let relaveCentroid = null;
+  if (Array.isArray(analysisData.relave.centroide)) {
+    relaveCentroid = analysisData.relave.centroide;
+    L.circleMarker(relaveCentroid, { radius: 7, color: '#b45309', weight: 2, fillColor: '#f59e0b', fillOpacity: 0.85 })
+      .bindPopup(`Relave: ${analysisData.relave.nombre}`)
+      .addTo(group);
+  }
+
+  const relaveRadiusMeters = computeEquivalentRadiusMeters(Number(analysisData.relave.superficieHa));
+  if (relaveCentroid && Number.isFinite(relaveRadiusMeters) && relaveRadiusMeters > 0) {
+    L.circle(relaveCentroid, { radius: relaveRadiusMeters, color: '#f59e0b', weight: 2, fillOpacity: 0.06 })
+      .bindPopup('Círculo equivalente del relave')
+      .addTo(group);
+  }
+
+  let urbanaCentroid = null;
+  if (Array.isArray(analysisData.zonaUrbana.centroide)) {
+    urbanaCentroid = analysisData.zonaUrbana.centroide;
+    L.circleMarker(urbanaCentroid, { radius: 7, color: '#0f766e', weight: 2, fillColor: '#14b8a6', fillOpacity: 0.85 })
+      .bindPopup(`Centroide urbano: ${analysisData.zonaUrbana.nombre}`)
+      .addTo(group);
+  }
+
+  if (analysisData.zonaSaturada.polygon) {
+    L.polygon(analysisData.zonaSaturada.polygon, { color: '#dc2626', weight: 2, fillColor: '#ef4444', fillOpacity: 0.14 })
+      .bindPopup(`Zona saturada: ${analysisData.zonaSaturada.nombre}`)
+      .addTo(group);
+  }
+
+  if (analysisData.zonaUrbana.prcFeature) {
+    const prcCoords = getLeafletPolygonCoords(analysisData.zonaUrbana.prcFeature);
+    if (prcCoords) {
+      L.polygon(prcCoords, { color: '#7c3aed', weight: 2, fillColor: '#8b5cf6', fillOpacity: 0.08, dashArray: '4 4' })
+        .bindPopup('Polígono PRC')
+        .addTo(group);
+    }
+  }
+
+  const lineStyle = { color: '#334155', weight: 1.8, opacity: 0.9, dashArray: '6 5' };
+  const zCent = analysisData.zonaSaturada.centroide;
+  if (relaveCentroid) L.polyline([poiLatLng, relaveCentroid], lineStyle).addTo(group);
+  if (urbanaCentroid) L.polyline([poiLatLng, urbanaCentroid], lineStyle).addTo(group);
+  if (Array.isArray(zCent)) L.polyline([poiLatLng, zCent], lineStyle).addTo(group);
+  if (relaveCentroid && urbanaCentroid) L.polyline([relaveCentroid, urbanaCentroid], lineStyle).addTo(group);
+  if (urbanaCentroid && Array.isArray(zCent)) L.polyline([urbanaCentroid, zCent], lineStyle).addTo(group);
+
+  const bounds = group.getBounds();
+  if (bounds.isValid()) map.fitBounds(bounds.pad(0.12));
+  poi.openPopup();
+}
 function renderActions() {
   document.getElementById('actions').innerHTML = `
     <button type="button">Descargar KML</button>
