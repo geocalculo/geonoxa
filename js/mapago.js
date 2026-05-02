@@ -175,6 +175,24 @@ async function loadGeojsonArray(paths) {
   }));
   return chunks.flat();
 }
+
+async function loadPrcFeatureByName(nombrePrc) {
+  if (!nombrePrc || nombrePrc === 'Sin datos disponibles') return null;
+
+  const url = `capas/PRC_Chile/${nombrePrc}.kml`;
+  const layer = omnivore.kml(url);
+
+  return new Promise((resolve) => {
+    layer.on('ready', function() {
+      resolve(layer);
+    });
+
+    layer.on('error', function() {
+      console.warn('PRC KML not found', url);
+      resolve(null);
+    });
+  });
+}
 function prop(obj, keys, fallback = 'Sin datos disponibles') {
   for (const k of keys) if (obj?.[k] !== undefined && obj?.[k] !== null && String(obj[k]).trim() !== '') return obj[k];
   return fallback;
@@ -192,22 +210,9 @@ async function buildAnalysisData(poi) {
   const urbanaMatch = findNearestFeature(point, urbanas);
 
   const zf = zonaMatch?.feature; const rf = relaveMatch?.feature; const uf = urbanaMatch?.feature;
-  let prcFeature = null;
-  const prcName = prop(uf?.properties, ['nombre_prc']);
-  if (prcName !== 'Sin datos disponibles') {
-    const prcUrl = `capas/PRC_Chile/${prcName}.geojson`;
-    try {
-      const prcResponse = await fetch(prcUrl);
-      if (prcResponse.ok) {
-        const prcGeojson = await prcResponse.json();
-        prcFeature = prcGeojson?.features?.[0] || null;
-      } else {
-        console.warn('PRC polygon not found', prcUrl);
-      }
-    } catch {
-      console.warn('PRC polygon not found', prcUrl);
-    }
-  }
+  const prcFeature = await loadPrcFeatureByName(
+    prop(uf?.properties, ['nombre_prc'])
+  );
 
   const zCent = zf ? getFeatureCentroid(zf) : null;
   const rCent = rf ? getFeatureCentroid(rf) : null;
@@ -447,12 +452,7 @@ function initMap() {
   }
 
   if (analysisData.zonaUrbana.prcFeature) {
-    const prcCoords = getLeafletPolygonCoords(analysisData.zonaUrbana.prcFeature);
-    if (prcCoords) {
-      L.polygon(prcCoords, { color: '#7c3aed', weight: 2, fillColor: '#8b5cf6', fillOpacity: 0.08, dashArray: '4 4' })
-        .bindPopup('Polígono PRC')
-        .addTo(group);
-    }
+    analysisData.zonaUrbana.prcFeature.addTo(group);
   }
 
   const lineStyle = { color: '#334155', weight: 1.8, opacity: 0.9, dashArray: '6 5' };
