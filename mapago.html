@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoNOXA | CARD PRO - Análisis Territorial del POI</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="css/mapago.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header id="header-card" class="card"></header>
+      <section id="summary-strip" class="summary-strip"></section>
+
+      <main class="main-grid">
+        <aside class="column column-left">
+          <section class="card panel">
+            <h2>Ficha GeoJSON</h2>
+            <div id="geojson-tables"></div>
+          </section>
+        </aside>
+
+        <section class="column column-center">
+          <section class="card panel map-panel">
+            <h2>Mapa de Relaciones Espaciales</h2>
+            <div id="map"></div>
+            <div id="map-legend" class="map-legend"></div>
+          </section>
+
+          <section class="card panel">
+            <h2>Geometrías de Relación entre Elementos</h2>
+            <div id="relationship-cards" class="relationship-grid"></div>
+          </section>
+
+          <section class="card panel">
+            <h2>Relación triangular: POI – Relave – Zona Urbana – Zona Saturada</h2>
+            <div id="triangular-relation"></div>
+          </section>
+        </section>
+
+        <aside class="column column-right">
+          <section class="card panel">
+            <h2>Geometría propia de elementos</h2>
+            <div id="geometry-cards"></div>
+          </section>
+          <section class="card panel">
+            <h2>Síntesis GeoNOXA</h2>
+            <div id="synthesis"></div>
+          </section>
+        </aside>
+      </main>
+
+      <footer class="card actions" id="actions"></footer>
+    </div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="js/mapago.js"></script>
+  </body>
+</html>
