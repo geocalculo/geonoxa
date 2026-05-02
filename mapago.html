@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GeoNOXA | CARD PRO - Análisis Territorial del POI</title>
+    <title>GeoNOXA | CARD PRO 2.0 - Análisis Territorial del POI</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -14,32 +14,15 @@
   </head>
   <body>
     <div class="page-shell">
-      <header id="header-card" class="card panel"></header>
+      <header id="header-card" class="card panel compact-header"></header>
 
-      <section class="card panel" id="panel-general">
-        <h2 class="panel-title">1. Datos generales y mapa</h2>
-        <div id="general-layout" class="general-layout"></div>
-      </section>
+      <section id="kpi-panel" class="card panel"></section>
 
-      <section class="card panel" id="panel-zona-saturada">
-        <h2 class="panel-title">2. Zona Saturada próxima</h2>
-        <div id="zona-saturada-layout" class="subgrid"></div>
-      </section>
+      <section id="map-section" class="card panel"></section>
 
-      <section class="card panel" id="panel-relave">
-        <h2 class="panel-title">3. Relave próximo</h2>
-        <div id="relave-layout" class="subgrid"></div>
-      </section>
+      <section id="summary-cards" class="summary-grid"></section>
 
-      <section class="card panel" id="panel-zona-urbana">
-        <h2 class="panel-title">4. Zona urbana / PRC próxima</h2>
-        <div id="zona-urbana-layout" class="subgrid"></div>
-      </section>
-
-      <section class="card panel" id="panel-relaciones">
-        <h2 class="panel-title">5. Relaciones espaciales</h2>
-        <div id="relations-layout"></div>
-      </section>
+      <section id="interpretation" class="card panel interpretation"></section>
 
       <footer class="card panel actions" id="actions"></footer>
     </div>

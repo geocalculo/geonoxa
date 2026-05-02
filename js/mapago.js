@@ -260,13 +260,20 @@ async function buildAnalysisData(poi) {
   };
 }
 
+function getDistanceFactors() {
+  return [
+    { label: `Relave cercano a ${formatKm(analysisData.relave.distPoiKm)}`, value: analysisData.relave.distPoiKm },
+    { label: `Zona saturada a ${formatKm(analysisData.zonaSaturada.distPerimetroKm)}`, value: analysisData.zonaSaturada.distPerimetroKm },
+    { label: `Zona urbana a ${formatKm(analysisData.zonaUrbana.distPoiKm)}`, value: analysisData.zonaUrbana.distPoiKm }
+  ].sort((a, b) => (a.value ?? Infinity) - (b.value ?? Infinity));
+}
+
 function renderAll() {
   renderHeader();
-  renderGeneralPanel();
-  renderZonaSaturadaPanel();
-  renderRelavePanel();
-  renderZonaUrbanaPanel();
-  renderRelationsPanel();
+  renderKpiPanel();
+  renderMapSection();
+  renderSummaryCards();
+  renderInterpretation();
   renderActions();
   initMap();
 }
@@ -274,131 +281,74 @@ function renderAll() {
 function renderHeader() {
   document.getElementById('header-card').innerHTML = `<div class="header-grid">
     <div class="brand">
-      <h1>GeoNOXA / GeoNEXO</h1>
-      <small>Motor de Análisis de Pasivos Ambientales y Riesgos Territoriales</small>
-      <p>CARD PRO – Análisis territorial del POI</p>
+      <h1>GeoNOXA | CARD PRO 2.0</h1>
+      <p>Análisis territorial del POI</p>
     </div>
-    <div class="kpi-card text-13"><h3 class="sub-title">Estado general de riesgo</h3><span class="badge ${getRiskClass(analysisData.riesgo.nivel)}">${analysisData.riesgo.nivel}</span></div>
-    <div class="kpi-card text-13"><h3 class="sub-title">Índice de sinergia</h3><p><strong>${analysisData.relaciones.triangular.indice}/100</strong></p></div>
-    <div class="kpi-card text-13"><h3 class="sub-title">Coordenadas POI</h3><p>${analysisData.poi.lat}, ${analysisData.poi.lon}</p></div>
+    <div class="meta">
+      <p>POI: ${analysisData.poi.lat}, ${analysisData.poi.lon}</p>
+      <p>Fecha análisis: ${new Date().toLocaleString('es-CL')}</p>
+    </div>
   </div>`;
 }
 
-function table(data) {
-  return `<table class="data-table">${Object.entries(data).map(([k, v]) => `<tr><td>${k}</td><td>${v ?? 'Sin datos disponibles'}</td></tr>`).join('')}</table>`;
+function renderKpiPanel() {
+  const score = analysisData.relaciones.triangular.indice || 0;
+  const factors = getDistanceFactors();
+  document.getElementById('kpi-panel').innerHTML = `<div class="kpi-grid">
+    <article class="kpi-card">
+      <p class="kpi-label">Riesgo territorial</p>
+      <p>🛡️</p>
+      <p class="risk-value ${getRiskClass(analysisData.riesgo.nivel)}">${analysisData.riesgo.nivel.toUpperCase()}</p>
+    </article>
+    <article class="kpi-card">
+      <p class="kpi-label">Índice de sinergia</p>
+      <p class="score-value">${score} / 100</p>
+      <div class="progress-track"><div class="progress-fill" style="width:${Math.max(0, Math.min(score, 100))}%"></div></div>
+    </article>
+    <article class="kpi-card">
+      <p class="kpi-label">Factores principales</p>
+      <ul class="factors-list">${factors.map((f) => `<li>${f.label}</li>`).join('')}</ul>
+    </article>
+  </div>`;
 }
 
-function renderGeneralPanel() {
-  document.getElementById('general-layout').innerHTML = `<div class="subblock text-13"><h3 class="sub-title">Datos generales del análisis</h3>
-    ${table({
-      'POI lat/lon': `${analysisData.poi.lat}, ${analysisData.poi.lon}`,
-      'Zona saturada seleccionada': analysisData.zonaSaturada.nombre,
-      'Relave más cercano': analysisData.relave.nombre,
-      'Zona urbana más cercana': analysisData.zonaUrbana.nombre,
-      'Distancia POI-zona saturada': formatKm(analysisData.zonaSaturada.distPerimetroKm),
-      'Distancia POI-relave': formatKm(analysisData.relave.distPoiKm),
-      'Distancia POI-zona urbana': formatKm(analysisData.zonaUrbana.distPoiKm),
-      'Riesgo general': analysisData.riesgo.nivel
-    })}
-  </div>
-  <div class="subblock text-13"><h3 class="sub-title">Mapa de relaciones espaciales</h3><div id="map"></div><div id="map-legend" class="map-legend">POI · relave · círculo equivalente · zona saturada · PRC cercano · líneas de relación</div></div>`;
+function renderMapSection() {
+  document.getElementById('map-section').innerHTML = `<h2 class="section-title">Mapa de relaciones espaciales</h2>
+  <div class="map-wrap">
+    <div id="map"></div>
+    <aside class="legend-floating">
+      <strong>Leyenda</strong>
+      <ul>
+        <li>POI</li><li>Relave</li><li>Zona saturada</li><li>PRC</li><li>Relaciones espaciales</li>
+      </ul>
+    </aside>
+  </div>`;
 }
 
-function renderZonaSaturadaPanel() {
-  const zDia = computeEquivalentDiameter(analysisData.zonaSaturada.superficieHa);
-  document.getElementById('zona-saturada-layout').innerHTML = `
-    <article class="subblock zona text-13"><h3 class="sub-title">A) Ficha GeoJSON</h3>${table({
-      nombre_zon: analysisData.zonaSaturada.nombre,
-      zona_dec: analysisData.zonaSaturada.estado,
-      saturado: analysisData.zonaSaturada.contaminante,
-      latentes: analysisData.zonaSaturada.latentes,
-      decreto: analysisData.zonaSaturada.fuente,
-      link: analysisData.zonaSaturada.link,
-      objectid: analysisData.zonaSaturada.featureId
-    })}</article>
-    <article class="subblock zona text-13"><h3 class="sub-title">B) Geometría propia</h3>${table({
-      'IN/OUT': analysisData.zonaSaturada.poiInOut,
-      'Distancia al perímetro': formatKm(analysisData.zonaSaturada.distPerimetroKm),
-      'Distancia al centroide': formatKm(analysisData.zonaSaturada.distCentroideKm),
-      'Superficie': formatHa(analysisData.zonaSaturada.superficieHa),
-      'Perímetro': formatKm(analysisData.zonaSaturada.perimetroKm),
-      'Diámetro equivalente': formatKm(zDia),
-      'Centroide': analysisData.zonaSaturada.centroide?.join(', ') || 'Sin datos disponibles'
-    })}</article>
-    <article class="subblock zona text-13"><h3 class="sub-title">C) Relación con POI</h3>${table({
-      'Estado POI IN/OUT': analysisData.zonaSaturada.poiInOut,
-      'Nivel de exposición': analysisData.zonaSaturada.poiInOut === 'IN' ? 'Alta' : (analysisData.zonaSaturada.distPerimetroKm < 5 ? 'Media' : 'Baja'),
-      'Interpretación breve': `POI ${analysisData.zonaSaturada.poiInOut === 'IN' ? 'dentro de' : 'fuera de'} zona saturada con riesgo ${analysisData.riesgo.nivel.toLowerCase()}.`
-    })}</article>`;
+function renderSummaryCards() {
+  const z = analysisData.zonaSaturada;
+  const r = analysisData.relave;
+  const u = analysisData.zonaUrbana;
+  document.getElementById('summary-cards').innerHTML = `
+    <article class="summary-card zona">
+      <h3>Zona Saturada</h3>
+      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> ${formatKm(z.distPerimetroKm)}</li></ul>
+    </article>
+    <article class="summary-card relave">
+      <h3>Relave</h3>
+      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Tipo:</strong> ${r.tipoDeposito}</li><li><strong>Distancia:</strong> ${formatKm(r.distPoiKm)}</li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
+    </article>
+    <article class="summary-card prc">
+      <h3>PRC</h3>
+      <ul><li><strong>Nombre PRC:</strong> ${u.nombre}</li><li><strong>Comuna:</strong> ${u.comuna}</li><li><strong>Distancia:</strong> ${formatKm(u.distPoiKm)}</li><li><strong>Superficie PRC:</strong> ${formatHa(u.superficieHa)}</li></ul>
+    </article>`;
 }
 
-function renderRelavePanel() {
-  const rDia = computeEquivalentDiameter(Number(analysisData.relave.superficieHa));
-  document.getElementById('relave-layout').innerHTML = `
-    <article class="subblock relave text-13"><h3 class="sub-title">A) Ficha GeoJSON</h3>${table({
-      id_relave: analysisData.relave.nombre,
-      empresa: analysisData.relave.empresaFaena,
-      faena: analysisData.relave.nombre,
-      tipo_deposito: analysisData.relave.tipoDeposito,
-      recurso: analysisData.relave.recurso,
-      metodo_constructivo: analysisData.relave.metodo,
-      superficie: formatHa(analysisData.relave.superficieHa)
-    })}</article>
-    <article class="subblock relave text-13"><h3 class="sub-title">B) Geometría propia</h3>${table({
-      'Distancia POI-relave': formatKm(analysisData.relave.distPoiKm),
-      'Superficie': formatHa(analysisData.relave.superficieHa),
-      'Radio equivalente': formatKm((rDia || 0) / 2),
-      'Diámetro equivalente': formatKm(rDia),
-      'Centroide': analysisData.relave.centroide?.join(', ') || 'Sin datos disponibles'
-    })}</article>
-    <article class="subblock relave text-13"><h3 class="sub-title">C) Relación territorial</h3>${table({
-      'Distancia relave a centro urbano': formatKm(analysisData.zonaUrbana.centroide && analysisData.relave.centroide ? haversineKm(analysisData.relave.centroide[0], analysisData.relave.centroide[1], analysisData.zonaUrbana.centroide[0], analysisData.zonaUrbana.centroide[1]) : null),
-      'Prioridad territorial': analysisData.relave.distPoiKm < 5 ? 'Alta' : (analysisData.relave.distPoiKm < 12 ? 'Media' : 'Baja'),
-      'Interpretación breve': 'Relave próximo incorporado en evaluación de exposición territorial.'
-    })}</article>`;
-}
-
-function renderZonaUrbanaPanel() {
-  document.getElementById('zona-urbana-layout').innerHTML = `
-    <article class="subblock urbana text-13"><h3 class="sub-title">A) Ficha GeoJSON</h3>${table({
-      nombre_prc: analysisData.zonaUrbana.nombre,
-      comuna: analysisData.zonaUrbana.comuna,
-      region: analysisData.zonaUrbana.region,
-      instrumento: analysisData.zonaUrbana.instrumento,
-      'superficie PRC': formatHa(analysisData.zonaUrbana.superficieHa)
-    })}</article>
-    <article class="subblock urbana text-13"><h3 class="sub-title">B) Geometría propia</h3>${table({
-      'Distancia POI-centro urbano': formatKm(analysisData.zonaUrbana.distPoiKm),
-      'Centroide urbano': analysisData.zonaUrbana.centroide?.join(', ') || 'Sin datos disponibles',
-      'Superficie PRC': formatHa(analysisData.zonaUrbana.superficieHa),
-      'Polígono PRC': analysisData.zonaUrbana.prcFeature ? 'Disponible' : 'No disponible'
-    })}</article>
-    <article class="subblock urbana text-13"><h3 class="sub-title">C) Relación con zona saturada</h3>${table({
-      'Distancia centro urbano a zona saturada': formatKm(analysisData.zonaSaturada.distPerimetroKm),
-      'Distancia centro urbano a centroide zona saturada': formatKm(analysisData.zonaUrbana.centroide && analysisData.zonaSaturada.centroide ? haversineKm(analysisData.zonaUrbana.centroide[0], analysisData.zonaUrbana.centroide[1], analysisData.zonaSaturada.centroide[0], analysisData.zonaSaturada.centroide[1]) : null),
-      'Exposición indirecta': analysisData.riesgo.nivel === 'Alto' ? 'Alta' : 'Moderada'
-    })}</article>`;
-}
-
-function renderRelationsPanel() {
-  const cards = [
-    ['POI ↔ Zona Saturada', formatKm(analysisData.zonaSaturada.distPerimetroKm)],
-    ['POI ↔ Relave', formatKm(analysisData.relave.distPoiKm)],
-    ['POI ↔ Zona Urbana', formatKm(analysisData.zonaUrbana.distPoiKm)],
-    ['Relave ↔ Zona Urbana', formatKm(analysisData.relave.centroide && analysisData.zonaUrbana.centroide ? haversineKm(analysisData.relave.centroide[0], analysisData.relave.centroide[1], analysisData.zonaUrbana.centroide[0], analysisData.zonaUrbana.centroide[1]) : null)],
-    ['Zona Urbana ↔ Zona Saturada', formatKm(analysisData.zonaUrbana.centroide && analysisData.zonaSaturada.centroide ? haversineKm(analysisData.zonaUrbana.centroide[0], analysisData.zonaUrbana.centroide[1], analysisData.zonaSaturada.centroide[0], analysisData.zonaSaturada.centroide[1]) : null)],
-    ['Relación triangular / sinergia territorial', `${analysisData.relaciones.triangular.indice}/100 (${analysisData.relaciones.triangular.sinergia})`]
-  ];
-  document.getElementById('relations-layout').innerHTML = `
-    <div class="relations-grid">
-      ${cards.map(([t, v]) => `<article class="relation-card text-13"><h3 class="sub-title">${t}</h3><p>${v}</p></article>`).join('')}
-    </div>
-    <div class="subblock text-13">${table({
-      'Índice de sinergia': `${analysisData.relaciones.triangular.indice}/100`,
-      'Alineación geométrica': analysisData.relaciones.triangular.sinergia,
-      'Potencial de impacto': analysisData.riesgo.nivel,
-      'Síntesis automática GeoNOXA': `POI con riesgo ${analysisData.riesgo.nivel.toLowerCase()}, influenciado por ${analysisData.zonaSaturada.nombre}, ${analysisData.relave.nombre} y ${analysisData.zonaUrbana.nombre}.`
-    })}</div>`;
+function renderInterpretation() {
+  const factors = getDistanceFactors();
+  const [main, second] = factors;
+  const text = `El punto analizado presenta un riesgo ${analysisData.riesgo.nivel.toLowerCase()}, influenciado principalmente por ${main?.label?.toLowerCase() || 'factores sin datos disponibles'} y ${second?.label?.toLowerCase() || 'factores secundarios sin datos'}.`;
+  document.getElementById('interpretation').innerHTML = `<h2 class="section-title">Interpretación automática GeoNOXA</h2><p>${text}</p>`;
 }
 
 function buildEcosystemUrl(baseUrl) { const { lat, lon, zoom, bbox } = analysisData.poi; const bboxText = Array.isArray(bbox) ? bbox.join(',') : ''; return `${baseUrl}?lat=${lat}&lon=${lon}&zoom=${zoom}&bbox=${encodeURIComponent(bboxText)}`; }
@@ -476,7 +426,7 @@ function renderActions() {
   document.getElementById('actions').innerHTML = `
     <button type="button">Descargar KML</button>
     <button type="button">Descargar PDF</button>
-    <button type="button">Ver reporte completo</button>
+    <button type="button">Ver análisis completo</button>
     <a href="${buildEcosystemUrl('https://example.com/geoipt')}" target="_blank" rel="noopener">Ir a GeoIPT</a>
     <a href="${buildEcosystemUrl('https://example.com/geoeva')}" target="_blank" rel="noopener">Ir a GeoEVA</a>
     <a href="${buildEcosystemUrl('https://example.com/geonemo')}" target="_blank" rel="noopener">Ir a GeoNEMO</a>`;
