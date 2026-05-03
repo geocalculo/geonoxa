@@ -23,6 +23,7 @@
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <link rel="stylesheet" href="css/geonoxa.css" />
+  <link rel="stylesheet" href="css/index.css" />
 
   <script type="text/javascript">
     (function () {
@@ -50,16 +51,18 @@
     <div id="map" aria-label="Mapa interactivo de diagnóstico territorial"></div>
 
     <header class="top-header">
-      <div class="brand-block">
-        <h1>GeoNOXA</h1>
-        <p>Diagnóstico territorial integrado de riesgo ambiental</p>
-      </div>
-      <section class="kpi-strip" aria-label="Resumen territorial">
-        <article class="kpi-item"><span>Zonas saturadas</span><strong id="sum-zonas">#3; 18.240 has</strong></article>
-        <article class="kpi-item"><span>Relaves</span><strong id="sum-relaves">#4; 230 has</strong></article>
-        <article class="kpi-item"><span>Centros urbanos</span><strong id="sum-prc">#12; 45.600 has</strong></article>
-        <article class="kpi-item"><span>Ríos / cursos</span><strong id="sum-rios">0</strong></article>
-        <article class="kpi-item"><span>Lagos / lagunas</span><strong id="sum-lagos">0</strong></article>
+      <div class="site-kicker">GeoNOXA</div>
+      <h1>Análisis territorial de riesgo ambiental</h1>
+      <h2>Relaves, zonas saturadas y relaciones espaciales desde un punto de interés</h2>
+      <section class="viewport-summary" aria-live="polite" aria-label="Resumen del territorio visible">
+        <div class="summary-item">Relaves visibles: <strong id="sum-relaves">#0</strong></div>
+        <div class="summary-item">Zonas saturadas visibles: <strong id="sum-zonas">#0</strong></div>
+      </section>
+      <section class="analysis-slider" aria-label="Configuración de análisis">
+        <label for="relaves-n-slider">Relaves a considerar en el análisis</label>
+        <input id="relaves-n-slider" type="range" min="0" max="2" step="1" value="1" list="relaves-n-values" />
+        <datalist id="relaves-n-values"><option value="0" label="1"></option><option value="1" label="5"></option><option value="2" label="10"></option></datalist>
+        <div class="slider-values"><span>1</span><strong id="relaves-n-current">5</strong><span>10</span></div>
       </section>
     </header>
 
@@ -106,37 +109,10 @@
       <a id="home-floating-btn" href="./" title="Home">⌂</a>
     </div>
 
-    <section class="cross-site-cards" aria-label="Portales del ecosistema">
-      <a class="portal-card" href="https://geoipt.cl/" target="_blank" rel="noopener noreferrer">
-        <h3>GeoIPT</h3>
-        <p>Normativa urbana y usos de suelo.</p>
-      </a>
-      <a class="portal-card" href="https://geoeva.cl/" target="_blank" rel="noopener noreferrer">
-        <h3>GeoEVA</h3>
-        <p>Proyectos SEA y evaluación territorial.</p>
-      </a>
-      <a class="portal-card" href="https://geonemo.cl/" target="_blank" rel="noopener noreferrer">
-        <h3>GeoNEMO</h3>
-        <p>Áreas protegidas y sensibilidad ambiental.</p>
-      </a>
-    </section>
+    <nav class="geo-switch" id="geo-switch" aria-label="GeoSwitch"><a data-site="geoipt" href="#">GeoIPT</a><a data-site="geoeva" href="#">GeoEVA</a><a data-site="geonemo" href="#">GeoNEMO</a><a data-site="geonoxa" class="active" href="#">GeoNOXA</a></nav>
 
     <p class="hint">👉 Haz clic en el mapa para generar un diagnóstico territorial</p>
-    <section id="index-summary" class="index-summary" aria-live="polite" aria-label="Resumen dinámico de centros urbanos y relaves">
-      <div>Centros urbanos: <span id="sum-count">0</span></div>
-      <div>Superficie total: <span id="sum-area">0</span> ha</div>
-      <div>Promedio: <span id="sum-avg">0</span> ha</div>
-      <div>Más cercano: <span id="sum-nearest">-</span></div>
-      <div>Peso total: <span id="sum-weight">-</span></div>
-      <div>Top 3 más grandes: <span id="sum-top3">-</span></div>
-      <hr>
-      <div>Sup. relaves: <span id="sum-relaves-area">0</span> ha</div>
-      <div>Promedio relaves: <span id="sum-relaves-avg">0</span> ha</div>
-      <div>Ton. autorizadas: <span id="sum-relaves-ton">0</span></div>
-      <div>Relave más cercano: <span id="sum-relaves-nearest">-</span></div>
-      <div>Top 3 relaves: <span id="sum-relaves-top3">-</span></div>
-    </section>
-    <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
+        <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
 
     <div id="welcomeModal" class="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="welcomeModalTitle" hidden>
       <div class="welcome-modal__content">
