@@ -2,129 +2,64 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NXSX7XCP');
-  </script>
-  <!-- End Google Tag Manager -->
-
-  <title>GeoNOXA | Diagnóstico territorial integrado de riesgo ambiental</title>
-  <meta name="description" content="Diagnóstico territorial integrado de riesgo ambiental: zonas saturadas, relaves, plataformas hídricas y centros urbanos PRC en Chile.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="icon" href="./favicon.ico" sizes="any">
-  <link rel="shortcut icon" href="./favicon.ico">
-  <link rel="apple-touch-icon" href="./img/logo_GeoNOXA.png">
-
+  <title>GeoNOXA | GeoCard System v1.0</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
-  <link rel="stylesheet" href="css/geonoxa.css" />
   <link rel="stylesheet" href="css/index.css" />
-
-  <script type="text/javascript">
-    (function () {
-      window.usermaven = window.usermaven || (function () { (window.usermavenQ = window.usermavenQ || []).push(arguments); })
-      var t = document.createElement('script'),
-          s = document.getElementsByTagName('script')[0];
-      t.defer = true;
-      t.id = 'um-tracker';
-      t.setAttribute('data-tracking-host', "https://events.usermaven.com")
-      t.setAttribute('data-key', 'UMxz3Pr4p2');
-      t.setAttribute('data-autocapture', 'true');
-      t.setAttribute('data-form-tracking', 'all');
-      t.src = 'https://t.usermaven.com/lib.js';
-      s.parentNode.insertBefore(t, s);
-    })();
-  </script>
 </head>
-
 <body>
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXSX7XCP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-
-  <main class="app-shell" aria-label="GeoNOXA">
-    <div id="map" aria-label="Mapa interactivo de diagnóstico territorial"></div>
-
+  <main class="app-shell">
     <header class="top-header">
-      <div class="site-kicker">GeoNOXA</div>
-      <h1>Análisis territorial de riesgo ambiental</h1>
-      <h2>Relaves, zonas saturadas y relaciones espaciales desde un punto de interés</h2>
-      <section class="viewport-summary" aria-live="polite" aria-label="Resumen del territorio visible">
-        <div class="summary-item">Relaves visibles: <strong id="sum-relaves">#0</strong></div>
-        <div class="summary-item">Zonas saturadas visibles: <strong id="sum-zonas">#0</strong></div>
+      <div class="header-left">
+        <h1><span>GeoNOXA</span></h1>
+        <p>Riesgo Territorial y Conflictos Socioambientales</p>
+        <small>Zonas saturadas y depósitos de relaves</small>
+      </div>
+      <section class="summary" aria-live="polite">
+        <h2>SUMMARY (viewport actual)</h2>
+        <div class="summary-grid">
+          <div class="kpi"><span>Zonas saturadas</span><strong id="sum-zonas">0</strong></div>
+          <div class="kpi"><span>Relaves visibles</span><strong id="sum-relaves">0</strong></div>
+          <div class="kpi"><span>Conflictos potenciales</span><strong id="sum-conflicts">0</strong></div>
+        </div>
       </section>
-      <section class="analysis-slider" aria-label="Configuración de análisis">
-        <label for="relaves-n-slider">Relaves a considerar en el análisis</label>
-        <input id="relaves-n-slider" type="range" min="0" max="2" step="1" value="1" list="relaves-n-values" />
-        <datalist id="relaves-n-values"><option value="0" label="1"></option><option value="1" label="5"></option><option value="2" label="10"></option></datalist>
+      <section class="slider-block">
+        <label for="relaves-n-slider">Relaves a considerar</label>
+        <input id="relaves-n-slider" type="range" min="0" max="2" step="1" value="1" />
         <div class="slider-values"><span>1</span><strong id="relaves-n-current">5</strong><span>10</span></div>
+        <p id="dynamic-analysis-text">Analizarás los 5 relaves más cercanos al hacer clic en el mapa</p>
       </section>
     </header>
 
-    <aside class="floating-panel" aria-label="Controles de filtro">
-      <button class="panel-toggle" type="button" aria-label="Expandir o contraer panel">☰ Capas</button>
-      <div class="panel-content">
-        <h2>Panel territorial</h2>
-        <div class="control-group">
-          <label for="region-select">Región</label>
-          <select id="region-select">
-            <option value="">Todas las regiones</option>
-            <option value="arica">Arica y Parinacota</option>
-            <option value="metropolitana">Metropolitana</option>
-            <option value="biobio">Biobío</option>
-          </select>
-        </div>
-        <div class="control-group">
-          <label for="instrumento-select">Tipo de análisis</label>
-          <select id="instrumento-select">
-            <option value="">Vista integrada GeoNOXA</option>
-            <option value="zonas">Zonas saturadas</option>
-            <option value="relaves">Relaves</option>
-            <option value="hidricas">Hidrología</option>
-            <option value="prc">Centros urbanos PRC</option>
-          </select>
-        </div>
-        <div class="control-group">
-          <label for="noxa-search">Búsqueda territorial</label>
-          <input id="noxa-search" type="text" placeholder="Ej: comuna, relave, río" autocomplete="off" />
-          <div id="noxa-search-results" hidden></div>
-        </div>
-        <fieldset class="toggle-list">
+    <section class="map-wrap">
+      <div id="map"></div>
+      <aside class="floating-panel">
+        <h3>Panel territorial</h3>
+        <label>Región <select id="region-select"><option value="">Todas las regiones</option></select></label>
+        <label>Comuna <select id="comuna-select"><option value="">Todas las comunas</option></select></label>
+        <label>Buscar <input id="noxa-search" type="text" placeholder="Ej: comuna, relave" /></label>
+        <fieldset>
           <legend>Capas visuales</legend>
-          <label><input type="checkbox" checked /> Zonas saturadas</label>
-          <label><input type="checkbox" checked /> Relaves</label>
-          <label><input type="checkbox" checked /> Hidrología</label>
-          <label><input type="checkbox" checked /> Centros urbanos</label>
+          <label><input id="toggle-zonas" type="checkbox" checked /> Zonas saturadas</label>
+          <label><input id="toggle-relaves" type="checkbox" checked /> Relaves</label>
+          <label><input id="toggle-hidricas" type="checkbox" /> Hidrología</label>
+          <label><input id="toggle-prc" type="checkbox" /> Centros urbanos</label>
         </fieldset>
+      </aside>
+      <div class="map-overlay-controls">
+        <button type="button" id="mira-rifle" title="Mi ubicación">📍</button>
       </div>
-    </aside>
+      <p class="hint">Haz clic en el mapa para analizar el riesgo en un punto de interés</p>
+      <div id="crosshair" aria-hidden="true">+</div>
+      <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
+    </section>
 
-    <div class="map-controls" aria-label="Acciones del mapa">
-      <button type="button" title="Mi ubicación" id="mira-rifle">◎</button>
-      <a id="home-floating-btn" href="./" title="Home">⌂</a>
-    </div>
-
-    <nav class="geo-switch" id="geo-switch" aria-label="GeoSwitch"><a data-site="geoipt" href="#">GeoIPT</a><a data-site="geoeva" href="#">GeoEVA</a><a data-site="geonemo" href="#">GeoNEMO</a><a data-site="geonoxa" class="active" href="#">GeoNOXA</a></nav>
-
-    <p class="hint">👉 Haz clic en el mapa para generar un diagnóstico territorial</p>
-        <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
-
-    <div id="welcomeModal" class="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="welcomeModalTitle" hidden>
-      <div class="welcome-modal__content">
-        <h2 id="welcomeModalTitle">Bienvenido a GeoNOXA</h2>
-        <p>GeoNOXA integra zonas saturadas, relaves, hidrología y centros urbanos en una lectura única de riesgo ambiental territorial.</p>
-        <p>Haz clic en el mapa para iniciar tu diagnóstico y abrir el flujo hacia mapago.</p>
-        <button id="startBtn" class="welcome-btn" type="button">Comenzar</button>
-        <label class="welcome-checkbox"><input type="checkbox" id="dontShowAgain"> No mostrar nuevamente</label>
-      </div>
-    </div>
-
-    <div id="noxa-summary-text" class="sr-only">En esta vista hay <strong id="noxa-visible-total">0</strong> elementos territoriales críticos visibles.</div>
+    <nav class="geo-switch" id="geo-switch" aria-label="GeoSwitch">
+      <a data-site="geoipt" href="#">GeoIPT</a>
+      <a data-site="geoeva" href="#">GeoEVA</a>
+      <a data-site="geonemo" href="#">GeoNEMO</a>
+      <a data-site="geonoxa" class="active" href="#">GeoNOXA</a>
+    </nav>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
