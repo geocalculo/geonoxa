@@ -23,36 +23,38 @@
           <div class="kpi"><span>Conflictos potenciales</span><strong id="sum-conflicts">0</strong></div>
         </div>
       </section>
+      <section class="region-card">
+        <label for="region-select">Explorar región</label>
+        <select id="region-select"></select>
+      </section>
     </header>
 
-    <div class="top-controls">
-      <select id="region-select"></select>
-    </div>
-
     <section class="map-wrap">
-      <div id="map">
-        <div id="relaves-slider-floating">
-          <label>Relaves a considerar</label>
-          <input type="range" id="relaves-range" min="1" max="10" step="1" />
-          <div id="relaves-hint"></div>
-        </div>
-      </div>
+      <div id="map"></div>
       <aside class="floating-panel">
         <h3>Panel territorial</h3>
-        <label>Comuna <select id="comuna-select"><option value="">Todas las comunas</option></select></label>
-        <label>Buscar <input id="noxa-search" type="text" placeholder="Ej: comuna, relave" /></label>
+        <label>Buscar <input id="noxa-search" type="text" placeholder="Ej: relave, zona" /></label>
         <fieldset>
-          <legend>Capas visuales</legend>
+          <legend>Capas núcleo</legend>
           <label><input id="toggle-zonas" type="checkbox" checked /> Zonas saturadas</label>
           <label><input id="toggle-relaves" type="checkbox" checked /> Relaves</label>
-          <label><input id="toggle-hidricas" type="checkbox" /> Hidrología</label>
-          <label><input id="toggle-prc" type="checkbox" /> Centros urbanos</label>
         </fieldset>
+        <div class="relaves-control">
+          <label for="relaves-range">Relaves a considerar</label>
+          <input type="range" id="relaves-range" min="0" max="2" step="1" list="relaves-steps" />
+          <datalist id="relaves-steps">
+            <option value="0" label="1"></option>
+            <option value="1" label="5"></option>
+            <option value="2" label="10"></option>
+          </datalist>
+          <div class="range-labels"><span>1</span><span>5</span><span>10</span></div>
+          <div id="relaves-hint"></div>
+        </div>
       </aside>
       <div class="map-overlay-controls">
         <button type="button" id="mira-rifle" title="Mi ubicación">📍</button>
       </div>
-      <p class="hint">Haz clic en el mapa para analizar el riesgo en un punto de interés</p>
+      <p class="hint">Haz clic en el mapa para abrir CARD PRO 2.0 del punto de interés</p>
       <div id="crosshair" aria-hidden="true">+</div>
       <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
     </section>
