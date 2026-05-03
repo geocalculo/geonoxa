@@ -23,19 +23,22 @@
           <div class="kpi"><span>Conflictos potenciales</span><strong id="sum-conflicts">0</strong></div>
         </div>
       </section>
-      <section class="slider-block">
-        <label for="relaves-n-slider">Relaves a considerar</label>
-        <input id="relaves-n-slider" type="range" min="0" max="2" step="1" value="1" />
-        <div class="slider-values"><span>1</span><strong id="relaves-n-current">5</strong><span>10</span></div>
-        <p id="dynamic-analysis-text">Analizarás los 5 relaves más cercanos al hacer clic en el mapa</p>
-      </section>
     </header>
 
+    <div class="top-controls">
+      <select id="region-select"></select>
+    </div>
+
     <section class="map-wrap">
-      <div id="map"></div>
+      <div id="map">
+        <div id="relaves-slider-floating">
+          <label>Relaves a considerar</label>
+          <input type="range" id="relaves-range" min="1" max="10" step="1" />
+          <div id="relaves-hint"></div>
+        </div>
+      </div>
       <aside class="floating-panel">
         <h3>Panel territorial</h3>
-        <label>Región <select id="region-select"><option value="">Todas las regiones</option></select></label>
         <label>Comuna <select id="comuna-select"><option value="">Todas las comunas</option></select></label>
         <label>Buscar <input id="noxa-search" type="text" placeholder="Ej: comuna, relave" /></label>
         <fieldset>

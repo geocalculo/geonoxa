@@ -15,12 +15,34 @@ html,body,.app-shell{height:100%;margin:0;font-family:Inter,system-ui,sans-serif
 .summary h2{margin:0 0 8px;font-size:.9rem;color:var(--muted)}
 .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .kpi{background:#fff7ed;border:1px solid #fdba74;border-radius:12px;padding:8px}.kpi span{font-size:.75rem;color:var(--muted);display:block}.kpi strong{font-size:1.3rem}
-.slider-block{grid-column:1/-1}.slider-block label{font-weight:700}.slider-block input{width:100%}
-.slider-values{display:flex;justify-content:space-between;max-width:320px}.slider-values strong{color:var(--noxa-orange)}
-#dynamic-analysis-text{margin:8px 0 0;color:#1e293b}
+.top-controls {
+  width: 100%;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.9);
+}
+.top-controls select{min-width:280px;max-width:420px;width:100%;}
+
 .map-wrap{position:relative;height:calc(100vh - var(--header-h) - var(--footer-h));}
-#map{width:100%;height:100%}
-.floating-panel{position:absolute;top:100px;left:20px;z-index:900;background:rgba(255,255,255,.95);padding:12px;border-radius:12px;min-width:250px;max-width:290px;box-shadow:0 8px 20px rgba(0,0,0,.2)}
+#map{width:100%;height:100%;position:relative}
+
+#relaves-slider-floating {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 300px;
+  background: rgba(15, 23, 42, 0.88);
+  border: 1px solid rgba(249, 115, 22, 0.35);
+  border-radius: 14px;
+  padding: 12px;
+  z-index: 900;
+  color:#fff;
+}
+#relaves-slider-floating label{display:block;font-weight:700;margin-bottom:6px}
+#relaves-slider-floating input{width:100%}
+#relaves-hint{margin-top:8px;font-size:.9rem;color:#e2e8f0}
+.floating-panel{position:absolute;top:150px;left:20px;z-index:900;background:rgba(255,255,255,.95);padding:12px;border-radius:12px;min-width:250px;max-width:290px;box-shadow:0 8px 20px rgba(0,0,0,.2)}
 .floating-panel h3{margin:0 0 10px}.floating-panel label{display:block;font-size:.9rem;margin-bottom:8px}.floating-panel input,.floating-panel select{width:100%}
 .map-overlay-controls{position:absolute;top:20px;right:16px;z-index:900}
 #crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:700;color:var(--noxa-orange);font-size:30px;font-weight:700;pointer-events:none}
@@ -31,7 +53,8 @@ html,body,.app-shell{height:100%;margin:0;font-family:Inter,system-ui,sans-serif
 @media (max-width:900px){
   :root{--header-h:260px}
   .top-header{grid-template-columns:1fr}
-  .floating-panel{top:80px;left:10px;max-width:240px}
+  .floating-panel{top:130px;left:10px;max-width:240px}
+  #relaves-slider-floating{width:calc(100vw - 32px);}
   .map-wrap{height:calc(100vh - var(--header-h) - var(--footer-h));}
   .geo-switch{font-size:.85rem;gap:8px;padding:0 8px}
 }

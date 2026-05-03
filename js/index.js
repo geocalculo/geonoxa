@@ -6,7 +6,6 @@ const GEO_NOXA_DATA = {
   prc: "capas/zonas_urbanas/prc_visibles_centroides_ponderados_wgs84.geojson"
 };
 
-const RELAVES_OPTIONS = [1, 5, 10];
 const ECOSYSTEM_LINKS = { geoipt: "https://geoipt.cl/", geoeva: "https://geoeva.cl/", geonemo: "https://geonemo.cl/", geonoxa: "index.html" };
 const noxaState = { layers: {}, zonasSaturadasFeatures: [] };
 
@@ -17,7 +16,7 @@ L.control.layers({ OSM: osm, "Satélite": esri }, {}, { collapsed: true }).addTo
 L.control.scale({ imperial: false }).addTo(map);
 
 function showWarning(message){ const el = document.getElementById("geonoxa-warning"); if(!el) return; el.textContent = message; el.style.display = "block"; setTimeout(() => { el.style.display = "none"; }, 4000); }
-function getSelectedRelavesN(){ const value = Number(localStorage.getItem("geonoxa_relaves_n") || 5); return RELAVES_OPTIONS.includes(value) ? value : 5; }
+function getSelectedRelavesN(){ const value = Number(localStorage.getItem("geonoxa_relaves_n") || 5); return Number.isFinite(value) && value >= 1 && value <= 10 ? value : 5; }
 function isDesktopPointer(){ return window.matchMedia("(hover: hover) and (pointer: fine)").matches; }
 function computePotentialConflicts(){ return 0; }
 function buildCardUrl(latlng){ const p = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), n_relaves: String(getSelectedRelavesN()) }); return `mapago.html?${p.toString()}`; }
@@ -61,18 +60,15 @@ document.getElementById("toggle-hidricas").addEventListener("change", (e)=> e.ta
 document.getElementById("toggle-prc").addEventListener("change", (e)=> e.target.checked ? noxaState.layers.prc?.addTo(map) : map.removeLayer(noxaState.layers.prc));
 
 (function setupRelavesSlider(){
-  const slider = document.getElementById("relaves-n-slider");
-  const current = document.getElementById("relaves-n-current");
-  const msg = document.getElementById("dynamic-analysis-text");
+  const slider = document.getElementById("relaves-range");
+  const relavesHint = document.getElementById("relaves-hint");
   const saved = getSelectedRelavesN();
-  slider.value = String(RELAVES_OPTIONS.indexOf(saved));
-  current.textContent = String(saved);
-  msg.textContent = `Analizarás los ${saved} relaves más cercanos al hacer clic en el mapa`;
+  slider.value = String(saved);
+  relavesHint.innerText = "Analizarás los " + saved + " relaves más cercanos al hacer clic en el mapa";
   slider.addEventListener("input", () => {
-    const n = RELAVES_OPTIONS[Number(slider.value)] || 5;
+    const n = Number(slider.value) || 5;
     localStorage.setItem("geonoxa_relaves_n", String(n));
-    current.textContent = String(n);
-    msg.textContent = `Analizarás los ${n} relaves más cercanos al hacer clic en el mapa`;
+    relavesHint.innerText = "Analizarás los " + n + " relaves más cercanos al hacer clic en el mapa";
   });
 })();
 
@@ -97,6 +93,32 @@ document.getElementById("toggle-prc").addEventListener("change", (e)=> e.target.
       window.location.href = url.toString();
     });
   });
+})();
+
+
+(function setupRegionSelect(){
+  const regionSelect = document.getElementById("region-select");
+  if(!regionSelect) return;
+
+  fetch('/capas/regiones/regiones.json')
+    .then((res) => res.json())
+    .then((regiones) => {
+      regiones.forEach((regionItem) => {
+        const option = document.createElement("option");
+        option.value = String(regionItem.id);
+        option.textContent = regionItem.nombre;
+        regionSelect.appendChild(option);
+      });
+
+      regionSelect.addEventListener("change", (e) => {
+        const value = e.target.value;
+        const region = regiones.find(r => String(r.id) === String(value));
+        if (region) {
+          map.setView(region.centro, region.zoom);
+        }
+      });
+    })
+    .catch(() => showWarning("No se pudo cargar regiones"));
 })();
 
 loadAllLayers();
