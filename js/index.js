@@ -23,7 +23,6 @@ function getSelectedRelavesN(){
 }
 function relavesNFromSlider(sliderValue){ return RELAVES_OPTIONS[Number(sliderValue)] || 5; }
 function isDesktopPointer(){ return window.matchMedia("(hover: hover) and (pointer: fine)").matches; }
-function computePotentialConflicts(){ return 0; }
 function buildCardUrl(latlng){ const p = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), n_relaves: String(getSelectedRelavesN()) }); return `mapago.html?${p.toString()}`; }
 function openCardFromPoi(latlng){ window.location.href = buildCardUrl(latlng); }
 
@@ -88,17 +87,21 @@ function highlightSearchResult(result){
 }
 
 function setupSearch(){
-  const input = document.getElementById("noxa-search");
-  const resultsEl = document.getElementById("noxa-search-results");
+  const input = document.getElementById("map-search");
+  const resultsEl = document.getElementById("map-search-results");
   if(!input || !resultsEl) return;
 
+  let lastResults = [];
+
   const render = (results) => {
+    lastResults = results;
     resultsEl.innerHTML = "";
     if(!results.length){ resultsEl.style.display = "none"; return; }
     results.forEach((result) => {
-      const li = document.createElement("li");
+      const li = document.createElement("div");
+      li.className = "map-search-item";
       li.tabIndex = 0;
-      li.innerHTML = `<span class="result-type">${result.type}</span>${result.label}`;
+      li.textContent = `${result.label} · ${result.type}`;
       const selectResult = () => { map.setView(result.latlng, 15); highlightSearchResult(result); resultsEl.style.display = "none"; };
       li.addEventListener("click", selectResult);
       li.addEventListener("keydown", (e) => { if(e.key === "Enter") selectResult(); });
@@ -113,13 +116,27 @@ function setupSearch(){
     const matches = toSearchItems().filter((item) => item.searchText.includes(term));
     render(prioritizeResults(matches));
   });
+
+  input.addEventListener("keydown", (e) => {
+    if(e.key !== "Enter") return;
+    const first = lastResults[0];
+    if(!first) return;
+    e.preventDefault();
+    map.setView(first.latlng, 15);
+    highlightSearchResult(first);
+    resultsEl.style.display = "none";
+  });
+
+  document.addEventListener("click", (e) => {
+    if(e.target === input || resultsEl.contains(e.target)) return;
+    resultsEl.style.display = "none";
+  });
 }
 function updateSummary(){
   const zonas = countLayerVisible(noxaState.layers.zonas);
   const relaves = countLayerVisible(noxaState.layers.relaves);
   document.getElementById("sum-zonas").textContent = String(zonas);
   document.getElementById("sum-relaves").textContent = String(relaves);
-  document.getElementById("sum-conflicts").textContent = String(computePotentialConflicts());
 }
 
 async function loadJson(url){ const res = await fetch(url, { cache: "no-store" }); if(!res.ok) throw new Error(url); return res.json(); }
@@ -188,9 +205,10 @@ document.getElementById("toggle-relaves").addEventListener("change", (e)=> { e.t
     .then((res) => res.json())
     .then((regiones) => {
       if(!Array.isArray(regiones) || !regiones.length) return;
-      regiones.forEach((regionItem, idx) => {
+      regiones.forEach((regionItem) => {
+        if(regionItem?.id == null) return;
         const option = document.createElement("option");
-        option.value = String(regionItem.id ?? idx);
+        option.value = String(regionItem.id);
         option.textContent = regionItem.nombre;
         regionSelect.appendChild(option);
       });
@@ -201,11 +219,9 @@ document.getElementById("toggle-relaves").addEventListener("change", (e)=> { e.t
       }
 
       regionSelect.addEventListener("change", (e) => {
-        const value = e.target.value;
-        const region = regiones.find((r, idx) => String(r.id ?? idx) === String(value));
-        if (region && Array.isArray(region.centro) && region.centro.length === 2) {
-          map.setView(region.centro, Number(region.zoom) || map.getZoom());
-        }
+        const region = regiones.find((r) => String(r.id) === e.target.value);
+        if(!region) return;
+        map.setView(region.centro, region.zoom);
       });
     })
     .catch(() => showWarning("No se pudo cargar regiones"));

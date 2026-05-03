@@ -20,21 +20,22 @@
         <div class="summary-grid">
           <div class="kpi"><span>Zonas saturadas</span><strong id="sum-zonas">0</strong></div>
           <div class="kpi"><span>Relaves visibles</span><strong id="sum-relaves">0</strong></div>
-          <div class="kpi"><span>Conflictos potenciales</span><strong id="sum-conflicts">0</strong></div>
+          <div class="summary-card region-selector-card">
+            <label for="region-select">Explorar región</label>
+            <select id="region-select"></select>
+          </div>
         </div>
-      </section>
-      <section class="region-card">
-        <label for="region-select">Explorar región</label>
-        <select id="region-select"></select>
       </section>
     </header>
 
     <section class="map-wrap">
       <div id="map"></div>
+      <div class="map-search-box">
+        <input type="text" id="map-search" placeholder="Buscar relave, zona saturada o lugar..." />
+        <div id="map-search-results" class="map-search-results"></div>
+      </div>
       <aside class="floating-panel">
         <h3>Panel territorial</h3>
-        <label>Buscar <input id="noxa-search" type="text" placeholder="Ej: relave, zona" /></label>
-        <ul id="noxa-search-results" class="search-results" aria-label="Resultados de búsqueda"></ul>
         <fieldset>
           <legend>Capas núcleo</legend>
           <label><input id="toggle-zonas" type="checkbox" checked /> Zonas saturadas</label>
