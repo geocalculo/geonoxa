@@ -33,6 +33,87 @@ function bindLayerInteractions(layer, tooltipText){
 }
 
 function countLayerVisible(layer){ if(!layer || !map.hasLayer(layer)) return 0; const bounds = map.getBounds(); let count = 0; layer.eachLayer((lyr)=>{ if(lyr.getLatLng && bounds.contains(lyr.getLatLng())) count += 1; else if(lyr.getBounds && bounds.intersects(lyr.getBounds())) count += 1; }); return count; }
+function toSearchItems(){
+  const items = [];
+  const addLayerItems = (layer, type, fields, labelBuilder) => {
+    if(!layer) return;
+    layer.eachLayer((lyr) => {
+      const feature = lyr.feature;
+      const properties = feature?.properties || {};
+      const values = fields.map((f) => String(properties[f] ?? "")).filter(Boolean);
+      if(!values.length) return;
+      const label = labelBuilder(properties, values);
+      const latlng = lyr.getLatLng ? lyr.getLatLng() : lyr.getBounds ? lyr.getBounds().getCenter() : null;
+      if(!latlng) return;
+      items.push({ type, label, searchText: values.join(" ").toLowerCase(), latlng, layer: lyr });
+    });
+  };
+
+  addLayerItems(noxaState.layers.relaves, "Relave", ["id_relave", "empresa", "faena", "tipo_deposito", "recurso"],
+    (p, v) => `${p.id_relave || "Relave"} · ${p.faena || p.empresa || v[0]}`);
+  addLayerItems(noxaState.layers.zonas, "Zona saturada", ["nombre_zon", "zona_dec", "saturado", "latentes", "decreto"],
+    (p, v) => `${p.nombre_zon || p.zona_dec || "Zona saturada"} · ${p.decreto || v[0]}`);
+
+  return items;
+}
+
+function prioritizeResults(results){
+  const bounds = map.getBounds();
+  const center = map.getCenter();
+  const inViewport = [];
+  const outsideViewport = [];
+  results.forEach((item) => {
+    if(bounds.contains(item.latlng)) inViewport.push(item);
+    else outsideViewport.push(item);
+  });
+  outsideViewport.sort((a, b) => center.distanceTo(a.latlng) - center.distanceTo(b.latlng));
+  return [...inViewport, ...outsideViewport].slice(0, 3);
+}
+
+function highlightSearchResult(result){
+  const layer = result.layer;
+  if(!layer) return;
+  const isCircle = !!layer.setRadius;
+  const originalStyle = layer.options ? { ...layer.options } : null;
+  const originalRadius = isCircle ? layer.getRadius() : null;
+
+  if(layer.setStyle){ layer.setStyle({ color: "#2563eb", fillColor: "#60a5fa", weight: 3, fillOpacity: 0.9 }); }
+  if(isCircle && originalRadius != null) layer.setRadius(Math.max(8, originalRadius + 3));
+  if(layer.bringToFront) layer.bringToFront();
+
+  setTimeout(() => {
+    if(layer.setStyle && originalStyle) layer.setStyle(originalStyle);
+    if(isCircle && originalRadius != null) layer.setRadius(originalRadius);
+  }, 1800);
+}
+
+function setupSearch(){
+  const input = document.getElementById("noxa-search");
+  const resultsEl = document.getElementById("noxa-search-results");
+  if(!input || !resultsEl) return;
+
+  const render = (results) => {
+    resultsEl.innerHTML = "";
+    if(!results.length){ resultsEl.style.display = "none"; return; }
+    results.forEach((result) => {
+      const li = document.createElement("li");
+      li.tabIndex = 0;
+      li.innerHTML = `<span class="result-type">${result.type}</span>${result.label}`;
+      const selectResult = () => { map.setView(result.latlng, 15); highlightSearchResult(result); resultsEl.style.display = "none"; };
+      li.addEventListener("click", selectResult);
+      li.addEventListener("keydown", (e) => { if(e.key === "Enter") selectResult(); });
+      resultsEl.appendChild(li);
+    });
+    resultsEl.style.display = "block";
+  };
+
+  input.addEventListener("input", () => {
+    const term = input.value.trim().toLowerCase();
+    if(term.length < 2){ render([]); return; }
+    const matches = toSearchItems().filter((item) => item.searchText.includes(term));
+    render(prioritizeResults(matches));
+  });
+}
 function updateSummary(){
   const zonas = countLayerVisible(noxaState.layers.zonas);
   const relaves = countLayerVisible(noxaState.layers.relaves);
@@ -130,4 +211,4 @@ document.getElementById("toggle-relaves").addEventListener("change", (e)=> { e.t
     .catch(() => showWarning("No se pudo cargar regiones"));
 })();
 
-loadAllLayers();
+loadAllLayers().then(setupSearch);
