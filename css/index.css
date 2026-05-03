@@ -651,3 +651,15 @@ main{
     scroll-behavior:auto !important;
   }
 }
+
+/* GeoCard System v1.0 pilot */
+.top-header{position:absolute;top:10px;left:10px;z-index:900;background:rgba(7,16,20,.86);color:#e2e8f0;padding:10px 12px;border-radius:10px;max-width:min(560px,calc(100vw - 20px));font-size:13px}
+.top-header h1{margin:2px 0;font-size:18px;color:#fff}.top-header h2{margin:0 0 8px 0;font-size:13px;font-weight:500;color:#cbd5e1}
+.site-kicker{font-weight:700;letter-spacing:.04em;color:#38bdf8}
+.viewport-summary{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px}.summary-item strong{color:#fff}
+.analysis-slider label{display:block;margin-bottom:4px}.analysis-slider input{width:100%}.slider-values{display:flex;justify-content:space-between;align-items:center}
+#map{height:100vh!important}
+.geo-switch{position:fixed;left:0;right:0;bottom:0;z-index:950;display:flex;justify-content:center;gap:12px;background:rgba(2,6,23,.92);padding:8px 12px;border-top:1px solid rgba(148,163,184,.3)}
+.geo-switch a{color:#cbd5e1;text-decoration:none;font-size:13px}.geo-switch a.active{color:#fff;font-weight:700}
+.hint{position:fixed;left:12px;bottom:44px;z-index:920;background:rgba(7,16,20,.8);color:#e2e8f0;padding:6px 8px;border-radius:8px;font-size:13px}
+@media (max-width: 768px){.top-header{max-width:calc(100vw - 12px);left:6px;top:6px;padding:8px}.top-header h1{font-size:15px}.top-header h2{font-size:12px}.hint{bottom:46px;font-size:12px}}

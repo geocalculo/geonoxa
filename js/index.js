@@ -45,31 +45,12 @@ function updateSummary(){
   let zonas = 0;
   for(let i = 0; i < noxaState.zonasSaturadasFeatures.length; i += 1){
     const item = noxaState.zonasSaturadasFeatures[i];
-    if(!bounds.intersects(item.bounds)) continue;
-    zonas += 1;
+    if(bounds.intersects(item.bounds)) zonas += 1;
   }
-
-  let prc = 0;
-  const prcFeatures = noxaState.centroidesData?.features || [];
-  for(let i = 0; i < prcFeatures.length; i += 1){
-    const feature = prcFeatures[i];
-    const coords = feature?.geometry?.coordinates;
-    if(!coords || coords.length < 2) continue;
-    const [lng, lat] = coords;
-    if(!bounds.contains([lat, lng])) continue;
-    prc += 1;
-  }
-
   const relaves = countGeoJsonLayer(noxaState.layers.relaves);
-  const rios = countGeoJsonLayer(noxaState.layers.hidricas, isWaterLine);
-  const lagos = (noxaState.lagosCentroides || []).filter(item => bounds.contains([item.lat, item.lng])).length;
-  const total = zonas + relaves + rios + lagos + prc;
   document.getElementById("sum-zonas").textContent = `#${fmt(zonas)}`;
   document.getElementById("sum-relaves").textContent = `#${fmt(relaves)}`;
-  document.getElementById("sum-rios").textContent = fmt(rios);
-  document.getElementById("sum-lagos").textContent = `#${fmt(lagos)}`;
-  document.getElementById("sum-prc").textContent = `#${fmt(prc)}`;
-  document.getElementById("noxa-visible-total").textContent = fmt(total);
+  document.getElementById("noxa-visible-total").textContent = fmt(zonas + relaves);
 }
 
 // Resumen dinámico de centroides PRC visibles en el viewport actual.
@@ -116,7 +97,8 @@ function updateIndexSummary(){
   const avg = count ? areaTotal / count : 0;
   const top3Text = top3.slice(0, 3).map(item => `${item.name} (${fmt2(item.area)} ha)`).join(" · ") || "-";
 
-  document.getElementById("sum-count").textContent = fmt(count);
+  const sumCountEl = document.getElementById("sum-count"); if(!sumCountEl) return;
+  sumCountEl.textContent = fmt(count);
   document.getElementById("sum-area").textContent = fmt2(areaTotal);
   document.getElementById("sum-avg").textContent = fmt2(avg);
   document.getElementById("sum-nearest").textContent = count ? nearestName : "-";
@@ -134,6 +116,7 @@ function relaveAreaHa(props){
 }
 
 function updateRelavesSummary(){
+  if(!document.getElementById("sum-relaves-area")) return;
   if(!noxaState.relavesData?.features?.length) return;
   const bounds = map.getBounds();
   const center = map.getCenter();
@@ -250,7 +233,22 @@ async function loadAllLayers(){
   updateRelavesSummary();
 }
 
-function buildMapQueryUrl(latlng){ const b = map.getBounds(); const bbox = [b.getNorth(), b.getEast(), b.getSouth(), b.getWest()].map(v => v.toFixed(6)).join(","); const params = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), bbox }); return `mapago.html?${params.toString()}`; }
+function getSelectedRelavesN() {
+  const value = Number(localStorage.getItem("geonoxa_relaves_n") || 5);
+  return [1, 5, 10].includes(value) ? value : 5;
+}
+function buildCardUrl(latlng) {
+  const params = new URLSearchParams({
+    lat: latlng.lat.toFixed(7),
+    lon: latlng.lng.toFixed(7),
+    zoom: String(map.getZoom()),
+    n_relaves: String(getSelectedRelavesN())
+  });
+  return `mapago.html?${params.toString()}`;
+}
+function openCardFromPoi(latlng) {
+  window.location.href = buildCardUrl(latlng);
+}
 function isDesktopPointer(){ return window.matchMedia("(hover: hover) and (pointer: fine)").matches; }
 function bindLayerInteractions(layer, tooltipHtml){
   if(isDesktopPointer() && tooltipHtml){
@@ -258,11 +256,10 @@ function bindLayerInteractions(layer, tooltipHtml){
   }
   layer.on("click", function(e){
     if(e.originalEvent){ L.DomEvent.stopPropagation(e.originalEvent); }
-    const url = buildMapQueryUrl(e.latlng);
-    window.location.href = url;
+    openCardFromPoi(e.latlng);
   });
 }
-map.on("click", function(e) { const url = buildMapQueryUrl(e.latlng); window.location.href = url; });
+map.on("click", function(e) { openCardFromPoi(e.latlng); });
 map.on("moveend zoomend", () => { updateSummary(); updateIndexSummary(); updateRelavesSummary(); });
 
 (function setupLocate(){ const btn = document.getElementById("mira-rifle"); if(!btn) return; btn.addEventListener("click", () => { if(!navigator.geolocation){ showWarning("Geolocalización no disponible en este navegador."); return; } navigator.geolocation.getCurrentPosition(pos => { const latlng = [pos.coords.latitude, pos.coords.longitude]; map.setView(latlng, 13); L.circleMarker(latlng, { radius: 8, color: "#22c55e", fillColor: "#22c55e", fillOpacity: .8 }).addTo(map).bindPopup("Mi ubicación aproximada").openPopup(); }, () => showWarning("No fue posible obtener tu ubicación."), { enableHighAccuracy: true, timeout: 8000 }); }); })();
@@ -276,6 +273,45 @@ map.on("moveend zoomend", () => { updateSummary(); updateIndexSummary(); updateR
   const key = "geonoxa_welcome_hidden";
   if(localStorage.getItem(key) !== "1") modal.hidden = false;
   startBtn.addEventListener("click", () => { if(dontShow?.checked) localStorage.setItem(key, "1"); modal.hidden = true; });
+})();
+
+
+const RELAVES_OPTIONS = [1,5,10];
+const ECOSYSTEM_LINKS = {
+  geoipt: "https://geoipt.cl/",
+  geoeva: "https://geoeva.cl/",
+  geonemo: "https://geonemo.cl/",
+  geonoxa: "index.html"
+};
+(function setupRelavesSlider(){
+  const slider = document.getElementById("relaves-n-slider");
+  const current = document.getElementById("relaves-n-current");
+  if(!slider || !current) return;
+  const saved = getSelectedRelavesN();
+  slider.value = String(RELAVES_OPTIONS.indexOf(saved));
+  current.textContent = String(saved);
+  slider.addEventListener("input", () => {
+    const n = RELAVES_OPTIONS[Number(slider.value)] || 5;
+    localStorage.setItem("geonoxa_relaves_n", String(n));
+    current.textContent = String(n);
+  });
+})();
+(function setupGeoSwitch(){
+  const links = document.querySelectorAll("#geo-switch a[data-site]");
+  links.forEach(link => {
+    link.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      const site = link.dataset.site;
+      const base = ECOSYSTEM_LINKS[site];
+      if(!base) return;
+      const c = map.getCenter();
+      const url = new URL(base, window.location.href);
+      url.searchParams.set("lat", c.lat.toFixed(7));
+      url.searchParams.set("lon", c.lng.toFixed(7));
+      url.searchParams.set("zoom", String(map.getZoom()));
+      window.location.href = url.toString();
+    });
+  });
 })();
 
 loadAllLayers();
