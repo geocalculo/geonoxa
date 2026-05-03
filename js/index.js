@@ -8,6 +8,7 @@ const GEO_NOXA_DATA = {
 
 const ECOSYSTEM_LINKS = { geoipt: "https://geoipt.cl/", geoeva: "https://geoeva.cl/", geonemo: "https://geonemo.cl/", geonoxa: "index.html" };
 const noxaState = { layers: {}, zonasSaturadasFeatures: [] };
+const RELAVES_OPTIONS = [1, 5, 10];
 
 const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([-27.3668, -70.3323], 8);
 const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap" }).addTo(map);
@@ -16,7 +17,11 @@ L.control.layers({ OSM: osm, "Satélite": esri }, {}, { collapsed: true }).addTo
 L.control.scale({ imperial: false }).addTo(map);
 
 function showWarning(message){ const el = document.getElementById("geonoxa-warning"); if(!el) return; el.textContent = message; el.style.display = "block"; setTimeout(() => { el.style.display = "none"; }, 4000); }
-function getSelectedRelavesN(){ const value = Number(localStorage.getItem("geonoxa_relaves_n") || 5); return Number.isFinite(value) && value >= 1 && value <= 10 ? value : 5; }
+function getSelectedRelavesN(){
+  const value = Number(localStorage.getItem("geonoxa_relaves_n") || 5);
+  return RELAVES_OPTIONS.includes(value) ? value : 5;
+}
+function relavesNFromSlider(sliderValue){ return RELAVES_OPTIONS[Number(sliderValue)] || 5; }
 function isDesktopPointer(){ return window.matchMedia("(hover: hover) and (pointer: fine)").matches; }
 function computePotentialConflicts(){ return 0; }
 function buildCardUrl(latlng){ const p = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), n_relaves: String(getSelectedRelavesN()) }); return `mapago.html?${p.toString()}`; }
@@ -27,7 +32,7 @@ function bindLayerInteractions(layer, tooltipText){
   layer.on("click", (e) => { L.DomEvent.stopPropagation(e); openCardFromPoi(e.latlng); });
 }
 
-function countLayerVisible(layer){ if(!layer) return 0; const bounds = map.getBounds(); let count = 0; layer.eachLayer((lyr)=>{ if(lyr.getLatLng && bounds.contains(lyr.getLatLng())) count += 1; else if(lyr.getBounds && bounds.intersects(lyr.getBounds())) count += 1; }); return count; }
+function countLayerVisible(layer){ if(!layer || !map.hasLayer(layer)) return 0; const bounds = map.getBounds(); let count = 0; layer.eachLayer((lyr)=>{ if(lyr.getLatLng && bounds.contains(lyr.getLatLng())) count += 1; else if(lyr.getBounds && bounds.intersects(lyr.getBounds())) count += 1; }); return count; }
 function updateSummary(){
   const zonas = countLayerVisible(noxaState.layers.zonas);
   const relaves = countLayerVisible(noxaState.layers.relaves);
@@ -54,19 +59,18 @@ async function loadAllLayers(){
 map.on("click", (e) => { openCardFromPoi(e.latlng); });
 map.on("moveend zoomend", updateSummary);
 
-document.getElementById("toggle-zonas").addEventListener("change", (e)=> e.target.checked ? noxaState.layers.zonas?.addTo(map) : map.removeLayer(noxaState.layers.zonas));
-document.getElementById("toggle-relaves").addEventListener("change", (e)=> e.target.checked ? noxaState.layers.relaves?.addTo(map) : map.removeLayer(noxaState.layers.relaves));
-document.getElementById("toggle-hidricas").addEventListener("change", (e)=> e.target.checked ? noxaState.layers.hidricas?.addTo(map) : map.removeLayer(noxaState.layers.hidricas));
-document.getElementById("toggle-prc").addEventListener("change", (e)=> e.target.checked ? noxaState.layers.prc?.addTo(map) : map.removeLayer(noxaState.layers.prc));
+document.getElementById("toggle-zonas").addEventListener("change", (e)=> { e.target.checked ? noxaState.layers.zonas?.addTo(map) : map.removeLayer(noxaState.layers.zonas); updateSummary(); });
+document.getElementById("toggle-relaves").addEventListener("change", (e)=> { e.target.checked ? noxaState.layers.relaves?.addTo(map) : map.removeLayer(noxaState.layers.relaves); updateSummary(); });
 
 (function setupRelavesSlider(){
   const slider = document.getElementById("relaves-range");
   const relavesHint = document.getElementById("relaves-hint");
   const saved = getSelectedRelavesN();
-  slider.value = String(saved);
+  const initialIndex = RELAVES_OPTIONS.indexOf(saved);
+  slider.value = String(initialIndex >= 0 ? initialIndex : 1);
   relavesHint.innerText = "Analizarás los " + saved + " relaves más cercanos al hacer clic en el mapa";
   slider.addEventListener("input", () => {
-    const n = Number(slider.value) || 5;
+    const n = relavesNFromSlider(slider.value);
     localStorage.setItem("geonoxa_relaves_n", String(n));
     relavesHint.innerText = "Analizarás los " + n + " relaves más cercanos al hacer clic en el mapa";
   });
@@ -95,26 +99,31 @@ document.getElementById("toggle-prc").addEventListener("change", (e)=> e.target.
   });
 })();
 
-
 (function setupRegionSelect(){
   const regionSelect = document.getElementById("region-select");
   if(!regionSelect) return;
 
-  fetch('/capas/regiones/regiones.json')
+  fetch("capas/regiones/regiones.json")
     .then((res) => res.json())
     .then((regiones) => {
-      regiones.forEach((regionItem) => {
+      if(!Array.isArray(regiones) || !regiones.length) return;
+      regiones.forEach((regionItem, idx) => {
         const option = document.createElement("option");
-        option.value = String(regionItem.id);
+        option.value = String(regionItem.id ?? idx);
         option.textContent = regionItem.nombre;
         regionSelect.appendChild(option);
       });
+      regionSelect.selectedIndex = 0;
+      const first = regiones[0];
+      if(Array.isArray(first?.centro) && first.centro.length === 2){
+        map.setView(first.centro, Number(first.zoom) || map.getZoom());
+      }
 
       regionSelect.addEventListener("change", (e) => {
         const value = e.target.value;
-        const region = regiones.find(r => String(r.id) === String(value));
-        if (region) {
-          map.setView(region.centro, region.zoom);
+        const region = regiones.find((r, idx) => String(r.id ?? idx) === String(value));
+        if (region && Array.isArray(region.centro) && region.centro.length === 2) {
+          map.setView(region.centro, Number(region.zoom) || map.getZoom());
         }
       });
     })

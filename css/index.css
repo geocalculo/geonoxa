@@ -4,46 +4,34 @@
   --ink:#0f172a;
   --muted:#64748b;
   --bg:#f8fafc;
-  --header-h:200px;
+  --header-h:220px;
   --footer-h:56px;
 }
 *{box-sizing:border-box}
 html,body,.app-shell{height:100%;margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg)}
-.top-header{display:grid;grid-template-columns:1fr 1.3fr;gap:16px;padding:14px 18px;background:#fff;border-bottom:1px solid #e2e8f0;min-height:var(--header-h)}
+.top-header{display:grid;grid-template-columns:1fr 1.2fr;gap:14px;padding:14px 18px;background:#fff;border-bottom:1px solid #e2e8f0;min-height:var(--header-h);align-items:start}
 .header-left h1{margin:0;font-size:2rem}.header-left h1 span{color:var(--noxa-orange)}
 .header-left p{margin:8px 0 4px;color:var(--ink);font-weight:600}.header-left small{color:var(--muted)}
 .summary h2{margin:0 0 8px;font-size:.9rem;color:var(--muted)}
 .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .kpi{background:#fff7ed;border:1px solid #fdba74;border-radius:12px;padding:8px}.kpi span{font-size:.75rem;color:var(--muted);display:block}.kpi strong{font-size:1.3rem}
-.top-controls {
-  width: 100%;
-  padding: 10px 16px;
-  display: flex;
-  justify-content: center;
-  background: rgba(15, 23, 42, 0.9);
-}
-.top-controls select{min-width:280px;max-width:420px;width:100%;}
+.region-card{grid-column:2;display:flex;flex-direction:column;gap:8px;background:#0f172a;border:1px solid rgba(249,115,22,.4);border-radius:12px;padding:10px 12px;max-width:380px}
+.region-card label{font-size:.8rem;color:#e2e8f0;font-weight:700}
+.region-card select{width:100%;padding:8px;border-radius:8px;border:1px solid #fdba74;background:#fff;color:#0f172a}
 
 .map-wrap{position:relative;height:calc(100vh - var(--header-h) - var(--footer-h));}
 #map{width:100%;height:100%;position:relative}
 
-#relaves-slider-floating {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  width: 300px;
-  background: rgba(15, 23, 42, 0.88);
-  border: 1px solid rgba(249, 115, 22, 0.35);
-  border-radius: 14px;
-  padding: 12px;
-  z-index: 900;
-  color:#fff;
-}
-#relaves-slider-floating label{display:block;font-weight:700;margin-bottom:6px}
-#relaves-slider-floating input{width:100%}
-#relaves-hint{margin-top:8px;font-size:.9rem;color:#e2e8f0}
-.floating-panel{position:absolute;top:150px;left:20px;z-index:900;background:rgba(255,255,255,.95);padding:12px;border-radius:12px;min-width:250px;max-width:290px;box-shadow:0 8px 20px rgba(0,0,0,.2)}
-.floating-panel h3{margin:0 0 10px}.floating-panel label{display:block;font-size:.9rem;margin-bottom:8px}.floating-panel input,.floating-panel select{width:100%}
+.floating-panel{position:absolute;top:16px;left:16px;z-index:900;background:rgba(255,255,255,.96);padding:12px;border-radius:12px;min-width:270px;max-width:320px;box-shadow:0 8px 20px rgba(0,0,0,.2);border:1px solid #e2e8f0}
+.floating-panel h3{margin:0 0 10px}
+.floating-panel label{display:block;font-size:.9rem;margin-bottom:8px}
+.floating-panel input{width:100%}
+.floating-panel fieldset{margin:8px 0;padding:8px;border:1px solid #e2e8f0;border-radius:10px}
+.floating-panel legend{font-size:.8rem;color:var(--muted)}
+.relaves-control{margin-top:8px}
+.range-labels{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted)}
+#relaves-hint{margin-top:8px;font-size:.88rem;color:#334155}
+
 .map-overlay-controls{position:absolute;top:20px;right:16px;z-index:900}
 #crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:700;color:var(--noxa-orange);font-size:30px;font-weight:700;pointer-events:none}
 .hint{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);z-index:900;background:rgba(15,23,42,.78);color:#fff;padding:8px 12px;border-radius:10px}
@@ -51,10 +39,10 @@ html,body,.app-shell{height:100%;margin:0;font-family:Inter,system-ui,sans-serif
 .geo-switch a{color:#cbd5e1;text-decoration:none}.geo-switch .active{color:var(--noxa-orange);font-weight:700}
 .geonoxa-warning{position:absolute;top:12px;left:50%;transform:translateX(-50%);background:#7f1d1d;color:#fff;padding:6px 10px;border-radius:8px;display:none;z-index:1000}
 @media (max-width:900px){
-  :root{--header-h:260px}
+  :root{--header-h:300px}
   .top-header{grid-template-columns:1fr}
-  .floating-panel{top:130px;left:10px;max-width:240px}
-  #relaves-slider-floating{width:calc(100vw - 32px);}
+  .region-card{grid-column:1;max-width:none}
+  .floating-panel{top:auto;bottom:72px;left:10px;right:10px;max-width:none;min-width:0}
   .map-wrap{height:calc(100vh - var(--header-h) - var(--footer-h));}
   .geo-switch{font-size:.85rem;gap:8px;padding:0 8px}
 }
