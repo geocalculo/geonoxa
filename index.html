@@ -9,36 +9,42 @@
 </head>
 <body>
   <main class="app-shell">
-    <header class="top-header">
-      <div class="header-left">
-        <h1><span>GeoNOXA</span></h1>
-        <p>Riesgo Territorial y Conflictos Socioambientales</p>
-        <small>Zonas saturadas y depósitos de relaves</small>
-      </div>
-      <section class="summary" aria-live="polite">
-        <h2>SUMMARY</h2>
-        <div class="summary-grid">
-          <div class="kpi"><span>Zonas saturadas</span><strong id="sum-zonas">0</strong></div>
-          <div class="kpi"><span>Relaves visibles</span><strong id="sum-relaves">0</strong></div>
-          <div class="summary-card region-selector-card">
-            <label for="region-select">Explorar región</label>
-            <select id="region-select"></select>
+    <header class="main-header">
+      <div class="header-inner">
+        <div class="header-left">
+          <h1><span>GeoNOXA</span></h1>
+          <p>Riesgo Territorial y Conflictos Socioambientales</p>
+          <small>Zonas saturadas y depósitos de relaves</small>
+        </div>
+
+        <div class="header-center">
+          <div class="header-search-wrap">
+            <input type="text" id="map-search" placeholder="Buscar relave, zona saturada o lugar..." />
+            <div id="map-search-results" class="map-search-results"></div>
           </div>
         </div>
-      </section>
+
+        <section class="summary header-right" aria-live="polite">
+          <h2>SUMMARY</h2>
+          <div class="summary-grid">
+            <div class="kpi"><span>Zonas saturadas</span><strong id="sum-zonas">0</strong></div>
+            <div class="kpi"><span>Relaves visibles</span><strong id="sum-relaves">0</strong></div>
+            <div class="summary-card region-selector-card">
+              <label for="region-select">Explorar región</label>
+              <select id="region-select"></select>
+            </div>
+          </div>
+        </section>
+      </div>
     </header>
 
     <section class="map-wrap">
       <div id="map"></div>
-      <div class="map-search-box">
-        <input type="text" id="map-search" placeholder="Buscar relave, zona saturada o lugar..." />
-        <div id="map-search-results" class="map-search-results"></div>
-      </div>
-      <aside class="floating-panel">
+      <aside class="panel-territorial">
         <h3>Panel territorial</h3>
         <div class="panel-search">
           <label for="map-search">Buscar</label>
-          <p>Usa el buscador central para encontrar relaves, zonas y lugares.</p>
+          <p>Usa el buscador del header para encontrar relaves, zonas y lugares.</p>
         </div>
         <fieldset>
           <legend>Capas núcleo (siempre visibles)</legend>
@@ -52,7 +58,7 @@
         </fieldset>
         <div class="relaves-control">
           <label for="relaves-range">Relaves a considerar</label>
-          <input type="range" id="relaves-range" min="0" max="2" step="1" list="relaves-steps" />
+          <input type="range" id="relaves-range" min="0" max="2" step="1" value="1" list="relaves-steps" />
           <datalist id="relaves-steps">
             <option value="0" label="1"></option>
             <option value="1" label="5"></option>
