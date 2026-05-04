@@ -17,12 +17,6 @@
           <small>Zonas saturadas y depósitos de relaves</small>
         </div>
 
-        <div class="header-center">
-          <div class="header-search-wrap">
-            <input type="text" id="map-search" placeholder="Buscar relave, zona saturada o lugar..." />
-            <div id="map-search-results" class="map-search-results"></div>
-          </div>
-        </div>
 
         <section class="summary header-right" aria-live="polite">
           <h2>SUMMARY</h2>
@@ -40,11 +34,15 @@
 
     <section class="map-wrap">
       <div id="map"></div>
+      <div class="map-search-box">
+        <input type="text" id="map-search" placeholder="Buscar relave, zona saturada o lugar..." autocomplete="off" />
+        <div id="map-search-results" class="map-search-results"></div>
+      </div>
       <aside class="panel-territorial">
         <h3>Panel territorial</h3>
         <div class="panel-search">
           <label for="map-search">Buscar</label>
-          <p>Usa el buscador del header para encontrar relaves, zonas y lugares.</p>
+          <p>Usa el buscador del mapa para encontrar relaves, zonas y lugares.</p>
         </div>
         <fieldset>
           <legend>Etiquetas</legend>
