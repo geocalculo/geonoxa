@@ -16,7 +16,7 @@
         <small>Zonas saturadas y depósitos de relaves</small>
       </div>
       <section class="summary" aria-live="polite">
-        <h2>SUMMARY (viewport actual)</h2>
+        <h2>SUMMARY</h2>
         <div class="summary-grid">
           <div class="kpi"><span>Zonas saturadas</span><strong id="sum-zonas">0</strong></div>
           <div class="kpi"><span>Relaves visibles</span><strong id="sum-relaves">0</strong></div>
@@ -36,10 +36,19 @@
       </div>
       <aside class="floating-panel">
         <h3>Panel territorial</h3>
+        <div class="panel-search">
+          <label for="map-search">Buscar</label>
+          <p>Usa el buscador central para encontrar relaves, zonas y lugares.</p>
+        </div>
         <fieldset>
-          <legend>Capas núcleo</legend>
-          <label><input id="toggle-zonas" type="checkbox" checked /> Zonas saturadas</label>
-          <label><input id="toggle-relaves" type="checkbox" checked /> Relaves</label>
+          <legend>Capas núcleo (siempre visibles)</legend>
+          <label><input id="toggle-zonas" type="checkbox" checked disabled /> Zonas saturadas</label>
+          <label><input id="toggle-relaves" type="checkbox" checked disabled /> Relaves</label>
+        </fieldset>
+        <fieldset>
+          <legend>Etiquetas</legend>
+          <label><input type="checkbox" checked /> Mostrar nombres de zonas saturadas</label>
+          <label><input type="checkbox" checked /> Mostrar nombres de relaves</label>
         </fieldset>
         <div class="relaves-control">
           <label for="relaves-range">Relaves a considerar</label>
