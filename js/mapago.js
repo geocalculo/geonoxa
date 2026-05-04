@@ -18,11 +18,15 @@ function getPoiFromUrl() {
   const zoomRaw = Number.parseInt(params.get('zoom'), 10);
   const bboxText = params.get('bbox') || '';
   const bbox = bboxText.split(',').map(Number).filter(Number.isFinite);
+  const nRelavesRaw = Number(params.get('n_relaves')) || 5;
+  const nRelaves = Math.max(1, Math.min(10, Math.round(nRelavesRaw)));
+
   return {
     lat: Number.isFinite(lat) ? lat : -33.4489,
     lon: Number.isFinite(lon) ? lon : -70.6693,
     zoom: Number.isFinite(zoomRaw) ? zoomRaw : 10,
-    bbox: bbox.length === 4 ? bbox : null
+    bbox: bbox.length === 4 ? bbox : null,
+    nRelaves
   };
 }
 function haversineKm(lat1, lon1, lat2, lon2) {
@@ -155,6 +159,14 @@ function findNearestFeature(point, features) {
   }
   return best;
 }
+
+function findNearestFeatures(point, features, count) {
+  return (features || [])
+    .map((feature) => ({ feature, distKm: distancePointToFeatureKm(point, feature) }))
+    .filter((item) => Number.isFinite(item.distKm))
+    .sort((a, b) => a.distKm - b.distKm)
+    .slice(0, count);
+}
 function findContainingOrNearestPolygon(point, features) {
   let nearest = null;
   for (const feature of features || []) {
@@ -211,7 +223,8 @@ async function buildAnalysisData(poi) {
   ]);
   const point = { lat: poi.lat, lon: poi.lon };
   const zonaMatch = findContainingOrNearestPolygon(point, zonas);
-  const relaveMatch = findNearestFeature(point, relaves);
+  const relaveGroup = findNearestFeatures(point, relaves, poi.nRelaves || 5);
+  const relaveMatch = relaveGroup[0] || null;
   const urbanaMatch = findNearestFeature(point, urbanas);
 
   const zf = zonaMatch?.feature; const rf = relaveMatch?.feature; const uf = urbanaMatch?.feature;
@@ -227,6 +240,11 @@ async function buildAnalysisData(poi) {
   const zonaDist = zonaMatch?.distKm ?? Infinity;
   const relDist = relaveMatch?.distKm ?? Infinity;
   const urbDist = urbanaMatch?.distKm ?? Infinity;
+
+  const relaveAreas = relaveGroup.map(({ feature }) => getRelaveAreaHa(feature)).filter((v) => Number.isFinite(v) && v > 0);
+  const relaveDistances = relaveGroup.map(({ distKm }) => distKm).filter((v) => Number.isFinite(v));
+  const diametersKm = relaveAreas.map((ha) => computeEquivalentDiameter(ha)).filter((v) => Number.isFinite(v));
+  const totalSuperficieHa = relaveAreas.reduce((acc, v) => acc + v, 0);
 
   const riesgo = (zonaMatch?.inOut === 'IN' || relDist < 2 || (urbDist < 3 && relDist < 5)) ? 'Alto' :
     (zonaDist < 5 || relDist < 10 || urbDist < 10) ? 'Medio' : 'Bajo';
@@ -245,6 +263,30 @@ async function buildAnalysisData(poi) {
       poiInOut: zonaMatch?.inOut || 'Sin datos disponibles', distPerimetroKm: Number.isFinite(zonaDist) ? zonaDist : null,
       distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), superficieHa: zArea,
       perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, feature: zf || null, polygon: getLeafletPolygonCoords(zf)
+    },
+    relavesGrupo: {
+      cantidadAnalizada: relaveGroup.length,
+      distanciaMinKm: relaveDistances.length ? Math.min(...relaveDistances) : null,
+      distanciaPromKm: relaveDistances.length ? relaveDistances.reduce((a, b) => a + b, 0) / relaveDistances.length : null,
+      distanciaMaxKm: relaveDistances.length ? Math.max(...relaveDistances) : null,
+      superficieTotalHa: relaveAreas.length ? totalSuperficieHa : null,
+      superficiePromedioHa: relaveAreas.length ? totalSuperficieHa / relaveAreas.length : null,
+      diametroEquivalentePromedioKm: diametersKm.length ? diametersKm.reduce((a, b) => a + b, 0) / diametersKm.length : null,
+      items: relaveGroup.map(({ feature, distKm }, index) => {
+        const props = feature?.properties || {};
+        const superficieHa = getRelaveAreaHa(feature);
+        const centroide = getFeatureCentroid(feature);
+        return {
+          rank: index + 1,
+          distPoiKm: Number.isFinite(distKm) ? distKm : null,
+          superficieHa,
+          centroide,
+          nombre: prop(props, ['id_relave', 'faena']),
+          faena: prop(props, ['faena']),
+          recurso: prop(props, ['recurso']),
+          comuna: prop(props, ['comuna'])
+        };
+      })
     },
     relave: {
       nombre: prop(rf?.properties, ['id_relave', 'faena']), empresaFaena: prop(rf?.properties, ['empresa']), tipoDeposito: prop(rf?.properties, ['tipo_deposito']), recurso: prop(rf?.properties, ['recurso']), metodo: prop(rf?.properties, ['metodo_constructivo']),
@@ -329,14 +371,27 @@ function renderTopLayout() {
 function renderSummaryCards() {
   const z = analysisData.zonaSaturada;
   const r = analysisData.relave;
+  const rg = analysisData.relavesGrupo;
   document.getElementById('summary-cards').innerHTML = `
     <article class="summary-card zona">
       <h3>Zona Saturada</h3>
       <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li></ul>
     </article>
     <article class="summary-card relave">
-      <h3>Relave</h3>
-      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Tipo depósito:</strong> ${r.tipoDeposito}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(r.distPoiKm)}</span></li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
+      <h3>Relave más cercano</h3>
+      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Faena:</strong> ${analysisData.relavesGrupo.items[0]?.faena || 'Sin datos disponibles'}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Comuna:</strong> ${analysisData.relavesGrupo.items[0]?.comuna || 'Sin datos disponibles'}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(r.distPoiKm)}</span></li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
+    </article>
+    <article class="summary-card relave">
+      <h3>Grupo de relaves analizados</h3>
+      <ul>
+        <li><strong>N relaves considerados:</strong> ${rg.cantidadAnalizada}</li>
+        <li><strong>Distancia promedio al POI:</strong> <span class="distance">${formatKm(rg.distanciaPromKm)}</span></li>
+        <li><strong>Distancia mínima:</strong> <span class="distance">${formatKm(rg.distanciaMinKm)}</span></li>
+        <li><strong>Distancia máxima:</strong> <span class="distance">${formatKm(rg.distanciaMaxKm)}</span></li>
+        <li><strong>Superficie total:</strong> ${formatHa(rg.superficieTotalHa)}</li>
+        <li><strong>Superficie promedio:</strong> ${formatHa(rg.superficiePromedioHa)}</li>
+        <li><strong>Diámetro equivalente promedio:</strong> ${formatKm(rg.diametroEquivalentePromedioKm)}</li>
+      </ul>
     </article>`;
 }
 
@@ -374,20 +429,30 @@ function initMap() {
     .bindPopup('POI')
     .addTo(group);
 
-  let relaveCentroid = null;
-  if (Array.isArray(analysisData.relave.centroide)) {
-    relaveCentroid = analysisData.relave.centroide;
-    L.circleMarker(relaveCentroid, { radius: 7, color: '#b45309', weight: 2, fillColor: '#f59e0b', fillOpacity: 0.85 })
-      .bindPopup(`Relave: ${analysisData.relave.nombre}`)
-      .addTo(group);
-  }
+  const relaveItems = analysisData.relavesGrupo?.items || [];
+  relaveItems.forEach((relave, index) => {
+    if (!Array.isArray(relave.centroide)) return;
+    const isNearest = index === 0;
 
-  const relaveRadiusMeters = computeEquivalentRadiusMeters(Number(analysisData.relave.superficieHa));
-  if (relaveCentroid && Number.isFinite(relaveRadiusMeters) && relaveRadiusMeters > 0) {
-    L.circle(relaveCentroid, { radius: relaveRadiusMeters, color: '#f59e0b', weight: 2, fillOpacity: 0.06 })
-      .bindPopup('Círculo equivalente del relave')
+    L.circleMarker(relave.centroide, {
+      radius: isNearest ? 9 : 7,
+      color: isNearest ? '#92400e' : '#b45309',
+      weight: isNearest ? 3 : 2,
+      fillColor: isNearest ? '#f97316' : '#f59e0b',
+      fillOpacity: 0.9
+    })
+      .bindPopup(`Relave #${relave.rank}: ${relave.nombre}`)
       .addTo(group);
-  }
+
+    const relaveRadiusMeters = computeEquivalentRadiusMeters(Number(relave.superficieHa));
+    if (Number.isFinite(relaveRadiusMeters) && relaveRadiusMeters > 0) {
+      L.circle(relave.centroide, { radius: relaveRadiusMeters, color: isNearest ? '#ea580c' : '#f59e0b', weight: 2, fillOpacity: 0.04 })
+        .bindPopup(`Círculo equivalente relave #${relave.rank}`)
+        .addTo(group);
+    }
+
+    L.polyline([poiLatLng, relave.centroide], { color: isNearest ? '#ea580c' : '#f59e0b', weight: isNearest ? 2.8 : 2, opacity: 0.95, dashArray: '8 6' }).addTo(group);
+  });
 
 
   if (analysisData.zonaSaturada.polygon) {
@@ -398,7 +463,6 @@ function initMap() {
 
 
   const zCent = analysisData.zonaSaturada.centroide;
-  if (relaveCentroid) L.polyline([poiLatLng, relaveCentroid], { color: '#f59e0b', weight: 2.2, opacity: 0.95, dashArray: '8 6' }).addTo(group);
   if (Array.isArray(zCent)) L.polyline([poiLatLng, zCent], { color: '#8b5cf6', weight: 2.2, opacity: 0.95, dashArray: '8 6' }).addTo(group);
 
   const bounds = group.getBounds();
