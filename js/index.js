@@ -143,22 +143,51 @@ async function loadJson(url){ const res = await fetch(url, { cache: "no-store" }
 async function loadAllLayers(){
   try {
     const zonas = await loadJson(GEO_NOXA_DATA.zonas);
-    noxaState.layers.zonas = L.geoJSON(zonas, { style: { color: "#ef4444", fillColor: "#fca5a5", fillOpacity: 0.35, weight: 1.5 }, onEachFeature: (f, l) => bindLayerInteractions(l, f?.properties?.nombre || "Zona saturada") }).addTo(map);
+    noxaState.layers.zonas = L.geoJSON(zonas, { style: { color: "#ef4444", fillColor: "#fca5a5", fillOpacity: 0.35, weight: 1.5 }, onEachFeature: (f, l) => bindLayerInteractions(l, f?.properties?.nombre_zon || "Zona saturada") }).addTo(map);
   } catch { showWarning("No se pudo cargar zonas saturadas"); }
   try {
     const relaves = await loadJson(GEO_NOXA_DATA.relaves);
-    noxaState.layers.relaves = L.geoJSON(relaves, { pointToLayer: (_, latlng) => L.circleMarker(latlng, { radius: 6, color: "#f97316", fillColor: "#f97316", fillOpacity: .95, weight: 1 }), onEachFeature: (f, l) => bindLayerInteractions(l, f?.properties?.id || "Relave") }).addTo(map);
+    noxaState.layers.relaves = L.geoJSON(relaves, { pointToLayer: (_, latlng) => L.circleMarker(latlng, { radius: 6, color: "#f97316", fillColor: "#f97316", fillOpacity: .95, weight: 1 }), onEachFeature: (f, l) => bindLayerInteractions(l, f?.properties?.faena || "Relave") }).addTo(map);
   } catch { showWarning("No se pudo cargar relaves"); }
   try { const hidricas = await loadJson(GEO_NOXA_DATA.hidricas); noxaState.layers.hidricas = L.geoJSON(hidricas, { style: { color: "#0284c7", weight: 1.5 } }); } catch {}
   try { const prc = await loadJson(GEO_NOXA_DATA.prc); noxaState.layers.prc = L.geoJSON(prc, { pointToLayer: (_, latlng) => L.circleMarker(latlng, { radius: 4, color: "#64748b" }) }); } catch {}
   updateSummary();
 }
 
+
+function toggleLayerLabels(layer, enabled, propertyName, fallback){
+  if(!layer) return;
+  layer.eachLayer((lyr) => {
+    if(lyr.unbindTooltip) lyr.unbindTooltip();
+    if(!enabled) return;
+    const label = lyr?.feature?.properties?.[propertyName] || fallback;
+    if(lyr.bindTooltip) lyr.bindTooltip(String(label), { sticky: true });
+  });
+}
+
+function setupLabelToggles(){
+  const zonasToggle = document.getElementById("toggle-label-zonas");
+  const relavesToggle = document.getElementById("toggle-label-relaves");
+  if(!zonasToggle || !relavesToggle) return;
+
+  const apply = () => {
+    if(isDesktopPointer()){
+      toggleLayerLabels(noxaState.layers.zonas, zonasToggle.checked, "nombre_zon", "Zona saturada");
+      toggleLayerLabels(noxaState.layers.relaves, relavesToggle.checked, "faena", "Relave");
+    } else {
+      toggleLayerLabels(noxaState.layers.zonas, false, "nombre_zon", "Zona saturada");
+      toggleLayerLabels(noxaState.layers.relaves, false, "faena", "Relave");
+    }
+  };
+
+  zonasToggle.addEventListener("change", apply);
+  relavesToggle.addEventListener("change", apply);
+  apply();
+}
+
 map.on("click", (e) => { openCardFromPoi(e.latlng); });
 map.on("moveend zoomend", updateSummary);
 
-document.getElementById("toggle-zonas").addEventListener("change", (e)=> { e.target.checked ? noxaState.layers.zonas?.addTo(map) : map.removeLayer(noxaState.layers.zonas); updateSummary(); });
-document.getElementById("toggle-relaves").addEventListener("change", (e)=> { e.target.checked ? noxaState.layers.relaves?.addTo(map) : map.removeLayer(noxaState.layers.relaves); updateSummary(); });
 
 (function setupRelavesSlider(){
   const slider = document.getElementById("relaves-range");
@@ -227,4 +256,4 @@ document.getElementById("toggle-relaves").addEventListener("change", (e)=> { e.t
     .catch(() => showWarning("No se pudo cargar regiones"));
 })();
 
-loadAllLayers().then(setupSearch);
+loadAllLayers().then(() => { setupLabelToggles(); setupSearch(); });
