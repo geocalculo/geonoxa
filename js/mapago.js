@@ -302,7 +302,7 @@ async function buildAnalysisData(poi) {
       fuente: prop(zf?.properties, ['decreto']), link: prop(zf?.properties, ['link']), latentes: prop(zf?.properties, ['latentes']),
       featureId: prop(zf?.properties, ['objectid']),
       poiInOut: zonaMatch?.inOut || 'Sin datos disponibles', distPerimetroKm: Number.isFinite(zonaDist) ? zonaDist : null,
-      distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), superficieHa: zArea,
+      distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), diametroZonaKm: computeEquivalentDiameter(zArea), superficieHa: zArea,
       perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, feature: zf || null, polygon: getLeafletPolygonCoords(zf),
       visibleEnBbox: Boolean(nearestVisibleZona), nearestBorderPoint: nearestVisibleZona?.nearestBorderPoint || null
     },
@@ -419,7 +419,7 @@ function renderSummaryCards() {
   document.getElementById('summary-cards').innerHTML = `
     <article class="summary-card zona">
       <h3>Zona Saturada</h3>
-      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li></ul>
+      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li><li><strong>Distancia al centroide:</strong> <span class="distance">${formatKm(z.distCentroideKm)}</span></li><li><strong>Diámetro equivalente:</strong> <span class="distance">${formatKm(z.diametroZonaKm)}</span></li></ul>
     </article>
     <article class="summary-card relave">
       <h3>Relave más cercano</h3>
@@ -430,21 +430,22 @@ function renderSummaryCards() {
       <ul>
         <li><strong>N relaves considerados:</strong> ${rg.cantidadAnalizada}</li>
         <li><strong>Distancia promedio al POI:</strong> <span class="distance">${formatKm(rg.distanciaPromKm)}</span></li>
+        <li><strong>Diámetro equivalente promedio:</strong> <span class="distance">${formatKm(rg.diametroEquivalentePromedioKm)}</span></li>
         <li><strong>Distancia mínima:</strong> <span class="distance">${formatKm(rg.distanciaMinKm)}</span></li>
         <li><strong>Distancia máxima:</strong> <span class="distance">${formatKm(rg.distanciaMaxKm)}</span></li>
         <li><strong>Radio envolvente desde POI:</strong> <span class="distance">${formatKm(rg.radioEnvolventeKm)}</span></li>
         <li><strong>Superficie total:</strong> ${formatHa(rg.superficieTotalHa)}</li>
         <li><strong>Superficie promedio:</strong> ${formatHa(rg.superficiePromedioHa)}</li>
-        <li><strong>Diámetro equivalente promedio:</strong> ${formatKm(rg.diametroEquivalentePromedioKm)}</li>
       </ul>
     </article>`;
 }
 
 function renderInterpretation() {
   const riesgo = analysisData.riesgo.nivel.toLowerCase();
-  const zonaDist = analysisData.zonaSaturada.visibleEnBbox ? formatKm(analysisData.zonaSaturada.distPerimetroKm) : 'no visible en el encuadre';
-  const relaveDist = formatKm(analysisData.relave.distPoiKm);
-  const text = `El punto analizado presenta un riesgo ${riesgo}, influenciado principalmente por la cercanía de la zona saturada a ${zonaDist} y la presencia de un relave a ${relaveDist}.`;
+  const zonaCentroideDist = formatKm(analysisData.zonaSaturada.distCentroideKm);
+  const zonaDiametro = formatKm(analysisData.zonaSaturada.diametroZonaKm);
+  const relaveDistProm = formatKm(analysisData.relavesGrupo.distanciaPromKm);
+  const text = `El punto analizado presenta un riesgo ${riesgo}, influenciado por la cercanía a una zona saturada cuyo centroide se ubica a ${zonaCentroideDist} y con un diámetro equivalente de ${zonaDiametro}, junto a un grupo de relaves con distancia promedio de ${relaveDistProm}.`;
   document.getElementById('interpretation').innerHTML = `<h2 class="section-title">INTERPRETACIÓN AUTOMÁTICA GEONOXA</h2><p>${text}</p>`;
 }
 
