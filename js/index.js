@@ -8,7 +8,7 @@ const GEO_NOXA_DATA = {
 
 const ECOSYSTEM_LINKS = { geoipt: "https://geoipt.cl/", geoeva: "https://geoeva.cl/", geonemo: "https://geonemo.cl/", geonoxa: "index.html" };
 const noxaState = { layers: {}, zonasSaturadasFeatures: [] };
-const RELAVES_OPTIONS = [1, 5, 10];
+const RELAVES_OPTIONS = [5, 10, 15];
 
 const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([-27.3668, -70.3323], 8);
 const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap" }).addTo(map);
@@ -17,13 +17,19 @@ L.control.layers({ OSM: osm, "Satélite": esri }, {}, { collapsed: true }).addTo
 L.control.scale({ imperial: false }).addTo(map);
 
 function showWarning(message){ const el = document.getElementById("geonoxa-warning"); if(!el) return; el.textContent = message; el.style.display = "block"; setTimeout(() => { el.style.display = "none"; }, 4000); }
+function getRelavesCount(){
+  const relavesSlider = document.getElementById("relaves-slider");
+  const raw = Number(relavesSlider?.value ?? 5);
+  if (raw <= 5) return 5;
+  if (raw <= 10) return 10;
+  return 15;
+}
 function getSelectedRelavesN(){
   const value = Number(localStorage.getItem("geonoxa_relaves_n") || 5);
   return RELAVES_OPTIONS.includes(value) ? value : 5;
 }
-function relavesNFromSlider(sliderValue){ return RELAVES_OPTIONS[Number(sliderValue)] || 5; }
 function isDesktopPointer(){ return window.matchMedia("(hover: hover) and (pointer: fine)").matches; }
-function buildCardUrl(latlng){ const p = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), n_relaves: String(getSelectedRelavesN()) }); return `mapago.html?${p.toString()}`; }
+function buildCardUrl(latlng){ const nRelaves = getRelavesCount(); localStorage.setItem("geonoxa_relaves_n", String(nRelaves)); const p = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), n_relaves: String(nRelaves) }); return `mapago.html?${p.toString()}`; }
 function openCardFromPoi(latlng){ window.location.href = buildCardUrl(latlng); }
 
 function bindLayerInteractions(layer, tooltipText){
@@ -190,14 +196,14 @@ map.on("moveend zoomend", updateSummary);
 
 
 (function setupRelavesSlider(){
-  const slider = document.getElementById("relaves-range");
+  const slider = document.getElementById("relaves-slider");
   const relavesHint = document.getElementById("relaves-hint");
   const saved = getSelectedRelavesN();
-  const initialIndex = RELAVES_OPTIONS.indexOf(saved);
-  slider.value = String(initialIndex >= 0 ? initialIndex : 1);
+  slider.value = String(saved);
   relavesHint.innerText = "Analizarás los " + saved + " relaves más cercanos al hacer clic en el mapa";
   slider.addEventListener("input", () => {
-    const n = relavesNFromSlider(slider.value);
+    const n = getRelavesCount();
+    slider.value = String(n);
     localStorage.setItem("geonoxa_relaves_n", String(n));
     relavesHint.innerText = "Analizarás los " + n + " relaves más cercanos al hacer clic en el mapa";
   });

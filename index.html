@@ -50,14 +50,9 @@
           <label><input id="toggle-label-relaves" type="checkbox" checked /> Mostrar nombres de relaves</label>
         </fieldset>
         <div class="relaves-control">
-          <label for="relaves-range">Relaves a considerar</label>
-          <input type="range" id="relaves-range" min="0" max="2" step="1" value="1" list="relaves-steps" />
-          <datalist id="relaves-steps">
-            <option value="0" label="1"></option>
-            <option value="1" label="5"></option>
-            <option value="2" label="10"></option>
-          </datalist>
-          <div class="range-labels"><span>1</span><span>5</span><span>10</span></div>
+          <label for="relaves-slider">Relaves a considerar</label>
+          <input type="range" id="relaves-slider" min="5" max="15" step="5" value="5" />
+          <div class="range-labels"><span>5</span><span>10</span><span>15</span></div>
           <div id="relaves-hint"></div>
         </div>
       </aside>
