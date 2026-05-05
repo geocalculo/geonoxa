@@ -206,6 +206,11 @@ function featureIntersectsBbox(feature, bbox) {
   if (![fMinLon, fMinLat, fMaxLon, fMaxLat].every(Number.isFinite)) return false;
   return !(fMaxLon < minLon || fMinLon > maxLon || fMaxLat < minLat || fMinLat > maxLat);
 }
+function isPointInBbox(lat, lon, bbox) {
+  if (!Array.isArray(bbox) || bbox.length !== 4) return true;
+  const [minLon, minLat, maxLon, maxLat] = bbox;
+  return Number.isFinite(lat) && Number.isFinite(lon) && lon >= minLon && lon <= maxLon && lat >= minLat && lat <= maxLat;
+}
 function findNearestVisibleZonaBorder(point, zonas, bbox) {
   const p = [point.lon, point.lat];
   let best = null;
@@ -277,7 +282,24 @@ async function buildAnalysisData(poi) {
   const point = { lat: poi.lat, lon: poi.lon };
   const zonaMatch = findContainingOrNearestPolygon(point, zonas);
   const nearestVisibleZona = findNearestVisibleZonaBorder(point, zonas, poi.bbox);
-  const relaveGroup = findNearestFeatures(point, relaves, poi.nRelaves || 5);
+  const relavesEnVista = relaves.filter((f) => {
+    const lat = Number(f?.properties?.latitud ?? f?.geometry?.coordinates?.[1]);
+    const lon = Number(f?.properties?.longitud ?? f?.geometry?.coordinates?.[0]);
+    return isPointInBbox(lat, lon, poi.bbox);
+  });
+  const relavesConDist = relavesEnVista
+    .map((f) => {
+      const lat = Number(f?.properties?.latitud ?? f?.geometry?.coordinates?.[1]);
+      const lon = Number(f?.properties?.longitud ?? f?.geometry?.coordinates?.[0]);
+      const dist = haversineKm(point.lat, point.lon, lat, lon);
+      return {
+        feature: f,
+        distKm: Number.isFinite(dist) ? dist : Infinity
+      };
+    })
+    .filter((item) => Number.isFinite(item.distKm))
+    .sort((a, b) => a.distKm - b.distKm);
+  const relaveGroup = relavesConDist.slice(0, poi.nRelaves || 5);
   const relaveMatch = relaveGroup[0] || null;
   const urbanaMatch = findNearestFeature(point, urbanas);
 
@@ -337,6 +359,7 @@ async function buildAnalysisData(poi) {
       visibleEnBbox: Boolean(nearestVisibleZona), nearestBorderPoint: nearestVisibleZona?.nearestBorderPoint || null
     },
     relavesGrupo: {
+      totalEnVista: relavesEnVista.length,
       cantidadAnalizada: relaveGroup.length,
       distanciaMinKm: relaveDistances.length ? Math.min(...relaveDistances) : null,
       distanciaPromKm: distPromRelaves,
@@ -471,7 +494,7 @@ function renderSummaryCards() {
     <article class="summary-card relave">
       <h3>Grupo de relaves analizados</h3>
       <ul>
-        <li><strong>N relaves considerados:</strong> ${rg.cantidadAnalizada}</li>
+        <li><strong>N relaves considerados:</strong> ${rg.cantidadAnalizada} de ${rg.totalEnVista} en vista</li>
         <li><strong>Distancia promedio al POI:</strong> <span class="distance">${formatKm(rg.distanciaPromKm)}</span></li>
         <li><strong>Diámetro equivalente promedio:</strong> <span class="distance">${formatKm(rg.diametroEquivalentePromedioKm)}</span></li>
         <li><strong>Distancia mínima:</strong> <span class="distance">${formatKm(rg.distanciaMinKm)}</span></li>
@@ -481,6 +504,14 @@ function renderSummaryCards() {
         <li><strong>Superficie promedio:</strong> ${formatHa(rg.superficiePromedioHa)}</li>
       </ul>
     </article>`;
+
+  if (rg.totalEnVista === 0) {
+    document.getElementById('summary-cards').innerHTML += `
+      <article class="summary-card relave">
+        <h3>Relaves</h3>
+        <p>Sin relaves en la vista actual</p>
+      </article>`;
+  }
 }
 
 function renderInterpretation() {
