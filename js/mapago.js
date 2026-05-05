@@ -11,17 +11,29 @@ const formatKm = (v) => Number.isFinite(v) ? `${Number(v).toFixed(2)} km` : 'Sin
 const formatHa = (v) => Number.isFinite(v) ? `${Number(v).toLocaleString('es-CL', { maximumFractionDigits: 1 })} ha` : 'Sin datos disponibles';
 const getRiskClass = (level) => `risk-${String(level || 'bajo').toLowerCase().normalize('NFD').replace(/[^a-z]/g, '')}`;
 
-function clasificarRiesgoPorKPI(kpi) {
+function clasificarRiesgoKPI(kpi) {
   if (!Number.isFinite(kpi)) return 'SIN DATOS';
 
-  if (kpi < 5) return 'ALTO';
-  if (kpi <= 10) return 'MEDIO';
-  return 'BAJO';
+  if (kpi >= 10) return 'MUY BAJO';
+  if (kpi >= 5) return 'BAJO';
+  if (kpi >= 2) return 'MEDIO';
+  if (kpi >= 1) return 'ALTO';
+  return 'MUY ALTO';
 }
 
 function peorRiesgo(...niveles) {
-  const ranking = { ALTO: 3, MEDIO: 2, BAJO: 1, 'SIN DATOS': 0 };
-  return niveles.reduce((peor, actual) => (ranking[actual] > ranking[peor] ? actual : peor), 'SIN DATOS');
+  return niveles.reduce((peor, actual) => (riesgoRank(actual) > riesgoRank(peor) ? actual : peor), 'SIN DATOS');
+}
+
+function riesgoRank(r) {
+  switch (r) {
+    case 'MUY ALTO': return 5;
+    case 'ALTO': return 4;
+    case 'MEDIO': return 3;
+    case 'BAJO': return 2;
+    case 'MUY BAJO': return 1;
+    default: return 0;
+  }
 }
 
 function getPoiFromUrl() {
@@ -330,23 +342,17 @@ async function buildAnalysisData(poi) {
   const kpiRelaves = Number.isFinite(distPromRelaves) && Number.isFinite(diamPromRelaves) && diamPromRelaves > 0
     ? distPromRelaves / diamPromRelaves
     : NaN;
-  const riesgoRelaves = clasificarRiesgoPorKPI(kpiRelaves);
+  const riesgoRelaves = clasificarRiesgoKPI(kpiRelaves);
 
   const kpiZona = Number.isFinite(distCentroideZona) && Number.isFinite(diamZona) && diamZona > 0
     ? distCentroideZona / diamZona
     : NaN;
-  const riesgoZona = clasificarRiesgoPorKPI(kpiZona);
+  const riesgoZona = clasificarRiesgoKPI(kpiZona);
 
   const kpiCritico = [kpiRelaves, kpiZona].filter(Number.isFinite).reduce((min, v) => Math.min(min, v), Infinity);
   const factorDominante = kpiZona <= kpiRelaves ? 'zona saturada' : 'relaves';
 
   const riesgo = peorRiesgo(riesgoRelaves, riesgoZona);
-  const score = (d, max) => Number.isFinite(d) ? Math.max(0, 1 - (d / max)) : 0;
-  const synergy = Math.round((
-    score(relDist, 15) * 25 + score(zonaDist, 15) * 25 + score(urbDist, 20) * 20 +
-    Math.min((rArea || 0) / 500, 1) * 15 + Math.min((zArea || 0) / 20000, 1) * 15
-  ) * 100 / 100);
-
   return {
     poi: { ...poi, name: 'POI seleccionado', comuna: 'Sin datos disponibles', region: 'Sin datos disponibles' },
     zonaSaturada: {
@@ -393,16 +399,17 @@ async function buildAnalysisData(poi) {
       superficieHa: prop(uf?.properties, ['area_ha']), featureId: prop(uf?.id ? { id: uf.id } : uf?.properties, ['id', 'fid', 'objectid']), distPoiKm: Number.isFinite(urbDist) ? urbDist : null,
       distCentroideKm: (uCent ? haversineKm(poi.lat, poi.lon, uCent[0], uCent[1]) : null), centroide: uCent, prcFeature
     },
-    relaciones: { triangular: { indice: synergy, sinergia: synergy > 70 ? 'Alta' : synergy > 40 ? 'Media' : 'Baja' } },
     riesgo: { nivel: riesgo, relaves: riesgoRelaves, zona: riesgoZona, kpiRelaves, kpiZona, kpiCritico: Number.isFinite(kpiCritico) ? kpiCritico : NaN, factorDominante }
   };
 }
 
 function getMainKpiRiskClass() {
   const riesgo = analysisData.riesgo.nivel;
+  if (riesgo === 'MUY ALTO') return 'kpi-muy-alto';
   if (riesgo === 'ALTO') return 'kpi-alto';
   if (riesgo === 'MEDIO') return 'kpi-medio';
-  return 'kpi-bajo';
+  if (riesgo === 'BAJO') return 'kpi-bajo';
+  return 'kpi-muy-bajo';
 }
 
 function renderAll() {
@@ -428,32 +435,23 @@ function renderHeader() {
 }
 
 function renderTopLayout() {
-  const score = analysisData.relaciones.triangular.indice || 0;
   const riesgo = analysisData.riesgo.nivel.toLowerCase();
-  const zonaDist = analysisData.zonaSaturada.visibleEnBbox ? formatKm(analysisData.zonaSaturada.distPerimetroKm) : 'no visible en el encuadre';
-  const relaveDist = formatKm(analysisData.relave.distPoiKm);
-  const alertText = `POI con riesgo ${riesgo}, influenciado principalmente por zona saturada cercana y relave en el entorno.`;
+  const alertText = `POI con riesgo ${riesgo}, determinado por el KPI más crítico entre zona saturada y relaves.`;
 
   document.getElementById('top-layout').innerHTML = `<article class="card panel summary-panel">
-      <h2 class="section-title">RESUMEN DEL ANÁLISIS</h2>
-      <p class="kpi-label">Riesgo territorial</p>
+      <h2 class="section-title">RIESGO TERRITORIAL</h2>
       <p class="risk-value ${getRiskClass(analysisData.riesgo.nivel)}">${analysisData.riesgo.nivel.toUpperCase()}</p>
-      <div class="synergy-block">
-        <p class="kpi-label">Índice de sinergia</p>
-        <p class="score-value">${score} / 100</p>
-        <div class="progress-track"><div class="progress-fill" style="width:${Math.max(0, Math.min(score, 100))}%"></div></div>
-      </div>
       <div class="kpi-main-block">
-        <p class="kpi-label">KPI PRINCIPAL</p>
+        <p class="kpi-label">KPI CRÍTICO</p>
         <p class="kpi-main-row" title="KPI = distancia al fenómeno / diámetro equivalente.&#10;Valores bajos indican mayor exposición relativa.">
-          <span>KPI (dist/diam):</span>
+          <span>KPI crítico:</span>
           <span class="kpi-main ${getMainKpiRiskClass()}">${Number.isFinite(analysisData.riesgo.kpiCritico) ? analysisData.riesgo.kpiCritico.toFixed(2) : 'N/D'}</span>
         </p>
         <div class="kpi-formula">
-          <p><strong>Relaves:</strong><br>${formatKm(analysisData.relavesGrupo.distanciaPromKm)} / ${formatKm(analysisData.relavesGrupo.diametroEquivalentePromedioKm)} = ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}</p>
           <p><strong>Zona saturada:</strong><br>${formatKm(analysisData.zonaSaturada.distCentroideKm)} / ${formatKm(analysisData.zonaSaturada.diametroZonaKm)} = ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'}</p>
+          <p><strong>Relaves:</strong><br>${formatKm(analysisData.relavesGrupo.distanciaPromKm)} / ${formatKm(analysisData.relavesGrupo.diametroEquivalentePromedioKm)} = ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}</p>
         </div>
-        <p class="kpi-note">Menor valor indica mayor exposición territorial</p>
+        <p class="kpi-note">Menor valor indica mayor exposición territorial.</p>
       </div>
       <div class="factors-block">
         <p class="kpi-label">Factores principales</p>
@@ -462,7 +460,7 @@ function renderTopLayout() {
           <li><strong>KPI zona saturada:</strong> ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'} <span class="factor-subtle">(${formatKm(analysisData.zonaSaturada.distCentroideKm)} / ${formatKm(analysisData.zonaSaturada.diametroZonaKm)})</span></li>
         </ul>
       </div>
-      <div class="summary-alert">${alertText}<span class="sr-only">Zona saturada a ${zonaDist}, relave cercano a ${relaveDist}.</span></div>
+      <div class="summary-alert">${alertText}</div>
     </article>
     <article class="card panel map-panel">
       <h2 class="section-title">Mapa de relaciones espaciales</h2>
@@ -485,11 +483,11 @@ function renderSummaryCards() {
   document.getElementById('summary-cards').innerHTML = `
     <article class="summary-card zona">
       <h3>Zona Saturada</h3>
-      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li><li><strong>Distancia al centroide:</strong> <span class="distance">${formatKm(z.distCentroideKm)}</span></li><li><strong>Diámetro equivalente:</strong> <span class="distance">${formatKm(z.diametroZonaKm)}</span></li></ul>
+      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li><li><strong>Distancia al centroide:</strong> <span class="distance">${formatKm(z.distCentroideKm)}</span></li><li><strong>Diámetro equivalente:</strong> <span class="distance">${formatKm(z.diametroZonaKm)}</span></li><li><strong>KPI:</strong> ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'}</li><li><strong>Clasificación:</strong> ${analysisData.riesgo.zona}</li></ul>
     </article>
     <article class="summary-card relave">
       <h3>Relave más cercano</h3>
-      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Faena:</strong> ${analysisData.relavesGrupo.items[0]?.faena || 'Sin datos disponibles'}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Comuna:</strong> ${analysisData.relavesGrupo.items[0]?.comuna || 'Sin datos disponibles'}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(r.distPoiKm)}</span></li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li></ul>
+      <ul><li><strong>ID:</strong> ${r.nombre}</li><li><strong>Faena:</strong> ${analysisData.relavesGrupo.items[0]?.faena || 'Sin datos disponibles'}</li><li><strong>Recurso:</strong> ${r.recurso}</li><li><strong>Comuna:</strong> ${analysisData.relavesGrupo.items[0]?.comuna || 'Sin datos disponibles'}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(r.distPoiKm)}</span></li><li><strong>Superficie:</strong> ${formatHa(r.superficieHa)}</li><li><strong>KPI:</strong> ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}</li><li><strong>Clasificación:</strong> ${analysisData.riesgo.relaves}</li></ul>
     </article>
     <article class="summary-card relave">
       <h3>Grupo de relaves analizados</h3>
@@ -518,7 +516,7 @@ function renderInterpretation() {
   const riesgo = analysisData.riesgo.nivel.toLowerCase();
   const kpiZona = Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D';
   const kpiRelaves = Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D';
-  const text = `El punto analizado presenta un riesgo ${riesgo}. El riesgo se determina mediante el cociente distancia/diámetro. En este caso, la zona saturada presenta un KPI de ${kpiZona} y los relaves un KPI de ${kpiRelaves}, siendo la ${analysisData.riesgo.factorDominante} el factor dominante del riesgo.`;
+  const text = `El punto analizado presenta un riesgo ${riesgo}. El riesgo se determina mediante el cociente distancia/diámetro. Valores menores a 1 indican exposición muy alta, entre 1 y 2 alta, entre 2 y 5 media, entre 5 y 10 baja y mayores a 10 muy baja. En este caso, la zona saturada presenta un KPI de ${kpiZona} y los relaves un KPI de ${kpiRelaves}, siendo la ${analysisData.riesgo.factorDominante} el factor dominante del riesgo.`;
   document.getElementById('interpretation').innerHTML = `<h2 class="section-title">INTERPRETACIÓN AUTOMÁTICA GEONOXA</h2><p>${text}</p>`;
 }
 
