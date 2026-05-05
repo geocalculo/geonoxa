@@ -311,6 +311,7 @@ async function buildAnalysisData(poi) {
       distanciaMinKm: relaveDistances.length ? Math.min(...relaveDistances) : null,
       distanciaPromKm: relaveDistances.length ? relaveDistances.reduce((a, b) => a + b, 0) / relaveDistances.length : null,
       distanciaMaxKm: relaveDistances.length ? Math.max(...relaveDistances) : null,
+      radioEnvolventeKm: relaveDistances.length ? Math.max(...relaveDistances) : null,
       superficieTotalHa: relaveAreas.length ? totalSuperficieHa : null,
       superficiePromedioHa: relaveAreas.length ? totalSuperficieHa / relaveAreas.length : null,
       diametroEquivalentePromedioKm: diametersKm.length ? diametersKm.reduce((a, b) => a + b, 0) / diametersKm.length : null,
@@ -404,7 +405,7 @@ function renderTopLayout() {
         <aside class="legend-floating">
           <strong>Leyenda</strong>
           <ul>
-            <li>POI</li><li>Relaves</li><li>Zona saturada</li><li>Círculo grupo relaves</li><li>Distancia a zona saturada</li>
+            <li>POI</li><li>Relaves</li><li>Zona saturada</li><li>Círculo equivalente de relave</li><li>Círculo envolvente relaves</li><li>Distancia a zona saturada</li>
           </ul>
         </aside>
       </div>
@@ -431,6 +432,7 @@ function renderSummaryCards() {
         <li><strong>Distancia promedio al POI:</strong> <span class="distance">${formatKm(rg.distanciaPromKm)}</span></li>
         <li><strong>Distancia mínima:</strong> <span class="distance">${formatKm(rg.distanciaMinKm)}</span></li>
         <li><strong>Distancia máxima:</strong> <span class="distance">${formatKm(rg.distanciaMaxKm)}</span></li>
+        <li><strong>Radio envolvente desde POI:</strong> <span class="distance">${formatKm(rg.radioEnvolventeKm)}</span></li>
         <li><strong>Superficie total:</strong> ${formatHa(rg.superficieTotalHa)}</li>
         <li><strong>Superficie promedio:</strong> ${formatHa(rg.superficiePromedioHa)}</li>
         <li><strong>Diámetro equivalente promedio:</strong> ${formatKm(rg.diametroEquivalentePromedioKm)}</li>
@@ -496,6 +498,23 @@ function initMap() {
 
   });
 
+  let envelopeCircle = null;
+  const envelopeRadiusKm = analysisData.relavesGrupo?.radioEnvolventeKm;
+  const envelopeRadiusMeters = Number.isFinite(envelopeRadiusKm) ? envelopeRadiusKm * 1000 : null;
+  if (Number.isFinite(envelopeRadiusMeters) && envelopeRadiusMeters > 0) {
+    envelopeCircle = L.circle(poiLatLng, {
+      radius: envelopeRadiusMeters,
+      color: '#2563eb',
+      weight: 2,
+      fillColor: '#2563eb',
+      fillOpacity: 0.12,
+      opacity: 0.9,
+      dashArray: '8,6'
+    })
+      .bindPopup(`Círculo envolvente relaves seleccionados<br>Radio: ${formatKm(envelopeRadiusKm)}<br>N relaves: ${analysisData.relavesGrupo.cantidadAnalizada}`)
+      .bindTooltip(`Círculo envolvente relaves seleccionados · ${formatKm(envelopeRadiusKm)}`)
+      .addTo(group);
+  }
 
   if (analysisData.zonaSaturada.polygon) {
     L.polygon(analysisData.zonaSaturada.polygon, { color: '#8b5cf6', weight: 2, fillColor: '#8b5cf6', fillOpacity: 0.16 })
@@ -513,6 +532,7 @@ function initMap() {
   }
 
   const bounds = group.getBounds();
+  if (envelopeCircle) bounds.extend(envelopeCircle.getBounds());
   if (bounds.isValid()) map.fitBounds(bounds.pad(0.12));
   poi.openPopup();
 }
