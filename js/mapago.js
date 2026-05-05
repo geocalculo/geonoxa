@@ -179,6 +179,46 @@ function findContainingOrNearestPolygon(point, features) {
   }
   return nearest;
 }
+function featureIntersectsBbox(feature, bbox) {
+  if (!feature?.geometry || !Array.isArray(bbox) || bbox.length !== 4) return true;
+  const [minLon, minLat, maxLon, maxLat] = bbox;
+  const points = getGeometryPoints(feature.geometry);
+  if (!points.length) return false;
+  let fMinLon = Infinity; let fMinLat = Infinity; let fMaxLon = -Infinity; let fMaxLat = -Infinity;
+  points.forEach(([lon, lat]) => {
+    if (!Number.isFinite(lon) || !Number.isFinite(lat)) return;
+    fMinLon = Math.min(fMinLon, lon); fMinLat = Math.min(fMinLat, lat);
+    fMaxLon = Math.max(fMaxLon, lon); fMaxLat = Math.max(fMaxLat, lat);
+  });
+  if (![fMinLon, fMinLat, fMaxLon, fMaxLat].every(Number.isFinite)) return false;
+  return !(fMaxLon < minLon || fMinLon > maxLon || fMaxLat < minLat || fMinLat > maxLat);
+}
+function findNearestVisibleZonaBorder(point, zonas, bbox) {
+  const p = [point.lon, point.lat];
+  let best = null;
+  for (const feature of zonas || []) {
+    const g = feature?.geometry;
+    if (!g || (g.type !== 'Polygon' && g.type !== 'MultiPolygon')) continue;
+    if (!featureIntersectsBbox(feature, bbox)) continue;
+    const polygons = g.type === 'Polygon' ? [g.coordinates] : g.coordinates;
+    let bestPoint = null;
+    let bestDistKm = Infinity;
+    polygons.forEach((poly) => {
+      const ring = poly[0] || [];
+      for (let i = 0; i < ring.length - 1; i += 1) {
+        const [x1, y1] = ring[i]; const [x2, y2] = ring[i + 1];
+        const dx = x2 - x1; const dy = y2 - y1;
+        const t = ((p[0] - x1) * dx + (p[1] - y1) * dy) / ((dx * dx + dy * dy) || 1);
+        const tt = Math.max(0, Math.min(1, t));
+        const nearestLon = x1 + tt * dx; const nearestLat = y1 + tt * dy;
+        const distKm = haversineKm(point.lat, point.lon, nearestLat, nearestLon);
+        if (distKm < bestDistKm) { bestDistKm = distKm; bestPoint = [nearestLat, nearestLon]; }
+      }
+    });
+    if (bestPoint && (!best || bestDistKm < best.distKm)) best = { feature, distKm: bestDistKm, nearestBorderPoint: bestPoint };
+  }
+  return best;
+}
 async function loadGeojsonArray(paths) {
   const chunks = await Promise.all(paths.map(async (p) => {
     try {
@@ -223,11 +263,12 @@ async function buildAnalysisData(poi) {
   ]);
   const point = { lat: poi.lat, lon: poi.lon };
   const zonaMatch = findContainingOrNearestPolygon(point, zonas);
+  const nearestVisibleZona = findNearestVisibleZonaBorder(point, zonas, poi.bbox);
   const relaveGroup = findNearestFeatures(point, relaves, poi.nRelaves || 5);
   const relaveMatch = relaveGroup[0] || null;
   const urbanaMatch = findNearestFeature(point, urbanas);
 
-  const zf = zonaMatch?.feature; const rf = relaveMatch?.feature; const uf = urbanaMatch?.feature;
+  const zf = nearestVisibleZona?.feature || zonaMatch?.feature; const rf = relaveMatch?.feature; const uf = urbanaMatch?.feature;
   const prcFeature = await loadPrcFeatureByName(
     prop(uf?.properties, ['nombre_prc'])
   );
@@ -237,7 +278,7 @@ async function buildAnalysisData(poi) {
   const uCent = uf ? getFeatureCentroid(uf) : null;
   const zArea = zf ? getFeatureAreaHa(zf) : null;
   const rArea = rf ? getRelaveAreaHa(rf) : null;
-  const zonaDist = zonaMatch?.distKm ?? Infinity;
+  const zonaDist = nearestVisibleZona?.distKm ?? Infinity;
   const relDist = relaveMatch?.distKm ?? Infinity;
   const urbDist = urbanaMatch?.distKm ?? Infinity;
 
@@ -262,7 +303,8 @@ async function buildAnalysisData(poi) {
       featureId: prop(zf?.properties, ['objectid']),
       poiInOut: zonaMatch?.inOut || 'Sin datos disponibles', distPerimetroKm: Number.isFinite(zonaDist) ? zonaDist : null,
       distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), superficieHa: zArea,
-      perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, feature: zf || null, polygon: getLeafletPolygonCoords(zf)
+      perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, feature: zf || null, polygon: getLeafletPolygonCoords(zf),
+      visibleEnBbox: Boolean(nearestVisibleZona), nearestBorderPoint: nearestVisibleZona?.nearestBorderPoint || null
     },
     relavesGrupo: {
       cantidadAnalizada: relaveGroup.length,
@@ -303,8 +345,9 @@ async function buildAnalysisData(poi) {
 }
 
 function getDistanceFactors() {
+  const zonaVisible = analysisData.zonaSaturada.visibleEnBbox;
   return [
-    { label: `Zona saturada a ${formatKm(analysisData.zonaSaturada.distPerimetroKm)}`, value: analysisData.zonaSaturada.distPerimetroKm },
+    { label: zonaVisible ? `Zona saturada a ${formatKm(analysisData.zonaSaturada.distPerimetroKm)}` : 'Zona saturada: no visible en el encuadre', value: zonaVisible ? analysisData.zonaSaturada.distPerimetroKm : Infinity },
     { label: `Relave cercano a ${formatKm(analysisData.relave.distPoiKm)}`, value: analysisData.relave.distPoiKm }
   ].sort((a, b) => (a.value ?? Infinity) - (b.value ?? Infinity));
 }
@@ -335,7 +378,7 @@ function renderTopLayout() {
   const score = analysisData.relaciones.triangular.indice || 0;
   const factors = getDistanceFactors();
   const riesgo = analysisData.riesgo.nivel.toLowerCase();
-  const zonaDist = formatKm(analysisData.zonaSaturada.distPerimetroKm);
+  const zonaDist = analysisData.zonaSaturada.visibleEnBbox ? formatKm(analysisData.zonaSaturada.distPerimetroKm) : 'no visible en el encuadre';
   const relaveDist = formatKm(analysisData.relave.distPoiKm);
   const alertText = `POI con riesgo ${riesgo}, influenciado principalmente por zona saturada cercana y relave en el entorno.`;
 
@@ -361,7 +404,7 @@ function renderTopLayout() {
         <aside class="legend-floating">
           <strong>Leyenda</strong>
           <ul>
-            <li>POI</li><li>Relave</li><li>Zona saturada</li><li>Relaciones espaciales</li>
+            <li>POI</li><li>Relaves</li><li>Zona saturada</li><li>Círculo grupo relaves</li><li>Distancia a zona saturada</li>
           </ul>
         </aside>
       </div>
@@ -397,7 +440,7 @@ function renderSummaryCards() {
 
 function renderInterpretation() {
   const riesgo = analysisData.riesgo.nivel.toLowerCase();
-  const zonaDist = formatKm(analysisData.zonaSaturada.distPerimetroKm);
+  const zonaDist = analysisData.zonaSaturada.visibleEnBbox ? formatKm(analysisData.zonaSaturada.distPerimetroKm) : 'no visible en el encuadre';
   const relaveDist = formatKm(analysisData.relave.distPoiKm);
   const text = `El punto analizado presenta un riesgo ${riesgo}, influenciado principalmente por la cercanía de la zona saturada a ${zonaDist} y la presencia de un relave a ${relaveDist}.`;
   document.getElementById('interpretation').innerHTML = `<h2 class="section-title">INTERPRETACIÓN AUTOMÁTICA GEONOXA</h2><p>${text}</p>`;
@@ -451,7 +494,6 @@ function initMap() {
         .addTo(group);
     }
 
-    L.polyline([poiLatLng, relave.centroide], { color: isNearest ? '#ea580c' : '#f59e0b', weight: isNearest ? 2.8 : 2, opacity: 0.95, dashArray: '8 6' }).addTo(group);
   });
 
 
@@ -462,8 +504,13 @@ function initMap() {
   }
 
 
-  const zCent = analysisData.zonaSaturada.centroide;
-  if (Array.isArray(zCent)) L.polyline([poiLatLng, zCent], { color: '#8b5cf6', weight: 2.2, opacity: 0.95, dashArray: '8 6' }).addTo(group);
+  const nearestBorderPoint = analysisData.zonaSaturada.nearestBorderPoint;
+  if (analysisData.zonaSaturada.visibleEnBbox && Array.isArray(nearestBorderPoint)) {
+    L.polyline([poiLatLng, nearestBorderPoint], { color: '#8b5cf6', weight: 2, dashArray: '6,6', opacity: 0.9 }).addTo(group);
+    L.circleMarker(nearestBorderPoint, { radius: 5, color: '#8b5cf6', weight: 2, fillColor: '#8b5cf6', fillOpacity: 0.95 })
+      .bindPopup('Borde más cercano zona saturada')
+      .addTo(group);
+  }
 
   const bounds = group.getBounds();
   if (bounds.isValid()) map.fitBounds(bounds.pad(0.12));
