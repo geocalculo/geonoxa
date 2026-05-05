@@ -11,6 +11,19 @@ const formatKm = (v) => Number.isFinite(v) ? `${Number(v).toFixed(2)} km` : 'Sin
 const formatHa = (v) => Number.isFinite(v) ? `${Number(v).toLocaleString('es-CL', { maximumFractionDigits: 1 })} ha` : 'Sin datos disponibles';
 const getRiskClass = (level) => `risk-${String(level || 'bajo').toLowerCase().normalize('NFD').replace(/[^a-z]/g, '')}`;
 
+function clasificarRiesgoPorKPI(kpi) {
+  if (!Number.isFinite(kpi)) return 'SIN DATOS';
+
+  if (kpi < 5) return 'ALTO';
+  if (kpi <= 10) return 'MEDIO';
+  return 'BAJO';
+}
+
+function peorRiesgo(...niveles) {
+  const ranking = { ALTO: 3, MEDIO: 2, BAJO: 1, 'SIN DATOS': 0 };
+  return niveles.reduce((peor, actual) => (ranking[actual] > ranking[peor] ? actual : peor), 'SIN DATOS');
+}
+
 function getPoiFromUrl() {
   const params = new URLSearchParams(window.location.search);
   const lat = Number.parseFloat(params.get('lat'));
@@ -287,8 +300,22 @@ async function buildAnalysisData(poi) {
   const diametersKm = relaveAreas.map((ha) => computeEquivalentDiameter(ha)).filter((v) => Number.isFinite(v));
   const totalSuperficieHa = relaveAreas.reduce((acc, v) => acc + v, 0);
 
-  const riesgo = (zonaMatch?.inOut === 'IN' || relDist < 2 || (urbDist < 3 && relDist < 5)) ? 'Alto' :
-    (zonaDist < 5 || relDist < 10 || urbDist < 10) ? 'Medio' : 'Bajo';
+  const distPromRelaves = relaveDistances.length ? relaveDistances.reduce((a, b) => a + b, 0) / relaveDistances.length : null;
+  const diamPromRelaves = diametersKm.length ? diametersKm.reduce((a, b) => a + b, 0) / diametersKm.length : null;
+  const distCentroideZona = zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null;
+  const diamZona = computeEquivalentDiameter(zArea);
+
+  const kpiRelaves = Number.isFinite(distPromRelaves) && Number.isFinite(diamPromRelaves) && diamPromRelaves > 0
+    ? distPromRelaves / diamPromRelaves
+    : NaN;
+  const riesgoRelaves = clasificarRiesgoPorKPI(kpiRelaves);
+
+  const kpiZona = Number.isFinite(distCentroideZona) && Number.isFinite(diamZona) && diamZona > 0
+    ? distCentroideZona / diamZona
+    : NaN;
+  const riesgoZona = clasificarRiesgoPorKPI(kpiZona);
+
+  const riesgo = peorRiesgo(riesgoRelaves, riesgoZona);
   const score = (d, max) => Number.isFinite(d) ? Math.max(0, 1 - (d / max)) : 0;
   const synergy = Math.round((
     score(relDist, 15) * 25 + score(zonaDist, 15) * 25 + score(urbDist, 20) * 20 +
@@ -302,19 +329,19 @@ async function buildAnalysisData(poi) {
       fuente: prop(zf?.properties, ['decreto']), link: prop(zf?.properties, ['link']), latentes: prop(zf?.properties, ['latentes']),
       featureId: prop(zf?.properties, ['objectid']),
       poiInOut: zonaMatch?.inOut || 'Sin datos disponibles', distPerimetroKm: Number.isFinite(zonaDist) ? zonaDist : null,
-      distCentroideKm: (zCent ? haversineKm(poi.lat, poi.lon, zCent[0], zCent[1]) : null), diametroZonaKm: computeEquivalentDiameter(zArea), superficieHa: zArea,
+      distCentroideKm: distCentroideZona, diametroZonaKm: diamZona, superficieHa: zArea,
       perimetroKm: Number.isFinite(zonaDist) ? zonaDist * 6 : null, centroide: zCent, feature: zf || null, polygon: getLeafletPolygonCoords(zf),
       visibleEnBbox: Boolean(nearestVisibleZona), nearestBorderPoint: nearestVisibleZona?.nearestBorderPoint || null
     },
     relavesGrupo: {
       cantidadAnalizada: relaveGroup.length,
       distanciaMinKm: relaveDistances.length ? Math.min(...relaveDistances) : null,
-      distanciaPromKm: relaveDistances.length ? relaveDistances.reduce((a, b) => a + b, 0) / relaveDistances.length : null,
+      distanciaPromKm: distPromRelaves,
       distanciaMaxKm: relaveDistances.length ? Math.max(...relaveDistances) : null,
       radioEnvolventeKm: relaveDistances.length ? Math.max(...relaveDistances) : null,
       superficieTotalHa: relaveAreas.length ? totalSuperficieHa : null,
       superficiePromedioHa: relaveAreas.length ? totalSuperficieHa / relaveAreas.length : null,
-      diametroEquivalentePromedioKm: diametersKm.length ? diametersKm.reduce((a, b) => a + b, 0) / diametersKm.length : null,
+      diametroEquivalentePromedioKm: diamPromRelaves,
       items: relaveGroup.map(({ feature, distKm }, index) => {
         const props = feature?.properties || {};
         const superficieHa = getRelaveAreaHa(feature);
@@ -341,7 +368,7 @@ async function buildAnalysisData(poi) {
       distCentroideKm: (uCent ? haversineKm(poi.lat, poi.lon, uCent[0], uCent[1]) : null), centroide: uCent, prcFeature
     },
     relaciones: { triangular: { indice: synergy, sinergia: synergy > 70 ? 'Alta' : synergy > 40 ? 'Media' : 'Baja' } },
-    riesgo: { nivel: riesgo }
+    riesgo: { nivel: riesgo, relaves: riesgoRelaves, zona: riesgoZona, kpiRelaves, kpiZona }
   };
 }
 
@@ -445,7 +472,7 @@ function renderInterpretation() {
   const zonaCentroideDist = formatKm(analysisData.zonaSaturada.distCentroideKm);
   const zonaDiametro = formatKm(analysisData.zonaSaturada.diametroZonaKm);
   const relaveDistProm = formatKm(analysisData.relavesGrupo.distanciaPromKm);
-  const text = `El punto analizado presenta un riesgo ${riesgo}, influenciado por la cercanía a una zona saturada cuyo centroide se ubica a ${zonaCentroideDist} y con un diámetro equivalente de ${zonaDiametro}, junto a un grupo de relaves con distancia promedio de ${relaveDistProm}.`;
+  const text = `El punto analizado presenta un riesgo ${riesgo}. El riesgo se determina mediante el cociente distancia/diámetro. Valores menores a 5 indican alta exposición, entre 5 y 10 exposición media, y mayores a 10 baja exposición. Para este caso, la zona saturada tiene su centroide a ${zonaCentroideDist} y diámetro equivalente de ${zonaDiametro}, junto a un grupo de relaves con distancia promedio de ${relaveDistProm}.`;
   document.getElementById('interpretation').innerHTML = `<h2 class="section-title">INTERPRETACIÓN AUTOMÁTICA GEONOXA</h2><p>${text}</p>`;
 }
 
