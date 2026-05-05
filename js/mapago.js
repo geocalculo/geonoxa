@@ -315,6 +315,9 @@ async function buildAnalysisData(poi) {
     : NaN;
   const riesgoZona = clasificarRiesgoPorKPI(kpiZona);
 
+  const kpiCritico = [kpiRelaves, kpiZona].filter(Number.isFinite).reduce((min, v) => Math.min(min, v), Infinity);
+  const factorDominante = kpiZona <= kpiRelaves ? 'zona saturada' : 'relaves';
+
   const riesgo = peorRiesgo(riesgoRelaves, riesgoZona);
   const score = (d, max) => Number.isFinite(d) ? Math.max(0, 1 - (d / max)) : 0;
   const synergy = Math.round((
@@ -368,16 +371,15 @@ async function buildAnalysisData(poi) {
       distCentroideKm: (uCent ? haversineKm(poi.lat, poi.lon, uCent[0], uCent[1]) : null), centroide: uCent, prcFeature
     },
     relaciones: { triangular: { indice: synergy, sinergia: synergy > 70 ? 'Alta' : synergy > 40 ? 'Media' : 'Baja' } },
-    riesgo: { nivel: riesgo, relaves: riesgoRelaves, zona: riesgoZona, kpiRelaves, kpiZona }
+    riesgo: { nivel: riesgo, relaves: riesgoRelaves, zona: riesgoZona, kpiRelaves, kpiZona, kpiCritico: Number.isFinite(kpiCritico) ? kpiCritico : NaN, factorDominante }
   };
 }
 
-function getDistanceFactors() {
-  const zonaVisible = analysisData.zonaSaturada.visibleEnBbox;
-  return [
-    { label: zonaVisible ? `Zona saturada a ${formatKm(analysisData.zonaSaturada.distPerimetroKm)}` : 'Zona saturada: no visible en el encuadre', value: zonaVisible ? analysisData.zonaSaturada.distPerimetroKm : Infinity },
-    { label: `Relave cercano a ${formatKm(analysisData.relave.distPoiKm)}`, value: analysisData.relave.distPoiKm }
-  ].sort((a, b) => (a.value ?? Infinity) - (b.value ?? Infinity));
+function getMainKpiRiskClass() {
+  const riesgo = analysisData.riesgo.nivel;
+  if (riesgo === 'ALTO') return 'kpi-alto';
+  if (riesgo === 'MEDIO') return 'kpi-medio';
+  return 'kpi-bajo';
 }
 
 function renderAll() {
@@ -404,7 +406,6 @@ function renderHeader() {
 
 function renderTopLayout() {
   const score = analysisData.relaciones.triangular.indice || 0;
-  const factors = getDistanceFactors();
   const riesgo = analysisData.riesgo.nivel.toLowerCase();
   const zonaDist = analysisData.zonaSaturada.visibleEnBbox ? formatKm(analysisData.zonaSaturada.distPerimetroKm) : 'no visible en el encuadre';
   const relaveDist = formatKm(analysisData.relave.distPoiKm);
@@ -419,9 +420,24 @@ function renderTopLayout() {
         <p class="score-value">${score} / 100</p>
         <div class="progress-track"><div class="progress-fill" style="width:${Math.max(0, Math.min(score, 100))}%"></div></div>
       </div>
+      <div class="kpi-main-block">
+        <p class="kpi-label">KPI PRINCIPAL</p>
+        <p class="kpi-main-row" title="KPI = distancia al fenómeno / diámetro equivalente.&#10;Valores bajos indican mayor exposición relativa.">
+          <span>KPI (dist/diam):</span>
+          <span class="kpi-main ${getMainKpiRiskClass()}">${Number.isFinite(analysisData.riesgo.kpiCritico) ? analysisData.riesgo.kpiCritico.toFixed(2) : 'N/D'}</span>
+        </p>
+        <div class="kpi-formula">
+          <p><strong>Relaves:</strong><br>${formatKm(analysisData.relavesGrupo.distanciaPromKm)} / ${formatKm(analysisData.relavesGrupo.diametroEquivalentePromedioKm)} = ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}</p>
+          <p><strong>Zona saturada:</strong><br>${formatKm(analysisData.zonaSaturada.distCentroideKm)} / ${formatKm(analysisData.zonaSaturada.diametroZonaKm)} = ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'}</p>
+        </div>
+        <p class="kpi-note">Menor valor indica mayor exposición territorial</p>
+      </div>
       <div class="factors-block">
         <p class="kpi-label">Factores principales</p>
-        <ul class="factors-list">${factors.map((f) => `<li>${f.label}</li>`).join('')}</ul>
+        <ul class="factors-list">
+          <li><strong>KPI relaves:</strong> ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'} <span class="factor-subtle">(${formatKm(analysisData.relavesGrupo.distanciaPromKm)} / ${formatKm(analysisData.relavesGrupo.diametroEquivalentePromedioKm)})</span></li>
+          <li><strong>KPI zona saturada:</strong> ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'} <span class="factor-subtle">(${formatKm(analysisData.zonaSaturada.distCentroideKm)} / ${formatKm(analysisData.zonaSaturada.diametroZonaKm)})</span></li>
+        </ul>
       </div>
       <div class="summary-alert">${alertText}<span class="sr-only">Zona saturada a ${zonaDist}, relave cercano a ${relaveDist}.</span></div>
     </article>
@@ -469,10 +485,9 @@ function renderSummaryCards() {
 
 function renderInterpretation() {
   const riesgo = analysisData.riesgo.nivel.toLowerCase();
-  const zonaCentroideDist = formatKm(analysisData.zonaSaturada.distCentroideKm);
-  const zonaDiametro = formatKm(analysisData.zonaSaturada.diametroZonaKm);
-  const relaveDistProm = formatKm(analysisData.relavesGrupo.distanciaPromKm);
-  const text = `El punto analizado presenta un riesgo ${riesgo}. El riesgo se determina mediante el cociente distancia/diámetro. Valores menores a 5 indican alta exposición, entre 5 y 10 exposición media, y mayores a 10 baja exposición. Para este caso, la zona saturada tiene su centroide a ${zonaCentroideDist} y diámetro equivalente de ${zonaDiametro}, junto a un grupo de relaves con distancia promedio de ${relaveDistProm}.`;
+  const kpiZona = Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D';
+  const kpiRelaves = Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D';
+  const text = `El punto analizado presenta un riesgo ${riesgo}. El riesgo se determina mediante el cociente distancia/diámetro. En este caso, la zona saturada presenta un KPI de ${kpiZona} y los relaves un KPI de ${kpiRelaves}, siendo la ${analysisData.riesgo.factorDominante} el factor dominante del riesgo.`;
   document.getElementById('interpretation').innerHTML = `<h2 class="section-title">INTERPRETACIÓN AUTOMÁTICA GEONOXA</h2><p>${text}</p>`;
 }
 
