@@ -20,9 +20,13 @@ body{color:var(--text-main)}
   background:#0b1220;color:white;z-index:1000;box-shadow:0 8px 25px rgba(0,0,0,.35);
 }
 .header-inner{
-  display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:16px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
   padding:0 20px;height:100%;max-width:1400px;margin:0 auto;
 }
+.header-left,
+.header-right{flex:0 0 auto}
+.header-left{display:flex;flex-direction:column;min-width:260px}
+.header-center{flex:1;display:flex;justify-content:center;align-items:center;position:relative;left:-20px}
 .header-left h1{margin:0;font-size:1.5rem;font-weight:800;color:#fff}
 .header-left p{margin:4px 0 2px;color:var(--text-main);font-size:.9rem;font-weight:650}
 .header-left small{color:var(--text-muted);font-size:.75rem}
@@ -31,13 +35,15 @@ body{color:var(--text-main)}
 .map-search-item{padding:10px 14px;cursor:pointer;font-size:13px;color:#e2e8f0}
 .map-search-item:hover,.map-search-item:focus{background:rgba(249,115,22,.15);outline:none}
 
-.header-right{display:flex;gap:12px;align-items:stretch}
+.header-right{display:flex;justify-content:flex-end;align-items:center;min-width:220px}
 .summary h2{display:none}
+.summary-box{display:flex;gap:16px}
 .summary-grid{display:flex;gap:12px;align-items:stretch}
 .kpi,.summary-card.region-selector-card{min-height:60px;padding:8px 10px;border-radius:12px;border:1px solid rgba(251,146,60,.32);background:rgba(2,6,23,.7);box-shadow:0 6px 20px rgba(0,0,0,.25)}
 .kpi span{font-size:.75rem;color:#cbd5e1;display:block}
 .kpi strong{font-size:1.25rem;color:#fff;line-height:1.1}
 .region-selector-card{display:flex;flex-direction:column;gap:6px;min-width:190px}
+.region-selector{width:200px}
 .region-selector-card label{font-size:.75rem;color:#cbd5e1;font-weight:700}
 .region-selector-card select{width:100%;padding:7px 9px;border-radius:10px;border:1px solid rgba(251,146,60,.35);background:#0f172a;color:#f8fafc}
 
@@ -70,8 +76,11 @@ body{color:var(--text-main)}
 
 @media (max-width:768px){
   :root{--header-height:120px}
-  .header-inner{grid-template-columns:1fr;gap:8px;padding:8px 12px}
+  .header-inner{flex-direction:column;align-items:stretch;gap:8px;padding:8px 12px}
   .header-left p,.header-left small{display:none}
+  .header-left,.header-right{min-width:0}
+  .header-center{order:2;justify-content:flex-start;left:0}
+  .header-right{order:3;justify-content:flex-start}
   .header-right,.summary-grid{width:100%}
   .kpi,.summary-card.region-selector-card{flex:1}
   .panel-territorial{top:auto;bottom:90px;left:12px;right:12px;transform:none;width:auto}
