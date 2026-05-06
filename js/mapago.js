@@ -8,7 +8,7 @@ let analysisData = null;
 let map;
 
 const EXPORT_BUTTON_DEFAULT = {
-  kmz: 'EXPORTAR KMZ',
+  kml: 'EXPORTAR KML',
   pdf: 'PDF PRO'
 };
 
@@ -471,9 +471,9 @@ function renderTopLayout() {
         </div>
         <div class="card-topbar-right">
           <div class="card-actions">
-            <button id="btn-export-kmz" class="btn-export btn-kmz" type="button">
+            <button id="btn-export-kml" class="btn-export btn-kml" type="button">
               <span class="btn-icon" aria-hidden="true">⇩</span>
-              <span class="btn-text">EXPORTAR KMZ</span>
+              <span class="btn-text">EXPORTAR KML</span>
             </button>
             <button id="btn-export-pdf" class="btn-export btn-pdf" type="button">
               <span class="btn-icon" aria-hidden="true">▣</span>
@@ -503,8 +503,8 @@ function setButtonLoading(buttonId, isLoading, text) {
   const icon = button.querySelector('.btn-icon');
   const label = button.querySelector('.btn-text');
   button.disabled = isLoading;
-  if (label) label.textContent = isLoading ? text : (buttonId === 'btn-export-kmz' ? EXPORT_BUTTON_DEFAULT.kmz : EXPORT_BUTTON_DEFAULT.pdf);
-  if (icon) icon.innerHTML = isLoading ? '<span class="btn-spinner" aria-hidden="true"></span>' : (buttonId === 'btn-export-kmz' ? '⇩' : '▣');
+  if (label) label.textContent = isLoading ? text : (buttonId === 'btn-export-kml' ? EXPORT_BUTTON_DEFAULT.kml : EXPORT_BUTTON_DEFAULT.pdf);
+  if (icon) icon.innerHTML = isLoading ? '<span class="btn-spinner" aria-hidden="true"></span>' : (buttonId === 'btn-export-kml' ? '⤓' : '▣');
 }
 
 function downloadTextFile(filename, content, mimeType) {
@@ -519,54 +519,95 @@ function downloadTextFile(filename, content, mimeType) {
   URL.revokeObjectURL(url);
 }
 
-function buildKmzKml() {
+function coordToKml(point) {
+  if (!Array.isArray(point) || point.length < 2) return null;
+  const lat = Number(point[0]);
+  const lon = Number(point[1]);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+  if (Math.abs(lat) > 90 || Math.abs(lon) > 180) return null;
+  return `${lon},${lat},0`;
+}
+
+function polygonToKmlCoordinates(ring) {
+  if (!Array.isArray(ring)) return '';
+  const coords = ring.map(coordToKml).filter(Boolean);
+  if (!coords.length) return '';
+  if (coords[0] !== coords[coords.length - 1]) coords.push(coords[0]);
+  return coords.join(' ');
+}
+
+function buildKml() {
   const poi = analysisData.poi;
   const relaves = analysisData.relavesGrupo?.items || [];
   const zona = analysisData.zonaSaturada;
+  const fechaConsulta = new Date().toLocaleString('es-CL');
+  const poiDescription = `<![CDATA[<div><strong>Latitud:</strong> ${poi.lat}<br><strong>Longitud:</strong> ${poi.lon}<br><strong>Fecha consulta:</strong> ${fechaConsulta}<br><strong>Radio análisis:</strong> ${formatKm(analysisData.relavesGrupo?.radioEnvolventeKm)}<br><strong>Nº relaves analizados:</strong> ${analysisData.relavesGrupo?.cantidadAnalizada ?? 0}<br><strong>Nº zonas saturadas:</strong> ${zona?.feature ? 1 : 0}</div>]]>`;
+  const zonaRelation = zona?.poiInOut === 'Dentro' ? 'intersecta' : 'cercana';
   const relavePlacemarks = relaves.map((item) => {
-    if (!Array.isArray(item.centroide)) return '';
-    return `<Placemark><name>Relave ${item.rank}: ${item.nombre}</name><Point><coordinates>${item.centroide[1]},${item.centroide[0]},0</coordinates></Point></Placemark>`;
+    const coordinates = coordToKml(item.centroide);
+    if (!coordinates) return '';
+    const diametroEqM = Number.isFinite(item.superficieHa) ? (computeEquivalentDiameter(item.superficieHa) * 1000).toFixed(0) : 'N/D';
+    return `<Placemark><name>Relave ${item.rank}: ${item.nombre}</name><styleUrl>#relavesStyle</styleUrl><description><![CDATA[<div><strong>ID:</strong> ${item.nombre}<br><strong>Nombre/Faena:</strong> ${item.faena || 'N/D'}<br><strong>Distancia km:</strong> ${formatKm(item.distPoiKm)}<br><strong>Diámetro equivalente m:</strong> ${diametroEqM}<br><strong>KPI:</strong> ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}<br><strong>Riesgo:</strong> ${analysisData.riesgo.relaves}<br><strong>Toneladas:</strong> N/D<br><strong>Método constructivo:</strong> ${analysisData.relave?.metodo || 'N/D'}</div>]]></description><Point><coordinates>${coordinates}</coordinates></Point></Placemark>`;
   }).join('');
+  const zonaPolygon = zona?.polygon?.[0] ? polygonToKmlCoordinates(zona.polygon[0]) : '';
+  const bufferRadiusKm = analysisData.relavesGrupo?.radioEnvolventeKm;
+  const circleCoordinates = buildCircleCoords([poi.lat, poi.lon], Math.max((bufferRadiusKm || 0) * 1000, 1), 96).map(coordToKml).filter(Boolean).join(' ');
+  const bufferCoordinates = buildCircleCoords([poi.lat, poi.lon], Math.max(((poi.radioKm || bufferRadiusKm || 1) * 1000), 1), 96).map(coordToKml).filter(Boolean).join(' ');
   return `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>GeoNOXA_QUERY</name>
-<Placemark><name>POI</name><Point><coordinates>${poi.lon},${poi.lat},0</coordinates></Point></Placemark>
-${zona.polygon ? `<Placemark><name>Zona saturada: ${zona.nombre}</name><Polygon><outerBoundaryIs><LinearRing><coordinates>${zona.polygon[0].map(([lat, lon]) => `${lon},${lat},0`).join(' ')}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}
-${relavePlacemarks}
+<Style id="poiStyle"><IconStyle><color>ffff8800</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle></Style>
+<Style id="relavesStyle"><IconStyle><color>ff00a5ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon></IconStyle></Style>
+<Style id="zonaStyle"><LineStyle><color>ff0077ff</color><width>2</width></LineStyle><PolyStyle><color>660077ff</color></PolyStyle></Style>
+<Style id="circleStyle"><LineStyle><color>9900a5ff</color><width>2</width></LineStyle><PolyStyle><color>00000000</color></PolyStyle></Style>
+<Style id="bufferStyle"><LineStyle><color>ffee5500</color><width>2</width></LineStyle><PolyStyle><color>55ee5500</color></PolyStyle></Style>
+<Folder><name>POI</name><Placemark><name>POI</name><styleUrl>#poiStyle</styleUrl><description>${poiDescription}</description><Point><coordinates>${poi.lon},${poi.lat},0</coordinates></Point></Placemark></Folder>
+<Folder><name>Zonas_Saturadas</name>${zonaPolygon ? `<Placemark><name>${zona.nombre || 'Zona saturada'}</name><styleUrl>#zonaStyle</styleUrl><description><![CDATA[<div><strong>Nombre:</strong> ${zona.nombre || 'N/D'}<br><strong>Estado:</strong> ${zona.estado || 'N/D'}<br><strong>Decreto:</strong> ${zona.fuente || 'N/D'}<br><strong>Distancia km:</strong> ${formatKm(zona.distPerimetroKm)}<br><strong>Relación con POI:</strong> ${zonaRelation}</div>]]></description><Polygon><outerBoundaryIs><LinearRing><coordinates>${zonaPolygon}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}</Folder>
+<Folder><name>Relaves</name>${relavePlacemarks}</Folder>
+<Folder><name>Circulos_Equivalentes</name>${circleCoordinates ? `<Placemark><name>Círculo equivalente</name><styleUrl>#circleStyle</styleUrl><LineString><coordinates>${circleCoordinates}</coordinates></LineString></Placemark>` : ''}</Folder>
+<Folder><name>Buffer_Analisis</name>${bufferCoordinates ? `<Placemark><name>Buffer análisis</name><styleUrl>#bufferStyle</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>${bufferCoordinates}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}</Folder>
 </Document></kml>`;
 }
 
-function exportKmz() {
-  const kml = buildKmzKml();
-  downloadTextFile('GeoNOXA_QUERY.kmz', kml, 'application/vnd.google-earth.kml+xml');
+function exportKML() {
+  const kml = buildKml();
+  downloadTextFile('GeoNOXA_QUERY.kml', kml, 'application/vnd.google-earth.kml+xml');
 }
 
-function exportPdfPro() {
-  const relaveRows = (analysisData.relavesGrupo?.items || []).map((r) => `<tr><td>${r.rank}</td><td>${r.nombre}</td><td>${r.faena || 'N/D'}</td><td>${formatKm(r.distPoiKm)}</td><td>${formatHa(r.superficieHa)}</td></tr>`).join('');
-  const reportHtml = `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>GeoNOXA PDF PRO</title><style>body{font-family:Arial,sans-serif;color:#102a43;padding:28px}h1,h2{margin:0 0 8px}section{margin:0 0 18px}table{width:100%;border-collapse:collapse}th,td{border:1px solid #cbd5e1;padding:7px;font-size:12px}th{background:#e2e8f0}.pill{display:inline-block;padding:4px 10px;background:#dbeafe;border-radius:999px;font-weight:700}.muted{color:#486581;font-size:12px}</style></head><body>
-  <section><h1>GeoNOXA · PDF PRO</h1><p class="muted">Portada · ${new Date().toLocaleString('es-CL')}</p></section>
-  <section><h2>Resumen ejecutivo</h2><p>POI: ${analysisData.poi.lat}, ${analysisData.poi.lon}. Riesgo territorial: <span class="pill">${analysisData.riesgo.nivel}</span>.</p></section>
-  <section><h2>KPIs</h2><p>KPI crítico: ${Number.isFinite(analysisData.riesgo.kpiCritico) ? analysisData.riesgo.kpiCritico.toFixed(2) : 'N/D'} · KPI zona: ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'} · KPI relaves: ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}</p></section>
-  <section><h2>Mapa principal</h2><p>Mapa operativo disponible en CARD PRO 2.0 con POI, zona saturada, relaves y círculos equivalentes.</p></section>
-  <section><h2>Tabla de relaves</h2><table><thead><tr><th>#</th><th>Relave</th><th>Faena</th><th>Distancia</th><th>Superficie</th></tr></thead><tbody>${relaveRows || '<tr><td colspan="5">Sin relaves en vista.</td></tr>'}</tbody></table></section>
-  <section><h2>Metodología</h2><p>El análisis aplica el cociente distancia/diámetro equivalente para zonas saturadas y grupo de relaves cercanos.</p></section>
-  <section><h2>Disclaimer</h2><p>Documento referencial para análisis territorial y apoyo a decisiones. Requiere validación técnica en terreno.</p></section>
-  <script>window.onload=()=>window.print();</script></body></html>`;
-  const pdfWindow = window.open('', '_blank');
-  if (!pdfWindow) return;
-  pdfWindow.document.write(reportHtml);
-  pdfWindow.document.close();
+async function exportPdfPro() {
+  if (!window.jspdf?.jsPDF || !window.html2canvas) return;
+  const printable = document.querySelector('.page-shell');
+  if (!printable) return;
+  const canvas = await window.html2canvas(printable, { scale: 2, useCORS: true, backgroundColor: '#ffffff' });
+  const imgData = canvas.toDataURL('image/jpeg', 0.95);
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF('p', 'mm', 'a4');
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const pageHeight = doc.internal.pageSize.getHeight();
+  const imgWidth = pageWidth;
+  const imgHeight = (canvas.height * imgWidth) / canvas.width;
+  let y = 0;
+  let heightLeft = imgHeight;
+  doc.addImage(imgData, 'JPEG', 0, y, imgWidth, imgHeight);
+  heightLeft -= pageHeight;
+  while (heightLeft > 0) {
+    y = heightLeft - imgHeight;
+    doc.addPage();
+    doc.addImage(imgData, 'JPEG', 0, y, imgWidth, imgHeight);
+    heightLeft -= pageHeight;
+  }
+  doc.save('GeoNOXA_PRO_QUERY.pdf');
 }
 
 function setupCardActions() {
-  const kmzBtn = document.getElementById('btn-export-kmz');
+  const kmzBtn = document.getElementById('btn-export-kml');
   const pdfBtn = document.getElementById('btn-export-pdf');
   if (!kmzBtn || !pdfBtn) return;
 
   kmzBtn.addEventListener('click', () => {
-    setButtonLoading('btn-export-kmz', true, 'Generando KMZ...');
+    setButtonLoading('btn-export-kml', true, 'Generando KML...');
     setTimeout(() => {
-      exportKmz();
-      setButtonLoading('btn-export-kmz', false);
+      exportKML();
+      setButtonLoading('btn-export-kml', false);
     }, 450);
   });
 
