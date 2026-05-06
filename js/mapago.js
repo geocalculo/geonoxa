@@ -515,7 +515,7 @@ function downloadTextFile(filename, content, mimeType) {
   link.download = filename;
   document.body.appendChild(link);
   link.click();
-  link.remove();
+  document.body.removeChild(link);
   URL.revokeObjectURL(url);
 }
 
@@ -536,18 +536,37 @@ function polygonToKmlCoordinates(ring) {
   return coords.join(' ');
 }
 
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 function buildKml() {
   const poi = analysisData.poi;
   const relaves = analysisData.relavesGrupo?.items || [];
   const zona = analysisData.zonaSaturada;
   const fechaConsulta = new Date().toLocaleString('es-CL');
-  const poiDescription = `<![CDATA[<div><strong>Latitud:</strong> ${poi.lat}<br><strong>Longitud:</strong> ${poi.lon}<br><strong>Fecha consulta:</strong> ${fechaConsulta}<br><strong>Radio análisis:</strong> ${formatKm(analysisData.relavesGrupo?.radioEnvolventeKm)}<br><strong>Nº relaves analizados:</strong> ${analysisData.relavesGrupo?.cantidadAnalizada ?? 0}<br><strong>Nº zonas saturadas:</strong> ${zona?.feature ? 1 : 0}</div>]]>`;
+  const poiDescription = `
+    <ExtendedData>
+      <Data name="latitud"><value>${escapeXml(poi.lat)}</value></Data>
+      <Data name="longitud"><value>${escapeXml(poi.lon)}</value></Data>
+      <Data name="fecha_consulta"><value>${escapeXml(fechaConsulta)}</value></Data>
+      <Data name="radio_analisis"><value>${escapeXml(formatKm(analysisData.relavesGrupo?.radioEnvolventeKm))}</value></Data>
+      <Data name="relaves_analizados"><value>${escapeXml(analysisData.relavesGrupo?.cantidadAnalizada ?? 0)}</value></Data>
+      <Data name="zonas_saturadas"><value>${escapeXml(zona?.feature ? 1 : 0)}</value></Data>
+    </ExtendedData>
+    <description>${escapeXml(`Latitud: ${poi.lat} | Longitud: ${poi.lon} | Fecha consulta: ${fechaConsulta}`)}</description>
+  `;
   const zonaRelation = zona?.poiInOut === 'Dentro' ? 'intersecta' : 'cercana';
   const relavePlacemarks = relaves.map((item) => {
     const coordinates = coordToKml(item.centroide);
     if (!coordinates) return '';
     const diametroEqM = Number.isFinite(item.superficieHa) ? (computeEquivalentDiameter(item.superficieHa) * 1000).toFixed(0) : 'N/D';
-    return `<Placemark><name>Relave ${item.rank}: ${item.nombre}</name><styleUrl>#relavesStyle</styleUrl><description><![CDATA[<div><strong>ID:</strong> ${item.nombre}<br><strong>Nombre/Faena:</strong> ${item.faena || 'N/D'}<br><strong>Distancia km:</strong> ${formatKm(item.distPoiKm)}<br><strong>Diámetro equivalente m:</strong> ${diametroEqM}<br><strong>KPI:</strong> ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}<br><strong>Riesgo:</strong> ${analysisData.riesgo.relaves}<br><strong>Toneladas:</strong> N/D<br><strong>Método constructivo:</strong> ${analysisData.relave?.metodo || 'N/D'}</div>]]></description><Point><coordinates>${coordinates}</coordinates></Point></Placemark>`;
+    return `<Placemark><name>${escapeXml(`Relave ${item.rank}: ${item.nombre}`)}</name><styleUrl>#relavesStyle</styleUrl><description>${escapeXml(`ID: ${item.nombre} | Faena: ${item.faena || 'N/D'} | Distancia km: ${formatKm(item.distPoiKm)} | Diametro equivalente m: ${diametroEqM} | KPI: ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'} | Riesgo: ${analysisData.riesgo.relaves} | Metodo constructivo: ${analysisData.relave?.metodo || 'N/D'}`)}</description><ExtendedData><Data name="id"><value>${escapeXml(item.nombre)}</value></Data><Data name="faena"><value>${escapeXml(item.faena || 'N/D')}</value></Data><Data name="distancia_km"><value>${escapeXml(formatKm(item.distPoiKm))}</value></Data><Data name="diametro_equivalente_m"><value>${escapeXml(diametroEqM)}</value></Data></ExtendedData><Point><coordinates>${coordinates}</coordinates></Point></Placemark>`;
   }).join('');
   const zonaPolygon = zona?.polygon?.[0] ? polygonToKmlCoordinates(zona.polygon[0]) : '';
   const bufferRadiusKm = analysisData.relavesGrupo?.radioEnvolventeKm;
@@ -561,7 +580,7 @@ function buildKml() {
 <Style id="circleStyle"><LineStyle><color>9900a5ff</color><width>2</width></LineStyle><PolyStyle><color>00000000</color></PolyStyle></Style>
 <Style id="bufferStyle"><LineStyle><color>ffee5500</color><width>2</width></LineStyle><PolyStyle><color>55ee5500</color></PolyStyle></Style>
 <Folder><name>POI</name><Placemark><name>POI</name><styleUrl>#poiStyle</styleUrl><description>${poiDescription}</description><Point><coordinates>${poi.lon},${poi.lat},0</coordinates></Point></Placemark></Folder>
-<Folder><name>Zonas_Saturadas</name>${zonaPolygon ? `<Placemark><name>${zona.nombre || 'Zona saturada'}</name><styleUrl>#zonaStyle</styleUrl><description><![CDATA[<div><strong>Nombre:</strong> ${zona.nombre || 'N/D'}<br><strong>Estado:</strong> ${zona.estado || 'N/D'}<br><strong>Decreto:</strong> ${zona.fuente || 'N/D'}<br><strong>Distancia km:</strong> ${formatKm(zona.distPerimetroKm)}<br><strong>Relación con POI:</strong> ${zonaRelation}</div>]]></description><Polygon><outerBoundaryIs><LinearRing><coordinates>${zonaPolygon}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}</Folder>
+<Folder><name>Zonas_Saturadas</name>${zonaPolygon ? `<Placemark><name>${escapeXml(zona.nombre || 'Zona saturada')}</name><styleUrl>#zonaStyle</styleUrl><description>${escapeXml(`Nombre: ${zona.nombre || 'N/D'} | Estado: ${zona.estado || 'N/D'} | Decreto: ${zona.fuente || 'N/D'} | Distancia km: ${formatKm(zona.distPerimetroKm)} | Relacion con POI: ${zonaRelation}`)}</description><ExtendedData><Data name="nombre"><value>${escapeXml(zona.nombre || 'N/D')}</value></Data><Data name="estado"><value>${escapeXml(zona.estado || 'N/D')}</value></Data><Data name="decreto"><value>${escapeXml(zona.fuente || 'N/D')}</value></Data></ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>${zonaPolygon}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}</Folder>
 <Folder><name>Relaves</name>${relavePlacemarks}</Folder>
 <Folder><name>Circulos_Equivalentes</name>${circleCoordinates ? `<Placemark><name>Círculo equivalente</name><styleUrl>#circleStyle</styleUrl><LineString><coordinates>${circleCoordinates}</coordinates></LineString></Placemark>` : ''}</Folder>
 <Folder><name>Buffer_Analisis</name>${bufferCoordinates ? `<Placemark><name>Buffer análisis</name><styleUrl>#bufferStyle</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>${bufferCoordinates}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}</Folder>
@@ -571,13 +590,23 @@ function buildKml() {
 function exportKML() {
   const kml = buildKml();
   downloadTextFile('GeoNOXA_QUERY.kml', kml, 'application/vnd.google-earth.kml+xml');
+  window.dataLayer?.push({
+    event: 'download_kml',
+    site: 'geonoxa',
+    file_name: 'GeoNOXA_QUERY.kml',
+    download_method: 'blob_anchor'
+  });
 }
 
 async function exportPdfPro() {
   if (!window.jspdf?.jsPDF || !window.html2canvas) return;
   const printable = document.querySelector('.page-shell');
   if (!printable) return;
-  const canvas = await window.html2canvas(printable, { scale: 2, useCORS: true, backgroundColor: '#ffffff' });
+  const printClone = printable.cloneNode(true);
+  printClone.classList.add('pdf-export-root');
+  document.body.appendChild(printClone);
+  const canvas = await window.html2canvas(printClone, { scale: 2, useCORS: true, backgroundColor: '#ffffff' });
+  document.body.removeChild(printClone);
   const imgData = canvas.toDataURL('image/jpeg', 0.95);
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
@@ -603,13 +632,27 @@ function setupCardActions() {
   const pdfBtn = document.getElementById('btn-export-pdf');
   if (!kmzBtn || !pdfBtn) return;
 
-  kmzBtn.addEventListener('click', () => {
-    setButtonLoading('btn-export-kml', true, 'Generando KML...');
-    setTimeout(() => {
-      exportKML();
-      setButtonLoading('btn-export-kml', false);
-    }, 450);
-  });
+  async function handleExportKML() {
+    const btn = document.getElementById('btn-export-kml');
+    if (!btn) return;
+    const originalHTML = btn.innerHTML;
+
+    try {
+      btn.disabled = true;
+      btn.classList.add('is-loading');
+      btn.innerHTML = '<span class="spinner"></span><span>Generando KML...</span>';
+      await Promise.resolve(exportKML());
+    } catch (error) {
+      console.error('Error exportando KML:', error);
+      alert('No fue posible generar el KML.');
+    } finally {
+      btn.disabled = false;
+      btn.classList.remove('is-loading');
+      btn.innerHTML = originalHTML;
+    }
+  }
+
+  kmzBtn.addEventListener('click', handleExportKML);
 
   pdfBtn.addEventListener('click', () => {
     setButtonLoading('btn-export-pdf', true, 'Preparando PDF PRO...');
