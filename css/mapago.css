@@ -39,6 +39,23 @@ h1, h2, h3, p { margin: 0; }
 .summary-alert { background: rgba(255, 179, 71, .14); border: 1px solid rgba(255, 179, 71, .34); border-radius: 12px; padding: 12px; color: #fce2bb; font-size: 14px; line-height: 1.5; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
 
+.card-topbar{ display:flex; justify-content:space-between; align-items:flex-start; gap:24px; flex-wrap:wrap; }
+.card-topbar-left{ flex:1; min-width:320px; }
+.card-topbar-right{ display:flex; align-items:flex-start; justify-content:flex-end; }
+.card-actions{ display:flex; gap:14px; align-items:center; justify-content:flex-end; flex-wrap:wrap; }
+.btn-export{ border:none; border-radius:14px; padding:14px 22px; display:flex; align-items:center; gap:10px; cursor:pointer; font-weight:700; letter-spacing:.2px; transition:all .18s ease; min-height:52px; backdrop-filter:blur(10px); }
+.btn-export:hover{ transform:translateY(-2px); }
+.btn-export:active{ transform:translateY(0); }
+.btn-export:disabled{ opacity:.9; cursor:wait; transform:none; }
+.btn-kmz{ background:linear-gradient(135deg,#059669,#047857); color:white; box-shadow:0 8px 20px rgba(5,150,105,.22); }
+.btn-kmz:hover{ box-shadow:0 12px 28px rgba(5,150,105,.32); }
+.btn-pdf{ background:linear-gradient(135deg,#2563eb,#1d4ed8); color:white; box-shadow:0 8px 20px rgba(37,99,235,.22); }
+.btn-pdf:hover{ box-shadow:0 12px 28px rgba(37,99,235,.32); }
+.btn-icon{ font-size:18px; width:18px; height:18px; display:inline-flex; align-items:center; justify-content:center; }
+.btn-text{ font-size:14px; white-space:nowrap; }
+.btn-spinner{ width:16px; height:16px; border-radius:50%; border:2px solid rgba(255,255,255,.38); border-top-color:#ffffff; animation:spin .8s linear infinite; display:inline-block; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
 .map-panel { margin-bottom: 0; }
 #map { min-height: 420px; height: 460px; border-radius: 14px; border: 1px solid rgba(144, 196, 221, .3); }
 .map-wrap { position: relative; }
@@ -72,6 +89,10 @@ h1, h2, h3, p { margin: 0; }
 @media (max-width: 768px) {
   .top-layout { grid-template-columns: 1fr; }
   .cards-duo { grid-template-columns: 1fr; }
+  .card-topbar{ flex-direction:column; }
+  .card-topbar-right{ width:100%; justify-content:flex-start; }
+  .card-actions{ justify-content:flex-start; width:100%; margin-top:12px; }
+  .btn-export{ flex:1; justify-content:center; }
 }
 
 .kpi-main-block { background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: 12px; }
