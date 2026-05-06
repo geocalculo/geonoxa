@@ -54,7 +54,31 @@ h1, h2, h3, p { margin: 0; }
 .btn-icon{ font-size:18px; width:18px; height:18px; display:inline-flex; align-items:center; justify-content:center; }
 .btn-text{ font-size:14px; white-space:nowrap; }
 .btn-spinner{ width:16px; height:16px; border-radius:50%; border:2px solid rgba(255,255,255,.38); border-top-color:#ffffff; animation:spin .8s linear infinite; display:inline-block; }
+.spinner{ width:16px; height:16px; border-radius:50%; border:2px solid rgba(255,255,255,.38); border-top-color:#ffffff; animation:spin .8s linear infinite; display:inline-block; }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+.pdf-export-root {
+  position: fixed;
+  left: -99999px;
+  top: 0;
+  width: 1680px;
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+.pdf-export-root .btn-export,
+.pdf-export-root .card-actions,
+.pdf-export-root .actions,
+.pdf-export-root nav,
+.pdf-export-root .is-loading,
+.pdf-export-root .btn-spinner,
+.pdf-export-root .spinner {
+  display: none !important;
+}
+.pdf-export-root * {
+  color: #000000 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
 
 .map-panel { margin-bottom: 0; }
 #map { min-height: 420px; height: 460px; border-radius: 14px; border: 1px solid rgba(144, 196, 221, .3); }
