@@ -7,6 +7,11 @@ const DATA_SOURCES = {
 let analysisData = null;
 let map;
 
+const EXPORT_BUTTON_DEFAULT = {
+  kmz: 'EXPORTAR KMZ',
+  pdf: 'PDF PRO'
+};
+
 const formatKm = (v) => Number.isFinite(v) ? `${Number(v).toFixed(2)} km` : 'Sin datos disponibles';
 const formatHa = (v) => Number.isFinite(v) ? `${Number(v).toLocaleString('es-CL', { maximumFractionDigits: 1 })} ha` : 'Sin datos disponibles';
 const getRiskClass = (level) => `risk-${String(level || 'bajo').toLowerCase().normalize('NFD').replace(/[^a-z]/g, '')}`;
@@ -439,6 +444,8 @@ function renderTopLayout() {
   const alertText = `POI con riesgo ${riesgo}, determinado por el KPI más crítico entre zona saturada y relaves.`;
 
   document.getElementById('top-layout').innerHTML = `<article class="card panel summary-panel">
+      <div class="card-topbar">
+        <div class="card-topbar-left">
       <h2 class="section-title">RIESGO TERRITORIAL</h2>
       <p class="risk-value ${getRiskClass(analysisData.riesgo.nivel)}">${analysisData.riesgo.nivel.toUpperCase()}</p>
       <div class="kpi-main-block">
@@ -461,6 +468,20 @@ function renderTopLayout() {
         </ul>
       </div>
       <div class="summary-alert">${alertText}</div>
+        </div>
+        <div class="card-topbar-right">
+          <div class="card-actions">
+            <button id="btn-export-kmz" class="btn-export btn-kmz" type="button">
+              <span class="btn-icon" aria-hidden="true">⇩</span>
+              <span class="btn-text">EXPORTAR KMZ</span>
+            </button>
+            <button id="btn-export-pdf" class="btn-export btn-pdf" type="button">
+              <span class="btn-icon" aria-hidden="true">▣</span>
+              <span class="btn-text">PDF PRO</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </article>
     <article class="card panel map-panel">
       <h2 class="section-title">Mapa de relaciones espaciales</h2>
@@ -474,6 +495,88 @@ function renderTopLayout() {
         </aside>
       </div>
     </article>`;
+}
+
+function setButtonLoading(buttonId, isLoading, text) {
+  const button = document.getElementById(buttonId);
+  if (!button) return;
+  const icon = button.querySelector('.btn-icon');
+  const label = button.querySelector('.btn-text');
+  button.disabled = isLoading;
+  if (label) label.textContent = isLoading ? text : (buttonId === 'btn-export-kmz' ? EXPORT_BUTTON_DEFAULT.kmz : EXPORT_BUTTON_DEFAULT.pdf);
+  if (icon) icon.innerHTML = isLoading ? '<span class="btn-spinner" aria-hidden="true"></span>' : (buttonId === 'btn-export-kmz' ? '⇩' : '▣');
+}
+
+function downloadTextFile(filename, content, mimeType) {
+  const blob = new Blob([content], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function buildKmzKml() {
+  const poi = analysisData.poi;
+  const relaves = analysisData.relavesGrupo?.items || [];
+  const zona = analysisData.zonaSaturada;
+  const relavePlacemarks = relaves.map((item) => {
+    if (!Array.isArray(item.centroide)) return '';
+    return `<Placemark><name>Relave ${item.rank}: ${item.nombre}</name><Point><coordinates>${item.centroide[1]},${item.centroide[0]},0</coordinates></Point></Placemark>`;
+  }).join('');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>GeoNOXA_QUERY</name>
+<Placemark><name>POI</name><Point><coordinates>${poi.lon},${poi.lat},0</coordinates></Point></Placemark>
+${zona.polygon ? `<Placemark><name>Zona saturada: ${zona.nombre}</name><Polygon><outerBoundaryIs><LinearRing><coordinates>${zona.polygon[0].map(([lat, lon]) => `${lon},${lat},0`).join(' ')}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}
+${relavePlacemarks}
+</Document></kml>`;
+}
+
+function exportKmz() {
+  const kml = buildKmzKml();
+  downloadTextFile('GeoNOXA_QUERY.kmz', kml, 'application/vnd.google-earth.kml+xml');
+}
+
+function exportPdfPro() {
+  const relaveRows = (analysisData.relavesGrupo?.items || []).map((r) => `<tr><td>${r.rank}</td><td>${r.nombre}</td><td>${r.faena || 'N/D'}</td><td>${formatKm(r.distPoiKm)}</td><td>${formatHa(r.superficieHa)}</td></tr>`).join('');
+  const reportHtml = `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>GeoNOXA PDF PRO</title><style>body{font-family:Arial,sans-serif;color:#102a43;padding:28px}h1,h2{margin:0 0 8px}section{margin:0 0 18px}table{width:100%;border-collapse:collapse}th,td{border:1px solid #cbd5e1;padding:7px;font-size:12px}th{background:#e2e8f0}.pill{display:inline-block;padding:4px 10px;background:#dbeafe;border-radius:999px;font-weight:700}.muted{color:#486581;font-size:12px}</style></head><body>
+  <section><h1>GeoNOXA · PDF PRO</h1><p class="muted">Portada · ${new Date().toLocaleString('es-CL')}</p></section>
+  <section><h2>Resumen ejecutivo</h2><p>POI: ${analysisData.poi.lat}, ${analysisData.poi.lon}. Riesgo territorial: <span class="pill">${analysisData.riesgo.nivel}</span>.</p></section>
+  <section><h2>KPIs</h2><p>KPI crítico: ${Number.isFinite(analysisData.riesgo.kpiCritico) ? analysisData.riesgo.kpiCritico.toFixed(2) : 'N/D'} · KPI zona: ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'} · KPI relaves: ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'}</p></section>
+  <section><h2>Mapa principal</h2><p>Mapa operativo disponible en CARD PRO 2.0 con POI, zona saturada, relaves y círculos equivalentes.</p></section>
+  <section><h2>Tabla de relaves</h2><table><thead><tr><th>#</th><th>Relave</th><th>Faena</th><th>Distancia</th><th>Superficie</th></tr></thead><tbody>${relaveRows || '<tr><td colspan="5">Sin relaves en vista.</td></tr>'}</tbody></table></section>
+  <section><h2>Metodología</h2><p>El análisis aplica el cociente distancia/diámetro equivalente para zonas saturadas y grupo de relaves cercanos.</p></section>
+  <section><h2>Disclaimer</h2><p>Documento referencial para análisis territorial y apoyo a decisiones. Requiere validación técnica en terreno.</p></section>
+  <script>window.onload=()=>window.print();</script></body></html>`;
+  const pdfWindow = window.open('', '_blank');
+  if (!pdfWindow) return;
+  pdfWindow.document.write(reportHtml);
+  pdfWindow.document.close();
+}
+
+function setupCardActions() {
+  const kmzBtn = document.getElementById('btn-export-kmz');
+  const pdfBtn = document.getElementById('btn-export-pdf');
+  if (!kmzBtn || !pdfBtn) return;
+
+  kmzBtn.addEventListener('click', () => {
+    setButtonLoading('btn-export-kmz', true, 'Generando KMZ...');
+    setTimeout(() => {
+      exportKmz();
+      setButtonLoading('btn-export-kmz', false);
+    }, 450);
+  });
+
+  pdfBtn.addEventListener('click', () => {
+    setButtonLoading('btn-export-pdf', true, 'Preparando PDF PRO...');
+    setTimeout(() => {
+      exportPdfPro();
+      setButtonLoading('btn-export-pdf', false);
+    }, 450);
+  });
 }
 
 function renderSummaryCards() {
@@ -617,4 +720,4 @@ function renderActions() {
     <a href="${buildEcosystemUrl('https://example.com/geoeva')}" target="_blank" rel="noopener">Ir a GeoEVA</a>
     <a href="${buildEcosystemUrl('https://example.com/geonemo')}" target="_blank" rel="noopener">Ir a GeoNEMO</a>`;
 }
-(async function init(){const poi=getPoiFromUrl();analysisData=await buildAnalysisData(poi);renderAll();})();
+(async function init(){const poi=getPoiFromUrl();analysisData=await buildAnalysisData(poi);renderAll();setupCardActions();})();
