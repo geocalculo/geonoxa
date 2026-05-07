@@ -23,8 +23,6 @@
             <div class="summary-box summary-grid">
               <div class="kpi"><span>Zonas saturadas</span><strong id="sum-zonas">0</strong></div>
               <div class="kpi"><span>Relaves visibles</span><strong id="sum-relaves">0</strong></div>
-              <div class="kpi"><span>Centros urbanos</span><strong id="sum-centros">0</strong></div>
-              <div class="kpi"><span>Cuerpos de agua</span><strong id="sum-agua">0</strong></div>
             </div>
           </section>
         </div>
@@ -58,9 +56,11 @@
           <div id="relaves-hint"></div>
         </div>
       </aside>
-      <div class="map-overlay-controls">
-        <button type="button" id="mira-rifle" title="Mi ubicación">📍</button>
+      <div class="map-overlay-controls map-overlay-controls--top" aria-label="Control de mapa base">
         <button type="button" class="map-control-btn" id="toggle-basemap" title="OSM / Satélite">🛰️</button>
+      </div>
+      <div class="map-overlay-controls map-overlay-controls--bottom" aria-label="Acciones operacionales">
+        <button type="button" id="mira-rifle" title="Mi ubicación">📍</button>
         <button type="button" class="map-control-btn" id="home-map-btn" title="Inicio">⌂</button>
       </div>
       <p class="hint">Haz clic en el mapa para abrir el CARD PRO del punto consultado.</p>
