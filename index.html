@@ -14,7 +14,7 @@
         <div class="header-left">
           <h1><span>GeoNOXA</span></h1>
           <p>Riesgo Territorial y Conflictos Socioambientales</p>
-          <small>Zonas saturadas y depósitos de relaves</small>
+          <small>Zonas saturadas, relaves y exposición ambiental</small>
         </div>
 
         <div class="header-center">
@@ -23,6 +23,8 @@
             <div class="summary-box summary-grid">
               <div class="kpi"><span>Zonas saturadas</span><strong id="sum-zonas">0</strong></div>
               <div class="kpi"><span>Relaves visibles</span><strong id="sum-relaves">0</strong></div>
+              <div class="kpi"><span>Centros urbanos</span><strong id="sum-centros">0</strong></div>
+              <div class="kpi"><span>Cuerpos de agua</span><strong id="sum-agua">0</strong></div>
             </div>
           </section>
         </div>
@@ -39,15 +41,11 @@
     <section class="map-wrap">
       <div id="map"></div>
       <div class="map-search-box">
-        <input type="text" id="map-search" placeholder="Buscar relave, zona saturada o lugar..." autocomplete="off" />
+        <input type="text" id="map-search" placeholder="Buscar relave, zona saturada, centro urbano o lugar..." autocomplete="off" />
         <div id="map-search-results" class="map-search-results"></div>
       </div>
       <aside class="panel-territorial">
         <h3>Panel territorial</h3>
-        <div class="panel-search">
-          <label for="map-search">Buscar</label>
-          <p>Usa el buscador del mapa para encontrar relaves, zonas y lugares.</p>
-        </div>
         <fieldset>
           <legend>Etiquetas</legend>
           <label><input id="toggle-label-zonas" type="checkbox" checked /> Mostrar nombres de zonas saturadas</label>
@@ -62,17 +60,19 @@
       </aside>
       <div class="map-overlay-controls">
         <button type="button" id="mira-rifle" title="Mi ubicación">📍</button>
+        <button type="button" class="map-control-btn" id="toggle-basemap" title="OSM / Satélite">🛰️</button>
+        <button type="button" class="map-control-btn" id="home-map-btn" title="Inicio">⌂</button>
       </div>
-      <p class="hint">Haz clic en el mapa para abrir CARD PRO 2.0 del punto de interés</p>
+      <p class="hint">Haz clic en el mapa para abrir el CARD PRO del punto consultado.</p>
       <div id="crosshair" aria-hidden="true">+</div>
       <div id="geonoxa-warning" class="geonoxa-warning" role="status" aria-live="polite"></div>
     </section>
 
     <nav class="geo-switch" id="geo-switch" aria-label="GeoSwitch">
-      <a data-site="geoipt" href="#">GeoIPT</a>
-      <a data-site="geoeva" href="#">GeoEVA</a>
-      <a data-site="geonemo" href="#">GeoNEMO</a>
-      <a data-site="geonoxa" class="active" href="#">GeoNOXA</a>
+      <a data-site="geoipt" href="#"><span class="site-icon">🧭</span><span class="site-main">GeoIPT</span><span class="site-sub">Planificación urbana</span></a>
+      <a data-site="geoeva" href="#"><span class="site-icon">🌿</span><span class="site-main">GeoEVA</span><span class="site-sub">Evaluación ambiental</span></a>
+      <a data-site="geonemo" href="#"><span class="site-icon">🛡️</span><span class="site-main">GeoNEMO</span><span class="site-sub">Sitios protegidos</span></a>
+      <a data-site="geonoxa" class="active" href="#"><span class="site-icon">⚠️</span><span class="site-main">GeoNOXA</span><span class="site-sub">Riesgo territorial</span></a>
     </nav>
   </main>
 
