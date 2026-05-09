@@ -915,17 +915,15 @@ async function exportPdfPro() {
   }
 
   if (!window.jspdf?.jsPDF || !window.html2canvas) return;
-  const PDF_EXPORT_WIDTH = 1440;
   const printable = document.querySelector('.page-shell');
   if (!printable) return;
 
   const mapElement = document.getElementById('map');
   let mapPng = null;
-  let mapRect = null;
   if (mapElement) {
     try {
       await stabilizeLeafletBeforePdf(window.map || map);
-      mapRect = mapElement.getBoundingClientRect();
+      const mapRect = mapElement.getBoundingClientRect();
       const mapCanvas = await window.html2canvas(mapElement, {
         scale: 2,
         useCORS: true,
@@ -946,27 +944,14 @@ async function exportPdfPro() {
 
   const printClone = printable.cloneNode(true);
   printClone.classList.add('pdf-export-root');
-  printClone.style.width = `${PDF_EXPORT_WIDTH}px`;
-  printClone.style.maxWidth = `${PDF_EXPORT_WIDTH}px`;
-  printClone.style.minWidth = `${PDF_EXPORT_WIDTH}px`;
   if (mapPng) {
     const clonedMap = printClone.querySelector('#map');
     if (clonedMap) {
       clonedMap.innerHTML = '';
       clonedMap.removeAttribute('data-leaflet-id');
       clonedMap.classList.remove('leaflet-container');
-      if (mapRect) {
-        const mapWidth = Math.round(mapRect.width);
-        const mapHeight = Math.round(mapRect.height);
-        clonedMap.style.width = `${mapWidth}px`;
-        clonedMap.style.height = `${mapHeight}px`;
-        clonedMap.style.minWidth = `${mapWidth}px`;
-        clonedMap.style.maxWidth = `${mapWidth}px`;
-        clonedMap.style.minHeight = `${mapHeight}px`;
-        clonedMap.style.maxHeight = `${mapHeight}px`;
-        clonedMap.style.position = 'relative';
-        clonedMap.style.overflow = 'hidden';
-      }
+      clonedMap.style.position = 'relative';
+      clonedMap.style.overflow = 'hidden';
       const fixedMapImg = document.createElement('img');
       fixedMapImg.src = mapPng;
       fixedMapImg.alt = 'Mapa GeoNOXA';
@@ -980,6 +965,8 @@ async function exportPdfPro() {
     }
   }
 
+  const exportWidth = Math.round(printable.getBoundingClientRect().width);
+
   document.body.classList.add('pdf-export-mode');
   document.body.appendChild(printClone);
   let canvas;
@@ -989,8 +976,8 @@ async function exportPdfPro() {
       useCORS: true,
       backgroundColor: '#0b1220',
       logging: false,
-      windowWidth: PDF_EXPORT_WIDTH,
-      width: PDF_EXPORT_WIDTH,
+      windowWidth: exportWidth,
+      width: exportWidth,
       scrollX: 0,
       scrollY: 0
     });
