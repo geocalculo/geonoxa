@@ -6,6 +6,7 @@ const DATA_SOURCES = {
 
 let analysisData = null;
 let map;
+let renderedAnalysisLayers = null;
 
 const EXPORT_BUTTON_DEFAULT = {
   kml: 'EXPORTAR KML',
@@ -608,12 +609,90 @@ function geometryToKml(feature) {
   return '';
 }
 
+function latLngToKml(latlng) {
+  if (!latlng) return '';
+  const lat = Number(latlng.lat);
+  const lng = Number(latlng.lng);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return '';
+  return `${lng},${lat},0`;
+}
+
+function latLngsToKml(latlngs) {
+  if (!Array.isArray(latlngs)) return '';
+  const coords = latlngs.map(latLngToKml).filter(Boolean);
+  if (!coords.length) return '';
+  if (coords[0] !== coords[coords.length - 1]) coords.push(coords[0]);
+  return coords.join(' ');
+}
+
+function collectRenderedLayersForKml() {
+  const sourceGroup = renderedAnalysisLayers;
+  const layers = [];
+  if (!sourceGroup?.eachLayer) return layers;
+
+  console.group('[KML EXPORT][SOURCE OF TRUTH]');
+  sourceGroup.eachLayer((layer, index) => {
+    const layerType = layer?.constructor?.name || 'UnknownLayer';
+    const hasGetLatLng = typeof layer?.getLatLng === 'function';
+    const hasGetLatLngs = typeof layer?.getLatLngs === 'function';
+    const hasFeatureGeometry = Boolean(layer?.feature?.geometry);
+    const hasRadius = typeof layer?.getRadius === 'function' && Number.isFinite(layer.getRadius());
+    let exportAs = 'skip';
+    let geometryXml = '';
+    let extraData = '';
+
+    if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
+      const point = latLngToKml(layer.getLatLng());
+      if (point) {
+        exportAs = 'Point';
+        geometryXml = `<Point><coordinates>${point}</coordinates></Point>`;
+      }
+    } else if (layer instanceof L.Circle) {
+      const center = latLngToKml(layer.getLatLng());
+      if (center) {
+        exportAs = 'Point';
+        geometryXml = `<Point><coordinates>${center}</coordinates></Point>`;
+        extraData = `<ExtendedData><Data name="radio_metros"><value>${escapeXml(layer.getRadius())}</value></Data></ExtendedData>`;
+        console.log('Círculo exportado como centro + radio porque Leaflet Circle no contiene ring KML nativo.');
+      }
+    } else if (layer instanceof L.Polygon) {
+      const rings = layer.getLatLngs();
+      const outerRing = Array.isArray(rings?.[0]) ? rings[0] : rings;
+      const polygonCoordinates = latLngsToKml(outerRing);
+      if (polygonCoordinates) {
+        exportAs = 'Polygon';
+        geometryXml = `<Polygon><outerBoundaryIs><LinearRing><coordinates>${polygonCoordinates}</coordinates></LinearRing></outerBoundaryIs></Polygon>`;
+      }
+    } else if (layer instanceof L.Polyline) {
+      const lineCoordinates = (layer.getLatLngs() || []).map(latLngToKml).filter(Boolean).join(' ');
+      if (lineCoordinates) {
+        exportAs = 'LineString';
+        geometryXml = `<LineString><coordinates>${lineCoordinates}</coordinates></LineString>`;
+      }
+    } else if (layer?.feature?.geometry) {
+      geometryXml = geometryToKml(layer.feature);
+      if (geometryXml) exportAs = layer.feature.geometry.type;
+    }
+
+    console.log(`#${index + 1}`, { layerType, hasGetLatLng, hasGetLatLngs, hasFeatureGeometry, hasRadius, exportAs });
+
+    if (!geometryXml) return;
+    const layerName = layer?.getPopup?.()?.getContent?.() || layer?.getTooltip?.()?.getContent?.() || layerType;
+    layers.push({
+      name: String(layerName).replace(/<[^>]*>/g, ' ').trim() || layerType,
+      geometryXml,
+      extraData
+    });
+  });
+  console.log('Total layers detectadas:', layers.length);
+  console.groupEnd();
+  return layers;
+}
+
 function buildKml() {
   const poi = analysisData.poi;
-  const relaves = analysisData.relavesGrupo?.items || [];
-  const zona = analysisData.zonaSaturada;
   const fechaConsulta = new Date().toLocaleString('es-CL');
-  const poiFeature = { geometry: { type: 'Point', coordinates: [poi.lat, poi.lon] } };
+  const exportedLayers = collectRenderedLayersForKml();
 
   const poiDescription = `
     <ExtendedData>
@@ -622,55 +701,20 @@ function buildKml() {
       <Data name="fecha_consulta"><value>${escapeXml(fechaConsulta)}</value></Data>
       <Data name="radio_analisis"><value>${escapeXml(formatKm(analysisData.relavesGrupo?.radioEnvolventeKm))}</value></Data>
       <Data name="relaves_analizados"><value>${escapeXml(analysisData.relavesGrupo?.cantidadAnalizada ?? 0)}</value></Data>
-      <Data name="zonas_saturadas"><value>${escapeXml(zona?.feature ? 1 : 0)}</value></Data>
+      <Data name="zonas_saturadas"><value>${escapeXml(analysisData.zonaSaturada?.feature ? 1 : 0)}</value></Data>
     </ExtendedData>
     <description>${escapeXml(`Latitud: ${poi.lat} | Longitud: ${poi.lon} | Fecha consulta: ${fechaConsulta}`)}</description>
   `;
 
-  const zonaRelation = zona?.poiInOut === 'Dentro' ? 'intersecta' : 'cercana';
-
-  const relavePlacemarks = [];
-  relaves.forEach((item) => {
-    try {
-      const feature = item?.feature || { geometry: { type: 'Point', coordinates: item.centroide } };
-      const geometryXml = geometryToKml(feature);
-      if (!geometryXml) return;
-      const diametroEqM = Number.isFinite(item.superficieHa) ? (computeEquivalentDiameter(item.superficieHa) * 1000).toFixed(0) : 'N/D';
-      relavePlacemarks.push(`<Placemark><name>${escapeXml(`Relave ${item.rank}: ${item.nombre}`)}</name><styleUrl>#relavesStyle</styleUrl><description>${escapeXml(`ID: ${item.nombre} | Faena: ${item.faena || 'N/D'} | Distancia km: ${formatKm(item.distPoiKm)} | Diametro equivalente m: ${diametroEqM} | KPI: ${Number.isFinite(analysisData.riesgo.kpiRelaves) ? analysisData.riesgo.kpiRelaves.toFixed(2) : 'N/D'} | Riesgo: ${analysisData.riesgo.relaves} | Metodo constructivo: ${analysisData.relave?.metodo || 'N/D'}`)}</description><ExtendedData><Data name="id"><value>${escapeXml(item.nombre)}</value></Data><Data name="faena"><value>${escapeXml(item.faena || 'N/D')}</value></Data><Data name="distancia_km"><value>${escapeXml(formatKm(item.distPoiKm))}</value></Data><Data name="diametro_equivalente_m"><value>${escapeXml(diametroEqM)}</value></Data><Data name="metodo_constructivo"><value>${escapeXml(analysisData.relave?.metodo || 'N/D')}</value></Data></ExtendedData>${geometryXml}</Placemark>`);
-    } catch (err) {
-      console.warn('Error exportando feature:', err);
-    }
-  });
-
-  let zonaPlacemark = '';
-  try {
-    if (zona?.feature) {
-      const geometryXml = geometryToKml(zona.feature);
-      if (geometryXml) {
-        zonaPlacemark = `<Placemark><name>${escapeXml(zona.nombre || 'Zona saturada')}</name><styleUrl>#zonaStyle</styleUrl><description>${escapeXml(`Nombre: ${zona.nombre || 'N/D'} | Estado: ${zona.estado || 'N/D'} | Decreto: ${zona.fuente || 'N/D'} | Distancia km: ${formatKm(zona.distPerimetroKm)} | Relacion con POI: ${zonaRelation}`)}</description><ExtendedData><Data name="nombre"><value>${escapeXml(zona.nombre || 'N/D')}</value></Data><Data name="estado"><value>${escapeXml(zona.estado || 'N/D')}</value></Data><Data name="decreto"><value>${escapeXml(zona.fuente || 'N/D')}</value></Data></ExtendedData>${geometryXml}</Placemark>`;
-      }
-    }
-  } catch (err) {
-    console.warn('Error exportando feature:', err);
-  }
-
-  const bufferRadiusKm = analysisData.relavesGrupo?.radioEnvolventeKm;
-  const circleCoordinates = buildCircleCoords([poi.lat, poi.lon], Math.max((bufferRadiusKm || 0) * 1000, 1), 96).map(coordToKml).filter(Boolean).join(' ');
-  const bufferCoordinates = buildCircleCoords([poi.lat, poi.lon], Math.max(((poi.radioKm || bufferRadiusKm || 1) * 1000), 1), 96).map(coordToKml).filter(Boolean).join(' ');
-  const poiGeometry = geometryToKml(poiFeature);
+  const placemarks = exportedLayers.map((layer) => `<Placemark><name>${escapeXml(layer.name)}</name>${layer.extraData}${layer.geometryXml}</Placemark>`).join('');
+  const poiCoordinates = coordToKml([poi.lat, poi.lon]);
+  const poiGeometry = poiCoordinates ? `<Point><coordinates>${poiCoordinates}</coordinates></Point>` : '';
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>GeoNOXA_QUERY</name>
 <Style id="poiStyle"><IconStyle><color>ffff8800</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle></Style>
-<Style id="relavesStyle"><IconStyle><color>ff00a5ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon></IconStyle></Style>
-<Style id="zonaStyle"><LineStyle><color>ff0077ff</color><width>2</width></LineStyle><PolyStyle><color>660077ff</color></PolyStyle></Style>
-<Style id="circleStyle"><LineStyle><color>9900a5ff</color><width>2</width></LineStyle><PolyStyle><color>00000000</color></PolyStyle></Style>
-<Style id="bufferStyle"><LineStyle><color>ffee5500</color><width>2</width></LineStyle><PolyStyle><color>55ee5500</color></PolyStyle></Style>
 <Folder><name>POI</name>${poiGeometry ? `<Placemark><name>POI</name><styleUrl>#poiStyle</styleUrl><description>${poiDescription}</description>${poiGeometry}</Placemark>` : ''}</Folder>
-<Folder><name>Zonas_Saturadas</name>${zonaPlacemark}</Folder>
-<Folder><name>Relaves</name>${relavePlacemarks.join('')}</Folder>
-<Folder><name>Circulos_Equivalentes</name>${circleCoordinates ? `<Placemark><name>${escapeXml('Círculo equivalente')}</name><styleUrl>#circleStyle</styleUrl><LineString><coordinates>${circleCoordinates}</coordinates></LineString></Placemark>` : ''}</Folder>
-<Folder><name>Buffer_Analisis</name>${bufferCoordinates ? `<Placemark><name>${escapeXml('Buffer análisis')}</name><styleUrl>#bufferStyle</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>${bufferCoordinates}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>` : ''}</Folder>
+<Folder><name>Capas_Renderizadas</name>${placemarks}</Folder>
 </Document></kml>`;
 }
 
@@ -823,6 +867,7 @@ function initMap() {
   L.control.scale({ metric: true, imperial: false }).addTo(map);
 
   const group = L.featureGroup().addTo(map);
+  renderedAnalysisLayers = group;
 
   const poi = L.circleMarker(poiLatLng, { radius: 7, color: '#1d4ed8', weight: 2, fillColor: '#2563eb', fillOpacity: 0.85 })
     .bindPopup('POI')
