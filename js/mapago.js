@@ -7,6 +7,7 @@ const DATA_SOURCES = {
 let analysisData = null;
 let map;
 let renderedAnalysisLayers = null;
+const PDF_EXPORT_WIDTH = 1440;
 
 const EXPORT_BUTTON_DEFAULT = {
   kml: 'EXPORTAR KML',
@@ -882,6 +883,45 @@ function exportKML() {
   }
 }
 async function exportPdfPro() {
+  async function waitForLeafletTiles(mapInstance) {
+    if (!mapInstance || typeof mapInstance.eachLayer !== 'function') return;
+    const tilePromises = [];
+    mapInstance.eachLayer((layer) => {
+      if (!layer || !layer._container || typeof layer.on !== 'function') return;
+      if (typeof layer.isLoading === 'function' && layer.isLoading()) {
+        tilePromises.push(new Promise((resolve) => {
+          const done = () => {
+            layer.off('load', done);
+            layer.off('tileerror', done);
+            resolve();
+          };
+          layer.on('load', done);
+          layer.on('tileerror', done);
+          setTimeout(done, 2000);
+        }));
+      }
+    });
+    if (tilePromises.length) await Promise.all(tilePromises);
+  }
+
+  async function captureLeafletPng(mapInstance) {
+    if (!mapInstance || !window.L?.simpleMapScreenshoter) return null;
+    const screenshoter = window.L.simpleMapScreenshoter({
+      hidden: true,
+      preventDownload: true,
+      cropImageByInnerWH: true,
+      mimeType: 'image/png'
+    }).addTo(mapInstance);
+    try {
+      const screenshot = await screenshoter.takeScreen('image');
+      if (typeof screenshot === 'string' && screenshot.startsWith('data:image/png')) return screenshot;
+      if (screenshot instanceof HTMLCanvasElement) return screenshot.toDataURL('image/png');
+      return null;
+    } finally {
+      screenshoter.remove();
+    }
+  }
+
   async function stabilizeLeafletBeforePdf(mapInstance) {
     if (!mapInstance) return;
 
@@ -908,7 +948,8 @@ async function exportPdfPro() {
         });
       }
 
-      await new Promise((resolve) => setTimeout(resolve, 250));
+      await waitForLeafletTiles(mapInstance);
+      await new Promise((resolve) => setTimeout(resolve, 400));
     } catch (error) {
       console.warn('[PDF EXPORT] Falló la estabilización de Leaflet antes de exportar', error);
     }
@@ -923,20 +964,7 @@ async function exportPdfPro() {
   if (mapElement) {
     try {
       await stabilizeLeafletBeforePdf(window.map || map);
-      const mapRect = mapElement.getBoundingClientRect();
-      const mapCanvas = await window.html2canvas(mapElement, {
-        scale: 2,
-        useCORS: true,
-        backgroundColor: null,
-        logging: false,
-        width: Math.round(mapRect.width),
-        height: Math.round(mapRect.height),
-        scrollX: -window.scrollX,
-        scrollY: -window.scrollY,
-        windowWidth: document.documentElement.clientWidth,
-        windowHeight: document.documentElement.clientHeight
-      });
-      mapPng = mapCanvas.toDataURL('image/png');
+      mapPng = await captureLeafletPng(window.map || map);
     } catch (error) {
       console.warn('[PDF EXPORT] No se pudo congelar el mapa como PNG, usando clon original', error);
     }
@@ -957,15 +985,13 @@ async function exportPdfPro() {
       fixedMapImg.alt = 'Mapa GeoNOXA';
       fixedMapImg.style.width = '100%';
       fixedMapImg.style.height = '100%';
-      fixedMapImg.style.objectFit = 'cover';
+      fixedMapImg.style.objectFit = 'contain';
       fixedMapImg.style.display = 'block';
       fixedMapImg.style.position = 'absolute';
       fixedMapImg.style.inset = '0';
       clonedMap.appendChild(fixedMapImg);
     }
   }
-
-  const exportWidth = Math.round(printable.getBoundingClientRect().width);
 
   document.body.classList.add('pdf-export-mode');
   document.body.appendChild(printClone);
@@ -976,8 +1002,8 @@ async function exportPdfPro() {
       useCORS: true,
       backgroundColor: '#0b1220',
       logging: false,
-      windowWidth: exportWidth,
-      width: exportWidth,
+      windowWidth: PDF_EXPORT_WIDTH,
+      width: PDF_EXPORT_WIDTH,
       scrollX: 0,
       scrollY: 0
     });
