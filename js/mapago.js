@@ -887,9 +887,20 @@ async function exportPdfPro() {
   if (!printable) return;
   const printClone = printable.cloneNode(true);
   printClone.classList.add('pdf-export-root');
+  document.body.classList.add('pdf-export-mode');
   document.body.appendChild(printClone);
-  const canvas = await window.html2canvas(printClone, { scale: 2, useCORS: true, backgroundColor: '#ffffff' });
-  document.body.removeChild(printClone);
+  let canvas;
+  try {
+    canvas = await window.html2canvas(printClone, {
+      scale: 2,
+      useCORS: true,
+      backgroundColor: '#0b1220',
+      logging: false
+    });
+  } finally {
+    document.body.classList.remove('pdf-export-mode');
+    document.body.removeChild(printClone);
+  }
   const imgData = canvas.toDataURL('image/jpeg', 0.95);
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');

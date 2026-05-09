@@ -79,6 +79,65 @@ h1, h2, h3, p { margin: 0; }
   box-shadow: none !important;
   text-shadow: none !important;
 }
+body.pdf-export-mode .pdf-export-root {
+  background: #0b1220 !important;
+  color: #ffffff !important;
+}
+body.pdf-export-mode .pdf-export-root *,
+body.pdf-export-mode .pdf-export-root h1,
+body.pdf-export-mode .pdf-export-root h2,
+body.pdf-export-mode .pdf-export-root h3,
+body.pdf-export-mode .pdf-export-root h4,
+body.pdf-export-mode .pdf-export-root p,
+body.pdf-export-mode .pdf-export-root li,
+body.pdf-export-mode .pdf-export-root span,
+body.pdf-export-mode .pdf-export-root strong,
+body.pdf-export-mode .pdf-export-root small,
+body.pdf-export-mode .pdf-export-root .kpi-main,
+body.pdf-export-mode .pdf-export-root .kpi-label {
+  color: #ffffff !important;
+  text-shadow: none !important;
+  mix-blend-mode: normal !important;
+}
+body.pdf-export-mode .pdf-export-root .card,
+body.pdf-export-mode .pdf-export-root .summary-card,
+body.pdf-export-mode .pdf-export-root .panel,
+body.pdf-export-mode .pdf-export-root .hero-panel {
+  background: #1f2c3a !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  opacity: 1 !important;
+  box-shadow: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+}
+body.pdf-export-mode .pdf-export-root .summary-card {
+  background: #1e2936 !important;
+}
+body.pdf-export-mode .pdf-export-root .btn-export,
+body.pdf-export-mode .pdf-export-root .legend-floating,
+body.pdf-export-mode .pdf-export-root .actions a,
+body.pdf-export-mode .pdf-export-root .actions button,
+body.pdf-export-mode .pdf-export-root .kpi-main-block {
+  box-shadow: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  background-image: none !important;
+}
+body.pdf-export-mode .pdf-export-root [style*="radial-gradient"],
+body.pdf-export-mode .pdf-export-root [style*="backdrop-filter"],
+body.pdf-export-mode .pdf-export-root [style*="mix-blend-mode"] {
+  background-image: none !important;
+  backdrop-filter: none !important;
+  mix-blend-mode: normal !important;
+}
+body.pdf-export-mode .pdf-export-root .leaflet-pane,
+body.pdf-export-mode .pdf-export-root .leaflet-layer,
+body.pdf-export-mode .pdf-export-root .leaflet-overlay-pane,
+body.pdf-export-mode .pdf-export-root .leaflet-marker-pane {
+  filter: none !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+}
 
 .map-panel { margin-bottom: 0; }
 #map { min-height: 420px; height: 460px; border-radius: 14px; border: 1px solid rgba(144, 196, 221, .3); }
