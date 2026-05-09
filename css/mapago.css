@@ -61,7 +61,9 @@ h1, h2, h3, p { margin: 0; }
   position: fixed;
   left: -99999px;
   top: 0;
-  width: 1680px;
+  width: 1440px !important;
+  max-width: 1440px !important;
+  min-width: 1440px !important;
   background: #ffffff !important;
   color: #000000 !important;
 }
