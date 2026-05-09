@@ -520,18 +520,34 @@ function downloadTextFile(filename, content, mimeType) {
   URL.revokeObjectURL(url);
 }
 
-function coordToKml(point) {
+function validateKmlCoordinatePair(lat, lon, originalPoint) {
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return false;
+  if (Math.abs(lat) > 90 || Math.abs(lon) > 180) return false;
+  if (Math.abs(lon) < 40 && Math.abs(lat) > 60) {
+    console.warn('[KML EXPORT] Posible inversión lon/lat detectada', originalPoint);
+  }
+  return true;
+}
+
+function leafletCoordToKml(point) {
   if (!Array.isArray(point) || point.length < 2) return null;
   const lat = Number(point[0]);
   const lon = Number(point[1]);
-  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
-  if (Math.abs(lat) > 90 || Math.abs(lon) > 180) return null;
+  if (!validateKmlCoordinatePair(lat, lon, point)) return null;
   return `${lon},${lat},0`;
 }
 
-function polygonToKmlCoordinates(ring) {
+function geoJsonCoordToKml(point) {
+  if (!Array.isArray(point) || point.length < 2) return null;
+  const lon = Number(point[0]);
+  const lat = Number(point[1]);
+  if (!validateKmlCoordinatePair(lat, lon, point)) return null;
+  return `${lon},${lat},0`;
+}
+
+function polygonToKmlCoordinates(ring, coordToKmlFn = leafletCoordToKml) {
   if (!Array.isArray(ring)) return '';
-  const coords = ring.map(coordToKml).filter(Boolean);
+  const coords = ring.map(coordToKmlFn).filter(Boolean);
   if (!coords.length) return '';
   if (coords[0] !== coords[coords.length - 1]) coords.push(coords[0]);
   return coords.join(' ');
@@ -552,7 +568,7 @@ function polygonToKml(polyCoords) {
     console.warn('Polygon vacío:', polyCoords);
     return '';
   }
-  return polygonToKmlCoordinates(outer);
+  return polygonToKmlCoordinates(outer, geoJsonCoordToKml);
 }
 
 function multiPolygonToKml(multiCoords) {
@@ -592,7 +608,7 @@ function geometryToKml(feature) {
   }
 
   if (geom.type === 'Point') {
-    const pointCoordinates = coordToKml(coords);
+    const pointCoordinates = geoJsonCoordToKml(coords);
     return pointCoordinates ? `<Point><coordinates>${pointCoordinates}</coordinates></Point>` : '';
   }
 
@@ -614,7 +630,7 @@ function buildPolygonGeometryKml(rings) {
   const polygonParts = [];
   rings.forEach((ring, index) => {
     if (!Array.isArray(ring) || !ring.length) return;
-    const ringCoords = polygonToKmlCoordinates(ring);
+    const ringCoords = polygonToKmlCoordinates(ring, geoJsonCoordToKml);
     if (!ringCoords) return;
     if (index === 0) {
       polygonParts.push(`<outerBoundaryIs><LinearRing><coordinates>${ringCoords}</coordinates></LinearRing></outerBoundaryIs>`);
@@ -682,10 +698,7 @@ function buildZonaSaturadaPlacemark() {
 
 function latLngToKml(latlng) {
   if (!latlng) return '';
-  const lat = Number(latlng.lat);
-  const lng = Number(latlng.lng);
-  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return '';
-  return `${lng},${lat},0`;
+  return leafletCoordToKml([latlng.lat, latlng.lng]) || '';
 }
 
 function latLngsToKml(latlngs) {
@@ -819,13 +832,13 @@ function buildKml() {
 
   const placemarks = exportedLayers.map((layer) => `<Placemark><name>${escapeXml(layer.name)}</name>${layer.extraData}${layer.geometryXml}</Placemark>`).join('');
   const zonaSaturadaPlacemark = buildZonaSaturadaPlacemark();
-  const poiCoordinates = coordToKml([poi.lat, poi.lon]);
+  const poiCoordinates = leafletCoordToKml([poi.lat, poi.lon]);
   const poiGeometry = poiCoordinates ? `<Point><coordinates>${poiCoordinates}</coordinates></Point>` : '';
   const envelopeRing = analysisData.kmlGeometries?.circuloEnvolventeRelaves?.coordinates;
   let envelopePlacemark = '';
   if (Array.isArray(envelopeRing) && envelopeRing.length >= 4) {
     const envelopeKmlCoordinates = envelopeRing
-      .map((coord) => coordToKml(coord))
+      .map((coord) => leafletCoordToKml(coord))
       .filter(Boolean)
       .join(' ');
     if (envelopeKmlCoordinates) {
