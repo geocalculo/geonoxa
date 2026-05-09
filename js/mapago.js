@@ -915,6 +915,7 @@ async function exportPdfPro() {
   }
 
   if (!window.jspdf?.jsPDF || !window.html2canvas) return;
+  const PDF_EXPORT_WIDTH = 1440;
   const printable = document.querySelector('.page-shell');
   if (!printable) return;
 
@@ -929,7 +930,13 @@ async function exportPdfPro() {
         scale: 2,
         useCORS: true,
         backgroundColor: null,
-        logging: false
+        logging: false,
+        width: Math.round(mapRect.width),
+        height: Math.round(mapRect.height),
+        scrollX: -window.scrollX,
+        scrollY: -window.scrollY,
+        windowWidth: document.documentElement.clientWidth,
+        windowHeight: document.documentElement.clientHeight
       });
       mapPng = mapCanvas.toDataURL('image/png');
     } catch (error) {
@@ -939,6 +946,9 @@ async function exportPdfPro() {
 
   const printClone = printable.cloneNode(true);
   printClone.classList.add('pdf-export-root');
+  printClone.style.width = `${PDF_EXPORT_WIDTH}px`;
+  printClone.style.maxWidth = `${PDF_EXPORT_WIDTH}px`;
+  printClone.style.minWidth = `${PDF_EXPORT_WIDTH}px`;
   if (mapPng) {
     const clonedMap = printClone.querySelector('#map');
     if (clonedMap) {
@@ -946,8 +956,16 @@ async function exportPdfPro() {
       clonedMap.removeAttribute('data-leaflet-id');
       clonedMap.classList.remove('leaflet-container');
       if (mapRect) {
-        clonedMap.style.width = `${mapRect.width}px`;
-        clonedMap.style.height = `${mapRect.height}px`;
+        const mapWidth = Math.round(mapRect.width);
+        const mapHeight = Math.round(mapRect.height);
+        clonedMap.style.width = `${mapWidth}px`;
+        clonedMap.style.height = `${mapHeight}px`;
+        clonedMap.style.minWidth = `${mapWidth}px`;
+        clonedMap.style.maxWidth = `${mapWidth}px`;
+        clonedMap.style.minHeight = `${mapHeight}px`;
+        clonedMap.style.maxHeight = `${mapHeight}px`;
+        clonedMap.style.position = 'relative';
+        clonedMap.style.overflow = 'hidden';
       }
       const fixedMapImg = document.createElement('img');
       fixedMapImg.src = mapPng;
@@ -956,6 +974,8 @@ async function exportPdfPro() {
       fixedMapImg.style.height = '100%';
       fixedMapImg.style.objectFit = 'cover';
       fixedMapImg.style.display = 'block';
+      fixedMapImg.style.position = 'absolute';
+      fixedMapImg.style.inset = '0';
       clonedMap.appendChild(fixedMapImg);
     }
   }
@@ -968,7 +988,11 @@ async function exportPdfPro() {
       scale: 2,
       useCORS: true,
       backgroundColor: '#0b1220',
-      logging: false
+      logging: false,
+      windowWidth: PDF_EXPORT_WIDTH,
+      width: PDF_EXPORT_WIDTH,
+      scrollX: 0,
+      scrollY: 0
     });
   } finally {
     document.body.classList.remove('pdf-export-mode');
