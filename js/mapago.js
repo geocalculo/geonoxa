@@ -636,10 +636,14 @@ function collectRenderedLayersForKml() {
     const hasGetLatLng = typeof layer?.getLatLng === 'function';
     const hasGetLatLngs = typeof layer?.getLatLngs === 'function';
     const hasFeatureGeometry = Boolean(layer?.feature?.geometry);
-    const hasRadius = typeof layer?.getRadius === 'function' && Number.isFinite(layer.getRadius());
+    const radiusMeters = typeof layer?.getRadius === 'function' ? layer.getRadius() : null;
+    const hasRadius = Number.isFinite(radiusMeters);
+    const layerOptions = layer?.options || {};
+    const centerLatLng = hasGetLatLng ? layer.getLatLng() : null;
     let exportAs = 'skip';
     let geometryXml = '';
     let extraData = '';
+    let customName = '';
 
     if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
       const point = latLngToKml(layer.getLatLng());
@@ -648,11 +652,17 @@ function collectRenderedLayersForKml() {
         geometryXml = `<Point><coordinates>${point}</coordinates></Point>`;
       }
     } else if (layer instanceof L.Circle) {
-      const center = latLngToKml(layer.getLatLng());
+      const center = latLngToKml(centerLatLng);
+      const radiusKm = Number.isFinite(radiusMeters) ? radiusMeters / 1000 : null;
+      const isBlueCircle = String(layerOptions.color || '').toLowerCase() === '#2563eb' || String(layerOptions.fillColor || '').toLowerCase() === '#2563eb';
+      const hasFill = Number(layerOptions.fillOpacity) > 0;
+      const isLarge = Number.isFinite(radiusMeters) && radiusMeters > 1000;
+      const isEnvelopeCircle = isBlueCircle && hasFill && isLarge;
       if (center) {
         exportAs = 'Point';
         geometryXml = `<Point><coordinates>${center}</coordinates></Point>`;
-        extraData = `<ExtendedData><Data name="radio_metros"><value>${escapeXml(layer.getRadius())}</value></Data></ExtendedData>`;
+        extraData = `<ExtendedData><Data name="radio_metros"><value>${escapeXml(radiusMeters)}</value></Data><Data name="radio_km"><value>${escapeXml(radiusKm)}</value></Data><Data name="tipo_original"><value>Leaflet Circle</value></Data><Data name="fillOpacity"><value>${escapeXml(layerOptions.fillOpacity ?? '')}</value></Data><Data name="color"><value>${escapeXml(layerOptions.color || layerOptions.fillColor || '')}</value></Data></ExtendedData>`;
+        if (isEnvelopeCircle) customName = 'Círculo envolvente relaves';
         console.log('Círculo exportado como centro + radio porque Leaflet Circle no contiene ring KML nativo.');
       }
     } else if (layer instanceof L.Polygon) {
@@ -674,10 +684,23 @@ function collectRenderedLayersForKml() {
       if (geometryXml) exportAs = layer.feature.geometry.type;
     }
 
-    console.log(`#${index + 1}`, { layerType, hasGetLatLng, hasGetLatLngs, hasFeatureGeometry, hasRadius, exportAs });
+    console.log(`#${index + 1}`, {
+      layerType,
+      hasGetLatLng,
+      hasGetLatLngs,
+      hasFeatureGeometry,
+      hasRadius,
+      fillOpacity: layerOptions.fillOpacity,
+      opacity: layerOptions.opacity,
+      color: layerOptions.color,
+      fillColor: layerOptions.fillColor,
+      radiusMeters,
+      centerLatLng,
+      exportAs
+    });
 
     if (!geometryXml) return;
-    const layerName = layer?.getPopup?.()?.getContent?.() || layer?.getTooltip?.()?.getContent?.() || layerType;
+    const layerName = customName || layer?.getPopup?.()?.getContent?.() || layer?.getTooltip?.()?.getContent?.() || layerType;
     layers.push({
       name: String(layerName).replace(/<[^>]*>/g, ' ').trim() || layerType,
       geometryXml,
