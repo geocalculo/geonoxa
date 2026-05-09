@@ -882,18 +882,49 @@ function exportKML() {
   }
 }
 async function exportPdfPro() {
+  async function stabilizeLeafletBeforePdf(mapInstance) {
+    if (!mapInstance) return;
+
+    try {
+      mapInstance.invalidateSize(true);
+
+      if (typeof mapInstance.stop === 'function') {
+        mapInstance.stop();
+      }
+
+      if (typeof mapInstance.whenReady === 'function') {
+        await new Promise((resolve) => mapInstance.whenReady(resolve));
+      }
+
+      await new Promise((resolve) =>
+        requestAnimationFrame(() => requestAnimationFrame(resolve))
+      );
+
+      if (typeof mapInstance.eachLayer === 'function') {
+        mapInstance.eachLayer((layer) => {
+          if (layer && typeof layer.redraw === 'function') {
+            layer.redraw();
+          }
+        });
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, 250));
+    } catch (error) {
+      console.warn('[PDF EXPORT] Falló la estabilización de Leaflet antes de exportar', error);
+    }
+  }
+
   if (!window.jspdf?.jsPDF || !window.html2canvas) return;
   const printable = document.querySelector('.page-shell');
   if (!printable) return;
 
   const mapElement = document.getElementById('map');
   let mapPng = null;
+  let mapRect = null;
   if (mapElement) {
     try {
-      if (window.map && typeof window.map.invalidateSize === 'function') {
-        window.map.invalidateSize();
-      }
-      await new Promise((resolve) => setTimeout(resolve, 500));
+      await stabilizeLeafletBeforePdf(window.map || map);
+      mapRect = mapElement.getBoundingClientRect();
       const mapCanvas = await window.html2canvas(mapElement, {
         scale: 2,
         useCORS: true,
@@ -912,6 +943,12 @@ async function exportPdfPro() {
     const clonedMap = printClone.querySelector('#map');
     if (clonedMap) {
       clonedMap.innerHTML = '';
+      clonedMap.removeAttribute('data-leaflet-id');
+      clonedMap.classList.remove('leaflet-container');
+      if (mapRect) {
+        clonedMap.style.width = `${mapRect.width}px`;
+        clonedMap.style.height = `${mapRect.height}px`;
+      }
       const fixedMapImg = document.createElement('img');
       fixedMapImg.src = mapPng;
       fixedMapImg.alt = 'Mapa GeoNOXA';
