@@ -886,14 +886,31 @@ async function exportPdfPro() {
   const printable = document.querySelector('.page-shell');
   if (!printable) return;
 
+  async function stabilizeLeafletBeforePdf(mapInstance) {
+    if (!mapInstance) return;
+    try {
+      mapInstance.invalidateSize(true);
+      if (typeof mapInstance.stop === 'function') mapInstance.stop();
+      if (typeof mapInstance.whenReady === 'function') {
+        await new Promise((resolve) => mapInstance.whenReady(resolve));
+      }
+      await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+      if (typeof mapInstance.eachLayer === 'function') {
+        mapInstance.eachLayer((layer) => {
+          if (typeof layer.redraw === 'function') layer.redraw();
+        });
+      }
+      await new Promise((resolve) => setTimeout(resolve, 250));
+    } catch (error) {
+      console.warn('[PDF EXPORT] Falló la estabilización de Leaflet antes de exportar', error);
+    }
+  }
+
   const mapElement = document.getElementById('map');
   let mapPng = null;
   if (mapElement) {
     try {
-      if (window.map && typeof window.map.invalidateSize === 'function') {
-        window.map.invalidateSize();
-      }
-      await new Promise((resolve) => setTimeout(resolve, 500));
+      await stabilizeLeafletBeforePdf(window.map);
       const mapCanvas = await window.html2canvas(mapElement, {
         scale: 2,
         useCORS: true,
@@ -908,10 +925,11 @@ async function exportPdfPro() {
 
   const printClone = printable.cloneNode(true);
   printClone.classList.add('pdf-export-root');
-  if (mapPng) {
-    const clonedMap = printClone.querySelector('#map');
-    if (clonedMap) {
-      clonedMap.innerHTML = '';
+  const clonedMap = printClone.querySelector('#map');
+  if (clonedMap) {
+    clonedMap.replaceChildren();
+    clonedMap.querySelectorAll('.leaflet-pane, .leaflet-control-container, .leaflet-layer, .leaflet-tile-pane, .leaflet-overlay-pane').forEach((el) => el.remove());
+    if (mapPng) {
       const fixedMapImg = document.createElement('img');
       fixedMapImg.src = mapPng;
       fixedMapImg.alt = 'Mapa GeoNOXA';
@@ -919,7 +937,11 @@ async function exportPdfPro() {
       fixedMapImg.style.height = '100%';
       fixedMapImg.style.objectFit = 'cover';
       fixedMapImg.style.display = 'block';
+      fixedMapImg.style.position = 'absolute';
+      fixedMapImg.style.inset = '0';
       clonedMap.appendChild(fixedMapImg);
+    } else {
+      clonedMap.style.background = '#0b1220';
     }
   }
 
