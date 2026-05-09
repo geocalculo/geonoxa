@@ -625,6 +625,30 @@ function latLngsToKml(latlngs) {
   return coords.join(' ');
 }
 
+
+function createCircleRingCoords(centerLat, centerLon, radiusMeters, segments = 96) {
+  if (!Number.isFinite(centerLat) || !Number.isFinite(centerLon) || !Number.isFinite(radiusMeters) || radiusMeters <= 0) return [];
+  const earthRadiusMeters = 6378137;
+  const ring = [];
+  const angularDistance = radiusMeters / earthRadiusMeters;
+  const latRad = centerLat * Math.PI / 180;
+  const lonRad = centerLon * Math.PI / 180;
+
+  for (let i = 0; i < segments; i += 1) {
+    const bearing = (i / segments) * 2 * Math.PI;
+    const sinLat = Math.sin(latRad) * Math.cos(angularDistance) + Math.cos(latRad) * Math.sin(angularDistance) * Math.cos(bearing);
+    const pointLatRad = Math.asin(Math.max(-1, Math.min(1, sinLat)));
+    const pointLonRad = lonRad + Math.atan2(
+      Math.sin(bearing) * Math.sin(angularDistance) * Math.cos(latRad),
+      Math.cos(angularDistance) - Math.sin(latRad) * Math.sin(pointLatRad)
+    );
+    ring.push([pointLatRad * 180 / Math.PI, ((pointLonRad * 180 / Math.PI + 540) % 360) - 180]);
+  }
+
+  if (ring.length) ring.push([...ring[0]]);
+  return ring;
+}
+
 function collectRenderedLayersForKml() {
   const sourceGroup = renderedAnalysisLayers;
   const layers = [];
@@ -652,19 +676,11 @@ function collectRenderedLayersForKml() {
         geometryXml = `<Point><coordinates>${point}</coordinates></Point>`;
       }
     } else if (layer instanceof L.Circle) {
-      const center = latLngToKml(centerLatLng);
-      const radiusKm = Number.isFinite(radiusMeters) ? radiusMeters / 1000 : null;
       const isBlueCircle = String(layerOptions.color || '').toLowerCase() === '#2563eb' || String(layerOptions.fillColor || '').toLowerCase() === '#2563eb';
       const hasFill = Number(layerOptions.fillOpacity) > 0;
       const isLarge = Number.isFinite(radiusMeters) && radiusMeters > 1000;
       const isEnvelopeCircle = isBlueCircle && hasFill && isLarge;
-      if (center) {
-        exportAs = 'Point';
-        geometryXml = `<Point><coordinates>${center}</coordinates></Point>`;
-        extraData = `<ExtendedData><Data name="radio_metros"><value>${escapeXml(radiusMeters)}</value></Data><Data name="radio_km"><value>${escapeXml(radiusKm)}</value></Data><Data name="tipo_original"><value>Leaflet Circle</value></Data><Data name="fillOpacity"><value>${escapeXml(layerOptions.fillOpacity ?? '')}</value></Data><Data name="color"><value>${escapeXml(layerOptions.color || layerOptions.fillColor || '')}</value></Data></ExtendedData>`;
-        if (isEnvelopeCircle) customName = 'Círculo envolvente relaves';
-        console.log('Círculo exportado como centro + radio porque Leaflet Circle no contiene ring KML nativo.');
-      }
+      if (isEnvelopeCircle) exportAs = 'skip';
     } else if (layer instanceof L.Polygon) {
       const rings = layer.getLatLngs();
       const outerRing = Array.isArray(rings?.[0]) ? rings[0] : rings;
@@ -732,12 +748,26 @@ function buildKml() {
   const placemarks = exportedLayers.map((layer) => `<Placemark><name>${escapeXml(layer.name)}</name>${layer.extraData}${layer.geometryXml}</Placemark>`).join('');
   const poiCoordinates = coordToKml([poi.lat, poi.lon]);
   const poiGeometry = poiCoordinates ? `<Point><coordinates>${poiCoordinates}</coordinates></Point>` : '';
+  const envelopeRing = analysisData.kmlGeometries?.circuloEnvolventeRelaves?.coordinates;
+  let envelopePlacemark = '';
+  if (Array.isArray(envelopeRing) && envelopeRing.length >= 4) {
+    const envelopeKmlCoordinates = envelopeRing
+      .map((coord) => coordToKml(coord))
+      .filter(Boolean)
+      .join(' ');
+    if (envelopeKmlCoordinates) {
+      envelopePlacemark = `<Placemark><name>Círculo envolvente relaves seleccionados</name><styleUrl>#circuloEnvolventeStyle</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>${envelopeKmlCoordinates}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>`;
+    }
+  } else {
+    console.warn('[KML EXPORT] círculo envolvente sin ring precomputado; no se exporta como polígono');
+  }
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>GeoNOXA_QUERY</name>
 <Style id="poiStyle"><IconStyle><color>ffff8800</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle></Style>
+<Style id="circuloEnvolventeStyle"><LineStyle><color>ccff7b2f</color><width>2</width></LineStyle><PolyStyle><color>332f7bff</color></PolyStyle></Style>
 <Folder><name>POI</name>${poiGeometry ? `<Placemark><name>POI</name><styleUrl>#poiStyle</styleUrl><description>${poiDescription}</description>${poiGeometry}</Placemark>` : ''}</Folder>
-<Folder><name>Capas_Renderizadas</name>${placemarks}</Folder>
+<Folder><name>Capas_Renderizadas</name>${placemarks}${envelopePlacemark}</Folder>
 </Document></kml>`;
 }
 
@@ -924,6 +954,22 @@ function initMap() {
   const envelopeRadiusKm = analysisData.relavesGrupo?.radioEnvolventeKm;
   const envelopeRadiusMeters = Number.isFinite(envelopeRadiusKm) ? envelopeRadiusKm * 1000 : null;
   if (Number.isFinite(envelopeRadiusMeters) && envelopeRadiusMeters > 0) {
+    const ringCoords = createCircleRingCoords(poiLatLng[0], poiLatLng[1], envelopeRadiusMeters);
+    analysisData.kmlGeometries = analysisData.kmlGeometries || {};
+    analysisData.kmlGeometries.circuloEnvolventeRelaves = {
+      type: 'Polygon',
+      name: 'Círculo envolvente relaves seleccionados',
+      center: [poiLatLng[0], poiLatLng[1]],
+      radiusMeters: envelopeRadiusMeters,
+      coordinates: ringCoords,
+      style: {
+        color: '#2f7bff',
+        fillColor: '#2f7bff',
+        fillOpacity: 0.18,
+        opacity: 0.8
+      }
+    };
+
     envelopeCircle = L.circle(poiLatLng, {
       radius: envelopeRadiusMeters,
       color: '#2563eb',
