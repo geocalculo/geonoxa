@@ -885,8 +885,44 @@ async function exportPdfPro() {
   if (!window.jspdf?.jsPDF || !window.html2canvas) return;
   const printable = document.querySelector('.page-shell');
   if (!printable) return;
+
+  const mapElement = document.getElementById('map');
+  let mapPng = null;
+  if (mapElement) {
+    try {
+      if (window.map && typeof window.map.invalidateSize === 'function') {
+        window.map.invalidateSize();
+      }
+      await new Promise((resolve) => setTimeout(resolve, 500));
+      const mapCanvas = await window.html2canvas(mapElement, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: null,
+        logging: false
+      });
+      mapPng = mapCanvas.toDataURL('image/png');
+    } catch (error) {
+      console.warn('[PDF EXPORT] No se pudo congelar el mapa como PNG, usando clon original', error);
+    }
+  }
+
   const printClone = printable.cloneNode(true);
   printClone.classList.add('pdf-export-root');
+  if (mapPng) {
+    const clonedMap = printClone.querySelector('#map');
+    if (clonedMap) {
+      clonedMap.innerHTML = '';
+      const fixedMapImg = document.createElement('img');
+      fixedMapImg.src = mapPng;
+      fixedMapImg.alt = 'Mapa GeoNOXA';
+      fixedMapImg.style.width = '100%';
+      fixedMapImg.style.height = '100%';
+      fixedMapImg.style.objectFit = 'cover';
+      fixedMapImg.style.display = 'block';
+      clonedMap.appendChild(fixedMapImg);
+    }
+  }
+
   document.body.classList.add('pdf-export-mode');
   document.body.appendChild(printClone);
   let canvas;
@@ -901,7 +937,7 @@ async function exportPdfPro() {
     document.body.classList.remove('pdf-export-mode');
     document.body.removeChild(printClone);
   }
-  const imgData = canvas.toDataURL('image/jpeg', 0.95);
+  const imgData = canvas.toDataURL('image/png');
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
   const pageWidth = doc.internal.pageSize.getWidth();
@@ -910,12 +946,12 @@ async function exportPdfPro() {
   const imgHeight = (canvas.height * imgWidth) / canvas.width;
   let y = 0;
   let heightLeft = imgHeight;
-  doc.addImage(imgData, 'JPEG', 0, y, imgWidth, imgHeight);
+  doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
   heightLeft -= pageHeight;
   while (heightLeft > 0) {
     y = heightLeft - imgHeight;
     doc.addPage();
-    doc.addImage(imgData, 'JPEG', 0, y, imgWidth, imgHeight);
+    doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
     heightLeft -= pageHeight;
   }
   doc.save('GeoNOXA_PRO_QUERY.pdf');
