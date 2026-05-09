@@ -732,7 +732,19 @@ function setupCardActions() {
   if (!kmzBtn || !pdfBtn) return;
 
   function handleExportKML() {
-    alert('Exportación KML en ajuste. El análisis visual está disponible.');
+    console.group('[KML EXPORT][CLICK]');
+    console.log('✓ click recibido en botón EXPORTAR KML');
+    console.groupEnd();
+
+    try {
+      setButtonLoading('btn-export-kml', true, 'Generando KML...');
+      exportKML();
+    } catch (error) {
+      console.error('[KML EXPORT] Error al exportar KML', error);
+      alert('No se pudo exportar el KML. Revisa consola para detalle.');
+    } finally {
+      setButtonLoading('btn-export-kml', false);
+    }
   }
 
   kmzBtn.addEventListener('click', handleExportKML);
