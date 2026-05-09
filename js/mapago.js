@@ -609,6 +609,77 @@ function geometryToKml(feature) {
   return '';
 }
 
+function buildPolygonGeometryKml(rings) {
+  if (!Array.isArray(rings) || !rings.length) return '';
+  const polygonParts = [];
+  rings.forEach((ring, index) => {
+    if (!Array.isArray(ring) || !ring.length) return;
+    const ringCoords = polygonToKmlCoordinates(ring);
+    if (!ringCoords) return;
+    if (index === 0) {
+      polygonParts.push(`<outerBoundaryIs><LinearRing><coordinates>${ringCoords}</coordinates></LinearRing></outerBoundaryIs>`);
+    } else {
+      polygonParts.push(`<innerBoundaryIs><LinearRing><coordinates>${ringCoords}</coordinates></LinearRing></innerBoundaryIs>`);
+    }
+  });
+  return polygonParts.length ? `<Polygon>${polygonParts.join('')}</Polygon>` : '';
+}
+
+function buildZonaSaturadaGeometryKml(feature) {
+  const geometry = feature?.geometry;
+  const coords = geometry?.coordinates;
+  if (!geometry || !Array.isArray(coords) || !coords.length) return '';
+  if (geometry.type === 'Polygon') return buildPolygonGeometryKml(coords);
+  if (geometry.type === 'MultiPolygon') {
+    const polygons = coords.map((polygonRings) => buildPolygonGeometryKml(polygonRings)).filter(Boolean);
+    return polygons.length ? `<MultiGeometry>${polygons.join('')}</MultiGeometry>` : '';
+  }
+  return '';
+}
+
+function buildZonaSaturadaPlacemark() {
+  const zona = analysisData?.zonaSaturada;
+  const feature = zona?.feature;
+  const geometry = feature?.geometry;
+  const geometryType = geometry?.type;
+  const coordinates = geometry?.coordinates;
+  const rings = geometryType === 'Polygon'
+    ? coordinates
+    : (geometryType === 'MultiPolygon' ? coordinates.flat() : []);
+  const vertices = rings.flat().filter((coord) => Array.isArray(coord) && coord.length >= 2);
+  const firstVertex = vertices[0] || null;
+  const lastVertex = vertices[vertices.length - 1] || null;
+  const firstRing = Array.isArray(rings?.[0]) ? rings[0] : null;
+  const hasClosedRing = Boolean(firstRing?.length) && JSON.stringify(firstRing[0]) === JSON.stringify(firstRing[firstRing.length - 1]);
+  const leafletLayer = renderedAnalysisLayers?.getLayers?.()?.find((layer) => String(layer?.getPopup?.()?.getContent?.() || '').includes('Zona saturada:'));
+
+  console.group('[KML EXPORT][ZONA SATURADA]');
+  console.log('zona.feature existe?', Boolean(feature));
+  console.log('geometry.type', geometryType || 'N/A');
+  console.log('coordinates.length', Array.isArray(coordinates) ? coordinates.length : 0);
+  console.log('Polygon o MultiPolygon', geometryType === 'Polygon' || geometryType === 'MultiPolygon' ? geometryType : 'No soportado');
+  console.log('cantidad de vértices', vertices.length);
+  console.log('primer vértice', firstVertex);
+  console.log('último vértice', lastVertex);
+  console.log('geometry vacía?', !Array.isArray(coordinates) || !coordinates.length);
+  console.log('ring cerrado?', hasClosedRing);
+  console.log('layer Leaflet asociado?', Boolean(leafletLayer));
+  console.log(zona?.feature);
+  console.groupEnd();
+
+  const geometryXml = buildZonaSaturadaGeometryKml(feature);
+  if (!geometryXml) return '';
+
+  return `<Placemark><name>${escapeXml(`Zona Saturada: ${zona?.nombre || 'Sin nombre'}`)}</name><styleUrl>#zonaSaturadaStyle</styleUrl><ExtendedData>
+      <Data name="estado"><value>${escapeXml(zona?.estado || 'N/D')}</value></Data>
+      <Data name="distancia_poi_km"><value>${escapeXml(formatKm(zona?.distPerimetroKm))}</value></Data>
+      <Data name="distancia_borde_km"><value>${escapeXml(formatKm(zona?.distPerimetroKm))}</value></Data>
+      <Data name="distancia_centroide_km"><value>${escapeXml(formatKm(zona?.distCentroideKm))}</value></Data>
+      <Data name="diametro_equivalente_km"><value>${escapeXml(formatKm(zona?.diametroZonaKm))}</value></Data>
+      <Data name="KPI"><value>${escapeXml(Number.isFinite(analysisData?.riesgo?.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D')}</value></Data>
+    </ExtendedData>${geometryXml}</Placemark>`;
+}
+
 function latLngToKml(latlng) {
   if (!latlng) return '';
   const lat = Number(latlng.lat);
@@ -717,6 +788,7 @@ function collectRenderedLayersForKml() {
 
     if (!geometryXml) return;
     const layerName = customName || layer?.getPopup?.()?.getContent?.() || layer?.getTooltip?.()?.getContent?.() || layerType;
+    if (String(layerName).includes('Zona saturada:')) return;
     layers.push({
       name: String(layerName).replace(/<[^>]*>/g, ' ').trim() || layerType,
       geometryXml,
@@ -746,6 +818,7 @@ function buildKml() {
   `;
 
   const placemarks = exportedLayers.map((layer) => `<Placemark><name>${escapeXml(layer.name)}</name>${layer.extraData}${layer.geometryXml}</Placemark>`).join('');
+  const zonaSaturadaPlacemark = buildZonaSaturadaPlacemark();
   const poiCoordinates = coordToKml([poi.lat, poi.lon]);
   const poiGeometry = poiCoordinates ? `<Point><coordinates>${poiCoordinates}</coordinates></Point>` : '';
   const envelopeRing = analysisData.kmlGeometries?.circuloEnvolventeRelaves?.coordinates;
@@ -766,8 +839,9 @@ function buildKml() {
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>GeoNOXA_QUERY</name>
 <Style id="poiStyle"><IconStyle><color>ffff8800</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle></Style>
 <Style id="circuloEnvolventeStyle"><LineStyle><color>ccff7b2f</color><width>2</width></LineStyle><PolyStyle><color>332f7bff</color></PolyStyle></Style>
+<Style id="zonaSaturadaStyle"><LineStyle><color>ff0055ff</color><width>2</width></LineStyle><PolyStyle><color>440055ff</color></PolyStyle></Style>
 <Folder><name>POI</name>${poiGeometry ? `<Placemark><name>POI</name><styleUrl>#poiStyle</styleUrl><description>${poiDescription}</description>${poiGeometry}</Placemark>` : ''}</Folder>
-<Folder><name>Capas_Renderizadas</name>${placemarks}${envelopePlacemark}</Folder>
+<Folder><name>Capas_Renderizadas</name>${zonaSaturadaPlacemark}${placemarks}${envelopePlacemark}</Folder>
 </Document></kml>`;
 }
 
