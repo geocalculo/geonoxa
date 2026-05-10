@@ -150,8 +150,6 @@ body.pdf-export-mode .pdf-export-root .leaflet-marker-pane {
 .map-panel { margin-bottom: 0; }
 #map { min-height: 420px; height: 460px; border-radius: 14px; border: 1px solid rgba(144, 196, 221, .3); }
 .map-wrap { position: relative; }
-.legend-floating { position: absolute; right: 14px; top: 14px; z-index: 500; background: rgba(7, 16, 24, 0.86); border: 1px solid rgba(143, 191, 221, 0.35); border-radius: 12px; padding: 10px 12px; font-size: 12px; color: #d7e8f8; }
-.legend-floating ul { margin: 0; padding-left: 14px; line-height: 1.55; }
 
 .cards-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
 .summary-card { background: var(--card-soft); border-radius: 16px; padding: 16px; border: 1px solid rgba(145, 191, 219, .25); }
@@ -175,7 +173,6 @@ body.pdf-export-mode .pdf-export-root .leaflet-marker-pane {
 }
 @media (max-width: 860px) {
   #map { min-height: 360px; height: 360px; }
-  .legend-floating { position: static; margin-top: 10px; }
 }
 @media (max-width: 768px) {
   .top-layout { grid-template-columns: 1fr; }
