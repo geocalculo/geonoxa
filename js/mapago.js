@@ -904,22 +904,167 @@ async function exportPdfPro() {
     if (tilePromises.length) await Promise.all(tilePromises);
   }
 
-  async function captureLeafletPng(mapInstance) {
-    if (!mapInstance || !window.L?.simpleMapScreenshoter) return null;
-    const screenshoter = window.L.simpleMapScreenshoter({
-      hidden: true,
-      preventDownload: true,
-      cropImageByInnerWH: true,
-      mimeType: 'image/png'
-    }).addTo(mapInstance);
-    try {
-      const screenshot = await screenshoter.takeScreen('image');
-      if (typeof screenshot === 'string' && screenshot.startsWith('data:image/png')) return screenshot;
-      if (screenshot instanceof HTMLCanvasElement) return screenshot.toDataURL('image/png');
-      return null;
-    } finally {
-      screenshoter.remove();
+  async function renderMapToCanvas(mapInstance, mapElement) {
+    if (!mapInstance || !mapElement) return null;
+    const rect = mapElement.getBoundingClientRect();
+    const width = Math.max(1, Math.round(rect.width));
+    const height = Math.max(1, Math.round(rect.height));
+    const canvas = document.createElement('canvas');
+    canvas.width = width;
+    canvas.height = height;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return null;
+
+    ctx.fillStyle = '#e5e7eb';
+    ctx.fillRect(0, 0, width, height);
+
+    const tilePane = mapElement.querySelector('.leaflet-tile-pane');
+    const images = tilePane ? Array.from(tilePane.querySelectorAll('img.leaflet-tile')) : [];
+    images.forEach((img) => {
+      if (!img.complete || !img.naturalWidth) return;
+      const tileRect = img.getBoundingClientRect();
+      const x = tileRect.left - rect.left;
+      const y = tileRect.top - rect.top;
+      const w = tileRect.width;
+      const h = tileRect.height;
+      ctx.drawImage(img, x, y, w, h);
+    });
+
+    addAnalysisLayersToCanvas(ctx, mapInstance);
+    return canvas.toDataURL('image/png');
+  }
+
+  function metersToLngDegrees(meters, latitude) {
+    const safeLat = Number.isFinite(latitude) ? latitude : 0;
+    const metersPerDegree = 111320 * Math.cos((safeLat * Math.PI) / 180);
+    if (!Number.isFinite(metersPerDegree) || Math.abs(metersPerDegree) < 1e-9) return 0;
+    return meters / metersPerDegree;
+  }
+
+  function addAnalysisLayersToCanvas(ctx, mapInstance) {
+    if (!ctx || !mapInstance || !analysisData) return;
+    const poiLatLng = L.latLng(analysisData.poi.lat, analysisData.poi.lon);
+    const poiPoint = mapInstance.latLngToContainerPoint(poiLatLng);
+    const relaveItems = analysisData.relavesGrupo?.items || [];
+
+    const drawPolygonLike = (coords, style) => {
+      if (!Array.isArray(coords) || !coords.length) return;
+      const isRing = Array.isArray(coords[0]) && typeof coords[0][0] === 'number';
+      if (isRing) {
+        ctx.beginPath();
+        coords.forEach((latLng, idx) => {
+          if (!Array.isArray(latLng) || latLng.length < 2) return;
+          const p = mapInstance.latLngToContainerPoint(latLng);
+          if (idx === 0) ctx.moveTo(p.x, p.y);
+          else ctx.lineTo(p.x, p.y);
+        });
+        ctx.closePath();
+        if (style.fillStyle) {
+          ctx.fillStyle = style.fillStyle;
+          ctx.fill();
+        }
+        if (style.strokeStyle) {
+          ctx.strokeStyle = style.strokeStyle;
+          ctx.lineWidth = style.lineWidth || 1;
+          ctx.setLineDash(style.lineDash || []);
+          ctx.globalAlpha = Number.isFinite(style.opacity) ? style.opacity : 1;
+          ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.globalAlpha = 1;
+        }
+        return;
+      }
+      coords.forEach((sub) => drawPolygonLike(sub, style));
+    };
+
+    const drawCircle = (latLng, radiusMeters, style) => {
+      const center = mapInstance.latLngToContainerPoint(latLng);
+      const edgeLatLng = L.latLng(latLng[0], latLng[1] + metersToLngDegrees(radiusMeters, latLng[0]));
+      const edge = mapInstance.latLngToContainerPoint(edgeLatLng);
+      const radiusPx = Math.hypot(edge.x - center.x, edge.y - center.y);
+      ctx.beginPath();
+      ctx.arc(center.x, center.y, radiusPx, 0, Math.PI * 2);
+      if (style.fillStyle) {
+        ctx.fillStyle = style.fillStyle;
+        ctx.fill();
+      }
+      if (style.strokeStyle) {
+        ctx.strokeStyle = style.strokeStyle;
+        ctx.lineWidth = style.lineWidth || 1;
+        ctx.setLineDash(style.lineDash || []);
+        ctx.globalAlpha = Number.isFinite(style.opacity) ? style.opacity : 1;
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.globalAlpha = 1;
+      }
+    };
+
+    drawPolygonLike(analysisData.zonaSaturada?.polygon, { strokeStyle: '#8b5cf6', fillStyle: 'rgba(139,92,246,0.16)', lineWidth: 2 });
+
+    relaveItems.forEach((relave, index) => {
+      if (Array.isArray(relave.centroide)) {
+        const isNearest = index === 0;
+        const rPoint = mapInstance.latLngToContainerPoint(relave.centroide);
+        ctx.beginPath();
+        ctx.arc(rPoint.x, rPoint.y, isNearest ? 9 : 7, 0, Math.PI * 2);
+        ctx.fillStyle = isNearest ? '#f97316' : '#f59e0b';
+        ctx.strokeStyle = isNearest ? '#92400e' : '#b45309';
+        ctx.lineWidth = isNearest ? 3 : 2;
+        ctx.fill();
+        ctx.stroke();
+
+        const relaveRadiusMeters = computeEquivalentRadiusMeters(Number(relave.superficieHa));
+        if (Number.isFinite(relaveRadiusMeters) && relaveRadiusMeters > 0) {
+          drawCircle(relave.centroide, relaveRadiusMeters, {
+            strokeStyle: isNearest ? '#ea580c' : '#f59e0b',
+            fillStyle: 'rgba(245,158,11,0.04)',
+            lineWidth: 2
+          });
+        }
+      }
+    });
+
+    const envelopeRadiusKm = analysisData.relavesGrupo?.radioEnvolventeKm;
+    if (Number.isFinite(envelopeRadiusKm) && envelopeRadiusKm > 0) {
+      drawCircle([analysisData.poi.lat, analysisData.poi.lon], envelopeRadiusKm * 1000, {
+        strokeStyle: '#2563eb',
+        fillStyle: 'rgba(37,99,235,0.12)',
+        lineWidth: 2,
+        lineDash: [8, 6],
+        opacity: 0.9
+      });
     }
+
+    const borderPoint = analysisData.zonaSaturada?.nearestBorderPoint;
+    if (analysisData.zonaSaturada?.visibleEnBbox && Array.isArray(borderPoint)) {
+      const border = mapInstance.latLngToContainerPoint(borderPoint);
+      ctx.beginPath();
+      ctx.moveTo(poiPoint.x, poiPoint.y);
+      ctx.lineTo(border.x, border.y);
+      ctx.strokeStyle = '#8b5cf6';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([6, 6]);
+      ctx.globalAlpha = 0.9;
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.globalAlpha = 1;
+
+      ctx.beginPath();
+      ctx.arc(border.x, border.y, 5, 0, Math.PI * 2);
+      ctx.fillStyle = '#8b5cf6';
+      ctx.strokeStyle = '#8b5cf6';
+      ctx.lineWidth = 2;
+      ctx.fill();
+      ctx.stroke();
+    }
+
+    ctx.beginPath();
+    ctx.arc(poiPoint.x, poiPoint.y, 7, 0, Math.PI * 2);
+    ctx.fillStyle = '#2563eb';
+    ctx.strokeStyle = '#1d4ed8';
+    ctx.lineWidth = 2;
+    ctx.fill();
+    ctx.stroke();
   }
 
   async function stabilizeLeafletBeforePdf(mapInstance) {
@@ -964,7 +1109,7 @@ async function exportPdfPro() {
   if (mapElement) {
     try {
       await stabilizeLeafletBeforePdf(window.map || map);
-      mapPng = await captureLeafletPng(window.map || map);
+      mapPng = await renderMapToCanvas(window.map || map, mapElement);
     } catch (error) {
       console.warn('[PDF EXPORT] No se pudo congelar el mapa como PNG, usando clon original', error);
     }
