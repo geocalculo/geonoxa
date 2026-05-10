@@ -881,369 +881,141 @@ function exportKML() {
     console.groupEnd();
   }
 }
-async function captureMapPng() {
-  const mapInstance = window.map || map;
-  if (!mapInstance) return null;
+async function exportPdfPro() {
+  async function stabilizeLeafletBeforePdf(mapInstance) {
+    if (!mapInstance) return;
 
-  try {
-    mapInstance.invalidateSize(true);
-    if (typeof mapInstance.stop === 'function') mapInstance.stop();
+    try {
+      mapInstance.invalidateSize(true);
 
-    if (renderedAnalysisLayers) {
-      const bounds = renderedAnalysisLayers.getBounds();
-      if (bounds.isValid()) mapInstance.fitBounds(bounds.pad(0.12), { animate: false });
-    }
-    mapInstance.invalidateSize(true);
-    await new Promise((r) => setTimeout(r, 400));
+      if (typeof mapInstance.stop === 'function') {
+        mapInstance.stop();
+      }
 
-    // Estrategia 1: leaflet-image (mejor para tiles, ya cargado en HTML)
-    if (typeof window.leafletImage === 'function') {
-      console.log('[PDF EXPORT] Usando leaflet-image para captura...');
-      const dataUrl = await new Promise((resolve) => {
-        window.leafletImage(mapInstance, function (err, canvas) {
-          if (err || !canvas) {
-            console.warn('[PDF EXPORT] leaflet-image falló:', err);
-            resolve(null);
-            return;
-          }
-          try {
-            resolve(canvas.toDataURL('image/jpeg', 0.92));
-          } catch (e) {
-            console.warn('[PDF EXPORT] canvas.toDataURL falló:', e);
-            resolve(null);
+      if (typeof mapInstance.whenReady === 'function') {
+        await new Promise((resolve) => mapInstance.whenReady(resolve));
+      }
+
+      await new Promise((resolve) =>
+        requestAnimationFrame(() => requestAnimationFrame(resolve))
+      );
+
+      if (typeof mapInstance.eachLayer === 'function') {
+        mapInstance.eachLayer((layer) => {
+          if (layer && typeof layer.redraw === 'function') {
+            layer.redraw();
           }
         });
-      });
-      if (dataUrl) return dataUrl;
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, 250));
+    } catch (error) {
+      console.warn('[PDF EXPORT] Falló la estabilización de Leaflet antes de exportar', error);
     }
+  }
 
-    // Estrategia 2: html2canvas como fallback
-    console.log('[PDF EXPORT] Intentando html2canvas como fallback...');
-    const mapDiv = document.getElementById('map');
-    if (!mapDiv || !window.html2canvas) return null;
+  if (!window.jspdf?.jsPDF || !window.html2canvas) return;
+  const PDF_EXPORT_WIDTH = 1440;
+  const printable = document.querySelector('.page-shell');
+  if (!printable) return;
 
-    const rect = mapDiv.getBoundingClientRect();
-    const canvas = await window.html2canvas(mapDiv, {
+  const mapElement = document.getElementById('map');
+  let mapPng = null;
+  let mapRect = null;
+  if (mapElement) {
+    try {
+      await stabilizeLeafletBeforePdf(window.map || map);
+      mapRect = mapElement.getBoundingClientRect();
+      const mapCanvas = await window.html2canvas(mapElement, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: null,
+        logging: false,
+        width: Math.round(mapRect.width),
+        height: Math.round(mapRect.height),
+        scrollX: -window.scrollX,
+        scrollY: -window.scrollY,
+        windowWidth: document.documentElement.clientWidth,
+        windowHeight: document.documentElement.clientHeight
+      });
+      mapPng = mapCanvas.toDataURL('image/png');
+    } catch (error) {
+      console.warn('[PDF EXPORT] No se pudo congelar el mapa como PNG, usando clon original', error);
+    }
+  }
+
+  const printClone = printable.cloneNode(true);
+  printClone.classList.add('pdf-export-root');
+  printClone.style.width = `${PDF_EXPORT_WIDTH}px`;
+  printClone.style.maxWidth = `${PDF_EXPORT_WIDTH}px`;
+  printClone.style.minWidth = `${PDF_EXPORT_WIDTH}px`;
+  if (mapPng) {
+    const clonedMap = printClone.querySelector('#map');
+    if (clonedMap) {
+      clonedMap.innerHTML = '';
+      clonedMap.removeAttribute('data-leaflet-id');
+      clonedMap.classList.remove('leaflet-container');
+      if (mapRect) {
+        const mapWidth = Math.round(mapRect.width);
+        const mapHeight = Math.round(mapRect.height);
+        clonedMap.style.width = `${mapWidth}px`;
+        clonedMap.style.height = `${mapHeight}px`;
+        clonedMap.style.minWidth = `${mapWidth}px`;
+        clonedMap.style.maxWidth = `${mapWidth}px`;
+        clonedMap.style.minHeight = `${mapHeight}px`;
+        clonedMap.style.maxHeight = `${mapHeight}px`;
+        clonedMap.style.position = 'relative';
+        clonedMap.style.overflow = 'hidden';
+      }
+      const fixedMapImg = document.createElement('img');
+      fixedMapImg.src = mapPng;
+      fixedMapImg.alt = 'Mapa GeoNOXA';
+      fixedMapImg.style.width = '100%';
+      fixedMapImg.style.height = '100%';
+      fixedMapImg.style.objectFit = 'cover';
+      fixedMapImg.style.display = 'block';
+      fixedMapImg.style.position = 'absolute';
+      fixedMapImg.style.inset = '0';
+      clonedMap.appendChild(fixedMapImg);
+    }
+  }
+
+  document.body.classList.add('pdf-export-mode');
+  document.body.appendChild(printClone);
+  let canvas;
+  try {
+    canvas = await window.html2canvas(printClone, {
       scale: 2,
       useCORS: true,
-      allowTaint: true,
-      backgroundColor: '#f0f0f0',
+      backgroundColor: '#0b1220',
       logging: false,
-      width: Math.round(rect.width),
-      height: Math.round(rect.height),
-      x: rect.left + window.scrollX,
-      y: rect.top + window.scrollY,
+      windowWidth: PDF_EXPORT_WIDTH,
+      width: PDF_EXPORT_WIDTH,
+      scrollX: 0,
+      scrollY: 0
     });
-    return canvas.toDataURL('image/jpeg', 0.92);
-  } catch (err) {
-    console.warn('[PDF EXPORT] Error capturando mapa:', err);
-    return null;
+  } finally {
+    document.body.classList.remove('pdf-export-mode');
+    document.body.removeChild(printClone);
   }
-}
-
-async function exportPdfPro() {
-  if (!window.jspdf?.jsPDF) {
-    alert('jsPDF no disponible');
-    return;
-  }
-
+  const imgData = canvas.toDataURL('image/png');
   const { jsPDF } = window.jspdf;
-  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-
-  const margin = 15;
-  const pageW = 210;
-  const pageH = 297;
-  const contentW = pageW - margin * 2;
-  const pageBottom = pageH - 20;
-  let y = margin;
-
-  const safeText = (s) => String(s ?? '—').trim() || '—';
-  const fmtKm = (v) => Number.isFinite(v) ? `${v.toFixed(2)} km` : 'N/D';
-  const fmtHa = (v) => Number.isFinite(v) ? `${v.toFixed(1)} ha` : 'N/D';
-  const fmtKpi = (v) => Number.isFinite(v) ? v.toFixed(2) : 'N/D';
-
-  const newPageIfNeeded = (need) => {
-    if (y + need > pageBottom) { doc.addPage(); y = margin; }
-  };
-
-  const d = analysisData;
-  if (!d) return;
-
-  // === PORTADA ===
-  doc.setFontSize(20);
-  doc.setFont('helvetica', 'bold');
-  doc.text('GeoNOXA | CARD PRO 2.0', margin, y);
-  y += 7;
-  doc.setFontSize(11);
-  doc.setFont('helvetica', 'normal');
-  doc.setTextColor(100);
-  doc.text('Análisis territorial del POI', margin, y);
-  y += 8;
-
-  doc.setDrawColor(180);
-  doc.line(margin, y, pageW - margin, y);
-  y += 8;
-
-  doc.setTextColor(0);
-  doc.setFontSize(10);
-  const infoLines = [
-    `POI: ${d.poi.lat.toFixed(7)}, ${d.poi.lon.toFixed(7)}`,
-    `Fecha análisis: ${new Date().toLocaleString('es-CL')}`,
-    `Relaves analizados: ${d.relavesGrupo.cantidadAnalizada} de ${d.relavesGrupo.totalEnVista} en vista`,
-  ];
-  infoLines.forEach((line) => { doc.text(line, margin, y); y += 5; });
-  y += 4;
-
-  // === RIESGO TERRITORIAL ===
-  doc.setFontSize(14);
-  doc.setFont('helvetica', 'bold');
-  doc.text('RIESGO TERRITORIAL', margin, y);
-  y += 8;
-
-  const riskColor = { 'MUY ALTO': [220, 38, 38], 'ALTO': [249, 115, 22], 'MEDIO': [250, 204, 21], 'BAJO': [74, 222, 128], 'MUY BAJO': [22, 163, 74] };
-  const rc = riskColor[d.riesgo.nivel] || [0, 0, 0];
-  doc.setFontSize(28);
-  doc.setFont('helvetica', 'bold');
-  doc.setTextColor(rc[0], rc[1], rc[2]);
-  doc.text(d.riesgo.nivel, margin, y);
-  y += 10;
-
-  doc.setTextColor(0);
-  doc.setFontSize(10);
-  doc.setFont('helvetica', 'normal');
-
-  // KPI Crítico box
-  doc.setDrawColor(200);
-  doc.setFillColor(248, 248, 248);
-  doc.roundedRect(margin, y, contentW, 42, 3, 3, 'FD');
-
-  doc.setFont('helvetica', 'bold');
-  doc.setFontSize(9);
-  doc.setTextColor(120);
-  doc.text('KPI CRÍTICO', margin + 4, y + 6);
-
-  doc.setFontSize(12);
-  doc.setTextColor(rc[0], rc[1], rc[2]);
-  doc.text(fmtKpi(d.riesgo.kpiCritico), margin + contentW - 4, y + 6, { align: 'right' });
-
-  doc.setTextColor(0);
-  doc.setFontSize(9);
-  doc.setFont('helvetica', 'normal');
-  doc.text(`Zona saturada: ${fmtKm(d.zonaSaturada.distCentroideKm)} / ${fmtKm(d.zonaSaturada.diametroZonaKm)} = ${fmtKpi(d.riesgo.kpiZona)}`, margin + 4, y + 16);
-  doc.text(`Relaves: ${fmtKm(d.relavesGrupo.distanciaPromKm)} / ${fmtKm(d.relavesGrupo.diametroEquivalentePromedioKm)} = ${fmtKpi(d.riesgo.kpiRelaves)}`, margin + 4, y + 22);
-  doc.setTextColor(120);
-  doc.text('Menor valor indica mayor exposición territorial.', margin + 4, y + 30);
-
-  doc.setTextColor(0);
-  doc.setFont('helvetica', 'bold');
-  doc.setFontSize(9);
-  doc.text(`KPI relaves: ${fmtKpi(d.riesgo.kpiRelaves)}`, margin + 4, y + 38);
-  doc.text(`KPI zona saturada: ${fmtKpi(d.riesgo.kpiZona)}`, margin + contentW / 2, y + 38);
-  doc.setFont('helvetica', 'normal');
-  y += 48;
-
-  // Alerta
-  doc.setFillColor(254, 243, 199);
-  doc.setDrawColor(245, 158, 11);
-  doc.roundedRect(margin, y, contentW, 12, 2, 2, 'FD');
-  doc.setFontSize(9);
-  doc.setTextColor(80);
-  const alertText = `POI con riesgo ${d.riesgo.nivel.toLowerCase()}, determinado por el KPI más crítico entre zona saturada y relaves.`;
-  doc.text(alertText, margin + 4, y + 8);
-  doc.setTextColor(0);
-  y += 18;
-
-  // === MAPA ===
-  newPageIfNeeded(100);
-  doc.setFontSize(13);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Mapa de relaciones espaciales', margin, y);
-  y += 6;
-
-  console.log('[PDF EXPORT] Capturando mapa...');
-  const mapPng = await captureMapPng();
-  if (mapPng) {
-    const props = doc.getImageProperties(mapPng);
-    const imgRatio = props.width / props.height;
-    const safeRatio = Number.isFinite(imgRatio) && imgRatio > 0 ? imgRatio : contentW / 90;
-    let mapW = contentW;
-    let mapH = mapW / safeRatio;
-    const maxMapH = 100;
-    if (mapH > maxMapH) { mapH = maxMapH; mapW = mapH * safeRatio; }
-    newPageIfNeeded(mapH + 4);
-    doc.addImage(mapPng, 'JPEG', margin, y, mapW, mapH);
-    y += mapH + 6;
-    console.log('[PDF EXPORT] Mapa insertado OK');
-  } else {
-    doc.setFontSize(9);
-    doc.text('⚠ No se pudo capturar el mapa.', margin, y);
-    y += 8;
+  const doc = new jsPDF('p', 'mm', 'a4');
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const pageHeight = doc.internal.pageSize.getHeight();
+  const imgWidth = pageWidth;
+  const imgHeight = (canvas.height * imgWidth) / canvas.width;
+  let y = 0;
+  let heightLeft = imgHeight;
+  doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
+  heightLeft -= pageHeight;
+  while (heightLeft > 0) {
+    y = heightLeft - imgHeight;
+    doc.addPage();
+    doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
+    heightLeft -= pageHeight;
   }
-
-  // === RESUMEN EJECUTIVO ===
-  newPageIfNeeded(50);
-  doc.setFontSize(13);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Resumen ejecutivo', margin, y);
-  y += 7;
-
-  doc.setFontSize(9);
-  doc.setFont('helvetica', 'normal');
-  const riesgoTxt = d.riesgo.nivel.toLowerCase();
-  const kpiZTxt = fmtKpi(d.riesgo.kpiZona);
-  const kpiRTxt = fmtKpi(d.riesgo.kpiRelaves);
-  const resumen = `El punto analizado presenta un riesgo ${riesgoTxt}. El riesgo se determina mediante el cociente distancia/diámetro. Valores menores a 1 indican exposición muy alta, entre 1 y 2 alta, entre 2 y 5 media, entre 5 y 10 baja y mayores a 10 muy baja. En este caso, la zona saturada presenta un KPI de ${kpiZTxt} y los relaves un KPI de ${kpiRTxt}, siendo la ${d.riesgo.factorDominante} el factor dominante del riesgo.`;
-  const resumenLines = doc.splitTextToSize(resumen, contentW);
-  doc.text(resumenLines, margin, y);
-  y += resumenLines.length * 4.2 + 6;
-
-  // === ZONA SATURADA ===
-  newPageIfNeeded(45);
-  doc.setFontSize(12);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Zona Saturada', margin, y);
-  y += 6;
-  doc.setFontSize(9);
-  doc.setFont('helvetica', 'normal');
-  const zRows = [
-    ['Nombre', safeText(d.zonaSaturada.nombre)],
-    ['Estado', safeText(d.zonaSaturada.estado)],
-    ['Distancia al POI', fmtKm(d.zonaSaturada.distPerimetroKm)],
-    ['Distancia al centroide', fmtKm(d.zonaSaturada.distCentroideKm)],
-    ['Diámetro equivalente', fmtKm(d.zonaSaturada.diametroZonaKm)],
-    ['KPI', fmtKpi(d.riesgo.kpiZona)],
-    ['Clasificación', safeText(d.riesgo.zona)],
-  ];
-  zRows.forEach(([label, value]) => {
-    doc.setFont('helvetica', 'bold');
-    doc.text(`${label}:`, margin, y);
-    doc.setFont('helvetica', 'normal');
-    doc.text(value, margin + 45, y);
-    y += 5;
-  });
-  y += 4;
-
-  // === RELAVE MÁS CERCANO ===
-  newPageIfNeeded(40);
-  doc.setFontSize(12);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Relave más cercano', margin, y);
-  y += 6;
-  doc.setFontSize(9);
-  doc.setFont('helvetica', 'normal');
-  const rRows = [
-    ['ID', safeText(d.relave.nombre)],
-    ['Faena', safeText(d.relavesGrupo.items[0]?.faena)],
-    ['Recurso', safeText(d.relave.recurso)],
-    ['Comuna', safeText(d.relavesGrupo.items[0]?.comuna)],
-    ['Distancia al POI', fmtKm(d.relave.distPoiKm)],
-    ['Superficie', fmtHa(d.relave.superficieHa)],
-    ['KPI', fmtKpi(d.riesgo.kpiRelaves)],
-    ['Clasificación', safeText(d.riesgo.relaves)],
-  ];
-  rRows.forEach(([label, value]) => {
-    doc.setFont('helvetica', 'bold');
-    doc.text(`${label}:`, margin, y);
-    doc.setFont('helvetica', 'normal');
-    doc.text(value, margin + 45, y);
-    y += 5;
-  });
-  y += 4;
-
-  // === GRUPO DE RELAVES ===
-  newPageIfNeeded(50);
-  doc.setFontSize(12);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Grupo de relaves analizados', margin, y);
-  y += 6;
-  doc.setFontSize(9);
-  doc.setFont('helvetica', 'normal');
-  const gRows = [
-    ['N relaves considerados', `${d.relavesGrupo.cantidadAnalizada} de ${d.relavesGrupo.totalEnVista} en vista`],
-    ['Distancia promedio al POI', fmtKm(d.relavesGrupo.distanciaPromKm)],
-    ['Diámetro equiv. promedio', fmtKm(d.relavesGrupo.diametroEquivalentePromedioKm)],
-    ['Distancia mínima', fmtKm(d.relavesGrupo.distanciaMinKm)],
-    ['Distancia máxima', fmtKm(d.relavesGrupo.distanciaMaxKm)],
-    ['Radio envolvente desde POI', fmtKm(d.relavesGrupo.radioEnvolventeKm)],
-    ['Superficie total', fmtHa(d.relavesGrupo.superficieTotalHa)],
-    ['Superficie promedio', fmtHa(d.relavesGrupo.superficiePromedioHa)],
-  ];
-  gRows.forEach(([label, value]) => {
-    doc.setFont('helvetica', 'bold');
-    doc.text(`${label}:`, margin, y);
-    doc.setFont('helvetica', 'normal');
-    doc.text(value, margin + 55, y);
-    y += 5;
-  });
-  y += 4;
-
-  // === TABLA DE RELAVES ===
-  newPageIfNeeded(30);
-  doc.setFontSize(12);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Detalle de relaves analizados', margin, y);
-  y += 6;
-
-  const items = d.relavesGrupo.items || [];
-  if (items.length && doc.autoTable) {
-    doc.autoTable({
-      startY: y,
-      margin: { left: margin, right: margin },
-      head: [['#', 'ID / Nombre', 'Faena', 'Dist. POI (km)', 'Superficie (ha)', 'Recurso', 'Comuna']],
-      body: items.map((it) => [
-        String(it.rank),
-        safeText(it.nombre),
-        safeText(it.faena),
-        Number.isFinite(it.distPoiKm) ? it.distPoiKm.toFixed(2) : '—',
-        Number.isFinite(it.superficieHa) ? it.superficieHa.toFixed(1) : '—',
-        safeText(it.recurso),
-        safeText(it.comuna),
-      ]),
-      styles: { fontSize: 8, cellPadding: 2 },
-      headStyles: { fillColor: [240, 240, 240], textColor: [0, 0, 0], fontStyle: 'bold' },
-      alternateRowStyles: { fillColor: [250, 250, 250] },
-    });
-    y = doc.lastAutoTable.finalY + 8;
-  } else {
-    doc.setFontSize(8);
-    items.forEach((it, i) => {
-      newPageIfNeeded(6);
-      doc.text(`#${it.rank} | ${safeText(it.nombre)} | ${fmtKm(it.distPoiKm)} | ${fmtHa(it.superficieHa)} | ${safeText(it.recurso)}`, margin, y);
-      y += 4.5;
-    });
-    y += 4;
-  }
-
-  // === INTERPRETACIÓN ===
-  newPageIfNeeded(25);
-  doc.setFontSize(12);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Interpretación automática GeoNOXA', margin, y);
-  y += 7;
-  doc.setFontSize(9);
-  doc.setFont('helvetica', 'normal');
-  const interpLines = doc.splitTextToSize(resumen, contentW);
-  doc.text(interpLines, margin, y);
-  y += interpLines.length * 4.2 + 6;
-
-  // === FOOTER ===
-  const totalPages = doc.getNumberOfPages();
-  for (let p = 1; p <= totalPages; p++) {
-    doc.setPage(p);
-    const footY = pageH - 10;
-    doc.setDrawColor(220);
-    doc.line(margin, footY - 4, pageW - margin, footY - 4);
-    doc.setFontSize(7);
-    doc.setTextColor(140);
-    doc.text('GeoNOXA – Análisis territorial de riesgo ambiental', margin, footY);
-    doc.text('geonoxa.cl', margin, footY + 3.5);
-    doc.text(`Página ${p} / ${totalPages}`, pageW - margin, footY, { align: 'right' });
-    doc.setTextColor(0);
-  }
-
-  const filename = `GeoNOXA_PRO_${d.poi.lat.toFixed(4)}_${d.poi.lon.toFixed(4)}_${Date.now()}.pdf`;
-  doc.save(filename);
-  console.log('[PDF EXPORT] PDF generado:', filename);
+  doc.save('GeoNOXA_PRO_QUERY.pdf');
 }
 
 function setupCardActions() {
@@ -1269,16 +1041,12 @@ function setupCardActions() {
 
   kmzBtn.addEventListener('click', handleExportKML);
 
-  pdfBtn.addEventListener('click', async () => {
-    setButtonLoading('btn-export-pdf', true, 'Generando PDF PRO...');
-    try {
-      await exportPdfPro();
-    } catch (err) {
-      console.error('[PDF EXPORT] Error:', err);
-      alert('Error generando PDF: ' + err.message);
-    } finally {
+  pdfBtn.addEventListener('click', () => {
+    setButtonLoading('btn-export-pdf', true, 'Preparando PDF PRO...');
+    setTimeout(() => {
+      exportPdfPro();
       setButtonLoading('btn-export-pdf', false);
-    }
+    }, 450);
   });
 }
 
