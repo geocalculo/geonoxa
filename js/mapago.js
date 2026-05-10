@@ -17,6 +17,16 @@ const formatKm = (v) => Number.isFinite(v) ? `${Number(v).toFixed(2)} km` : 'Sin
 const formatHa = (v) => Number.isFinite(v) ? `${Number(v).toLocaleString('es-CL', { maximumFractionDigits: 1 })} ha` : 'Sin datos disponibles';
 const getRiskClass = (level) => `risk-${String(level || 'bajo').toLowerCase().normalize('NFD').replace(/[^a-z]/g, '')}`;
 
+
+function sanitizeFileName(text) {
+  return (text || 'Region')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/Region de /gi, '')
+    .replace(/\s+/g, '_')
+    .replace(/[^\w\-]/g, '');
+}
+
 function clasificarRiesgoKPI(kpi) {
   if (!Number.isFinite(kpi)) return 'SIN DATOS';
 
@@ -986,7 +996,23 @@ async function exportGeoNoxaPdf() {
   // El mapa ya se inserta dentro del HTML clonado mediante fixedMapImg.
   // Evitamos dibujarlo nuevamente para prevenir la duplicación superpuesta.
   // addCanvasToPdfKeepingAspectRatio(doc, mapCanvas, mapPng, { topY: 85, maxHeight: 90, maxWidth: pageWidth - 20 });
-  doc.save('GeoNOXA_PRO_QUERY.pdf');
+  const regionRaw =
+    analysisData?.poi?.region ||
+    analysisData?.region ||
+    'Region';
+  const region = sanitizeFileName(regionRaw) || 'Region';
+
+  const now = new Date();
+  const fecha =
+    `${now.getFullYear()}-` +
+    `${String(now.getMonth() + 1).padStart(2, '0')}-` +
+    `${String(now.getDate()).padStart(2, '0')}`;
+  const hora =
+    `${String(now.getHours()).padStart(2, '0')}-` +
+    `${String(now.getMinutes()).padStart(2, '0')}`;
+
+  const fileName = `${region}_${fecha}_${hora}.pdf`;
+  doc.save(fileName);
 }
 
 function setupCardActions() {
