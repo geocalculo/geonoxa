@@ -990,9 +990,13 @@ async function exportGeoNoxaPdf() {
 }
 
 function setupCardActions() {
+  console.log('[PDF EXPORT] setupCardActions ejecutado');
   const kmzBtn = document.getElementById('btn-export-kml');
   const pdfBtn = document.getElementById('btn-export-pdf');
-  if (!kmzBtn || !pdfBtn) return;
+  console.log('[PDF EXPORT] botón encontrado:', pdfBtn);
+
+  if (!kmzBtn) console.warn('[KML EXPORT] No existe #btn-export-kml');
+  if (!pdfBtn) console.warn('[PDF EXPORT] No existe #btn-export-pdf');
 
   function handleExportKML() {
     console.group('[KML EXPORT][CLICK]');
@@ -1011,6 +1015,7 @@ function setupCardActions() {
   }
 
   async function handleExportPdf() {
+    console.log('[PDF EXPORT][CLICK] click recibido en botón PDF PRO');
     try {
       setButtonLoading('btn-export-pdf', true, 'Generando PDF...');
       await exportGeoNoxaPdf();
@@ -1021,8 +1026,8 @@ function setupCardActions() {
     }
   }
 
-  kmzBtn.addEventListener('click', handleExportKML);
-  pdfBtn.addEventListener('click', handleExportPdf);
+  if (kmzBtn) kmzBtn.onclick = handleExportKML;
+  if (pdfBtn) pdfBtn.onclick = handleExportPdf;
 }
 
 function renderSummaryCards() {
@@ -1180,4 +1185,4 @@ function renderActions() {
   const el = document.getElementById('actions');
   if (el) el.innerHTML = '';
 }
-(async function init(){const poi=getPoiFromUrl();analysisData=await buildAnalysisData(poi);renderAll();setupCardActions();})();
+(async function init(){const poi=getPoiFromUrl();analysisData=await buildAnalysisData(poi);renderAll();console.log('[CARD] renderAll ejecutado; renderTopLayout ya insertó el HTML. Vinculando acciones...');setupCardActions();})();
