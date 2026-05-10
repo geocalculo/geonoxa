@@ -882,140 +882,102 @@ function exportKML() {
   }
 }
 async function exportPdfPro() {
-  async function stabilizeLeafletBeforePdf(mapInstance) {
-    if (!mapInstance) return;
+  const poi = getPoiFromUrl();
+  await downloadPDFDirect({
+    params: poi,
+    resumen: analysisData?.riesgo?.resumenEjecutivo || 'Sin resumen disponible.',
+    model: analysisData,
+    filename: 'GeoNOXA_PRO_QUERY.pdf'
+  });
+}
 
-    try {
-      mapInstance.invalidateSize(true);
-
-      if (typeof mapInstance.stop === 'function') {
-        mapInstance.stop();
-      }
-
-      if (typeof mapInstance.whenReady === 'function') {
-        await new Promise((resolve) => mapInstance.whenReady(resolve));
-      }
-
-      await new Promise((resolve) =>
-        requestAnimationFrame(() => requestAnimationFrame(resolve))
-      );
-
-      if (typeof mapInstance.eachLayer === 'function') {
-        mapInstance.eachLayer((layer) => {
-          if (layer && typeof layer.redraw === 'function') {
-            layer.redraw();
-          }
-        });
-      }
-
-      await new Promise((resolve) => setTimeout(resolve, 250));
-    } catch (error) {
-      console.warn('[PDF EXPORT] Falló la estabilización de Leaflet antes de exportar', error);
-    }
-  }
-
-  if (!window.jspdf?.jsPDF || !window.html2canvas) return;
-  const PDF_EXPORT_WIDTH = 1440;
-  const printable = document.querySelector('.page-shell');
-  if (!printable) return;
-
-  const mapElement = document.getElementById('map');
-  let mapPng = null;
-  let mapRect = null;
-  if (mapElement) {
-    try {
-      await stabilizeLeafletBeforePdf(window.map || map);
-      mapRect = mapElement.getBoundingClientRect();
-      const mapCanvas = await window.html2canvas(mapElement, {
-        scale: 2,
-        useCORS: true,
-        backgroundColor: null,
-        logging: false,
-        width: Math.round(mapRect.width),
-        height: Math.round(mapRect.height),
-        scrollX: -window.scrollX,
-        scrollY: -window.scrollY,
-        windowWidth: document.documentElement.clientWidth,
-        windowHeight: document.documentElement.clientHeight
-      });
-      mapPng = mapCanvas.toDataURL('image/png');
-    } catch (error) {
-      console.warn('[PDF EXPORT] No se pudo congelar el mapa como PNG, usando clon original', error);
-    }
-  }
-
-  const printClone = printable.cloneNode(true);
-  printClone.classList.add('pdf-export-root');
-  printClone.style.width = `${PDF_EXPORT_WIDTH}px`;
-  printClone.style.maxWidth = `${PDF_EXPORT_WIDTH}px`;
-  printClone.style.minWidth = `${PDF_EXPORT_WIDTH}px`;
-  if (mapPng) {
-    const clonedMap = printClone.querySelector('#map');
-    if (clonedMap) {
-      clonedMap.innerHTML = '';
-      clonedMap.removeAttribute('data-leaflet-id');
-      clonedMap.classList.remove('leaflet-container');
-      if (mapRect) {
-        const mapWidth = Math.round(mapRect.width);
-        const mapHeight = Math.round(mapRect.height);
-        clonedMap.style.width = `${mapWidth}px`;
-        clonedMap.style.height = `${mapHeight}px`;
-        clonedMap.style.minWidth = `${mapWidth}px`;
-        clonedMap.style.maxWidth = `${mapWidth}px`;
-        clonedMap.style.minHeight = `${mapHeight}px`;
-        clonedMap.style.maxHeight = `${mapHeight}px`;
-        clonedMap.style.position = 'relative';
-        clonedMap.style.overflow = 'hidden';
-      }
-      const fixedMapImg = document.createElement('img');
-      fixedMapImg.src = mapPng;
-      fixedMapImg.alt = 'Mapa GeoNOXA';
-      fixedMapImg.style.width = '100%';
-      fixedMapImg.style.height = '100%';
-      fixedMapImg.style.objectFit = 'cover';
-      fixedMapImg.style.display = 'block';
-      fixedMapImg.style.position = 'absolute';
-      fixedMapImg.style.inset = '0';
-      clonedMap.appendChild(fixedMapImg);
-    }
-  }
-
-  document.body.classList.add('pdf-export-mode');
-  document.body.appendChild(printClone);
-  let canvas;
+async function stabilizeLeafletForCapture(mapInstance) {
+  if (!mapInstance) return;
   try {
-    canvas = await window.html2canvas(printClone, {
-      scale: 2,
-      useCORS: true,
-      backgroundColor: '#0b1220',
-      logging: false,
-      windowWidth: PDF_EXPORT_WIDTH,
-      width: PDF_EXPORT_WIDTH,
-      scrollX: 0,
-      scrollY: 0
+    if (typeof mapInstance.stop === 'function') mapInstance.stop();
+    mapInstance.invalidateSize(true);
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    await new Promise((resolve) => mapInstance.whenReady(resolve));
+    await new Promise((resolve) => {
+      const timeoutId = setTimeout(resolve, 600);
+      mapInstance.once('idle', () => { clearTimeout(timeoutId); resolve(); });
     });
-  } finally {
-    document.body.classList.remove('pdf-export-mode');
-    document.body.removeChild(printClone);
+  } catch (error) {
+    console.warn('[PDF EXPORT] Falló estabilización Leaflet', error);
   }
-  const imgData = canvas.toDataURL('image/png');
+}
+
+async function captureMapPng() {
+  const mapElement = document.getElementById('map');
+  if (!mapElement || !window.html2canvas) throw new Error('No existe contenedor de mapa o html2canvas');
+  await stabilizeLeafletForCapture(window.map || map);
+  const rect = mapElement.getBoundingClientRect();
+  const canvas = await window.html2canvas(mapElement, {
+    scale: 2,
+    useCORS: true,
+    backgroundColor: '#ffffff',
+    logging: false,
+    width: Math.round(rect.width),
+    height: Math.round(rect.height)
+  });
+  return {
+    dataUrl: canvas.toDataURL('image/jpeg', 0.95),
+    width: canvas.width,
+    height: canvas.height
+  };
+}
+
+function formatRiskCalc(distKm, diamKm) {
+  if (!Number.isFinite(distKm) || !Number.isFinite(diamKm) || diamKm <= 0) return 'KPI_R: Sin datos';
+  const distM = distKm * 1000;
+  const diamM = diamKm * 1000;
+  const kpi = distKm / diamKm;
+  return `KPI_R = ${distM.toLocaleString('es-CL', { maximumFractionDigits: 0 })} m / ${diamM.toLocaleString('es-CL', { maximumFractionDigits: 0 })} m = ${kpi.toLocaleString('es-CL', { maximumFractionDigits: 2 })} → Riesgo ${clasificarRiesgoKPI(kpi)}`;
+}
+
+async function downloadPDFDirect({ params, resumen, model, filename }) {
+  if (!window.jspdf?.jsPDF || !window.html2canvas) throw new Error('Faltan librerías de exportación PDF');
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
-  const pageWidth = doc.internal.pageSize.getWidth();
-  const pageHeight = doc.internal.pageSize.getHeight();
-  const imgWidth = pageWidth;
-  const imgHeight = (canvas.height * imgWidth) / canvas.width;
-  let y = 0;
-  let heightLeft = imgHeight;
-  doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
-  heightLeft -= pageHeight;
-  while (heightLeft > 0) {
-    y = heightLeft - imgHeight;
-    doc.addPage();
-    doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
-    heightLeft -= pageHeight;
+  const mapImage = await captureMapPng();
+  const ts = new Date().toLocaleString('es-CL');
+  doc.setFillColor(245, 247, 250);
+  doc.rect(0, 0, 210, 297, 'F');
+  doc.setTextColor(17, 24, 39);
+  doc.setFontSize(20);
+  doc.text('GeoNOXA - CARD Territorial PDF PRO', 14, 16);
+  doc.setFontSize(10);
+  doc.text(`Fecha/hora consulta: ${ts}`, 14, 23);
+  doc.text(`POI: Lat ${params.lat.toFixed(6)}, Lon ${params.lon.toFixed(6)}`, 14, 28);
+  doc.setFontSize(11);
+  const riesgo = model?.riesgo || {};
+  doc.text(`Riesgo global: ${riesgo.nivel || 'SIN DATOS'}`, 14, 36);
+  doc.text(formatRiskCalc(model?.zonaSaturada?.distCentroideKm, model?.zonaSaturada?.diametroZonaKm), 14, 42, { maxWidth: 182 });
+  doc.text(formatRiskCalc(model?.relavesGrupo?.distanciaPromKm, model?.relavesGrupo?.diametroEquivalentePromedioKm), 14, 50, { maxWidth: 182 });
+  doc.setFontSize(10);
+  doc.text('Resumen ejecutivo:', 14, 58);
+  doc.text(doc.splitTextToSize(resumen || 'Sin resumen disponible.', 182), 14, 63);
+  const mapW = 182;
+  const mapH = (mapImage.height * mapW) / mapImage.width;
+  doc.addImage(mapImage.dataUrl, 'JPEG', 14, 80, mapW, Math.min(mapH, 95));
+  const rows = (model?.relavesGrupo?.items || []).map((item) => ([
+    item.nombre || 'N/D',
+    (item.distPoiKm ?? 0).toFixed(2),
+    Number(item.superficieHa || 0).toFixed(1),
+    Number(computeEquivalentDiameter(item.superficieHa) || 0).toFixed(2),
+    Number((item.distPoiKm && computeEquivalentDiameter(item.superficieHa)) ? item.distPoiKm / computeEquivalentDiameter(item.superficieHa) : 0).toFixed(2),
+    clasificarRiesgoKPI((item.distPoiKm && computeEquivalentDiameter(item.superficieHa)) ? item.distPoiKm / computeEquivalentDiameter(item.superficieHa) : NaN)
+  ]));
+  if (typeof doc.autoTable === 'function') {
+    doc.autoTable({
+      startY: 182,
+      head: [['Elemento', 'Dist POI (km)', 'Sup (ha)', 'Diám Eq (km)', 'KPI_R', 'Riesgo']],
+      body: rows.length ? rows : [['Sin elementos', '-', '-', '-', '-', '-']],
+      styles: { fontSize: 8 },
+      headStyles: { fillColor: [29, 78, 216] }
+    });
   }
-  doc.save('GeoNOXA_PRO_QUERY.pdf');
+  doc.save(filename || 'GeoNOXA_PRO_QUERY.pdf');
 }
 
 function setupCardActions() {
@@ -1041,12 +1003,22 @@ function setupCardActions() {
 
   kmzBtn.addEventListener('click', handleExportKML);
 
-  pdfBtn.addEventListener('click', () => {
-    setButtonLoading('btn-export-pdf', true, 'Preparando PDF PRO...');
-    setTimeout(() => {
-      exportPdfPro();
+  bindPdfButtonOnce(pdfBtn);
+}
+
+function bindPdfButtonOnce(pdfBtn = document.getElementById('btn-export-pdf')) {
+  if (!pdfBtn || pdfBtn.dataset.boundPdf === '1') return;
+  pdfBtn.dataset.boundPdf = '1';
+  pdfBtn.addEventListener('click', async () => {
+    setButtonLoading('btn-export-pdf', true, 'Generando PDF...');
+    try {
+      await exportPdfPro();
+    } catch (error) {
+      console.error('[PDF EXPORT] Error al exportar PDF', error);
+      alert('No se pudo generar el PDF. Revisa la consola para más detalle.');
+    } finally {
       setButtonLoading('btn-export-pdf', false);
-    }, 450);
+    }
   });
 }
 
