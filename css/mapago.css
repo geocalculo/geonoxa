@@ -61,12 +61,34 @@ h1, h2, h3, p { margin: 0; }
   position: fixed;
   left: -99999px;
   top: 0;
-  width: 100% !important;
-  max-width: none !important;
-  min-width: 0 !important;
-  background: #ffffff !important;
-  color: #000000 !important;
+  width: 1440px !important;
+  max-width: 1440px !important;
+  min-width: 1440px !important;
+  background: #0b1220 !important;
+  color: #f8fafc !important;
+  opacity: 1 !important;
+  filter: none !important;
 }
+
+.pdf-export-root * {
+  box-sizing: border-box;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.pdf-export-root .card,
+.pdf-export-root .panel,
+.pdf-export-root .summary-card {
+  background: #1e293b !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(148, 163, 184, 0.25) !important;
+}
+
+.pdf-export-root button,
+.pdf-export-root .btn-export {
+  all: unset;
+}
+
 .pdf-export-root .btn-export,
 .pdf-export-root .card-actions,
 .pdf-export-root .actions,
@@ -76,62 +98,14 @@ h1, h2, h3, p { margin: 0; }
 .pdf-export-root .spinner {
   display: none !important;
 }
-.pdf-export-root * {
-  color: #000000 !important;
-  box-shadow: none !important;
-  text-shadow: none !important;
-}
-body.pdf-export-mode .pdf-export-root {
-  background: #0b1220 !important;
-  color: #ffffff !important;
-}
-body.pdf-export-mode .pdf-export-root *,
-body.pdf-export-mode .pdf-export-root h1,
-body.pdf-export-mode .pdf-export-root h2,
-body.pdf-export-mode .pdf-export-root h3,
-body.pdf-export-mode .pdf-export-root h4,
-body.pdf-export-mode .pdf-export-root p,
-body.pdf-export-mode .pdf-export-root li,
-body.pdf-export-mode .pdf-export-root span,
-body.pdf-export-mode .pdf-export-root strong,
-body.pdf-export-mode .pdf-export-root small,
-body.pdf-export-mode .pdf-export-root .kpi-main,
-body.pdf-export-mode .pdf-export-root .kpi-label {
-  color: #ffffff !important;
-  text-shadow: none !important;
-  mix-blend-mode: normal !important;
-}
-body.pdf-export-mode .pdf-export-root .card,
-body.pdf-export-mode .pdf-export-root .summary-card,
-body.pdf-export-mode .pdf-export-root .panel,
-body.pdf-export-mode .pdf-export-root .hero-panel {
-  background: #1f2c3a !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
+
+body.pdf-export-mode .pdf-export-root,
+body.pdf-export-mode .pdf-export-root * {
   opacity: 1 !important;
-  box-shadow: none !important;
   filter: none !important;
-  backdrop-filter: none !important;
-}
-body.pdf-export-mode .pdf-export-root .summary-card {
-  background: #1e2936 !important;
-}
-body.pdf-export-mode .pdf-export-root .btn-export,
-body.pdf-export-mode .pdf-export-root .legend-floating,
-body.pdf-export-mode .pdf-export-root .actions a,
-body.pdf-export-mode .pdf-export-root .actions button,
-body.pdf-export-mode .pdf-export-root .kpi-main-block {
-  box-shadow: none !important;
-  filter: none !important;
-  backdrop-filter: none !important;
-  background-image: none !important;
-}
-body.pdf-export-mode .pdf-export-root [style*="radial-gradient"],
-body.pdf-export-mode .pdf-export-root [style*="backdrop-filter"],
-body.pdf-export-mode .pdf-export-root [style*="mix-blend-mode"] {
-  background-image: none !important;
-  backdrop-filter: none !important;
   mix-blend-mode: normal !important;
 }
+
 body.pdf-export-mode .pdf-export-root .leaflet-pane,
 body.pdf-export-mode .pdf-export-root .leaflet-layer,
 body.pdf-export-mode .pdf-export-root .leaflet-overlay-pane,
