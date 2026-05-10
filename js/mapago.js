@@ -476,9 +476,9 @@ function renderTopLayout() {
               <span class="btn-icon" aria-hidden="true">⇩</span>
               <span class="btn-text">EXPORTAR KML</span>
             </button>
-            <button id="btn-export-pdf" class="btn-export btn-pdf" type="button" disabled title="PDF PRO temporalmente desactivado">
+            <button id="btn-export-pdf" class="btn-export btn-pdf" type="button" title="Exportar reporte PDF">
               <span class="btn-icon" aria-hidden="true">▣</span>
-              <span class="btn-text">PDF PRO próximamente</span>
+              <span class="btn-text">PDF PRO</span>
             </button>
           </div>
         </div>
@@ -881,110 +881,90 @@ function exportKML() {
     console.groupEnd();
   }
 }
-async function exportPdfPro() {
-  async function stabilizeLeafletBeforePdf(mapInstance) {
-    if (!mapInstance) return;
-
-    try {
-      mapInstance.invalidateSize(true);
-
-      if (typeof mapInstance.stop === 'function') {
-        mapInstance.stop();
-      }
-
-      if (typeof mapInstance.whenReady === 'function') {
-        await new Promise((resolve) => mapInstance.whenReady(resolve));
-      }
-
-      await new Promise((resolve) =>
-        requestAnimationFrame(() => requestAnimationFrame(resolve))
-      );
-
-      if (typeof mapInstance.eachLayer === 'function') {
-        mapInstance.eachLayer((layer) => {
-          if (layer && typeof layer.redraw === 'function') {
-            layer.redraw();
-          }
-        });
-      }
-
-      await new Promise((resolve) => setTimeout(resolve, 250));
-    } catch (error) {
-      console.warn('[PDF EXPORT] Falló la estabilización de Leaflet antes de exportar', error);
+function waitForTilesToLoad(layer) {
+  return new Promise((resolve) => {
+    if (!layer || typeof layer.isLoading !== 'function' || !layer.isLoading()) {
+      resolve();
+      return;
     }
-  }
+    layer.once('load', resolve);
+    setTimeout(resolve, 3000);
+  });
+}
 
-  if (!window.jspdf?.jsPDF || !window.html2canvas) return;
-  const PDF_EXPORT_WIDTH = 1440;
+async function captureLeafletMapAsImage(mapInstance) {
+  if (!mapInstance || typeof window.leafletImage !== 'function') {
+    throw new Error('leaflet-image no está disponible');
+  }
+  mapInstance.invalidateSize(true);
+  const activeBaseLayer = Object.values(mapInstance._layers || {}).find((layer) =>
+    layer instanceof L.TileLayer && mapInstance.hasLayer(layer)
+  );
+  await waitForTilesToLoad(activeBaseLayer);
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+  return new Promise((resolve, reject) => {
+    window.leafletImage(mapInstance, (err, canvas) => {
+      if (err || !canvas) {
+        reject(err || new Error('No se pudo capturar el mapa'));
+        return;
+      }
+      resolve(canvas);
+    });
+  });
+}
+
+function addCanvasToPdfKeepingAspectRatio(pdf, canvas, imgData, options = {}) {
+  const pageWidth = pdf.internal.pageSize.getWidth();
+  const maxWidth = options.maxWidth ?? pageWidth - 20;
+  const maxHeight = options.maxHeight ?? 120;
+  const topY = options.topY ?? 10;
+  const ratio = canvas.width / canvas.height;
+  let renderWidth = maxWidth;
+  let renderHeight = renderWidth / ratio;
+  if (renderHeight > maxHeight) {
+    renderHeight = maxHeight;
+    renderWidth = renderHeight * ratio;
+  }
+  const x = (pageWidth - renderWidth) / 2;
+  pdf.addImage(imgData, 'PNG', x, topY, renderWidth, renderHeight);
+}
+
+async function exportGeoNoxaPdf() {
+  if (!window.jspdf?.jsPDF) return;
   const printable = document.querySelector('.page-shell');
-  if (!printable) return;
-
   const mapElement = document.getElementById('map');
-  let mapPng = null;
-  let mapRect = null;
-  if (mapElement) {
-    try {
-      await stabilizeLeafletBeforePdf(window.map || map);
-      mapRect = mapElement.getBoundingClientRect();
-      const mapCanvas = await window.html2canvas(mapElement, {
-        scale: 2,
-        useCORS: true,
-        backgroundColor: null,
-        logging: false,
-        width: Math.round(mapRect.width),
-        height: Math.round(mapRect.height),
-        scrollX: -window.scrollX,
-        scrollY: -window.scrollY,
-        windowWidth: document.documentElement.clientWidth,
-        windowHeight: document.documentElement.clientHeight
-      });
-      mapPng = mapCanvas.toDataURL('image/png');
-    } catch (error) {
-      console.warn('[PDF EXPORT] No se pudo congelar el mapa como PNG, usando clon original', error);
-    }
-  }
+  if (!printable || !mapElement) return;
 
+  const mapCanvas = await captureLeafletMapAsImage(window.map || map);
+  const mapPng = mapCanvas.toDataURL('image/png');
+  const mapRect = mapElement.getBoundingClientRect();
+
+  const PDF_EXPORT_WIDTH = 1440;
   const printClone = printable.cloneNode(true);
   printClone.classList.add('pdf-export-root');
   printClone.style.width = `${PDF_EXPORT_WIDTH}px`;
-  printClone.style.maxWidth = `${PDF_EXPORT_WIDTH}px`;
-  printClone.style.minWidth = `${PDF_EXPORT_WIDTH}px`;
-  if (mapPng) {
-    const clonedMap = printClone.querySelector('#map');
-    if (clonedMap) {
-      clonedMap.innerHTML = '';
-      clonedMap.removeAttribute('data-leaflet-id');
-      clonedMap.classList.remove('leaflet-container');
-      if (mapRect) {
-        const mapWidth = Math.round(mapRect.width);
-        const mapHeight = Math.round(mapRect.height);
-        clonedMap.style.width = `${mapWidth}px`;
-        clonedMap.style.height = `${mapHeight}px`;
-        clonedMap.style.minWidth = `${mapWidth}px`;
-        clonedMap.style.maxWidth = `${mapWidth}px`;
-        clonedMap.style.minHeight = `${mapHeight}px`;
-        clonedMap.style.maxHeight = `${mapHeight}px`;
-        clonedMap.style.position = 'relative';
-        clonedMap.style.overflow = 'hidden';
-      }
-      const fixedMapImg = document.createElement('img');
-      fixedMapImg.src = mapPng;
-      fixedMapImg.alt = 'Mapa GeoNOXA';
-      fixedMapImg.style.width = '100%';
-      fixedMapImg.style.height = '100%';
-      fixedMapImg.style.objectFit = 'cover';
-      fixedMapImg.style.display = 'block';
-      fixedMapImg.style.position = 'absolute';
-      fixedMapImg.style.inset = '0';
-      clonedMap.appendChild(fixedMapImg);
-    }
+
+  const clonedMap = printClone.querySelector('#map');
+  if (clonedMap) {
+    clonedMap.innerHTML = '';
+    clonedMap.style.width = `${Math.round(mapRect.width)}px`;
+    clonedMap.style.height = `${Math.round(mapRect.height)}px`;
+    const fixedMapImg = document.createElement('img');
+    fixedMapImg.src = mapPng;
+    fixedMapImg.alt = 'Mapa GeoNOXA';
+    fixedMapImg.style.width = '100%';
+    fixedMapImg.style.height = '100%';
+    fixedMapImg.style.objectFit = 'contain';
+    fixedMapImg.style.display = 'block';
+    clonedMap.appendChild(fixedMapImg);
   }
 
   document.body.classList.add('pdf-export-mode');
   document.body.appendChild(printClone);
-  let canvas;
+  let cardCanvas;
   try {
-    canvas = await window.html2canvas(printClone, {
+    if (!window.html2canvas) throw new Error('html2canvas no está disponible para el fallback del card');
+    cardCanvas = await window.html2canvas(printClone, {
       scale: 2,
       useCORS: true,
       backgroundColor: '#0b1220',
@@ -998,23 +978,14 @@ async function exportPdfPro() {
     document.body.classList.remove('pdf-export-mode');
     document.body.removeChild(printClone);
   }
-  const imgData = canvas.toDataURL('image/png');
+
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
+  const cardData = cardCanvas.toDataURL('image/png');
   const pageWidth = doc.internal.pageSize.getWidth();
-  const pageHeight = doc.internal.pageSize.getHeight();
-  const imgWidth = pageWidth;
-  const imgHeight = (canvas.height * imgWidth) / canvas.width;
-  let y = 0;
-  let heightLeft = imgHeight;
-  doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
-  heightLeft -= pageHeight;
-  while (heightLeft > 0) {
-    y = heightLeft - imgHeight;
-    doc.addPage();
-    doc.addImage(imgData, 'PNG', 0, y, imgWidth, imgHeight);
-    heightLeft -= pageHeight;
-  }
+  const cardHeight = (cardCanvas.height * pageWidth) / cardCanvas.width;
+  doc.addImage(cardData, 'PNG', 0, 0, pageWidth, cardHeight);
+  addCanvasToPdfKeepingAspectRatio(doc, mapCanvas, mapPng, { topY: 85, maxHeight: 90, maxWidth: pageWidth - 20 });
   doc.save('GeoNOXA_PRO_QUERY.pdf');
 }
 
@@ -1039,9 +1010,19 @@ function setupCardActions() {
     }
   }
 
+  async function handleExportPdf() {
+    try {
+      setButtonLoading('btn-export-pdf', true, 'Generando PDF...');
+      await exportGeoNoxaPdf();
+    } catch (error) {
+      console.error('[PDF EXPORT] Error al exportar PDF', error);
+    } finally {
+      setButtonLoading('btn-export-pdf', false);
+    }
+  }
+
   kmzBtn.addEventListener('click', handleExportKML);
-  pdfBtn.disabled = true;
-  pdfBtn.title = 'PDF PRO temporalmente desactivado';
+  pdfBtn.addEventListener('click', handleExportPdf);
 }
 
 function renderSummaryCards() {
@@ -1095,15 +1076,17 @@ function initMap() {
   if (map) map.remove();
 
   const poiLatLng = [analysisData.poi.lat, analysisData.poi.lon];
-  map = L.map('map', { zoomControl: true }).setView(poiLatLng, analysisData.poi.zoom || 10);
+  map = L.map('map', { zoomControl: true, preferCanvas: true }).setView(poiLatLng, analysisData.poi.zoom || 10);
 
   const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: '&copy; OpenStreetMap'
+    attribution: '&copy; OpenStreetMap',
+    crossOrigin: true
   }).addTo(map);
   const mapSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 19,
-    attribution: 'Tiles &copy; Esri'
+    attribution: 'Tiles &copy; Esri',
+    crossOrigin: true
   });
   L.control.layers({ OSM: osm, MapSAT: mapSat }).addTo(map);
   L.control.scale({ metric: true, imperial: false }).addTo(map);
