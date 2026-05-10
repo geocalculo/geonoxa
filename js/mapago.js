@@ -893,9 +893,13 @@ function waitForTilesToLoad(layer) {
 }
 
 async function captureLeafletMapAsImage(mapInstance) {
-  if (!mapInstance || typeof window.leafletImage !== 'function') {
+  if (!mapInstance || typeof mapInstance.invalidateSize !== 'function') {
+    throw new Error('Instancia Leaflet inválida');
+  }
+  if (typeof window.leafletImage !== 'function') {
     throw new Error('leaflet-image no está disponible');
   }
+  console.log('[PDF EXPORT] usando instancia Leaflet válida:', mapInstance);
   mapInstance.invalidateSize(true);
   const activeBaseLayer = Object.values(mapInstance._layers || {}).find((layer) =>
     layer instanceof L.TileLayer && mapInstance.hasLayer(layer)
@@ -935,7 +939,7 @@ async function exportGeoNoxaPdf() {
   const mapElement = document.getElementById('map');
   if (!printable || !mapElement) return;
 
-  const mapCanvas = await captureLeafletMapAsImage(window.map || map);
+  const mapCanvas = await captureLeafletMapAsImage(window.geoNoxaMap);
   const mapPng = mapCanvas.toDataURL('image/png');
   const mapRect = mapElement.getBoundingClientRect();
 
@@ -1082,6 +1086,7 @@ function initMap() {
 
   const poiLatLng = [analysisData.poi.lat, analysisData.poi.lon];
   map = L.map('map', { zoomControl: true, preferCanvas: true }).setView(poiLatLng, analysisData.poi.zoom || 10);
+  window.geoNoxaMap = map;
 
   const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,

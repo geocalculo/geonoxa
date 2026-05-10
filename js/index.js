@@ -11,6 +11,7 @@ const noxaState = { layers: {}, zonasSaturadasFeatures: [] };
 const RELAVES_OPTIONS = [5, 10, 15];
 
 const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([-27.3668, -70.3323], 8);
+window.geoNoxaMap = map;
 const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap" }).addTo(map);
 const esri = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { maxZoom: 19, attribution: "Tiles &copy; Esri" });
 L.control.layers({ OSM: osm, "Satélite": esri }, {}, { collapsed: true }).addTo(map);
