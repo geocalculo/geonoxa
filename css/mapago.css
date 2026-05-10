@@ -64,29 +64,61 @@ h1, h2, h3, p { margin: 0; }
   width: 1440px !important;
   max-width: 1440px !important;
   min-width: 1440px !important;
-  background: #0b1220 !important;
-  color: #f8fafc !important;
+  background: #ffffff !important;
+  color: #111827 !important;
   opacity: 1 !important;
   filter: none !important;
 }
 
 .pdf-export-root * {
   box-sizing: border-box;
+  color: #111827 !important;
+  text-shadow: none !important;
   opacity: 1 !important;
   filter: none !important;
 }
 
 .pdf-export-root .card,
 .pdf-export-root .panel,
-.pdf-export-root .summary-card {
-  background: #1e293b !important;
-  color: #f8fafc !important;
-  border: 1px solid rgba(148, 163, 184, 0.25) !important;
+.pdf-export-root .summary-card,
+.pdf-export-root .kpi-main-block {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border: 1px solid #d1d5db !important;
+  box-shadow: none !important;
 }
 
-.pdf-export-root button,
+.pdf-export-root .section-title,
+.pdf-export-root h1,
+.pdf-export-root h2,
+.pdf-export-root h3,
+.pdf-export-root p,
+.pdf-export-root li,
+.pdf-export-root span,
+.pdf-export-root strong {
+  color: #111827 !important;
+}
+
+.pdf-export-root .summary-alert {
+  background: #fef3c7 !important;
+  color: #111827 !important;
+  border: 1px solid #f59e0b !important;
+}
+
+.pdf-export-root .risk-value,
+.pdf-export-root .kpi-main {
+  color: #dc2626 !important;
+}
+
 .pdf-export-root .btn-export {
-  all: unset;
+  background: #f3f4f6 !important;
+  color: #111827 !important;
+  border: 1px solid #9ca3af !important;
+}
+
+.pdf-export-root .btn-pdf {
+  background: #2563eb !important;
+  color: #ffffff !important;
 }
 
 .pdf-export-root .btn-export,

@@ -1004,7 +1004,7 @@ async function exportPdfPro() {
     canvas = await window.html2canvas(printClone, {
       scale: 2,
       useCORS: true,
-      backgroundColor: '#0b1220',
+      backgroundColor: '#ffffff',
       logging: false,
       windowWidth: PDF_EXPORT_WIDTH,
       width: PDF_EXPORT_WIDTH,
