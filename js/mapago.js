@@ -19,12 +19,13 @@ const getRiskClass = (level) => `risk-${String(level || 'bajo').toLowerCase().no
 
 
 function sanitizeFileName(text) {
-  return (text || 'Region')
+  return (text || '')
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .replace(/Region de /gi, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .replace(/\s+/g, '_')
-    .replace(/[^\w\-]/g, '');
+    .replace(/[^\w\-]/g, '')
+    .replace(/_+/g, '_')
+    .replace(/^_+|_+$/g, '');
 }
 
 function clasificarRiesgoKPI(kpi) {
@@ -996,11 +997,17 @@ async function exportGeoNoxaPdf() {
   // El mapa ya se inserta dentro del HTML clonado mediante fixedMapImg.
   // Evitamos dibujarlo nuevamente para prevenir la duplicación superpuesta.
   // addCanvasToPdfKeepingAspectRatio(doc, mapCanvas, mapPng, { topY: 85, maxHeight: 90, maxWidth: pageWidth - 20 });
-  const regionRaw =
-    analysisData?.poi?.region ||
-    analysisData?.region ||
-    'Region';
-  const region = sanitizeFileName(regionRaw) || 'Region';
+  const zonaRaw =
+    analysisData?.zonaSaturada?.nombre ||
+    'Zona';
+
+  const relaveRaw =
+    analysisData?.relave?.nombre ||
+    analysisData?.relavesGrupo?.items?.[0]?.nombre ||
+    'Relave';
+
+  const zona = sanitizeFileName(zonaRaw) || 'Zona';
+  const relave = sanitizeFileName(relaveRaw) || 'Relave';
 
   const now = new Date();
   const fecha =
@@ -1011,7 +1018,7 @@ async function exportGeoNoxaPdf() {
     `${String(now.getHours()).padStart(2, '0')}-` +
     `${String(now.getMinutes()).padStart(2, '0')}`;
 
-  const fileName = `${region}_${fecha}_${hora}.pdf`;
+  const fileName = `${zona}_${relave}_${fecha}_${hora}.pdf`;
   doc.save(fileName);
 }
 
