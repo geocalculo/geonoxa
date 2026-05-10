@@ -488,12 +488,6 @@ function renderTopLayout() {
       <h2 class="section-title">Mapa de relaciones espaciales</h2>
       <div class="map-wrap">
         <div id="map"></div>
-        <aside class="legend-floating">
-          <strong>Leyenda</strong>
-          <ul>
-            <li>POI</li><li>Relaves</li><li>Zona saturada</li><li>Círculo equivalente de relave</li><li>Círculo envolvente relaves</li><li>Distancia a zona saturada</li>
-          </ul>
-        </aside>
       </div>
     </article>`;
 }
