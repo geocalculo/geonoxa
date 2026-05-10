@@ -882,118 +882,81 @@ function exportKML() {
     console.groupEnd();
   }
 }
+async function captureMapPng() {
+  const mapDiv = document.getElementById('map');
+  if (!mapDiv || !window.domtoimage || typeof window.domtoimage.toPng !== 'function') return null;
+
+  if (window.map || map) {
+    const m = window.map || map;
+
+    m.invalidateSize(true);
+
+    await new Promise((resolve) =>
+      requestAnimationFrame(() =>
+        requestAnimationFrame(resolve)
+      )
+    );
+
+    await new Promise((resolve) => setTimeout(resolve, 250));
+
+    m.invalidateSize(true);
+
+    await new Promise((resolve) => setTimeout(resolve, 120));
+  }
+
+  const rect = mapDiv.getBoundingClientRect();
+
+  return window.domtoimage.toPng(mapDiv, {
+    width: Math.round(rect.width),
+    height: Math.round(rect.height),
+    bgcolor: '#ffffff',
+    cacheBust: true,
+    style: {
+      transform: 'none',
+      transformOrigin: 'top left'
+    }
+  });
+}
+
 async function exportPdfPro() {
-  async function waitForLeafletTiles(mapInstance) {
-    if (!mapInstance || typeof mapInstance.eachLayer !== 'function') return;
-    const tilePromises = [];
-    mapInstance.eachLayer((layer) => {
-      if (!layer || !layer._container || typeof layer.on !== 'function') return;
-      if (typeof layer.isLoading === 'function' && layer.isLoading()) {
-        tilePromises.push(new Promise((resolve) => {
-          const done = () => {
-            layer.off('load', done);
-            layer.off('tileerror', done);
-            resolve();
-          };
-          layer.on('load', done);
-          layer.on('tileerror', done);
-          setTimeout(done, 2000);
-        }));
-      }
-    });
-    if (tilePromises.length) await Promise.all(tilePromises);
-  }
-
-  async function captureMapPng() {
-    const mapDiv = document.getElementById('map');
-    if (!mapDiv || !window.domtoimage || typeof window.domtoimage.toPng !== 'function') return null;
-
-    if (window.map) {
-      window.map.invalidateSize(true);
-      await new Promise((resolve) =>
-        requestAnimationFrame(() => requestAnimationFrame(resolve))
-      );
-      await waitForLeafletTiles(window.map);
-      await new Promise((resolve) => setTimeout(resolve, 250));
-    }
-
-    const rect = mapDiv.getBoundingClientRect();
-    return window.domtoimage.toPng(mapDiv, {
-      width: Math.max(1, Math.round(rect.width)),
-      height: Math.max(1, Math.round(rect.height)),
-      bgcolor: '#0b1220',
-      cacheBust: true
-    });
-  }
-
-  async function stabilizeLeafletBeforePdf(mapInstance) {
-    if (!mapInstance) return;
-
-    try {
-      mapInstance.invalidateSize(true);
-
-      if (typeof mapInstance.stop === 'function') {
-        mapInstance.stop();
-      }
-
-      if (typeof mapInstance.whenReady === 'function') {
-        await new Promise((resolve) => mapInstance.whenReady(resolve));
-      }
-
-      await new Promise((resolve) =>
-        requestAnimationFrame(() => requestAnimationFrame(resolve))
-      );
-
-      if (typeof mapInstance.eachLayer === 'function') {
-        mapInstance.eachLayer((layer) => {
-          if (layer && typeof layer.redraw === 'function') {
-            layer.redraw();
-          }
-        });
-      }
-
-      await waitForLeafletTiles(mapInstance);
-      await new Promise((resolve) => setTimeout(resolve, 400));
-    } catch (error) {
-      console.warn('[PDF EXPORT] Falló la estabilización de Leaflet antes de exportar', error);
-    }
-  }
-
   if (!window.jspdf?.jsPDF || !window.html2canvas) return;
   const printable = document.querySelector('.page-shell');
   if (!printable) return;
 
-  const mapElement = document.getElementById('map');
   let mapPng = null;
-  if (mapElement) {
-    try {
-      await stabilizeLeafletBeforePdf(window.map || map);
-      mapPng = await captureMapPng();
-    } catch (error) {
-      console.warn('[PDF EXPORT] No se pudo congelar el mapa como PNG, usando clon original', error);
-    }
+  try {
+    mapPng = await captureMapPng();
+  } catch (error) {
+    console.warn('[PDF EXPORT] No se pudo capturar el mapa como PNG, usando clon original', error);
   }
 
   const printClone = printable.cloneNode(true);
   printClone.classList.add('pdf-export-root');
+
   if (mapPng) {
     const clonedMap = printClone.querySelector('#map');
-    if (clonedMap) {
+    const liveMap = document.getElementById('map');
+
+    if (clonedMap && liveMap) {
+      const liveRect = liveMap.getBoundingClientRect();
+      const mapImg = document.createElement('img');
+      mapImg.src = mapPng;
+      mapImg.alt = 'Mapa GeoNOXA';
+      mapImg.style.display = 'block';
+      mapImg.style.width = `${Math.round(liveRect.width)}px`;
+      mapImg.style.height = `${Math.round(liveRect.height)}px`;
+      mapImg.style.maxWidth = 'none';
+      mapImg.style.objectFit = 'fill';
+
       clonedMap.innerHTML = '';
       clonedMap.removeAttribute('data-leaflet-id');
       clonedMap.classList.remove('leaflet-container');
-      clonedMap.style.position = 'relative';
+      clonedMap.style.width = `${Math.round(liveRect.width)}px`;
+      clonedMap.style.height = `${Math.round(liveRect.height)}px`;
+      clonedMap.style.minHeight = `${Math.round(liveRect.height)}px`;
+      clonedMap.style.maxWidth = 'none';
       clonedMap.style.overflow = 'hidden';
-      const fixedMapImg = document.createElement('img');
-      fixedMapImg.src = mapPng;
-      fixedMapImg.alt = 'Mapa GeoNOXA';
-      fixedMapImg.style.width = '100%';
-      fixedMapImg.style.height = '100%';
-      fixedMapImg.style.objectFit = 'contain';
-      fixedMapImg.style.display = 'block';
-      fixedMapImg.style.position = 'absolute';
-      fixedMapImg.style.inset = '0';
-      clonedMap.appendChild(fixedMapImg);
+      clonedMap.appendChild(mapImg);
     }
   }
 
@@ -1015,6 +978,7 @@ async function exportPdfPro() {
     document.body.classList.remove('pdf-export-mode');
     document.body.removeChild(printClone);
   }
+
   const imgData = canvas.toDataURL('image/png');
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
