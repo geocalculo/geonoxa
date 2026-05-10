@@ -989,7 +989,9 @@ async function exportGeoNoxaPdf() {
   const pageWidth = doc.internal.pageSize.getWidth();
   const cardHeight = (cardCanvas.height * pageWidth) / cardCanvas.width;
   doc.addImage(cardData, 'PNG', 0, 0, pageWidth, cardHeight);
-  addCanvasToPdfKeepingAspectRatio(doc, mapCanvas, mapPng, { topY: 85, maxHeight: 90, maxWidth: pageWidth - 20 });
+  // El mapa ya se inserta dentro del HTML clonado mediante fixedMapImg.
+  // Evitamos dibujarlo nuevamente para prevenir la duplicación superpuesta.
+  // addCanvasToPdfKeepingAspectRatio(doc, mapCanvas, mapPng, { topY: 85, maxHeight: 90, maxWidth: pageWidth - 20 });
   doc.save('GeoNOXA_PRO_QUERY.pdf');
 }
 
