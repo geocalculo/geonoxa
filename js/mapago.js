@@ -476,9 +476,9 @@ function renderTopLayout() {
               <span class="btn-icon" aria-hidden="true">⇩</span>
               <span class="btn-text">EXPORTAR KML</span>
             </button>
-            <button id="btn-export-pdf" class="btn-export btn-pdf" type="button">
+            <button id="btn-export-pdf" class="btn-export btn-pdf" type="button" disabled title="PDF PRO temporalmente desactivado">
               <span class="btn-icon" aria-hidden="true">▣</span>
-              <span class="btn-text">PDF PRO</span>
+              <span class="btn-text">PDF PRO próximamente</span>
             </button>
           </div>
         </div>
@@ -1040,14 +1040,8 @@ function setupCardActions() {
   }
 
   kmzBtn.addEventListener('click', handleExportKML);
-
-  pdfBtn.addEventListener('click', () => {
-    setButtonLoading('btn-export-pdf', true, 'Preparando PDF PRO...');
-    setTimeout(() => {
-      exportPdfPro();
-      setButtonLoading('btn-export-pdf', false);
-    }, 450);
-  });
+  pdfBtn.disabled = true;
+  pdfBtn.title = 'PDF PRO temporalmente desactivado';
 }
 
 function renderSummaryCards() {
@@ -1200,12 +1194,7 @@ function initMap() {
   poi.openPopup();
 }
 function renderActions() {
-  document.getElementById('actions').innerHTML = `
-    <button type="button">Descargar KML</button>
-    <button type="button">Descargar PDF</button>
-    <button type="button">Ver análisis completo</button>
-    <a href="${buildEcosystemUrl('https://example.com/geoipt')}" target="_blank" rel="noopener">Ir a GeoIPT</a>
-    <a href="${buildEcosystemUrl('https://example.com/geoeva')}" target="_blank" rel="noopener">Ir a GeoEVA</a>
-    <a href="${buildEcosystemUrl('https://example.com/geonemo')}" target="_blank" rel="noopener">Ir a GeoNEMO</a>`;
+  const el = document.getElementById('actions');
+  if (el) el.innerHTML = '';
 }
 (async function init(){const poi=getPoiFromUrl();analysisData=await buildAnalysisData(poi);renderAll();setupCardActions();})();
