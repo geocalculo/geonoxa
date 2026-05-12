@@ -6,8 +6,137 @@
   <title>GeoNOXA | GeoCard System v1.0</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <link rel="stylesheet" href="css/index.css" />
+  <style>
+    .geonoxa-intro-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 3000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background: rgba(7, 11, 19, 0.72);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .geonoxa-intro-modal[hidden] {
+      display: none !important;
+    }
+
+    .geonoxa-intro-modal__panel {
+      width: min(680px, 100%);
+      max-height: calc(100vh - 2rem);
+      overflow-y: auto;
+      margin: 0 auto;
+      border-radius: 18px;
+      border: 1px solid rgba(140, 167, 194, 0.35);
+      background: linear-gradient(155deg, rgba(14, 23, 35, 0.98), rgba(8, 13, 24, 0.98));
+      color: #e6f0ff;
+      box-shadow: 0 22px 60px rgba(0, 0, 0, 0.45);
+      padding: clamp(1.2rem, 2vw, 2rem);
+    }
+
+    .geonoxa-intro-modal__title {
+      margin: 0;
+      font-size: clamp(1.8rem, 3vw, 2.3rem);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .geonoxa-intro-modal__subtitle {
+      margin: 0.35rem 0 1rem;
+      color: #95b2d8;
+      font-size: clamp(0.95rem, 2vw, 1.05rem);
+      font-weight: 500;
+    }
+
+    .geonoxa-intro-modal__body {
+      margin: 0 0 1rem;
+      line-height: 1.6;
+      color: #d5e1f4;
+      font-size: 0.97rem;
+    }
+
+    .geonoxa-intro-modal__highlight {
+      margin: 0 0 1.3rem;
+      padding: 0.72rem 0.9rem;
+      border-radius: 10px;
+      border: 1px solid rgba(141, 192, 255, 0.28);
+      background: rgba(28, 52, 83, 0.35);
+      color: #cbe2ff;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 0.01em;
+    }
+
+    .geonoxa-intro-modal__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .geonoxa-intro-modal__btn {
+      border: 0;
+      border-radius: 10px;
+      padding: 0.66rem 1rem;
+      font: inherit;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+    }
+
+    .geonoxa-intro-modal__btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .geonoxa-intro-modal__btn:focus-visible {
+      outline: 2px solid #8fc2ff;
+      outline-offset: 2px;
+    }
+
+    .geonoxa-intro-modal__btn--primary {
+      background: linear-gradient(140deg, #1278f2, #0f65cb);
+      color: #fff;
+      font-weight: 600;
+      box-shadow: 0 8px 18px rgba(18, 120, 242, 0.35);
+    }
+
+    .geonoxa-intro-modal__btn--secondary {
+      background: rgba(128, 153, 184, 0.16);
+      color: #c5d6ed;
+      border: 1px solid rgba(140, 167, 194, 0.4);
+      font-size: 0.84rem;
+      padding: 0.56rem 0.78rem;
+    }
+
+    @media (max-width: 640px) {
+      .geonoxa-intro-modal__actions {
+        justify-content: stretch;
+      }
+
+      .geonoxa-intro-modal__btn {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div id="geonoxa-intro-modal" class="geonoxa-intro-modal" role="dialog" aria-modal="true" aria-labelledby="geonoxa-intro-title" aria-describedby="geonoxa-intro-desc" hidden>
+    <section class="geonoxa-intro-modal__panel">
+      <h2 id="geonoxa-intro-title" class="geonoxa-intro-modal__title">GeoNOXA</h2>
+      <p class="geonoxa-intro-modal__subtitle">Inteligencia territorial ambiental</p>
+      <div id="geonoxa-intro-desc" class="geonoxa-intro-modal__body">
+        <p>Haz clic en cualquier punto del mapa y GeoNOXA analizará su entorno ambiental inmediato.</p>
+        <p>La consulta permite identificar relaciones espaciales con zonas saturadas, relaves mineros y sistemas hídricos cercanos, entregando una lectura territorial simple, rápida y accionable.</p>
+      </div>
+      <p class="geonoxa-intro-modal__highlight">Mapa + clic = valor territorial ambiental</p>
+      <div class="geonoxa-intro-modal__actions">
+        <button type="button" id="geonoxa-intro-reopen" class="geonoxa-intro-modal__btn geonoxa-intro-modal__btn--secondary">Ver nuevamente al inicio</button>
+        <button type="button" id="geonoxa-intro-close" class="geonoxa-intro-modal__btn geonoxa-intro-modal__btn--primary">Comenzar análisis</button>
+      </div>
+    </section>
+  </div>
   <main class="app-shell">
     <header class="main-header">
       <div class="header-inner">
@@ -75,5 +204,37 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/index.js"></script>
+  <script>
+    (function () {
+      var INTRO_KEY = "geonoxa_intro_modal_seen";
+      var introModal = document.getElementById("geonoxa-intro-modal");
+      var closeBtn = document.getElementById("geonoxa-intro-close");
+      var reopenBtn = document.getElementById("geonoxa-intro-reopen");
+
+      if (!introModal || !closeBtn || !reopenBtn) return;
+
+      var openModal = function () {
+        introModal.hidden = false;
+      };
+
+      var closeModal = function () {
+        introModal.hidden = true;
+      };
+
+      if (localStorage.getItem(INTRO_KEY) !== "true") {
+        openModal();
+      }
+
+      closeBtn.addEventListener("click", function () {
+        localStorage.setItem(INTRO_KEY, "true");
+        closeModal();
+      });
+
+      reopenBtn.addEventListener("click", function () {
+        localStorage.removeItem(INTRO_KEY);
+        closeModal();
+      });
+    })();
+  </script>
 </body>
 </html>
