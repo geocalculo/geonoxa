@@ -12,6 +12,7 @@ const RELAVES_OPTIONS = [5, 10, 15];
 const RELAVE_LABEL_STORAGE_KEY = "geonoxa_relave_label_mode";
 const RELAVE_LABEL_VALID_MODES = new Set(["none", "faena", "empresa", "tipo_deposito", "recurso"]);
 let currentRelaveLabelField = null;
+let relaveLabelsLayer = L.layerGroup();
 
 const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([-27.3668, -70.3323], 8);
 window.geoNoxaMap = map;
@@ -19,6 +20,7 @@ const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { 
 const esri = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { maxZoom: 19, attribution: "Tiles &copy; Esri" });
 L.control.layers({ OSM: osm, "Satélite": esri }, {}, { collapsed: true }).addTo(map);
 L.control.scale({ imperial: false }).addTo(map);
+relaveLabelsLayer.addTo(map);
 
 function showWarning(message){ const el = document.getElementById("geonoxa-warning"); if(!el) return; el.textContent = message; el.style.display = "block"; setTimeout(() => { el.style.display = "none"; }, 4000); }
 function getRelavesCount(){
@@ -189,13 +191,32 @@ function isValidRelaveLabelValue(value){
 
 function updateRelaveLabels(){
   const relavesLayer = noxaState.layers.relaves;
+  relaveLabelsLayer.clearLayers();
+
+  if(!currentRelaveLabelField) return;
   if(!relavesLayer) return;
-  relavesLayer.eachLayer((lyr) => {
-    if(lyr.unbindTooltip) lyr.unbindTooltip();
-    if(!currentRelaveLabelField || !isDesktopPointer()) return;
-    const labelValue = lyr?.feature?.properties?.[currentRelaveLabelField];
-    if(!isValidRelaveLabelValue(labelValue)) return;
-    if(lyr.bindTooltip) lyr.bindTooltip(String(labelValue).trim(), { sticky: true });
+
+  relavesLayer.eachLayer((layer) => {
+    if(!layer?.feature || !layer.feature.properties) return;
+
+    const props = layer.feature.properties;
+    const value = props[currentRelaveLabelField];
+    if(!isValidRelaveLabelValue(value)) return;
+
+    const latlng = layer.getLatLng ? layer.getLatLng() : null;
+    if(!latlng) return;
+
+    const label = L.marker(latlng, {
+      interactive: false,
+      icon: L.divIcon({
+        className: "relave-label",
+        html: `<div>${String(value).trim()}</div>`,
+        iconSize: [120, 20],
+        iconAnchor: [60, -8]
+      })
+    });
+
+    relaveLabelsLayer.addLayer(label);
   });
 }
 
