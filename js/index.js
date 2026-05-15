@@ -35,7 +35,7 @@ function getSelectedRelavesN(){
   return RELAVES_OPTIONS.includes(value) ? value : 5;
 }
 function isDesktopPointer(){ return window.matchMedia("(hover: hover) and (pointer: fine)").matches; }
-function buildCardUrl(latlng){ const nRelaves = getRelavesCount(); localStorage.setItem("geonoxa_relaves_n", String(nRelaves)); const p = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), n_relaves: String(nRelaves) }); return `mapago.html?${p.toString()}`; }
+function buildCardUrl(latlng){ const nRelaves = getRelavesCount(); localStorage.setItem("geonoxa_relaves_n", String(nRelaves)); const b = map.getBounds(); const bbox = [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()].map((v) => Number(v).toFixed(7)).join(","); const p = new URLSearchParams({ lat: latlng.lat.toFixed(7), lon: latlng.lng.toFixed(7), zoom: String(map.getZoom()), n_relaves: String(nRelaves), bbox }); return `mapago.html?${p.toString()}`; }
 function openCardFromPoi(latlng){ window.location.href = buildCardUrl(latlng); }
 
 function bindLayerInteractions(layer, tooltipText){
