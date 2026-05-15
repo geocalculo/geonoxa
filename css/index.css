@@ -47,6 +47,18 @@ body{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:
 .map-search-results{position:absolute;top:calc(100% + 8px);left:0;right:0;display:none;max-height:230px;overflow-y:auto;background:rgba(9,15,27,.97);border:1px solid var(--border);border-radius:12px;z-index:980}
 .map-search-item{padding:10px 14px;cursor:pointer;font-size:13px;color:#e2e8f0}
 .map-search-item:hover,.map-search-item:focus{background:rgba(249,115,22,.16);outline:none}
+.relave-label{
+  pointer-events:none;
+  background:transparent;
+  border:none;
+}
+.relave-label div{
+  color:#ffffff;
+  font-size:10px;
+  font-weight:600;
+  text-shadow:0 0 2px #000,0 0 4px #000,0 0 6px #000;
+  white-space:nowrap;
+}
 
 /* Panel territorial */
 .panel-territorial{position:absolute;top:calc(var(--header-h) + 88px);left:20px;z-index:800;width:310px;max-width:calc(100vw - 40px);padding:14px;background:rgba(255,255,255,.92);color:#0f172a;border-radius:16px;border:1px solid rgba(148,163,184,.32);box-shadow:0 14px 30px rgba(2,6,23,.18);backdrop-filter:blur(3px)}
