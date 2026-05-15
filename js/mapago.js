@@ -266,6 +266,17 @@ function findNearestVisibleZonaBorder(point, zonas, bbox) {
   }
   return best;
 }
+function getVisibleRelaves(relaves, bbox) {
+  return (relaves || []).filter((feature) => {
+    const lat = Number(feature?.properties?.latitud ?? feature?.geometry?.coordinates?.[1]);
+    const lon = Number(feature?.properties?.longitud ?? feature?.geometry?.coordinates?.[0]);
+    return isPointInBbox(lat, lon, bbox);
+  });
+}
+
+function getVisibleZonasSaturadas(zonas, bbox) {
+  return (zonas || []).filter((feature) => featureIntersectsBbox(feature, bbox));
+}
 async function loadGeojsonArray(paths) {
   const chunks = await Promise.all(paths.map(async (p) => {
     try {
@@ -309,13 +320,10 @@ async function buildAnalysisData(poi) {
     loadGeojsonArray(DATA_SOURCES.zonasUrbanas)
   ]);
   const point = { lat: poi.lat, lon: poi.lon };
-  const zonaMatch = findContainingOrNearestPolygon(point, zonas);
-  const nearestVisibleZona = findNearestVisibleZonaBorder(point, zonas, poi.bbox);
-  const relavesEnVista = relaves.filter((f) => {
-    const lat = Number(f?.properties?.latitud ?? f?.geometry?.coordinates?.[1]);
-    const lon = Number(f?.properties?.longitud ?? f?.geometry?.coordinates?.[0]);
-    return isPointInBbox(lat, lon, poi.bbox);
-  });
+  const zonasEnVista = getVisibleZonasSaturadas(zonas, poi.bbox);
+  const zonaMatch = findContainingOrNearestPolygon(point, zonasEnVista);
+  const nearestVisibleZona = findNearestVisibleZonaBorder(point, zonasEnVista, poi.bbox);
+  const relavesEnVista = getVisibleRelaves(relaves, poi.bbox);
   const relavesConDist = relavesEnVista
     .map((f) => {
       const lat = Number(f?.properties?.latitud ?? f?.geometry?.coordinates?.[1]);
@@ -406,6 +414,10 @@ async function buildAnalysisData(poi) {
           comuna: prop(props, ['comuna'])
         };
       })
+    },
+    contextoVisible: {
+      relavesConsiderados: relavesEnVista.length,
+      zonasSaturadasConsideradas: zonasEnVista.length
     },
     relave: {
       nombre: prop(rf?.properties, ['id_relave', 'faena']), empresaFaena: prop(rf?.properties, ['empresa']), tipoDeposito: prop(rf?.properties, ['tipo_deposito']), recurso: prop(rf?.properties, ['recurso']), metodo: prop(rf?.properties, ['metodo_constructivo']),
@@ -1070,7 +1082,7 @@ function renderSummaryCards() {
   document.getElementById('summary-cards').innerHTML = `
     <article class="summary-card zona">
       <h3>Zona Saturada</h3>
-      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li><li><strong>Distancia al centroide:</strong> <span class="distance">${formatKm(z.distCentroideKm)}</span></li><li><strong>Diámetro equivalente:</strong> <span class="distance">${formatKm(z.diametroZonaKm)}</span></li><li><strong>KPI:</strong> ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'}</li><li><strong>Clasificación:</strong> ${analysisData.riesgo.zona}</li></ul>
+      <ul><li><strong>Nombre:</strong> ${z.nombre}</li><li><strong>Estado:</strong> ${z.estado}</li><li><strong>Distancia al POI:</strong> <span class="distance">${formatKm(z.distPerimetroKm)}</span></li><li><strong>Distancia al centroide:</strong> <span class="distance">${formatKm(z.distCentroideKm)}</span></li><li><strong>Diámetro equivalente:</strong> <span class="distance">${formatKm(z.diametroZonaKm)}</span></li><li><strong>KPI:</strong> ${Number.isFinite(analysisData.riesgo.kpiZona) ? analysisData.riesgo.kpiZona.toFixed(2) : 'N/D'}</li><li><strong>Clasificación:</strong> ${analysisData.riesgo.zona}</li><li><strong>Zonas saturadas consideradas:</strong> ${analysisData.contextoVisible.zonasSaturadasConsideradas} dentro de vista</li></ul>
     </article>
     <article class="summary-card relave">
       <h3>Relave más cercano</h3>
