@@ -9,6 +9,9 @@ const GEO_NOXA_DATA = {
 const ECOSYSTEM_LINKS = { geoipt: "https://geoipt.cl/", geoeva: "https://geoeva.cl/", geonemo: "https://geonemo.cl/", geonoxa: "index.html" };
 const noxaState = { layers: {}, zonasSaturadasFeatures: [] };
 const RELAVES_OPTIONS = [5, 10, 15];
+const RELAVE_LABEL_STORAGE_KEY = "geonoxa_relave_label_mode";
+const RELAVE_LABEL_VALID_MODES = new Set(["none", "faena", "empresa", "tipo_deposito", "recurso"]);
+let currentRelaveLabelField = null;
 
 const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([-27.3668, -70.3323], 8);
 window.geoNoxaMap = map;
@@ -162,38 +165,65 @@ async function loadAllLayers(){
 }
 
 
-function toggleLayerLabels(layer, enabled, propertyName, fallback){
-  if(!layer) return;
-  layer.eachLayer((lyr) => {
+function getStoredRelaveLabelMode(){
+  const stored = localStorage.getItem(RELAVE_LABEL_STORAGE_KEY) || "none";
+  return RELAVE_LABEL_VALID_MODES.has(stored) ? stored : "none";
+}
+
+function mapLabelModeToField(mode){
+  if(mode === "none") return null;
+  if(mode === "faena") return "faena";
+  if(mode === "empresa") return "empresa";
+  if(mode === "tipo_deposito") return "tipo_deposito";
+  if(mode === "recurso") return "recurso";
+  return null;
+}
+
+function isValidRelaveLabelValue(value){
+  if(value == null) return false;
+  const normalized = String(value).trim();
+  if(!normalized) return false;
+  const upper = normalized.toUpperCase();
+  return upper !== "-" && upper !== "SIN INFORMACION";
+}
+
+function updateRelaveLabels(){
+  const relavesLayer = noxaState.layers.relaves;
+  if(!relavesLayer) return;
+  relavesLayer.eachLayer((lyr) => {
     if(lyr.unbindTooltip) lyr.unbindTooltip();
-    if(!enabled) return;
-    const label = lyr?.feature?.properties?.[propertyName] || fallback;
-    if(lyr.bindTooltip) lyr.bindTooltip(String(label), { sticky: true });
+    if(!currentRelaveLabelField || !isDesktopPointer()) return;
+    const labelValue = lyr?.feature?.properties?.[currentRelaveLabelField];
+    if(!isValidRelaveLabelValue(labelValue)) return;
+    if(lyr.bindTooltip) lyr.bindTooltip(String(labelValue).trim(), { sticky: true });
   });
 }
 
-function setupLabelToggles(){
-  const zonasToggle = document.getElementById("toggle-label-zonas");
-  const relavesToggle = document.getElementById("toggle-label-relaves");
-  if(!zonasToggle || !relavesToggle) return;
+function setupRelaveLabelRadios(){
+  const radios = document.querySelectorAll('input[name="relave-labels"]');
+  if(!radios.length) return;
 
-  const apply = () => {
-    if(isDesktopPointer()){
-      toggleLayerLabels(noxaState.layers.zonas, zonasToggle.checked, "nombre_zon", "Zona saturada");
-      toggleLayerLabels(noxaState.layers.relaves, relavesToggle.checked, "faena", "Relave");
-    } else {
-      toggleLayerLabels(noxaState.layers.zonas, false, "nombre_zon", "Zona saturada");
-      toggleLayerLabels(noxaState.layers.relaves, false, "faena", "Relave");
-    }
+  const applyMode = (mode) => {
+    const normalizedMode = RELAVE_LABEL_VALID_MODES.has(mode) ? mode : "none";
+    currentRelaveLabelField = mapLabelModeToField(normalizedMode);
+    localStorage.setItem(RELAVE_LABEL_STORAGE_KEY, normalizedMode);
+    updateRelaveLabels();
   };
 
-  zonasToggle.addEventListener("change", apply);
-  relavesToggle.addEventListener("change", apply);
-  apply();
+  const initialMode = getStoredRelaveLabelMode();
+  radios.forEach((radio) => { radio.checked = radio.value === initialMode; });
+  applyMode(initialMode);
+
+  radios.forEach((radio) => {
+    radio.addEventListener("change", (e) => {
+      if(!e.target?.checked) return;
+      applyMode(e.target.value);
+    });
+  });
 }
 
 map.on("click", (e) => { openCardFromPoi(e.latlng); });
-map.on("moveend zoomend", updateSummary);
+map.on("moveend zoomend", () => { updateSummary(); updateRelaveLabels(); });
 
 
 (function setupRelavesSlider(){
@@ -263,4 +293,4 @@ map.on("moveend zoomend", updateSummary);
     .catch(() => showWarning("No se pudo cargar regiones"));
 })();
 
-loadAllLayers().then(() => { setupLabelToggles(); setupSearch(); });
+loadAllLayers().then(() => { setupRelaveLabelRadios(); updateRelaveLabels(); setupSearch(); });
