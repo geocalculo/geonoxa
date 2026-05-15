@@ -200,8 +200,11 @@
         <h3>Panel territorial</h3>
         <fieldset>
           <legend>Etiquetas</legend>
-          <label><input id="toggle-label-zonas" type="checkbox" checked /> Mostrar nombres de zonas saturadas</label>
-          <label><input id="toggle-label-relaves" type="checkbox" checked /> Mostrar nombres de relaves</label>
+          <label><input type="radio" name="relave-labels" value="none" checked /> Sin etiquetas</label>
+          <label><input type="radio" name="relave-labels" value="faena" /> Faena</label>
+          <label><input type="radio" name="relave-labels" value="empresa" /> Titular</label>
+          <label><input type="radio" name="relave-labels" value="tipo_deposito" /> Tipo depósito</label>
+          <label><input type="radio" name="relave-labels" value="recurso" /> Recurso</label>
         </fieldset>
         <div class="relaves-control">
           <label for="relaves-slider">Relaves a considerar</label>
