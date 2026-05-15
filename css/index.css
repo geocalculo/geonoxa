@@ -53,10 +53,14 @@ body{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:
   border:none;
 }
 .relave-label div{
-  color:#ffffff;
-  font-size:10px;
-  font-weight:600;
-  text-shadow:0 0 2px #000,0 0 4px #000,0 0 6px #000;
+  font-size:9px;
+  font-weight:700;
+  padding:1px 4px;
+  border-radius:4px;
+  background:rgba(0,0,0,.55);
+  color:#fff;
+  backdrop-filter:blur(2px);
+  text-shadow:none;
   white-space:nowrap;
 }
 

@@ -195,28 +195,80 @@ function updateRelaveLabels(){
 
   if(!currentRelaveLabelField) return;
   if(!relavesLayer) return;
+  const zoom = map.getZoom();
+  if(zoom < 8) return;
+
+  const bounds = map.getBounds();
+  const center = map.getCenter();
+  const MIN_MAJOR_RELAVE_AREA = 5000000;
+  const maxLabelsByZoom = zoom >= 14 ? Infinity : zoom >= 12 ? 50 : zoom >= 10 ? 25 : 10;
+  const minLabelDistance = zoom >= 14 ? 40 : zoom >= 12 ? 50 : 70;
+
+  const candidates = [];
+  let maxArea = 0;
 
   relavesLayer.eachLayer((layer) => {
-    if(!layer?.feature || !layer.feature.properties) return;
+    if(!layer?.feature?.properties) return;
 
     const props = layer.feature.properties;
     const value = props[currentRelaveLabelField];
     if(!isValidRelaveLabelValue(value)) return;
 
     const latlng = layer.getLatLng ? layer.getLatLng() : null;
-    if(!latlng) return;
+    if(!latlng || !bounds.contains(latlng)) return;
 
-    const label = L.marker(latlng, {
+    const area = Number(props.shape_area_m2) || 0;
+    if(area > maxArea) maxArea = area;
+    candidates.push({ layer, props, value: String(value).trim(), latlng, area });
+  });
+
+  if(!candidates.length) return;
+  const resolvedMaxArea = maxArea || 1;
+
+  let maxDistanceToCenter = 0;
+  candidates.forEach((item) => {
+    const distanceToCenter = center.distanceTo(item.latlng);
+    if(distanceToCenter > maxDistanceToCenter) maxDistanceToCenter = distanceToCenter;
+  });
+  const resolvedMaxDistance = maxDistanceToCenter || 1;
+
+  candidates.forEach((item) => {
+    const areaNorm = item.area / resolvedMaxArea;
+    const distanceToCenter = center.distanceTo(item.latlng);
+    const normalizedDistance = Math.min(distanceToCenter / resolvedMaxDistance, 1);
+    const proximityCenter = 1 - normalizedDistance;
+    item.score = (areaNorm * 0.6) + (proximityCenter * 0.4);
+    item.isMajor = item.area > MIN_MAJOR_RELAVE_AREA;
+  });
+
+  candidates.sort((a, b) => {
+    if(a.isMajor && !b.isMajor) return -1;
+    if(!a.isMajor && b.isMajor) return 1;
+    return b.score - a.score;
+  });
+
+  const placedLabels = [];
+  let placedCount = 0;
+
+  candidates.forEach((item) => {
+    if(!item.isMajor && placedCount >= maxLabelsByZoom) return;
+    const point = map.latLngToContainerPoint(item.latlng);
+    const hasCollision = placedLabels.some((p) => p.distanceTo(point) < minLabelDistance);
+    if(hasCollision && !item.isMajor) return;
+
+    const label = L.marker(item.latlng, {
       interactive: false,
       icon: L.divIcon({
         className: "relave-label",
-        html: `<div>${String(value).trim()}</div>`,
+        html: `<div>${item.value}</div>`,
         iconSize: [120, 20],
         iconAnchor: [60, -8]
       })
     });
 
     relaveLabelsLayer.addLayer(label);
+    placedLabels.push(point);
+    placedCount += 1;
   });
 }
 
